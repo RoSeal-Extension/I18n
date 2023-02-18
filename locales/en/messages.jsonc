@@ -542,9 +542,6 @@
     "navbar_left_transactions": {
         "message": "Transactions"
     },
-    "navbar_left_sponsoredevents": {
-        "message": "Sponsored Events"
-    },
 
     "userlookup_placeholder": {
         "message": "Username"
@@ -900,9 +897,6 @@
     },
     "features_BetterRobuxNavigation_description": {
         "message": "When enabled, adds a Plus button next to Robux in the top navigation to redirect to Robux purchases, and adds a new Transactions item to the left navigation."
-    },
-    "features_RenameEvents_title": {
-        "message": "Rename \"Events\" to \"Sponsored Events\""
     },
     "features_MoveAgeBracket_title": {
         "message": "Move the age bracket to the left navigation"
