@@ -18,7 +18,7 @@
         "message": "Update"
     },
     "robloxsettings_regionwarning_genericerror": {
-        "message": "Please unlock your PIN and try again."
+        "message": "You cannot change the country assigned to your account with a locked PIN. Unlock your settings with your PIN to continue."
     },
 
     "beta_feature_label": {
@@ -66,13 +66,13 @@
         "message": "About RoSeal"
     },
     "settings_about_description": {
-        "message": "<bold>RoSeal</bold> is a free seal-themed Roblox browser extension. Some features can individually be toggled to your preference. No paywalls or tracking included."
+        "message": "<bold>RoSeal</bold> is a free seal-themed Roblox browser extension with individually togglable features and enhancements, without any paywalls or tracking."
     },
     "settings_about_media_under13": {
-        "message": "There is also a community <groupLink>Roblox Group</groupLink> for the extension."
+        "message": "There is a community <groupLink>Roblox Group</groupLink> for the extension."
     },
     "settings_about_media_over13": {
-        "message": "There is also a community <groupLink>Roblox Group</groupLink> and <discordLink>Discord Server</discordLink> for the extension."
+        "message": "There is a community <groupLink>Roblox Group</groupLink> and a <discordLink>Discord Server</discordLink> for the extension."
     },
 
     "settings_about_credits_header": {
@@ -92,13 +92,13 @@
         "message": "Feature Switches"
     },
     "settings_about_featureswitches_description": {
-        "message": "Feature switches are a quick way to toggle RoSeal features off and on for your preference."
+        "message": "Feature Switches are a quick way to toggle RoSeal features off and on to your preference."
     },
     "settings_about_featureswitches_beta": {
-        "message": "<label>BETA</label> features are not ready for general availability; however, there should be minimal risk in enabling them. Everyone is welcome to enable and give feedback."
+        "message": "<label>BETA</label> features are not ready to be turned on automatically; however, there should be minimal risk in enabling them. Everyone is welcome to enable and give feedback."
     },
     "settings_about_featureswitches_experimental": {
-        "message": "<label>EXPERIMENTAL</label> features are either unstable or a test and may not stabilize in the future. Enable them at your own risk."
+        "message": "<label>EXPERIMENTAL</label> features are either unstable which may not stabilize or a test for a feature to come. IMPORTANT: Don't enable these features unless you know the risk."
     },
 
     "settings_selection_donate": {
@@ -131,7 +131,7 @@
         "message": "Blocked Keywords"
     },
     "settings_blockedexperiences_keywords_description": {
-        "message": "Keywords can be added and removed to block experiences whose name matches one of the added keywords. Experiences that match will not display on some common pages."
+        "message": "Keywords can be added and removed to block experiences whose name matches one of the added keywords. These experiences will not display on some common pages."
     },
     "settings_blockedexperiences_keywords_count": {
         "message": "You're blocking {keywordsNum} of {keywordsMax} experience keywords allowed:"
@@ -153,7 +153,7 @@
         "message": "Individual Blocked Experiences"
     },
     "settings_blockedexperiences_individualexperiences_description": {
-        "message": "Individual experiences can be blocked and unblocked from the context menu on an experience page. They will not display on some common pages."
+        "message": "Individual experiences can be blocked and unblocked from the context menu on an experience page. These experiences will not display on some common pages."
     },
     "settings_blockedexperiences_individualexperiences_count": {
         "message": "You're blocking {experiencesNum} of {experiencesMax} experiences allowed:"
@@ -311,7 +311,7 @@
         "message": "Avatar Type"
     },
     "experience_avatartype_values_ForcedRthro": {
-        "message": "Forced Rthro"
+        "message": "Rthro"
     },
     "experience_avatartype_values_R15Rthro": {
         "message": "R15, Rthro"
@@ -362,7 +362,7 @@
         "message": "{sealEmoji} Are you sure?"
     },
     "robloxlogoutmodal_body": {
-        "message": "By using Roblox's default logout button, you will be invalidating the current session.{lineBreak}{lineBreak}You will not be able to login to this account with Accounts Manager without going through Roblox's login page again.{lineBreak}{lineBreak}To logout without invalidating the session, open Accounts Manager and click \"Logout\"."
+        "message": "By using Roblox's default logout button, you will invalidate the current session.{lineBreak}{lineBreak}You will not be able to login to this account with Accounts Manager without going through Roblox's login page again.{lineBreak}{lineBreak}To logout without invalidating the session, open Accounts Manager and click \"Logout\"."
     },
     "robloxlogoutmodal_action": {
         "message": "Logout"
@@ -489,7 +489,7 @@
     },
 
     "systemfeedback_error_pinlocked": {
-        "message": "PIN is locked, unlock it in Settings."
+        "message": "Your settings are locked. Unlock your settings with your PIN to change."
     },
 
     "generalasset_created": {
@@ -620,7 +620,7 @@
     },
 
     "experience_badges_nobadges": {
-        "message": "This experience has no badges."
+        "message": "No badges available."
     },
     "experience_badges_completed": {
         "message": "Completed: {numCompleted}/{numTotal}"
@@ -902,7 +902,7 @@
         "message": "Move the age bracket to the left navigation"
     },
     "features_DisableDesktopApp_title": {
-        "message": "Remove the new Desktop App banner"
+        "message": "Remove the Desktop App banner"
     },
     "features_ViewItemIconThumbnailAssets_title": {
         "message": "Add links to view thumbnail/icon asset of applicable items"
@@ -1010,7 +1010,7 @@
         "message": "Replace all images with seal images"
     },
     "features_ExperienceMediaAltTextButton_title": {
-        "message": "Better experience media alt text button"
+        "message": "Better experience thumbnail alt text button"
     },
     "features_ShowExperienceAvatarType_title": {
         "message": "Show experience restricted avatar type in statistics"
