@@ -131,7 +131,7 @@
         "message": "Blocked Keywords"
     },
     "settings_blockedexperiences_keywords_description": {
-        "message": "Keywords can be added and removed to block experiences whose name matches one of the added keywords. These experiences will not be display on some common pages."
+        "message": "Keywords can be added and removed to block experiences whose name matches one of the added keywords. These experiences will not display on some common pages."
     },
     "settings_blockedexperiences_keywords_count": {
         "message": "You're blocking {keywordsNum} of {keywordsMax} experience keywords allowed:"
