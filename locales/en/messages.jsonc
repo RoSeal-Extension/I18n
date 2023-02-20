@@ -499,6 +499,10 @@
         "message": "Updated"
     },
 
+    "generalasset_contextmenu_deletefrominventory": {
+        "message": "Delete from Inventory"
+    },
+
     "badge_created": {
         "message": "Created"
     },
@@ -1020,6 +1024,9 @@
     },
     "features_UpdateAccountCountry_description": {
         "message": "When enabled, adds text and a button to Account Settings' info tab to update your Roblox account's country to your computer's country."
+    },
+    "features_AssetDeleteFromInventory_title": {
+        "message": "\"Delete from Inventory\" button in asset item menu"
     },
 
     "popup_extensionname": {
