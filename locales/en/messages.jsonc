@@ -658,6 +658,31 @@
         "message": "Won Yesterday"
     },
 
+    "experience_privatenote_title": {
+        "message": "Private Note"
+    },
+    "experience_privatenote_hint": {
+        "message": "This note is private, only you will be able to see it."
+    },
+    "experience_privatenote_placeholder": {
+        "message": "Specific temperaments or settings for this experience..."
+    },
+    "experience_privatenote_length": {
+        "message": "{length}/{maxLength}"
+    },
+    "experience_privatenote_buttons_cancel": {
+        "message": "Cancel"
+    },
+    "experience_privatenote_buttons_save": {
+        "message": "Save"
+    },
+    "experience_privatenote_readmore": {
+        "message": "Read More"
+    },
+    "experience_privatenote_readless": {
+        "message": "Read More"
+    },
+
     "itempages_contextmenu_reportabuse": {
         "message": "Report Abuse"
     },
@@ -1034,6 +1059,9 @@
     },
     "features_UserFriendsPageNewTitle_title": {
         "message": "Show username in user's friends page title"
+    },
+    "features_ExperiencePrivateNote_title": {
+        "message": "Experience private note in About section"
     },
 
     "popup_extensionname": {
