@@ -673,6 +673,10 @@
         "message": "Last Online"
     },
 
+    "userfriends_newtitle": {
+        "message": "{displayName} (@{username})'s Friends"
+    },
+
     "userfriends_contextmenu_unfriend": {
         "message": "Unfriend"
     },
@@ -1027,6 +1031,9 @@
     },
     "features_AssetDeleteFromInventory_title": {
         "message": "\"Delete from Inventory\" button in asset item menu"
+    },
+    "features_UserFriendsPageNewTitle_title": {
+        "message": "Show username in user's friends page title"
     },
 
     "popup_extensionname": {
