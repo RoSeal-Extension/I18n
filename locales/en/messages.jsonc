@@ -114,6 +114,15 @@
     "settings_selection_featureswitches": {
         "message": "Feature Switches"
     },
+    "settings_featureswitches_featureswitch_permissions_title": {
+        "message": "Required Permissions"
+    },
+    "settings_featureswitches_featureswitch_permissions_values_Cookies": {
+        "message": "Cookies"
+    },
+    "settings_featureswitches_featureswitch_permissions_subtext": {
+        "message": "Permissions can be granted in RoSeal's popup dialog from the browser toolbar"
+    },
     "settings_featureswitches_featureswitch_removeassociatedstorage": {
         "message": "Remove Associated Storage"
     },
@@ -223,7 +232,7 @@
         "message": "Invalid account, please refresh the page."
     },
     "accountsmanager_error_NoCookiePermission": {
-        "message": "The extension does not have permission to manage browser cookies. Please allow it in the extension popup located in the browser toolbar."
+        "message": "RoSeal does not have permission to manage browser cookies. Please allow it in RoSeal's popup dialog from the browser toolbar."
     },
 
     "experience_contextmenu_viewiconasset": {
@@ -896,7 +905,7 @@
         "message": "Accounts manager"
     },
     "features_AccountsManager_description": {
-        "message": "When enabled, adds a new item to the top navigation that activates a popup for managing your accounts. Use at your own risk. Requires \"Cookies\" permission."
+        "message": "When enabled, adds a new item to the top navigation that activates a popup for managing your accounts. Use at your own risk."
     },
     "features_ThemeSwitchThroughoutDay_title": {
         "message": "Sync website theme with browser"
