@@ -114,6 +114,9 @@
     "settings_selection_featureswitches": {
         "message": "Feature Switches"
     },
+    "settings_featureswitches_featureswitch_disabled": {
+        "message": "This feature has been disabled by RoSeal"
+    },
     "settings_featureswitches_featureswitch_permissions_title": {
         "message": "Required Permissions"
     },
