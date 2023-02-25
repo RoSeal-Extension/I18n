@@ -18,6 +18,9 @@
         "message": "Update"
     },
     "robloxsettings_regionwarning_genericerror": {
+        "message": "An error occurred changing the country assigned to your account. Please try again later."
+    },
+    "robloxsettings_regionwarning_pinerror": {
         "message": "You cannot change the country assigned to your account with a locked PIN. Unlock your settings with your PIN to continue."
     },
 
@@ -502,6 +505,16 @@
 
     "systemfeedback_error_pinlocked": {
         "message": "Your settings are locked. Unlock your settings with your PIN to change."
+    },
+
+    "pinunlockmodal_title": {
+        "message": "Account PIN Required"
+    },
+    "pinunlockmodal_description": {
+        "message": "Enter the PIN attached to your account"
+    },
+    "pinunlockmodal_buttons_action": {
+        "message": "Unlock"
     },
 
     "generalasset_created": {
@@ -1074,6 +1087,12 @@
     },
     "features_ExperiencePrivateNote_title": {
         "message": "Experience private note in About section"
+    },
+    "features_AccountPinPromptMoreLocations_title": {
+        "message": "Show the account pin prompt in more locations"
+    },
+    "features_AccountPinPromptMoreLocations_description": {
+        "message": "When enabled, shows the account pin unlock prompt in more locations where it usually directs to account settings."
     },
 
     "popup_extensionname": {
