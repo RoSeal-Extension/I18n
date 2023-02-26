@@ -772,6 +772,19 @@
         "message": "Create Group"
     },
 
+    "messages_getunreadu2e_pending": {
+        "message": "Pending"
+    },
+    "messages_getunreadu2e_error": {
+        "message": "Error"
+    },
+    "messages_getunreadu2e_request": {
+        "message": "Request Unread U2Es"
+    },
+    "messages_getunreadu2e_download": {
+        "message": "Download Unread U2Es"
+    },
+
     "group_pendingrequests_systemfeedback_genericerror": {
         "message": "Failed to cancel pending join request, please try again later."
     },
@@ -846,6 +859,9 @@
     },
     "features_section_miscellaneous_avatar": {
         "message": "Avatar"
+    },
+    "features_section_miscellaneous_messages": {
+        "message": "Messages"
     },
     "features_section_users": {
         "message": "Users"
@@ -1093,6 +1109,9 @@
     },
     "features_AccountPinPromptMoreLocations_description": {
         "message": "When enabled, shows the account pin unlock prompt in more locations where it usually directs to account settings."
+    },
+    "features_GetUnreadU2EButton_title": {
+        "message": "Request Right-to-Erasures CSV file button"
     },
 
     "popup_extensionname": {
