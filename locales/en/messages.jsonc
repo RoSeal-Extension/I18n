@@ -20,9 +20,6 @@
     "robloxsettings_regionwarning_genericerror": {
         "message": "An error occurred changing the country assigned to your account. Please try again later."
     },
-    "robloxsettings_regionwarning_pinerror": {
-        "message": "You cannot change the country assigned to your account with a locked PIN. Unlock your settings with your PIN to continue."
-    },
 
     "beta_feature_label": {
         "message": "BETA"
@@ -501,10 +498,6 @@
 
     "homeheader_birthdaymessage": {
         "message": "Happy birthday,"
-    },
-
-    "systemfeedback_error_pinlocked": {
-        "message": "Your settings are locked. Unlock your settings with your PIN to change."
     },
 
     "pinunlockmodal_title": {
