@@ -1113,7 +1113,7 @@
         "message": "Discover Filters"
     },
     "features_DiscoverFilters_description": {
-        "message": "When enabled, adds a Filters section to the Discover page. It allows for filtering of all sorts by like ratio, favorite count, genre and player count. IMPORTANT: This feature is unstable and some things do not function properly."
+        "message": "When enabled, adds a Filters section to the Discover page. It allows for filtering of all sorts by like ratio, favorite count, genre and player count. IMPORTANT: This feature is unstable and some things may not function properly."
     },
 
     "popup_extensionname": {
