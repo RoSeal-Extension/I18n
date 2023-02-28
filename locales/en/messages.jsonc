@@ -765,17 +765,17 @@
         "message": "Create Group"
     },
 
-    "messages_getunreadu2e_pending": {
+    "messages_getunreadr2e_pending": {
         "message": "Pending"
     },
-    "messages_getunreadu2e_error": {
+    "messages_getunreadr2e_error": {
         "message": "Error"
     },
-    "messages_getunreadu2e_request": {
-        "message": "Request Unread U2Es"
+    "messages_getunreadr2e_request": {
+        "message": "Request Unread R2Es"
     },
-    "messages_getunreadu2e_download": {
-        "message": "Download Unread U2Es"
+    "messages_getunreadr2e_download": {
+        "message": "Download Unread R2Es"
     },
 
     "group_pendingrequests_systemfeedback_genericerror": {
@@ -1103,7 +1103,7 @@
     "features_AccountPinPromptMoreLocations_description": {
         "message": "When enabled, shows the account pin unlock prompt in more locations where it usually directs to account settings."
     },
-    "features_GetUnreadU2EButton_title": {
+    "features_GetUnreadR2EButton_title": {
         "message": "Request Right-to-Erasures CSV file button"
     },
 
