@@ -817,6 +817,9 @@
     "features_section_experiences": {
         "message": "Experiences"
     },
+    "features_section_experiences_discover": {
+        "message": "Discover"
+    },
     "features_section_experiences_general": {
         "message": "General"
     },
@@ -1105,6 +1108,12 @@
     },
     "features_GetUnreadR2EButton_title": {
         "message": "Request Right-to-Erasures CSV file button"
+    },
+    "features_DiscoverFilters_title": {
+        "message": "Discover Filters"
+    },
+    "features_DiscoverFilters_description": {
+        "message": "When enabled, adds a Filters section to the Discover page. It allows for filtering of all sorts by like ratio, favorite count, genre and player count. IMPORTANT: This feature is unstable and some things do not function properly."
     },
 
     "popup_extensionname": {
