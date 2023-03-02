@@ -854,6 +854,9 @@
     "messages_getunreadr2e_download": {
         "message": "Download Unread R2Es"
     },
+    "messages_getunreadr2e_markread": {
+        "message": "Mark Unread R2Es Read"
+    },
 
     "messages_getunreadr2e_markreadmodal_title": {
         "message": "Mark R2Es as Read"
