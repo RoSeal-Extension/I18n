@@ -572,6 +572,80 @@
         "message": "A user with that username was not found."
     },
 
+    "discover_filters_label": {
+        "message": "Filters"
+    },
+    "discover_filters_applyfilters": {
+        "message": "Apply Filters"
+    },
+    "discover_filters_likes": {
+        "message": "Like %"
+    },
+    "discover_filters_playing": {
+        "message": "Playing"
+    },
+    "discover_filters_favorites": {
+        "message": "Favorites"
+    },
+    "discover_filters_visits": {
+        "message": "Visits"
+    },
+    "discover_filters_genre": {
+        "message": "Genre"
+    },
+    "discover_filters_genre_values_All": {
+        "message": "All"
+    },
+    "discover_filters_genre_values_Building": {
+        "message": "Building"
+    },
+    "discover_filters_genre_values_Horror": {
+        "message": "Horror"
+    },
+    "discover_filters_genre_values_TownandCity": {
+        "message": "Town and City"
+    },
+    "discover_filters_genre_values_Military": {
+        "message": "Military"
+    },
+    "discover_filters_genre_values_Comedy": {
+        "message": "Comedy"
+    },
+    "discover_filters_genre_values_Medieval": {
+        "message": "Medieval"
+    },
+    "discover_filters_genre_values_Adventure": {
+        "message": "Adventure"
+    },
+    "discover_filters_genre_values_SciFi": {
+        "message": "Sci-Fi"
+    },
+    "discover_filters_genre_values_Naval": {
+        "message": "Naval"
+    },
+    "discover_filters_genre_values_FPS": {
+        "message": "FPS"
+    },
+    "discover_filters_genre_values_RPG": {
+        "message": "RPG"
+    },
+    "discover_filters_genre_values_Sports": {
+        "message": "Sports"
+    },
+    "discover_filters_genre_values_Fighting": {
+        "message": "Fighting"
+    },
+    "discover_filters_genre_values_Western": {
+        "message": "Western"
+    },
+
+    "discover_filters_filter_minimum": {
+        "message": "Minimum"
+    },
+    "discover_filters_filter_maximum": {
+        "message": "Maximum"
+    },
+
     "experience_badges_tab": {
         "message": "Badges"
     },
@@ -1113,7 +1187,7 @@
         "message": "Discover Filters"
     },
     "features_DiscoverFilters_description": {
-        "message": "When enabled, adds a Filters section to the Discover page. It allows for filtering of all sorts by like ratio, favorite count, genre and player count. IMPORTANT: This feature is unstable and some things may not function properly."
+        "message": "When enabled, adds a Filters section to the Discover page. It allows for filtering of all sorts by like percentage, favorite count, player count, visit count and genre. IMPORTANT: This feature is unstable and some things may not function properly at times."
     },
 
     "popup_extensionname": {
