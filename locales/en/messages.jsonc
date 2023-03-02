@@ -1179,7 +1179,7 @@
         "message": "When enabled, adds text and a button to Account Settings' info tab to update your Roblox account's country to your computer's country."
     },
     "features_AssetDeleteFromInventory_title": {
-        "message": "\"Delete from Inventory\" button in asset item menu"
+        "message": "\"Remove from Inventory\" button in asset item menu if it doesn't exist"
     },
     "features_UserFriendsPageNewTitle_title": {
         "message": "Show username in user's friends page title"
