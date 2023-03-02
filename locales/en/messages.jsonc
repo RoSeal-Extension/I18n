@@ -852,6 +852,19 @@
         "message": "Download Unread R2Es"
     },
 
+    "messages_getunreadr2e_markreadmodal_title": {
+        "message": "Mark R2Es as Read"
+    },
+    "messages_getunreadr2e_markreadmodal_body": {
+        "message": "Would you like to mark the R2E messages as read?"
+    },
+    "messages_getunreadr2e_markreadmodal_action": {
+        "message": "Mark as Read"
+    },
+    "messages_getunreadr2e_markreadmodal_neutral": {
+        "message": "Cancel"
+    },
+
     "group_pendingrequests_systemfeedback_genericerror": {
         "message": "Failed to cancel pending join request, please try again later."
     },
