@@ -575,6 +575,9 @@
     "discover_filters_label": {
         "message": "Filters"
     },
+    "discover_filters_inputhint": {
+        "message": "Number inputs left as 0 will be ignored"
+    },
     "discover_filters_applyfilters": {
         "message": "Apply Filters"
     },
