@@ -871,6 +871,19 @@
         "message": "Cancel"
     },
 
+    "force2svmodal_title": {
+        "message": "Two Step Verification Required"
+    },
+    "force2svmodal_body": {
+        "message": "Due to security concerns, you must have two step verification enabled to use this feature.{lineBreak}{lineBreak}Would you like to go to your account security settings?"
+    },
+    "force2svmodal_action": {
+        "message": "Ok"
+    },
+    "force2svmodal_neutral": {
+        "message": "Cancel"
+    },
+
     "group_pendingrequests_systemfeedback_genericerror": {
         "message": "Failed to cancel pending join request, please try again later."
     },
@@ -1185,7 +1198,10 @@
         "message": "When enabled, adds text and a button to Account Settings' info tab to update your Roblox account's country to your computer's country."
     },
     "features_AssetDeleteFromInventory_title": {
-        "message": "\"Remove from Inventory\" button in asset item menu if it doesn't exist"
+        "message": "\"Delete from Inventory\" button in asset item menu"
+    },
+    "features_AssetDeleteFromInventory_description": {
+        "message": "When enabled, adds a \"Delete from Inventory\" button in an asset item's item menu if it doesn't alreadg exist. Due to security concerns, a two step verification challenge is required."
     },
     "features_UserFriendsPageNewTitle_title": {
         "message": "Show username in user's friends page title"
