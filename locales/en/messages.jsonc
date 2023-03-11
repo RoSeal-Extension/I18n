@@ -537,7 +537,7 @@
     },
 
     "pinunlockmodal_title": {
-        "message": "Account PIN Required"
+        "message": "{sealEmoji} Account PIN Required"
     },
     "pinunlockmodal_description": {
         "message": "Enter the PIN attached to your account"
@@ -908,7 +908,7 @@
     },
 
     "force2svmodal_title": {
-        "message": "Two Step Verification Required"
+        "message": "{sealEmoji} Two Step Verification Required"
     },
     "force2svmodal_body": {
         "message": "Due to security concerns, you must have two step verification enabled to use this feature.{lineBreak}{lineBreak}Would you like to go to your account security settings?"
