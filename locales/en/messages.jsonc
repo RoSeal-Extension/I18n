@@ -466,18 +466,51 @@
     "homeheader_secretmessage_Default20": {
         "message": "kitty."
     },
+    "homeheader_secretmessage_Default21": {
+        "message": "bird."
+    },
+    "homeheader_secretmessage_Default22": {
+        "message": "Insert seal image here"
+    },
+    "homeheader_secretmessage_Default23": {
+        "message": "Insert kitty image here"
+    },
+    "homeheader_secretmessage_Default24": {
+        "message": "Insert bird image here"
+    },
+    "homeheader_secretmessage_Default25": {
+        "message": "Roblox down?"
+    },
+    "homeheader_secretmessage_Default26": {
+        "message": "David Baszucki"
+    },
+    "homeheader_secretmessage_Default27": {
+        "message": "Do you remember guests?"
+    },
+    "homeheader_secretmessage_Default28": {
+        "message": "Do you remember the old forums?"
+    },
+    "homeheader_secretmessage_Default29": {
+        "message": "Hi there!"
+    },
+    "homeheader_secretmessage_Default30": {
+        "message": "um... yum?"
+    },
 
     "homeheader_secretmessage_BetaTester1": {
-        "message": "Using Roblox Studio? Think you're cool?"
+        "message": "A beta tester? Think you're cool?"
     },
     "homeheader_secretmessage_BetaTester2": {
         "message": "I see you have access to some beta features."
     },
     "homeheader_secretmessage_BetaTester3": {
-        "message": "Have fun in Roblox Studio today, well, that is if you actually use Studio ;)"
+        "message": "Have fun with whatever you do today ;)"
     },
     "homeheader_secretmessage_BetaTester4": {
         "message": "Not as cool as a Soothsayer."
+    },
+    "homeheader_secretmessage_BetaTester5": {
+        "message": "One of the few."
     },
 
     "homeheader_secretmessage_Soothsayer1": {
@@ -494,6 +527,9 @@
     },
     "homeheader_secretmessage_Soothsayer5": {
         "message": "Is Internal Studio cool?"
+    },
+    "homeheader_secretmessage_Soothsayer6": {
+        "message": "How's collectible testing doing?"
     },
 
     "homeheader_birthdaymessage": {
