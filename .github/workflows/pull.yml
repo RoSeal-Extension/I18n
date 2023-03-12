@@ -3,7 +3,7 @@ name: Pull from English
 on:
   push:
     branches: [main]
-  pull-request:
+  pull_request:
     branches: [main]
     types: [opened, synchronize, reopened]
 
