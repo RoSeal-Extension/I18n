@@ -1,16 +1,20 @@
 {
+    // For details on what to translate, see README.md file
+
+    // Name and description that appears on all stores, and in chrome://extensions
     "manifest_name": {
         "message": "RoSeal - Augmented Roblox Experience"
     },
-
     "manifest_description": {
         "message": "Improve your Roblox website experience. And there's also seals."
     },
 
+    // Popover dropdown menu for the roseal item
     "robloxsettings_popover_roseal": {
         "message": "{sealEmoji} RoSeal Settings"
     },
 
+    // Region warning text that shows in roblox settings
     "robloxsettings_regionwarning_text": {
         "message": "Your account's country ({currentCountryName}) does not match your computer's country ({setCountryName})"
     },
@@ -21,6 +25,7 @@
         "message": "An error occurred changing the country assigned to your account. Please try again later."
     },
 
+    // Appears in the RoSeal settings, "Beta" and "Experimental" labels
     "beta_feature_label": {
         "message": "BETA"
     },
@@ -28,6 +33,8 @@
         "message": "EXPERIMENTAL"
     },
 
+    // the 404 error page that appears if request is not valid.
+    // currently, it's only used by the developer product 404 page
     "errorpage_404_title": {
         "message": "Page cannot be found or no longer exists"
     },
@@ -47,14 +54,17 @@
         "message": "Return Home"
     },
 
+    // Hello variant of the home header feature
     "homeheader_hellotext": {
         "message": "Hello, {displayName}"
     },
 
+    // "RoSeal Settings" item label in the roblox settings navigation list
     "robloxsettings_selection_roseal": {
         "message": "RoSeal Settings"
     },
 
+    // RoSeal settings titles
     "settings_title": {
         "message": "My {sealEmoji}RoSeal Settings"
     },
@@ -62,12 +72,14 @@
         "message": "Return to Roblox Settings"
     },
 
+    // "About" selection in menu and title
     "settings_selection_about": {
         "message": "About RoSeal"
     },
     "settings_about_description": {
         "message": "<bold>RoSeal</bold> is a free seal-themed Roblox browser extension with individually togglable features and enhancements, without any paywalls or tracking."
     },
+    // under13 is for 13- users over13 is for 13+. this is to prevent exposing discord to underage users
     "settings_about_media_under13": {
         "message": "There is a community <groupLink>Roblox Group</groupLink> for the extension."
     },
@@ -75,6 +87,7 @@
         "message": "There is a community <groupLink>Roblox Group</groupLink> and a <discordLink>Discord Server</discordLink> for the extension."
     },
 
+    // "Credits" selection tab in menu and title
     "settings_about_credits_header": {
         "message": "Credits"
     },
@@ -88,6 +101,7 @@
         "message": "<link>MaciejCreates</link> - Designed the icon"
     },
 
+    // "Feature Switches" selection tab in menu and title
     "settings_about_featureswitches_header": {
         "message": "Feature Switches"
     },
@@ -101,6 +115,7 @@
         "message": "<label>EXPERIMENTAL</label> features are either unstable which may not stabilize or a test for a feature to come. IMPORTANT: Don't enable these features unless you know the risk."
     },
 
+    // "Donate" selection tab in menu and tit
     "settings_selection_donate": {
         "message": "Donate"
     },
@@ -111,9 +126,11 @@
         "message": "You will be redirected to BuyMeACoffee, a 3rd-party site for donations."
     },
 
+    // selected tab
     "settings_selection_featureswitches": {
         "message": "Feature Switches"
     },
+    // feature switch details
     "settings_featureswitches_featureswitch_disabled": {
         "message": "This feature has been disabled by RoSeal"
     },
@@ -136,6 +153,7 @@
         "message": "An error occurred while removing associated storage for feature, please try again later."
     },
 
+    // "Blocked Experiences" selection tab in menu and title
     "settings_selection_blockedexperiences": {
         "message": "Blocked Experiences"
     },
@@ -187,6 +205,7 @@
         "message": "Show"
     },
 
+    // Account Settings dropdown strings
     "accountsmanager_entry_login_disabled": {
         "message": "Logged In"
     },
@@ -238,10 +257,12 @@
         "message": "RoSeal does not have permission to manage browser cookies. Please allow it in RoSeal's popup dialog from the browser toolbar."
     },
 
+    // The context menu "..." item that appears in the item dropdown menu to view the icon asset
     "experience_contextmenu_viewiconasset": {
         "message": "View Icon Asset"
     },
 
+    // The context menu "..." item that appears in the experience dropdown menu to unblock/block the target experience
     "experience_contextmenu_unblock": {
         "message": "Unblock"
     },
@@ -249,10 +270,12 @@
         "message": "Block"
     },
 
+    // "Universe ID {number}" text under About
     "experience_universeid": {
         "message": "Universe ID"
     },
 
+    // Text to show if an experience is blocked, and to view it anyways
     "experience_blocked_title": {
         "message": "This experience is blocked"
     },
