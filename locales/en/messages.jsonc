@@ -1250,8 +1250,11 @@
     "features_ShowExperienceAvatarType_title": {
         "message": "Show experience restricted avatar type in statistics"
     },
+    "features_ShowExperienceAvatarType_description": {
+        "message": "When enabled, adds an \"Avatar Type\" statistic to the experience statistics. It will also display a warning over the play button if your current avatar will be restricted in the experience."
+    },
     "features_UpdateAccountCountry_title": {
-        "message": "Warning in Account Settings to update your account's country"
+        "message": "Section in Account Settings to update your account's country"
     },
     "features_UpdateAccountCountry_description": {
         "message": "When enabled, adds text and a button to Account Settings' info tab to update your Roblox account's country to your computer's country."
