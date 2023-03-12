@@ -1286,6 +1286,9 @@
     "features_DiscoverFilters_description": {
         "message": "When enabled, adds a Filters section to the Discover page. It allows for filtering of all sorts by like percentage, favorite count, player count, visit count and genre. IMPORTANT: This feature is unstable and some things may not function properly at times."
     },
+    "features_RoSealSettingDropdown_title": {
+        "message": "\"RoSeal Settings\" item in the Roblox settings dropdown"
+    },
 
     "popup_extensionname": {
         "message": "{sealEmoji} RoSeal"
