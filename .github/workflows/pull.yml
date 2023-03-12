@@ -1,0 +1,28 @@
+name: Pull from English
+
+on:
+  push:
+    branches: [main]
+  pull-request:
+    branches: [main]
+    types: [opened, synchronize, reopened]
+
+jobs:
+  build:
+    name: Pull
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Setup Repo
+        uses: actions/checkout@v3
+
+      - name: Setup Deno
+        uses: denoland/setup-deno@v1
+        with:
+          deno-version: v1.x
+
+      - name: Sync files
+        run: deno run -A ./sync.ts
+
+      - name: Push to git
+        uses: stefanzweifel/git-auto-commit-action@v4

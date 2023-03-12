@@ -1,4 +1,4 @@
-import { parse as parseJSONC } from "https://esm.sh/v108/jsonc-parser@3.2.0";
+import { parse as parseJSONC } from "https://esm.sh/v111/jsonc-parser@3.2.0";
 
 type MessagesFile = Record<string, {
     message: string;
