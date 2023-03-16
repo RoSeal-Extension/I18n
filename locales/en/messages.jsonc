@@ -766,8 +766,8 @@
     "experience_badges_sorting_sortobtained_values_Last": {
         "message": "Last"
     },
-    "experience_badges_sorting_sortobtained_values_Between": {
-        "message": "Between"
+    "experience_badges_sorting_sortobtained_values_Default": {
+        "message": "Default"
     },
     "experience_badges_sortsandfilters": {
         "message": "Sorts and Filters"
