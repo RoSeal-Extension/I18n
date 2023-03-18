@@ -1071,7 +1071,7 @@
         "message": "Add a button to visit an unofficial Community Wiki of an experience in the About tab"
     },
     "features_AddCommunityWikiButton_description": {
-        "message": "When enabled, the extension will display a button to visit an unofficial wiki which is part of the Roblox Interwiki project on Fandom for the experience if it is known to RoSeal. Currently, {experienceCount, plural, =1 {1 experience is} other {# experiences are}} supported."
+        "message": "When enabled, the extension will display a button to visit an unofficial wiki which is part of the Roblox Interwiki project on Fandom for the experience if it is known to RoSeal."
     },
     "features_RemovePrivateServersSectionInAbout_title": {
         "message": "Remove private servers section in the About tab"
