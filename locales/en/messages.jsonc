@@ -1044,7 +1044,7 @@
     },
 
     "features_RemoveHomePageUnnecessarySorts_title": {
-        "message": "Remove \"unneccessary\" sorts from the home sorts"
+        "message": "Remove \"unnecessary\" sorts from the home sorts"
     },
     "features_RemoveHomePageUnnecessarySorts_description": {
         "message": "When enabled, removes any sorts from the Home page that don't match \"Recommended For You\", \"Favorites\", \"Continue\", \"Friends Playing\", or \"Sponsored\"."
@@ -1263,7 +1263,7 @@
         "message": "\"Delete from Inventory\" button in asset item menu"
     },
     "features_AssetDeleteFromInventory_description": {
-        "message": "When enabled, adds a \"Delete from Inventory\" button in an asset item's item menu if it doesn't alreadg exist. Due to security concerns, a two step verification challenge is required."
+        "message": "When enabled, adds a \"Delete from Inventory\" button in an asset item's item menu if it doesn't already exist. Due to security concerns, a two step verification challenge is required."
     },
     "features_UserFriendsPageNewTitle_title": {
         "message": "Show username in user's friends page title"
@@ -1288,6 +1288,9 @@
     },
     "features_RoSealSettingDropdown_title": {
         "message": "\"RoSeal Settings\" item in the Roblox settings dropdown"
+    },
+    "features_AccurateHomeContinueSort_title": {
+        "message": "Accurate non-curated home page \"Continue\" sort"
     },
 
     "popup_extensionname": {
