@@ -1,6 +1,7 @@
 # RoSeal i18n
 
 RoSeal internationalization (i18n) GitHub repository that holds all of RoSeal's localization.
+Changes here will not me made to RoSeal until its next update.
 
 **Do not translate:**
 
