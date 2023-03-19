@@ -1158,7 +1158,7 @@
         "message": "Move the Report Abuse buttons to the item context menus if applicable"
     },
     "features_ItemMentions_title": {
-        "message": "Link item mentions in item descriptions"
+        "message": "Formatted user/group mentions in item descriptions"
     },
     "features_ItemMentions_description": {
         "message": "When enabled, @user, user links, and group links from item descriptions will be transformed into a link with an avatar headshot or group thumbnail image."
