@@ -1024,6 +1024,9 @@
     "features_section_miscellaneous_messages": {
         "message": "Messages"
     },
+    "features_section_miscellaneous_general": {
+        "message": "General"
+    },
     "features_section_users": {
         "message": "Users"
     },
@@ -1291,6 +1294,9 @@
     },
     "features_AccurateHomeContinueSort_title": {
         "message": "Accurate non-curated home page \"Continue\" sort"
+    },
+    "features_CSSFixes_title": {
+        "message": "Various styling (CSS) fixes around the site"
     },
 
     "popup_extensionname": {
