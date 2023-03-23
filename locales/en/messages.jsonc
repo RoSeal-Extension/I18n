@@ -708,6 +708,13 @@
         "message": "Maximum"
     },
 
+    "experience_events_tab": {
+        "message": "Events"
+    },
+    "experience_events_noevents": {
+        "message": "No events available."
+    },
+
     "experience_badges_tab": {
         "message": "Badges"
     },
@@ -1297,6 +1304,9 @@
     },
     "features_CSSFixes_title": {
         "message": "Various styling (CSS) fixes around the site"
+    },
+    "features_MoveExperienceEvents_title": {
+        "message": "Move experience events to it's own tab"
     },
 
     "popup_extensionname": {
