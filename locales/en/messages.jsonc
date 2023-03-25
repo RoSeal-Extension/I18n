@@ -39,7 +39,7 @@
         "message": "Page cannot be found or no longer exists"
     },
     "errorpage_404_message": {
-        "message": "{sealEmoji} 404 {spanTagStart}|{spanTagEnd}Page Not Found"
+        "message": "{sealEmoji} 404 <span>|</span>Page Not Found"
     },
     "errorpage_back": {
         "message": "Back"
@@ -1020,7 +1020,7 @@
         "message": "Navbars"
     },
     "features_section_miscellaneous_avatarshop": {
-        "message": "Avatar Shop"
+        "message": "Marketplace"
     },
     "features_section_miscellaneous_chat": {
         "message": "Chat"
@@ -1183,7 +1183,7 @@
         "message": "When enabled, adds tabs navigation with \"Pending\" to the groups navigation."
     },
     "features_DisableAvatarShopInfiniteScrolling_title": {
-        "message": "Disable Avatar Shop infinite scrolling"
+        "message": "Disable Marketplace infinite scrolling"
     },
     "features_DisableGroupWallInfiniteScrolling_title": {
         "message": "Disable Group Wall infinite scrolling"
