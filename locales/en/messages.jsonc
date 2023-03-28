@@ -972,6 +972,12 @@
     "group_foldercustomization_modal_field_color": {
         "message": "Color"
     },
+    "group_foldercustomization_modal_action": {
+        "message": "Save"
+    },
+    "group_foldercustomization_modal_neutral": {
+        "message": "Cancel"
+    },
 
     "transactions_hide0robuxamount": {
         "message": "Hide transactions with 0 Robux amount"
