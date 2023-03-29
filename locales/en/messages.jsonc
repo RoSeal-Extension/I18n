@@ -393,6 +393,16 @@
         "message": "View Icon Asset"
     },
 
+    "ppupdatemodal_title": {
+        "message": "{sealEmoji} RoSeal Privacy Policy Update"
+    },
+    "ppupdatemodal_description": {
+        "message": "We've updated RoSeal's Privacy Policy since the last time you visited.{lineBreak}{lineBreak}<privacyPolicyLink>Read the Privacy Policy</privacyPolicyLink>"
+    },
+    "ppupdatemodal_action": {
+        "message": "Accept"
+    },
+
     "robloxlogoutmodal_title": {
         "message": "{sealEmoji} Are you sure?"
     },
