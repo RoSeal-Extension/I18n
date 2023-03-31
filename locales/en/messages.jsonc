@@ -1324,6 +1324,12 @@
     "features_MoveExperienceEvents_title": {
         "message": "Move experience events to it's own tab"
     },
+    "features_RefreshlessGroupNavigation_title": {
+        "message": "Page refreshless group navigation"
+    },
+    "features_RefreshlessGroupNavigation_description": {
+        "message": "When enabled, navigating to another group from the Group Organization/Pending groups does not require a page refresh."
+    },
 
     "popup_extensionname": {
         "message": "{sealEmoji} RoSeal"
