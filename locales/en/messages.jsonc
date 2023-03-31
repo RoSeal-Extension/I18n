@@ -120,10 +120,7 @@
         "message": "Donate"
     },
     "settings_donate_description": {
-        "message": "I, <bold>Julli4n</bold>, earn no profit from the development of this extension. Please consider donating if you have enjoyed the extension. You will not be granted any benefits, just a thank you."
-    },
-    "settings_donate_button_description": {
-        "message": "You will be redirected to BuyMeACoffee, a 3rd-party site for donations."
+        "message": "I, <bold>Julli4n</bold>, earn no profit from the development of this extension. Please consider donating if you have enjoyed the extension. You will not be granted any benefits, just a thank you.{lineBreak}{lineBreak}You will be redirected to BuyMeACoffee, a 3rd-party site for donations."
     },
 
     // selected tab
