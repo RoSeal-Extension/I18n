@@ -971,7 +971,7 @@
         "message": "Name"
     },
     "group_foldercustomization_modal_lengthtip": {
-        "message": "The name must be 0 to 25 characters long."
+        "message": "{length}/{maxLength}"
     },
     "group_foldercustomization_modal_field_name_placeholder": {
         "message": "Folder Name"
