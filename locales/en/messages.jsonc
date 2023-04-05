@@ -131,6 +131,9 @@
     "settings_featureswitches_featureswitch_disabled": {
         "message": "This feature has been disabled by RoSeal"
     },
+    "settings_featureswitches_featureswitch_exclusivebrowsers": {
+        "message": "Exclusive to the following browsers: {browsers}"
+    },
     "settings_featureswitches_featureswitch_permissions_title": {
         "message": "Required Permissions"
     },
