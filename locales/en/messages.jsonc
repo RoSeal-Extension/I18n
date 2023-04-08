@@ -275,6 +275,28 @@
         "message": "Universe ID"
     },
 
+    "generalasset_productid": {
+        "message": "Product ID"
+    },
+    "collectibleasset_collectibleitemid": {
+        "message": "Collectible Item ID"
+    },
+    "collectibleasset_collectibleproductid": {
+        "message": "Collectible Product ID"
+    },
+
+    "developerproduct_productid": {
+        "message": "Product ID"
+    },
+
+    "pass_productid": {
+        "message": "Product ID"
+    },
+
+    "bundle_productid": {
+        "message": "Product ID"
+    },
+
     // Text to show if an experience is blocked, and to view it anyways
     "experience_blocked_title": {
         "message": "This experience is blocked"
