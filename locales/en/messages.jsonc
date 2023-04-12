@@ -1378,6 +1378,9 @@
     "features_MarketplaceColorFilters_title": {
         "message": "Marketplace color filters"
     },
+    "features_RefreshAvatarItemDetails_sub_FastFreeBuy_title": {
+        "message": "Fast Free avatar item purchases"
+    },
 
     "popup_extensionname": {
         "message": "{sealEmoji} RoSeal"
