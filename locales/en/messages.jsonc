@@ -289,6 +289,10 @@
         "message": "Product ID"
     },
 
+    "avataritem_refreshdetails": {
+        "message": "Refresh details"
+    },
+
     "pass_productid": {
         "message": "Product ID"
     },
@@ -924,6 +928,19 @@
         "message": "An error occurred processing the action, please try again later."
     },
 
+    "avatarshop_colorfilters_title": {
+        "message": "Colors"
+    },
+    "avatarshop_colorfilters_items_primary": {
+        "message": "Primary"
+    },
+    "avatarshop_colorfilters_items_secondary": {
+        "message": "Secondary"
+    },
+    "avatarshop_colorfilters_items_any": {
+        "message": "Any"
+    },
+
     "group_pendingrequests": {
         "message": "Pending Join Requests"
     },
@@ -1351,6 +1368,15 @@
     },
     "features_RefreshlessGroupNavigation_description": {
         "message": "When enabled, navigating to another group from the Group Organization/Pending groups does not require a page refresh."
+    },
+    "features_ItemAdditionalProductInfo_title": {
+        "message": "Show additional item product information"
+    },
+    "features_RefreshAvatarItemDetails_title": {
+        "message": "Refresh avatar item details button"
+    },
+    "features_MarketplaceColorFilters_title": {
+        "message": "Marketplace color filters"
     },
 
     "popup_extensionname": {
