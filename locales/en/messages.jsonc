@@ -147,10 +147,10 @@
         "message": "Remove Associated Storage"
     },
     "settings_featureswitches_featureswitch_removeassociatedstorage_systemfeedback_success": {
-        "message": "Successfully removed associated storage for feature."
+        "message": "Successfully removed associated storage for this feature."
     },
     "settings_featureswitches_featureswitch_removeassociatedstorage_systemfeedback_error": {
-        "message": "An error occurred while removing associated storage for feature, please try again later."
+        "message": "An error occurred while removing associated storage for this feature, please try again later."
     },
 
     // "Blocked Experiences" selection tab in menu and title
@@ -290,7 +290,7 @@
     },
 
     "avataritem_refreshdetails": {
-        "message": "Refresh details"
+        "message": "Refresh Item Details"
     },
 
     "pass_productid": {
@@ -502,7 +502,7 @@
         "message": "Manage your time well and enjoy a healthy lifestyle."
     },
     "homeheader_secretmessage_Default13": {
-        "message": "Imagine 1M robux..."
+        "message": "Imagine 1M Robux..."
     },
     "homeheader_secretmessage_Default14": {
         "message": "How are you doing?"
@@ -789,7 +789,7 @@
         "message": "Won All-Time"
     },
     "experience_badges_sorting_sortby_values_AwardedTime": {
-        "message": "Awarded Time"
+        "message": "Awarded Latest"
     },
     "experience_badges_sorting_sortby_values_Created": {
         "message": "Created"
@@ -1247,7 +1247,7 @@
         "message": "Block experiences"
     },
     "features_BlockExperiences_description": {
-        "message": "When enabled, adds a new section for blocking individual experiences and keywords from showing on some common pages to RoSeal settings. You can block individual experiences from the context menu on an experience's detail page."
+        "message": "When enabled, adds a new section for blocking individual experiences and keywords from showing on some common pages to RoSeal settings. You can block individual experiences from the context menu on an experience's details page."
     },
     "features_ShowExperienceUniverseId_title": {
         "message": "Show Experience Universe ID"
@@ -1271,13 +1271,13 @@
         "message": "Group organization customization"
     },
     "features_GroupOrganization_description": {
-        "message": "When enabled, allows for reorganizing groups and creating group folders with drag and drop. Group folders can further be customized."
+        "message": "When enabled, allows for reorganizing groups and creating group folders with drag and drop. Group folders can then be further customized."
     },
     "features_BetterExperienceBadges_title": {
         "message": "Better experience badges list"
     },
     "features_BetterExperienceBadges_description": {
-        "message": "When enabled, adds a new tab to experience details that contains a better experience badges list. You can also view inactive badges, awarded dates for badges, and compare your badges with another user. This is unstable for experiences with an excessive amount of badges."
+        "message": "When enabled, adds a new tab to experience details that contains a better experience badges list. You can also view inactive badges, awarded dates for badges, and compare your badges with another user. This is unstable for experiences with a significantly large number of badges."
     },
     "features_BetterExperiencesBadges_sub_FiltersAndSorts_title": {
         "message": "Experience badges filters and sorts"
@@ -1358,7 +1358,7 @@
         "message": "Accurate non-curated home page \"Continue\" sort"
     },
     "features_CSSFixes_title": {
-        "message": "Various styling (CSS) fixes around the site"
+        "message": "Various (CSS) styling fixes around the site"
     },
     "features_MoveExperienceEvents_title": {
         "message": "Move experience events to it's own tab"
@@ -1367,10 +1367,10 @@
         "message": "Page refreshless group navigation"
     },
     "features_RefreshlessGroupNavigation_description": {
-        "message": "When enabled, navigating to another group from the Group Organization/Pending groups does not require a page refresh."
+        "message": "When enabled, navigating to another group from the Group Organization/Pending groups will not require a page refresh."
     },
     "features_ItemAdditionalProductInfo_title": {
-        "message": "Show additional item product information"
+        "message": "Show additional product information"
     },
     "features_RefreshAvatarItemDetails_title": {
         "message": "Refresh avatar item details button"
