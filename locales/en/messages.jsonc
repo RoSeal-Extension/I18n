@@ -458,6 +458,16 @@
         "message": "Cancel"
     },
 
+    "avataritem_successmessage_Purchase": {
+        "message": "You have successfully purchased this item."
+    },
+    "avataritem_errormessage_Load": {
+        "message": "You are getting ratelimited, please try again later."
+    },
+    "avataritem_errormessage_Purchase": {
+        "message": "Could not purchase item, given reason: {reason}"
+    },
+
     "experience_media_alttext": {
         "message": "ALT"
     },
