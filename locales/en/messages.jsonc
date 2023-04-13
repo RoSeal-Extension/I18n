@@ -462,10 +462,10 @@
         "message": "You have successfully purchased this item."
     },
     "avataritem_errormessage_Load": {
-        "message": "You are getting ratelimited, please try again later."
+        "message": "You are being ratelimited, please try again later."
     },
     "avataritem_errormessage_Purchase": {
-        "message": "Could not purchase item, given reason: {reason}"
+        "message": "Could not purchase item, given reason: \"{reason}\""
     },
 
     "experience_media_alttext": {
