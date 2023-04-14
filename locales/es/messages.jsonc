@@ -433,7 +433,7 @@
         "message": "{sealEmoji} ¿Estás seguro?"
     },
     "robloxlogoutmodal_body": {
-        "message": "Al usar el botón de cierre de sesión predeterminado de Roblox, invalidará la sesión actual.{lineBreak}{lineBreak}No podrá iniciar sesión en esta cuenta con Accounts Manager sin volver a pasar por la página de inicio de sesión de Roblox.{lineBreak}{lineBreak}Para cerrar sesión sin invalidar la sesión, abra Accounts Manager y haga clic en "Cerrar sesión"."
+        "message": "Al usar el botón de cierre de sesión predeterminado de Roblox, invalidará la sesión actual.{lineBreak}{lineBreak}No podrá iniciar sesión en esta cuenta con Accounts Manager sin volver a pasar por la página de inicio de sesión de Roblox.{lineBreak}{lineBreak}Para cerrar sesión sin invalidar la sesión, abra Accounts Manager y haga clic en \"Cerrar sesión\"."
     },
     "robloxlogoutmodal_action": {
         "message": "Cerrar sesión"
@@ -449,7 +449,7 @@
         "message": "{sealEmoji} Estás saliendo de Roblox"
     },
     "experience_communitywiki_modal_body": {
-        "message": "Atención, Robloxiano: al hacer clic en "continuar", será redirigido a Fandom, que no es propiedad ni está operado por Roblox. Pueden existir términos y políticas de privacidad diferentes.{lineBreak}{lineBreak}El Wiki comunitario no oficial al que será redirigido forma parte del Proyecto Interwiki de Roblox en Fandom y depende de las ediciones de la comunidad. La información puede ser controvertida, vandalizada, desactualizada o manipulada."
+        "message": "Atención, Robloxiano: al hacer clic en \"continuar\", será redirigido a Fandom, que no es propiedad ni está operado por Roblox. Pueden existir términos y políticas de privacidad diferentes.{lineBreak}{lineBreak}El Wiki comunitario no oficial al que será redirigido forma parte del Proyecto Interwiki de Roblox en Fandom y depende de las ediciones de la comunidad. La información puede ser controvertida, vandalizada, desactualizada o manipulada."
     },
     "experience_communitywiki_modal_action": {
         "message": "Continuar"
@@ -465,7 +465,7 @@
         "message": "Estás siendo rateado, por favor inténtalo de nuevo más tarde."
     },
     "avataritem_errormessage_Purchase": {
-        "message": "No se pudo comprar el objeto, la razón dada es: "{reason}""
+        "message": "No se pudo comprar el objeto, la razón dada es: \"{reason}\""
     },
 
     "experience_media_alttext": {
@@ -603,7 +603,7 @@
 
     // Translators can put whatever message they like in here
     "homeheader_secretmessage_NonEnglish": {
-        "message": ""
+        "message": "Howis!! Furrycality tradujo esto UwU"
     },
 
     "homeheader_birthdaymessage": {
@@ -1124,10 +1124,10 @@
     },
 
     "features_RemoveHomePageUnnecessarySorts_title": {
-        "message": "Eliminar ordenamientos "innecesarios" de la página principal"
+        "message": "Eliminar ordenamientos \"innecesarios\" de la página principal"
     },
     "features_RemoveHomePageUnnecessarySorts_description": {
-        "message": "Cuando está habilitado, elimina cualquier ordenamiento de la página principal que no coincida con "Recomendado para ti", "Favoritos", "Continuar", "Amigos jugando" o "Patrocinado"."
+        "message": "Cuando está habilitado, elimina cualquier ordenamiento de la página principal que no coincida con \"Recomendado para ti\", \"Favoritos\", \"Continuar\", \"Amigos jugando\" o \"Patrocinado\"."
     },
     "features_RefreshedHomeUserHeader_title": {
         "message": "Encabezado de usuario actualizado"
@@ -1142,19 +1142,19 @@
         "message": "Mensaje de cumpleaños"
     },
     "features_RefreshedHomeUserHeader_sub_HelloText_title": {
-        "message": "Saludo "Hola""
+        "message": "Saludo \"Hola\""
     },
     "features_MoveExperienceSocialLinks_title": {
-        "message": "Mover los enlaces sociales de la experiencia sobre la descripción en la pestaña "Acerca de""
+        "message": "Mover los enlaces sociales de la experiencia sobre la descripción en la pestaña \"Acerca de\""
     },
     "features_AddCommunityWikiButton_title": {
-        "message": "Agregar un botón para visitar una Wiki comunitaria no oficial de una experiencia en la pestaña "Acerca de""
+        "message": "Agregar un botón para visitar una Wiki comunitaria no oficial de una experiencia en la pestaña \"Acerca de\""
     },
     "features_AddCommunityWikiButton_description": {
         "message": "Cuando está habilitado, la extensión mostrará un botón para visitar una Wiki no oficial que forma parte del proyecto Interwiki de Roblox en Fandom para la experiencia si es conocida por RoSeal."
     },
     "features_RemovePrivateServersSectionInAbout_title": {
-        "message": "Eliminar sección de servidores privados en la pestaña "Acerca de""
+        "message": "Eliminar sección de servidores privados en la pestaña \"Acerca de\""
     },
     "features_DeveloperProductsInExperienceStore_title": {
         "message": "Productos de desarrollador en la pestaña de tienda de la experiencia"
@@ -1250,7 +1250,7 @@
         "message": "Listar grupos con solicitudes de unión pendientes en la navegación"
     },
     "features_ListPendingGroups_description": {
-        "message": "Cuando está habilitado, agrega una pestaña de navegación con "Pendiente" a la navegación de grupos."
+        "message": "Cuando está habilitado, agrega una pestaña de navegación con \"Pendiente\" a la navegación de grupos."
     },
     "features_DisableAvatarShopInfiniteScrolling_title": {
         "message": "Desactivar desplazamiento infinito del Marketplace"
@@ -1331,7 +1331,7 @@
         "message": "Mostrar el tipo de avatar restringido de la experiencia en las estadísticas"
     },
     "features_ShowExperienceAvatarType_description": {
-        "message": "Cuando está habilitado, agrega una estadística "Tipo de Avatar" a las estadísticas de la experiencia. También mostrará una advertencia sobre el botón de reproducir si tu avatar actual se restringirá en la experiencia."
+        "message": "Cuando está habilitado, agrega una estadística \"Tipo de Avatar\" a las estadísticas de la experiencia. También mostrará una advertencia sobre el botón de reproducir si tu avatar actual se restringirá en la experiencia."
     },
     "features_UpdateAccountCountry_title": {
         "message": "Sección en Configuración de cuenta para actualizar el país de tu cuenta"
@@ -1340,10 +1340,10 @@
         "message": "Cuando está habilitado, agrega texto y un botón a la pestaña de información de la Configuración de cuenta para actualizar el país de tu cuenta de Roblox al país de tu computadora."
     },
     "features_AssetDeleteFromInventory_title": {
-        "message": "Botón "Eliminar del inventario" en el menú de elementos de activos"
+        "message": "Botón \"Eliminar del inventario\" en el menú de elementos de activos"
     },
     "features_AssetDeleteFromInventory_description": {
-        "message": "Cuando se habilita, agrega un botón "Eliminar del inventario" en el menú de elementos de activos si aún no existe. Debido a problemas de seguridad, se requiere un desafío de verificación de dos pasos."
+        "message": "Cuando se habilita, agrega un botón \"Eliminar del inventario\" en el menú de elementos de activos si aún no existe. Debido a problemas de seguridad, se requiere un desafío de verificación de dos pasos."
     },
     "features_UserFriendsPageNewTitle_title": {
         "message": "Mostrar nombre de usuario en el título de la página de amigos del usuario"
@@ -1367,10 +1367,10 @@
         "message": "Cuando se habilita, agrega una sección de Filtros a la página de Descubrimiento. Permite filtrar todo tipo de contenido por porcentaje de gustos, cantidad de favoritos, cantidad de jugadores, cantidad de visitas y género."
     },
     "features_RoSealSettingDropdown_title": {
-        "message": "Elemento "Configuración de RoSeal" en el menú desplegable de configuración de Roblox"
+        "message": "Elemento \"Configuración de RoSeal\" en el menú desplegable de configuración de Roblox"
     },
     "features_AccurateHomeContinueSort_title": {
-        "message": "Orden preciso de "Continuar" en la página de inicio no curada"
+        "message": "Orden preciso de \"Continuar\" en la página de inicio no curada"
     },
     "features_CSSFixes_title": {
         "message": "Varias correcciones de estilo (CSS) en todo el sitio"

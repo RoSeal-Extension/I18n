@@ -20,7 +20,7 @@ for await (const { name: locale } of Deno.readDir(BASE_DIRECTORY)) {
         for (const [key, value] of Object.entries(englishObject)) {
             localeString = localeString.replace(
                 `"message": "${value.message.replaceAll('"', '\\"')}"`,
-                `"message": "${localeObject[key]?.message ?? ""}"`,
+                `"message": "${localeObject[key]?.message?.replaceAll('"', '\\"') ?? ""}"`,
             );
         }
 
