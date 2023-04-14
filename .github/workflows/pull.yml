@@ -3,7 +3,7 @@ name: Pull from English
 on:
   push:
     branches: [main]
-  pull_request:
+  pull_request_target:
     branches: [main]
     types: [opened, synchronize, reopened]
 
@@ -26,5 +26,3 @@ jobs:
 
       - name: Push to git
         uses: stefanzweifel/git-auto-commit-action@v4
-        with:
-          push_options: --force
