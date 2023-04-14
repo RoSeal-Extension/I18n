@@ -601,6 +601,11 @@
         "message": "How'd collectible testing go?"
     },
 
+    // Translators can put whatever message they like in here
+    "homeheader_secretmessage_NonEnglish": {
+        "message": "It doesn't look like RoSeal has been localized for your language :("
+    },
+
     "homeheader_birthdaymessage": {
         "message": "Happy birthday,"
     },
