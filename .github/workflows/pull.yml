@@ -3,10 +3,7 @@ name: Pull from English
 on:
   push:
     branches: [main]
-  pull_request_target:
-    branches: [main]
-    types: [opened, synchronize, reopened]
-
+    
 jobs:
   build:
     name: Pull
