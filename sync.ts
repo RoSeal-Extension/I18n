@@ -12,8 +12,11 @@ const englishObject = parseJSONC(englishString) as MessagesFile;
 
 for await (const { name: locale } of Deno.readDir(BASE_DIRECTORY)) {
     if (locale !== "en") {
+        const oldLocaleString = await Deno.readTextFile(
+            `${BASE_DIRECTORY}/${locale}/${MESSAGES_FILE}`,
+        );
         const localeObject = parseJSONC(
-            await Deno.readTextFile(`${BASE_DIRECTORY}/${locale}/${MESSAGES_FILE}`),
+            oldLocaleString,
         ) as MessagesFile;
 
         let localeString = englishString;
@@ -22,6 +25,10 @@ for await (const { name: locale } of Deno.readDir(BASE_DIRECTORY)) {
                 `"message": "${value.message.replaceAll('"', '\\"')}"`,
                 `"message": "${localeObject[key]?.message?.replaceAll('"', '\\"') ?? ""}"`,
             );
+        }
+        const translatedByText = oldLocaleString.match(/(\/\/ Translated by:.+)/);
+        if (translatedByText?.[1]) {
+            localeString += `\n${translatedByText[1]}`;
         }
 
         await Deno.writeTextFile(`${BASE_DIRECTORY}/${locale}/${MESSAGES_FILE}`, localeString);

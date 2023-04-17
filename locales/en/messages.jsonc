@@ -14,17 +14,6 @@
         "message": "{sealEmoji} RoSeal Settings"
     },
 
-    // Region warning text that shows in roblox settings
-    "robloxsettings_regionwarning_text": {
-        "message": "Your account's country ({currentCountryName}) does not match your computer's country ({setCountryName})"
-    },
-    "robloxsettings_regionwarning_update": {
-        "message": "Update"
-    },
-    "robloxsettings_regionwarning_genericerror": {
-        "message": "An error occurred changing the country assigned to your account. Please try again later."
-    },
-
     // Appears in the RoSeal settings, "Beta" and "Experimental" labels
     "beta_feature_label": {
         "message": "BETA"
@@ -1332,12 +1321,6 @@
     },
     "features_ShowExperienceAvatarType_description": {
         "message": "When enabled, adds an \"Avatar Type\" statistic to the experience statistics. It will also display a warning over the play button if your current avatar will be restricted in the experience."
-    },
-    "features_UpdateAccountCountry_title": {
-        "message": "Section in Account Settings to update your account's country"
-    },
-    "features_UpdateAccountCountry_description": {
-        "message": "When enabled, adds text and a button to Account Settings' info tab to update your Roblox account's country to your computer's country."
     },
     "features_AssetDeleteFromInventory_title": {
         "message": "\"Delete from Inventory\" button in asset item menu"
