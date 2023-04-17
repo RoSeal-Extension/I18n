@@ -14,17 +14,6 @@
         "message": "{sealEmoji} Configuraciones de RoSeal"
     },
 
-    // Region warning text that shows in roblox settings
-    "robloxsettings_regionwarning_text": {
-        "message": "El país de tu cuenta ({currentCountryName}) no coincide con el país de tu pc ({setCountryName})"
-    },
-    "robloxsettings_regionwarning_update": {
-        "message": "Actualizar"
-    },
-    "robloxsettings_regionwarning_genericerror": {
-        "message": "Ocurrió un error al cambiar el país asignado a tu cuenta. Por favor, inténtalo de nuevo más tarde."
-    },
-
     // Appears in the RoSeal settings, "Beta" and "Experimental" labels
     "beta_feature_label": {
         "message": "BETA"
