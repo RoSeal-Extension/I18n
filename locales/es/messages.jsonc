@@ -1333,12 +1333,6 @@
     "features_ShowExperienceAvatarType_description": {
         "message": "Cuando está habilitado, agrega una estadística \"Tipo de Avatar\" a las estadísticas de la experiencia. También mostrará una advertencia sobre el botón de reproducir si tu avatar actual se restringirá en la experiencia."
     },
-    "features_UpdateAccountCountry_title": {
-        "message": "Sección en Configuración de cuenta para actualizar el país de tu cuenta"
-    },
-    "features_UpdateAccountCountry_description": {
-        "message": "Cuando está habilitado, agrega texto y un botón a la pestaña de información de la Configuración de cuenta para actualizar el país de tu cuenta de Roblox al país de tu computadora."
-    },
     "features_AssetDeleteFromInventory_title": {
         "message": "Botón \"Eliminar del inventario\" en el menú de elementos de activos"
     },
