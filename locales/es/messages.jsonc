@@ -1033,7 +1033,7 @@
     },
 
     "transactions_hide0robuxamount": {
-        "message": "Ocultar transacciones con cantidad de Robux en 0"
+        "message": "Ocultar transacciones con cantidad de 0 Robux"
     },
     "transactions_hideprivateservers": {
         "message": "Ocultar transacciones de servidores privados"
@@ -1073,7 +1073,7 @@
         "message": "Página de transacciones"
     },
     "features_section_miscellaneous_seals": {
-        "message": "Sellos"
+        "message": "Focas"
     },
     "features_section_miscellaneous_navbars": {
         "message": "Barras de navegación"
@@ -1200,7 +1200,7 @@
         "message": "Navegación mejorada de Robux"
     },
     "features_BetterRobuxNavigation_description": {
-        "message": "Cuando está habilitado, agrega un botón Más junto a Robux en la navegación superior para redirigir a las compras de Robux y agrega un nuevo elemento Transacciones a la navegación izquierda."
+        "message": "Cuando está habilitado, agrega un botón (+) junto a \"Robux\" en la navegación superior para redirigir a las compras de Robux y agrega el nuevo elemento \"Transacciones\" en el menú de la izquierda."
     },
     "features_MoveAgeBracket_title": {
         "message": "Mover el rango de edad a la navegación izquierda"
@@ -1308,10 +1308,10 @@
         "message": "Solicitudes de amistad"
     },
     "features_HideFriendRequestsCount_title": {
-        "message": "Ocultar el recuento de solicitudes de amistad en la barra de navegación"
+        "message": "Ocultar el número de solicitudes de amistad en la barra de navegación"
     },
     "features_SealImages_title": {
-        "message": "Reemplazar todas las imágenes con imágenes de sellos"
+        "message": "Reemplazar todas las imágenes con imágenes de focas"
     },
     "features_ExperienceMediaAltTextButton_title": {
         "message": "Mejor botón de texto alternativo de miniatura de experiencia"
@@ -1428,3 +1428,5 @@
         "message": "{coffeeEmoji} Comprame un café"
     }
 }
+
+// Translated by: Furrycality UwU with love - English to Spanish
