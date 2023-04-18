@@ -104,7 +104,7 @@
         "message": "<label>EXPERIMENTAL</label> features are either unstable which may not stabilize or a test for a feature to come. IMPORTANT: Don't enable these features unless you know the risk."
     },
 
-    // "Donate" selection tab in menu and tit
+    // "Donate" selection tab in menu and title
     "settings_selection_donate": {
         "message": "Donate"
     },
