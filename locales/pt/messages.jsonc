@@ -3,7 +3,7 @@
 
     // Name and description that appears on all stores, and in chrome://extensions
     "manifest_name": {
-        "message": "RoSeal - Experiencia Aumentada Roblox"
+        "message": "RoSeal - Experiencia Aumentada do Roblox"
     },
     "manifest_description": {
         "message": "Melhora sua experiencia no site do roblox. E também temos focas."
