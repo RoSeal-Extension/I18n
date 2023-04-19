@@ -11,7 +11,7 @@
 
     // Popover dropdown menu for the roseal item
     "robloxsettings_popover_roseal": {
-        "message": "{sealEmoji} Configurações da RoSeal"
+        "message": "{sealEmoji} Configurações do RoSeal"
     },
 
     // Appears in the RoSeal settings, "Beta" and "Experimental" labels
@@ -50,12 +50,12 @@
 
     // "RoSeal Settings" item label in the roblox settings navigation list
     "robloxsettings_selection_roseal": {
-        "message": "Configurações da RoSeal"
+        "message": "Configurações do RoSeal"
     },
 
     // RoSeal settings titles
     "settings_title": {
-        "message": "Minhas configurações da {sealEmoji}RoSeal"
+        "message": "Minhas configurações do {sealEmoji}RoSeal"
     },
     "settings_return": {
         "message": "Voltar para as configurações do roblox"
@@ -63,7 +63,7 @@
 
     // "About" selection in menu and title
     "settings_selection_about": {
-        "message": "Sobre a RoSeal"
+        "message": "Sobre o RoSeal"
     },
     "settings_about_description": {
         "message": "<bold>RoSeal</bold> é uma extensão gratuita de navegador para roblox com tema de focas, com funções e melhorias que podem ser ativados e desativados individualmente, sem nenhum pagamento ou rastreamento. "
@@ -95,13 +95,13 @@
         "message": "Seletor de Funções"
     },
     "settings_about_featureswitches_description": {
-        "message": "Os seletores de funções são uma maneira rapida de ativar e desativar as funções da RoSeal de acordo com o seu gosto."
+        "message": "Os seletores de funções são uma maneira rapida de ativar e desativar as funções do RoSeal de acordo com o seu gosto."
     },
     "settings_about_featureswitches_beta": {
         "message": "<label>BETA</label> As funções beta não estão prontas para serem ativadas automaticamente; no entanto, deve haver um risco mínimo em habilitá-las. Todos são bem-vindos para ativá-las e dar feedback."
     },
     "settings_about_featureswitches_experimental": {
-        "message": "<label>EXPERIMENTAL</label> As funções experimentais são instáveis e podem não se estabilizar ou são um teste para uma futura funcionalidade. IMPORTANTE: Não habilite essas funções a menos que você conheça os riscos.
+        "message": "<label>EXPERIMENTAL</label> As funções experimentais são instáveis e podem não se estabilizar ou são um teste para uma função futura. IMPORTANTE: Não habilite essas funções a menos que você conheça os riscos.
     },
 
     // "Donate" selection tab in menu and title
@@ -118,7 +118,7 @@
     },
     // feature switch details
     "settings_featureswitches_featureswitch_disabled": {
-        "message": "Essa função foi desativada pela RoSeal"
+        "message": "Esta função foi desativada pelo RoSeal"
     },
     "settings_featureswitches_featureswitch_exclusivebrowsers": {
         "message": "Exclusivo para os seguintes navegadores: {browsers}"
@@ -130,7 +130,7 @@
         "message": "Cookies"
     },
     "settings_featureswitches_featureswitch_permissions_subtext": {
-        "message": "As permissões podem ser concedidas na caixa de diálogo pop-up da RoSeal na barra de ferramentas do navegador."
+        "message": "As permissões podem ser concedidas na caixa de diálogo pop-up do RoSeal na barra de ferramentas do navegador."
     },
     "settings_featureswitches_featureswitch_removeassociatedstorage": {
         "message": "Remover o armazenamento associado"
@@ -248,117 +248,117 @@
 
     // The context menu "..." item that appears in the item dropdown menu to view the icon asset
     "experience_contextmenu_viewiconasset": {
-        "message": "View Icon Asset"
+        "message": "Ver Ativo do Ícone"
     },
 
     // The context menu "..." item that appears in the experience dropdown menu to unblock/block the target experience
     "experience_contextmenu_unblock": {
-        "message": "Unblock"
+        "message": "Desbloquear"
     },
     "experience_contextmenu_block": {
-        "message": "Block"
+        "message": "Bloquear"
     },
 
     // "Universe ID {number}" text under About
     "experience_universeid": {
-        "message": "Universe ID"
+        "message": "ID de Universo"
     },
 
     "generalasset_productid": {
-        "message": "Product ID"
+        "message": "ID de Produto"
     },
     "collectibleasset_collectibleitemid": {
-        "message": "Collectible Item ID"
+        "message": "ID de Item Colecionável"
     },
     "collectibleasset_collectibleproductid": {
-        "message": "Collectible Product ID"
+        "message": "ID de Produto Colecionável"
     },
 
     "developerproduct_productid": {
-        "message": "Product ID"
+        "message": "ID de Produto"
     },
 
     "avataritem_refreshdetails": {
-        "message": "Refresh Item Details"
+        "message": "Atualizar Detalhes do Item"
     },
 
     "pass_productid": {
-        "message": "Product ID"
+        "message": "ID de Produto"
     },
 
     "bundle_productid": {
-        "message": "Product ID"
+        "message": "ID de Produto"
     },
 
     // Text to show if an experience is blocked, and to view it anyways
     "experience_blocked_title": {
-        "message": "This experience is blocked"
+        "message": "Essa Experiência Está Bloqueada"
     },
     "experience_blocked_viewanyway": {
-        "message": "View Anyway"
+        "message": "Ver Mesmo Assim"
     },
 
     "experience_store_selection_passes": {
         "message": "Passes"
     },
     "experience_store_selection_developerproducts": {
-        "message": "Developer Products"
+        "message": "Produtos de Desenvolvedor"
     },
     "experience_developerproducts_filtering_offsale": {
-        "message": "Show Off Sale Items"
+        "message": "Mostrar Itens Fora de Venda"
     },
     "experience_developerproducts_filtering_onsale": {
-        "message": "Show On Sale Items"
+        "message": "Mostrar itens à venda"
     },
     "experience_developerproducts_genericerror": {
-        "message": "An error occurred while trying to fetch developer products, please try again later."
+        "message": "Ocorreu um erro ao tentar buscar os produtos de desenvolvedor, por favor tente novamente mais tarde."
     },
     "experience_developerproducts_nodeveloperproducts": {
-        "message": "No developer products available."
+        "message": "Não há produtos de desenvolvedor disponíveis."
     },
     "experience_developerproducts_nodeveloperproductsfiltered": {
-        "message": "No developer products available from your search."
+        "message": "Não há produtos de desenvolvedor disponíveis a partir da sua pesquisa."
     },
 
     "experience_passes_filtering_offsale": {
-        "message": "Include Off Sale Items"
+        "message": "Incluir Itens Fora de Venda"
     },
     "experience_passes_filtering_onsale": {
-        "message": "Include On Sale Items"
+        "message": "Invluir Itens À Venda"
     },
     "experience_passes_filtering_unowned": {
-        "message": "Include Unowned Items"
+        "message": "Incluir Itens Não Adquiridos"
     },
     "experience_passes_filtering_owned": {
-        "message": "Include Owned Items"
+        "message": "Incluir Itens Adquiridos"
     },
     "experience_passes_filtering_user": {
-        "message": "View as:"
+        "message": "Ver como:"
     },
     "experience_passes_genericerror": {
-        "message": "An error occurred while trying to fetch passes, please try again later."
+        "message": "Ocorreu um erro ao tentar buscar passes. Por favor, tente novamente mais tarde."
     },
     "experience_passes_nopasses": {
-        "message": "No passes available."
+        "message": "Não há passes disponíveis."
     },
     "experience_passes_nopassesfiltered": {
-        "message": "No passes available from your search."
+        "message": "Não há passes disponíveis a partir da sua pesquisa"
     },
     "experience_passes_entry_owned": {
-        "message": "Owned"
+        "message": "Adquirido"
     },
     "experience_passes_entry_buy": {
-        "message": "Buy"
+        "message": "Comprar"
     },
     "experience_passes_addpass": {
-        "message": "Add Pass"
+        "message": "Adicionar Passe"
     },
 
     "experience_avatarrestricted": {
-        "message": "Your current avatar may not look or function as intended in this experience."
+        "message": "O seu avatar atual pode não parecer ou funcionar conforme o esperado nesta experiência."
     },
     "experience_avatartype_label": {
-        "message": "Avatar Type"
+        "message": "Tipo de Avatar"
     },
     "experience_avatartype_values_ForcedRthro": {
         "message": "Rthro"
@@ -373,69 +373,69 @@
         "message": "R15"
     },
     "experience_avatartype_values_PlayerChoice": {
-        "message": "User Choice"
+        "message": "Escolha do Usuário"
     },
 
     "item_offsale_long": {
-        "message": "This item is not currently for sale."
+        "message": "Este item não está à venda no momento."
     },
     "item_offsale_short": {
-        "message": "Off Sale"
+        "message": "Fora de Venda"
     },
 
     "developerproduct_offsale": {
-        "message": "This item is not currently for sale."
+        "message": "Este item não está à venda no momento."
     },
     "developerproduct_price": {
-        "message": "Price"
+        "message": "Preço"
     },
     "developerproduct_type": {
-        "message": "Type"
+        "message": "Tipo"
     },
     "developerproduct_type_value": {
-        "message": "Developer Product"
+        "message": "Produto de Desenvolvedor"
     },
     "developerproduct_created": {
-        "message": "Created"
+        "message": "Criado"
     },
     "developerproduct_updated": {
-        "message": "Updated"
+        "message": "Atualizado"
     },
     "developerproduct_description": {
-        "message": "Description"
+        "message": "Descrição"
     },
     "developerproduct_contextmenu_viewiconasset": {
-        "message": "View Icon Asset"
+        "message": "Ver ativo do ícone"
     },
 
     "ppupdatemodal_title": {
-        "message": "{sealEmoji} RoSeal Privacy Policy Update"
+        "message": "{sealEmoji} Atualização de Política de Privacidade do RoSeal"
     },
     "ppupdatemodal_description": {
-        "message": "We've updated RoSeal's Privacy Policy since the last time you visited.{lineBreak}{lineBreak}<privacyPolicyLink>Read the Privacy Policy</privacyPolicyLink>"
+        "message": "Atualizamos a Política de Privacidade da RoSeal desde a última vez que você a visitou.{lineBreak}{lineBreak}<privacyPolicyLink>Read the Privacy Policy</privacyPolicyLink>"
     },
     "ppupdatemodal_action": {
-        "message": "Accept"
+        "message": "Aceitar"
     },
 
     "robloxlogoutmodal_title": {
-        "message": "{sealEmoji} Are you sure?"
+        "message": "{sealEmoji} Tem certeza?"
     },
     "robloxlogoutmodal_body": {
-        "message": "By using Roblox's default logout button, you will invalidate the current session.{lineBreak}{lineBreak}You will not be able to login to this account with Accounts Manager without going through Roblox's login page again.{lineBreak}{lineBreak}To logout without invalidating the session, open Accounts Manager and click \"Logout\"."
+        "message": "Ao usar o botão padrão de encerrar sessão do Roblox, você invalidará a sessão atual.{lineBreak}{lineBreak}Você não poderá iniciar sessão nesta conta usando o Gerenciador de Contas sem passar pela página de iniciar sessão do Roblox novamente.{lineBreak}{lineBreak}Para encerrar a sessão sem invalidar a sessão, abra o gerenciador de contas e clique em \"Logout\"."
     },
     "robloxlogoutmodal_action": {
-        "message": "Logout"
+        "message": "Encerrar sessão"
     },
     "robloxlogoutmodal_neutral": {
-        "message": "Cancel"
+        "message": "Cancelar"
     },
 
     "experience_communitywiki_button": {
-        "message": "Unofficial Community Wiki"
+        "message": "Wiki não oficial da comunidade"
     },
     "experience_communitywiki_modal_title": {
-        "message": "{sealEmoji} You are leaving Roblox"
+        "message": "{sealEmoji} Você está saindo do Roblox"
     },
     "experience_communitywiki_modal_body": {
         "message": "Heads up, Robloxian – by clicking “continue,” you will be redirected to Fandom, which is not owned or operated by Roblox. They may have different terms and privacy policies.{lineBreak}{lineBreak}The unofficial Community Wiki you will be redirected to is part of the Roblox Interwiki Project on Fandom, and relies on community edits. Information may be controversial, vandalized, outdated, or manipulated."
