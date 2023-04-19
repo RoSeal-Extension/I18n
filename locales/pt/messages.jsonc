@@ -104,7 +104,7 @@
         "message": "<label>EXPERIMENTAL</label> As funções experimentais são instáveis e podem não se estabilizar ou são um teste para uma futura funcionalidade. IMPORTANTE: Não habilite essas funções a menos que você conheça os riscos.
     },
 
-    // "Donate" selection tab in menu and tit
+    // "Donate" selection tab in menu and title
     "settings_selection_donate": {
         "message": "Doar"
     },
@@ -130,120 +130,120 @@
         "message": "Cookies"
     },
     "settings_featureswitches_featureswitch_permissions_subtext": {
-        "message": "As permissões podem ser concedidas no diálogo popup da RoSeal na barra de ferramentas do navegador."
+        "message": "As permissões podem ser concedidas na caixa de diálogo pop-up da RoSeal na barra de ferramentas do navegador."
     },
     "settings_featureswitches_featureswitch_removeassociatedstorage": {
         "message": "Remover o armazenamento associado"
     },
     "settings_featureswitches_featureswitch_removeassociatedstorage_systemfeedback_success": {
-        "message": "Successfully removed associated storage for this feature."
+        "message": "Armazenamento associado removido com sucesso para essa função."
     },
     "settings_featureswitches_featureswitch_removeassociatedstorage_systemfeedback_error": {
-        "message": "An error occurred while removing associated storage for this feature, please try again later."
+        "message": "Um erro ocorrou ao remover o armazenamento associado a essa função, por favor, tente novamente mais tarde."
     },
 
     // "Blocked Experiences" selection tab in menu and title
     "settings_selection_blockedexperiences": {
-        "message": "Blocked Experiences"
+        "message": "Experiências Bloqueadas"
     },
     "settings_blockedexperiences_keywords_title": {
-        "message": "Blocked Keywords"
+        "message": "Palavras-chave Bloqueadas"
     },
     "settings_blockedexperiences_keywords_description": {
-        "message": "Keywords can be added and removed to block experiences whose name matches one of the added keywords. These experiences will not display on some common pages."
+        "message": "Palavras-chave podem ser adicionads e removidas para bloquear experiências cujo nome corresponde a uma das palavras-chave adicionadas. Essas experiências não serão exibidas em algumas páginas comuns."
     },
     "settings_blockedexperiences_keywords_count": {
-        "message": "You're blocking {keywordsNum} of {keywordsMax} experience keywords allowed:"
+        "message": "Você está bloqueando {keywordsNum} de {keywordsMax} palavras-chave permitidas:"
     },
     "settings_blockedexperiences_keywords_nokeywords": {
-        "message": "Add your first keyword to block to get started."
+        "message": "Adicione sua primeira palavra-chave para bloquear para começar."
     },
     "settings_blockedexperiences_keywords_inputplaceholder": {
-        "message": "Add a keyword..."
+        "message": "Adicionar uma Palavra-chave..."
     },
     "settings_blockedexperiences_keywords_add": {
-        "message": "Add"
+        "message": "Adicionar"
     },
     "settings_blockedexperiences_keywords_keyword_remove": {
-        "message": "Remove"
+        "message": "Remover"
     },
 
     "settings_blockedexperiences_individualexperiences_title": {
-        "message": "Individual Blocked Experiences"
+        "message": "Experiências individuais Bloqueadas"
     },
     "settings_blockedexperiences_individualexperiences_description": {
-        "message": "Individual experiences can be blocked and unblocked from the context menu on an experience page. These experiences will not display on some common pages."
+        "message": "Experiências individuais podem ser bloqueadas e desbloqueadas a partir do menu de contexto em uma página de experiência. Essas experiências não serão exibidas em algumas páginas comuns."
     },
     "settings_blockedexperiences_individualexperiences_count": {
-        "message": "You're blocking {experiencesNum} of {experiencesMax} experiences allowed:"
+        "message": "Você está bloqueando {experiencesNum} de {experiencesMax} experiências permitidas:"
     },
     "settings_blockedexperiences_individualexperiences_noexperiences": {
-        "message": "When you block an experience, it will show up here."
+        "message": "Quando você bloqueia uma experiência, ela aparecerá aqui."
     },
     "settings_blockedexperiences_individualexperiences_experience_universeid": {
-        "message": "Universe ID: {universeId}"
+        "message": "ID do Universo: {universeId}"
     },
     "settings_blockedexperiences_individualexperiences_experience_unblock": {
-        "message": "Unblock"
+        "message": "Desbloquear"
     },
 
     "settings_blockedexperiences_section_hide": {
-        "message": "Hide"
+        "message": "Ocultar"
     },
     "settings_blockedexperiences_section_show": {
-        "message": "Show"
+        "message": "Exibir"
     },
 
     // Account Settings dropdown strings
     "accountsmanager_entry_login_disabled": {
-        "message": "Logged In"
+        "message": "Conectado"
     },
     "accountsmanager_entry_login": {
-        "message": "Login"
+        "message": "Iniciar sessão"
     },
     "accountsmanager_entry_logout": {
-        "message": "Remove"
+        "message": "Remover"
     },
     "accountsmanager_title": {
-        "message": "{sealEmoji} Accounts Manager"
+        "message": "{sealEmoji} Administrador de contas"
     },
     "accountsmanager_noaccounts": {
-        "message": "You have no accounts. Add your current account to get started."
+        "message": "Você não tem nenhuma conta. Adicione sua conta atual para começar."
     },
     "accountsmanager_noaccounts_disabled": {
-        "message": "You have no accounts. Login and add your account to get started."
+        "message": "Você não tem nenhuma conta. Inicie uma sessão e adicione sua conta para começar."
     },
     "accountsmanager_maxaccounts": {
-        "message": "You have reached the maximum number of allowed accounts. ({accountLimit})"
+        "message": "Você atingiu o número máximo de contas permitidas. ({accountLimit})"
     },
     "accountsmanager_addaccount": {
-        "message": "You can add {moreAccounts, plural, =1 {1 more account.} other {# more accounts.}} ({accountsNum}/{accountLimit})"
+        "message": "Você pode adicionar {moreAccounts, plural, =1 {1 more account.} other {# more accounts.}} ({accountsNum}/{accountLimit})"
     },
     "accountsmanager_actions_addcurrentaccount": {
-        "message": "Add Current Account"
+        "message": "Adicionar conta atual"
     },
     "accountsmanager_actions_clearcurrentcookie": {
-        "message": "Logout"
+        "message": "Encerrar sessão"
     },
 
     "accountsmanager_success_AddCurrentRobloxAccount": {
-        "message": "Successfully added the current Roblox account to list."
+        "message": "Conta do Roblox atual adicionada com sucesso à lista."
     },
     "accountsmanager_success_LogoutRobloxAccount": {
-        "message": "Successfully invalidated session and removed Roblox account from list."
+        "message": "Sessão invalidada com sucesso e conta do Roblox removida da lista."
     },
 
     "accountsmanager_error_UnknownError": {
-        "message": "An unknown error occurred, please try again later."
+        "message": "Ocorreu um erro desconhecido. Por favor, tente novamente mais tarde."
     },
     "accountsmanager_error_EndpointError": {
-        "message": "An error occurred while trying to invalidate the session, please try again later."
+        "message": "Ocorreu um erro ao tentar invalidar a sessão, por favor, tente novamente mais tarde."
     },
     "accountsmanager_error_InvalidAccount": {
-        "message": "Invalid account, please refresh the page."
+        "message": "Conta inválida, por favor, atualize a página."
     },
     "accountsmanager_error_NoCookiePermission": {
-        "message": "RoSeal does not have permission to manage browser cookies. Please allow it in RoSeal's popup dialog from the browser toolbar."
+        "message": "RoSeal não tem permissão para gerenciar cookies do navegador. Por favor, permita isso na caixa de diálogo pop-up do RoSeal na barra de ferramentas do navegador."
     },
 
     // The context menu "..." item that appears in the item dropdown menu to view the icon asset
