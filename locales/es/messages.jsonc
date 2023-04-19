@@ -104,7 +104,7 @@
         "message": "<label>EXPERIMENTAL</label> Las funciones son inestables o pueden no estabilizarse o son una prueba de una función que está por venir. IMPORTANTE: No actives estas funciones a menos que conozcas el riesgo."
     },
 
-    // "Donate" selection tab in menu and tit
+    // "Donate" selection tab in menu and title
     "settings_selection_donate": {
         "message": "Donar"
     },
