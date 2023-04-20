@@ -1067,22 +1067,22 @@
         "message": "Divers"
     },
     "features_section_miscellaneous_itempages": {
-        "message": "Item Pages"
+        "message": "Pages des articles"
     },
     "features_section_miscellaneous_transactionspage": {
-        "message": "Transactions Page"
+        "message": "Page des transactions"
     },
     "features_section_miscellaneous_seals": {
-        "message": "Seals"
+        "message": "Phoques"
     },
     "features_section_miscellaneous_navbars": {
-        "message": "Navbars"
+        "message": "Barres de navigation"
     },
     "features_section_miscellaneous_avatarshop": {
-        "message": "Marketplace"
+        "message": "Marché"
     },
     "features_section_miscellaneous_chat": {
-        "message": "Chat"
+        "message": "Tchat"
     },
     "features_section_miscellaneous_avatar": {
         "message": "Avatar"
@@ -1091,110 +1091,110 @@
         "message": "Messages"
     },
     "features_section_miscellaneous_general": {
-        "message": "General"
+        "message": "Général"
     },
     "features_section_users": {
-        "message": "Users"
+        "message": "Utilisateurs"
     },
     "features_section_users_friendspage": {
-        "message": "Friends Page"
+        "message": "Page des amis"
     },
     "features_section_users_profile": {
-        "message": "Profile"
+        "message": "Profil"
     },
     "features_section_groups": {
-        "message": "Groups"
+        "message": "Groupes"
     },
     "features_section_groups_navigation": {
         "message": "Navigation"
     },
     "features_section_groups_walls": {
-        "message": "Walls"
+        "message": "Murs"
     },
 
     "features_RemoveHomePageUnnecessarySorts_title": {
-        "message": "Remove \"unnecessary\" sorts from the home sorts"
+        "message": "Supprimer les tris \"inutiles\" des tris d'accueil"
     },
     "features_RemoveHomePageUnnecessarySorts_description": {
-        "message": "When enabled, removes any sorts from the Home page that don't match \"Recommended For You\", \"Favorites\", \"Continue\", \"Friends Playing\", or \"Sponsored\"."
+        "message": "Lorsque cette option est activée, supprime tous les tris de la page d'accueil qui ne correspondent pas à \"Recommandé pour vous\", \"Favoris\", \"Continuer\", \"Jeux entre amis\" ou \"Sponsorisé\"."
     },
     "features_RefreshedHomeUserHeader_title": {
-        "message": "Refreshed user header"
+        "message": "En-tête utilisateur actualisé"
     },
     "features_RefreshedHomeUserHeader_description": {
-        "message": "When enabled, returns the old user header on the home page with a few differences."
+        "message": "Lorsqu'il est activé, renvoie l'ancien en-tête d'utilisateur sur la page d'accueil avec quelques différences."
     },
     "features_RefreshedHomeUserHeader_sub_BasedText_title": {
-        "message": "10% chance of a chosen message based on your public roles"
+        "message": "10 % de chances d'obtenir un message choisi en fonction de vos rôles publics"
     },
     "features_RefreshedHomeUserHeader_sub_BirthdayMessage_title": {
-        "message": "Birthday message"
+        "message": "Message d'anniversaire"
     },
     "features_RefreshedHomeUserHeader_sub_HelloText_title": {
-        "message": "\"Hello,\" greeting"
+        "message": "\"Bonjour,\" salutation"
     },
     "features_MoveExperienceSocialLinks_title": {
-        "message": "Move experience Social Links above Description in the About tab"
+        "message": "Déplacez les liens sociaux de l'expérience au-dessus de la description dans l'onglet À propos"
     },
     "features_AddCommunityWikiButton_title": {
-        "message": "Add a button to visit an unofficial Community Wiki of an experience in the About tab"
+        "message": "Ajouter un bouton pour visiter un wiki communautaire non officiel d'une expérience dans l'onglet À propos"
     },
     "features_AddCommunityWikiButton_description": {
-        "message": "When enabled, the extension will display a button to visit an unofficial wiki which is part of the Roblox Interwiki project on Fandom for the experience if it is known to RoSeal."
+        "message": "Lorsqu'elle est activée, l'extension affichera un bouton pour visiter un wiki non officiel qui fait partie du projet Roblox Interwiki sur Fandom pour l'expérience si elle est connue de RoSeal."
     },
     "features_RemovePrivateServersSectionInAbout_title": {
-        "message": "Remove private servers section in the About tab"
+        "message": "Supprimer la section des serveurs privés dans l'onglet À propos"
     },
     "features_DeveloperProductsInExperienceStore_title": {
-        "message": "Developer Products in experience store tab"
+        "message": "Produits de développeurs dans l'onglet Experience Store"
     },
     "features_DeveloperProductsInExperienceStore_description": {
-        "message": "When enabled, shows Developer Products in a dropdown under the Store tab. Creates a new page for viewing Developer Product details."
+        "message": "Lorsqu'il est activé, affiche les produits développés dans une liste déroulante sous l'onglet Magasin. Crée une nouvelle page pour afficher les détails du produit de développeur."
     },
     "features_ExperienceStoreItemFiltering_title": {
-        "message": "Filtering options in experience store tab"
+        "message": "Options de filtrage dans l'onglet Magasin"
     },
     "features_ExperienceStoreItemFiltering_description": {
-        "message": "When enabled, shows additional filtering options in the Passes and Developer Products tabs in experience store."
+        "message": "Lorsqu'il est activé, affiche des options de filtrage supplémentaires dans les onglets Passes et Produits de développeur dans la boutique d'expérience."
     },
     "features_WebsiteOfflineMode_title": {
-        "message": "Display as offline when only on the website"
+        "message": "Afficher comme hors ligne uniquement sur le site Web"
     },
     "features_WebsiteOfflineMode_description": {
-        "message": "When enabled, no one will know when you are on the website. It may take a few minutes to take effect."
+        "message": "Lorsqu'il est activé, personne ne saura quand vous êtes sur le site Web. Cela peut prendre quelques minutes pour faire effet."
     },
     "features_AccountsManager_title": {
         "message": "Gestionnaire des comptes"
     },
     "features_AccountsManager_description": {
-        "message": "When enabled, adds a new item to the top navigation that activates a popup for managing your accounts. Use at your own risk."
+        "message": "Lorsqu'il est activé, ajoute un nouvel élément à la navigation supérieure qui active une fenêtre contextuelle pour la gestion de vos comptes. À utiliser à vos risques et périls."
     },
     "features_ThemeSwitchThroughoutDay_title": {
-        "message": "Sync website theme with browser"
+        "message": "Synchroniser le thème du site Web avec le navigateur"
     },
     "features_CreatedUpdatedItemsTimeType_title": {
-        "message": "Change time type of Created/Updated/Joined fields on item pages"
+        "message": "Modifier le type d'heure des champs créés/mis à jour/rejoints sur les pages d'éléments"
     },
     "features_CreatedUpdatedItemsTimeType_description": {
-        "message": "When selected, changes the text of the Created, Updated, or Joined fields on applicable items to your selection type."
+        "message": "Lorsqu'il est sélectionné, modifie le texte des champs Créé, Mis à jour ou Rejoint sur les éléments applicables à votre type de sélection."
     },
     "features_CreatedUpdatedItemsTimeType_values_Disabled": {
-        "message": "Disabled"
+        "message": "Désactivé"
     },
     "features_CreatedUpdatedItemsTimeType_values_Relative": {
-        "message": "Relative"
+        "message": "Relatif"
     },
     "features_CreatedUpdatedItemsTimeType_values_Absolute": {
-        "message": "Absolute"
+        "message": "Absolu"
     },
     "features_CreatedUpdatedItemsTimeType_values_Regular": {
         "message": "Roblox Regular"
     },
     "features_PersistentTransactionsSelection_title": {
-        "message": "Persistent dropdown selections"
+        "message": "Sélections déroulantes persistantes"
     },
     "features_PersistentTransactionsSelection_description": {
-        "message": "When enabled, your last dropdown selections will persist, even after closing the page. It may break when you receive a new transaction type."
+        "message": "Lorsqu'elle est activée, vos dernières sélections déroulantes seront conservées, même après la fermeture de la page. Il peut se casser lorsque vous recevez un nouveau type de transaction."
     },
     "features_BetterRobuxNavigation_title": {
         "message": "Better Robux navigation"
