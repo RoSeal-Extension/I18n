@@ -6,7 +6,7 @@
         "message": "RoSeal - Experiencia Aumentada do Roblox"
     },
     "manifest_description": {
-        "message": "Melhora sua experiencia no site do roblox. E também temos focas."
+        "message": "Melhora sua experiencia no site do roblox. E também tem focas."
     },
 
     // Popover dropdown menu for the roseal item
@@ -438,37 +438,37 @@
         "message": "{sealEmoji} Você está saindo do Roblox"
     },
     "experience_communitywiki_modal_body": {
-        "message": "Heads up, Robloxian – by clicking “continue,” you will be redirected to Fandom, which is not owned or operated by Roblox. They may have different terms and privacy policies.{lineBreak}{lineBreak}The unofficial Community Wiki you will be redirected to is part of the Roblox Interwiki Project on Fandom, and relies on community edits. Information may be controversial, vandalized, outdated, or manipulated."
+        "message": "Atenção, Robloxiano - ao clicar em "continuar," você será redirecionado para o Fandom, que não é de propriedade ou operado pela Roblox. Eles podem ter termos e políticas de privacidade diferentes.{lineBreak}{lineBreak}O Wiki da comunidade não oficial para o qual você será redirecionado faz parte do Projeto Interwiki da Roblox no Fandom e depende de edições da comunidade. As informações podem ser controversas, vandalizadas, desatualizadas ou manipuladas."
     },
     "experience_communitywiki_modal_action": {
-        "message": "Continue"
+        "message": "Continuar"
     },
     "experience_communitywiki_modal_neutral": {
-        "message": "Cancel"
+        "message": "Cancelar"
     },
 
     "avataritem_successmessage_Purchase": {
-        "message": "You have successfully purchased this item."
+        "message": "Você comprou este item com sucesso."
     },
     "avataritem_errormessage_Load": {
-        "message": "You are being ratelimited, please try again later."
+        "message": "Você está sendo limitado pelo servidor, por favor, tente novamente mais tarde."
     },
     "avataritem_errormessage_Purchase": {
-        "message": "Could not purchase item, given reason: \"{reason}\""
+        "message": "Não foi possível comprar o item, razão apresentada: \"{reason}\""
     },
 
     "experience_media_alttext": {
         "message": "ALT"
     },
     "experience_media_viewthumbnailasset": {
-        "message": "View Thumbnail Asset"
+        "message": "Ver Ativo da Thumbnail"
     },
 
     "homeheader_secretmessage_Default1": {
-        "message": "Hello, user!"
+        "message": "Olá, usuário!"
     },
     "homeheader_secretmessage_Default2": {
-        "message": "We play Roblox!"
+        "message": "Nós jogamos Roblox!"
     },
     "homeheader_secretmessage_Default3": {
         "message": "ROBLOX"
@@ -477,126 +477,126 @@
         "message": "roblox"
     },
     "homeheader_secretmessage_Default5": {
-        "message": "Do you miss Tix?"
+        "message": "Você sente falta do Tix?"
     },
     "homeheader_secretmessage_Default6": {
-        "message": "seals"
+        "message": "focas"
     },
     "homeheader_secretmessage_Default7": {
-        "message": "Farewell, LegacyApi!"
+        "message": "Adeus, Api Clássica!"
     },
     "homeheader_secretmessage_Default8": {
-        "message": "Stop skipping school."
+        "message": "Pare de faltar às aulas."
     },
     "homeheader_secretmessage_Default9": {
-        "message": "Boycott bad experiences, refuse pirated experiences."
+        "message": "Boicote experiências ruins, recuse experiências pirateadas."
     },
     "homeheader_secretmessage_Default10": {
-        "message": "Be aware of self-defense and being deceived."
+        "message": "Esteja ciente da autodefesa e de ser enganado."
     },
     "homeheader_secretmessage_Default11": {
-        "message": "Playing is good for your brain, but too much playing can harm your health."
+        "message": "Jogar é bom para o seu cérebro, mas jogar demais pode prejudicar sua saúde."
     },
     "homeheader_secretmessage_Default12": {
-        "message": "Manage your time well and enjoy a healthy lifestyle."
+        "message": "Gerencie bem o seu tempo e desfrute de um estilo de vida saudável."
     },
     "homeheader_secretmessage_Default13": {
-        "message": "Imagine 1M Robux..."
+        "message": "Imagina 1M de Robux..."
     },
     "homeheader_secretmessage_Default14": {
-        "message": "How are you doing?"
+        "message": "Como vai você?"
     },
     "homeheader_secretmessage_Default15": {
-        "message": "We hope you are enjoying RoSeal."
+        "message": "Esperamos que você esteja gostando do RoSeal."
     },
     "homeheader_secretmessage_Default16": {
         "message": "Hehehe..."
     },
     "homeheader_secretmessage_Default17": {
-        "message": "Everything at Roblox happens behind everyone's eyes."
+        "message": "Na Roblox, tudo acontece por trás dos olhos de todo mundo."
     },
     "homeheader_secretmessage_Default18": {
         "message": "[ Content Deleted ]"
     },
     "homeheader_secretmessage_Default19": {
-        "message": "This is not a test message."
+        "message": "Isso não é uma mensagem de teste."
     },
     "homeheader_secretmessage_Default20": {
-        "message": "kitty."
+        "message": "gatinho."
     },
     "homeheader_secretmessage_Default21": {
-        "message": "bird."
+        "message": "pássaro."
     },
     "homeheader_secretmessage_Default22": {
-        "message": "Insert seal image here"
+        "message": "Inserir imagem de foca aqui."
     },
     "homeheader_secretmessage_Default23": {
-        "message": "Insert kitty image here"
+        "message": "Inserie imagem de gatinho aqui."
     },
     "homeheader_secretmessage_Default24": {
-        "message": "Insert bird image here"
+        "message": "Inserir imagem de pássaro aqui."
     },
     "homeheader_secretmessage_Default25": {
-        "message": "Roblox down?"
+        "message": "Roblox caiu?"
     },
     "homeheader_secretmessage_Default26": {
         "message": "David Baszucki"
     },
     "homeheader_secretmessage_Default27": {
-        "message": "Do you remember guests?"
+        "message": "Você lembra dos guests?"
     },
     "homeheader_secretmessage_Default28": {
-        "message": "Do you remember the old forums?"
+        "message": "Você se lembra dos fóruns antigos?"
     },
     "homeheader_secretmessage_Default29": {
-        "message": "Hi there!"
+        "message": "Olá!"
     },
     "homeheader_secretmessage_Default30": {
         "message": "um... yum?"
     },
 
     "homeheader_secretmessage_BetaTester1": {
-        "message": "A beta tester? Think you're cool?"
+        "message": "Um BetaTester? Acha que é legal?"
     },
     "homeheader_secretmessage_BetaTester2": {
-        "message": "I see you have access to some beta features."
+        "message": "Vejo que você tem acesso a algumas funções beta."
     },
     "homeheader_secretmessage_BetaTester3": {
-        "message": "Have fun with whatever you do today ;)"
+        "message": "Divirta-se com o que quer que você faça hoje ;)"
     },
     "homeheader_secretmessage_BetaTester4": {
-        "message": "Not as cool as a Soothsayer."
+        "message": "Não tão legal quanto um Soothsayer."
     },
     "homeheader_secretmessage_BetaTester5": {
-        "message": "One of the few."
+        "message": "Um dos poucos."
     },
 
     "homeheader_secretmessage_Soothsayer1": {
-        "message": "Nice public role you have there."
+        "message": "Bonito papel público que você tem aí."
     },
     "homeheader_secretmessage_Soothsayer2": {
-        "message": "You might have an @roblox.com email."
+        "message": "Você pode ter um email @roblox.com"
     },
     "homeheader_secretmessage_Soothsayer3": {
-        "message": "You don't even need to pay for experience access on paid-access experiences?????"
+        "message": "Você nem precisa pagar para ter acesso às experiências pagas que exigem pagamento para acessar?????"
     },
     "homeheader_secretmessage_Soothsayer4": {
-        "message": "Definitely cooler than a regular BetaTester."
+        "message": "Com certeza mais legal do que um BetaTester regular."
     },
     "homeheader_secretmessage_Soothsayer5": {
-        "message": "Is Internal Studio cool?"
+        "message": "Internal Studio é legal?"
     },
     "homeheader_secretmessage_Soothsayer6": {
-        "message": "How'd collectible testing go?"
+        "message": "Como foi o teste de colecionáveis?"
     },
 
     // Translators can put whatever message they like in here, remember: this is crowd-sourced
     "homeheader_secretmessage_NonEnglish": {
-        "message": "It doesn't look like RoSeal has been localized for your language :("
+        "message": "bah piá, partiu churras? - SilB"
     },
 
     "homeheader_birthdaymessage": {
-        "message": "Happy birthday,"
+        "message": "Feliz aniversário,"
     },
 
     "pinunlockmodal_title": {
