@@ -600,127 +600,127 @@
     },
 
     "pinunlockmodal_title": {
-        "message": "{sealEmoji} Account PIN Required"
+        "message": "{sealEmoji} PIN da Conta Exigido"
     },
     "pinunlockmodal_description": {
-        "message": "Enter the PIN attached to your account"
+        "message": "Digite o PIN associado à sua conta"
     },
     "pinunlockmodal_buttons_action": {
-        "message": "Unlock"
+        "message": "Destrancar"
     },
 
     "generalasset_created": {
-        "message": "Created"
+        "message": "Criado"
     },
     "generalasset_updated": {
-        "message": "Updated"
+        "message": "Atualizado"
     },
 
     "generalasset_contextmenu_deletefrominventory": {
-        "message": "Delete from Inventory"
+        "message": "Excluir do inventário"
     },
 
     "badge_created": {
-        "message": "Created"
+        "message": "Criado"
     },
     "badge_contextmenu_viewiconasset": {
-        "message": "View Icon Asset"
+        "message": "Vizualizar Ativo de Ícone "
     },
 
     "chat_sorttypes_label": {
-        "message": "Sort by"
+        "message": "Ordenar por"
     },
     "chat_sorttypes_type_Default": {
-        "message": "Default"
+        "message": "Padrão"
     },
     "chat_sorttypes_type_NewestFirst": {
-        "message": "Newest first"
+        "message": "Mais recentes primeiro"
     },
     "chat_sorttypes_type_OldestFirst": {
-        "message": "Oldest first"
+        "message": "Mais antigos primeiro"
     },
     "chat_sorttypes_type_UnreadFirst": {
-        "message": "Unread first"
+        "message": "Não lidos primeiro"
     },
 
     "pass_created": {
-        "message": "Created"
+        "message": "Criado"
     },
     "pass_updated": {
-        "message": "Updated"
+        "message": "Atualizado"
     },
     "pass_contextmenu_viewiconasset": {
-        "message": "View Icon Asset"
+        "message": "Vizualizar Ativo de Ícone"
     },
 
     "group_created": {
         "message": "Created"
     },
     "group_contextmenu_viewiconasset": {
-        "message": "View Icon Asset"
+        "message": "Vizualizar Ativo de Ícone"
     },
 
     "navbar_left_transactions": {
-        "message": "Transactions"
+        "message": "Transações"
     },
 
     "userlookup_placeholder": {
-        "message": "Username"
+        "message": "Nome de usuário"
     },
     "userlookup_directlookuperror": {
-        "message": "A user with that username was not found."
+        "message": "Não foi encontrado nenhum usuário com esse nome de usuário."
     },
 
     "discover_filters_label": {
-        "message": "Filters"
+        "message": "Filtros"
     },
     "discover_filters_inputhint": {
-        "message": "Number inputs left as 0 will be ignored"
+        "message": "Entradas de número deixadas como 0 serão ignoradas"
     },
     "discover_filters_applyfilters": {
-        "message": "Apply Filters"
+        "message": "Aplicar Filtros"
     },
     "discover_filters_likes": {
         "message": "Like %"
     },
     "discover_filters_playing": {
-        "message": "Playing"
+        "message": "Jogando"
     },
     "discover_filters_favorites": {
-        "message": "Favorites"
+        "message": "Favoritos"
     },
     "discover_filters_visits": {
-        "message": "Visits"
+        "message": "Visitas"
     },
     "discover_filters_genre": {
-        "message": "Genre"
+        "message": "Gênero"
     },
     "discover_filters_genre_values_All": {
-        "message": "All"
+        "message": "Todos"
     },
     "discover_filters_genre_values_Building": {
-        "message": "Building"
+        "message": "Construção"
     },
     "discover_filters_genre_values_Horror": {
-        "message": "Horror"
+        "message": "Terror"
     },
     "discover_filters_genre_values_TownandCity": {
-        "message": "Town and City"
+        "message": "Cidade e Vilarejo"
     },
     "discover_filters_genre_values_Military": {
-        "message": "Military"
+        "message": "Militar"
     },
     "discover_filters_genre_values_Comedy": {
-        "message": "Comedy"
+        "message": "Comédia"
     },
     "discover_filters_genre_values_Medieval": {
         "message": "Medieval"
     },
     "discover_filters_genre_values_Adventure": {
-        "message": "Adventure"
+        "message": "Aventura"
     },
     "discover_filters_genre_values_SciFi": {
-        "message": "Sci-Fi"
+        "message": "Ficção científica"
     },
     "discover_filters_genre_values_Naval": {
         "message": "Naval"
@@ -732,354 +732,354 @@
         "message": "RPG"
     },
     "discover_filters_genre_values_Sports": {
-        "message": "Sports"
+        "message": "Esportes"
     },
     "discover_filters_genre_values_Fighting": {
-        "message": "Fighting"
+        "message": "Luta"
     },
     "discover_filters_genre_values_Western": {
-        "message": "Western"
+        "message": "Velho Oeste"
     },
 
     "discover_filters_filter_minimum": {
-        "message": "Minimum"
+        "message": "Mínimo"
     },
     "discover_filters_filter_maximum": {
-        "message": "Maximum"
+        "message": "Máximo"
     },
 
     "experience_events_tab": {
-        "message": "Events"
+        "message": "Eventos"
     },
     "experience_events_noevents": {
-        "message": "No events available."
+        "message": "Não há eventos disponíveis."
     },
 
     "experience_badges_tab": {
-        "message": "Badges"
+        "message": "Emblemas"
     },
     "experience_badges_viewas": {
-        "message": "View as:"
+        "message": "Vizualizar como:"
     },
     "experience_badges_comparewith": {
-        "message": "Compare with:"
+        "message": "Comparar com:"
     },
 
     "experience_badges_filtering_active": {
-        "message": "Show Active Items"
+        "message": "Mostrar itens ativos"
     },
     "experience_badges_filtering_inactive": {
-        "message": "Show Inactive Items"
+        "message": "Mostrar itens inativos"
     },
     "experience_badges_filtering_obtained": {
-        "message": "Show Obtained Items"
+        "message": "Mostrar itens obtidos"
     },
     "experience_badges_filtering_unobtained": {
-        "message": "Show Unobtained Items"
+        "message": "Mostrar itens não obtidos"
     },
     "experience_badges_sorting_sortby_label": {
-        "message": "Sort By"
+        "message": "Ordenar por"
     },
     "experience_badges_sorting_sortdirection_label": {
-        "message": "Sort Direction"
+        "message": "Direção de ordenação"
     },
     "experience_badges_sorting_sortobtained_label": {
-        "message": "Sort Obtained"
+        "message": "Ordenar por itens obtidos"
     },
     "experience_badges_sorting_sortby_values_WonYesterday": {
-        "message": "Won Yesterday"
+        "message": "Ganhou ontem"
     },
     "experience_badges_sorting_sortby_values_WonAllTime": {
-        "message": "Won All-Time"
+        "message": "Ganhou desde sempre"
     },
     "experience_badges_sorting_sortby_values_AwardedTime": {
-        "message": "Awarded Latest"
+        "message": "Ganhou recentemente"
     },
     "experience_badges_sorting_sortby_values_Created": {
-        "message": "Created"
+        "message": "Criado"
     },
     "experience_badges_sorting_sortby_values_Name": {
-        "message": "Name"
+        "message": "Nome"
     },
     "experience_badges_sorting_sortdirection_values_Ascending": {
-        "message": "Ascending"
+        "message": "Crescente"
     },
     "experience_badges_sorting_sortdirection_values_Descending": {
-        "message": "Descending"
+        "message": "decrescente"
     },
     "experience_badges_sorting_sortobtained_values_First": {
-        "message": "First"
+        "message": "Primeiro"
     },
     "experience_badges_sorting_sortobtained_values_Last": {
-        "message": "Last"
+        "message": "Último"
     },
     "experience_badges_sorting_sortobtained_values_Default": {
-        "message": "Default"
+        "message": "Padrão"
     },
     "experience_badges_sortsandfilters": {
-        "message": "Sorts and Filters"
+        "message": "Ordenações e Filtros"
     },
 
     "experience_badges_nofilteredbadges": {
-        "message": "There are no filtered badges to display."
+        "message": "Não há emblemas filtrados para exibir."
     },
 
     "experience_badges_nobadges": {
-        "message": "No badges available."
+        "message": "Não há emblemas disponíveis."
     },
     "experience_badges_completed": {
-        "message": "Completed: {numCompleted}/{numTotal}"
+        "message": "Concluído: {numCompleted}/{numTotal}"
     },
     "experience_badges_wonyesterday": {
-        "message": "% Won Yesterday"
+        "message": "% Ganhou Ontem"
     },
     "experience_badges_usercompleted": {
         "message": "{numCompleted}/{numTotal}"
     },
     "experience_badges_awardederror": {
-        "message": "An error occurred while fetching badges' awarded info, please try again later."
+        "message": "Ocorreu um erro ao buscar as informações dos emblemas concedidos, por favor tente novamente mais tarde."
     },
     "experience_badges_genericerror": {
-        "message": "An error occurred while fetching badges, please try again later."
+        "message": "Ocorreu um erro ao buscar os emblemas, por favor tente novamente mais tarde."
     },
 
     "experience_badges_badge_inactive": {
-        "message": "Inactive"
+        "message": "Inativo"
     },
     "experience_badges_badged_yesterdaypercentage": {
         "message": "{percentage}%"
     },
     "experience_badges_badge_awarded": {
-        "message": "Awarded {time}"
+        "message": "concedido {time}"
     },
     "experience_badges_badge_wonalltime": {
-        "message": "Won All-Time"
+        "message": "Ganhou desde sempre"
     },
     "experience_badges_badge_wonyesterday": {
-        "message": "Won Yesterday"
+        "message": "Ganhou Ontem"
     },
 
     "experience_privatenote_title": {
-        "message": "Private Note"
+        "message": "Anotação privada"
     },
     "experience_privatenote_hint": {
-        "message": "This note is private, only you will be able to see it."
+        "message": "Esta anotação é privada, somente você poderá vê-la."
     },
     "experience_privatenote_placeholder": {
-        "message": "Specific temperaments or settings for this experience..."
+        "message": "Temperamentos específicos ou configurações para esta experiência..."
     },
     "experience_privatenote_length": {
         "message": "{length}/{maxLength}"
     },
     "experience_privatenote_buttons_cancel": {
-        "message": "Cancel"
+        "message": "Cancelar"
     },
     "experience_privatenote_buttons_save": {
-        "message": "Save"
+        "message": "Salvar"
     },
     "experience_privatenote_readmore": {
-        "message": "Read More"
+        "message": "Ler Mais"
     },
     "experience_privatenote_readless": {
-        "message": "Read Less"
+        "message": "Ler Menos"
     },
 
     "itempages_contextmenu_reportabuse": {
-        "message": "Report Abuse"
+        "message": "Reportar Abuso"
     },
 
     "userprofile_actions_cancelrequest": {
-        "message": "Cancel"
+        "message": "Cancelar"
     },
     "userprofile_actions_cancelledrequest": {
-        "message": "Cancelled"
+        "message": "Cancelado"
     },
 
     "userprofile_lastonline": {
-        "message": "Last Online"
+        "message": "Última vez online"
     },
 
     "userfriends_newtitle": {
-        "message": "{displayName} (@{username})'s Friends"
+        "message": "Amigos de {displayName} (@{username})"
     },
 
     "userfriends_contextmenu_unfriend": {
-        "message": "Unfriend"
+        "message": "remover amigo"
     },
     "userfriends_contextmenu_unfollow": {
-        "message": "Unfollow"
+        "message": "Parar de seguir"
     },
     "userfriends_contextmenu_forceunfollow": {
-        "message": "Force Unfollow"
+        "message": "Forçar à Parar de Seguir"
     },
     "userfriends_contextmenu_block": {
-        "message": "Block"
+        "message": "Bloquear"
     },
 
     "userfriends_systemfeedback_success_unfriend": {
-        "message": "Successfully unfriended user."
+        "message": "Amizade removida com sucesso."
     },
     "userfriends_systemfeedback_success_unfollow": {
-        "message": "Successfully unfollowed user."
+        "message": "Usuário deixou de ser seguido com sucesso."
     },
     "userfriends_systemfeedback_success_forceunfollow": {
-        "message": "Successfully forced user to unfollow you."
+        "message": "Usuário forçado a deixar de seguir você com sucesso."
     },
     "userfriends_systemfeedback_success_block": {
-        "message": "Successfully blocked user."
+        "message": "Usuário bloqueado com sucesso."
     },
     "userfriends_systemfeedback_genericerror": {
-        "message": "An error occurred processing the action, please try again later."
+        "message": "Ocorreu um erro ao processar a ação, tente novamente mais tarde."
     },
 
     "avatarshop_colorfilters_title": {
-        "message": "Colors"
+        "message": "Cores"
     },
     "avatarshop_colorfilters_items_primary": {
-        "message": "Primary"
+        "message": "Primário"
     },
     "avatarshop_colorfilters_items_secondary": {
-        "message": "Secondary"
+        "message": "Secundário"
     },
     "avatarshop_colorfilters_items_any": {
-        "message": "Any"
+        "message": "Qualquer"
     },
 
     "group_pendingrequests": {
-        "message": "Pending Join Requests"
+        "message": "Solicitações de entrada pendentes"
     },
     "group_typesswitch_joined": {
-        "message": "Joined"
+        "message": "Entrou"
     },
     "group_typesswitch_pending": {
-        "message": "Pending"
+        "message": "Pendente"
     },
     "group_discovergroups": {
-        "message": "Discover Groups"
+        "message": "Descobrir Grupos"
     },
     "group_creategroup": {
-        "message": "Create Group"
+        "message": "Criar Grupo"
     },
 
     "messages_getunreadr2e_pending": {
-        "message": "Pending"
+        "message": "Pendente"
     },
     "messages_getunreadr2e_error": {
-        "message": "Error"
+        "message": "Erro"
     },
     "messages_getunreadr2e_request": {
-        "message": "Request Unread R2Es"
+        "message": "Solicitar R2Es não lidos"
     },
     "messages_getunreadr2e_download": {
-        "message": "Download Unread R2Es"
+        "message": "Biaxar R2Es não lidos"
     },
     "messages_getunreadr2e_markread": {
-        "message": "Mark Unread R2Es Read"
+        "message": "Marcar R2Es não lidos como lidos"
     },
 
     "messages_getunreadr2e_markreadmodal_title": {
-        "message": "Mark R2Es as Read"
+        "message": "Marcar R2Es como lidos"
     },
     "messages_getunreadr2e_markreadmodal_body": {
-        "message": "Would you like to mark the R2E messages as read?"
+        "message": "Você gostaria de marcar as mensagens R2E como lidas?"
     },
     "messages_getunreadr2e_markreadmodal_action": {
-        "message": "Mark as Read"
+        "message": "Marcar como lido"
     },
     "messages_getunreadr2e_markreadmodal_neutral": {
-        "message": "Cancel"
+        "message": "Cancelar"
     },
 
     "force2svmodal_title": {
-        "message": "{sealEmoji} Two Step Verification Required"
+        "message": "{sealEmoji} Verificação em Duas Etapas Exigida"
     },
     "force2svmodal_body": {
-        "message": "Due to security concerns, you must have two step verification enabled to use this feature.{lineBreak}{lineBreak}Would you like to go to your account security settings?"
+        "message": "Devido a preocupações de segurança, você deve ter a verificação em duas etapas ativada para usar esse recurso.{lineBreak}{lineBreak}Você gostaria de ir para as configurações de segurança da sua conta?"
     },
     "force2svmodal_action": {
         "message": "Ok"
     },
     "force2svmodal_neutral": {
-        "message": "Cancel"
+        "message": "Cancelar"
     },
 
     "group_pendingrequests_systemfeedback_genericerror": {
-        "message": "Failed to cancel pending join request, please try again later."
+        "message": "Não foi possível cancelar a solicitação de entrada pendente, tente novamente mais tarde."
     },
     "group_pendingrequests_systemfeedback_success": {
-        "message": "Successfully cancelled pending join request."
+        "message": "Pedido de entrada pendente cancelado com sucesso."
     },
 
     "group_foldercustomization_modal_title": {
-        "message": "{sealEmoji} Customize Group Folder"
+        "message": "{sealEmoji} Personalizar pasta de grupo"
     },
     "group_foldercustomization_modal_field_name": {
-        "message": "Name"
+        "message": "Nome"
     },
     "group_foldercustomization_modal_lengthtip": {
         "message": "{length}/{maxLength}"
     },
     "group_foldercustomization_modal_field_name_placeholder": {
-        "message": "Folder Name"
+        "message": "Nome da Pasta"
     },
     "group_foldercustomization_modal_field_color": {
-        "message": "Color"
+        "message": "Cor"
     },
     "group_foldercustomization_modal_action": {
-        "message": "Save"
+        "message": "Salvar"
     },
     "group_foldercustomization_modal_neutral": {
-        "message": "Cancel"
+        "message": "Cancelar"
     },
 
     "transactions_hide0robuxamount": {
-        "message": "Hide transactions with 0 Robux amount"
+        "message": "Ocultar transações com valor de 0 Robux."
     },
     "transactions_hideprivateservers": {
-        "message": "Hide Private Server transactions"
+        "message": "Ocultar transações de servidor privado"
     },
 
     "features_section_home": {
-        "message": "Home"
+        "message": "Página inicial"
     },
     "features_section_home_general": {
-        "message": "General"
+        "message": "Geral"
     },
     "features_section_experiences": {
-        "message": "Experiences"
+        "message": "Experiências"
     },
     "features_section_experiences_discover": {
-        "message": "Discover"
+        "message": "Descobrir"
     },
     "features_section_experiences_general": {
-        "message": "General"
+        "message": "Geral"
     },
     "features_section_experiences_store": {
-        "message": "Store"
+        "message": "Loja"
     },
     "features_section_account": {
-        "message": "Account"
+        "message": "Conta"
     },
     "features_section_account_general": {
-        "message": "General"
+        "message": "Geral"
     },
     "features_section_miscellaneous": {
-        "message": "Miscellaneous"
+        "message": "Diversos"
     },
     "features_section_miscellaneous_itempages": {
-        "message": "Item Pages"
+        "message": "Páginas de Itens"
     },
     "features_section_miscellaneous_transactionspage": {
-        "message": "Transactions Page"
+        "message": "Página de transações"
     },
     "features_section_miscellaneous_seals": {
-        "message": "Seals"
+        "message": "Focas"
     },
     "features_section_miscellaneous_navbars": {
-        "message": "Navbars"
+        "message": "barras de navegação"
     },
     "features_section_miscellaneous_avatarshop": {
-        "message": "Marketplace"
+        "message": "Loja de Avatar"
     },
     "features_section_miscellaneous_chat": {
         "message": "Chat"
@@ -1088,107 +1088,107 @@
         "message": "Avatar"
     },
     "features_section_miscellaneous_messages": {
-        "message": "Messages"
+        "message": "Mensagens"
     },
     "features_section_miscellaneous_general": {
-        "message": "General"
+        "message": "Geral"
     },
     "features_section_users": {
-        "message": "Users"
+        "message": "Usuários"
     },
     "features_section_users_friendspage": {
-        "message": "Friends Page"
+        "message": "Página de Amigos"
     },
     "features_section_users_profile": {
-        "message": "Profile"
+        "message": "Perfil"
     },
     "features_section_groups": {
-        "message": "Groups"
+        "message": "Grupos"
     },
     "features_section_groups_navigation": {
-        "message": "Navigation"
+        "message": "Navegação"
     },
     "features_section_groups_walls": {
-        "message": "Walls"
+        "message": "Paredes de chat"
     },
 
     "features_RemoveHomePageUnnecessarySorts_title": {
-        "message": "Remove \"unnecessary\" sorts from the home sorts"
+        "message": "Remover classificações \"desnecessárias\" das classificações da pagina inicial"
     },
     "features_RemoveHomePageUnnecessarySorts_description": {
-        "message": "When enabled, removes any sorts from the Home page that don't match \"Recommended For You\", \"Favorites\", \"Continue\", \"Friends Playing\", or \"Sponsored\"."
+        "message": "Quando ativado, remove quaisquer tipos de classificações da página inicial que não correspondam \"Recomendados para você\", \"Favoritos\", \"Continue\", \"Amigos Jogando\", ou \"Patrocinados\"."
     },
     "features_RefreshedHomeUserHeader_title": {
-        "message": "Refreshed user header"
+        "message": "Cabeçalho do usuário atualizado"
     },
     "features_RefreshedHomeUserHeader_description": {
-        "message": "When enabled, returns the old user header on the home page with a few differences."
+        "message": "Quando ativado, retorna o antigo cabeçalho do usuário na página inicial com algumas diferenças."
     },
     "features_RefreshedHomeUserHeader_sub_BasedText_title": {
-        "message": "10% chance of a chosen message based on your public roles"
+        "message": "10% de chance de uma mensagem escolhida com base em seus cargos públicos."
     },
     "features_RefreshedHomeUserHeader_sub_BirthdayMessage_title": {
-        "message": "Birthday message"
+        "message": "Mensagem de aniversário"
     },
     "features_RefreshedHomeUserHeader_sub_HelloText_title": {
-        "message": "\"Hello,\" greeting"
+        "message": "saudações \"Olá,\""
     },
     "features_MoveExperienceSocialLinks_title": {
-        "message": "Move experience Social Links above Description in the About tab"
+        "message": "Mova os links sociais das experiências para cima da descrição, na aba sobre"
     },
     "features_AddCommunityWikiButton_title": {
-        "message": "Add a button to visit an unofficial Community Wiki of an experience in the About tab"
+        "message": "Adicione um botão para visitar uma Wiki da comunidade não oficial de uma experiência na aba Sobre"
     },
     "features_AddCommunityWikiButton_description": {
-        "message": "When enabled, the extension will display a button to visit an unofficial wiki which is part of the Roblox Interwiki project on Fandom for the experience if it is known to RoSeal."
+        "message": "Quando habilitada, a extensão exibirá um botão para visitar uma wiki não oficial que faz parte do projeto Roblox Interwiki na plataforma Fandom para a experiência, caso seja reconhecida pelo RoSeal."
     },
     "features_RemovePrivateServersSectionInAbout_title": {
-        "message": "Remove private servers section in the About tab"
+        "message": "Remover a seção de servidores privados na aba Sobre"
     },
     "features_DeveloperProductsInExperienceStore_title": {
-        "message": "Developer Products in experience store tab"
+        "message": "Produtos de desenvolvedor na aba Loja das experiências"
     },
     "features_DeveloperProductsInExperienceStore_description": {
-        "message": "When enabled, shows Developer Products in a dropdown under the Store tab. Creates a new page for viewing Developer Product details."
+        "message": "Quando habilitado, mostra os Produtos de Desenvolvedor em um menu suspenso sob a aba da Loja. Cria uma nova página para visualizar os detalhes do Produto de Desenvolvedor."
     },
     "features_ExperienceStoreItemFiltering_title": {
-        "message": "Filtering options in experience store tab"
+        "message": "Opções de filtro na aba Loja das experiências"
     },
     "features_ExperienceStoreItemFiltering_description": {
-        "message": "When enabled, shows additional filtering options in the Passes and Developer Products tabs in experience store."
+        "message": "Quando habilitado, exibe opções adicionais de filtro nas abas de Passe e Produtos de Desenvolvedor na loja das experiências."
     },
     "features_WebsiteOfflineMode_title": {
-        "message": "Display as offline when only on the website"
+        "message": "Exibir como offline quando estiver apenas no site."
     },
     "features_WebsiteOfflineMode_description": {
-        "message": "When enabled, no one will know when you are on the website. It may take a few minutes to take effect."
+        "message": "Quando habilitado, ninguém saberá quando você estiver no site. Pode levar alguns minutos para entrar em vigor."
     },
     "features_AccountsManager_title": {
-        "message": "Accounts manager"
+        "message": "Gerenciador de contas"
     },
     "features_AccountsManager_description": {
-        "message": "When enabled, adds a new item to the top navigation that activates a popup for managing your accounts. Use at your own risk."
+        "message": "Quando habilitado, adiciona um novo item na navegação superior que ativa uma janela pop-up para gerenciar suas contas. Use por sua própria conta e risco."
     },
     "features_ThemeSwitchThroughoutDay_title": {
-        "message": "Sync website theme with browser"
+        "message": "Sincronizar o tema do site com o navegador"
     },
     "features_CreatedUpdatedItemsTimeType_title": {
-        "message": "Change time type of Created/Updated/Joined fields on item pages"
+        "message": "Alterar o tipo de hora dos campos Criado/Atualizado/Participação nas páginas de itens."
     },
     "features_CreatedUpdatedItemsTimeType_description": {
-        "message": "When selected, changes the text of the Created, Updated, or Joined fields on applicable items to your selection type."
+        "message": "Quando selecionado, altera o texto dos campos Criado, Atualizado ou Entrou em itens aplicáveis para o tipo de seleção escolhido."
     },
     "features_CreatedUpdatedItemsTimeType_values_Disabled": {
-        "message": "Disabled"
+        "message": "Desabilitado"
     },
     "features_CreatedUpdatedItemsTimeType_values_Relative": {
-        "message": "Relative"
+        "message": "Relativo"
     },
     "features_CreatedUpdatedItemsTimeType_values_Absolute": {
-        "message": "Absolute"
+        "message": "Absoluto"
     },
     "features_CreatedUpdatedItemsTimeType_values_Regular": {
-        "message": "Roblox Regular"
+        "message": "Padrão do Roblox"
     },
     "features_PersistentTransactionsSelection_title": {
         "message": "Persistent dropdown selections"
