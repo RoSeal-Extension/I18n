@@ -217,7 +217,7 @@
         "message": "Você atingiu o número máximo de contas permitidas. ({accountLimit})"
     },
     "accountsmanager_addaccount": {
-        "message": "Você pode adicionar {moreAccounts, plural, =1 {1 more account.} other {# more accounts.}} ({accountsNum}/{accountLimit})"
+        "message": "Você pode adicionar {moreAccounts, plural, =1 {mais 1 conta.} other {mais # contas.}} ({accountsNum}/{accountLimit})"
     },
     "accountsmanager_actions_addcurrentaccount": {
         "message": "Adicionar conta atual"
