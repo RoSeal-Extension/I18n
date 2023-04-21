@@ -6,7 +6,7 @@
         "message": "RoSeal - Experiencia Aumentada do Roblox"
     },
     "manifest_description": {
-        "message": "Melhora sua experiencia no site do roblox. E também tem focas."
+        "message": "Melhore sua experiência no site do Roblox. E também há focas."
     },
 
     // Popover dropdown menu for the roseal item
@@ -37,10 +37,10 @@
         "message": "Ir para a pagina anterior"
     },
     "errorpage_home": {
-        "message": "Inicio"
+        "message": "Pagina inicial"
     },
     "errorpage_home_title": {
-        "message": "Voltar para o Inicio"
+        "message": "Voltar para a página inicial"
     },
 
     // Hello variant of the home header feature
@@ -483,7 +483,7 @@
         "message": "focas"
     },
     "homeheader_secretmessage_Default7": {
-        "message": "Adeus, Api Clássica!"
+        "message": "Adeus, LegacyApi!"
     },
     "homeheader_secretmessage_Default8": {
         "message": "Pare de faltar às aulas."
@@ -1287,144 +1287,144 @@
         "message": "Filtros e ordenações de emblemas de experiência"
     },
     "features_BetterExperiencesBadges_sub_DisableRobloxBadges_title": {
-        "message": "Disable Roblox's badges section"
+        "message": "Desativar a seção de emblemas do Roblox."
     },
     "features_UserProfileLastOnline_title": {
-        "message": "Show user's last online date"
+        "message": "Mostrar a data da última vez que o usuário esteve online."
     },
     "features_ChangeNavFriendsHash_title": {
-        "message": "Change default users' friends tab from the navigation bar"
+        "message": "Alterar a aba padrão de amigos do usuário na barra de navegação."
     },
     "features_ChangeNavFriendsHash_values_friends": {
-        "message": "Friends"
+        "message": "Amigos"
     },
     "features_ChangeNavFriendsHash_values_following": {
-        "message": "Following"
+        "message": "Seguindo"
     },
     "features_ChangeNavFriendsHash_values_followers": {
-        "message": "Followers"
+        "message": "Seguidores"
     },
     "features_ChangeNavFriendsHash_values_friendrequests": {
-        "message": "Friend Requests"
+        "message": "Solicitações de amizade"
     },
     "features_HideFriendRequestsCount_title": {
-        "message": "Hide friend requests count in the navigation bar"
+        "message": "Ocultar a contagem de solicitações de amizade na barra de navegação."
     },
     "features_SealImages_title": {
-        "message": "Replace all images with seal images"
+        "message": "Substituir todas as imagens por imagens de focas"
     },
     "features_ExperienceMediaAltTextButton_title": {
-        "message": "Better experience thumbnail alt text button"
+        "message": "Botão de texto alternativo em thumbnails de experiências melhorada."
     },
     "features_ShowExperienceAvatarType_title": {
-        "message": "Show experience restricted avatar type in statistics"
+        "message": "Mostrar o tipo de avatar restrito pela experiência nas estatísticas"
     },
     "features_ShowExperienceAvatarType_description": {
-        "message": "When enabled, adds an \"Avatar Type\" statistic to the experience statistics. It will also display a warning over the play button if your current avatar will be restricted in the experience."
+        "message": "Quando habilitado, adiciona uma estatística de \"Tipo de Avatar\" às estatísticas da experiência. Também exibirá um aviso sobre o botão de reprodução se o avatar atual do usuário for restrito na experiência."
     },
     "features_AssetDeleteFromInventory_title": {
-        "message": "\"Delete from Inventory\" button in asset item menu"
+        "message": "Botão \"excluir do inventário\" no menu de item de ativos"
     },
     "features_AssetDeleteFromInventory_description": {
-        "message": "When enabled, adds a \"Delete from Inventory\" button in an asset item's item menu if it doesn't already exist. Due to security concerns, a two step verification challenge is required."
+        "message": "Quando ativado, adiciona um botão \"Excluir do Inventário\" no menu do item do ativo, se ele ainda não existir. Devido a preocupações com segurança, um desafio de verificação de duas etapas é exigido."
     },
     "features_UserFriendsPageNewTitle_title": {
-        "message": "Show username in user's friends page title"
+        "message": "Mostrar o nome de usuário no título da página de amigos do usuário."
     },
     "features_ExperiencePrivateNote_title": {
-        "message": "Experience private note in About section"
+        "message": "Anotações privada da experiência na seção Sobre."
     },
     "features_AccountPinPromptMoreLocations_title": {
-        "message": "Show the account pin prompt in more locations"
+        "message": "Mostrar a solicitação de PIN da conta em mais locais."
     },
     "features_AccountPinPromptMoreLocations_description": {
-        "message": "When enabled, shows the account pin unlock prompt in more locations where it usually directs to account settings."
+        "message": "Quando ativado, mostra a solicitação de desbloqueio de PIN da conta em mais locais, onde normalmente direciona para as configurações da conta."
     },
     "features_GetUnreadR2EButton_title": {
-        "message": "Request Right-to-Erasures CSV file button"
+        "message": "Botão de solicitação do arquivo CSV do Right-to-Erasures."
     },
     "features_DiscoverFilters_title": {
-        "message": "Discover Filters"
+        "message": "Filtros da página descobrir"
     },
     "features_DiscoverFilters_description": {
-        "message": "When enabled, adds a Filters section to the Discover page. It allows for filtering of all sorts by like percentage, favorite count, player count, visit count and genre."
+        "message": "Quando ativado, adiciona uma seção de Filtros à página Descobrir. Isso permite a filtragem por porcentagem de curtidas, contagem de favoritos, contagem de jogadores, contagem de visitas e gênero."
     },
     "features_RoSealSettingDropdown_title": {
-        "message": "\"RoSeal Settings\" item in the Roblox settings dropdown"
+        "message": "Botão \"Configurações do RoSeal\" no menu suspenso de configurações do Roblox."
     },
     "features_AccurateHomeContinueSort_title": {
-        "message": "Accurate non-curated home page \"Continue\" sort"
+        "message": "Classificação precisa do \"Continue\" na página inicial não curada."
     },
     "features_CSSFixes_title": {
-        "message": "Various (CSS) styling fixes around the site"
+        "message": "Várias correções de estilos (CSS) em todo o site."
     },
     "features_MoveExperienceEvents_title": {
-        "message": "Move experience events to it's own tab"
+        "message": "Mover eventos de experiência para sua própria aba"
     },
     "features_RefreshlessGroupNavigation_title": {
-        "message": "Page refreshless group navigation"
+        "message": "Navegação em grupo sem atualização da página"
     },
     "features_RefreshlessGroupNavigation_description": {
-        "message": "When enabled, navigating to another group from the Group Organization/Pending groups will not require a page refresh."
+        "message": "Quando habilitada, a navegação para outro grupo a partir da organização de grupos/grupos pendentes não exigirá uma atualização da página."
     },
     "features_ItemAdditionalProductInfo_title": {
-        "message": "Show additional product information"
+        "message": "Mostrar informações adicionais do produto"
     },
     "features_RefreshAvatarItemDetails_title": {
-        "message": "Refresh avatar item details button"
+        "message": "Botão de atualizar detalhes do item de avatar"
     },
     "features_MarketplaceColorFilters_title": {
-        "message": "Marketplace color filters"
+        "message": "Filtros de cores da loja de avatar"
     },
     "features_RefreshAvatarItemDetails_sub_FastFreeBuy_title": {
-        "message": "Fast Free avatar item purchases"
+        "message": "Compras rápidas de itens grátis"
     },
 
     "popup_extensionname": {
         "message": "{sealEmoji} RoSeal"
     },
     "popup_actions_robloxgroup": {
-        "message": "Roblox Group"
+        "message": "Grupo do Roblox"
     },
     "popup_actions_settings": {
-        "message": "Settings"
+        "message": "Configurações"
     },
     "popup_actions_website": {
-        "message": "Website"
+        "message": "Site"
     },
     "popup_permissions": {
-        "message": "Optional Permissions"
+        "message": "Permissões Opcionais"
     },
     "popup_permissions_cookie": {
         "message": "Cookies"
     },
 
     "popup_extensiondata_show": {
-        "message": "Show"
+        "message": "Exibir"
     },
     "popup_extensiondata_hide": {
-        "message": "Hide"
+        "message": "Ocultar"
     },
     "popup_extensiondata": {
-        "message": "Extension Data"
+        "message": "Dados de extensão"
     },
     "popup_extensiondata_download": {
-        "message": "Download Data"
+        "message": "Baixar Dados"
     },
     "popup_extensiondata_request": {
-        "message": "Request Data"
+        "message": "Solicitar Dados"
     },
     "popup_extensiondata_import": {
-        "message": "Import"
+        "message": "Importar"
     },
     "popup_extensiondata_import_alert_succcess": {
-        "message": "Successfully imported data."
+        "message": "Dados importados com sucesso."
     },
     "popup_extensiondata_import_alert_error": {
-        "message": "Please try again with a valid data file."
+        "message": "Por favor, tente novamente com um arquivo de dados válido."
     },
 
     "buymeacoffee": {
-        "message": "{coffeeEmoji} Buy me a coffee"
+        "message": "{coffeeEmoji} Me pague um café"
     }
 }
