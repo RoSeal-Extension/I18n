@@ -1197,234 +1197,234 @@
         "message": "Lorsqu'elle est activée, vos dernières sélections déroulantes seront conservées, même après la fermeture de la page. Il peut se casser lorsque vous recevez un nouveau type de transaction."
     },
     "features_BetterRobuxNavigation_title": {
-        "message": "Better Robux navigation"
+        "message": "Navigation Robux Meilleure"
     },
     "features_BetterRobuxNavigation_description": {
-        "message": "When enabled, adds a Plus button next to Robux in the top navigation to redirect to Robux purchases, and adds a new Transactions item to the left navigation."
+        "message": "Lorsqu'il est activé, ajoute un bouton Plus à côté de Robux dans la navigation supérieure pour rediriger vers les achats Robux, et ajoute un nouvel élément Transactions à la navigation de gauche."
     },
     "features_MoveAgeBracket_title": {
-        "message": "Move the age bracket to the left navigation"
+        "message": "Déplacer la tranche d'âge vers la navigation de gauche"
     },
     "features_DisableDesktopApp_title": {
-        "message": "Remove the Desktop App banner"
+        "message": "Supprimer la bannière de l'application de bureau"
     },
     "features_ViewItemIconThumbnailAssets_title": {
-        "message": "Add links to view thumbnail/icon asset of applicable items"
+        "message": "Ajouter des liens pour afficher les miniatures/icônes des éléments applicables"
     },
     "features_ViewItemIconThumbnailAssets_description": {
-        "message": "When enabled, adds links in the context menu of items' detail pages to view the icon asset of the item if applicable. This also applies to experience media in the carousel on experience details."
+        "message": "Lorsqu'il est activé, ajoute des liens dans le menu contextuel des pages de détail des éléments pour afficher l'icône de l'élément, le cas échéant. Ceci s'applique également aux supports d'expérience dans le carrousel sur les détails de l'expérience."
     },
     "features_UserFriendsPageContextMenu_title": {
-        "message": "Quick actions in the user's friends page"
+        "message": "Actions rapide dans la page des amis de l'utilisateur"
     },
     "features_UserFriendsPageContextMenu_description": {
-        "message": "When enabled, adds or replaces a context menu on friend cards in the user's friend page for quick actions. Quick actions include blocking, unfriend, unfollowing, and force unfollow."
+        "message": "Lorsqu'il est activé, ajoute ou remplace un menu contextuel sur les cartes d'amis dans la page d'amis de l'utilisateur pour des actions rapides. Les actions rapides incluent le blocage, l'annulation de la liste d'amis, le désabonnement et le désabonnement forcé."
     },
     "features_UserProfileAddMargins_title": {
-        "message": "Add padding between sections in the user profile page"
+        "message": "Ajouter un remplissage entre les sections de la page de profil utilisateur"
     },
     "features_ItemPagesMoveReportAbuse_title": {
-        "message": "Move the Report Abuse buttons to the item context menus if applicable"
+        "message": "Déplacez les boutons Signaler un abus vers les menus contextuels des éléments, si possible"
     },
     "features_ItemMentions_title": {
-        "message": "Formatted user/group mentions in item descriptions"
+        "message": "Mentions d'utilisateur/groupe formatées dans les descriptions d'éléments"
     },
     "features_ItemMentions_description": {
-        "message": "When enabled, @user, user links, and group links from item descriptions will be transformed into a link with an avatar headshot or group thumbnail image."
+        "message": "Lorsqu'il est activé, @utilisateur, les liens d'utilisateurs et les liens de groupe des descriptions d'éléments seront transformés en un lien avec une photo d'avatar ou une icône de groupe."
     },
     "features_UserProfileCancelRequest_title": {
-        "message": "Cancel outgoing friend request on profile"
+        "message": "Annuler la demande d'ami sortant sur le profil"
     },
     "features_ListPendingGroups_title": {
-        "message": "List groups with pending join requests in navigation"
+        "message": "Répertorier les groupes avec des demandes pour rejoindre en attente dans la navigation"
     },
     "features_ListPendingGroups_description": {
-        "message": "When enabled, adds tabs navigation with \"Pending\" to the groups navigation."
+        "message": "Lorsqu'il est activé, ajoute la navigation par onglets avec \"En attente\" à la navigation des groupes."
     },
     "features_DisableAvatarShopInfiniteScrolling_title": {
-        "message": "Disable Marketplace infinite scrolling"
+        "message": "Désactiver le défilement infini dans le Marketplace"
     },
     "features_DisableGroupWallInfiniteScrolling_title": {
-        "message": "Disable Group Wall infinite scrolling"
+        "message": "Désactiver le défilement infini dans le mur de groupe"
     },
     "features_BlockExperiences_title": {
-        "message": "Block experiences"
+        "message": "Bloquer des expériences"
     },
     "features_BlockExperiences_description": {
-        "message": "When enabled, adds a new section for blocking individual experiences and keywords from showing on some common pages to RoSeal settings. You can block individual experiences from the context menu on an experience's details page."
+        "message": "Lorsqu'il est activé, ajoute une nouvelle section pour empêcher l'affichage d'expériences et de mots clés individuels sur certaines pages communes aux paramètres RoSeal. Vous pouvez bloquer des expériences individuelles à partir du menu contextuel de la page de détails d'une expérience."
     },
     "features_ShowExperienceUniverseId_title": {
-        "message": "Show Experience Universe ID"
+        "message": "Montrer l'id de l'univers de l'expérience"
     },
     "features_Enable3DThumbnailDynamicLighting_title": {
-        "message": "Enable 3D Thumbnail Dynamic Lighting"
+        "message": "Activer l'éclairage dynamique des miniatures 3D"
     },
     "features_ChatSortTypes_title": {
-        "message": "Chat sort types"
+        "message": "Types de tri du tchat"
     },
     "features_ChatSortTypes_description": {
-        "message": "When enabled, adds new sort types to the Chat box for filtering through conversations."
+        "message": "Lorsqu'il est activé, ajoute de nouveaux types de tri à la boîte de discussion pour filtrer les conversations."
     },
     "features_Transactions0RobuxAmountToggle_title": {
-        "message": "Toggle to hide transactions with 0 Robux amounts"
+        "message": "Bascule pour cacher les transactions avec un montant de 0 Robux"
     },
     "features_TransactionsPrivateServersToggle_title": {
-        "message": "Toggle to hide Private Server transactions"
+        "message": "Bascule pour cacher les transaction de serveur privé"
     },
     "features_GroupOrganization_title": {
-        "message": "Group organization customization"
+        "message": "Personnalisation de organisation des groupes"
     },
     "features_GroupOrganization_description": {
-        "message": "When enabled, allows for reorganizing groups and creating group folders with drag and drop. Group folders can then be further customized."
+        "message": "Lorsqu'il est activé, permet de réorganiser les groupes et de créer des dossiers de groupe par glisser-déposer. Les dossiers de groupe peuvent ensuite être personnalisés davantage."
     },
     "features_BetterExperienceBadges_title": {
-        "message": "Better experience badges list"
+        "message": "Liste des badges d'experience meilleure"
     },
     "features_BetterExperienceBadges_description": {
-        "message": "When enabled, adds a new tab to experience details that contains a better experience badges list. You can also view inactive badges, awarded dates for badges, and compare your badges with another user. This is unstable for experiences with a significantly large number of badges."
+        "message": "Lorsqu'il est activé, ajoute un nouvel onglet aux détails de l'expérience qui contient une meilleure liste de badges d'expérience. Vous pouvez également afficher les badges inactifs, les dates d'attribution des badges et comparer vos badges avec ceux d'un autre utilisateur. Ceci est instable pour les expériences avec un nombre significativement élevé de badges."
     },
     "features_BetterExperiencesBadges_sub_FiltersAndSorts_title": {
-        "message": "Experience badges filters and sorts"
+        "message": "Expérimentez les filtres et les tris des badges"
     },
     "features_BetterExperiencesBadges_sub_DisableRobloxBadges_title": {
-        "message": "Disable Roblox's badges section"
+        "message": "Désactiver la section des badges de Roblox"
     },
     "features_UserProfileLastOnline_title": {
-        "message": "Show user's last online date"
+        "message": "Afficher la dernière date de connexion de l'utilisateur"
     },
     "features_ChangeNavFriendsHash_title": {
-        "message": "Change default users' friends tab from the navigation bar"
+        "message": "Modifier l'onglet amis des utilisateurs par défaut depuis la barre de navigation"
     },
     "features_ChangeNavFriendsHash_values_friends": {
-        "message": "Friends"
+        "message": "Amis"
     },
     "features_ChangeNavFriendsHash_values_following": {
-        "message": "Following"
+        "message": "Suivant"
     },
     "features_ChangeNavFriendsHash_values_followers": {
-        "message": "Followers"
+        "message": "Abonnés"
     },
     "features_ChangeNavFriendsHash_values_friendrequests": {
-        "message": "Friend Requests"
+        "message": "Demandes d'amis"
     },
     "features_HideFriendRequestsCount_title": {
-        "message": "Hide friend requests count in the navigation bar"
+        "message": "Masquer le nombre de demandes d'amis dans la barre de navigation"
     },
     "features_SealImages_title": {
-        "message": "Replace all images with seal images"
+        "message": "Remplacer toutes les images par des images de phoques"
     },
     "features_ExperienceMediaAltTextButton_title": {
-        "message": "Better experience thumbnail alt text button"
+        "message": "Meilleure expérience du bouton de texte alternatif de la vignette"
     },
     "features_ShowExperienceAvatarType_title": {
-        "message": "Show experience restricted avatar type in statistics"
+        "message": "Afficher le type d'avatar restreint à l'expérience dans les statistiques"
     },
     "features_ShowExperienceAvatarType_description": {
-        "message": "When enabled, adds an \"Avatar Type\" statistic to the experience statistics. It will also display a warning over the play button if your current avatar will be restricted in the experience."
+        "message": "Lorsqu'il est activé, ajoute une statistique \"Type d'avatar\" aux statistiques d'expérience. Il affichera également un avertissement sur le bouton de lecture si votre avatar actuel sera restreint dans l'expérience."
     },
     "features_AssetDeleteFromInventory_title": {
-        "message": "\"Delete from Inventory\" button in asset item menu"
+        "message": "Bouton \"Supprimer de l'inventaire\" dans le menu de l'élément d'actif"
     },
     "features_AssetDeleteFromInventory_description": {
-        "message": "When enabled, adds a \"Delete from Inventory\" button in an asset item's item menu if it doesn't already exist. Due to security concerns, a two step verification challenge is required."
+        "message": "Lorsqu'il est activé, ajoute un bouton \"Supprimer de l'inventaire\" dans le menu des éléments d'un élément d'actif s'il n'existe pas déjà. Pour des raisons de sécurité, un défi de vérification en deux étapes est requis."
     },
     "features_UserFriendsPageNewTitle_title": {
-        "message": "Show username in user's friends page title"
+        "message": "Afficher le nom d'utilisateur dans le titre de la page d'amis de l'utilisateur"
     },
     "features_ExperiencePrivateNote_title": {
-        "message": "Experience private note in About section"
+        "message": "Découvrez la note privée dans la section À propos"
     },
     "features_AccountPinPromptMoreLocations_title": {
-        "message": "Show the account pin prompt in more locations"
+        "message": "Afficher l'invite du code PIN du compte dans plus d'emplacements"
     },
     "features_AccountPinPromptMoreLocations_description": {
-        "message": "When enabled, shows the account pin unlock prompt in more locations where it usually directs to account settings."
+        "message": "Lorsqu'il est activé, affiche l'invite de déverrouillage du code PIN du compte à plusieurs endroits où il dirige généralement vers les paramètres du compte."
     },
     "features_GetUnreadR2EButton_title": {
-        "message": "Request Right-to-Erasures CSV file button"
+        "message": "Bouton de demande de fichier CSV avec droit à l'effacement"
     },
     "features_DiscoverFilters_title": {
-        "message": "Discover Filters"
+        "message": "Découvrir les filtres"
     },
     "features_DiscoverFilters_description": {
-        "message": "When enabled, adds a Filters section to the Discover page. It allows for filtering of all sorts by like percentage, favorite count, player count, visit count and genre."
+        "message": "Lorsqu'il est activé, ajoute une section Filtres à la page Découvrir. Il permet de filtrer toutes sortes par pourcentage, nombre de favoris, nombre de joueurs, nombre de visites et genre."
     },
     "features_RoSealSettingDropdown_title": {
-        "message": "\"RoSeal Settings\" item in the Roblox settings dropdown"
+        "message": "Élément \"Paramètres RoSeal\" dans la liste déroulante des paramètres Roblox"
     },
     "features_AccurateHomeContinueSort_title": {
-        "message": "Accurate non-curated home page \"Continue\" sort"
+        "message": "Tri précis de la page d'accueil non organisée \"Continuer\""
     },
     "features_CSSFixes_title": {
-        "message": "Various (CSS) styling fixes around the site"
+        "message": "Divers correctifs de style (CSS) autour du site"
     },
     "features_MoveExperienceEvents_title": {
-        "message": "Move experience events to it's own tab"
+        "message": "Déplacer les événements d'expérience vers son propre onglet"
     },
     "features_RefreshlessGroupNavigation_title": {
-        "message": "Page refreshless group navigation"
+        "message": "Navigation de groupe sans actualisation de la page"
     },
     "features_RefreshlessGroupNavigation_description": {
-        "message": "When enabled, navigating to another group from the Group Organization/Pending groups will not require a page refresh."
+        "message": "Lorsqu'il est activé, la navigation vers un autre groupe à partir de l'organisation du groupe/des groupes en attente ne nécessitera pas d'actualisation de la page."
     },
     "features_ItemAdditionalProductInfo_title": {
-        "message": "Show additional product information"
+        "message": "Afficher des informations supplémentaires sur le produit"
     },
     "features_RefreshAvatarItemDetails_title": {
-        "message": "Refresh avatar item details button"
+        "message": "Bouton d'actualisation des détails de l'élément d'avatar"
     },
     "features_MarketplaceColorFilters_title": {
-        "message": "Marketplace color filters"
+        "message": "Filtres de couleur de la place du Marketplace"
     },
     "features_RefreshAvatarItemDetails_sub_FastFreeBuy_title": {
-        "message": "Fast Free avatar item purchases"
+        "message": "Achats d'articles d'avatar gratuits et rapides"
     },
 
     "popup_extensionname": {
         "message": "{sealEmoji} RoSeal"
     },
-    "popup_actions_robloxgroup": {
-        "message": "Roblox Group"
+    "groupe popup_actions_roblox": {
+        "message": "Groupe Roblox"
     },
     "popup_actions_settings": {
-        "message": "Settings"
+        "message": "Paramètres"
     },
     "popup_actions_website": {
-        "message": "Website"
+        "message": "Site Web"
     },
     "popup_permissions": {
-        "message": "Optional Permissions"
+        "message": "Autorisations facultatives"
     },
     "popup_permissions_cookie": {
         "message": "Cookies"
     },
 
     "popup_extensiondata_show": {
-        "message": "Show"
+        "message": "Afficher"
     },
     "popup_extensiondata_hide": {
-        "message": "Hide"
+        "message": "Masquer"
     },
     "popup_extensiondata": {
-        "message": "Extension Data"
+        "message": "Données d'extension"
     },
     "popup_extensiondata_download": {
-        "message": "Download Data"
+        "message": "Télécharger les données"
     },
     "popup_extensiondata_request": {
-        "message": "Request Data"
+        "message": "Demander des données"
     },
     "popup_extensiondata_import": {
-        "message": "Import"
+        "message": "Importer"
     },
-    "popup_extensiondata_import_alert_succcess": {
-        "message": "Successfully imported data."
+    "popup_extensiondata_import_alert_success": {
+        "message": "Données importées avec succès."
     },
     "popup_extensiondata_import_alert_error": {
-        "message": "Please try again with a valid data file."
+        "message": "Veuillez réessayer avec un fichier de données valide."
     },
 
     "buymeacoffee": {
-        "message": "{coffeeEmoji} Buy me a coffee"
+        "message": "{coffeeEmoji} Achete moi un café!"
     }
 }
