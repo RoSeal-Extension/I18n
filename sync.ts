@@ -1,4 +1,4 @@
-import { parse as parseJSONC } from "https://deno.land/std@0.182.0/jsonc/mod.ts";
+import { parse as parseJSONC } from "https://deno.land/std@0.184.0/jsonc/mod.ts";
 
 type MessagesFile = Record<string, {
     message: string;
