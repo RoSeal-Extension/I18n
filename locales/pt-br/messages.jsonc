@@ -118,13 +118,13 @@
     },
     // feature switch details
     "settings_featureswitches_featureswitch_disabled": {
-        "message": "Esta função foi desativada pelo RoSeal"
+        "message": "Esta função foi desativada pela RoSeal"
     },
     "settings_featureswitches_featureswitch_exclusivebrowsers": {
         "message": "Exclusivo para os seguintes navegadores: {browsers}"
     },
     "settings_featureswitches_featureswitch_permissions_title": {
-        "message": "Permissão necessária"
+        "message": "Permissão exigida"
     },
     "settings_featureswitches_featureswitch_permissions_values_Cookies": {
         "message": "Cookies"
@@ -405,14 +405,14 @@
         "message": "Descrição"
     },
     "developerproduct_contextmenu_viewiconasset": {
-        "message": "Ver ativo do ícone"
+        "message": "Ver ativo de ícone"
     },
 
     "ppupdatemodal_title": {
         "message": "{sealEmoji} Atualização de Política de Privacidade do RoSeal"
     },
     "ppupdatemodal_description": {
-        "message": "Atualizamos a Política de Privacidade da RoSeal desde a última vez que você a visitou.{lineBreak}{lineBreak}<privacyPolicyLink>Read the Privacy Policy</privacyPolicyLink>"
+        "message": "Atualizamos a Política de Privacidade da RoSeal desde a última vez que você a visitou.{lineBreak}{lineBreak}<privacyPolicyLink>Leia a Política de Privacidade</privacyPolicyLink>"
     },
     "ppupdatemodal_action": {
         "message": "Aceitar"
@@ -438,7 +438,7 @@
         "message": "{sealEmoji} Você está saindo do Roblox"
     },
     "experience_communitywiki_modal_body": {
-        "message": "Atenção, Robloxiano - ao clicar em "continuar," você será redirecionado para o Fandom, que não é de propriedade ou operado pela Roblox. Eles podem ter termos e políticas de privacidade diferentes.{lineBreak}{lineBreak}O Wiki da comunidade não oficial para o qual você será redirecionado faz parte do Projeto Interwiki da Roblox no Fandom e depende de edições da comunidade. As informações podem ser controversas, vandalizadas, desatualizadas ou manipuladas."
+        "message": "Atenção, Robloxiano - ao clicar em \"continuar,\" você será redirecionado para o Fandom, que não é de propriedade ou operado pela Roblox. Eles podem ter termos e políticas de privacidade diferentes.{lineBreak}{lineBreak}O Wiki da comunidade não oficial para o qual você será redirecionado faz parte do Projeto Interwiki da Roblox no Fandom e depende de edições da comunidade. As informações podem ser controversas, vandalizadas, desatualizadas ou manipuladas."
     },
     "experience_communitywiki_modal_action": {
         "message": "Continuar"
@@ -461,7 +461,7 @@
         "message": "ALT"
     },
     "experience_media_viewthumbnailasset": {
-        "message": "Ver Ativo da Thumbnail"
+        "message": "Ver Ativo de Thumbnail"
     },
 
     "homeheader_secretmessage_Default1": {
