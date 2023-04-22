@@ -451,7 +451,7 @@
         "message": "You have successfully purchased this item."
     },
     "avataritem_errormessage_Load": {
-        "message": "You are being ratelimited, please try again later."
+        "message": "You are being rate limited by Roblox, please try again later."
     },
     "avataritem_errormessage_Purchase": {
         "message": "Could not purchase item, given reason: \"{reason} ({realReason})\""
@@ -1397,6 +1397,9 @@
     },
     "popup_permissions_cookie": {
         "message": "Cookies"
+    },
+    "popup_permissions_cookietooltip": {
+        "message": "Grant this permission if you would like to use Accounts Manager. You can revoke this permission at any time."
     },
 
     "popup_extensiondata_show": {
