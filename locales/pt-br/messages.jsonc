@@ -1149,25 +1149,25 @@
         "message": "Produtos de desenvolvedor na aba \"Loja\" das experiências"
     },
     "features_DeveloperProductsInExperienceStore_description": {
-        "message": "Quando habilitado, mostra os Produtos de Desenvolvedor em um menu suspenso sob a aba \"Loja\". Cria uma nova página para visualizar os detalhes do Produto de Desenvolvedor."
+        "message": "Quando ativado, mostra os Produtos de Desenvolvedor em um menu suspenso sob a aba \"Loja\". Cria uma nova página para visualizar os detalhes do Produto de Desenvolvedor."
     },
     "features_ExperienceStoreItemFiltering_title": {
         "message": "Opções de filtro na aba \"Loja\" das experiências"
     },
     "features_ExperienceStoreItemFiltering_description": {
-        "message": "Quando habilitado, exibe opções adicionais de filtro nas abas \"Passes\" e \"Produtos de Desenvolvedor\" na loja das experiências."
+        "message": "Quando ativado, exibe opções adicionais de filtro nas abas \"Passes\" e \"Produtos de Desenvolvedor\" na loja das experiências."
     },
     "features_WebsiteOfflineMode_title": {
         "message": "Exibir como offline quando estiver apenas no site."
     },
     "features_WebsiteOfflineMode_description": {
-        "message": "Quando habilitado, ninguém saberá quando você estiver no site. Pode levar alguns minutos para entrar em vigor."
+        "message": "Quando ativado, ninguém saberá quando você estiver no site. Pode levar alguns minutos para entrar em vigor."
     },
     "features_AccountsManager_title": {
         "message": "Gerenciador de contas"
     },
     "features_AccountsManager_description": {
-        "message": "Quando habilitado, adiciona um novo item na navegação superior que ativa uma janela pop-up para gerenciar suas contas. Use por sua própria conta e risco."
+        "message": "Quando ativado, adiciona um novo item na navegação superior que ativa uma janela pop-up para gerenciar suas contas. Use por sua própria conta e risco."
     },
     "features_ThemeSwitchThroughoutDay_title": {
         "message": "Sincronizar o tema do site com o navegador"
@@ -1320,13 +1320,13 @@
         "message": "Exibir o tipo de avatar restrito pela experiência nas estatísticas"
     },
     "features_ShowExperienceAvatarType_description": {
-        "message": "Quando habilitado, adiciona uma estatística de \"Tipo de Avatar\" às estatísticas da experiência. Também exibirá um aviso sobre o botão 'play' caso o avatar atual do usuário seja restrito na experiência."
+        "message": "Quando ativado, adiciona uma estatística de \"Tipo de Avatar\" às estatísticas da experiência. Também exibirá um aviso sobre o botão 'play' caso o avatar atual do usuário seja restrito na experiência."
     },
     "features_AssetDeleteFromInventory_title": {
-        "message": "Botão \"excluir do inventário\" no menu de item de ativos"
+        "message": "Botão \"excluir do inventário\" no menu de item do ativo"
     },
     "features_AssetDeleteFromInventory_description": {
-        "message": "Quando ativado, adiciona um botão \"Excluir do Inventário\" no menu do item do ativo, se ele ainda não existir. Devido a preocupações com segurança, um desafio de verificação de duas etapas é exigido."
+        "message": "Quando ativado, adiciona um botão \"Excluir do Inventário\" no menu de item do ativo, se ele ainda não existir. Devido a preocupações com segurança, um desafio de verificação de duas etapas é exigido."
     },
     "features_UserFriendsPageNewTitle_title": {
         "message": "Exibir o nome de usuário no título da página de amigos do usuário."
