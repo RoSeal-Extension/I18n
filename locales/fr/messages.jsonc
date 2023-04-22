@@ -6,7 +6,7 @@
         "message": "RoSeal - Expérience Roblox augmentée"
     },
     "manifest_description": {
-        "message": "Améliore ton experience sur le site de Roblox. Et il y a aussi des phoques."
+        "message": "Améliore ton expérience sur le site de Roblox. Et il y a aussi des phoques."
     },
 
     // Popover dropdown menu for the roseal item
@@ -98,7 +98,7 @@
         "message": "Les Basculement des Fonctionnalités sont un moyen rapide de basculer les fonctionnalités de RoSeal désactiver et activer selon vos préférences."
     },
     "settings_about_featureswitches_beta": {
-        "message": "Les fonctionnalités <label>BÉTA</label> ne sont pas prêt pour être activés automatiquement; cependant, il devrait y avoir un risque minimal en les activent. Tout le monde est le bienvenu à activer et donner leur retour."
+        "message": "Les fonctionnalités <label>BÉTA</label> ne sont pas prêt pour être activés automatiquement; cependant, il devrait y avoir un risque minimal en les activent. Tout le monde est invité à activer et donner leur retour."
     },
     "settings_about_featureswitches_experimental": {
         "message": "Les fonctionnalités <label>EXPÉRIMENTAL</label> son soit instable qui peut ne pas se stabiliser ou un test pour une fonctionnalité à venir. IMPORTANT: N'activer ces fonctionnalités sauf si vous connaissez le risque."
