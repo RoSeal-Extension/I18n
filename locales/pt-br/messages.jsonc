@@ -248,7 +248,7 @@
 
     // The context menu "..." item that appears in the item dropdown menu to view the icon asset
     "experience_contextmenu_viewiconasset": {
-        "message": "Ver Ativo de Ícone"
+        "message": "Vizualizar Ativo de Ícone"
     },
 
     // The context menu "..." item that appears in the experience dropdown menu to unblock/block the target experience
@@ -305,10 +305,10 @@
         "message": "Produtos de Desenvolvedor"
     },
     "experience_developerproducts_filtering_offsale": {
-        "message": "Mostrar Itens Fora de Venda"
+        "message": "Exibir Itens Fora de Venda"
     },
     "experience_developerproducts_filtering_onsale": {
-        "message": "Mostrar itens à venda"
+        "message": "Exibir itens à venda"
     },
     "experience_developerproducts_genericerror": {
         "message": "Ocorreu um erro ao tentar buscar os produtos de desenvolvedor, por favor tente novamente mais tarde."
@@ -405,7 +405,7 @@
         "message": "Descrição"
     },
     "developerproduct_contextmenu_viewiconasset": {
-        "message": "Ver ativo de ícone"
+        "message": "Vizualizar ativo de ícone"
     },
 
     "ppupdatemodal_title": {
@@ -461,7 +461,7 @@
         "message": "ALT"
     },
     "experience_media_viewthumbnailasset": {
-        "message": "Ver Ativo de Thumbnail"
+        "message": "Vizualizar Ativo de Thumbnail"
     },
 
     "homeheader_secretmessage_Default1": {
@@ -766,16 +766,16 @@
     },
 
     "experience_badges_filtering_active": {
-        "message": "Mostrar itens ativos"
+        "message": "Exibir itens ativos"
     },
     "experience_badges_filtering_inactive": {
-        "message": "Mostrar itens inativos"
+        "message": "Exibir itens inativos"
     },
     "experience_badges_filtering_obtained": {
-        "message": "Mostrar itens obtidos"
+        "message": "Exibir itens obtidos"
     },
     "experience_badges_filtering_unobtained": {
-        "message": "Mostrar itens não obtidos"
+        "message": "Exibir itens não obtidos"
     },
     "experience_badges_sorting_sortby_label": {
         "message": "Ordenar por"
@@ -1254,7 +1254,7 @@
         "message": "Quando ativado, adiciona uma nova seção para bloquear experiências e palavras-chave individuais de aparecerem em algumas páginas comuns nas configurações de RoSeal. Você pode bloquear experiências individuais no menu de contexto na página de detalhes de uma experiência."
     },
     "features_ShowExperienceUniverseId_title": {
-        "message": "Mostrar o ID de universo da experiência"
+        "message": "Exibir o ID de universo da experiência"
     },
     "features_Enable3DThumbnailDynamicLighting_title": {
         "message": "Ativar Iluminação Dinâmica em thumbnails 3D"
@@ -1290,7 +1290,7 @@
         "message": "Desativar a seção de emblemas do Roblox."
     },
     "features_UserProfileLastOnline_title": {
-        "message": "Mostrar a data da última vez que o usuário esteve online."
+        "message": "Exibir a data da última vez que o usuário esteve online."
     },
     "features_ChangeNavFriendsHash_title": {
         "message": "Alterar a aba padrão de amigos do usuário na barra de navegação."
@@ -1314,13 +1314,13 @@
         "message": "Substituir todas as imagens por imagens de focas"
     },
     "features_ExperienceMediaAltTextButton_title": {
-        "message": "Botão de texto alternativo em thumbnails de experiências melhorada."
+        "message": "Botão de texto alternativo em thumbnails de experiências melhorado."
     },
     "features_ShowExperienceAvatarType_title": {
-        "message": "Mostrar o tipo de avatar restrito pela experiência nas estatísticas"
+        "message": "Exibir o tipo de avatar restrito pela experiência nas estatísticas"
     },
     "features_ShowExperienceAvatarType_description": {
-        "message": "Quando habilitado, adiciona uma estatística de \"Tipo de Avatar\" às estatísticas da experiência. Também exibirá um aviso sobre o botão de reprodução se o avatar atual do usuário for restrito na experiência."
+        "message": "Quando habilitado, adiciona uma estatística de \"Tipo de Avatar\" às estatísticas da experiência. Também exibirá um aviso sobre o botão 'play' caso o avatar atual do usuário seja restrito na experiência."
     },
     "features_AssetDeleteFromInventory_title": {
         "message": "Botão \"excluir do inventário\" no menu de item de ativos"
@@ -1329,13 +1329,13 @@
         "message": "Quando ativado, adiciona um botão \"Excluir do Inventário\" no menu do item do ativo, se ele ainda não existir. Devido a preocupações com segurança, um desafio de verificação de duas etapas é exigido."
     },
     "features_UserFriendsPageNewTitle_title": {
-        "message": "Mostrar o nome de usuário no título da página de amigos do usuário."
+        "message": "Exibir o nome de usuário no título da página de amigos do usuário."
     },
     "features_ExperiencePrivateNote_title": {
         "message": "Anotações privada da experiência na seção Sobre."
     },
     "features_AccountPinPromptMoreLocations_title": {
-        "message": "Mostrar a solicitação de PIN da conta em mais locais."
+        "message": "Exibir a solicitação de PIN da conta em mais locais."
     },
     "features_AccountPinPromptMoreLocations_description": {
         "message": "Quando ativado, mostra a solicitação de desbloqueio de PIN da conta em mais locais, onde normalmente direciona para as configurações da conta."
@@ -1368,7 +1368,7 @@
         "message": "Quando habilitada, a navegação para outro grupo a partir da organização de grupos/grupos pendentes não exigirá uma atualização da página."
     },
     "features_ItemAdditionalProductInfo_title": {
-        "message": "Mostrar informações adicionais do produto"
+        "message": "Exibir informações adicionais do produto"
     },
     "features_RefreshAvatarItemDetails_title": {
         "message": "Botão de atualizar detalhes do item de avatar"
