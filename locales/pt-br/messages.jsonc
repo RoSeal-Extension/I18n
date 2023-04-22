@@ -451,7 +451,7 @@
         "message": "Você comprou este item com sucesso."
     },
     "avataritem_errormessage_Load": {
-        "message": "Você está sendo limitado pelo servidor, por favor, tente novamente mais tarde."
+        "message": "Você está sendo limitado em sua taxa de uso pelo Roblox, por favor, tente novamente mais tarde."
     },
     "avataritem_errormessage_Purchase": {
         "message": "Não foi possível comprar o item, razão apresentada: \"{reason} ({realReason})\""
