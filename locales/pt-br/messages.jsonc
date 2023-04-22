@@ -101,7 +101,7 @@
         "message": "<label>BETA</label> As funções beta não estão prontas para serem ativadas automaticamente; no entanto, deve haver um risco mínimo em habilitá-las. Todos são bem-vindos para ativá-las e dar feedback."
     },
     "settings_about_featureswitches_experimental": {
-        "message": "<label>EXPERIMENTAL</label> As funções experimentais são instáveis e podem não se estabilizar ou são um teste para uma função futura. IMPORTANTE: Não habilite essas funções a menos que você conheça os riscos.
+        "message": "<label>EXPERIMENTAL</label> As funções experimentais são instáveis e podem não se estabilizar ou são um teste para uma função futura. IMPORTANTE: Não habilite essas funções a menos que você conheça os riscos."
     },
 
     // "Donate" selection tab in menu and title
