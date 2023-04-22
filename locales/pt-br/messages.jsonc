@@ -84,10 +84,10 @@
         "message": "<link>Julli4n</link> - Desenvolvedor-chefe"
     },
     "settings_about_credits_Karasuneth": {
-        "message": "<link>Karasuneth</link> - Fez o design do ícone original"
+        "message": "<link>Karasuneth</link> - Projetou o Ícone Original"
     },
     "settings_about_credits_MaciejCreates": {
-        "message": "<link>MaciejCreates</link> - Fez o design do ícone"
+        "message": "<link>MaciejCreates</link> - Projetou o Ícone"
     },
 
     // "Feature Switches" selection tab in menu and title
@@ -118,7 +118,7 @@
     },
     // feature switch details
     "settings_featureswitches_featureswitch_disabled": {
-        "message": "Esta função foi desativada pela RoSeal"
+        "message": "Esta função foi desativada pelo RoSeal"
     },
     "settings_featureswitches_featureswitch_exclusivebrowsers": {
         "message": "Exclusivo para os seguintes navegadores: {browsers}"
@@ -150,7 +150,7 @@
         "message": "Palavras-chave Bloqueadas"
     },
     "settings_blockedexperiences_keywords_description": {
-        "message": "Palavras-chave podem ser adicionads e removidas para bloquear experiências cujo nome corresponde a uma das palavras-chave adicionadas. Essas experiências não serão exibidas em algumas páginas comuns."
+        "message": "Palavras-chave podem ser adicionadas e removidas para bloquear experiências cujos nomes correspondem a uma das palavras-chave adicionadas. Essas experiências não serão exibidas em algumas páginas comuns."
     },
     "settings_blockedexperiences_keywords_count": {
         "message": "Você está bloqueando {keywordsNum} de {keywordsMax} palavras-chave permitidas:"
@@ -181,7 +181,7 @@
         "message": "Quando você bloqueia uma experiência, ela aparecerá aqui."
     },
     "settings_blockedexperiences_individualexperiences_experience_universeid": {
-        "message": "ID do Universo: {universeId}"
+        "message": "ID de Universo: {universeId}"
     },
     "settings_blockedexperiences_individualexperiences_experience_unblock": {
         "message": "Desbloquear"
@@ -205,7 +205,7 @@
         "message": "Remover"
     },
     "accountsmanager_title": {
-        "message": "{sealEmoji} Administrador de contas"
+        "message": "{sealEmoji} Gerenciador de contas"
     },
     "accountsmanager_noaccounts": {
         "message": "Você não tem nenhuma conta. Adicione sua conta atual para começar."
@@ -248,7 +248,7 @@
 
     // The context menu "..." item that appears in the item dropdown menu to view the icon asset
     "experience_contextmenu_viewiconasset": {
-        "message": "Ver Ativo do Ícone"
+        "message": "Ver Ativo de Ícone"
     },
 
     // The context menu "..." item that appears in the experience dropdown menu to unblock/block the target experience
@@ -333,7 +333,7 @@
         "message": "Incluir Itens Adquiridos"
     },
     "experience_passes_filtering_user": {
-        "message": "Ver como:"
+        "message": "Vizualizar como:"
     },
     "experience_passes_genericerror": {
         "message": "Ocorreu um erro ao tentar buscar passes. Por favor, tente novamente mais tarde."
@@ -454,7 +454,7 @@
         "message": "Você está sendo limitado pelo servidor, por favor, tente novamente mais tarde."
     },
     "avataritem_errormessage_Purchase": {
-                "message": "Não foi possível comprar o item, razão apresentada: \"{reason} ({realReason})\""
+        "message": "Não foi possível comprar o item, razão apresentada: \"{reason} ({realReason})\""
     },
 
     "experience_media_alttext": {
@@ -477,7 +477,7 @@
         "message": "roblox"
     },
     "homeheader_secretmessage_Default5": {
-        "message": "Você sente falta do Tix?"
+        "message": "Você sente falta dos Tix?"
     },
     "homeheader_secretmessage_Default6": {
         "message": "focas"
