@@ -1197,7 +1197,7 @@
         "message": "Lorsqu'elle est activée, vos dernières sélections déroulantes seront conservées, même après la fermeture de la page. Il peut se casser lorsque vous recevez un nouveau type de transaction."
     },
     "features_BetterRobuxNavigation_title": {
-        "message": "Navigation Robux Meilleure"
+        "message": "Meilleure navigation Robux"
     },
     "features_BetterRobuxNavigation_description": {
         "message": "Lorsqu'il est activé, ajoute un bouton Plus à côté de Robux dans la navigation supérieure pour rediriger vers les achats Robux, et ajoute un nouvel élément Transactions à la navigation de gauche."
@@ -1260,25 +1260,25 @@
         "message": "Activer l'éclairage dynamique des miniatures 3D"
     },
     "features_ChatSortTypes_title": {
-        "message": "Types de tri du tchat"
+        "message": "Tri du tchat par types"
     },
     "features_ChatSortTypes_description": {
         "message": "Lorsqu'il est activé, ajoute de nouveaux types de tri à la boîte de discussion pour filtrer les conversations."
     },
     "features_Transactions0RobuxAmountToggle_title": {
-        "message": "Bascule pour cacher les transactions avec un montant de 0 Robux"
+        "message": "Basculer pour cacher les transactions avec un montant de 0 Robux"
     },
     "features_TransactionsPrivateServersToggle_title": {
-        "message": "Bascule pour cacher les transaction de serveur privé"
+        "message": "Basculer pour cacher les transaction de serveur privé"
     },
     "features_GroupOrganization_title": {
-        "message": "Personnalisation de organisation des groupes"
+        "message": "Personnalisation de l'organisation des groupes"
     },
     "features_GroupOrganization_description": {
-        "message": "Lorsqu'il est activé, permet de réorganiser les groupes et de créer des dossiers de groupe par glisser-déposer. Les dossiers de groupe peuvent ensuite être personnalisés davantage."
+        "message": "Lorsqu'il est activé, permet de réorganiser les groupes et de créer des dossiers de groupe avec glisser-déposer. Les dossiers de groupe peuvent ensuite être personnalisés davantage."
     },
     "features_BetterExperienceBadges_title": {
-        "message": "Liste des badges d'experience meilleure"
+        "message": "Meilleure expérience de la liste des badges"
     },
     "features_BetterExperienceBadges_description": {
         "message": "Lorsqu'il est activé, ajoute un nouvel onglet aux détails de l'expérience qui contient une meilleure liste de badges d'expérience. Vous pouvez également afficher les badges inactifs, les dates d'attribution des badges et comparer vos badges avec ceux d'un autre utilisateur. Ceci est instable pour les expériences avec un nombre significativement élevé de badges."
@@ -1377,7 +1377,7 @@
         "message": "Filtres de couleur de la place du Marketplace"
     },
     "features_RefreshAvatarItemDetails_sub_FastFreeBuy_title": {
-        "message": "Achats d'articles d'avatar gratuits et rapides"
+        "message": "Achats rapides d'articles d'avatar gratuits"
     },
 
     "popup_extensionname": {
