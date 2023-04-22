@@ -1398,6 +1398,9 @@
     "popup_permissions_cookie": {
         "message": "Cookies"
     },
+    "popup_permissions_cookietooltip": {
+        "message": "Grant this permission if you would like to access Accounts Manager. You can revoke this permission at any time."
+    },
 
     "popup_extensiondata_show": {
         "message": "Show"
