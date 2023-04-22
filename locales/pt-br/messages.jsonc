@@ -454,7 +454,7 @@
         "message": "Você está sendo limitado pelo servidor, por favor, tente novamente mais tarde."
     },
     "avataritem_errormessage_Purchase": {
-        "message": "Não foi possível comprar o item, razão apresentada: \"{reason}\""
+                "message": "Não foi possível comprar o item, razão apresentada: \"{reason} ({realReason})\""
     },
 
     "experience_media_alttext": {
