@@ -936,13 +936,13 @@
         "message": "Cores"
     },
     "avatarshop_colorfilters_items_primary": {
-        "message": "Primário"
+        "message": "Primárias"
     },
     "avatarshop_colorfilters_items_secondary": {
-        "message": "Secundário"
+        "message": "Secundárias"
     },
     "avatarshop_colorfilters_items_any": {
-        "message": "Qualquer"
+        "message": "quaisquer"
     },
 
     "group_pendingrequests": {
