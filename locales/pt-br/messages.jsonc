@@ -1007,7 +1007,7 @@
         "message": "Não foi possível cancelar a solicitação de entrada pendente, tente novamente mais tarde."
     },
     "group_pendingrequests_systemfeedback_success": {
-        "message": "Solicitação de entrada pendente cancelado com sucesso."
+        "message": "Solicitação de entrada pendente cancelada com sucesso."
     },
 
     "group_foldercustomization_modal_title": {
