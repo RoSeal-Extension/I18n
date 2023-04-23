@@ -451,7 +451,7 @@
         "message": "Vous avez acheté cet article avec succès."
     },
     "avataritem_errormessage_Load": {
-        "message": "Votre débit est limité, veuillez réessayer plus tard."
+        "message": "Votre débit est limité par Roblox, veuillez réessayer plus tard."
     },
     "avataritem_errormessage_Purchase": {
         "message": "Impossible d'acheter l'article, raison: \"{reason} ({realReason})\""
@@ -1397,6 +1397,10 @@
     },
     "popup_permissions_cookie": {
         "message": "Cookies"
+    },
+
+    "popup_permissions_cookietooltip": {
+        "message": "Accordez cette autorisation si vous souhaitez utiliser le Gestionnaire de comptes. Vous pouvez révoquer cette autorisation à tout moment."
     },
 
     "popup_extensiondata_show": {
