@@ -1384,7 +1384,7 @@
         "message": "{sealEmoji} RoSeal"
     },
     "popup_actions_robloxgroup": {
-        "message": ""
+        "message": "Groupe Roblox"
     },
     "popup_actions_settings": {
         "message": "Paramètres"
@@ -1420,8 +1420,8 @@
     "popup_extensiondata_import": {
         "message": "Importer"
     },
-    "popup_extensiondata_import_alert_succcess": {
-        "message": ""
+    "popup_extensiondata_import_alert_success": {
+        "message": "Données importées avec succès."
     },
     "popup_extensiondata_import_alert_error": {
         "message": "Veuillez réessayer avec un fichier de données valide."

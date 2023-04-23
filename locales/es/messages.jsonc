@@ -1420,7 +1420,7 @@
     "popup_extensiondata_import": {
         "message": "Importar"
     },
-    "popup_extensiondata_import_alert_succcess": {
+    "popup_extensiondata_import_alert_success": {
         "message": "Datos importados exitosamente."
     },
     "popup_extensiondata_import_alert_error": {
