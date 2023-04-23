@@ -230,7 +230,7 @@
         "message": "Conta do Roblox atual adicionada com sucesso à lista."
     },
     "accountsmanager_success_LogoutRobloxAccount": {
-        "message": "Sessão invalidada e conta do Roblox removida da lista com sucesso"
+        "message": "Sessão invalidada e conta do Roblox removida da lista com sucesso."
     },
 
     "accountsmanager_error_UnknownError": {
