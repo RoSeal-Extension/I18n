@@ -3,7 +3,7 @@
 
     // Name and description that appears on all stores, and in chrome://extensions
     "manifest_name": {
-        "message": "RoSeal - Experiencia Aumentada do Roblox"
+        "message": "RoSeal - Experiência Aumentada do Roblox"
     },
     "manifest_description": {
         "message": "Melhore sua experiência no site do Roblox. E também há focas."
@@ -25,19 +25,19 @@
     // the 404 error page that appears if request is not valid.
     // currently, it's only used by the developer product 404 page
     "errorpage_404_title": {
-        "message": "Pagina não pode ser encontrada ou não existe"
+        "message": "Página não pode ser encontrada ou não existe"
     },
     "errorpage_404_message": {
-        "message": "{sealEmoji} 404 <span>|</span>Pagina não encontrada"
+        "message": "{sealEmoji} 404 <span>|</span>Página não encontrada"
     },
     "errorpage_back": {
         "message": "Voltar"
     },
     "errorpage_back_title": {
-        "message": "Ir para a pagina anterior"
+        "message": "Ir para a página anterior"
     },
     "errorpage_home": {
-        "message": "Pagina inicial"
+        "message": "Página inicial"
     },
     "errorpage_home_title": {
         "message": "Voltar para a página inicial"
@@ -58,7 +58,7 @@
         "message": "Minhas configurações do {sealEmoji}RoSeal"
     },
     "settings_return": {
-        "message": "Voltar para as configurações do roblox"
+        "message": "Voltar para as configurações do Roblox"
     },
 
     // "About" selection in menu and title
@@ -66,28 +66,28 @@
         "message": "Sobre o RoSeal"
     },
     "settings_about_description": {
-        "message": "<bold>RoSeal</bold> é uma extensão gratuita de navegador para roblox com tema de focas, com funções e melhorias que podem ser ativados e desativados individualmente, sem nenhum pagamento ou rastreamento. "
+        "message": "<bold>RoSeal</bold> é uma extensão gratuita de navegador para o website do Roblox com uma temática envolvendo focas, com funções e melhorias que podem ser ativadas e desativadas individualmente, sem nenhum pagamento ou rastreamento. "
     },
     // under13 is for 13- users over13 is for 13+. this is to prevent exposing discord to underage users
     "settings_about_media_under13": {
         "message": "Temos um <groupLink>Grupo do Roblox</groupLink> para a extensão. (Inglês)"
     },
     "settings_about_media_over13": {
-        "message": "Temos um <groupLink>Grupo do Roblox</groupLink> E um <discordLink>Servidor do Discord</discordLink> Para a extensão. (Inglês)"
+        "message": "Temos um <groupLink>Grupo do Roblox</groupLink> e um <discordLink>Servidor do Discord</discordLink> para a extensão. (Inglês)"
     },
 
     // "Credits" selection tab in menu and title
     "settings_about_credits_header": {
-        "message": "Creditos"
+        "message": "Créditos"
     },
     "settings_about_credits_Julli4n": {
         "message": "<link>Julli4n</link> - Desenvolvedor-chefe"
     },
     "settings_about_credits_Karasuneth": {
-        "message": "<link>Karasuneth</link> - Projetou o Ícone Original"
+        "message": "<link>Karasuneth</link> - Projetou o ícone original"
     },
     "settings_about_credits_MaciejCreates": {
-        "message": "<link>MaciejCreates</link> - Projetou o Ícone"
+        "message": "<link>MaciejCreates</link> - Projetou o ícone"
     },
 
     // "Feature Switches" selection tab in menu and title
@@ -95,7 +95,7 @@
         "message": "Seletor de Funções"
     },
     "settings_about_featureswitches_description": {
-        "message": "Os seletores de funções são uma maneira rapida de ativar e desativar as funções do RoSeal de acordo com o seu gosto."
+        "message": "Os seletores de funções são uma maneira rápida de ativar e desativar as funções do RoSeal de acordo com as suas preferências."
     },
     "settings_about_featureswitches_beta": {
         "message": "<label>BETA</label> As funções beta não estão prontas para serem ativadas automaticamente; no entanto, deve haver um risco mínimo em habilitá-las. Todos são bem-vindos para ativá-las e dar feedback."
@@ -1113,7 +1113,7 @@
     },
 
     "features_RemoveHomePageUnnecessarySorts_title": {
-        "message": "Remover classificações \"desnecessárias\" das classificações da pagina inicial"
+        "message": "Remover classificações \"desnecessárias\" das classificações da página inicial"
     },
     "features_RemoveHomePageUnnecessarySorts_description": {
         "message": "Quando ativado, remove quaisquer tipos de classificações da página inicial que não correspondam \"Recomendados para você\", \"Favoritos\", \"Continue\", \"Amigos Jogando\", ou \"Patrocinados\"."
