@@ -1383,8 +1383,8 @@
     "popup_extensionname": {
         "message": "{sealEmoji} RoSeal"
     },
-    "groupe popup_actions_roblox": {
-        "message": "Groupe Roblox"
+    "popup_actions_robloxgroup": {
+        "message": ""
     },
     "popup_actions_settings": {
         "message": "Paramètres"
@@ -1398,7 +1398,6 @@
     "popup_permissions_cookie": {
         "message": "Cookies"
     },
-
     "popup_permissions_cookietooltip": {
         "message": "Accordez cette autorisation si vous souhaitez utiliser le Gestionnaire de comptes. Vous pouvez révoquer cette autorisation à tout moment."
     },
@@ -1421,8 +1420,8 @@
     "popup_extensiondata_import": {
         "message": "Importer"
     },
-    "popup_extensiondata_import_alert_success": {
-        "message": "Données importées avec succès."
+    "popup_extensiondata_import_alert_succcess": {
+        "message": ""
     },
     "popup_extensiondata_import_alert_error": {
         "message": "Veuillez réessayer avec un fichier de données valide."
