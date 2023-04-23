@@ -230,7 +230,7 @@
         "message": "Conta do Roblox atual adicionada com sucesso à lista."
     },
     "accountsmanager_success_LogoutRobloxAccount": {
-        "message": "Sessão invalidada com sucesso e conta do Roblox removida da lista."
+        "message": "Sessão invalidada e conta do Roblox removida da lista com sucesso"
     },
 
     "accountsmanager_error_UnknownError": {
@@ -248,7 +248,7 @@
 
     // The context menu "..." item that appears in the item dropdown menu to view the icon asset
     "experience_contextmenu_viewiconasset": {
-        "message": "Vizualizar Ativo de Ícone"
+        "message": "Visualizar Ativo de Ícone"
     },
 
     // The context menu "..." item that appears in the experience dropdown menu to unblock/block the target experience
@@ -261,21 +261,21 @@
 
     // "Universe ID {number}" text under About
     "experience_universeid": {
-        "message": "ID de Universo"
+        "message": "ID do Universo"
     },
 
     "generalasset_productid": {
-        "message": "ID de Produto"
+        "message": "ID do Produto"
     },
     "collectibleasset_collectibleitemid": {
-        "message": "ID de Item Colecionável"
+        "message": "ID do Item Colecionável"
     },
     "collectibleasset_collectibleproductid": {
-        "message": "ID de Produto Colecionável"
+        "message": "ID do Produto Colecionável"
     },
 
     "developerproduct_productid": {
-        "message": "ID de Produto"
+        "message": "ID do Produto"
     },
 
     "avataritem_refreshdetails": {
@@ -283,16 +283,16 @@
     },
 
     "pass_productid": {
-        "message": "ID de Produto"
+        "message": "ID do Produto"
     },
 
     "bundle_productid": {
-        "message": "ID de Produto"
+        "message": "ID do Produto"
     },
 
     // Text to show if an experience is blocked, and to view it anyways
     "experience_blocked_title": {
-        "message": "Essa Experiência Está Bloqueada"
+        "message": "Esta experiência está bloqueada"
     },
     "experience_blocked_viewanyway": {
         "message": "Ver Mesmo Assim"
@@ -308,7 +308,7 @@
         "message": "Exibir Itens Fora de Venda"
     },
     "experience_developerproducts_filtering_onsale": {
-        "message": "Exibir itens à venda"
+        "message": "Exibir Itens à Venda"
     },
     "experience_developerproducts_genericerror": {
         "message": "Ocorreu um erro ao tentar buscar os produtos de desenvolvedor, por favor tente novamente mais tarde."
@@ -324,7 +324,7 @@
         "message": "Incluir Itens Fora de Venda"
     },
     "experience_passes_filtering_onsale": {
-        "message": "Invluir Itens À Venda"
+        "message": "Incluir Itens à Venda"
     },
     "experience_passes_filtering_unowned": {
         "message": "Incluir Itens Não Adquiridos"
@@ -333,7 +333,7 @@
         "message": "Incluir Itens Adquiridos"
     },
     "experience_passes_filtering_user": {
-        "message": "Vizualizar como:"
+        "message": "Visualizar como:"
     },
     "experience_passes_genericerror": {
         "message": "Ocorreu um erro ao tentar buscar passes. Por favor, tente novamente mais tarde."
@@ -405,7 +405,7 @@
         "message": "Descrição"
     },
     "developerproduct_contextmenu_viewiconasset": {
-        "message": "Vizualizar ativo de ícone"
+        "message": "Visualizar ativo de ícone"
     },
 
     "ppupdatemodal_title": {
@@ -422,7 +422,7 @@
         "message": "{sealEmoji} Tem certeza?"
     },
     "robloxlogoutmodal_body": {
-        "message": "Ao usar o botão padrão de encerrar sessão do Roblox, você invalidará a sessão atual.{lineBreak}{lineBreak}Você não poderá iniciar sessão nesta conta usando o Gerenciador de Contas sem passar pela página de iniciar sessão do Roblox novamente.{lineBreak}{lineBreak}Para encerrar a sessão sem invalidar a sessão, abra o gerenciador de contas e clique em \"Logout\"."
+        "message": "Ao usar o botão padrão de encerrar sessão do Roblox, você invalidará a sessão atual.{lineBreak}{lineBreak}Você não poderá iniciar sessão nesta conta usando o Gerenciador de Contas sem passar pela página de iniciar sessão do Roblox novamente.{lineBreak}{lineBreak}Para encerrar a sessão sem invalidar a sessão, abra o gerenciador de contas e clique em \"Encerrar sessão\"."
     },
     "robloxlogoutmodal_action": {
         "message": "Encerrar sessão"
@@ -461,7 +461,7 @@
         "message": "ALT"
     },
     "experience_media_viewthumbnailasset": {
-        "message": "Vizualizar Ativo de Thumbnail"
+        "message": "Visualizar Ativo de Thumbnail"
     },
 
     "homeheader_secretmessage_Default1": {
@@ -501,7 +501,7 @@
         "message": "Gerencie bem o seu tempo e desfrute de um estilo de vida saudável."
     },
     "homeheader_secretmessage_Default13": {
-        "message": "Imagina 1M de Robux..."
+        "message": "Imagine 1M de Robux..."
     },
     "homeheader_secretmessage_Default14": {
         "message": "Como vai você?"
@@ -531,7 +531,7 @@
         "message": "Inserir imagem de foca aqui."
     },
     "homeheader_secretmessage_Default23": {
-        "message": "Inserie imagem de gatinho aqui."
+        "message": "Inserir imagem de gatinho aqui."
     },
     "homeheader_secretmessage_Default24": {
         "message": "Inserir imagem de pássaro aqui."
@@ -617,14 +617,14 @@
     },
 
     "generalasset_contextmenu_deletefrominventory": {
-        "message": "Excluir do inventário"
+        "message": "Excluir do Inventário"
     },
 
     "badge_created": {
         "message": "Criado"
     },
     "badge_contextmenu_viewiconasset": {
-        "message": "Vizualizar Ativo de Ícone "
+        "message": "Visualizar Ativo de Ícone "
     },
 
     "chat_sorttypes_label": {
@@ -650,14 +650,14 @@
         "message": "Atualizado"
     },
     "pass_contextmenu_viewiconasset": {
-        "message": "Vizualizar Ativo de Ícone"
+        "message": "Visualizar Ativo de Ícone"
     },
 
     "group_created": {
-        "message": "Created"
+        "message": "Criado"
     },
     "group_contextmenu_viewiconasset": {
-        "message": "Vizualizar Ativo de Ícone"
+        "message": "Visualizar Ativo de Ícone"
     },
 
     "navbar_left_transactions": {
@@ -759,41 +759,41 @@
         "message": "Emblemas"
     },
     "experience_badges_viewas": {
-        "message": "Vizualizar como:"
+        "message": "Visualizar como:"
     },
     "experience_badges_comparewith": {
         "message": "Comparar com:"
     },
 
     "experience_badges_filtering_active": {
-        "message": "Exibir itens ativos"
+        "message": "Exibir Itens Ativos"
     },
     "experience_badges_filtering_inactive": {
-        "message": "Exibir itens inativos"
+        "message": "Exibir Itens Inativos"
     },
     "experience_badges_filtering_obtained": {
-        "message": "Exibir itens obtidos"
+        "message": "Exibir Itens Obtidos"
     },
     "experience_badges_filtering_unobtained": {
-        "message": "Exibir itens não obtidos"
+        "message": "Exibir Itens Não Obtidos"
     },
     "experience_badges_sorting_sortby_label": {
         "message": "Ordenar por"
     },
     "experience_badges_sorting_sortdirection_label": {
-        "message": "Direção de ordenação"
+        "message": "Direção de Ordenação"
     },
     "experience_badges_sorting_sortobtained_label": {
-        "message": "Ordenar por itens obtidos"
+        "message": "Ordenar Por Itens Obtidos"
     },
     "experience_badges_sorting_sortby_values_WonYesterday": {
-        "message": "Ganhou ontem"
+        "message": "Ganhou Ontem"
     },
     "experience_badges_sorting_sortby_values_WonAllTime": {
-        "message": "Ganhou desde sempre"
+        "message": "Ganhou Desde Sempre"
     },
     "experience_badges_sorting_sortby_values_AwardedTime": {
-        "message": "Ganhou recentemente"
+        "message": "Concedido Recentemente"
     },
     "experience_badges_sorting_sortby_values_Created": {
         "message": "Criado"
@@ -805,7 +805,7 @@
         "message": "Crescente"
     },
     "experience_badges_sorting_sortdirection_values_Descending": {
-        "message": "decrescente"
+        "message": "Decrescente"
     },
     "experience_badges_sorting_sortobtained_values_First": {
         "message": "Primeiro"
@@ -850,23 +850,23 @@
         "message": "{percentage}%"
     },
     "experience_badges_badge_awarded": {
-        "message": "concedido {time}"
+        "message": "Concedido {time}"
     },
     "experience_badges_badge_wonalltime": {
-        "message": "Ganhou desde sempre"
+        "message": "Ganhou Desde Sempre"
     },
     "experience_badges_badge_wonyesterday": {
         "message": "Ganhou Ontem"
     },
 
     "experience_privatenote_title": {
-        "message": "Anotação privada"
+        "message": "Anotação Privada"
     },
     "experience_privatenote_hint": {
         "message": "Esta anotação é privada, somente você poderá vê-la."
     },
     "experience_privatenote_placeholder": {
-        "message": "Temperamentos específicos ou configurações para esta experiência..."
+        "message": "Temperamentos ou configurações específicas para esta experiência..."
     },
     "experience_privatenote_length": {
         "message": "{length}/{maxLength}"
@@ -896,7 +896,7 @@
     },
 
     "userprofile_lastonline": {
-        "message": "Última vez online"
+        "message": "Última Vez Online"
     },
 
     "userfriends_newtitle": {
@@ -904,10 +904,10 @@
     },
 
     "userfriends_contextmenu_unfriend": {
-        "message": "remover amigo"
+        "message": "Remover amigo"
     },
     "userfriends_contextmenu_unfollow": {
-        "message": "Parar de seguir"
+        "message": "Parar de Seguir"
     },
     "userfriends_contextmenu_forceunfollow": {
         "message": "Forçar à Parar de Seguir"
@@ -942,11 +942,11 @@
         "message": "Secundárias"
     },
     "avatarshop_colorfilters_items_any": {
-        "message": "quaisquer"
+        "message": "Quaisquer"
     },
 
     "group_pendingrequests": {
-        "message": "Solicitações de entrada pendentes"
+        "message": "Solicitações de Entrada Pendentes"
     },
     "group_typesswitch_joined": {
         "message": "Entrou"
