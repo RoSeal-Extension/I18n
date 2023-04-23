@@ -117,9 +117,12 @@
         "message": "Basculement des Fonctionnalités"
     },
     // feature switch details
+    // a feature switch is disabled primarily remotely
     "settings_featureswitches_featureswitch_disabled": {
         "message": "Cette fonctionnalité à été désactivée par RoSeal"
     },
+    // not used atm, but will be if we ever add support for Safari or add firefox-exclusive features.
+    // "browsers" is a comma-separated list of browsers
     "settings_featureswitches_featureswitch_exclusivebrowsers": {
         "message": "Exclusif aux navigateurs suivant: {browsers}"
     },
@@ -132,9 +135,11 @@
     "settings_featureswitches_featureswitch_permissions_subtext": {
         "message": "Les permissions peuvent être accordées dans la boîte de dialogue contextuelle de RoSeal à partir de la barre d'outils du navigateur"
     },
+    // "Associated Storage" is basically just storage stored from the feature, i.e. Roblox accounts with accounts manager
     "settings_featureswitches_featureswitch_removeassociatedstorage": {
         "message": "Supprimer Stockage Associé"
     },
+    // System feedback messages
     "settings_featureswitches_featureswitch_removeassociatedstorage_systemfeedback_success": {
         "message": "Le stockage associé à cette fonctionnalité a bien été supprimé."
     },
@@ -155,6 +160,7 @@
     "settings_blockedexperiences_keywords_count": {
         "message": "Vous bloquez {keywordsNum} mots clés d'expérience autorisés sur {keywordsMax}:"
     },
+    // No experience keywords blocked
     "settings_blockedexperiences_keywords_nokeywords": {
         "message": "Ajouter votre premier mot clé à bloquer pour commencer."
     },
@@ -168,6 +174,7 @@
         "message": "Retirer"
     },
 
+    // Blocked Experiences section
     "settings_blockedexperiences_individualexperiences_title": {
         "message": "Expériences bloquées individuelles"
     },
@@ -177,6 +184,7 @@
     "settings_blockedexperiences_individualexperiences_count": {
         "message": "Vous bloquez {experiencesNum} expériences autorisés sur {experiencesMax}:"
     },
+    // No experiences blocked
     "settings_blockedexperiences_individualexperiences_noexperiences": {
         "message": "When you block an experience, it will show up here. Quand vous bloquez une expérience, ça s'affichera ici"
     },
@@ -187,6 +195,7 @@
         "message": "Débloquer"
     },
 
+    // Hide/show a blocked expiernece section, like keywords or individual ones
     "settings_blockedexperiences_section_hide": {
         "message": "Cacher"
     },
@@ -210,12 +219,14 @@
     "accountsmanager_noaccounts": {
         "message": "Vous n'avez pas de comptes. Ajouter votre compte actuel pour commencer."
     },
+    // Not logged in text
     "accountsmanager_noaccounts_disabled": {
         "message": "Vous n'avez pas de comptes. Connectez vous et ajouter votre compte pour commencer."
     },
     "accountsmanager_maxaccounts": {
         "message": "Vous avez atteint le nombre maximum de comptes autorisés ({accountLimit})"
     },
+    // Please don't mess this up.
     "accountsmanager_addaccount": {
         "message": "Vous pouvez ajouter {moreAccounts, plural, =1 {1 autre compte.} other {# autres comptes.}} ({accountsNum}/{accountLimit})"
     },
@@ -226,13 +237,13 @@
         "message": "Se déconnecter"
     },
 
+    // System feedbacks shown when there's an error/success message
     "accountsmanager_success_AddCurrentRobloxAccount": {
         "message": "Le compte Roblox actuel a été ajouté avec succès à la liste."
     },
     "accountsmanager_success_LogoutRobloxAccount": {
         "message": "Session invalidée avec succès et compte Roblox supprimé de la liste"
     },
-
     "accountsmanager_error_UnknownError": {
         "message": "Une erreur inconnue est survenue, veillez réessayer plus tard"
     },
@@ -264,28 +275,35 @@
         "message": "ID de l'univers"
     },
 
+    // The asset's numeric product ID
     "generalasset_productid": {
         "message": "ID du produit"
     },
+    // The collectible item UUID ID
     "collectibleasset_collectibleitemid": {
         "message": "ID de l'objet à collectionner"
     },
+    // The collectible product UUID ID
     "collectibleasset_collectibleproductid": {
         "message": "ID du produit à collectionner"
     },
 
+    // The developer product's numeric product ID
     "developerproduct_productid": {
         "message": "ID du produit"
     },
 
+    // "Refresh Item Details" tooltip when hovering over the refresh icon under the three dots (...)
     "avataritem_refreshdetails": {
         "message": "Actualiser les détails de l'article"
     },
 
+    // The pass's numeric product ID field
     "pass_productid": {
         "message": "ID du produit"
     },
 
+    // The bundle's numeric product ID field
     "bundle_productid": {
         "message": "ID du produit"
     },
@@ -298,28 +316,36 @@
         "message": "Voir quand même"
     },
 
+    // Dropdown selections for "Passes" and "Developer Products"
     "experience_store_selection_passes": {
         "message": "Passes"
     },
     "experience_store_selection_developerproducts": {
         "message": "Produits du développeur"
     },
+
+    // Developer products section
+    // filtering options
     "experience_developerproducts_filtering_offsale": {
         "message": "Afficher les articles non achetable"
     },
     "experience_developerproducts_filtering_onsale": {
         "message": "Afficher les articles achetable"
     },
+    // Errors/no developer products
     "experience_developerproducts_genericerror": {
         "message": "Une erreur s'est produite lors de la tentative de récupération des produits de développeur. Veuillez réessayer ultérieurement."
     },
     "experience_developerproducts_nodeveloperproducts": {
         "message": "Aucun produit de développeur disponible."
     },
+    // Indicates that there is none from your search from the filters, but can change if filtering options are changed
     "experience_developerproducts_nodeveloperproductsfiltered": {
         "message": "Aucun produit de développeur disponible à partir de votre recherche."
     },
 
+    // Experience passes stuff, we discard roblox's version and remake all of it
+    // filtering stuff
     "experience_passes_filtering_offsale": {
         "message": "Inclure les articles non achetable"
     },
@@ -332,15 +358,18 @@
     "experience_passes_filtering_owned": {
         "message": "Inclure les éléments propriétaire"
     },
+    // Viewing as a specific user
     "experience_passes_filtering_user": {
         "message": "Voir en tant que:"
     },
+    // Errors/no passes
     "experience_passes_genericerror": {
         "message": "Une erreur s'est produite lors de la récupération des passes, veuillez réessayer plus tard."
     },
     "experience_passes_nopasses": {
         "message": "Aucun passes disponible"
     },
+    // Indicates that there is none from your search from the filters, but can change if filtering options are changed
     "experience_passes_nopassesfiltered": {
         "message": "Aucun passes disponible à partir de votre recherche"
     },
@@ -354,9 +383,11 @@
         "message": "Ajouter Passe"
     },
 
+    // Shown over the Play button to indicate to the user that their avatar may not be as intended in the experience
     "experience_avatarrestricted": {
         "message": "Votre avatar actuel peut ne pas ressembler ou fonctionner comme prévu dans cette expérience."
     },
+    // Avatar Type stuff shown at the experience's stats.
     "experience_avatartype_label": {
         "message": "Type d'avatar"
     },
@@ -376,6 +407,8 @@
         "message": "Choix de l'utilisateur"
     },
 
+    // for Robux views, honestly forgot what this is for. likely on developer product/pass items in store
+    // and developer product pages
     "item_offsale_long": {
         "message": "Cet article n'est pas actuellement disponible."
     },
@@ -383,6 +416,7 @@
         "message": "Non disponible"
     },
 
+    // Developer product fields stuff.
     "developerproduct_offsale": {
         "message": "Cet article n'est pas actuellement disponible."
     },
@@ -408,6 +442,8 @@
         "message": "Voir la page de l'icône"
     },
 
+    // Whenever the RoSeal privacy policy updates, we show this modal. Only shown once per privacy policy update since the user installed the extension.
+    // required.
     "ppupdatemodal_title": {
         "message": "{sealEmoji} Mise à jour de la politique de confidentialité de RoSeal"
     },
@@ -418,6 +454,8 @@
         "message": "Accepter"
     },
 
+    // When accounts manager is enabled, and they try using the default Roblox "logout" button, we provide a modal warning
+    // because they likely don't know that Roblox's one is going to invalidate their session
     "robloxlogoutmodal_title": {
         "message": "{sealEmoji} Es-tu sûr?"
     },
@@ -431,12 +469,15 @@
         "message": "Annuler"
     },
 
+    // A button to direct the user to the unofficial community wiki of an experience. Most don't have this,
+    // but for the ones that do, it's nice
     "experience_communitywiki_button": {
         "message": "Wiki non officiel de la Communautée"
     },
     "experience_communitywiki_modal_title": {
         "message": "{sealEmoji} Vous quittez Roblox"
     },
+    // Modal shown when clicking the button to warn the user
     "experience_communitywiki_modal_body": {
         "message": "Attention, Robloxien - en cliquant sur 'Continuer', vous serez redirigé vers Fandom, qui n'appartient ni n'est exploité par Roblox. Ils peuvent avoir des conditions et des politiques de confidentialité différentes.{lineBreak}{lineBreak}Le wiki non officiel de la Communautée vers lequel vous serez redirigé fait partie du projet Roblox Interwiki sur Fandom et s'appuie sur les modifications de la communauté. Les informations peuvent être controversées, vandalisées, obsolètes ou manipulées."
     },
@@ -447,6 +488,8 @@
         "message": "Annuler"
     },
 
+    // System feedback messages shown when purchasing an item with "Refresh Avatar Item Details" feature enabled.
+    // it's an easier way to communicate stuff to the user than a modal.
     "avataritem_successmessage_Purchase": {
         "message": "Vous avez acheté cet article avec succès."
     },
@@ -457,13 +500,19 @@
         "message": "Impossible d'acheter l'article, raison: \"{reason} ({realReason})\""
     },
 
+    // "ALT" text button shown on the lower left side on experience thumbnails if available. "ALT" is short for "Alternative", in "Alternative Text" for images.
+    // the alt text will show on hover. this is just for easily communicating with the user that there is alt text
+    // the img element already has alt text but it's better to indicate
     "experience_media_alttext": {
         "message": "ALT"
     },
+
+    // "View Thumbnail Asset" button shown in the lower right side on experience thumbnails if available.
     "experience_media_viewthumbnailasset": {
         "message": "Afficher la page de la miniature"
     },
 
+    // Funny little home header secret messages that can be shown despite the user's role
     "homeheader_secretmessage_Default1": {
         "message": "Bonjour, utilisateur!"
     },
@@ -555,6 +604,7 @@
         "message": "euh... miam?"
     },
 
+    // Additional text shown if the user is in the "BetaTester" role. These are users that signed up for it on the DevForum.
     "homeheader_secretmessage_BetaTester1": {
         "message": "Un béta testeur? Pensez-vous que vous êtes cool?"
     },
@@ -571,6 +621,8 @@
         "message": "Un des quelques."
     },
 
+    // Additional text shown if the user is in the "Soothsayer" role. Typically, they are Roblox admins.
+    // The likelihood of a Roblox admin using the extension is low, but it's fun to put this in anyways
     "homeheader_secretmessage_Soothsayer1": {
         "message": "Joli rôle public que vous avez là."
     },
@@ -595,10 +647,13 @@
         "message": "Il ne semble pas que RoSeal ait été localisé pour votre langue :("
     },
 
+    // Happy birthday, text shown on the users birthday
     "homeheader_birthdaymessage": {
         "message": "Joyeux anniversaire!"
     },
 
+    // "Unlock Pin" modal shown when the user attempts to update their description or unblock someone
+    // on the profile page. we plan to expand this in the future
     "pinunlockmodal_title": {
         "message": "{sealEmoji} Code PIN du compte requis"
     },
@@ -609,6 +664,7 @@
         "message": "Débloquer"
     },
 
+    // general asset created and updated fields
     "generalasset_created": {
         "message": "Créé"
     },
@@ -616,17 +672,22 @@
         "message": "Mis à jour"
     },
 
+    // Adding "Delete from Inventory" to the context menu to supported assets.
     "generalasset_contextmenu_deletefrominventory": {
         "message": "Supprimer de l'inventaire"
     },
 
+    // Badge "Created" label, we do not need "Updated" because it is already supplied by Roblox
     "badge_created": {
         "message": "Créé"
     },
+
+    // Adding "View Icon Asset" button to the experience badge context menu
     "badge_contextmenu_viewiconasset": {
         "message": "Voir la page de l'icône"
     },
 
+    // Chat sorts stuff
     "chat_sorttypes_label": {
         "message": "Trier par"
     },
@@ -643,27 +704,35 @@
         "message": "Non lus d'abord"
     },
 
+    // The pass created/updated text
     "pass_created": {
         "message": "Créé"
     },
     "pass_updated": {
         "message": "Mis à jour"
     },
+
+    // Adding "View Icon Asset" button to the experience pass context menu
     "pass_contextmenu_viewiconasset": {
         "message": "Voir la page de l'icône"
     },
 
+    // The group created text, should this expand to including the time as well?
     "group_created": {
         "message": "Créé"
     },
+
+    // Adding "View Icon Asset" button to the group context menu, old name for group icon was "Emblem"
     "group_contextmenu_viewiconasset": {
         "message": "Voir la page de l'icône"
     },
 
+    // "Transactions" tab in the left navigation
     "navbar_left_transactions": {
         "message": "Transactions"
     },
 
+    // This is for the shared component between Passes "View as" and badges "View as/Compare with"
     "userlookup_placeholder": {
         "message": "Nom d'utilisateur"
     },
@@ -671,6 +740,7 @@
         "message": "Un utilisateur avec ce nom d'utilisateur n'as pas été trouvé."
     },
 
+    // Discover filters labels and dropdown values stuff
     "discover_filters_label": {
         "message": "Filtres"
     },
@@ -741,6 +811,8 @@
         "message": "Occidental"
     },
 
+    // For each filter, the maximum and minimum labels.
+    // The placeholders right now do not have translations, merely because they are just "0"
     "discover_filters_filter_minimum": {
         "message": "Minimum"
     },
@@ -748,6 +820,7 @@
         "message": "Maximum"
     },
 
+    // Events tab stuff, there's not much here because we just grab the events container from Roblox
     "experience_events_tab": {
         "message": "Événements"
     },
@@ -755,9 +828,11 @@
         "message": "Aucun événements à ce moment."
     },
 
+    // Tab title
     "experience_badges_tab": {
         "message": "Badges"
     },
+    // View as: {user} stuff or compare
     "experience_badges_viewas": {
         "message": "Voir en tant que:"
     },
@@ -765,6 +840,7 @@
         "message": "Comparer avec:"
     },
 
+    // Experience badges sorting/filters options
     "experience_badges_filtering_active": {
         "message": "Afficher les éléments actifs"
     },
@@ -820,6 +896,7 @@
         "message": "Tris et filtres"
     },
 
+    // When there's no filtered badges, but there are badges for the experience
     "experience_badges_nofilteredbadges": {
         "message": "Il n'y a pas de badges filtrés à afficher."
     },
@@ -830,12 +907,14 @@
     "experience_badges_completed": {
         "message": "Complété: {numCompleted}/{numTotal}"
     },
+    // Column title for % Won Yesterday
     "experience_badges_wonyesterday": {
         "message": "% Gagné Hier"
     },
     "experience_badges_usercompleted": {
         "message": "{numCompleted}/{numTotal}"
     },
+    // Error shown in place of badges when there's an error
     "experience_badges_awardederror": {
         "message": "Une erreur s'est produite lors de la récupération des informations attribuées aux badges, veuillez réessayer plus tard."
     },
@@ -843,9 +922,11 @@
         "message": "Une erreur s'est produite lors de la récupération des badges, veuillez réessayer plus tard."
     },
 
+    // Experience badge details
     "experience_badges_badge_inactive": {
         "message": "Inactif"
     },
+    // Parts of a tooltip when hovering over the question mark
     "experience_badges_badged_yesterdaypercentage": {
         "message": "{percentage}%"
     },
@@ -859,6 +940,7 @@
         "message": "Gagné Hier"
     },
 
+    // Experience private notes stuff
     "experience_privatenote_title": {
         "message": "Note privée"
     },
@@ -884,25 +966,32 @@
         "message": "Lire Moins"
     },
 
+    // Adding "Report Abuse" to the item pages context menu if it isn't already there
     "itempages_contextmenu_reportabuse": {
         "message": "Signaler un abus"
     },
 
+    // User's profile cancel request actions
     "userprofile_actions_cancelrequest": {
         "message": "Annuler"
     },
+    // Cancelled request successfully, disabled button
     "userprofile_actions_cancelledrequest": {
         "message": ""
     },
 
+    // Last online date for a user at the bottom (or under Avatar with BTRoblox)
     "userprofile_lastonline": {
         "message": "Dernièrement en Ligne"
     },
 
+    // When "Show username in user's friends page title" is enabled, it will replace the title with this.
+    // adding {username}
     "userfriends_newtitle": {
         "message": "Amis de {displayName} (@{username})"
     },
 
+    // Context menu for "Quick actions in the user's friends page"
     "userfriends_contextmenu_unfriend": {
         "message": "Désami"
     },
@@ -916,6 +1005,7 @@
         "message": "Bloquer"
     },
 
+    // System feedback in the users friends page when doing an action with the "Quick actions in the user's friends page" feature
     "userfriends_systemfeedback_success_unfriend": {
         "message": "Utilisateur retiré de la liste d'amis avec succès."
     },
@@ -932,6 +1022,7 @@
         "message": "Une erreur s'est produite lors du traitement de l'action, veuillez réessayer plus tard."
     },
 
+    // Marketplace Color filters UI
     "avatarshop_colorfilters_title": {
         "message": "Couleurs"
     },
@@ -945,6 +1036,7 @@
         "message": "N'importe quel"
     },
 
+    // Pending group join requests for the user
     "group_pendingrequests": {
         "message": "Demandes d'adhésion en attente"
     },
@@ -961,9 +1053,13 @@
         "message": "Créer un groupe"
     },
 
+    // For the next messages, R2E = Right to Erasure
+
+    // pending in button when fetching R2Es
     "messages_getunreadr2e_pending": {
         "message": "En attente"
     },
+    // error in button when fetching R2Es
     "messages_getunreadr2e_error": {
         "message": "Erreur"
     },
@@ -977,6 +1073,7 @@
         "message": "Marquer R2E non lus en lus"
     },
 
+    // Modal shown when asked if the user wants to mark R2Es as read
     "messages_getunreadr2e_markreadmodal_title": {
         "message": "Marquer les R2E en tant que lus"
     },
@@ -990,6 +1087,7 @@
         "message": "Annuler"
     },
 
+    // Asking the user to enable 2SV by going to their security settings. This is just for security purposes.
     "force2svmodal_title": {
         "message": "{sealEmoji} Vérification en deux étapes requise"
     },
@@ -1003,6 +1101,7 @@
         "message": "Annuler"
     },
 
+    // System feedback shown when cancelling a pending join request from the pending groups list UI
     "group_pendingrequests_systemfeedback_genericerror": {
         "message": "Échec de l'annulation de la demande d'entrer en attente, veuillez réessayer plus tard."
     },
@@ -1010,6 +1109,7 @@
         "message": "Annulation réussie de la demande d'entrer en attente."
     },
 
+    // Modal shown when customizing a folder
     "group_foldercustomization_modal_title": {
         "message": "{sealEmoji} Personnaliser le dossier de groupe"
     },
@@ -1032,6 +1132,7 @@
         "message": "Annuler"
     },
 
+    // Text to show in /transactions to toggle off/on hiding stuff
     "transactions_hide0robuxamount": {
         "message": "Masquer les transactions avec un montant de 0 Robux"
     },
@@ -1039,6 +1140,7 @@
         "message": "Masquer les transactions du serveur privé"
     },
 
+    // Feature switches sections and subsections
     "features_section_home": {
         "message": "Accueil"
     },
@@ -1112,6 +1214,10 @@
         "message": "Murs"
     },
 
+    // Feature switches in settings
+    // `_title` = the title of the feature
+    // `_description` = the description of the feature
+    // _sub_ indicates a subfeature
     "features_RemoveHomePageUnnecessarySorts_title": {
         "message": "Supprimer les tris \"inutiles\" des tris d'accueil"
     },
@@ -1383,6 +1489,7 @@
     "popup_extensionname": {
         "message": "{sealEmoji} RoSeal"
     },
+    // Actions to go to RoSeal social/settings
     "popup_actions_robloxgroup": {
         "message": "Groupe Roblox"
     },
@@ -1392,16 +1499,20 @@
     "popup_actions_website": {
         "message": "Site Web"
     },
+
+    // RoSeal optional permissions section
     "popup_permissions": {
         "message": "Autorisations facultatives"
     },
     "popup_permissions_cookie": {
         "message": "Cookies"
     },
+    // Tooltip shown when hovering over the questionmark next to "Cookies"
     "popup_permissions_cookietooltip": {
         "message": "Accordez cette autorisation si vous souhaitez utiliser le Gestionnaire de comptes. Vous pouvez révoquer cette autorisation à tout moment."
     },
 
+    // Popup data managemenet
     "popup_extensiondata_show": {
         "message": "Afficher"
     },
@@ -1420,13 +1531,16 @@
     "popup_extensiondata_import": {
         "message": "Importer"
     },
+    // Success shown when it successfully imported and parsed the data file
     "popup_extensiondata_import_alert_success": {
         "message": "Données importées avec succès."
     },
+    // Error shown when it cannot parse the data file
     "popup_extensiondata_import_alert_error": {
         "message": "Veuillez réessayer avec un fichier de données valide."
     },
 
+    // Display in the RoSeal popup and in settings.
     "buymeacoffee": {
         "message": "{coffeeEmoji} Achete moi un café!"
     }
