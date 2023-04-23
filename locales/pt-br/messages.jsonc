@@ -114,7 +114,7 @@
 
     // selected tab
     "settings_selection_featureswitches": {
-        "message": "Seletor de funções"
+        "message": "Seletor de Funções"
     },
     // feature switch details
     "settings_featureswitches_featureswitch_disabled": {
@@ -156,10 +156,10 @@
         "message": "Você está bloqueando {keywordsNum} de {keywordsMax} palavras-chave permitidas:"
     },
     "settings_blockedexperiences_keywords_nokeywords": {
-        "message": "Adicione sua primeira palavra-chave para bloquear para começar."
+        "message": "Para começar, adicione sua primeira palavra-chave para bloquear."
     },
     "settings_blockedexperiences_keywords_inputplaceholder": {
-        "message": "Adicionar uma Palavra-chave..."
+        "message": "Adicione uma palavra-chave..."
     },
     "settings_blockedexperiences_keywords_add": {
         "message": "Adicionar"
@@ -169,10 +169,10 @@
     },
 
     "settings_blockedexperiences_individualexperiences_title": {
-        "message": "Experiências individuais Bloqueadas"
+        "message": "Experiências Individuais Bloqueadas"
     },
     "settings_blockedexperiences_individualexperiences_description": {
-        "message": "Experiências individuais podem ser bloqueadas e desbloqueadas a partir do menu de contexto em uma página de experiência. Essas experiências não serão exibidas em algumas páginas comuns."
+        "message": "Experiências individuais podem ser bloqueadas e desbloqueadas a partir do menu de contexto em uma página de uma experiência. Essas experiências não serão exibidas em algumas páginas comuns."
     },
     "settings_blockedexperiences_individualexperiences_count": {
         "message": "Você está bloqueando {experiencesNum} de {experiencesMax} experiências permitidas:"
@@ -181,7 +181,7 @@
         "message": "Quando você bloqueia uma experiência, ela aparecerá aqui."
     },
     "settings_blockedexperiences_individualexperiences_experience_universeid": {
-        "message": "ID de Universo: {universeId}"
+        "message": "ID do Universo: {universeId}"
     },
     "settings_blockedexperiences_individualexperiences_experience_unblock": {
         "message": "Desbloquear"
