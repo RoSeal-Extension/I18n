@@ -496,6 +496,10 @@
     "avataritem_errormessage_Load": {
         "message": "You are being rate limited by Roblox, please try again later."
     },
+    // "reason" is the public reason given from the API
+    // "realReason" is the actual internal reason given from the API.
+    // in the future, we may consider making proper messages for each {realReason}
+    // but for now, it's like this
     "avataritem_errormessage_Purchase": {
         "message": "Could not purchase item, given reason: \"{reason} ({realReason})\""
     },
