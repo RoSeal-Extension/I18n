@@ -454,7 +454,7 @@
         "message": "Você está sendo limitado em sua taxa de uso pelo Roblox, por favor, tente novamente mais tarde."
     },
     "avataritem_errormessage_Purchase": {
-        "message": "Não foi possível comprar o item, razão apresentada: \"{reason} ({realReason})\""
+        "message": "Não foi possível comprar o item, razão apresentada: \"{reason} ({realReason})\""
     },
 
     "experience_media_alttext": {
@@ -1398,9 +1398,9 @@
     "popup_permissions_cookie": {
         "message": "Cookies"
     },
-    "popup_permissions_cookietooltip": { 
-        "message": "Conceda esta permissão se você quiser usar o Gerenciador de Contas. Você pode revogar esta permissão a qualquer momento." 
-    },
+    "popup_permissions_cookietooltip": {
+        "message": "Conceda esta permissão se você quiser usar o Gerenciador de Contas. Você pode revogar esta permissão a qualquer momento."
+    },
 
     "popup_extensiondata_show": {
         "message": "Exibir"
