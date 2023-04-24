@@ -119,7 +119,7 @@
     // feature switch details
     // a feature switch is disabled primarily remotely
     "settings_featureswitches_featureswitch_disabled": {
-        "message": "Cette fonctionnalité à été désactivée par RoSeal"
+        "message": "Cette fonctionnalité a été désactivée par RoSeal"
     },
     // not used atm, but will be if we ever add support for Safari or add firefox-exclusive features.
     // "browsers" is a comma-separated list of browsers
@@ -448,7 +448,7 @@
         "message": "{sealEmoji} Mise à jour de la politique de confidentialité de RoSeal"
     },
     "ppupdatemodal_description": {
-        "message": "Nous avons mis a jour la politique de confidentialité de RoSeal depuis votre dernière visite {lineBreak}{lineBreak}<privacyPolicyLink>Lire la politique de confidentialité (ANGLAIS)</privacyPolicyLink>"
+        "message": "Nous avons mis à jour la politique de confidentialité de RoSeal depuis votre dernière visite {lineBreak}{lineBreak}<privacyPolicyLink>Lire la politique de confidentialité (ANGLAIS)</privacyPolicyLink>"
     },
     "ppupdatemodal_action": {
         "message": "Accepter"
