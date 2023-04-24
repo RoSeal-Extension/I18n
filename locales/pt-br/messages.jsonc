@@ -971,7 +971,7 @@
         "message": "Solicitar R2Es não lidos"
     },
     "messages_getunreadr2e_download": {
-        "message": "Biaxar R2Es não lidos"
+        "message": "Baixar R2Es não lidos"
     },
     "messages_getunreadr2e_markread": {
         "message": "Marcar R2Es não lidos como lidos"
