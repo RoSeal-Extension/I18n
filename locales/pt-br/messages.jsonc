@@ -1011,7 +1011,7 @@
     },
 
     "group_foldercustomization_modal_title": {
-        "message": "{sealEmoji} Personalizar pasta de grupo"
+        "message": "{sealEmoji} Personalizar Pasta de Grupo"
     },
     "group_foldercustomization_modal_field_name": {
         "message": "Nome"
@@ -1036,7 +1036,7 @@
         "message": "Ocultar transações com valor de 0 Robux."
     },
     "transactions_hideprivateservers": {
-        "message": "Ocultar transações de servidor privado"
+        "message": "Ocultar transações de Servidor Privado"
     },
 
     "features_section_home": {
@@ -1070,13 +1070,13 @@
         "message": "Páginas de Itens"
     },
     "features_section_miscellaneous_transactionspage": {
-        "message": "Página de transações"
+        "message": "Página de Transações"
     },
     "features_section_miscellaneous_seals": {
         "message": "Focas"
     },
     "features_section_miscellaneous_navbars": {
-        "message": "barras de navegação"
+        "message": "Barras de Navegação"
     },
     "features_section_miscellaneous_avatarshop": {
         "message": "Loja de Avatar"
@@ -1109,14 +1109,14 @@
         "message": "Navegação"
     },
     "features_section_groups_walls": {
-        "message": "Paredes de chat"
+        "message": "Murais"
     },
 
     "features_RemoveHomePageUnnecessarySorts_title": {
         "message": "Remover classificações \"desnecessárias\" das classificações da página inicial"
     },
     "features_RemoveHomePageUnnecessarySorts_description": {
-        "message": "Quando ativado, remove quaisquer tipos de classificações da página inicial que não correspondam \"Recomendados para você\", \"Favoritos\", \"Continue\", \"Amigos Jogando\", ou \"Patrocinados\"."
+        "message": "Quando ativado, remove quaisquer tipos de classificações da página inicial que não correspondam a \"Recomendações para você\", \"Favoritas\", \"Continuar\", \"Ativides de suas amizades\", ou \"Patrocinadas\"."
     },
     "features_RefreshedHomeUserHeader_title": {
         "message": "Cabeçalho do usuário atualizado"
@@ -1134,16 +1134,16 @@
         "message": "saudações \"Olá,\""
     },
     "features_MoveExperienceSocialLinks_title": {
-        "message": "Mova os links sociais das experiências para cima da descrição, na aba \"sobre\""
+        "message": "Move os links sociais das experiências para cima da descrição, na aba \"Sobre\""
     },
     "features_AddCommunityWikiButton_title": {
-        "message": "Adicione um botão para visitar uma Wiki da comunidade não oficial de uma experiência na aba \"Sobre\""
+        "message": "Adiciona um botão para visitar uma Wiki da comunidade não oficial de uma experiência na aba \"Sobre\""
     },
     "features_AddCommunityWikiButton_description": {
         "message": "Quando habilitada, a extensão exibirá um botão para visitar uma wiki não oficial que faz parte do projeto Roblox Interwiki na plataforma Fandom para a experiência, caso seja reconhecida pelo RoSeal."
     },
     "features_RemovePrivateServersSectionInAbout_title": {
-        "message": "Remover a seção de servidores privados na aba \"Sobre\""
+        "message": "Remove a seção de servidores privados na aba \"Sobre\""
     },
     "features_DeveloperProductsInExperienceStore_title": {
         "message": "Produtos de desenvolvedor na aba \"Loja\" das experiências"
@@ -1200,19 +1200,19 @@
         "message": "Navegação aprimorada de Robux"
     },
     "features_BetterRobuxNavigation_description": {
-        "message": "Quando ativado, adiciona um botão de adição ao lado de Robux na navegação superior para redirecionar para compras de Robux e adiciona um novo botão de Transações na barra de navegação esquerda."
+        "message": "Quando ativado, adiciona um botão de Mais ao lado de Robux na navegação superior para redirecionar para compras de Robux e adiciona um novo botão de Transações na barra de navegação esquerda."
     },
     "features_MoveAgeBracket_title": {
-        "message": "Mover a faixa etária para a barra de navegação esquerda"
+        "message": "Move a faixa etária para a barra de navegação esquerda"
     },
     "features_DisableDesktopApp_title": {
-        "message": "Remover o banner do aplicativo de desktop"
+        "message": "Remover o banner do Aplicativo de Desktop"
     },
     "features_ViewItemIconThumbnailAssets_title": {
-        "message": "Adicionar links para visualizar ativo de thumbnail/ícone do item aplicável"
+        "message": "Adiciona links para visualizar ativo de thumbnail/ícone dos itens aplicáveis"
     },
     "features_ViewItemIconThumbnailAssets_description": {
-        "message": "Quando ativado, adiciona links no menu de contexto das páginas de detalhes dos itens para visualizar o Ativo de ícone do item, se aplicável. Isso também se aplica à mídia da experiência no carrossel nos detalhes da experiência."
+        "message": "Quando ativado, adiciona links no menu de contexto das páginas de detalhes dos itens para visualizar o ativo de ícone do item, se aplicável. Isso também se aplica à mídia da experiência no carrossel nos detalhes da experiência."
     },
     "features_UserFriendsPageContextMenu_title": {
         "message": "Ações rápidas na página de amigos do usuário"
@@ -1221,13 +1221,13 @@
         "message": "Quando ativado, adiciona ou substitui um menu de contexto nos cartões de amigos na página de amigos do usuário para ações rápidas. As ações rápidas incluem bloquear, remover amigo, deixar de seguir e forçar deixar de seguir"
     },
     "features_UserProfileAddMargins_title": {
-        "message": "Adicionar preenchimento entre as seções na página de perfil do usuário"
+        "message": "Adiciona preenchimento entre as seções na página de perfil do usuário"
     },
     "features_ItemPagesMoveReportAbuse_title": {
-        "message": "Mover os botões de denúncia de abuso para os menus de contexto do item, se aplicável"
+        "message": "Move os botões de denúncia de abuso para os menus de contexto do item, se aplicável"
     },
     "features_ItemMentions_title": {
-        "message": "Mensões formatadas de usuários/grupos nas descrições de item"
+        "message": "Menções formatadas de usuários/grupos nas descrições de item"
     },
     "features_ItemMentions_description": {
         "message": "Quando ativado, @usuário, links de usuários e links de grupos nas descrições de itens serão transformados em um link com uma foto de perfil ou thumbnail do grupo."
@@ -1239,13 +1239,13 @@
         "message": "Listar grupos com solicitações de entrada pendentes na navegação"
     },
     "features_ListPendingGroups_description": {
-        "message": "Quando ativo, adiciona uma aba de navegação com \"Pendentes\" na navegação de grupos."
+        "message": "Quando ativado, adiciona uma aba de navegação com \"Pendentes\" na navegação de grupos."
     },
     "features_DisableAvatarShopInfiniteScrolling_title": {
-        "message": "Desativar a rolagem infinita na loja de avatar"
+        "message": "Desativar a rolagem infinita na Loja de Avatar"
     },
     "features_DisableGroupWallInfiniteScrolling_title": {
-        "message": "Desativar a rolagem infinita no mural do grupo"
+        "message": "Desativar a rolagem infinita no Mural do Grupo"
     },
     "features_BlockExperiences_title": {
         "message": "Bloquear experiências"
@@ -1305,7 +1305,7 @@
         "message": "Seguidores"
     },
     "features_ChangeNavFriendsHash_values_friendrequests": {
-        "message": "Solicitações de amizade"
+        "message": "Solicitações de Amizade"
     },
     "features_HideFriendRequestsCount_title": {
         "message": "Ocultar a contagem de solicitações de amizade na barra de navegação."
@@ -1323,7 +1323,7 @@
         "message": "Quando ativado, adiciona uma estatística de \"Tipo de Avatar\" às estatísticas da experiência. Também exibirá um aviso sobre o botão 'play' caso o avatar atual do usuário seja restrito na experiência."
     },
     "features_AssetDeleteFromInventory_title": {
-        "message": "Botão \"excluir do inventário\" no menu de item do ativo"
+        "message": "Botão \"Excluir do Inventário\" no menu de item do ativo"
     },
     "features_AssetDeleteFromInventory_description": {
         "message": "Quando ativado, adiciona um botão \"Excluir do Inventário\" no menu de item do ativo, se ele ainda não existir. Devido a preocupações com segurança, um desafio de verificação de duas etapas é exigido."
@@ -1344,7 +1344,7 @@
         "message": "Botão de solicitação do arquivo CSV do Right-to-Erasures."
     },
     "features_DiscoverFilters_title": {
-        "message": "Filtros da página descobrir"
+        "message": "Filtros da página Descobrir"
     },
     "features_DiscoverFilters_description": {
         "message": "Quando ativado, adiciona uma seção de Filtros à página Descobrir. Isso permite a filtragem por porcentagem de curtidas, contagem de favoritos, contagem de jogadores, contagem de visitas e gênero."
@@ -1353,7 +1353,7 @@
         "message": "Botão \"Configurações do RoSeal\" no menu suspenso de configurações do Roblox."
     },
     "features_AccurateHomeContinueSort_title": {
-        "message": "Classificação precisa do \"Continue\" na página inicial não curada."
+        "message": "Classificação precisa do \"Continuar\" na página inicial não curada."
     },
     "features_CSSFixes_title": {
         "message": "Várias correções de estilos (CSS) em todo o site."
@@ -1374,7 +1374,7 @@
         "message": "Botão de atualizar detalhes do item de avatar"
     },
     "features_MarketplaceColorFilters_title": {
-        "message": "Filtros de cores da loja de avatar"
+        "message": "Filtros de cores da Loja de Avatar"
     },
     "features_RefreshAvatarItemDetails_sub_FastFreeBuy_title": {
         "message": "Compras rápidas de itens grátis"
@@ -1428,6 +1428,6 @@
     },
 
     "buymeacoffee": {
-        "message": "{coffeeEmoji} Me pague um café"
+        "message": "{coffeeEmoji} Me compre um café"
     }
 }
