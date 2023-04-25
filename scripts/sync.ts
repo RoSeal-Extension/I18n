@@ -1,23 +1,11 @@
-import { parse as parseJSONC } from "https://deno.land/std@0.184.0/jsonc/mod.ts";
+import { BASE_DIRECTORY, MESSAGES_FILE } from "./constants.ts";
+import { getLanguage } from "./getLanguage.ts";
 
-type MessagesFile = Record<string, {
-    message: string;
-}>;
-
-const BASE_DIRECTORY = "./locales";
-const MESSAGES_FILE = "messages.jsonc";
-
-const englishString = await Deno.readTextFile(`${BASE_DIRECTORY}/en/${MESSAGES_FILE}`);
-const englishObject = parseJSONC(englishString) as MessagesFile;
+const { string: englishString, object: englishObject } = await getLanguage("en");
 
 for await (const { name: locale } of Deno.readDir(BASE_DIRECTORY)) {
     if (locale !== "en") {
-        const oldLocaleString = await Deno.readTextFile(
-            `${BASE_DIRECTORY}/${locale}/${MESSAGES_FILE}`,
-        );
-        const localeObject = parseJSONC(
-            oldLocaleString,
-        ) as MessagesFile;
+        const { string: oldLocaleString, object: localeObject } = await getLanguage(locale);
 
         let localeString = englishString;
         for (const [key, value] of Object.entries(englishObject)) {
