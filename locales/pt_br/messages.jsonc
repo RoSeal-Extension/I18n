@@ -1244,16 +1244,16 @@
         "message": "saudações \"Olá,\""
     },
     "features_MoveExperienceSocialLinks_title": {
-        "message": "Move os links sociais das experiências para cima da descrição, na aba \"Sobre\""
+        "message": "Mover os links sociais das experiências para cima da descrição, na aba \"Sobre\""
     },
     "features_AddCommunityWikiButton_title": {
-        "message": "Adiciona um botão para visitar uma Wiki da comunidade não oficial de uma experiência na aba \"Sobre\""
+        "message": "Adicionar um botão para visitar uma Wiki da comunidade não oficial de uma experiência na aba \"Sobre\""
     },
     "features_AddCommunityWikiButton_description": {
         "message": "Quando habilitada, a extensão exibirá um botão para visitar uma wiki não oficial que faz parte do projeto Roblox Interwiki na plataforma Fandom para a experiência, caso seja reconhecida pelo RoSeal."
     },
     "features_RemovePrivateServersSectionInAbout_title": {
-        "message": "Remove a seção de servidores privados na aba \"Sobre\""
+        "message": "Remover a seção de servidores privados na aba \"Sobre\""
     },
     "features_DeveloperProductsInExperienceStore_title": {
         "message": "Produtos de desenvolvedor na aba \"Loja\" das experiências"
@@ -1313,13 +1313,13 @@
         "message": "Quando ativado, adiciona um botão de Mais ao lado de Robux na navegação superior para redirecionar para compras de Robux e adiciona um novo botão de Transações na barra de navegação esquerda."
     },
     "features_MoveAgeBracket_title": {
-        "message": "Move a faixa etária para a barra de navegação esquerda"
+        "message": "Mover a faixa etária para a barra de navegação esquerda"
     },
     "features_DisableDesktopApp_title": {
         "message": "Remover o banner do Aplicativo de Desktop"
     },
     "features_ViewItemIconThumbnailAssets_title": {
-        "message": "Adiciona links para visualizar ativo de thumbnail/ícone dos itens aplicáveis"
+        "message": "Adicionar links para visualizar ativo de thumbnail/ícone dos itens aplicáveis"
     },
     "features_ViewItemIconThumbnailAssets_description": {
         "message": "Quando ativado, adiciona links no menu de contexto das páginas de detalhes dos itens para visualizar o ativo de ícone do item, se aplicável. Isso também se aplica à mídia da experiência no carrossel nos detalhes da experiência."
@@ -1331,10 +1331,10 @@
         "message": "Quando ativado, adiciona ou substitui um menu de contexto nos cartões de amigos na página de amigos do usuário para ações rápidas. As ações rápidas incluem bloquear, remover amigo, deixar de seguir e forçar deixar de seguir"
     },
     "features_UserProfileAddMargins_title": {
-        "message": "Adiciona preenchimento entre as seções na página de perfil do usuário"
+        "message": "Adicionar preenchimento entre as seções na página de perfil do usuário"
     },
     "features_ItemPagesMoveReportAbuse_title": {
-        "message": "Move os botões de denúncia de abuso para os menus de contexto do item, se aplicável"
+        "message": "Mover os botões de denúncia de abuso para os menus de contexto do item, se aplicável"
     },
     "features_ItemMentions_title": {
         "message": "Menções formatadas de usuários/grupos nas descrições de item"
