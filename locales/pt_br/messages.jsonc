@@ -1226,7 +1226,7 @@
         "message": "Remover classificações \"desnecessárias\" das classificações da página inicial"
     },
     "features_RemoveHomePageUnnecessarySorts_description": {
-        "message": "Quando ativado, remove quaisquer tipos de classificações da página inicial que não correspondam a \"Recomendações para você\", \"Favoritas\", \"Continuar\", \"Ativides de suas amizades\", ou \"Patrocinadas\"."
+        "message": "Quando ativado, remove quaisquer tipos de classificações da página inicial que não correspondam a \"Recomendações para você\", \"Favoritas\", \"Continuar\", \"Atividades de suas amizades\", ou \"Patrocinadas\"."
     },
     "features_RefreshedHomeUserHeader_title": {
         "message": "Cabeçalho do usuário atualizado"
@@ -1442,7 +1442,7 @@
         "message": "Exibir o nome de usuário no título da página de amigos do usuário."
     },
     "features_ExperiencePrivateNote_title": {
-        "message": "Anotações privada da experiência na seção Sobre."
+        "message": "Anotação privada da experiência na aba Sobre."
     },
     "features_AccountPinPromptMoreLocations_title": {
         "message": "Exibir a solicitação de PIN da conta em mais locais."
