@@ -135,6 +135,9 @@
     "settings_featureswitches_featureswitch_permissions_subtext": {
         "message": "Los permisos se pueden otorgar en el cuadro de diálogo emergente de RoSeal desde la barra de herramientas del navegador"
     },
+    "settings_featureswitches_featureswitch_permissions_openoptions": {
+        "message": ""
+    },
     // "Associated Storage" is basically just storage stored from the feature, i.e. Roblox accounts with accounts manager
     "settings_featureswitches_featureswitch_removeassociatedstorage": {
         "message": "Eliminar almacenamiento asociado"
