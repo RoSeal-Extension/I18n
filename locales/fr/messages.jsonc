@@ -133,7 +133,7 @@
         "message": "Cookies"
     },
     "settings_featureswitches_featureswitch_permissions_subtext": {
-        "message": "Les permissions peuvent être accordées dans la boîte de dialogue contextuelle de RoSeal à partir de la barre d'outils du navigateur"
+        "message": "Les autorisations peuvent être accordées dans la page d'options de RoSeal :"
     },
     "settings_featureswitches_featureswitch_permissions_openoptions": {
         "message": ""
