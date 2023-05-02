@@ -133,10 +133,10 @@
         "message": "Cookies"
     },
     "settings_featureswitches_featureswitch_permissions_subtext": {
-        "message": "As permissões podem ser concedidas na caixa de diálogo pop-up do RoSeal na barra de ferramentas do navegador."
+        "message": "As permissões podem ser concedidas na página de opções do RoSeal:"
     },
     "settings_featureswitches_featureswitch_permissions_openoptions": {
-        "message": ""
+        "message": "Abrir"
     },
     // "Associated Storage" is basically just storage stored from the feature, i.e. Roblox accounts with accounts manager
     "settings_featureswitches_featureswitch_removeassociatedstorage": {
@@ -257,7 +257,7 @@
         "message": "Conta inválida, por favor, atualize a página."
     },
     "accountsmanager_error_NoCookiePermission": {
-        "message": "RoSeal não tem permissão para gerenciar cookies do navegador. Por favor, permita isso na caixa de diálogo pop-up do RoSeal na barra de ferramentas do navegador."
+        "message": "RoSeal não tem permissão para gerenciar cookies do navegador. Por favor, permita isso na página de opções do RoSeal."
     },
 
     // The context menu "..." item that appears in the item dropdown menu to view the icon asset
