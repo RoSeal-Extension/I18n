@@ -135,9 +135,6 @@
     "settings_featureswitches_featureswitch_permissions_subtext": {
         "message": "Les autorisations peuvent être accordées dans la page d'options de RoSeal :"
     },
-    "settings_featureswitches_featureswitch_permissions_openoptions": {
-        "message": ""
-    },
     // "Associated Storage" is basically just storage stored from the feature, i.e. Roblox accounts with accounts manager
     "settings_featureswitches_featureswitch_removeassociatedstorage": {
         "message": "Supprimer Stockage Associé"
