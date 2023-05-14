@@ -1289,7 +1289,7 @@
         "message": "Alterar o tipo de hora dos campos Criado/Atualizado/Entrou nas páginas de itens."
     },
     "features_CreatedUpdatedItemsTimeType_description": {
-        "message": "Quando ativado, altera o texto dos campos Criado, Atualizado ou Entrou nos itens aplicáveis para o formato de hora selecionado. Isso adicionará os campos \"Created\", \"Updated\" e \"Joined\" quando necessário."
+        "message": "Quando ativado, altera o texto dos campos Criado, Atualizado ou Entrou nos itens aplicáveis para o formato de hora selecionado. Isso adicionará os campos \"Criado\", \"Atualizado\" e \"Entrou\" quando necessário."
     },
     "features_CreatedUpdatedItemsTimeType_values_Disabled": {
         "message": "Desabilitado"
