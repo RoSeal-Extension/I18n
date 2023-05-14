@@ -1435,9 +1435,6 @@
     "features_ShowExperienceAvatarType_title": {
         "message": "Afficher le type d'avatar restreint à l'expérience dans les statistiques"
     },
-    "features_ShowExperienceAvatarType_description": {
-        "message": "Lorsqu'il est activé, ajoute une statistique \"Type d'avatar\" aux statistiques d'expérience. Il affichera également un avertissement sur le bouton de lecture si votre avatar actuel sera restreint dans l'expérience."
-    },
     "features_AssetDeleteFromInventory_title": {
         "message": "Bouton \"Supprimer de l'inventaire\" dans le menu de l'élément d'actif"
     },
@@ -1494,6 +1491,12 @@
     },
     "features_RefreshAvatarItemDetails_sub_FastFreeBuy_title": {
         "message": "Achats rapides d'articles d'avatar gratuits"
+    },
+    "features_RemoveFriendActivityLabel_title": {
+        "message": ""
+    },
+    "features_ShowAvatarRestriction_title": {
+        "message": ""
     },
 
     "popup_extensionname": {
