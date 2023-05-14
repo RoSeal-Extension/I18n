@@ -1318,6 +1318,9 @@
     "features_MoveAgeBracket_title": {
         "message": "Mover a faixa etária para a barra de navegação esquerda"
     },
+    "features_MoveAgeBracket_description": {
+        "message": ""
+    },
     "features_DisableDesktopApp_title": {
         "message": "Remover o banner do Aplicativo de Desktop"
     },

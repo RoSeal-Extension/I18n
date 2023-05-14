@@ -1318,6 +1318,9 @@
     "features_MoveAgeBracket_title": {
         "message": "Déplacer la tranche d'âge vers la navigation de gauche"
     },
+    "features_MoveAgeBracket_description": {
+        "message": ""
+    },
     "features_DisableDesktopApp_title": {
         "message": "Supprimer la bannière de l'application de bureau"
     },
