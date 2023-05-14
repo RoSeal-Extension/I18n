@@ -1435,6 +1435,9 @@
     "features_ShowExperienceAvatarType_title": {
         "message": "Mostrar el tipo de avatar restringido de la experiencia en las estadísticas"
     },
+    "features_ShowExperienceAvatarType_sub_ShowAvatarRestriction_title": {
+        "message": ""
+    },
     "features_AssetDeleteFromInventory_title": {
         "message": "Botón \"Eliminar del inventario\" en el menú de elementos de activos"
     },
@@ -1493,9 +1496,6 @@
         "message": "Compras rápidas y gratuitas de elementos de avatar"
     },
     "features_RemoveFriendActivityLabel_title": {
-        "message": ""
-    },
-    "features_ShowAvatarRestriction_title": {
         "message": ""
     },
 
