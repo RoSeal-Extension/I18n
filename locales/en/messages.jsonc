@@ -1435,6 +1435,9 @@
     "features_ShowExperienceAvatarType_title": {
         "message": "Show experience restricted avatar type in statistics"
     },
+    "features_ShowExperienceAvatarType_sub_ShowAvatarRestriction_title": {
+        "message": "Show details above the visit button if your avatar may be restricted"
+    },
     "features_AssetDeleteFromInventory_title": {
         "message": "\"Delete from Inventory\" button in asset item menu"
     },
@@ -1494,9 +1497,6 @@
     },
     "features_RemoveFriendActivityLabel_title": {
         "message": "Remove \"Friend Activity\" footer label on experiences"
-    },
-    "features_ShowAvatarRestriction_title": {
-        "message": "Show details above the visit button if your avatar may be restricted"
     },
 
     "popup_extensionname": {
