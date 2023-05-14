@@ -1435,9 +1435,6 @@
     "features_ShowExperienceAvatarType_title": {
         "message": "Show experience restricted avatar type in statistics"
     },
-    "features_ShowExperienceAvatarType_description": {
-        "message": "When enabled, adds an \"Avatar Type\" statistic to the experience statistics. It will also display a warning over the play button if your current avatar will be restricted in the experience."
-    },
     "features_AssetDeleteFromInventory_title": {
         "message": "\"Delete from Inventory\" button in asset item menu"
     },
@@ -1494,6 +1491,12 @@
     },
     "features_RefreshAvatarItemDetails_sub_FastFreeBuy_title": {
         "message": "Fast Free avatar item purchases"
+    },
+    "features_RemoveFriendActivityLabel_title": {
+        "message": "Remove \"Friend Activity\" footer label on experiences"
+    },
+    "features_ShowAvatarRestriction_title": {
+        "message": "Show details above the visit button if your avatar may be restricted"
     },
 
     "popup_extensionname": {
