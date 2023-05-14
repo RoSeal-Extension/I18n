@@ -1289,7 +1289,7 @@
         "message": "Change time type of Created/Updated/Joined fields on item pages"
     },
     "features_CreatedUpdatedItemsTimeType_description": {
-        "message": "When selected, changes the text of the Created, Updated, or Joined fields on applicable items to your selection type."
+        "message": "When selected, changes the text of the Created, Updated, or Joined fields on applicable items to your selected time format. This will add \"Created\", \"Updated\", and \"Joined\" fields when necessary."
     },
     "features_CreatedUpdatedItemsTimeType_values_Disabled": {
         "message": "Disabled"
@@ -1317,6 +1317,9 @@
     },
     "features_MoveAgeBracket_title": {
         "message": "Move the age bracket to the left navigation"
+    },
+    "features_MoveAgeBracket_description": {
+        "message": "When enabled, moves the age bracket from the top navigation to the left navigation and removes the profile picture and username from the top navigatio."
     },
     "features_DisableDesktopApp_title": {
         "message": "Remove the Desktop App banner"
