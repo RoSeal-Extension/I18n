@@ -1289,7 +1289,7 @@
         "message": "Alterar o tipo de hora dos campos Criado/Atualizado/Entrou nas páginas de itens."
     },
     "features_CreatedUpdatedItemsTimeType_description": {
-        "message": "Quando selecionado, altera o texto dos campos \"Criado\", \"Atualizado\" ou \"Entrou\" em itens aplicáveis para o tipo de seleção escolhido."
+        "message": "Quando ativado, altera o texto dos campos Criado, Atualizado ou Entrou nos itens aplicáveis para o formato de hora selecionado. Isso adicionará os campos \"Created\", \"Updated\" e \"Joined\" quando necessário."
     },
     "features_CreatedUpdatedItemsTimeType_values_Disabled": {
         "message": "Desabilitado"
@@ -1319,7 +1319,7 @@
         "message": "Mover a faixa etária para a barra de navegação esquerda"
     },
     "features_MoveAgeBracket_description": {
-        "message": ""
+        "message": "Quando ativado, move a faixa etária da barra de navegação superior para a barra de navegação esquerda e remove a foto de perfil e o nome de usuário da barra navegação superior."
     },
     "features_DisableDesktopApp_title": {
         "message": "Remover o banner do Aplicativo de Desktop"
@@ -1436,7 +1436,7 @@
         "message": "Exibir o tipo de avatar restrito pela experiência nas estatísticas"
     },
     "features_ShowExperienceAvatarType_sub_ShowAvatarRestriction_title": {
-        "message": ""
+        "message": "Exibir detalhes acima do botão de visita em experiências que seu avatar possa estar restrito."
     },
     "features_AssetDeleteFromInventory_title": {
         "message": "Botão \"Excluir do Inventário\" no menu de item do ativo"
@@ -1496,7 +1496,7 @@
         "message": "Compras rápidas de itens grátis"
     },
     "features_RemoveFriendActivityLabel_title": {
-        "message": ""
+        "message": "Remover o rótulo de rodapé \"atividades de suas amizades\" em experiências."
     },
 
     "popup_extensionname": {
