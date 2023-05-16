@@ -390,6 +390,42 @@
     "experience_avatarrestricted": {
         "message": "Votre avatar actuel peut ne pas ressembler ou fonctionner comme prévu dans cette expérience."
     },
+    // Table header items, "Field" in this context, is like part of an avatar, avatar type, body, proportion, etc.
+    "experience_avatarrestricted_compare_field": {
+        "message": ""
+    },
+    "experience_avatarrestricted_compare_you": {
+        "message": ""
+    },
+    "experience_avatarrestricted_compare_experience": {
+        "message": ""
+    },
+
+    "experience_avatarrestricted_fields_height": {
+        "message": ""
+    },
+    "experience_avatarrestricted_fields_width": {
+        "message": ""
+    },
+    "experience_avatarrestricted_fields_head": {
+        "message": ""
+    },
+    "experience_avatarrestricted_fields_proportion": {
+        "message": ""
+    },
+    "experience_avatarrestricted_fields_bodyType": {
+        "message": ""
+    },
+    "experience_avatarrestricted_fields_avatarType": {
+        "message": ""
+    },
+    "experience_avatarrestricted_fields_avatarType_values_R6": {
+        "message": ""
+    },
+    "experience_avatarrestricted_fields_avatarType_values_R15": {
+        "message": ""
+    },
+
     // Avatar Type stuff shown at the experience's stats.
     "experience_avatartype_label": {
         "message": "Type d'avatar"
