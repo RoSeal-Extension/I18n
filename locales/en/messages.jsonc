@@ -1355,7 +1355,7 @@
         "message": "Move the age bracket to the left navigation"
     },
     "features_MoveAgeBracket_description": {
-        "message": "When enabled, moves the age bracket from the top navigation to the left navigation and removes the profile picture and username from the top navigatio."
+        "message": "When enabled, moves the age bracket from the top navigation to the left navigation and removes the profile picture and username from the top navigation."
     },
     "features_DisableDesktopApp_title": {
         "message": "Remove the Desktop App banner"
