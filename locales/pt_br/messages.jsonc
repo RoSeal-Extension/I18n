@@ -392,38 +392,38 @@
     },
     // Table header items, "Field" in this context, is like part of an avatar, avatar type, body, proportion, etc.
     "experience_avatarrestricted_compare_field": {
-        "message": ""
+        "message": "Campo"
     },
     "experience_avatarrestricted_compare_you": {
-        "message": ""
+        "message": "Você"
     },
     "experience_avatarrestricted_compare_experience": {
-        "message": ""
+        "message": "Experiência"
     },
 
     "experience_avatarrestricted_fields_height": {
-        "message": ""
+        "message": "Altura"
     },
     "experience_avatarrestricted_fields_width": {
-        "message": ""
+        "message": "Largura"
     },
     "experience_avatarrestricted_fields_head": {
-        "message": ""
+        "message": "Cabeça"
     },
     "experience_avatarrestricted_fields_proportion": {
-        "message": ""
+        "message": "Proporção"
     },
     "experience_avatarrestricted_fields_bodyType": {
-        "message": ""
+        "message": "Tipo de corpo"
     },
     "experience_avatarrestricted_fields_avatarType": {
-        "message": ""
+        "message": "Tipo de avatar"
     },
     "experience_avatarrestricted_fields_avatarType_values_R6": {
-        "message": ""
+        "message": "R6"
     },
     "experience_avatarrestricted_fields_avatarType_values_R15": {
-        "message": ""
+        "message": "R15"
     },
 
     // Avatar Type stuff shown at the experience's stats.
