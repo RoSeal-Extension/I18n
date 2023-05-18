@@ -6,7 +6,7 @@
         "message": "RoSeal - เพิ่มประสบการณ์การใช้ Roblox"
     },
     "manifest_description": {
-        "message": "เพิ่มประสบการณ์การใช้เว็บไซต์ Roblox และ ยังมีแมวน้ำอีกด้วย"
+        "message": "เพิ่มประสบการณ์การใช้เว็บไซต์ Roblox และ ยังมีแมวน้ำอีกด้วยนะ"
     },
 
     // Popover dropdown menu for the roseal item
@@ -81,21 +81,21 @@
         "message": "เครดิต"
     },
     "settings_about_credits_Julli4n": {
-        "message": "<link>Julli4n</link> - หัวหน้าคนพัฒนา"
+        "message": "<link>Julli4n</link> - หัวหน้าผู้พัฒนา"
     },
     "settings_about_credits_Karasuneth": {
-        "message": "<link>Karasuneth</link> - ออกแบบไอคอนดั้งเดิม"
+        "message": "<link>Karasuneth</link> - คนออกแบบไอคอนดั้งเดิม"
     },
     "settings_about_credits_MaciejCreates": {
-        "message": "<link>MaciejCreates</link> - ออกแบบไอคอน"
+        "message": "<link>MaciejCreates</link> - คนออกแบบไอคอน"
     },
 
     // "Feature Switches" selection tab in menu and title
     "settings_about_featureswitches_header": {
-        "message": "ปรับคุณสมบัติ"
+        "message": "ปรับฟีเจอร์ต่างๆ"
     },
     "settings_about_featureswitches_description": {
-        "message": "ปรับคุณสมบัติได้อย่างรวดเร็วและสามารถเปิดและปิดฟีเจอร์ของ RoSeal ได้อย่างอิสระ"
+        "message": "ปรับฟีเจอร์ได้อย่างรวดเร็วและสามารถเปิดและปิดฟีเจอร์ของ RoSeal ได้อย่างอิสระ"
     },
     "settings_about_featureswitches_beta": {
         "message": "<label>เบต้า</label> ฟีเจอร์ยังไม่พร้อมให้ใช้งานตอนนี้ , อย่างไรก็ตาม ก็ยังไม่ความเสียงที่น้อยในการใช้งาน และ ทุกๆคนสามารถแสดงความคิดกับฟีเจอร์ได้"
@@ -114,7 +114,7 @@
 
     // selected tab
     "settings_selection_featureswitches": {
-        "message": "ปรับคุณสมบัติ"
+        "message": "ปรับฟีเจอร์ต่างๆ"
     },
     // feature switch details
     // a feature switch is disabled primarily remotely
@@ -124,7 +124,7 @@
     // not used atm, but will be if we ever add support for Safari or add firefox-exclusive features.
     // "browsers" is a comma-separated list of browsers
     "settings_featureswitches_featureswitch_exclusivebrowsers": {
-        "message": "พิเศษสำหรับผู้ใช้เบราว์เซอร์ต่อไปนี้: {browsers}"
+        "message": "ฟีเจอร์พิเศษสำหรับผู้ใช้เบราว์เซอร์ต่อไปนี้: {browsers}"
     },
     "settings_featureswitches_featureswitch_permissions_title": {
         "message": "ต้องการการอนุญาติ"
@@ -152,13 +152,13 @@
 
     // "Blocked Experiences" selection tab in menu and title
     "settings_selection_blockedexperiences": {
-        "message": "บล็อก Experiences"
+        "message": "บล็อก แมพ"
     },
     "settings_blockedexperiences_keywords_title": {
         "message": "บล็อก Keywords"
     },
     "settings_blockedexperiences_keywords_description": {
-        "message": "Keywords สามารถ เพิ่ม และ ลบ จะบล็อก experiences ที่มีชื่อเหมือนกับ keywords , Experiences เหลานี้จะไม่แสดงในหน้าทั่วไป"
+        "message": "Keywords สามารถ เพิ่ม และ ลบ จะบล็อก แมพ ที่มีชื่อเหมือนกับ keywords , แมพ เหลานี้จะไม่แสดงในหน้าทั่วไป"
     },
     "settings_blockedexperiences_keywords_count": {
         "message": "คุณกำลังบล็อก {keywordsNum} จาก {keywordsMax} experience keywords ที่อนุญาต:"
@@ -179,13 +179,13 @@
 
     // Blocked Experiences section
     "settings_blockedexperiences_individualexperiences_title": {
-        "message": "Experiences โดนบล็อกโดยผู้ใช้"
+        "message": "แมพ โดนบล็อกโดยผู้ใช้"
     },
     "settings_blockedexperiences_individualexperiences_description": {
-        "message": "Experiences แต่ละรายการสามารถบล็อก และ ยกเลิกการบล็อก ได้จากเมนูของแต่ละ experiences , Experiences เหลานี้จะไม่แสดงในหน้าทั่วไป"
+        "message": "Experiences แต่ละรายการสามารถบล็อก และ ยกเลิกการบล็อก ได้จากเมนูของแต่ละ แมพ , แมพ เหลานี้จะไม่แสดงในหน้าทั่วไป"
     },
     "settings_blockedexperiences_individualexperiences_count": {
-        "message": "คุณกำลังบล็อก {experiencesNum} จาก {experiencesMax} experiences ที่อนุญาติ:"
+        "message": "คุณกำลังบล็อก {experiencesNum} จาก {experiencesMax} แมพ ที่อนุญาติ:"
     },
     // No experiences blocked
     "settings_blockedexperiences_individualexperiences_noexperiences": {
@@ -284,11 +284,11 @@
     },
     // The collectible item UUID ID
     "collectibleasset_collectibleitemid": {
-        "message": "ไอดีของเก็บสะสม"
+        "message": "ไอดีของลิมิเต็ด"
     },
     // The collectible product UUID ID
     "collectibleasset_collectibleproductid": {
-        "message": "ไอดีสินค้าของของเก็บสะสม"
+        "message": "ไอดีสินค้าของของลิมิเต็ด"
     },
 
     // The developer product's numeric product ID
@@ -402,13 +402,13 @@
     },
 
     "experience_avatarrestricted_fields_height": {
-        "message": "สูง"
+        "message": "ความสูง"
     },
     "experience_avatarrestricted_fields_width": {
-        "message": "กว้าง"
+        "message": "ความกว้าง"
     },
     "experience_avatarrestricted_fields_head": {
-        "message": "หัว"
+        "message": "ส่วนหัว"
     },
     "experience_avatarrestricted_fields_proportion": {
         "message": "สัดส่วน"
@@ -572,7 +572,7 @@
         "message": "คุณคิดถึง Tix ไหม?"
     },
     "homeheader_secretmessage_Default6": {
-        "message": "seals"
+        "message": "แมวน้ำ!"
     },
     "homeheader_secretmessage_Default7": {
         "message": "ลาก่อน Legacy Api!"
@@ -673,7 +673,7 @@
         "message": "คุณต้องมีบัญชีอีเมล @roblox.com"
     },
     "homeheader_secretmessage_Soothsayer3": {
-        "message": "คุณไม่จำเป็นต้องจ่ายเงินสำหรับการเข้าถึง experiences ในการเข้าถึงแบบต้องจ่ายเงิน?????"
+        "message": "คุณไม่จำเป็นต้องจ่ายเงินสำหรับการเข้าถึง แมพ ในการเข้าถึงแบบต้องจ่ายเงิน?????"
     },
     "homeheader_secretmessage_Soothsayer4": {
         "message": "เจ๋งกว่า BetaTester ทั่วไปแน่นอน"
@@ -1076,7 +1076,7 @@
         "message": "รอง"
     },
     "avatarshop_colorfilters_items_any": {
-        "message": "ใดๆ"
+        "message": "อะไรก็ได้"
     },
 
     // Pending group join requests for the user
@@ -1400,7 +1400,7 @@
         "message": "ปิดใช้งานการเลื่อนแบบไม่สิ้นสุดของ ผนังกลุ่ม"
     },
     "features_BlockExperiences_title": {
-        "message": "บล็อก experiences"
+        "message": "บล็อก แมพ"
     },
     "features_BlockExperiences_description": {
         "message": "เมื่อเปิดใช้งาน เพิ่มรายการใหม่สำหรับการบล็อก experience แต่ละรายการและคำหลักไม่ให้แสดงในหน้าทั่วไปบางหน้าในการตั้งค่า RoSeal คุณสามารถบล็อก experience แต่ละรายการได้จากเมนูในหน้ารายละเอียดของ experience"
@@ -1532,7 +1532,7 @@
         "message": "การซื้อไอเทมอวาตาร์ฟรีอย่างรวดเร็ว"
     },
     "features_RemoveFriendActivityLabel_title": {
-        "message": "นำ \"กิจกรรมเพื่อน\" ป้ายกำกับส่วนท้ายเปิดอยู่ของ experiences ออก"
+        "message": "นำ \"กิจกรรมเพื่อน\" ป้ายกำกับส่วนท้ายเปิดอยู่ของ แมพ ออก"
     },
 
     "popup_extensionname": {
