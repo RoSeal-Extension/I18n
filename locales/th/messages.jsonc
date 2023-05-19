@@ -101,7 +101,7 @@
         "message": "<label>เบต้า</label> ฟีเจอร์ยังไม่พร้อมให้ใช้งานตอนนี้ , อย่างไรก็ตาม ก็ยังไม่ความเสียงที่น้อยในการใช้งาน และ ทุกๆคนสามารถแสดงความคิดกับฟีเจอร์ได้"
     },
     "settings_about_featureswitches_experimental": {
-        "message": "<label>โหมดทดลอง</label> ฟีเจอร์นี้ยังไม่พ้อมใช้งาน และอาจจะ ไม่เสถียร หรือ เป็นการทดสอบฟีเจอร์ก่อนที่จะนำมาใช้ , ข้อควรระวัง : ห้ามเปิดฟีเจอร์นี้เด็ดขาดหากคุณยังไม่รู้ว่ามันทำอะไรได้"
+        "message": "<label>โหมดทดลอง</label> ฟีเจอร์นี้ยังไม่พ้อมใช้งาน และอาจจะ ไม่เสถียร หรือ เป็นการทดสอบฟีเจอร์ก่อนที่จะนำมาใช้ , ข้อควรระวัง : ห้ามเปิดฟีเจอร์นี้เด็ดขาดหากคุณยังไม่รู้ว่ามันทำอะไรได้ เตือนแล้วนะ !"
     },
 
     // "Donate" selection tab in menu and title
@@ -109,7 +109,7 @@
         "message": "โดเนท"
     },
     "settings_donate_description": {
-        "message": "ฉันชื่อ, <bold>Julli4n</bold>, ไม่ได้รายได้จากการพัฒนาส่วนขยายนี้ หากคุณชอบใช้ส่วนขยายนี้คุณสามารถโดเนทได้ คุณจะไม่ได้รับอะไรนอกจากคำขอบคุณ{lineBreak}{lineBreak}ลิ้งค์นี้จำพาคุณไปที่ BuyMeACoffee เป็นไซต์ภายนอกที่ใช้สำหรับการบริจาค"
+        "message": "ฉันชื่อ, <bold>Julli4n</bold>, ไม่ได้รายได้จากการพัฒนาเลย หากคุณชอบใช้ส่วนขยายนี้คุณสามารถโดเนทได้ คุณจะไม่ได้รับอะไรนอกจากคำขอบคุณ{lineBreak}{lineBreak}ลิ้งค์นี้จำพาคุณไปที่ BuyMeACoffee เป็นไซต์ภายนอกที่ใช้สำหรับการบริจาค"
     },
 
     // selected tab
@@ -127,20 +127,20 @@
         "message": "ฟีเจอร์พิเศษสำหรับผู้ใช้เบราว์เซอร์ต่อไปนี้: {browsers}"
     },
     "settings_featureswitches_featureswitch_permissions_title": {
-        "message": "ต้องการการอนุญาติ"
+        "message": "ฟีเจอร์นี้ต้องการการอนุญาติ"
     },
     "settings_featureswitches_featureswitch_permissions_values_Cookies": {
         "message": "คุกกี้"
     },
     "settings_featureswitches_featureswitch_permissions_subtext": {
-        "message": "การอนุญาติสามารถทำได้ใน หน้าตัวเลือกของ RoSeal:"
+        "message": "การอนุญาติสามารถทำได้ใน หน้าฟีเจอร์ของ RoSeal:"
     },
     "settings_featureswitches_featureswitch_permissions_openoptions": {
         "message": "เปิด"
     },
     // "Associated Storage" is basically just storage stored from the feature, i.e. Roblox accounts with accounts manager
     "settings_featureswitches_featureswitch_removeassociatedstorage": {
-        "message": "ล้างข้อมูลที่เกี่ยวข้อง"
+        "message": "ล้างข้อมูลที่เกี่ยวข้องกับฟีเจอร์"
     },
     // System feedback messages
     "settings_featureswitches_featureswitch_removeassociatedstorage_systemfeedback_success": {
@@ -237,7 +237,7 @@
         "message": "เพิ่มบัญชีที่มีอยู่ตอนนี้"
     },
     "accountsmanager_actions_clearcurrentcookie": {
-        "message": "ล็อกเอาท์"
+        "message": "ออกจากระบบ"
     },
 
     // System feedbacks shown when there's an error/success message
@@ -377,7 +377,7 @@
         "message": "ไม่มีเกมพาสที่คุณค้นหา"
     },
     "experience_passes_entry_owned": {
-        "message": "เป็นเจ้าของ"
+        "message": "เป็นเจ้าของแล้ว"
     },
     "experience_passes_entry_buy": {
         "message": "ซื้อ"
@@ -388,7 +388,7 @@
 
     // Shown over the Play button to indicate to the user that their avatar may not be as intended in the experience
     "experience_avatarrestricted": {
-        "message": "อวาตาร์ปัจจุบันของคุณอาจะมีลักษณะที่ไม่เหมือนที่คุณแต่งไว้ใน experience นี้"
+        "message": "อวาตาร์ปัจจุบันของคุณอาจะมีลักษณะที่ไม่เหมือนที่คุณแต่งไว้ใน แมพ นี้"
     },
     // Table header items, "Field" in this context, is like part of an avatar, avatar type, body, proportion, etc.
     "experience_avatarrestricted_compare_field": {
@@ -398,7 +398,7 @@
         "message": "คุณ"
     },
     "experience_avatarrestricted_compare_experience": {
-        "message": "Experience"
+        "message": "แมพ"
     },
 
     "experience_avatarrestricted_fields_height": {
@@ -587,13 +587,13 @@
         "message": "ระวังป้องกันตัวเองโดนหลอก"
     },
     "homeheader_secretmessage_Default11": {
-        "message": "เล่นเป็นสิ่งที่ดีสำหรับสมองของคุณ แต่การเล่นมากเกินไปอาจเป็นอันตรายต่อสุขภาพของคุณ"
+        "message": "การเล่นเป็นสิ่งที่ดีสำหรับสมอง แต่ถ้าเล่นมากเกินไปอาจเป็นอันตรายต่อสุขภาพของคุณ"
     },
     "homeheader_secretmessage_Default12": {
-        "message": "จัดการเวลาให้ดีและใช้ชีวิตอย่างมีสุขภาพที่ดีขึ้น"
+        "message": "จัดการเวลาให้ดีแล้วใช้ชีวิตอย่างมีสุขภาพที่ดีขึ้น"
     },
     "homeheader_secretmessage_Default13": {
-        "message": "จินตนาการ 1M Robux..."
+        "message": "จินตนาการ 1M Robux... สิ"
     },
     "homeheader_secretmessage_Default14": {
         "message": "คุณทำอะไรอยู่?"
@@ -644,7 +644,7 @@
         "message": "สวัสดี!"
     },
     "homeheader_secretmessage_Default30": {
-        "message": "um... yum?"
+        "message": "อืม... อร่อยไหม?"
     },
 
     // Additional text shown if the user is in the "BetaTester" role. These are users that signed up for it on the DevForum.
@@ -991,7 +991,7 @@
         "message": "โน็ตนี้เป็นส่วนตัว มีเพียงคุณเท่านั้นที่สามารถดูได้"
     },
     "experience_privatenote_placeholder": {
-        "message": "การตั้งค่าเฉพาะสำหรับ experience นี้..."
+        "message": "การตั้งค่าเฉพาะสำหรับ แมพ นี้..."
     },
     "experience_privatenote_length": {
         "message": "{length}/{maxLength}"
@@ -1191,7 +1191,7 @@
         "message": "ทั่วไป"
     },
     "features_section_experiences": {
-        "message": "Experiences"
+        "message": "แมพ"
     },
     "features_section_experiences_discover": {
         "message": "ค้นพบ"
