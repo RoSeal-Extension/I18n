@@ -392,40 +392,39 @@
     },
     // Table header items, "Field" in this context, is like part of an avatar, avatar type, body, proportion, etc.
     "experience_avatarrestricted_compare_field": {
-        "message": ""
+        "message": "Champ"
     },
     "experience_avatarrestricted_compare_you": {
-        "message": ""
+        "message": "Vous"
     },
     "experience_avatarrestricted_compare_experience": {
-        "message": ""
+        "message": "Expérience"
     },
 
     "experience_avatarrestricted_fields_height": {
-        "message": ""
+        "message": "Hauteur"
     },
     "experience_avatarrestricted_fields_width": {
-        "message": ""
+        "message": "Largeur"
     },
     "experience_avatarrestricted_fields_head": {
-        "message": ""
+        "message": "En-tête"
     },
     "experience_avatarrestricted_fields_proportion": {
-        "message": ""
+        "message": "Proportions"
     },
     "experience_avatarrestricted_fields_bodyType": {
-        "message": ""
+        "message": "Type de corps"
     },
     "experience_avatarrestricted_fields_avatarType": {
-        "message": ""
+        "message": "Type d'avatar"
     },
     "experience_avatarrestricted_fields_avatarType_values_R6": {
-        "message": ""
+        "message": "R6"
     },
     "experience_avatarrestricted_fields_avatarType_values_R15": {
-        "message": ""
+        "message": "R15"
     },
-
     // Avatar Type stuff shown at the experience's stats.
     "experience_avatartype_label": {
         "message": "Type d'avatar"
@@ -1325,7 +1324,7 @@
         "message": "Modifier le type d'heure des champs créés/mis à jour/rejoints sur les pages d'éléments"
     },
     "features_CreatedUpdatedItemsTimeType_description": {
-        "message": "Lorsqu'il est sélectionné, modifie le texte des champs Créé, Mis à jour ou Rejoint sur les éléments applicables à votre type de sélection."
+        "message": "Lorsqu'il est sélectionné, modifie le texte des champs Créé, Mis à jour ou Joint sur les éléments applicables au format d'heure sélectionné. Cela ajoutera les champs \"Créé\", \"Mise à jour\" et \"Joint\" si nécessaire."
     },
     "features_CreatedUpdatedItemsTimeType_values_Disabled": {
         "message": "Désactivé"
@@ -1355,7 +1354,7 @@
         "message": "Déplacer la tranche d'âge vers la navigation de gauche"
     },
     "features_MoveAgeBracket_description": {
-        "message": ""
+        "message": "Lorsqu'il est activé, déplace la tranche d'âge de la navigation supérieure vers la navigation de gauche et supprime la photo de profil et le nom d'utilisateur de la navigation supérieure"
     },
     "features_DisableDesktopApp_title": {
         "message": "Supprimer la bannière de l'application de bureau"
@@ -1471,8 +1470,8 @@
     "features_ShowExperienceAvatarType_title": {
         "message": "Afficher le type d'avatar restreint à l'expérience dans les statistiques"
     },
-    "features_ShowExperienceAvatarType_sub_ShowAvatarRestriction_title": {
-        "message": ""
+    "features_ShowAvatarRestriction_title": {
+        "message": "Afficher les détails au-dessus du bouton de visite si votre avatar peut être restreint"
     },
     "features_AssetDeleteFromInventory_title": {
         "message": "Bouton \"Supprimer de l'inventaire\" dans le menu de l'élément d'actif"
@@ -1532,7 +1531,7 @@
         "message": "Achats rapides d'articles d'avatar gratuits"
     },
     "features_RemoveFriendActivityLabel_title": {
-        "message": ""
+        "message": "Supprimer l'étiquette de pied de page \"Activité des Amis\" sur les expériences"
     },
 
     "popup_extensionname": {
