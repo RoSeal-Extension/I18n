@@ -1474,8 +1474,8 @@
     "features_ShowExperienceAvatarType_title": {
         "message": "Afficher le type d'avatar restreint à l'expérience dans les statistiques"
     },
-    "features_ShowAvatarRestriction_title": {
-        "message": "Afficher les détails au-dessus du bouton de visite si votre avatar peut être restreint"
+    "features_ShowExperienceAvatarType_sub_ShowAvatarRestriction_title": {
+        "message": ""
     },
     "features_AssetDeleteFromInventory_title": {
         "message": "Bouton \"Supprimer de l'inventaire\" dans le menu de l'élément d'actif"
