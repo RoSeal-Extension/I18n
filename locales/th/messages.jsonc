@@ -6,7 +6,7 @@
         "message": "RoSeal - เพิ่มประสบการณ์การใช้ Roblox"
     },
     "manifest_description": {
-        "message": "เพิ่มประสบการณ์การใช้เว็บไซต์ Roblox และ ยังมีแมวน้ำอีกด้วย"
+        "message": "เพิ่มประสบการณ์การใช้เว็บไซต์ Roblox และ ยังมีแมวน้ำอีกด้วยนะ"
     },
 
     // Popover dropdown menu for the roseal item
@@ -81,27 +81,27 @@
         "message": "เครดิต"
     },
     "settings_about_credits_Julli4n": {
-        "message": "<link>Julli4n</link> - หัวหน้าคนพัฒนา"
+        "message": "<link>Julli4n</link> - หัวหน้าผู้พัฒนา"
     },
     "settings_about_credits_Karasuneth": {
-        "message": "<link>Karasuneth</link> - ออกแบบไอคอนดั้งเดิม"
+        "message": "<link>Karasuneth</link> - คนออกแบบไอคอนดั้งเดิม"
     },
     "settings_about_credits_MaciejCreates": {
-        "message": "<link>MaciejCreates</link> - ออกแบบไอคอน"
+        "message": "<link>MaciejCreates</link> - คนออกแบบไอคอน"
     },
 
     // "Feature Switches" selection tab in menu and title
     "settings_about_featureswitches_header": {
-        "message": "ปรับคุณสมบัติ"
+        "message": "ปรับฟีเจอร์ต่างๆ"
     },
     "settings_about_featureswitches_description": {
-        "message": "ปรับคุณสมบัติได้อย่างรวดเร็วและสามารถเปิดและปิดฟีเจอร์ของ RoSeal ได้อย่างอิสระ"
+        "message": "ปรับฟีเจอร์ได้อย่างรวดเร็วและสามารถเปิดและปิดฟีเจอร์ของ RoSeal ได้อย่างอิสระ"
     },
     "settings_about_featureswitches_beta": {
         "message": "<label>เบต้า</label> ฟีเจอร์ยังไม่พร้อมให้ใช้งานตอนนี้ , อย่างไรก็ตาม ก็ยังไม่ความเสียงที่น้อยในการใช้งาน และ ทุกๆคนสามารถแสดงความคิดกับฟีเจอร์ได้"
     },
     "settings_about_featureswitches_experimental": {
-        "message": "<label>โหมดทดลอง</label> ฟีเจอร์นี้ยังไม่พ้อมใช้งาน และอาจจะ ไม่เสถียร หรือ เป็นการทดสอบฟีเจอร์ก่อนที่จะนำมาใช้ , ข้อควรระวัง : ห้ามเปิดฟีเจอร์นี้เด็ดขาดหากคุณยังไม่รู้ว่ามันทำอะไรได้"
+        "message": "<label>โหมดทดลอง</label> ฟีเจอร์นี้ยังไม่พ้อมใช้งาน และอาจจะ ไม่เสถียร หรือ เป็นการทดสอบฟีเจอร์ก่อนที่จะนำมาใช้ , ข้อควรระวัง : ห้ามเปิดฟีเจอร์นี้เด็ดขาดหากคุณยังไม่รู้ว่ามันทำอะไรได้ เตือนแล้วนะ !"
     },
 
     // "Donate" selection tab in menu and title
@@ -109,12 +109,12 @@
         "message": "โดเนท"
     },
     "settings_donate_description": {
-        "message": "ฉันชื่อ, <bold>Julli4n</bold>, ไม่ได้รายได้จากการพัฒนาส่วนขยายนี้ หากคุณชอบใช้ส่วนขยายนี้คุณสามารถโดเนทได้ คุณจะไม่ได้รับอะไรนอกจากคำขอบคุณ{lineBreak}{lineBreak}ลิ้งค์นี้จำพาคุณไปที่ BuyMeACoffee เป็นไซต์ภายนอกที่ใช้สำหรับการบริจาค"
+        "message": "ฉันชื่อ, <bold>Julli4n</bold>, ไม่ได้รายได้จากการพัฒนาเลย หากคุณชอบใช้ส่วนขยายนี้คุณสามารถโดเนทได้ คุณจะไม่ได้รับอะไรนอกจากคำขอบคุณ{lineBreak}{lineBreak}ลิ้งค์นี้จำพาคุณไปที่ BuyMeACoffee เป็นไซต์ภายนอกที่ใช้สำหรับการบริจาค"
     },
 
     // selected tab
     "settings_selection_featureswitches": {
-        "message": "ปรับคุณสมบัติ"
+        "message": "ปรับฟีเจอร์ต่างๆ"
     },
     // feature switch details
     // a feature switch is disabled primarily remotely
@@ -124,23 +124,23 @@
     // not used atm, but will be if we ever add support for Safari or add firefox-exclusive features.
     // "browsers" is a comma-separated list of browsers
     "settings_featureswitches_featureswitch_exclusivebrowsers": {
-        "message": "พิเศษสำหรับผู้ใช้เบราว์เซอร์ต่อไปนี้: {browsers}"
+        "message": "ฟีเจอร์พิเศษสำหรับผู้ใช้เบราว์เซอร์ต่อไปนี้: {browsers}"
     },
     "settings_featureswitches_featureswitch_permissions_title": {
-        "message": "ต้องการการอนุญาติ"
+        "message": "ฟีเจอร์นี้ต้องการการอนุญาติ"
     },
     "settings_featureswitches_featureswitch_permissions_values_Cookies": {
         "message": "คุกกี้"
     },
     "settings_featureswitches_featureswitch_permissions_subtext": {
-        "message": "การอนุญาติสามารถทำได้ใน หน้าตัวเลือกของ RoSeal:"
+        "message": "การอนุญาติสามารถทำได้ใน หน้าฟีเจอร์ของ RoSeal:"
     },
     "settings_featureswitches_featureswitch_permissions_openoptions": {
         "message": "เปิด"
     },
     // "Associated Storage" is basically just storage stored from the feature, i.e. Roblox accounts with accounts manager
     "settings_featureswitches_featureswitch_removeassociatedstorage": {
-        "message": "ล้างข้อมูลที่เกี่ยวข้อง"
+        "message": "ล้างข้อมูลที่เกี่ยวข้องกับฟีเจอร์"
     },
     // System feedback messages
     "settings_featureswitches_featureswitch_removeassociatedstorage_systemfeedback_success": {
@@ -152,13 +152,13 @@
 
     // "Blocked Experiences" selection tab in menu and title
     "settings_selection_blockedexperiences": {
-        "message": "บล็อก Experiences"
+        "message": "บล็อก แมพ"
     },
     "settings_blockedexperiences_keywords_title": {
         "message": "บล็อก Keywords"
     },
     "settings_blockedexperiences_keywords_description": {
-        "message": "Keywords สามารถ เพิ่ม และ ลบ จะบล็อก experiences ที่มีชื่อเหมือนกับ keywords , Experiences เหลานี้จะไม่แสดงในหน้าทั่วไป"
+        "message": "Keywords สามารถ เพิ่ม และ ลบ จะบล็อก แมพ ที่มีชื่อเหมือนกับ keywords , แมพ เหลานี้จะไม่แสดงในหน้าทั่วไป"
     },
     "settings_blockedexperiences_keywords_count": {
         "message": "คุณกำลังบล็อก {keywordsNum} จาก {keywordsMax} experience keywords ที่อนุญาต:"
@@ -179,13 +179,13 @@
 
     // Blocked Experiences section
     "settings_blockedexperiences_individualexperiences_title": {
-        "message": "Experiences โดนบล็อกโดยผู้ใช้"
+        "message": "แมพ โดนบล็อกโดยผู้ใช้"
     },
     "settings_blockedexperiences_individualexperiences_description": {
-        "message": "Experiences แต่ละรายการสามารถบล็อก และ ยกเลิกการบล็อก ได้จากเมนูของแต่ละ experiences , Experiences เหลานี้จะไม่แสดงในหน้าทั่วไป"
+        "message": "Experiences แต่ละรายการสามารถบล็อก และ ยกเลิกการบล็อก ได้จากเมนูของแต่ละ แมพ , แมพ เหลานี้จะไม่แสดงในหน้าทั่วไป"
     },
     "settings_blockedexperiences_individualexperiences_count": {
-        "message": "คุณกำลังบล็อก {experiencesNum} จาก {experiencesMax} experiences ที่อนุญาติ:"
+        "message": "คุณกำลังบล็อก {experiencesNum} จาก {experiencesMax} แมพ ที่อนุญาติ:"
     },
     // No experiences blocked
     "settings_blockedexperiences_individualexperiences_noexperiences": {
@@ -237,7 +237,7 @@
         "message": "เพิ่มบัญชีที่มีอยู่ตอนนี้"
     },
     "accountsmanager_actions_clearcurrentcookie": {
-        "message": "ล็อกเอาท์"
+        "message": "ออกจากระบบ"
     },
 
     // System feedbacks shown when there's an error/success message
@@ -284,11 +284,11 @@
     },
     // The collectible item UUID ID
     "collectibleasset_collectibleitemid": {
-        "message": "ไอดีของเก็บสะสม"
+        "message": "ไอดีของลิมิเต็ด"
     },
     // The collectible product UUID ID
     "collectibleasset_collectibleproductid": {
-        "message": "ไอดีสินค้าของของเก็บสะสม"
+        "message": "ไอดีสินค้าของของลิมิเต็ด"
     },
 
     // The developer product's numeric product ID
@@ -377,7 +377,7 @@
         "message": "ไม่มีเกมพาสที่คุณค้นหา"
     },
     "experience_passes_entry_owned": {
-        "message": "เป็นเจ้าของ"
+        "message": "เป็นเจ้าของแล้ว"
     },
     "experience_passes_entry_buy": {
         "message": "ซื้อ"
@@ -388,7 +388,7 @@
 
     // Shown over the Play button to indicate to the user that their avatar may not be as intended in the experience
     "experience_avatarrestricted": {
-        "message": "อวาตาร์ปัจจุบันของคุณอาจะมีลักษณะที่ไม่เหมือนที่คุณแต่งไว้ใน experience นี้"
+        "message": "อวาตาร์ปัจจุบันของคุณอาจะมีลักษณะที่ไม่เหมือนที่คุณแต่งไว้ใน แมพ นี้"
     },
     // Table header items, "Field" in this context, is like part of an avatar, avatar type, body, proportion, etc.
     "experience_avatarrestricted_compare_field": {
@@ -398,17 +398,17 @@
         "message": "คุณ"
     },
     "experience_avatarrestricted_compare_experience": {
-        "message": "Experience"
+        "message": "แมพ"
     },
 
     "experience_avatarrestricted_fields_height": {
-        "message": "สูง"
+        "message": "ความสูง"
     },
     "experience_avatarrestricted_fields_width": {
-        "message": "กว้าง"
+        "message": "ความกว้าง"
     },
     "experience_avatarrestricted_fields_head": {
-        "message": "หัว"
+        "message": "ส่วนหัว"
     },
     "experience_avatarrestricted_fields_proportion": {
         "message": "สัดส่วน"
@@ -424,6 +424,9 @@
     },
     "experience_avatarrestricted_fields_avatarType_values_R15": {
         "message": "R15"
+    },
+    "experience_avatarrestricted_fields_avatarType_values_PlayerChoice": {
+        "message": ""
     },
 
     // Avatar Type stuff shown at the experience's stats.
@@ -572,7 +575,7 @@
         "message": "คุณคิดถึง Tix ไหม?"
     },
     "homeheader_secretmessage_Default6": {
-        "message": "seals"
+        "message": "แมวน้ำ!"
     },
     "homeheader_secretmessage_Default7": {
         "message": "ลาก่อน Legacy Api!"
@@ -587,13 +590,13 @@
         "message": "ระวังป้องกันตัวเองโดนหลอก"
     },
     "homeheader_secretmessage_Default11": {
-        "message": "เล่นเป็นสิ่งที่ดีสำหรับสมองของคุณ แต่การเล่นมากเกินไปอาจเป็นอันตรายต่อสุขภาพของคุณ"
+        "message": "การเล่นเป็นสิ่งที่ดีสำหรับสมอง แต่ถ้าเล่นมากเกินไปอาจเป็นอันตรายต่อสุขภาพของคุณ"
     },
     "homeheader_secretmessage_Default12": {
-        "message": "จัดการเวลาให้ดีและใช้ชีวิตอย่างมีสุขภาพที่ดีขึ้น"
+        "message": "จัดการเวลาให้ดีแล้วใช้ชีวิตอย่างมีสุขภาพที่ดีขึ้น"
     },
     "homeheader_secretmessage_Default13": {
-        "message": "จินตนาการ 1M Robux..."
+        "message": "จินตนาการ 1M Robux... สิ"
     },
     "homeheader_secretmessage_Default14": {
         "message": "คุณทำอะไรอยู่?"
@@ -644,7 +647,7 @@
         "message": "สวัสดี!"
     },
     "homeheader_secretmessage_Default30": {
-        "message": "um... yum?"
+        "message": "อืม... อร่อยไหม?"
     },
 
     // Additional text shown if the user is in the "BetaTester" role. These are users that signed up for it on the DevForum.
@@ -673,7 +676,7 @@
         "message": "คุณต้องมีบัญชีอีเมล @roblox.com"
     },
     "homeheader_secretmessage_Soothsayer3": {
-        "message": "คุณไม่จำเป็นต้องจ่ายเงินสำหรับการเข้าถึง experiences ในการเข้าถึงแบบต้องจ่ายเงิน?????"
+        "message": "คุณไม่จำเป็นต้องจ่ายเงินสำหรับการเข้าถึง แมพ ในการเข้าถึงแบบต้องจ่ายเงิน?????"
     },
     "homeheader_secretmessage_Soothsayer4": {
         "message": "เจ๋งกว่า BetaTester ทั่วไปแน่นอน"
@@ -991,7 +994,7 @@
         "message": "โน็ตนี้เป็นส่วนตัว มีเพียงคุณเท่านั้นที่สามารถดูได้"
     },
     "experience_privatenote_placeholder": {
-        "message": "การตั้งค่าเฉพาะสำหรับ experience นี้..."
+        "message": "การตั้งค่าเฉพาะสำหรับ แมพ นี้..."
     },
     "experience_privatenote_length": {
         "message": "{length}/{maxLength}"
@@ -1076,7 +1079,7 @@
         "message": "รอง"
     },
     "avatarshop_colorfilters_items_any": {
-        "message": "ใดๆ"
+        "message": "อะไรก็ได้"
     },
 
     // Pending group join requests for the user
@@ -1191,7 +1194,7 @@
         "message": "ทั่วไป"
     },
     "features_section_experiences": {
-        "message": "Experiences"
+        "message": "แมพ"
     },
     "features_section_experiences_discover": {
         "message": "ค้นพบ"
@@ -1400,7 +1403,7 @@
         "message": "ปิดใช้งานการเลื่อนแบบไม่สิ้นสุดของ ผนังกลุ่ม"
     },
     "features_BlockExperiences_title": {
-        "message": "บล็อก experiences"
+        "message": "บล็อก แมพ"
     },
     "features_BlockExperiences_description": {
         "message": "เมื่อเปิดใช้งาน เพิ่มรายการใหม่สำหรับการบล็อก experience แต่ละรายการและคำหลักไม่ให้แสดงในหน้าทั่วไปบางหน้าในการตั้งค่า RoSeal คุณสามารถบล็อก experience แต่ละรายการได้จากเมนูในหน้ารายละเอียดของ experience"
@@ -1532,7 +1535,7 @@
         "message": "การซื้อไอเทมอวาตาร์ฟรีอย่างรวดเร็ว"
     },
     "features_RemoveFriendActivityLabel_title": {
-        "message": "นำ \"กิจกรรมเพื่อน\" ป้ายกำกับส่วนท้ายเปิดอยู่ของ experiences ออก"
+        "message": "นำ \"กิจกรรมเพื่อน\" ป้ายกำกับส่วนท้ายเปิดอยู่ของ แมพ ออก"
     },
 
     "popup_extensionname": {

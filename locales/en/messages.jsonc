@@ -425,6 +425,9 @@
     "experience_avatarrestricted_fields_avatarType_values_R15": {
         "message": "R15"
     },
+    "experience_avatarrestricted_fields_avatarType_values_PlayerChoice": {
+        "message": "User Choice"
+    },
 
     // Avatar Type stuff shown at the experience's stats.
     "experience_avatartype_label": {
