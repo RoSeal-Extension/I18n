@@ -109,7 +109,7 @@
         "message": "โดเนท"
     },
     "settings_donate_description": {
-        "message": "ฉันชื่อ, <bold>Julli4n</bold>, ไม่ได้รายได้จากการพัฒนาเลย หากคุณชอบใช้ส่วนขยายนี้คุณสามารถโดเนทได้ คุณจะไม่ได้รับอะไรนอกจากคำขอบคุณ{lineBreak}{lineBreak}ลิ้งค์นี้จำพาคุณไปที่ BuyMeACoffee เป็นไซต์ภายนอกที่ใช้สำหรับการบริจาค"
+        "message": "สวัสดีฉันชื่อ, <bold>Julli4n</bold>, ไม่ได้รายได้จากการพัฒนาเลย หากคุณชอบใช้ส่วนขยายนี้คุณสามารถโดเนทได้ คุณจะไม่ได้รับอะไรนอกจากคำขอบคุณ{lineBreak}{lineBreak}ลิ้งค์นี้จำพาคุณไปที่ BuyMeACoffee เป็นไซต์ภายนอกที่ใช้สำหรับการบริจาค"
     },
 
     // selected tab
@@ -596,7 +596,7 @@
         "message": "จัดการเวลาให้ดีแล้วใช้ชีวิตอย่างมีสุขภาพที่ดีขึ้น"
     },
     "homeheader_secretmessage_Default13": {
-        "message": "จินตนาการ 1M Robux... สิ"
+        "message": "จินตนาการ 1 ล้าน โรบัค... สิ"
     },
     "homeheader_secretmessage_Default14": {
         "message": "คุณทำอะไรอยู่?"
@@ -1180,7 +1180,7 @@
 
     // Text to show in /transactions to toggle off/on hiding stuff
     "transactions_hide0robuxamount": {
-        "message": "ซ่อนการทำธุรกรรมด้วยจำนวน 0 Robux"
+        "message": "ซ่อนการทำธุรกรรมด้วยจำนวน 0 โรบัค"
     },
     "transactions_hideprivateservers": {
         "message": "ซ่อนธุรกรรมเซิร์ฟเวอร์ส่วนตัว"
@@ -1257,7 +1257,7 @@
         "message": "แถบนำทาง"
     },
     "features_section_groups_walls": {
-        "message": "ผนัง"
+        "message": "ผนังของกลุ่ม"
     },
 
     // Feature switches in settings
@@ -1280,10 +1280,10 @@
         "message": "โอกาส 10% ของข้อความที่เลือกตามบทบาทสาธารณะของคุณ"
     },
     "features_RefreshedHomeUserHeader_sub_BirthdayMessage_title": {
-        "message": "ข้อความวันเกิด"
+        "message": "ข้อความสุขสันต์วันเกิด"
     },
     "features_RefreshedHomeUserHeader_sub_HelloText_title": {
-        "message": "\"สวัสดี,\" การทักทาย"
+        "message": "\"สวัสดี,\" คือการทักทาย"
     },
     "features_MoveExperienceSocialLinks_title": {
         "message": "ย้ายประสบการณ์โซเชียลลิงก์บนคำอธิบายในแท็บเกี่ยวกับ"
@@ -1298,16 +1298,16 @@
         "message": "ลบส่วนเซิร์ฟเวอร์ส่วนตัวในแท็บเกี่ยวกับ"
     },
     "features_DeveloperProductsInExperienceStore_title": {
-        "message": "สินค้าของนักพัฒนาในแท็บร้านค้า experience"
+        "message": "สินค้าของนักพัฒนาในแท็บร้านค้าของแมพ"
     },
     "features_DeveloperProductsInExperienceStore_description": {
         "message": "เมื่อเปิดใช้งาน จะแสดงสินค้าของนักพัฒนาในดรอปดาวน์ใต้แท็บ ร้านค้า สร้างหน้าใหม่สำหรับดูรายละเอียดสินค้าของนักพัฒนาซอฟต์แวร์"
     },
     "features_ExperienceStoreItemFiltering_title": {
-        "message": "ฟิวเตอร์การกรองในแท็บร้านค้า experience"
+        "message": "ฟิวเตอร์การกรองในแท็บร้านค้าของ แมพ"
     },
     "features_ExperienceStoreItemFiltering_description": {
-        "message": "เมื่อเปิดใช้งาน จะแสดงตัวเลือกฟิลเตอร์เพิ่มเติมในแท็บ เกมพาส และ สินค้าของผู้พัฒนา ในร้านค้า experience"
+        "message": "เมื่อเปิดใช้งาน จะแสดงตัวเลือกฟิลเตอร์เพิ่มเติมในแท็บ เกมพาส และ สินค้าของผู้พัฒนา ในร้านค้า ของแมพ"
     },
     "features_WebsiteOfflineMode_title": {
         "message": "แสดงเป็นออฟไลน์เมื่ออยู่บนเว็บไซต์เท่านั้น"
@@ -1349,10 +1349,10 @@
         "message": "เมื่อเปิดใช้งาน ตัวเลือกดรอปดาวน์สุดท้ายของคุณจะยังคงอยู่ แม้จะปิดหน้าไปแล้วก็ตาม อาจเสียหายเมื่อคุณได้รับธุรกรรมใหม่"
     },
     "features_BetterRobuxNavigation_title": {
-        "message": "แถบนำทาง Robux ที่ดีขึ้น"
+        "message": "แถบนำทาง โรบัค ที่ดีขึ้น"
     },
     "features_BetterRobuxNavigation_description": {
-        "message": "เมื่อเปิดใช้งาน เพิ่มปุ่มบวกถัดจาก Robux ในแถบนำทางด้านบนเพื่อเปลี่ยนเส้นทางไปยังการซื้อ Robux และเพิ่มธุรกรรมใหม่ในแถบนำทางด้านซ้าย"
+        "message": "เมื่อเปิดใช้งาน เพิ่มปุ่มบวกถัดจาก โรบัค ในแถบนำทางด้านบนเพื่อเปลี่ยนเส้นทางไปยังการซื้อ โรบัค และเพิ่มธุรกรรมใหม่ในแถบนำทางด้านซ้าย"
     },
     "features_MoveAgeBracket_title": {
         "message": "ย้ายกลุ่มอายุไปที่แถบนำทางด้านซ้าย"
@@ -1367,7 +1367,7 @@
         "message": "เพิ่มลิงก์เพื่อดูเนื้อหาภาพขนาดย่อ/ไอคอนของรายการที่เกี่ยวข้อง"
     },
     "features_ViewItemIconThumbnailAssets_description": {
-        "message": "เมื่อเปิดใช้งาน เพิ่มลิงก์ในเมนูบริบทของหน้ารายละเอียดของรายการเพื่อดูเนื้อหาไอคอนของรายการ หากมี นอกจากนี้ยังใช้กับ experience ที่เกี่ยวกับรายละเอียด experience"
+        "message": "เมื่อเปิดใช้งาน เพิ่มลิงก์ในเมนูบริบทของหน้ารายละเอียดของรายการเพื่อดูเนื้อหาไอคอนของรายการ หากมี นอกจากนี้ยังใช้กับ แมพ ที่เกี่ยวกับรายละเอียดของ แมพนี้"
     },
     "features_UserFriendsPageContextMenu_title": {
         "message": "การดำเนินการด่วนในหน้าเพื่อนของผู้ใช้"
@@ -1379,7 +1379,7 @@
         "message": "เพิ่มช่องว่างในระหว่างส่วนต่างๆ ในหน้าโปรไฟล์ผู้ใช้"
     },
     "features_ItemPagesMoveReportAbuse_title": {
-        "message": "ย้ายปุ่มรายงานไปยังเมนูบริบทของรายการ ถ้ามี"
+        "message": "ย้ายปุ่มรายงานไปยังเมนูบริบทของรายการ *ถ้ามี"
     },
     "features_ItemMentions_title": {
         "message": "กล่าวถึงผู้ใช้/กลุ่มที่จัดรูปแบบในคำอธิบายรายการ"
@@ -1409,7 +1409,7 @@
         "message": "เมื่อเปิดใช้งาน เพิ่มรายการใหม่สำหรับการบล็อก experience แต่ละรายการและคำหลักไม่ให้แสดงในหน้าทั่วไปบางหน้าในการตั้งค่า RoSeal คุณสามารถบล็อก experience แต่ละรายการได้จากเมนูในหน้ารายละเอียดของ experience"
     },
     "features_ShowExperienceUniverseId_title": {
-        "message": "แสดง Universe ID ของ Experience"
+        "message": "แสดง Universe ID ของ แมพนี้"
     },
     "features_Enable3DThumbnailDynamicLighting_title": {
         "message": "เปิดใช้แสงไดนามิกภาพขนาดย่อ 3 มิติ"
@@ -1421,10 +1421,10 @@
         "message": "เมื่อเปิดใช้งาน เพิ่มประเภทการจัดเรียงใหม่ในกล่องแชทเพื่อกรองผ่านการสนทนา"
     },
     "features_Transactions0RobuxAmountToggle_title": {
-        "message": "สลับเพื่อซ่อนธุรกรรมด้วยจำนวน 0 Robux"
+        "message": "สลับเพื่อซ่อนธุรกรรมด้วยจำนวน 0 โรบัค"
     },
     "features_TransactionsPrivateServersToggle_title": {
-        "message": "สลับเพื่อซ่อนธุรกรรมเซิร์ฟเวอร์ส่วนตัว"
+        "message": "สลับเพื่อซ่อนธุรกรรมของเซิร์ฟเวอร์ส่วนตัว"
     },
     "features_GroupOrganization_title": {
         "message": "การปรับแต่งองค์กรแบบกลุ่ม"
@@ -1433,19 +1433,19 @@
         "message": "เมื่อเปิดใช้งาน อนุญาตให้จัดระเบียบกลุ่มใหม่และสร้างโฟลเดอร์กลุ่มด้วยการลากและวาง โฟลเดอร์กลุ่มสามารถปรับแต่งเพิ่มเติมได้"
     },
     "features_BetterExperienceBadges_title": {
-        "message": "รายการเหรียญตราประสบการณ์ที่ดีขึ้น"
+        "message": "รายการเหรียญตราของแมพที่ดีขึ้น"
     },
     "features_BetterExperienceBadges_description": {
-        "message": "เมื่อเปิดใช้งาน เพิ่มแท็บใหม่เพื่อดูรายละเอียด experience ที่มีรายการเหรียญตรา experience ที่ดีกว่า คุณยังสามารถดูเหรียญตราที่ไม่ได้ใช้งาน วันที่ได้รับป้าย และเปรียบเทียบเหรียญตราของคุณกับผู้ใช้รายอื่น สิ่งนี้ไม่เสถียรสำหรับ experience ที่มีเหรียญตราจำนวนมาก"
+        "message": "เมื่อเปิดใช้งาน เพิ่มแท็บใหม่เพื่อดูรายละเอียดของ แมพ ที่มีรายการเหรียญตราของ แมพ ที่ดีกว่า คุณยังสามารถดูเหรียญตราที่ไม่ได้ใช้งาน วันที่ได้เหรียญตรา และเปรียบเทียบเหรียญตราของคุณกับผู้ใช้รายอื่น อาจจะไม่เสถียรสำหรับ แมพนี้ ที่มีเหรียญตราจำนวนมาก"
     },
     "features_BetterExperiencesBadges_sub_FiltersAndSorts_title": {
-        "message": "Experience การกรองเหรียญและการเรียงลำดับ"
+        "message": "การกรองเหรียญตราและการเรียงลำดับของ แมพ"
     },
     "features_BetterExperiencesBadges_sub_DisableRobloxBadges_title": {
         "message": "ปิดหน้าเหรียญตราของ Roblox"
     },
     "features_UserProfileLastOnline_title": {
-        "message": "แสดงวันที่ออนไลน์ล่าสุดของผู้ใช้"
+        "message": "แสดงวันที่ออนไลน์ล่าสุด"
     },
     "features_ChangeNavFriendsHash_title": {
         "message": "เปลี่ยนแท็บเพื่อนของผู้ใช้เริ่มต้นจากแถบนำทาง"
@@ -1466,19 +1466,19 @@
         "message": "ซ่อนจำนวนคำขอเป็นเพื่อนในแถบนำทาง"
     },
     "features_SealImages_title": {
-        "message": "แทนที่ภาพทั้งหมดด้วยภาพแม่น้ำ"
+        "message": "แทนที่ภาพทั้งหมดด้วยภาพแมวน้ำ !"
     },
     "features_ExperienceMediaAltTextButton_title": {
-        "message": "ปุ่มข้อความแสดงภาพขนาดย่อ experience ที่ดีขึ้น"
+        "message": "ปุ่มข้อความแสดงภาพขนาดย่อขอ แมพ ที่ดีขึ้น"
     },
     "features_ShowExperienceAvatarType_title": {
-        "message": "แสดงประเภทอวาตาร์จำกัด experience ในสถิติ"
+        "message": "แสดงประเภทอวาตาร์จำกัดใน แมพ ที่หน้าสถิติ"
     },
     "features_ShowExperienceAvatarType_sub_ShowAvatarRestriction_title": {
-        "message": "แสดงรายละเอียดเหนือปุ่มเข้าชมหากอวาตาร์ของคุณอาจถูกจำกัด"
+        "message": "แสดงรายละเอียดเหนือปุ่มเข้าชมหากอวาตาร์อาจจะถูกจำกัด"
     },
     "features_AssetDeleteFromInventory_title": {
-        "message": "\"ลบออกจากกระเป๋า\" ปุ่มในเมนูรายการเมนู"
+        "message": "\"ลบออกจากกระเป๋า\" ปุ่มในเมนู"
     },
     "features_AssetDeleteFromInventory_description": {
         "message": "เมื่อเปิดใช้งาน เพิ่ม \"ลบออกจากกระเป๋า\" ปุ่มในเมนูรายการไอเทมหากยังไม่มีอยู่ เนื่องจากด้านความปลอดภัย จึงจำเป็นต้องมีการยืนยันแบบสองขั้นตอน"
@@ -1487,25 +1487,25 @@
         "message": "แสดงชื่อผู้ใช้ในชื่อหน้าเพื่อนของผู้ใช้"
     },
     "features_ExperiencePrivateNote_title": {
-        "message": "สัมผัสกับบันทึกส่วนตัวในส่วนเกี่ยวกับ"
+        "message": "บันทึกส่วนตัวในหน้าเกี่ยวกับ"
     },
     "features_AccountPinPromptMoreLocations_title": {
-        "message": "แสดงรหัส PIN ของบัญชีในตำแหน่งอื่นๆ"
+        "message": "แสดงรหัส PIN ของบัญชีที่อืน"
     },
     "features_AccountPinPromptMoreLocations_description": {
-        "message": "เมื่อเปิดใช้งาน จะแสดงข้อความแจ้งการปลดล็อก PIN ของบัญชีในตำแหน่งอื่นๆ ที่มักจะนำไปยังการตั้งค่าบัญชี"
+        "message": "เมื่อเปิดใช้งาน จะแสดงข้อความแจ้งการปลดล็อก PIN ของบัญชีที่อื่น ที่มักจะนำไปยังการตั้งค่าบัญชี"
     },
     "features_GetUnreadR2EButton_title": {
         "message": "ขอปุ่มไฟล์ CSV ที่มีสิทธิ์ในการลบ"
     },
     "features_DiscoverFilters_title": {
-        "message": "ค้นพบฟิลเตอร์"
+        "message": "ฟิลเตอร์การค้นพบ"
     },
     "features_DiscoverFilters_description": {
-        "message": "เมื่อเปิดใช้งาน เพิ่มส่วนฟิลเตอร์ในหน้าค้นพบ อนุญาตให้ฟิลเตอร์ทุกประเภทตามเปอร์เซ็นต์การถูกใจ จำนวนรายการโปรด จำนวนผู้เล่น จำนวนการเข้าชม และประเภท"
+        "message": "เมื่อเปิดใช้งาน เพิ่มส่วนฟิลเตอร์ในหน้าค้นพบ อนุญาตให้ฟิลเตอร์ทุกประเภทตามเปอร์เซ็นต์การกดไลค์ จำนวนคนที่ชื่นชอบ จำนวนผู้เล่น จำนวนผู้เข้าชม และตามประเภท"
     },
     "features_RoSealSettingDropdown_title": {
-        "message": "\"การตั้งค่าของ RoSeal\" ไอเทมในดร็อปดาวน์การตั้งค่า Roblox"
+        "message": "\"การตั้งค่าของ RoSeal\" ในดร็อปดาวน์การตั้งค่า Roblox"
     },
     "features_AccurateHomeContinueSort_title": {
         "message": "หน้าหลักที่ไม่ได้ดูแลจัดการอย่างแม่นยำ \"ดำเนินการต่อ\" จัดเรียง"
@@ -1561,7 +1561,7 @@
     },
     // Tooltip shown when hovering over the questionmark next to "Cookies"
     "popup_permissions_cookietooltip": {
-        "message": "ให้สิทธิ์นี้หากคุณต้องการใช้ตัวจัดการบัญชี คุณสามารถนำการอนุญาตนี้ออกได้ตลอดเวลา"
+        "message": "กรุณาให้สิทธิ์นี้หากคุณต้องการใช้ตัวจัดการบัญชี คุณสามารถนำการอนุญาตนี้ออกได้ตลอดเวลา"
     },
 
     // Popup data managemenet
