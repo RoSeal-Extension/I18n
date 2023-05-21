@@ -1520,7 +1520,7 @@
         "message": "Navegação em grupo sem atualização da página"
     },
     "features_RefreshlessGroupNavigation_description": {
-        "message": "Quando habilitada, a navegação para outro grupo a partir da organização de grupos/grupos pendentes não exigirá uma atualização da página."
+        "message": "Quando ativado, a navegação para outro grupo a partir de qualquer lista de grupos não exigirá a atualização da página."
     },
     "features_ItemAdditionalProductInfo_title": {
         "message": "Exibir informações adicionais do produto"
