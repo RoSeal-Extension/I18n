@@ -14,8 +14,8 @@ possible. **Only editing translation strings to execute XSS is not going to work
 - Strings marked as "DEPRECATED"
 - Strings inside arrows `<>` or curly brackets "{}", these are formatted by the extension and must
   be consistent across all locales.
-  - e.g: `<bold>Seal</bold>` should be translated to `<bold>Sello</bold>`, `{sealEmoji} Seal` should
-    be translated to `{sealEmoji} Sello`. (example translations, may not be accurate). We will
+  - e.g: `<bold>Seal</bold>` should be translated to `<bold>Foca</bold>`, `{sealEmoji} Seal` should
+    be translated to `{sealEmoji} Foca`. (example translations, may not be accurate). We will
     automatically validate these in the future.
 
 If you want to report a RoSeal bug or make a suggestion, please use the
