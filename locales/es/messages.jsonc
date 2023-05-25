@@ -974,10 +974,10 @@
     },
     // Parts of a tooltip when hovering over the question mark
     "experience_badges_badged_yesterdaypercentage": {
-        "message": "{porcentaje}%"
+        "message": "{percentage}%"
     },
     "experience_badges_badge_awarded": {
-        "message": "Otorgado {tiempo}"
+        "message": "Otorgado {time}"
     },
     "experience_badges_badge_wonalltime": {
         "message": "Ganado en todo momento"
@@ -997,7 +997,7 @@
         "message": "Temperamentos o ajustes específicos para esta experiencia..."
     },
     "experience_privatenote_length": {
-        "message": "{longitud}/{longitudMáx}"
+        "message": "{length}/{maxLength}"
     },
     "experience_privatenote_buttons_cancel": {
         "message": "Cancelar"
@@ -1034,7 +1034,7 @@
     // When "Show username in user's friends page title" is enabled, it will replace the title with this.
     // adding {username}
     "userfriends_newtitle": {
-        "message": "Amigos de {nombreMostrado} (@{nombreUsuario})"
+        "message": "Amigos de {displayName} (@{username})"
     },
 
     // Context menu for "Quick actions in the user's friends page"
