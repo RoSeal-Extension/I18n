@@ -997,7 +997,7 @@
         "message": "Temperamentos o ajustes específicos para esta experiencia..."
     },
     "experience_privatenote_length": {
-        "message": "{lenght}/{maxLength}"
+        "message": "{length}/{maxLength}"
     },
     "experience_privatenote_buttons_cancel": {
         "message": "Cancelar"
