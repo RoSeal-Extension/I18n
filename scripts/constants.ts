@@ -1,6 +1,6 @@
-export { parse as parseJSONC } from "https://deno.land/std@0.187.0/jsonc/mod.ts";
-export { type MessageFormatElement } from "https://esm.sh/v122/@formatjs/icu-messageformat-parser@2.4.0";
-export { default as I18n } from "https://esm.sh/v122/intl-messageformat@10.3.5";
+export { parse as parseJSONC } from "https://deno.land/std@0.189.0/jsonc/mod.ts";
+export { type MessageFormatElement } from "https://esm.sh/v124/@formatjs/icu-messageformat-parser@2.4.0";
+export { default as I18n } from "https://esm.sh/v124/intl-messageformat@10.3.5";
 
 export type MessagesFile = Record<string, {
     message: string;
