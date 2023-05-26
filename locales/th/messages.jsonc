@@ -155,20 +155,20 @@
         "message": "บล็อก แมพ"
     },
     "settings_blockedexperiences_keywords_title": {
-        "message": "บล็อก Keywords"
+        "message": "บล็อก คีย์เวิร์ด"
     },
     "settings_blockedexperiences_keywords_description": {
-        "message": "Keywords สามารถ เพิ่ม และ ลบ จะบล็อก แมพ ที่มีชื่อเหมือนกับ keywords , แมพ เหลานี้จะไม่แสดงในหน้าทั่วไป"
+        "message": "คีย์เวิร์ดสามารถ เพิ่ม และ ลบ จะบล็อก แมพ ที่มีชื่อเหมือนกับ คีย์เวิร์ด ได้ , แมพ เหลานี้จะไม่แสดงในหน้าทั่วไป"
     },
     "settings_blockedexperiences_keywords_count": {
-        "message": "คุณกำลังบล็อก {keywordsNum} จาก {keywordsMax} experience keywords ที่อนุญาต:"
+        "message": "คุณกำลังบล็อก {keywordsNum} จาก {keywordsMax} คีย์เวิร์ดของ แมพ ที่อนุญาต:"
     },
     // No experience keywords blocked
     "settings_blockedexperiences_keywords_nokeywords": {
-        "message": "เพิ่ม keyword อันแรกของคุณ เพื่อบล็อก และ เป็นการเริ่มต้น"
+        "message": "เพิ่ม คีย์เวิร์ด อันแรกของคุณ เพื่อบล็อก และ เป็นการเริ่มต้น"
     },
     "settings_blockedexperiences_keywords_inputplaceholder": {
-        "message": "เพิ่ม keyword..."
+        "message": "เพิ่ม คีย์เวิร์ด..."
     },
     "settings_blockedexperiences_keywords_add": {
         "message": "เพิ่ม"
