@@ -236,7 +236,7 @@
     // Message to show if Accounts Manager is deprecated. we're not sure if it ever will be but given that
     // there are new translations on the Roblox website hinting to an account switcher feature, this will be here just in case
     "accountsmanager_deprecated": {
-        "message": "Accounts Manager is discontinued, please use the native Roblox account switching interface instead."
+        "message": "Accounts Manager has been discontinued, please use the native Roblox account switching interface instead."
     },
     // Please don't mess this up.
     "accountsmanager_addaccount": {
