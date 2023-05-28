@@ -123,7 +123,7 @@
     },
     // when we deprecate a feature because it is no longer useful, or Roblox has their own solution now
     "settings_featureswitches_featureswitch_deprecated": {
-        "message": ""
+        "message": "Esta função foi <bold>descontinuada</bold>. Recomenda-se encontrar alternativas no RoSeal ou usar recursos nativos no site do Roblox."
     },
     // not used atm, but will be if we ever add support for Safari or add firefox-exclusive features.
     // "browsers" is a comma-separated list of browsers
@@ -236,7 +236,7 @@
     // Message to show if Accounts Manager is deprecated. we're not sure if it ever will be but given that
     // there are new translations on the Roblox website hinting to an account switcher feature, this will be here just in case
     "accountsmanager_deprecated": {
-        "message": ""
+        "message": "O Gerenciador de Contas foi descontinuado. Por favor, use a interface nativa de troca de contas do Roblox."
     },
     // Please don't mess this up.
     "accountsmanager_addaccount": {
