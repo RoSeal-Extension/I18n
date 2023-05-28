@@ -121,6 +121,10 @@
     "settings_featureswitches_featureswitch_disabled": {
         "message": "This feature has been disabled by RoSeal"
     },
+    // when we deprecate a feature because it is no longer useful, or Roblox has their own solution now
+    "settings_featureswitches_featureswitch_deprecated": {
+        "message": "This feature is <bold>deprecated</bold>. It is recommended to find alternatives in RoSeal or use native features on the Roblox website."
+    },
     // not used atm, but will be if we ever add support for Safari or add firefox-exclusive features.
     // "browsers" is a comma-separated list of browsers
     "settings_featureswitches_featureswitch_exclusivebrowsers": {
@@ -228,6 +232,11 @@
     },
     "accountsmanager_maxaccounts": {
         "message": "You have reached the maximum number of allowed accounts. ({accountLimit})"
+    },
+    // Message to show if Accounts Manager is deprecated. we're not sure if it ever will be but given that
+    // there are new translations on the Roblox website hinting to an account switcher feature, this will be here just in case
+    "accountsmanager_deprecated": {
+        "message": "Accounts Manager is deprecated, please use the native Roblox account switching interface."
     },
     // Please don't mess this up.
     "accountsmanager_addaccount": {
