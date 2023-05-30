@@ -123,7 +123,7 @@
     },
     // when we deprecate a feature because it is no longer useful, or Roblox has their own solution now
     "settings_featureswitches_featureswitch_deprecated": {
-        "message": ""
+        "message": "ฟีเจอร์นี้ <bold>เลิกใช้แล้ว</bold> แนะนำให้หาวิธีอื่นกับ RoSeal หรือใช้ฟีเจอร์ดั้งเดิมบนเว็บไซต์ Roblox"
     },
     // not used atm, but will be if we ever add support for Safari or add firefox-exclusive features.
     // "browsers" is a comma-separated list of browsers
@@ -236,7 +236,7 @@
     // Message to show if Accounts Manager is deprecated. we're not sure if it ever will be but given that
     // there are new translations on the Roblox website hinting to an account switcher feature, this will be here just in case
     "accountsmanager_deprecated": {
-        "message": ""
+        "message": "การจัดการบัญชี เลิกใช้แล้ว กรุณาใช้หน้าสลับบัญชีของ Roblox ดั้งเดิม"
     },
     // Please don't mess this up.
     "accountsmanager_addaccount": {
