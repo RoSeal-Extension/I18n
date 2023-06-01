@@ -123,7 +123,7 @@
     },
     // when we deprecate a feature because it is no longer useful, or Roblox has their own solution now
     "settings_featureswitches_featureswitch_deprecated": {
-        "message": ""
+        "message": "Cette fonctionnalité n'est <bold>plus disponible</bold>. Il est recommandé de trouver des alternatives dans RoSeal ou d'utiliser des fonctionnalités natives sur le site Web de Roblox."
     },
     // not used atm, but will be if we ever add support for Safari or add firefox-exclusive features.
     // "browsers" is a comma-separated list of browsers
@@ -140,7 +140,7 @@
         "message": "Les autorisations peuvent être accordées dans la page d'options de RoSeal :"
     },
     "settings_featureswitches_featureswitch_permissions_openoptions": {
-        "message": ""
+        "message": "Ouvrir"
     },
     // "Associated Storage" is basically just storage stored from the feature, i.e. Roblox accounts with accounts manager
     "settings_featureswitches_featureswitch_removeassociatedstorage": {
@@ -236,7 +236,7 @@
     // Message to show if Accounts Manager is deprecated. we're not sure if it ever will be but given that
     // there are new translations on the Roblox website hinting to an account switcher feature, this will be here just in case
     "accountsmanager_deprecated": {
-        "message": ""
+        "message": "Le gestionnaire de comptes n'est plus disponible, veuillez utiliser l'interface native de changement de compte Roblox à la place."
     },
     // Please don't mess this up.
     "accountsmanager_addaccount": {
@@ -1032,7 +1032,7 @@
     },
     // Cancelled request successfully, disabled button
     "userprofile_actions_cancelledrequest": {
-        "message": ""
+        "message": "Annulé"
     },
 
     // Last online date for a user at the bottom (or under Avatar with BTRoblox)
