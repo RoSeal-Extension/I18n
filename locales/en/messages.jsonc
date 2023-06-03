@@ -1546,6 +1546,9 @@
     "features_RemoveFriendActivityLabel_title": {
         "message": "Remove \"Friend Activity\" footer label on experiences"
     },
+    "features_RemoveHomePhoneNumberUpsell_title": {
+        "message": "Remove phone number upsell on the home page"
+    },
 
     "popup_extensionname": {
         "message": "{sealEmoji} RoSeal"
