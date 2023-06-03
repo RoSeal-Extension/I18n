@@ -236,7 +236,7 @@
     // Message to show if Accounts Manager is deprecated. we're not sure if it ever will be but given that
     // there are new translations on the Roblox website hinting to an account switcher feature, this will be here just in case
     "accountsmanager_deprecated": {
-        "message": "O Gerenciador de Contas foi descontinuado. Por favor, em vez disso, use a interface nativa de troca de contas do Roblox em 'Alternar Conta' no menu suspenso de configurações."
+        "message": "O Gerenciador de Contas foi descontinuado. Por favor, em vez disso, use a interface nativa de troca de contas do Roblox em \"Alternar Conta\" no menu suspenso de configurações."
     },
     // Please don't mess this up.
     "accountsmanager_addaccount": {
@@ -1545,6 +1545,9 @@
     },
     "features_RemoveFriendActivityLabel_title": {
         "message": "Remover o rótulo de rodapé \"atividades de suas amizades\" em experiências."
+    },
+    "features_RemoveHomePhoneNumberUpsell_title": {
+        "message": "Remover o upsell de número de telefone na página inicial"
     },
 
     "popup_extensionname": {
