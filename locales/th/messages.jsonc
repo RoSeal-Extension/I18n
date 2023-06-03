@@ -186,14 +186,14 @@
         "message": "แมพ โดนบล็อกโดยผู้ใช้"
     },
     "settings_blockedexperiences_individualexperiences_description": {
-        "message": "Experiences แต่ละรายการสามารถบล็อก และ ยกเลิกการบล็อก ได้จากเมนูของแต่ละ แมพ , แมพ เหลานี้จะไม่แสดงในหน้าทั่วไป"
+        "message": "แต่ละแมพสามารถบล็อก และ ยกเลิกการบล็อก ได้จากเมนูของแต่ละ แมพ , แมพ เหลานี้จะไม่แสดงในหน้าทั่วไป"
     },
     "settings_blockedexperiences_individualexperiences_count": {
         "message": "คุณกำลังบล็อก {experiencesNum} จาก {experiencesMax} แมพ ที่อนุญาติ:"
     },
     // No experiences blocked
     "settings_blockedexperiences_individualexperiences_noexperiences": {
-        "message": "เมื่อคุณบล็อก experience, มันจะมาอยู่ที่นี้"
+        "message": "เมื่อคุณบล็อก แมพ, แมพนั้นจะมาอยู่ที่นี้"
     },
     "settings_blockedexperiences_individualexperiences_experience_universeid": {
         "message": "Universe ID ของแมพ: {universeId}"
@@ -236,11 +236,11 @@
     // Message to show if Accounts Manager is deprecated. we're not sure if it ever will be but given that
     // there are new translations on the Roblox website hinting to an account switcher feature, this will be here just in case
     "accountsmanager_deprecated": {
-        "message": "การจัดการบัญชี เลิกใช้แล้ว กรุณาใช้หน้าสลับบัญชีของ Roblox ดั้งเดิม"
+        "message": "การจัดการบัญชีนี้ เลิกใช้แล้ว โปรดใช้หน้าการสลับบัญชี Roblox ดั้งเดิมจาก \"การสลับบัญชี\" ใต้การตั้งค่าแบบเลื่อนลงแทน"
     },
     // Please don't mess this up.
     "accountsmanager_addaccount": {
-        "message": "คุณสามารถเพิ่ม {moreAccounts, plural, =1 {1 more account.} other {# more accounts.}} ({accountsNum}/{accountLimit})"
+        "message": "คุณสามารถเพิ่ม {moreAccounts, plural, =1 {1 more account.} อื่นๆ {# more accounts.}} ({accountsNum}/{accountLimit})"
     },
     "accountsmanager_actions_addcurrentaccount": {
         "message": "เพิ่มบัญชีที่มีอยู่ตอนนี้"
@@ -593,7 +593,7 @@
         "message": "หยุดโดดเรียนได้แล้ว"
     },
     "homeheader_secretmessage_Default9": {
-        "message": "Boycott bad เป็น experience ที่ไม่ดี และ ปฏิเสธ experience ที่ละเมิดลิขสิทธิ์"
+        "message": "Boycott bad เป็น แมพ ที่ไม่ดี และ ปฏิเสธ แมพ ที่ละเมิดลิขสิทธิ์"
     },
     "homeheader_secretmessage_Default10": {
         "message": "ระวังป้องกันตัวเองโดนหลอก"
@@ -605,7 +605,7 @@
         "message": "จัดการเวลาให้ดีแล้วใช้ชีวิตอย่างมีสุขภาพที่ดีขึ้น"
     },
     "homeheader_secretmessage_Default13": {
-        "message": "จินตนาการ 1 ล้าน โรบัค... สิ"
+        "message": "จินตนาการ 1 ล้าน โรบัค... ดูสิ"
     },
     "homeheader_secretmessage_Default14": {
         "message": "คุณทำอะไรอยู่?"
@@ -614,7 +614,7 @@
         "message": "เราหวังว่าคุณจะเพลิดเพลินกับการใช้ RoSeal"
     },
     "homeheader_secretmessage_Default16": {
-        "message": "Hehehe..."
+        "message": "ฮิฮิฮิฮิฮิ..."
     },
     "homeheader_secretmessage_Default17": {
         "message": "ทุกสิ่งที่ Roblox เกิดขึ้นเกิดขึ้นต่อหน้าต่อตาทุกคน"
@@ -682,7 +682,7 @@
         "message": "บทบาทสาธารณะที่ดีที่คุณมี"
     },
     "homeheader_secretmessage_Soothsayer2": {
-        "message": "คุณต้องมีบัญชีอีเมล @roblox.com"
+        "message": "คุณต้องมีบัญชีอีเมลของ @roblox.com"
     },
     "homeheader_secretmessage_Soothsayer3": {
         "message": "คุณไม่จำเป็นต้องจ่ายเงินสำหรับการเข้าถึง แมพ ในการเข้าถึงแบบต้องจ่ายเงิน?????"
@@ -713,7 +713,7 @@
         "message": "{sealEmoji} ต้องใส่รหัส PIN ของบัญชี"
     },
     "pinunlockmodal_description": {
-        "message": "ใส้รหัส PIN ของบัญชีของคุณ"
+        "message": "ใส่รหัส PIN ของบัญชีของคุณ"
     },
     "pinunlockmodal_buttons_action": {
         "message": "ปลดล็อก"
@@ -1523,7 +1523,7 @@
         "message": "แก้ไขสไตล์ (CSS) ต่างๆ ทั่วไซต์"
     },
     "features_MoveExperienceEvents_title": {
-        "message": "ย้ายกิจกรรม experience ไปที่แท็บของตัวเอง"
+        "message": "ย้ายกิจกรรมของ แมพ ไปที่แท็บของตัวเอง"
     },
     "features_RefreshlessGroupNavigation_title": {
         "message": "แถบการนำทางของกลุ่มที่ไม่รีเฟรชหน้า"
@@ -1547,7 +1547,7 @@
         "message": "นำ \"กิจกรรมเพื่อน\" ป้ายกำกับส่วนท้ายเปิดอยู่ของ แมพ ออก"
     },
     "features_RemoveHomePhoneNumberUpsell_title": {
-        "message": ""
+        "message": "ลบหมายเลขโทรศัพท์ในหน้าแรก"
     },
 
     "popup_extensionname": {
