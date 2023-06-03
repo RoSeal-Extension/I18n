@@ -1546,6 +1546,9 @@
     "features_RemoveFriendActivityLabel_title": {
         "message": "นำ \"กิจกรรมเพื่อน\" ป้ายกำกับส่วนท้ายเปิดอยู่ของ แมพ ออก"
     },
+    "features_RemoveHomePhoneNumberUpsell_title": {
+        "message": ""
+    },
 
     "popup_extensionname": {
         "message": "{sealEmoji} RoSeal"

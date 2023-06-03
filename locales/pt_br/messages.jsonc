@@ -1546,6 +1546,9 @@
     "features_RemoveFriendActivityLabel_title": {
         "message": "Remover o rótulo de rodapé \"atividades de suas amizades\" em experiências."
     },
+    "features_RemoveHomePhoneNumberUpsell_title": {
+        "message": ""
+    },
 
     "popup_extensionname": {
         "message": "{sealEmoji} RoSeal"
