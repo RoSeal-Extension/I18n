@@ -1040,7 +1040,7 @@
         "message": "Última Vez Online"
     },
     "userprofile_lastonline_now": {
-        "message": ""
+        "message": "Agora"
     },
 
     // When "Show username in user's friends page title" is enabled, it will replace the title with this.
