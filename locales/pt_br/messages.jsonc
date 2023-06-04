@@ -1014,10 +1014,10 @@
     "experience_privatenote_buttons_save": {
         "message": "Salvar"
     },
-    "experience_privatenote_readmore": {
+    "generictoggletarget_readmore": {
         "message": "Ler Mais"
     },
-    "experience_privatenote_readless": {
+    "generictoggletarget_readless": {
         "message": "Ler Menos"
     },
 

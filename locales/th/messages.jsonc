@@ -1014,10 +1014,10 @@
     "experience_privatenote_buttons_save": {
         "message": "บันทึก"
     },
-    "experience_privatenote_readmore": {
+    "generictoggletarget_readmore": {
         "message": "อ่านเพิ่มเติม"
     },
-    "experience_privatenote_readless": {
+    "generictoggletarget_readless": {
         "message": "อ่านน้อยลง"
     },
 
