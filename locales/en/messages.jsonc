@@ -1026,6 +1026,19 @@
         "message": "Report Abuse"
     },
 
+    // User profile force unfollow action
+    "userprofile_actions_forceunfollow": {
+        "message": "Force Unfollow"
+    },
+
+    // System feedback banners for force unfollow in the profile
+    "userprofile_actions_forceunfollow_systemfeedback_success": {
+        "message": "Successfully forced user to unfollow you."
+    },
+    "userprofile_actions_forceunfollow_systemfeedback_error": {
+        "message": "Failed to force user to unfollow you."
+    },
+
     // User's profile cancel request actions
     "userprofile_actions_cancelrequest": {
         "message": "Cancel"
@@ -1551,6 +1564,9 @@
     },
     "features_RemoveHomePhoneNumberUpsell_title": {
         "message": "Remove phone number upsell on the home page"
+    },
+    "features_UserProfileForceUnfollow_title": {
+        "message": "\"Force Unfollow\" button in the user profile header context menu"
     },
 
     "popup_extensionname": {
