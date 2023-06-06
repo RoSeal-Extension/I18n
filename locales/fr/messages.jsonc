@@ -1026,6 +1026,19 @@
         "message": "Signaler un abus"
     },
 
+    // User profile force unfollow action
+    "userprofile_actions_forceunfollow": {
+        "message": ""
+    },
+
+    // System feedback banners for force unfollow in the profile
+    "userprofile_actions_forceunfollow_systemfeedback_success": {
+        "message": ""
+    },
+    "userprofile_actions_forceunfollow_systemfeedback_error": {
+        "message": ""
+    },
+
     // User's profile cancel request actions
     "userprofile_actions_cancelrequest": {
         "message": "Annuler"
@@ -1550,6 +1563,9 @@
         "message": "Supprimer l'étiquette de pied de page \"Activité des Amis\" sur les expériences"
     },
     "features_RemoveHomePhoneNumberUpsell_title": {
+        "message": ""
+    },
+    "features_UserProfileForceUnfollow_title": {
         "message": ""
     },
 
