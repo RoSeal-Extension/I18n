@@ -70,10 +70,10 @@
     },
     // under13 is for 13- users over13 is for 13+. this is to prevent exposing discord to underage users
     "settings_about_media_under13": {
-        "message": "นี้คือ Community <groupLink>กลุ่ม Roblox</groupLink> สำหรับส่วนขยายนี้"
+        "message": "นี้คือ คอมมูนิตี้ <groupLink>กลุ่ม Roblox</groupLink> สำหรับส่วนขยายนี้"
     },
     "settings_about_media_over13": {
-        "message": "นี้คือ Community <groupLink>กลุ่ม Roblox</groupLink> และ <discordLink>กลุ่ม ดิสคอร์ด</discordLink> สำหรับส่วนขยายนี้"
+        "message": "นี้คือ คอมมูนิตี้ <groupLink>กลุ่ม Roblox</groupLink> และ <discordLink>กลุ่ม ดิสคอร์ด</discordLink> สำหรับส่วนขยายนี้"
     },
 
     // "Credits" selection tab in menu and title
@@ -523,7 +523,7 @@
     // A button to direct the user to the unofficial community wiki of an experience. Most don't have this,
     // but for the ones that do, it's nice
     "experience_communitywiki_button": {
-        "message": "คอมมูนิตี้ Wiki ที่ไม่เป็นทางการ"
+        "message": "คอมมูนิตี้ วิกิ ที่ไม่เป็นทางการ"
     },
     "experience_communitywiki_modal_title": {
         "message": "{sealEmoji} คุณกำลังออกจาก Roblox"
@@ -559,7 +559,7 @@
     // the alt text will show on hover. this is just for easily communicating with the user that there is alt text
     // the img element already has alt text but it's better to indicate
     "experience_media_alttext": {
-        "message": "ALT"
+        "message": "แสดงแทน"
     },
 
     // "View Thumbnail Asset" button shown in the lower right side on experience thumbnails if available.
@@ -593,7 +593,7 @@
         "message": "หยุดโดดเรียนได้แล้ว"
     },
     "homeheader_secretmessage_Default9": {
-        "message": "Boycott bad เป็น แมพ ที่ไม่ดี และ ปฏิเสธ แมพ ที่ละเมิดลิขสิทธิ์"
+        "message": "Boycott bad เป็น แมพ ที่ไม่ดีและเป็น แมพ ที่ละเมิดลิขสิทธิ์"
     },
     "homeheader_secretmessage_Default10": {
         "message": "ระวังป้องกันตัวเองโดนหลอก"
@@ -635,13 +635,13 @@
         "message": "ใส่รูปแมวน้ำที่นี้"
     },
     "homeheader_secretmessage_Default23": {
-        "message": "ใส่รู้ปน้องแมวที่นี้"
+        "message": "ใส่รูปน้องแมวที่นี้"
     },
     "homeheader_secretmessage_Default24": {
         "message": "ใส่รูปนกที่นี้"
     },
     "homeheader_secretmessage_Default25": {
-        "message": "Roblox ล่ม?"
+        "message": "Roblox ล่มหรอ?"
     },
     "homeheader_secretmessage_Default26": {
         "message": "David Baszucki"
@@ -800,7 +800,7 @@
         "message": "ฟิลเตอร์"
     },
     "discover_filters_inputhint": {
-        "message": "ใส่ตัวเลขที่เหลือเป็น 0 จะไม่สามารถใช้ได้"
+        "message": "ใส่ตัวเลขที่เป็น 0 จะไม่สามารถใช้ได้"
     },
     "discover_filters_applyfilters": {
         "message": "ใช้ฟิลเตอร์"
@@ -824,7 +824,7 @@
         "message": "ทั้งหมด"
     },
     "discover_filters_genre_values_Building": {
-        "message": "อาคาร"
+        "message": "สร้าง"
     },
     "discover_filters_genre_values_Horror": {
         "message": "สยองขวัญ"
@@ -839,13 +839,13 @@
         "message": "ตลก"
     },
     "discover_filters_genre_values_Medieval": {
-        "message": "ยุคกลาง"
+        "message": "ผจญภัย ยุคกลาง"
     },
     "discover_filters_genre_values_Adventure": {
         "message": "ผจญภัย"
     },
     "discover_filters_genre_values_SciFi": {
-        "message": "ไซไฟ"
+        "message": "วิทยาศาสตร์ ไซไฟ"
     },
     "discover_filters_genre_values_Naval": {
         "message": "ทหารเรือ"
@@ -1040,7 +1040,7 @@
         "message": "ออนไลน์ล่าสุด"
     },
     "userprofile_lastonline_now": {
-        "message": ""
+        "message": "ตอนนี้"
     },
 
     // When "Show username in user's friends page title" is enabled, it will replace the title with this.
@@ -1301,7 +1301,7 @@
         "message": "ย้ายประสบการณ์โซเชียลลิงก์บนคำอธิบายในแท็บเกี่ยวกับ"
     },
     "features_AddCommunityWikiButton_title": {
-        "message": "เพิ่มปุ่มเพื่อเยี่ยมชม Community Wiki ที่ไม่เป็นทางการของ experience ในแท็บ About"
+        "message": "เพิ่มปุ่มเพื่อเยี่ยมชม คอมมูนิตี้ วิกิ ที่ไม่เป็นทางการของ แมพ ในแท็บ เกี่ยวกับ"
     },
     "features_AddCommunityWikiButton_description": {
         "message": "เมื่อเปิดใช้งาน ส่วนขยายจะแสดงปุ่มสำหรับเยี่ยมชมวิกิที่ไม่เป็นทางการซึ่งเป็นส่วนหนึ่งของโครงการ Roblox Interwiki บน Fandom เพื่อรับประสบการณ์ถ้า RoSeal รู้จัก"
@@ -1609,6 +1609,6 @@
 
     // Display in the RoSeal popup and in settings.
     "buymeacoffee": {
-        "message": "{coffeeEmoji} ช่วยซื้อกาแฟให้หน่อย"
+        "message": "{coffeeEmoji} ซื้อกาแฟให้หน่อย"
     }
 }
