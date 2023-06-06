@@ -1028,15 +1028,15 @@
 
     // User profile force unfollow action
     "userprofile_actions_forceunfollow": {
-        "message": ""
+        "message": "Forçar a Deixar de Seguir"
     },
 
     // System feedback banners for force unfollow in the profile
     "userprofile_actions_forceunfollow_systemfeedback_success": {
-        "message": ""
+        "message": "Forçou com sucesso o usuário a deixar de seguir você."
     },
     "userprofile_actions_forceunfollow_systemfeedback_error": {
-        "message": ""
+        "message": "Falha ao forçar o usuário a deixar de seguir você."
     },
 
     // User's profile cancel request actions
@@ -1566,7 +1566,7 @@
         "message": "Remover o upsell de número de telefone na página inicial"
     },
     "features_UserProfileForceUnfollow_title": {
-        "message": ""
+        "message": "Botão \"Forçar a Deixar de Seguir\" no menu de contexto do cabeçalho do perfil do usuário."
     },
 
     "popup_extensionname": {
