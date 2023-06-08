@@ -1568,6 +1568,12 @@
     "features_UserProfileForceUnfollow_title": {
         "message": "\"Force Unfollow\" button in the user profile header context menu"
     },
+    "features_JailbrokenHomeFavoritesSort_title": {
+        "message": "List all favorite experiences in the home \"Favorites\" sort"
+    },
+    "features_PutHomeFavoritesSortAtTop_title": {
+        "message": "Put home \"Favorites\" sort at the top"
+    },
 
     "popup_extensionname": {
         "message": "{sealEmoji} RoSeal"
