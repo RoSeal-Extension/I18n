@@ -1033,7 +1033,7 @@
 
     // System feedback banners for force unfollow in the profile
     "userprofile_actions_forceunfollow_systemfeedback_success": {
-        "message": "Forçou com sucesso o usuário a deixar de seguir você."
+        "message": "Usuário forçado a deixar de seguir você com sucesso."
     },
     "userprofile_actions_forceunfollow_systemfeedback_error": {
         "message": "Falha ao forçar o usuário a deixar de seguir você."
@@ -1067,10 +1067,10 @@
         "message": "Remover Amigo"
     },
     "userfriends_contextmenu_unfollow": {
-        "message": "Parar de Seguir"
+        "message": "Deixar de Seguir"
     },
     "userfriends_contextmenu_forceunfollow": {
-        "message": "Forçar à Parar de Seguir"
+        "message": "Forçar a Deixar de Seguir"
     },
     "userfriends_contextmenu_block": {
         "message": "Bloquear"
