@@ -1026,6 +1026,19 @@
         "message": "Signaler un abus"
     },
 
+    // User profile force unfollow action
+    "userprofile_actions_forceunfollow": {
+        "message": ""
+    },
+
+    // System feedback banners for force unfollow in the profile
+    "userprofile_actions_forceunfollow_systemfeedback_success": {
+        "message": ""
+    },
+    "userprofile_actions_forceunfollow_systemfeedback_error": {
+        "message": ""
+    },
+
     // User's profile cancel request actions
     "userprofile_actions_cancelrequest": {
         "message": "Annuler"
@@ -1040,7 +1053,7 @@
         "message": "Dernièrement en Ligne"
     },
     "userprofile_lastonline_now": {
-        "message": ""
+        "message": "Maintenant"
     },
 
     // When "Show username in user's friends page title" is enabled, it will replace the title with this.
@@ -1051,7 +1064,7 @@
 
     // Context menu for "Quick actions in the user's friends page"
     "userfriends_contextmenu_unfriend": {
-        "message": "Désami"
+        "message": "Ne plus être ami"
     },
     "userfriends_contextmenu_unfollow": {
         "message": "Ne plus suivre"
@@ -1550,6 +1563,9 @@
         "message": "Supprimer l'étiquette de pied de page \"Activité des Amis\" sur les expériences"
     },
     "features_RemoveHomePhoneNumberUpsell_title": {
+        "message": "Supprimer la vente incitative de numéros de téléphone sur la page d'accueil"
+    },
+    "features_UserProfileForceUnfollow_title": {
         "message": ""
     },
 
