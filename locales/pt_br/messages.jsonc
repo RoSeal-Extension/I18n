@@ -1568,6 +1568,12 @@
     "features_UserProfileForceUnfollow_title": {
         "message": "Botão \"Forçar a Deixar de Seguir\" no menu de contexto do cabeçalho do perfil do usuário."
     },
+    "features_JailbrokenHomeFavoritesSort_title": {
+        "message": ""
+    },
+    "features_PutHomeFavoritesSortAtTop_title": {
+        "message": ""
+    },
 
     "popup_extensionname": {
         "message": "{sealEmoji} RoSeal"
