@@ -962,6 +962,9 @@
     "experience_badges_completed": {
         "message": "Completed: {numCompleted}/{numTotal}"
     },
+    "experience_badges_inactive": {
+        "message": "{inactiveIcon}Inactive: {numInactive}/{numTotal}"
+    },
     // Column title for % Won Yesterday
     "experience_badges_wonyesterday": {
         "message": "% Won Yesterday"
