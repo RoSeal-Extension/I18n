@@ -963,7 +963,7 @@
         "message": "เสร็จสมบูรณ์: {numCompleted}/{numTotal}"
     },
     "experience_badges_inactive": {
-        "message": ""
+        "message": "{inactiveIcon} ไม่ได้ใช้งาน : {numInactive}/{numTotal}"
     },
     // Column title for % Won Yesterday
     "experience_badges_wonyesterday": {
@@ -1031,15 +1031,15 @@
 
     // User profile force unfollow action
     "userprofile_actions_forceunfollow": {
-        "message": ""
+        "message": "บังคับให้เลิกติดตาม"
     },
 
     // System feedback banners for force unfollow in the profile
     "userprofile_actions_forceunfollow_systemfeedback_success": {
-        "message": ""
+        "message": "บังคับให้ผู้ใช้เลิกติดตามคุณสำเร็จ"
     },
     "userprofile_actions_forceunfollow_systemfeedback_error": {
-        "message": ""
+        "message": "ไม่สามารถบังคับให้ผู้ใช้เลิกติดตามคุณได้"
     },
 
     // User's profile cancel request actions
@@ -1569,13 +1569,13 @@
         "message": "ลบหมายเลขโทรศัพท์ในหน้าแรก"
     },
     "features_UserProfileForceUnfollow_title": {
-        "message": ""
+        "message": "ปุ่ม \"บังคับเลิกติดตาม\" จะอยู่ในเมนูส่วนหัวของโปรไฟล์ผู้ใช้"
     },
     "features_JailbrokenHomeFavoritesSort_title": {
-        "message": ""
+        "message": "ระบุแมพที่ชื่นชอบทั้งหมดในหน้าหลัก จัดเรียงตาม \"รายการโปรด\""
     },
     "features_PutHomeFavoritesSortAtTop_title": {
-        "message": ""
+        "message": "ในหน้าหลัก \"รายการโปรด\" จะอยู่ที่ด้านบน"
     },
 
     "popup_extensionname": {
