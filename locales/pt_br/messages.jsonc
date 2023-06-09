@@ -962,6 +962,9 @@
     "experience_badges_completed": {
         "message": "Concluído: {numCompleted}/{numTotal}"
     },
+    "experience_badges_inactive": {
+        "message": ""
+    },
     // Column title for % Won Yesterday
     "experience_badges_wonyesterday": {
         "message": "% Ganhou Ontem"
