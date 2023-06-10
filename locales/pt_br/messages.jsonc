@@ -1368,10 +1368,10 @@
         "message": "Sincronizar o tema do site com o navegador"
     },
     "features_CreatedUpdatedItemsTimeType_title": {
-        "message": "Alterar o tipo de hora dos campos Criado/Atualizado/Entrou nas páginas de itens."
+        "message": "Alterar o tipo de tempo dos campos Criado/Atualizado/Entrou nas páginas de itens."
     },
     "features_CreatedUpdatedItemsTimeType_description": {
-        "message": "Quando ativado, altera o texto dos campos Criado, Atualizado ou Entrou nos itens aplicáveis para o formato de hora selecionado. Isso adicionará os campos \"Criado\", \"Atualizado\" e \"Entrou\" quando necessário."
+        "message": "Quando ativado, altera o texto dos campos Criado, Atualizado ou Entrou nos itens aplicáveis para o formato de tempo selecionado. Isso adicionará os campos \"Criado\", \"Atualizado\" e \"Entrou\" quando necessário."
     },
     "features_CreatedUpdatedItemsTimeType_values_Disabled": {
         "message": "Desabilitado"
