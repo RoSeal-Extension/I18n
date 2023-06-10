@@ -1096,6 +1096,11 @@
         "message": "เกิดข้อผิดพลาดในการดำเนินการ , กรุณาลองอีกครั้ง"
     },
 
+    // Red text to show below "Your access to voice chat has been suspended for violating our Community Standards." in Privacy settings
+    "robloxsettings_voicechat_suspensiondate": {
+        "message": ""
+    },
+
     // Marketplace Color filters UI
     "avatarshop_colorfilters_title": {
         "message": "สี"
@@ -1159,6 +1164,16 @@
     },
     "messages_getunreadr2e_markreadmodal_neutral": {
         "message": "ยกเลิก"
+    },
+
+    "voicechatsuspensionmodal_title": {
+        "message": ""
+    },
+    "voicechatsuspensionmodal_description": {
+        "message": ""
+    },
+    "voicechatsuspensionmodal_action": {
+        "message": ""
     },
 
     // Asking the user to enable 2SV by going to their security settings. This is just for security purposes.
@@ -1576,6 +1591,12 @@
     },
     "features_PutHomeFavoritesSortAtTop_title": {
         "message": "ในหน้าหลัก \"รายการโปรด\" จะอยู่ที่ด้านบน"
+    },
+    "features_ShowVoiceChatSuspension_title": {
+        "message": ""
+    },
+    "features_ShowVoiceChatSuspension_description": {
+        "message": ""
     },
 
     "popup_extensionname": {
