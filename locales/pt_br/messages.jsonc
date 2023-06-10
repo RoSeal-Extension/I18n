@@ -963,7 +963,7 @@
         "message": "Concluído: {numCompleted}/{numTotal}"
     },
     "experience_badges_inactive": {
-        "message": ""
+        "message": "{inactiveIcon}Inativo: {numInactive}/{numTotal}"
     },
     // Column title for % Won Yesterday
     "experience_badges_wonyesterday": {
@@ -1098,7 +1098,7 @@
 
     // Red text to show below "Your access to voice chat has been suspended for violating our Community Standards." in Privacy settings
     "robloxsettings_voicechat_suspensiondate": {
-        "message": ""
+        "message": "Seu acesso será restaurado em {date}"
     },
 
     // Marketplace Color filters UI
@@ -1167,13 +1167,13 @@
     },
 
     "voicechatsuspensionmodal_title": {
-        "message": ""
+        "message": "🦭 Bate-papo por Voz Suspenso"
     },
     "voicechatsuspensionmodal_description": {
-        "message": ""
+        "message": "Devido à violação das <communityGuidelinesLink>Diretrizes da Comunidade do Roblox</communityGuidelinesLink>, seu Bate-papo por Voz foi temporariamente revogado até {date}.{lineBreak}{lineBreak}Por favor, ajude a manter o Roblox divertido sendo respeitoso com os outros.{lineBreak}{lineBreak}Você pode verificar quanto tempo resta em suas <privacySettingsLink>Configurações de Privacidade</privacySettingsLink>."
     },
     "voicechatsuspensionmodal_action": {
-        "message": ""
+        "message": "Eu Entendo"
     },
 
     // Asking the user to enable 2SV by going to their security settings. This is just for security purposes.
@@ -1368,10 +1368,10 @@
         "message": "Sincronizar o tema do site com o navegador"
     },
     "features_CreatedUpdatedItemsTimeType_title": {
-        "message": "Alterar o tipo de hora dos campos Criado/Atualizado/Entrou nas páginas de itens."
+        "message": "Alterar o tipo de tempo dos campos Criado/Atualizado/Entrou nas páginas de itens."
     },
     "features_CreatedUpdatedItemsTimeType_description": {
-        "message": "Quando ativado, altera o texto dos campos Criado, Atualizado ou Entrou nos itens aplicáveis para o formato de hora selecionado. Isso adicionará os campos \"Criado\", \"Atualizado\" e \"Entrou\" quando necessário."
+        "message": "Quando ativado, altera o texto dos campos Criado, Atualizado ou Entrou nos itens aplicáveis para o formato de tempo selecionado. Isso adicionará os campos \"Criado\", \"Atualizado\" e \"Entrou\" quando necessário."
     },
     "features_CreatedUpdatedItemsTimeType_values_Disabled": {
         "message": "Desabilitado"
@@ -1587,16 +1587,16 @@
         "message": "Botão \"Forçar a Deixar de Seguir\" no menu de contexto do cabeçalho do perfil do usuário."
     },
     "features_JailbrokenHomeFavoritesSort_title": {
-        "message": ""
+        "message": "Listar todas as experiências favoritas na página inícial, na classificação \"favoritas\""
     },
     "features_PutHomeFavoritesSortAtTop_title": {
-        "message": ""
+        "message": "Colocar a classificação \"favoritas\" no topo da página inícial"
     },
     "features_ShowVoiceChatSuspension_title": {
-        "message": ""
+        "message": "Mostrar detalhes da suspensão do bate-papo por voz e a data completa"
     },
     "features_ShowVoiceChatSuspension_description": {
-        "message": ""
+        "message": "Quando ativado, mostra os detalhes da suspensão do chat de voz em um modal em todas as páginas se o usuário ainda não tiver sido informado. Ele também adicionará a data completa de expiração da suspensão à página de configurações de privacidade da conta."
     },
 
     "popup_extensionname": {
