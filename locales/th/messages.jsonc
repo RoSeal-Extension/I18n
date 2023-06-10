@@ -310,6 +310,11 @@
         "message": "รีเฟรชข้อมูลไอเทม"
     },
 
+    // "Refresh Item Details" tooltip when hovering over the search icon next to the creator name
+    "avataritem_searchbycreator": {
+        "message": ""
+    },
+
     // The pass's numeric product ID field
     "pass_productid": {
         "message": "ไอดีสินค้า"
@@ -1328,6 +1333,18 @@
     "features_RefreshedHomeUserHeader_sub_HelloText_title": {
         "message": "\"สวัสดี,\" คือการทักทาย"
     },
+    "features_RefreshedHomeUserHeader_sub_ShowNameType_title": {
+        "message": ""
+    },
+    "features_RefreshedHomeUserHeader_sub_ShowNameType_values_Both": {
+        "message": ""
+    },
+    "features_RefreshedHomeUserHeader_sub_ShowNameType_values_DisplayName": {
+        "message": ""
+    },
+    "features_RefreshedHomeUserHeader_sub_ShowNameType_values_Username": {
+        "message": ""
+    },
     "features_MoveExperienceSocialLinks_title": {
         "message": "ย้ายประสบการณ์โซเชียลลิงก์บนคำอธิบายในแท็บเกี่ยวกับ"
     },
@@ -1366,6 +1383,21 @@
     },
     "features_ThemeSwitchThroughoutDay_title": {
         "message": "ซิงค์ธีมเว็บไซต์กับเบราว์เซอร์"
+    },
+    "features_TooltipTimeType_title": {
+        "message": ""
+    },
+    "features_TooltipTimeType_description": {
+        "message": ""
+    },
+    "features_TooltipTimeType_values_Disabled": {
+        "message": ""
+    },
+    "features_TooltipTimeType_values_Relative": {
+        "message": ""
+    },
+    "features_TooltipTimeType_values_Absolute": {
+        "message": ""
     },
     "features_CreatedUpdatedItemsTimeType_title": {
         "message": "เปลี่ยนประเภทเวลาของฟิลเตอร์ ที่สร้างขึ้น/อัปเดต/รวมถึงในหน้าไอเทม"
@@ -1508,6 +1540,9 @@
     "features_HideFriendRequestsCount_title": {
         "message": "ซ่อนจำนวนคำขอเป็นเพื่อนในแถบนำทาง"
     },
+    "features_HideMessagesCount_title": {
+        "message": ""
+    },
     "features_SealImages_title": {
         "message": "แทนที่ภาพทั้งหมดด้วยภาพแมวน้ำ !"
     },
@@ -1597,6 +1632,9 @@
     },
     "features_ShowVoiceChatSuspension_description": {
         "message": "เมื่อเปิดใช้งาน จะแสดงรายละเอียดการระงับการแชทด้วยเสียงในรูปแบบกล่องข้อความในทุกหน้าหากผู้ใช้ยังไม่ได้รับแจ้ง นอกจากนี้ยังจะเพิ่มระยะเวลาการระงับทั้งหมดในหน้าการตั้งค่าบัญชีความเป็นส่วนตัว"
+    },
+    "features_SearchByCreatorButton_title": {
+        "message": ""
     },
 
     "popup_extensionname": {

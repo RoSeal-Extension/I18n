@@ -310,6 +310,11 @@
         "message": "Actualiser les détails de l'article"
     },
 
+    // "Refresh Item Details" tooltip when hovering over the search icon next to the creator name
+    "avataritem_searchbycreator": {
+        "message": ""
+    },
+
     // The pass's numeric product ID field
     "pass_productid": {
         "message": "ID du produit"
@@ -1328,6 +1333,18 @@
     "features_RefreshedHomeUserHeader_sub_HelloText_title": {
         "message": "\"Bonjour,\" salutation"
     },
+    "features_RefreshedHomeUserHeader_sub_ShowNameType_title": {
+        "message": ""
+    },
+    "features_RefreshedHomeUserHeader_sub_ShowNameType_values_Both": {
+        "message": ""
+    },
+    "features_RefreshedHomeUserHeader_sub_ShowNameType_values_DisplayName": {
+        "message": ""
+    },
+    "features_RefreshedHomeUserHeader_sub_ShowNameType_values_Username": {
+        "message": ""
+    },
     "features_MoveExperienceSocialLinks_title": {
         "message": "Déplacez les liens sociaux de l'expérience au-dessus de la description dans l'onglet À propos"
     },
@@ -1366,6 +1383,21 @@
     },
     "features_ThemeSwitchThroughoutDay_title": {
         "message": "Synchroniser le thème du site Web avec le navigateur"
+    },
+    "features_TooltipTimeType_title": {
+        "message": ""
+    },
+    "features_TooltipTimeType_description": {
+        "message": ""
+    },
+    "features_TooltipTimeType_values_Disabled": {
+        "message": ""
+    },
+    "features_TooltipTimeType_values_Relative": {
+        "message": ""
+    },
+    "features_TooltipTimeType_values_Absolute": {
+        "message": ""
     },
     "features_CreatedUpdatedItemsTimeType_title": {
         "message": "Modifier le type d'heure des champs créés/mis à jour/rejoints sur les pages d'éléments"
@@ -1508,6 +1540,9 @@
     "features_HideFriendRequestsCount_title": {
         "message": "Masquer le nombre de demandes d'amis dans la barre de navigation"
     },
+    "features_HideMessagesCount_title": {
+        "message": ""
+    },
     "features_SealImages_title": {
         "message": "Remplacer toutes les images par des images de phoques"
     },
@@ -1596,6 +1631,9 @@
         "message": ""
     },
     "features_ShowVoiceChatSuspension_description": {
+        "message": ""
+    },
+    "features_SearchByCreatorButton_title": {
         "message": ""
     },
 
