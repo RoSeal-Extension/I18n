@@ -1096,6 +1096,11 @@
         "message": "An error occurred processing the action, please try again later."
     },
 
+    // Red text to show below "Your access to voice chat has been suspended for violating our Community Standards." in Privacy settings
+    "robloxsettings_voicechat_suspensiondate": {
+        "message": "Your access will be restored on {date}"
+    },
+
     // Marketplace Color filters UI
     "avatarshop_colorfilters_title": {
         "message": "Colors"
@@ -1159,6 +1164,16 @@
     },
     "messages_getunreadr2e_markreadmodal_neutral": {
         "message": "Cancel"
+    },
+
+    "voicechatsuspensionmodal_title": {
+        "message": "🦭 Voice Chat Suspended"
+    },
+    "voicechatsuspensionmodal_description": {
+        "message": "Due to the violation of <communityGuidelinesLink>Roblox's Community Guidelines</communityGuidelinesLink>, your Voice Chat has been temporarily revoked until {date}.{lineBreak}{lineBreak}Please help keep Roblox fun by being respectful to others.{lineBreak}{lineBreak}You can check how much time is remaining in your <privacySettingsLink>Privacy Settings</privacySettingsLink>."
+    },
+    "voicechatsuspensionmodal_action": {
+        "message": "I Understand"
     },
 
     // Asking the user to enable 2SV by going to their security settings. This is just for security purposes.
@@ -1576,6 +1591,12 @@
     },
     "features_PutHomeFavoritesSortAtTop_title": {
         "message": "Put home \"Favorites\" sort at the top"
+    },
+    "features_ShowVoiceChatSuspension_title": {
+        "message": "Show voice chat suspension details and full date"
+    },
+    "features_ShowVoiceChatSuspension_description": {
+        "message": "When enabled, shows voice chat suspension details in a modal on all pages if the user has not yet been informed. It will also add the full date of suspension expiry to the privacy account settings page."
     },
 
     "popup_extensionname": {
