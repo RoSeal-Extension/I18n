@@ -310,6 +310,11 @@
         "message": "Refresh Item Details"
     },
 
+    // "Refresh Item Details" tooltip when hovering over the search icon next to the creator name
+    "avataritem_searchbycreator": {
+        "message": "Search Items By This Creator"
+    },
+
     // The pass's numeric product ID field
     "pass_productid": {
         "message": "Product ID"
@@ -1328,6 +1333,18 @@
     "features_RefreshedHomeUserHeader_sub_HelloText_title": {
         "message": "\"Hello,\" greeting"
     },
+    "features_RefreshedHomeUserHeader_sub_ShowNameType_title": {
+        "message": "Change the type of name that should be displayed"
+    },
+    "features_RefreshedHomeUserHeader_sub_ShowNameType_values_Both": {
+        "message": "Both"
+    },
+    "features_RefreshedHomeUserHeader_sub_ShowNameType_values_DisplayName": {
+        "message": "Display Name Only"
+    },
+    "features_RefreshedHomeUserHeader_sub_ShowNameType_values_Username": {
+        "message": "Username Only"
+    },
     "features_MoveExperienceSocialLinks_title": {
         "message": "Move experience Social Links above Description in the About tab"
     },
@@ -1367,11 +1384,26 @@
     "features_ThemeSwitchThroughoutDay_title": {
         "message": "Sync website theme with browser"
     },
+    "features_TooltipTimeType_title": {
+        "message": "Change time type of tooltip dates"
+    },
+    "features_TooltipTimeType_description": {
+        "message": "When selected, changes the date format that tooltips with dates will show on hover."
+    },
+    "features_TooltipTimeType_values_Disabled": {
+        "message": "Disabled (Roblox Regular)"
+    },
+    "features_TooltipTimeType_values_Relative": {
+        "message": "Relative"
+    },
+    "features_TooltipTimeType_values_Absolute": {
+        "message": "Absolute"
+    },
     "features_CreatedUpdatedItemsTimeType_title": {
-        "message": "Change time type of Created/Updated/Joined fields on item pages"
+        "message": "Change time type of Created/Updated/Joined/etc fields"
     },
     "features_CreatedUpdatedItemsTimeType_description": {
-        "message": "When selected, changes the text of the Created, Updated, or Joined fields on applicable items to your selected time format. This will add \"Created\", \"Updated\", and \"Joined\" fields when necessary."
+        "message": "When selected, changes the text of the Created, Updated, Joined, or other fields on applicable pages to your selected time format. This will add \"Created\", \"Updated\", and \"Joined\" fields when necessary on item pages."
     },
     "features_CreatedUpdatedItemsTimeType_values_Disabled": {
         "message": "Disabled"
@@ -1508,6 +1540,9 @@
     "features_HideFriendRequestsCount_title": {
         "message": "Hide friend requests count in the navigation bar"
     },
+    "features_HideMessagesCount_title": {
+        "message": "Hide messages count in the navigation bar"
+    },
     "features_SealImages_title": {
         "message": "Replace all images with seal images"
     },
@@ -1597,6 +1632,9 @@
     },
     "features_ShowVoiceChatSuspension_description": {
         "message": "When enabled, shows voice chat suspension details in a modal on all pages if the user has not yet been informed. It will also add the full date of suspension expiry to the privacy account settings page."
+    },
+    "features_SearchByCreatorButton_title": {
+        "message": "Search more items by item creator button"
     },
 
     "popup_extensionname": {
