@@ -312,7 +312,7 @@
 
     // "Refresh Item Details" tooltip when hovering over the search icon next to the creator name
     "avataritem_searchbycreator": {
-        "message": ""
+        "message": "Pesquisar Itens Deste Criador"
     },
 
     // The pass's numeric product ID field
@@ -1334,16 +1334,16 @@
         "message": "saudações \"Olá,\""
     },
     "features_RefreshedHomeUserHeader_sub_ShowNameType_title": {
-        "message": ""
+        "message": "Alterar o tipo de nome que deve ser exibido"
     },
     "features_RefreshedHomeUserHeader_sub_ShowNameType_values_Both": {
-        "message": ""
+        "message": "Ambos"
     },
     "features_RefreshedHomeUserHeader_sub_ShowNameType_values_DisplayName": {
-        "message": ""
+        "message": "Apenas Nome de Exibição"
     },
     "features_RefreshedHomeUserHeader_sub_ShowNameType_values_Username": {
-        "message": ""
+        "message": "Apenas Nome de Usuário"
     },
     "features_MoveExperienceSocialLinks_title": {
         "message": "Mover os links sociais das experiências para cima da descrição, na aba \"Sobre\""
@@ -1385,25 +1385,25 @@
         "message": "Sincronizar o tema do site com o navegador"
     },
     "features_TooltipTimeType_title": {
-        "message": ""
+        "message": "Modificar o tipo de tempo das datas nos balões de informações."
     },
     "features_TooltipTimeType_description": {
-        "message": ""
+        "message": "Quando selecionado, altera o formato de data que os balões de informações exibirão ao passar o cursor do mouse."
     },
     "features_TooltipTimeType_values_Disabled": {
-        "message": ""
+        "message": "Desativado (Padrão do Roblox)"
     },
     "features_TooltipTimeType_values_Relative": {
-        "message": ""
+        "message": "Relativo"
     },
     "features_TooltipTimeType_values_Absolute": {
-        "message": ""
+        "message": "Absoluto"
     },
     "features_CreatedUpdatedItemsTimeType_title": {
-        "message": "Alterar o tipo de tempo dos campos Criado/Atualizado/Entrou nas páginas de itens."
+        "message": "Alterar o tipo de tempo dos campos Criado/Atualizado/Entrou/etc."
     },
     "features_CreatedUpdatedItemsTimeType_description": {
-        "message": "Quando ativado, altera o texto dos campos Criado, Atualizado ou Entrou nos itens aplicáveis para o formato de tempo selecionado. Isso adicionará os campos \"Criado\", \"Atualizado\" e \"Entrou\" quando necessário."
+        "message": "Quando ativado, altera o texto dos campos Criado, Atualizado, Entrou ou outros campos nas páginas aplicáveis para o formato de tempo selecionado. Isso adicionará os campos \"Criado\", \"Atualizado\" e \"Entrou\" nas páginas de itens quando necessário."
     },
     "features_CreatedUpdatedItemsTimeType_values_Disabled": {
         "message": "Desabilitado"
@@ -1541,7 +1541,7 @@
         "message": "Ocultar a contagem de solicitações de amizade na barra de navegação."
     },
     "features_HideMessagesCount_title": {
-        "message": ""
+        "message": "Ocultar a contagem de mensagens na barra de navegação."
     },
     "features_SealImages_title": {
         "message": "Substituir todas as imagens por imagens de focas"
@@ -1634,7 +1634,7 @@
         "message": "Quando ativado, mostra os detalhes da suspensão do chat de voz em um modal em todas as páginas se o usuário ainda não tiver sido informado. Ele também adicionará a data completa de expiração da suspensão à página de configurações de privacidade da conta."
     },
     "features_SearchByCreatorButton_title": {
-        "message": ""
+        "message": "Botão de pesquisar mais itens pelo criador do item."
     },
 
     "popup_extensionname": {
