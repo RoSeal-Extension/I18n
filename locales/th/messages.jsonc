@@ -1397,7 +1397,7 @@
         "message": "คล้ายๆกัน"
     },
     "features_TooltipTimeType_values_Absolute": {
-        "message": "Absolute"
+        "message": "ครบถ้วน"
     },
     "features_CreatedUpdatedItemsTimeType_title": {
         "message": "เปลี่ยนประเภทเวลาของฟิลเตอร์ ที่สร้างขึ้น/อัปเดต/รวมถึงในหน้าไอเทม เป็นต้น"
@@ -1412,7 +1412,7 @@
         "message": "เกี่ยวข้องกัน"
     },
     "features_CreatedUpdatedItemsTimeType_values_Absolute": {
-        "message": "ครบถ้วน"
+        "message": "Absolute"
     },
     "features_CreatedUpdatedItemsTimeType_values_Regular": {
         "message": "ปกติของ Roblox"
