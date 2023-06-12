@@ -312,7 +312,7 @@
 
     // "Refresh Item Details" tooltip when hovering over the search icon next to the creator name
     "avataritem_searchbycreator": {
-        "message": ""
+        "message": "ค้นหาไอเทมโดยผู้สร้างคนนี้"
     },
 
     // The pass's numeric product ID field
@@ -1334,16 +1334,16 @@
         "message": "\"สวัสดี,\" คือการทักทาย"
     },
     "features_RefreshedHomeUserHeader_sub_ShowNameType_title": {
-        "message": ""
+        "message": "เปลี่ยนประเภทชื่อที่ควรจะแสดง"
     },
     "features_RefreshedHomeUserHeader_sub_ShowNameType_values_Both": {
-        "message": ""
+        "message": "ทั้งคู่"
     },
     "features_RefreshedHomeUserHeader_sub_ShowNameType_values_DisplayName": {
-        "message": ""
+        "message": "แสดงชื่อเท่านั้น"
     },
     "features_RefreshedHomeUserHeader_sub_ShowNameType_values_Username": {
-        "message": ""
+        "message": "แสดงชื่อผู้ใช้เท่านั้น"
     },
     "features_MoveExperienceSocialLinks_title": {
         "message": "ย้ายประสบการณ์โซเชียลลิงก์บนคำอธิบายในแท็บเกี่ยวกับ"
@@ -1385,25 +1385,25 @@
         "message": "ซิงค์ธีมเว็บไซต์กับเบราว์เซอร์"
     },
     "features_TooltipTimeType_title": {
-        "message": ""
+        "message": "เปลี่ยนประเภทเวลาของวันที่คำแนะนำเครื่องมือ"
     },
     "features_TooltipTimeType_description": {
-        "message": ""
+        "message": "เมื่อเลือกแล้ว เปลี่ยนวันที่ที่คำแนะนำเครื่องมือ เมื่อพร้อมวันที่จะแสดงเมื่อวางเมาส์เหนือคำแนะนำเครื่องมือ"
     },
     "features_TooltipTimeType_values_Disabled": {
-        "message": ""
+        "message": "ปิดการใช้งาน (ปกติของ Roblox)"
     },
     "features_TooltipTimeType_values_Relative": {
-        "message": ""
+        "message": "คล้ายๆกัน"
     },
     "features_TooltipTimeType_values_Absolute": {
-        "message": ""
+        "message": "Absolute"
     },
     "features_CreatedUpdatedItemsTimeType_title": {
-        "message": "เปลี่ยนประเภทเวลาของฟิลเตอร์ ที่สร้างขึ้น/อัปเดต/รวมถึงในหน้าไอเทม"
+        "message": "เปลี่ยนประเภทเวลาของฟิลเตอร์ ที่สร้างขึ้น/อัปเดต/รวมถึงในหน้าไอเทม เป็นต้น"
     },
     "features_CreatedUpdatedItemsTimeType_description": {
-        "message": "เมื่อเลือกแล้ว ให้เปลี่ยนข้อความของฟิลเตอร์สร้าง อัปเดต หรือรวมในรายการที่เกี่ยวข้องเป็นรูปแบบเวลาที่คุณเลือก นี้จะเพิ่ม \"สร้างขึ้นเมื่อ\", \"อัพเดท\", และ \"เข้าร่วม\" เมื่อไม่จำเป็น"
+        "message": "เมื่อเลือกแล้ว ให้เปลี่ยนข้อความ อัปเดต เข้าร่วม หรือ อื่นๆ ในหน้าที่เกี่ยวข้องเป็นรูปแบบเวลาที่คุณเลือก ซึ่งจะเพิ่ม \"สร้าง\", \"อัปเดต\" และ \"เข้าร่วม\" เมื่อจำเป็นในหน้าไอเทม"
     },
     "features_CreatedUpdatedItemsTimeType_values_Disabled": {
         "message": "ปิดใช้งาน"
@@ -1541,7 +1541,7 @@
         "message": "ซ่อนจำนวนคำขอเป็นเพื่อนในแถบนำทาง"
     },
     "features_HideMessagesCount_title": {
-        "message": ""
+        "message": "ซ่อนจำนวนข้อความในแถบนำทาง"
     },
     "features_SealImages_title": {
         "message": "แทนที่ภาพทั้งหมดด้วยภาพแมวน้ำ !"
@@ -1634,7 +1634,7 @@
         "message": "เมื่อเปิดใช้งาน จะแสดงรายละเอียดการระงับการแชทด้วยเสียงในรูปแบบกล่องข้อความในทุกหน้าหากผู้ใช้ยังไม่ได้รับแจ้ง นอกจากนี้ยังจะเพิ่มระยะเวลาการระงับทั้งหมดในหน้าการตั้งค่าบัญชีความเป็นส่วนตัว"
     },
     "features_SearchByCreatorButton_title": {
-        "message": ""
+        "message": "ค้นหาไอเทมเพิ่มเติมโดยปุ่มผู้สร้างไอเทม"
     },
 
     "popup_extensionname": {
