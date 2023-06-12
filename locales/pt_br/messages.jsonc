@@ -1388,7 +1388,7 @@
         "message": "Modificar o tipo de tempo das datas nos balões de informações."
     },
     "features_TooltipTimeType_description": {
-        "message": "Quando selecionado, altera o formato de data que os balões de informações exibirão ao passar o cursor do mouse."
+        "message": "Quando selecionado, altera o formato de data que os balões de informações com datas exibirão ao passar o cursor."
     },
     "features_TooltipTimeType_values_Disabled": {
         "message": "Desativado (Padrão do Roblox)"
