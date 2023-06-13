@@ -336,7 +336,7 @@
         "message": "{filtered} of {total} private servers had invalid links."
     },
     "experience_privateserverlinks_importprivateserversmodal_importinfo": {
-        "message": "Would you like to import the following {total} private servers:"
+        "message": "Would you like to import the following {total, plural, =1 {private server} other {# private servers}}:"
     },
     "experience_privateserverlinks_importprivateserversmodal_instructiontext_drag": {
         "message": "Drag a data file here"
