@@ -1634,7 +1634,7 @@
         "message": "Quando ativado, mostra os detalhes da suspensão do chat de voz em um modal em todas as páginas se o usuário ainda não tiver sido informado. Ele também adicionará a data completa de expiração da suspensão à página de configurações de privacidade da conta."
     },
     "features_SearchByCreatorButton_title": {
-        "message": "Botão de pesquisar mais itens pelo criador do item."
+        "message": "Botão de pesquisar por mais itens do criador do item."
     },
 
     "popup_extensionname": {
