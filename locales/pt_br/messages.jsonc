@@ -336,7 +336,7 @@
         "message": "{filtered} de {total} servidores privados tinham links inválidos."
     },
     "experience_privateserverlinks_importprivateserversmodal_importinfo": {
-        "message": "Você gostaria de importar os seguintes {total} servidores privados:"
+        "message": "Você gostaria de importar {total, plural, =1 {o seguinte servidor privado} other {# os seguintes servidores privados}}:"
     },
     "experience_privateserverlinks_importprivateserversmodal_instructiontext_drag": {
         "message": "Arraste um arquivo de dados até aqui"
