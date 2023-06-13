@@ -274,6 +274,189 @@
         "message": "Voir la page de l'icône"
     },
 
+    // "Private Servre Links" section
+    "experience_privateserverlinks_title": {
+        "message": ""
+    },
+    // Tooltip hover message next to the title
+    "experience_privateserverlinks_titletooltip": {
+        "message": ""
+    },
+    "experience_privateserverlinks_noservers": {
+        "message": ""
+    },
+    // "Add" button that will open the "Add Private Server Link" dialog
+    "experience_privateserverlinks_actions_add": {
+        "message": ""
+    },
+    // "Import" button that will open the "Import Private Server Links" dialog
+    "experience_privateserverlinks_actions_import": {
+        "message": ""
+    },
+    // this will have a .json file extension
+    "experience_privateserverlinks_exportfilename": {
+        "message": ""
+    },
+    // "Export" button that will download the "{placeName} Private Servers.json file"
+    "experience_privateserverlinks_actions_export": {
+        "message": ""
+    },
+    // Updated time
+    "experience_privateserverlinks_privateserver_updated": {
+        "message": ""
+    },
+    // Shows up as red text "Invalid" if server is invalid now
+    "experience_privateserverlinks_privateserver_invalid": {
+        "message": ""
+    },
+    // Context menu items
+    "experience_privateserverlinks_privateserver_contextmenu_copylink": {
+        "message": ""
+    },
+    "experience_privateserverlinks_privateserver_contextmenu_remove": {
+        "message": ""
+    },
+    "experience_privateserverlinks_privateserver_contextmenu_update": {
+        "message": ""
+    },
+    // Bottom button that switches between "Remove" and "Join"
+    // - join if valid, remove if not
+    "experience_privateserverlinks_privateserver_remove": {
+        "message": ""
+    },
+    "experience_privateserverlinks_privateserver_join": {
+        "message": ""
+    },
+
+    // Import private servers from file modal
+    "experience_privateserverlinks_importprivateserversmodal_title": {
+        "message": ""
+    },
+    "experience_privateserverlinks_importprivateserversmodal_filteredcount": {
+        "message": ""
+    },
+    "experience_privateserverlinks_importprivateserversmodal_importinfo": {
+        "message": ""
+    },
+    "experience_privateserverlinks_importprivateserversmodal_instructiontext_drag": {
+        "message": ""
+    },
+    "experience_privateserverlinks_importprivateserversmodal_instructiontext_or": {
+        "message": ""
+    },
+    "experience_privateserverlinks_importprivateserversmodal_instructiontext_select": {
+        "message": ""
+    },
+    // Import error messages
+    "experience_privateserverlinks_importprivateserversmodal_importerror_invalid": {
+        "message": ""
+    },
+    "experience_privateserverlinks_importprivateserversmodal_importerror_unknown": {
+        "message": ""
+    },
+    "experience_privateserverlinks_importprivateserversmodal_importerror_unknowncheck": {
+        "message": ""
+    },
+    "experience_privateserverlinks_importprivateserversmodal_importerror_allinvalid": {
+        "message": ""
+    },
+    "experience_privateserverlinks_importprivateserversmodal_importerror_invalidformat": {
+        "message": ""
+    },
+    // Modal actions
+    "experience_privateserverlinks_importprivateserversmodal_action": {
+        "message": ""
+    },
+    "experience_privateserverlinks_importprivateserversmodal_neutral": {
+        "message": ""
+    },
+
+    // Remove private server modal
+    "experience_privateserverlinks_removeprivateservermodal_title": {
+        "message": ""
+    },
+    "experience_privateserverlinks_removeprivateservermodal_body": {
+        "message": ""
+    },
+    "experience_privateserverlinks_removeprivateservermodal_action": {
+        "message": ""
+    },
+    "experience_privateserverlinks_removeprivateservermodal_neutral": {
+        "message": ""
+    },
+
+    // add private server link modal
+    "experience_privateserverlinks_addprivateservermodal_title": {
+        "message": ""
+    },
+    "experience_privateserverlinks_addprivateservermodal_fromlink": {
+        "message": ""
+    },
+    // Label for server name text field input
+    "experience_privateserverlinks_addprivateservermodal_name": {
+        "message": ""
+    },
+    "experience_privateserverlinks_addprivateservermodal_nameplaceholder": {
+        "message": ""
+    },
+    // Text that appears bottom right of the input
+    "experience_privateserverlinks_addprivateservermodal_namelength": {
+        "message": ""
+    },
+    // Server link label
+    "experience_privateserverlinks_addprivateservermodal_link": {
+        "message": ""
+    },
+    // Server link errors
+    "experience_privateserverlinks_addprivateservermodal_linkerror_invalid": {
+        "message": ""
+    },
+    "experience_privateserverlinks_addprivateservermodal_linkerror_unknown": {
+        "message": ""
+    },
+    // modal buttons
+    "experience_privateserverlinks_addprivateservermodal_action": {
+        "message": ""
+    },
+    "experience_privateserverlinks_addprivateservermodal_neutral": {
+        "message": ""
+    },
+
+    // update private server link modal
+    // this is very similar to add
+    "experience_privateserverlinks_updateprivateservermodal_title": {
+        "message": ""
+    },
+    // Label for server name text field input
+    "experience_privateserverlinks_updateprivateservermodal_name": {
+        "message": ""
+    },
+    "experience_privateserverlinks_updateprivateservermodal_nameplaceholder": {
+        "message": ""
+    },
+    // Text that appears bottom right of the input
+    "experience_privateserverlinks_updateprivateservermodal_namelength": {
+        "message": ""
+    },
+    // Server link label
+    "experience_privateserverlinks_updateprivateservermodal_link": {
+        "message": ""
+    },
+    // Server link errors
+    "experience_privateserverlinks_updateprivateservermodal_linkerror_invalid": {
+        "message": ""
+    },
+    "experience_privateserverlinks_updateprivateservermodal_linkerror_unknown": {
+        "message": ""
+    },
+    // modal buttons
+    "experience_privateserverlinks_updateprivateservermodal_action": {
+        "message": ""
+    },
+    "experience_privateserverlinks_updateprivateservermodal_neutral": {
+        "message": ""
+    },
+
     // The context menu "..." item that appears in the experience dropdown menu to unblock/block the target experience
     "experience_contextmenu_unblock": {
         "message": "Débloquer"
@@ -1634,6 +1817,12 @@
         "message": ""
     },
     "features_SearchByCreatorButton_title": {
+        "message": ""
+    },
+    "features_PrivateServerLinksSection_title": {
+        "message": ""
+    },
+    "features_PrivateServerLinksSection_description": {
         "message": ""
     },
 
