@@ -274,6 +274,189 @@
         "message": "View Icon Asset"
     },
 
+    // "Private Servre Links" section
+    "experience_privateserverlinks_title": {
+        "message": "Private Server Links"
+    },
+    // Tooltip hover message next to the title
+    "experience_privateserverlinks_titletooltip": {
+        "message": "Private Server Links lets you store private servers for this experience from links or importing a file and will indicate when a private server link is inactive."
+    },
+    "experience_privateserverlinks_noservers": {
+        "message": "No Private Server Links Found."
+    },
+    // "Add" button that will open the "Add Private Server Link" dialog
+    "experience_privateserverlinks_actions_add": {
+        "message": "Add"
+    },
+    // "Import" button that will open the "Import Private Server Links" dialog
+    "experience_privateserverlinks_actions_import": {
+        "message": "Import"
+    },
+    // this will have a .json file extension
+    "experience_privateserverlinks_exportfilename": {
+        "message": "{placeName} Private Servers"
+    },
+    // "Export" button that will download the "{placeName} Private Servers.json file"
+    "experience_privateserverlinks_actions_export": {
+        "message": "Export"
+    },
+    // Updated time
+    "experience_privateserverlinks_privateserver_updated": {
+        "message": "Updated {time}"
+    },
+    // Shows up as red text "Invalid" if server is invalid now
+    "experience_privateserverlinks_privateserver_invalid": {
+        "message": "Invalid"
+    },
+    // Context menu items
+    "experience_privateserverlinks_privateserver_contextmenu_copylink": {
+        "message": "Copy Link"
+    },
+    "experience_privateserverlinks_privateserver_contextmenu_remove": {
+        "message": "Remove"
+    },
+    "experience_privateserverlinks_privateserver_contextmenu_update": {
+        "message": "Update"
+    },
+    // Bottom button that switches between "Remove" and "Join"
+    // - join if valid, remove if not
+    "experience_privateserverlinks_privateserver_remove": {
+        "message": "Remove"
+    },
+    "experience_privateserverlinks_privateserver_join": {
+        "message": "Join"
+    },
+
+    // Import private servers from file modal
+    "experience_privateserverlinks_importprivateserversmodal_title": {
+        "message": "{sealEmoji} Import Private Server Links"
+    },
+    "experience_privateserverlinks_importprivateserversmodal_filteredcount": {
+        "message": "{filtered} of {total} private servers had invalid links."
+    },
+    "experience_privateserverlinks_importprivateserversmodal_importinfo": {
+        "message": "Would you like to import the following {total} private servers:"
+    },
+    "experience_privateserverlinks_importprivateserversmodal_instructiontext_drag": {
+        "message": "Drag a data file here"
+    },
+    "experience_privateserverlinks_importprivateserversmodal_instructiontext_or": {
+        "message": "Or"
+    },
+    "experience_privateserverlinks_importprivateserversmodal_instructiontext_select": {
+        "message": "Select a data file from your computer"
+    },
+    // Import error messages
+    "experience_privateserverlinks_importprivateserversmodal_importerror_invalid": {
+        "message": "Please input a valid data (.json) file."
+    },
+    "experience_privateserverlinks_importprivateserversmodal_importerror_unknown": {
+        "message": "An unknown error occurred while reading the data file."
+    },
+    "experience_privateserverlinks_importprivateserversmodal_importerror_unknowncheck": {
+        "message": "An unknown error occurred while checking the private server links."
+    },
+    "experience_privateserverlinks_importprivateserversmodal_importerror_allinvalid": {
+        "message": "All the private server links in the data file are invalid."
+    },
+    "experience_privateserverlinks_importprivateserversmodal_importerror_invalidformat": {
+        "message": "The data file was in an invalid format."
+    },
+    // Modal actions
+    "experience_privateserverlinks_importprivateserversmodal_action": {
+        "message": "Import"
+    },
+    "experience_privateserverlinks_importprivateserversmodal_neutral": {
+        "message": "Cancel"
+    },
+
+    // Remove private server modal
+    "experience_privateserverlinks_removeprivateservermodal_title": {
+        "message": "{sealEmoji} Remove Private Server Link"
+    },
+    "experience_privateserverlinks_removeprivateservermodal_body": {
+        "message": "Are you sure you want to remove this Private Server Link?"
+    },
+    "experience_privateserverlinks_removeprivateservermodal_action": {
+        "message": "Remove"
+    },
+    "experience_privateserverlinks_removeprivateservermodal_neutral": {
+        "message": "Cancel"
+    },
+
+    // add private server link modal
+    "experience_privateserverlinks_addprivateservermodal_title": {
+        "message": "{sealEmoji} Add Private Server Link"
+    },
+    "experience_privateserverlinks_addprivateservermodal_fromlink": {
+        "message": "It looks like you came from an unknown private server link, would you like to add it?"
+    },
+    // Label for server name text field input
+    "experience_privateserverlinks_addprivateservermodal_name": {
+        "message": "Name"
+    },
+    "experience_privateserverlinks_addprivateservermodal_nameplaceholder": {
+        "message": "Server Name"
+    },
+    // Text that appears bottom right of the input
+    "experience_privateserverlinks_addprivateservermodal_namelength": {
+        "message": "{length}/{maxLength}"
+    },
+    // Server link label
+    "experience_privateserverlinks_addprivateservermodal_link": {
+        "message": "Link"
+    },
+    // Server link errors
+    "experience_privateserverlinks_addprivateservermodal_linkerror_invalid": {
+        "message": "The link you provided was invalid."
+    },
+    "experience_privateserverlinks_addprivateservermodal_linkerror_unknown": {
+        "message": "An unknown error occurred while checking the link status."
+    },
+    // modal buttons
+    "experience_privateserverlinks_addprivateservermodal_action": {
+        "message": "Add"
+    },
+    "experience_privateserverlinks_addprivateservermodal_neutral": {
+        "message": "Cancel"
+    },
+
+    // update private server link modal
+    // this is very similar to add
+    "experience_privateserverlinks_updateprivateservermodal_title": {
+        "message": "{sealEmoji} Update Private Server Link"
+    },
+    // Label for server name text field input
+    "experience_privateserverlinks_updateprivateservermodal_name": {
+        "message": "Name"
+    },
+    "experience_privateserverlinks_updateprivateservermodal_nameplaceholder": {
+        "message": "Server Name"
+    },
+    // Text that appears bottom right of the input
+    "experience_privateserverlinks_updateprivateservermodal_namelength": {
+        "message": "{length}/{maxLength}"
+    },
+    // Server link label
+    "experience_privateserverlinks_updateprivateservermodal_link": {
+        "message": "Link"
+    },
+    // Server link errors
+    "experience_privateserverlinks_updateprivateservermodal_linkerror_invalid": {
+        "message": "The link you provided was invalid."
+    },
+    "experience_privateserverlinks_updateprivateservermodal_linkerror_unknown": {
+        "message": "An unknown error occurred while checking the link status."
+    },
+    // modal buttons
+    "experience_privateserverlinks_updateprivateservermodal_action": {
+        "message": "Update"
+    },
+    "experience_privateserverlinks_updateprivateservermodal_neutral": {
+        "message": "Cancel"
+    },
+
     // The context menu "..." item that appears in the experience dropdown menu to unblock/block the target experience
     "experience_contextmenu_unblock": {
         "message": "Unblock"
@@ -1635,6 +1818,12 @@
     },
     "features_SearchByCreatorButton_title": {
         "message": "Search more items by item creator button"
+    },
+    "features_PrivateServerLinksSection_title": {
+        "message": "\"Private Server Links\" section in the servers tab"
+    },
+    "features_PrivateServerLinksSection_description": {
+        "message": "When enabled, adds a \"Private Server Links\" section to the servers tab. You can add private server links to it and import from/export to a data file."
     },
 
     "popup_extensionname": {
