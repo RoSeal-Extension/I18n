@@ -1829,10 +1829,10 @@
         "message": "Botão de pesquisar por mais itens do criador do item."
     },
     "features_PrivateServerLinksSection_title": {
-        "message": ""
+        "message": "Seção de \"Links de Servidores Privados\" na guia de servidores."
     },
     "features_PrivateServerLinksSection_description": {
-        "message": ""
+        "message": "Quando ativado, adiciona uma seção de \"Links de Servidores Privados\" na aba de servidores. Você pode adicionar links de servidores privados a ela e importar/exportar de/para um arquivo de dados."
     },
 
     "popup_extensionname": {
