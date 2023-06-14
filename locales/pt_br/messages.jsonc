@@ -333,7 +333,7 @@
         "message": "{sealEmoji} Importar Links de Servidores Privados"
     },
     "experience_privateserverlinks_importprivateserversmodal_filteredcount": {
-        "message": "{filtered} de {total} servidores privados tinham links inválidos."
+        "message": "{filtered} de {total} servidores privados tinham links inválidos ou eram duplicados."
     },
     "experience_privateserverlinks_importprivateserversmodal_importinfo": {
         "message": "Você gostaria de importar {total, plural, =1 {o seguinte servidor privado} other {# os seguintes servidores privados}}:"
@@ -358,10 +358,10 @@
         "message": "Ocorreu um erro desconhecido ao verificar os links de servidores privados."
     },
     "experience_privateserverlinks_importprivateserversmodal_importerror_allinvalid": {
-        "message": "Todos os links de servidores privados no arquivo de dados são inválidos."
+        "message": "Todos os links de servidores privados no arquivo de dados eram inválidos."
     },
     "experience_privateserverlinks_importprivateserversmodal_importerror_allduplicate": {
-        "message": ""
+        "message": "Todos os links de servidores privados no arquivo de dados eram duplicados."
     },
     "experience_privateserverlinks_importprivateserversmodal_importerror_invalidformat": {
         "message": "O arquivo de dados estava em um formato inválido."
@@ -418,7 +418,7 @@
         "message": "Ocorreu um erro desconhecido ao verificar o status do link."
     },
     "experience_privateserverlinks_addprivateservermodal_linkerror_duplicate": {
-        "message": ""
+        "message": "Já existe um servidor privado com este link: \"{name}\""
     },
     // modal buttons
     "experience_privateserverlinks_addprivateservermodal_action": {
@@ -456,7 +456,7 @@
         "message": "Ocorreu um erro desconhecido ao verificar o status do link."
     },
     "experience_privateserverlinks_updateprivateservermodal_linkerror_duplicate": {
-        "message": ""
+        "message": "Já existe um servidor privado com este link: \"{name}\""
     },
     // modal buttons
     "experience_privateserverlinks_updateprivateservermodal_action": {
