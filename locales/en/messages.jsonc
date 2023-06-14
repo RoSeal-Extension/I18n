@@ -333,7 +333,7 @@
         "message": "{sealEmoji} Import Private Server Links"
     },
     "experience_privateserverlinks_importprivateserversmodal_filteredcount": {
-        "message": "{filtered} of {total} private servers had invalid links."
+        "message": "{filtered} of {total} private servers had invalid links or were duplicates."
     },
     "experience_privateserverlinks_importprivateserversmodal_importinfo": {
         "message": "Would you like to import the following {total, plural, =1 {private server} other {# private servers}}:"
@@ -358,7 +358,10 @@
         "message": "An unknown error occurred while checking the private server links."
     },
     "experience_privateserverlinks_importprivateserversmodal_importerror_allinvalid": {
-        "message": "All the private server links in the data file are invalid."
+        "message": "All the private server links in the data file were invalid."
+    },
+    "experience_privateserverlinks_importprivateserversmodal_importerror_allduplicate": {
+        "message": "All the private server links in the data file were duplicates."
     },
     "experience_privateserverlinks_importprivateserversmodal_importerror_invalidformat": {
         "message": "The data file was in an invalid format."
@@ -414,6 +417,9 @@
     "experience_privateserverlinks_addprivateservermodal_linkerror_unknown": {
         "message": "An unknown error occurred while checking the link status."
     },
+    "experience_privateserverlinks_addprivateservermodal_linkerror_duplicate": {
+        "message": "There is already a private server with this link: \"{name}\""
+    },
     // modal buttons
     "experience_privateserverlinks_addprivateservermodal_action": {
         "message": "Add"
@@ -448,6 +454,9 @@
     },
     "experience_privateserverlinks_updateprivateservermodal_linkerror_unknown": {
         "message": "An unknown error occurred while checking the link status."
+    },
+    "experience_privateserverlinks_updateprivateservermodal_linkerror_duplicate": {
+        "message": "There is already a private server with this link: \"{name}\""
     },
     // modal buttons
     "experience_privateserverlinks_updateprivateservermodal_action": {
