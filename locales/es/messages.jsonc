@@ -360,6 +360,9 @@
     "experience_privateserverlinks_importprivateserversmodal_importerror_allinvalid": {
         "message": ""
     },
+    "experience_privateserverlinks_importprivateserversmodal_importerror_allduplicate": {
+        "message": ""
+    },
     "experience_privateserverlinks_importprivateserversmodal_importerror_invalidformat": {
         "message": ""
     },
@@ -414,6 +417,9 @@
     "experience_privateserverlinks_addprivateservermodal_linkerror_unknown": {
         "message": ""
     },
+    "experience_privateserverlinks_addprivateservermodal_linkerror_duplicate": {
+        "message": ""
+    },
     // modal buttons
     "experience_privateserverlinks_addprivateservermodal_action": {
         "message": ""
@@ -447,6 +453,9 @@
         "message": ""
     },
     "experience_privateserverlinks_updateprivateservermodal_linkerror_unknown": {
+        "message": ""
+    },
+    "experience_privateserverlinks_updateprivateservermodal_linkerror_duplicate": {
         "message": ""
     },
     // modal buttons
