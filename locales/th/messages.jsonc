@@ -276,194 +276,194 @@
 
     // "Private Servre Links" section
     "experience_privateserverlinks_title": {
-        "message": ""
+        "message": "ลิงค์เซิร์ฟเวอร์ส่วนตัว"
     },
     // Tooltip hover message next to the title
     "experience_privateserverlinks_titletooltip": {
-        "message": ""
+        "message": "ลิงก์เซิร์ฟเวอร์ส่วนตัวช่วยให้คุณจัดเก็บเซิร์ฟเวอร์ส่วนตัวสำหรับแมพนี้จากลิงก์หรือนำเข้าไฟล์ และจะระบุเมื่อลิงก์เซิร์ฟเวอร์ส่วนตัวไม่ทำงาน"
     },
     "experience_privateserverlinks_noservers": {
-        "message": ""
+        "message": "ไม่พบลิงก์เซิร์ฟเวอร์ส่วนตัว"
     },
     // "Add" button that will open the "Add Private Server Link" dialog
     "experience_privateserverlinks_actions_add": {
-        "message": ""
+        "message": "เพิ่ม"
     },
     // "Import" button that will open the "Import Private Server Links" dialog
     "experience_privateserverlinks_actions_import": {
-        "message": ""
+        "message": "นำเข้า"
     },
     // this will have a .json file extension
     "experience_privateserverlinks_exportfilename": {
-        "message": ""
+        "message": "{placeName} เซิร์ฟเวอร์ส่วนตัว"
     },
     // "Export" button that will download the "{placeName} Private Servers.json file"
     "experience_privateserverlinks_actions_export": {
-        "message": ""
+        "message": "ส่งออก"
     },
     // Updated time
     "experience_privateserverlinks_privateserver_updated": {
-        "message": ""
+        "message": "อัพเดท {time}"
     },
     // Shows up as red text "Invalid" if server is invalid now
     "experience_privateserverlinks_privateserver_invalid": {
-        "message": ""
+        "message": "ไม่ถูกต้อง"
     },
     // Context menu items
     "experience_privateserverlinks_privateserver_contextmenu_copylink": {
-        "message": ""
+        "message": "คัดลอกลิงค์"
     },
     "experience_privateserverlinks_privateserver_contextmenu_remove": {
-        "message": ""
+        "message": "ลบ"
     },
     "experience_privateserverlinks_privateserver_contextmenu_update": {
-        "message": ""
+        "message": "อัพเดท"
     },
     // Bottom button that switches between "Remove" and "Join"
     // - join if valid, remove if not
     "experience_privateserverlinks_privateserver_remove": {
-        "message": ""
+        "message": "ลบ"
     },
     "experience_privateserverlinks_privateserver_join": {
-        "message": ""
+        "message": "เข้าร่วม"
     },
 
     // Import private servers from file modal
     "experience_privateserverlinks_importprivateserversmodal_title": {
-        "message": ""
+        "message": "{sealEmoji} นำเข้าลิงก์เซิร์ฟเวอร์ส่วนตัว"
     },
     "experience_privateserverlinks_importprivateserversmodal_filteredcount": {
-        "message": ""
+        "message": "เซิร์ฟเวอร์ส่วนตัว {filtered} จาก {total} รายการมีลิงก์ที่ไม่ถูกต้องหรือซ้ำกัน"
     },
     "experience_privateserverlinks_importprivateserversmodal_importinfo": {
-        "message": ""
+        "message": "คุณต้องการนำเข้า {total, plural, =1 {private server} other {# private servers}} ต่อไปนี้:"
     },
     "experience_privateserverlinks_importprivateserversmodal_instructiontext_drag": {
-        "message": ""
+        "message": "ลากไฟล์ข้อมูลมาที่นี่"
     },
     "experience_privateserverlinks_importprivateserversmodal_instructiontext_or": {
-        "message": ""
+        "message": "หรือ"
     },
     "experience_privateserverlinks_importprivateserversmodal_instructiontext_select": {
-        "message": ""
+        "message": "เลือกไฟล์ข้อมูลจากคอมพิวเตอร์ของคุณ"
     },
     // Import error messages
     "experience_privateserverlinks_importprivateserversmodal_importerror_invalid": {
-        "message": ""
+        "message": "กรุณาใช้ไฟล์ข้อมูล (.json) ที่ถูกต้อง"
     },
     "experience_privateserverlinks_importprivateserversmodal_importerror_unknown": {
-        "message": ""
+        "message": "เกิดข้อผิดพลาดที่ไม่รู้จักขณะอ่านไฟล์ข้อมูล"
     },
     "experience_privateserverlinks_importprivateserversmodal_importerror_unknowncheck": {
-        "message": ""
+        "message": "เกิดข้อผิดพลาดที่ไม่รู้จักขณะตรวจสอบลิงก์เซิร์ฟเวอร์ส่วนตัว"
     },
     "experience_privateserverlinks_importprivateserversmodal_importerror_allinvalid": {
-        "message": ""
+        "message": "ลิงก์เซิร์ฟเวอร์ส่วนตัวทั้งหมดในไฟล์ข้อมูลไม่ถูกต้อง"
     },
     "experience_privateserverlinks_importprivateserversmodal_importerror_allduplicate": {
-        "message": ""
+        "message": "ลิงก์เซิร์ฟเวอร์ส่วนตัวทั้งหมดในไฟล์ข้อมูลนั้นซ้ำกัน"
     },
     "experience_privateserverlinks_importprivateserversmodal_importerror_invalidformat": {
-        "message": ""
+        "message": "ไฟล์ข้อมูลอยู่ในรูปแบบที่ไม่ถูกต้อง"
     },
     // Modal actions
     "experience_privateserverlinks_importprivateserversmodal_action": {
-        "message": ""
+        "message": "นำเข้า"
     },
     "experience_privateserverlinks_importprivateserversmodal_neutral": {
-        "message": ""
+        "message": "ยกเลิก"
     },
 
     // Remove private server modal
     "experience_privateserverlinks_removeprivateservermodal_title": {
-        "message": ""
+        "message": "{sealEmoji} ลบลิงก์เซิร์ฟเวอร์ส่วนตัว"
     },
     "experience_privateserverlinks_removeprivateservermodal_body": {
-        "message": ""
+        "message": "คุณแน่ใจหรือไม่ว่าต้องการลบลิงก์เซิร์ฟเวอร์ส่วนตัวนี้"
     },
     "experience_privateserverlinks_removeprivateservermodal_action": {
-        "message": ""
+        "message": "ลบ"
     },
     "experience_privateserverlinks_removeprivateservermodal_neutral": {
-        "message": ""
+        "message": "ยกเลิก"
     },
 
     // add private server link modal
     "experience_privateserverlinks_addprivateservermodal_title": {
-        "message": ""
+        "message": "{sealEmoji} เพิ่มลิงก์เซิร์ฟเวอร์ส่วนตัว"
     },
     "experience_privateserverlinks_addprivateservermodal_fromlink": {
-        "message": ""
+        "message": "ดูเหมือนว่าคุณมาจากลิงก์เซิร์ฟเวอร์ส่วนตัวที่ไม่รู้จัก คุณต้องการเพิ่มไหม?"
     },
     // Label for server name text field input
     "experience_privateserverlinks_addprivateservermodal_name": {
-        "message": ""
+        "message": "ชื่อ"
     },
     "experience_privateserverlinks_addprivateservermodal_nameplaceholder": {
-        "message": ""
+        "message": "ชื่อเซิร์ฟเวอร์"
     },
     // Text that appears bottom right of the input
     "experience_privateserverlinks_addprivateservermodal_namelength": {
-        "message": ""
+        "message": "{length}/{maxLength}"
     },
     // Server link label
     "experience_privateserverlinks_addprivateservermodal_link": {
-        "message": ""
+        "message": "ลิ้งค์"
     },
     // Server link errors
     "experience_privateserverlinks_addprivateservermodal_linkerror_invalid": {
-        "message": ""
+        "message": "ลิงก์ที่คุณระบุไม่ถูกต้อง"
     },
     "experience_privateserverlinks_addprivateservermodal_linkerror_unknown": {
-        "message": ""
+        "message": "เกิดข้อผิดพลาดที่ไม่รู้จักขณะตรวจสอบสถานะลิงก์"
     },
     "experience_privateserverlinks_addprivateservermodal_linkerror_duplicate": {
-        "message": ""
+        "message": "มีเซิร์ฟเวอร์ส่วนตัวที่มีลิงก์นี้อยู่แล้ว: \"{name}\""
     },
     // modal buttons
     "experience_privateserverlinks_addprivateservermodal_action": {
-        "message": ""
+        "message": "เพิ่ม"
     },
     "experience_privateserverlinks_addprivateservermodal_neutral": {
-        "message": ""
+        "message": "ยกเลิก"
     },
 
     // update private server link modal
     // this is very similar to add
     "experience_privateserverlinks_updateprivateservermodal_title": {
-        "message": ""
+        "message": "{sealEmoji} อัปเดตลิงก์เซิร์ฟเวอร์ส่วนตัว"
     },
     // Label for server name text field input
     "experience_privateserverlinks_updateprivateservermodal_name": {
-        "message": ""
+        "message": "ชื่อ"
     },
     "experience_privateserverlinks_updateprivateservermodal_nameplaceholder": {
-        "message": ""
+        "message": "ชื่อเซิร์ฟเวอร์"
     },
     // Text that appears bottom right of the input
     "experience_privateserverlinks_updateprivateservermodal_namelength": {
-        "message": ""
+        "message": "{length}/{maxLength}"
     },
     // Server link label
     "experience_privateserverlinks_updateprivateservermodal_link": {
-        "message": ""
+        "message": "ลิ้งค์"
     },
     // Server link errors
     "experience_privateserverlinks_updateprivateservermodal_linkerror_invalid": {
-        "message": ""
+        "message": "ลิงก์ที่คุณระบุไม่ถูกต้อง"
     },
     "experience_privateserverlinks_updateprivateservermodal_linkerror_unknown": {
-        "message": ""
+        "message": "เกิดข้อผิดพลาดที่ไม่รู้จักขณะตรวจสอบสถานะลิงก์"
     },
     "experience_privateserverlinks_updateprivateservermodal_linkerror_duplicate": {
-        "message": ""
+        "message": "มีเซิร์ฟเวอร์ส่วนตัวที่มีลิงก์นี้อยู่แล้ว: \"{name}\""
     },
     // modal buttons
     "experience_privateserverlinks_updateprivateservermodal_action": {
-        "message": ""
+        "message": "อัพเดท"
     },
     "experience_privateserverlinks_updateprivateservermodal_neutral": {
-        "message": ""
+        "message": "ยกเลิก"
     },
 
     // The context menu "..." item that appears in the experience dropdown menu to unblock/block the target experience
@@ -1604,7 +1604,7 @@
         "message": "เกี่ยวข้องกัน"
     },
     "features_CreatedUpdatedItemsTimeType_values_Absolute": {
-        "message": "Absolute"
+        "message": "ครบถ้วน"
     },
     "features_CreatedUpdatedItemsTimeType_values_Regular": {
         "message": "ปกติของ Roblox"
@@ -1829,10 +1829,10 @@
         "message": "ค้นหาไอเทมเพิ่มเติมโดยปุ่มผู้สร้างไอเทม"
     },
     "features_PrivateServerLinksSection_title": {
-        "message": ""
+        "message": "\"ลิงก์เซิร์ฟเวอร์ส่วนตัว\" ในแท็บเซิร์ฟเวอร์"
     },
     "features_PrivateServerLinksSection_description": {
-        "message": ""
+        "message": "เมื่อเปิดใช้งาน จะเพิ่ม \"ลิงก์เซิร์ฟเวอร์ส่วนตัว\" ในแท็บเซิร์ฟเวอร์ คุณสามารถเพิ่มลิงก์เซิร์ฟเวอร์ส่วนตัวและนำเข้าจาก/ส่งออกไปยังไฟล์ข้อมูลได้"
     },
 
     "popup_extensionname": {
