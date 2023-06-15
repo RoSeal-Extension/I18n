@@ -738,7 +738,7 @@
 
     // System feedback messages shown when purchasing an item with "Refresh Avatar Item Details" feature enabled.
     // it's an easier way to communicate stuff to the user than a modal.
-    "avataritem_successmessage_Purchase": {
+    "avataritem_successmessage_GenericPurchase": {
         "message": "Você comprou este item com sucesso."
     },
     "avataritem_errormessage_Load": {
@@ -748,7 +748,7 @@
     // "realReason" is the actual internal reason given from the API.
     // in the future, we may consider making proper messages for each {realReason}
     // but for now, it's like this
-    "avataritem_errormessage_Purchase": {
+    "avataritem_errormessage_GenericPurchase": {
         "message": "Não foi possível comprar o item, razão apresentada: \"{reason} ({realReason})\""
     },
 
