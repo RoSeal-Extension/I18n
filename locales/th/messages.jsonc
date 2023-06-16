@@ -954,6 +954,25 @@
         "message": "สร้างเมื่อ"
     },
 
+    // Additional fields that will appear with BadgeMoreStatistics feature enabled
+    // counts
+    "badge_awardedalltime": {
+        "message": ""
+    },
+    "badge_awardedyesterday": {
+        "message": ""
+    },
+    "badge_percentawardedyesterday": {
+        "message": ""
+    },
+    "badge_percentawardedyesterday_value": {
+        "message": ""
+    },
+    // when the user was awarded it
+    "badge_awarded": {
+        "message": ""
+    },
+
     // Adding "View Icon Asset" button to the experience badge context menu
     "badge_contextmenu_viewiconasset": {
         "message": "ดูรูปไอคอน"
@@ -1853,6 +1872,9 @@
     },
     "features_PrivateServerLinksSection_description": {
         "message": "เมื่อเปิดใช้งาน จะเพิ่ม \"ลิงก์เซิร์ฟเวอร์ส่วนตัว\" ในแท็บเซิร์ฟเวอร์ คุณสามารถเพิ่มลิงก์เซิร์ฟเวอร์ส่วนตัวและนำเข้าจาก/ส่งออกไปยังไฟล์ข้อมูลได้"
+    },
+    "features_BadgeMoreStatistics_title": {
+        "message": ""
     },
 
     "popup_extensionname": {
