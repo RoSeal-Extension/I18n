@@ -954,6 +954,25 @@
         "message": "Created"
     },
 
+    // Additional fields that will appear with BadgeMoreStatistics feature enabled
+    // counts
+    "badge_awardedalltime": {
+        "message": "Awarded All-Time"
+    },
+    "badge_awardedyesterday": {
+        "message": "Awarded Yesterday"
+    },
+    "badge_percentawardedyesterday": {
+        "message": "% Awarded Yesterday"
+    },
+    "badge_percentawardedyesterday_value": {
+        "message": "{percentage}%"
+    },
+    // when the user was awarded it
+    "badge_awarded": {
+        "message": "Awarded"
+    },
+
     // Adding "View Icon Asset" button to the experience badge context menu
     "badge_contextmenu_viewiconasset": {
         "message": "View Icon Asset"
@@ -1853,6 +1872,9 @@
     },
     "features_PrivateServerLinksSection_description": {
         "message": "When enabled, adds a \"Private Server Links\" section to the servers tab. You can add private server links to it and import from/export to a data file."
+    },
+    "features_BadgeMoreStatistics_title": {
+        "message": "Add additional badge statistics to badge page"
     },
 
     "popup_extensionname": {
