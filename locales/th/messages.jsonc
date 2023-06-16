@@ -301,6 +301,10 @@
     "experience_privateserverlinks_actions_export": {
         "message": "ส่งออก"
     },
+    // When the creator is listed as "No One", no creator is set
+    "experience_privateserverlinks_privateserver_noone": {
+        "message": ""
+    },
     // Updated time
     "experience_privateserverlinks_privateserver_updated": {
         "message": "อัพเดท {time}"
@@ -410,6 +414,14 @@
     "experience_privateserverlinks_addprivateservermodal_link": {
         "message": "ลิ้งค์"
     },
+    // Server owner label
+    "experience_privateserverlinks_addprivateservermodal_owner": {
+        "message": ""
+    },
+    // Below the server owner input to the right
+    "experience_privateserverlinks_addprivateservermodal_owneroptional": {
+        "message": ""
+    },
     // Server link errors
     "experience_privateserverlinks_addprivateservermodal_linkerror_invalid": {
         "message": "ลิงก์ที่คุณระบุไม่ถูกต้อง"
@@ -457,6 +469,14 @@
     },
     "experience_privateserverlinks_updateprivateservermodal_linkerror_duplicate": {
         "message": "มีเซิร์ฟเวอร์ส่วนตัวที่มีลิงก์นี้อยู่แล้ว: \"{name}\""
+    },
+    // Server owner label
+    "experience_privateserverlinks_updateprivateservermodal_owner": {
+        "message": ""
+    },
+    // Below the server owner input to the right
+    "experience_privateserverlinks_updateprivateservermodal_owneroptional": {
+        "message": ""
     },
     // modal buttons
     "experience_privateserverlinks_updateprivateservermodal_action": {
