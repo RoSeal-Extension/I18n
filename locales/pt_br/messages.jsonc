@@ -301,6 +301,10 @@
     "experience_privateserverlinks_actions_export": {
         "message": "Exportar"
     },
+    // When the creator is listed as "No One", no creator is set
+    "experience_privateserverlinks_privateserver_noone": {
+        "message": ""
+    },
     // Updated time
     "experience_privateserverlinks_privateserver_updated": {
         "message": "Atualizado {time}"
@@ -410,6 +414,14 @@
     "experience_privateserverlinks_addprivateservermodal_link": {
         "message": "Link"
     },
+    // Server owner label
+    "experience_privateserverlinks_addprivateservermodal_owner": {
+        "message": ""
+    },
+    // Below the server owner input to the right
+    "experience_privateserverlinks_addprivateservermodal_owneroptional": {
+        "message": ""
+    },
     // Server link errors
     "experience_privateserverlinks_addprivateservermodal_linkerror_invalid": {
         "message": "O link que você forneceu era inválido."
@@ -457,6 +469,14 @@
     },
     "experience_privateserverlinks_updateprivateservermodal_linkerror_duplicate": {
         "message": "Já existe um servidor privado com este link: \"{name}\""
+    },
+    // Server owner label
+    "experience_privateserverlinks_updateprivateservermodal_owner": {
+        "message": ""
+    },
+    // Below the server owner input to the right
+    "experience_privateserverlinks_updateprivateservermodal_owneroptional": {
+        "message": ""
     },
     // modal buttons
     "experience_privateserverlinks_updateprivateservermodal_action": {
