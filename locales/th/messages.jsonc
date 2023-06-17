@@ -109,7 +109,7 @@
         "message": "โดเนท"
     },
     "settings_donate_description": {
-        "message": "สวัสดีฉันชื่อ, <bold>Julli4n</bold>, ไม่ได้รายได้จากการพัฒนาเลย หากคุณชอบใช้ส่วนขยายนี้คุณสามารถโดเนทได้ คุณจะไม่ได้รับอะไรนอกจากคำขอบคุณ{lineBreak}{lineBreak}ลิ้งค์นี้จำพาคุณไปที่ BuyMeACoffee เป็นไซต์ภายนอกที่ใช้สำหรับการบริจาค"
+        "message": "สวัสดีฉันชื่อ, <bold>Julli4n</bold>, ไม่ได้รายได้จากการพัฒนาเลย หากคุณชอบใช้ส่วนขยายนี้คุณสามารถโดเนทได้ คุณจะไม่ได้รับอะไรนอกจากคำขอบคุณ{lineBreak}{lineBreak}ลิ้งค์นี้จำพาคุณไปที่ BuyMeACoffee เป็นไซต์ภายนอกที่ใช้สำหรับการโดเนท"
     },
 
     // selected tab
@@ -144,14 +144,14 @@
     },
     // "Associated Storage" is basically just storage stored from the feature, i.e. Roblox accounts with accounts manager
     "settings_featureswitches_featureswitch_removeassociatedstorage": {
-        "message": "ล้างข้อมูลที่เกี่ยวข้องกับฟีเจอร์"
+        "message": "ล้างข้อมูลที่เกี่ยวกับฟีเจอร์"
     },
     // System feedback messages
     "settings_featureswitches_featureswitch_removeassociatedstorage_systemfeedback_success": {
-        "message": "ล้างข้อมูลที่เกี่ยวข้องสำหรับฟีเจอร์นี้สำเร็จ"
+        "message": "ล้างข้อมูลที่เกี่ยวกับฟีเจอร์นี้สำเร็จ"
     },
     "settings_featureswitches_featureswitch_removeassociatedstorage_systemfeedback_error": {
-        "message": "เกิดข้อผิดพลาดขณะล้างข้อมูลที่เกี่ยวข้องสำหรับฟีเจอร์นี้ , กรุณาลองอีกครั้ง"
+        "message": "เกิดข้อผิดพลาดขณะล้างข้อมูลที่เกี่ยวกับฟีเจอร์นี้ , กรุณาลองอีกครั้ง"
     },
 
     // "Blocked Experiences" selection tab in menu and title
@@ -251,7 +251,7 @@
 
     // System feedbacks shown when there's an error/success message
     "accountsmanager_success_AddCurrentRobloxAccount": {
-        "message": "เพิ่มบัญชี Roblox ที่มีอยู่ตอนนี้ ไปยัง รายการ สำเร็จ"
+        "message": "เพิ่มบัญชี Roblox ที่มีอยู่ตอนนี้ไปยัง รายการ สำเร็จ"
     },
     "accountsmanager_success_LogoutRobloxAccount": {
         "message": "ยกเลิกการใช้เซสชัน และ นำบัญชี Roblox ออกจากรายการ สำเร็จ"
@@ -303,7 +303,7 @@
     },
     // When the creator is listed as "No One", no creator is set
     "experience_privateserverlinks_privateserver_noone": {
-        "message": ""
+        "message": "ไม่มีใคร"
     },
     // Updated time
     "experience_privateserverlinks_privateserver_updated": {
@@ -416,11 +416,11 @@
     },
     // Server owner label
     "experience_privateserverlinks_addprivateservermodal_owner": {
-        "message": ""
+        "message": "เป็นเจ้าของ"
     },
     // Below the server owner input to the right
     "experience_privateserverlinks_addprivateservermodal_owneroptional": {
-        "message": ""
+        "message": "(ไม่จำเป็น)"
     },
     // Server link errors
     "experience_privateserverlinks_addprivateservermodal_linkerror_invalid": {
@@ -472,11 +472,11 @@
     },
     // Server owner label
     "experience_privateserverlinks_updateprivateservermodal_owner": {
-        "message": ""
+        "message": "เป็นเจ้าของ"
     },
     // Below the server owner input to the right
     "experience_privateserverlinks_updateprivateservermodal_owneroptional": {
-        "message": ""
+        "message": "(ไม่จำเป็น)"
     },
     // modal buttons
     "experience_privateserverlinks_updateprivateservermodal_action": {
@@ -501,7 +501,7 @@
 
     // The asset's numeric product ID
     "generalasset_productid": {
-        "message": "ไอดีสินค้า"
+        "message": "ไอดีไอเทม"
     },
     // The collectible item UUID ID
     "collectibleasset_collectibleitemid": {
@@ -509,12 +509,12 @@
     },
     // The collectible product UUID ID
     "collectibleasset_collectibleproductid": {
-        "message": "ไอดีสินค้าของของลิมิเต็ด"
+        "message": "ไอดีไอเทมของของลิมิเต็ด"
     },
 
     // The developer product's numeric product ID
     "developerproduct_productid": {
-        "message": "ไอดีสินค้า"
+        "message": "ไอดีไอเทม"
     },
 
     // "Refresh Item Details" tooltip when hovering over the refresh icon under the three dots (...)
@@ -529,12 +529,12 @@
 
     // The pass's numeric product ID field
     "pass_productid": {
-        "message": "ไอดีสินค้า"
+        "message": "ไอดีไอเทม"
     },
 
     // The bundle's numeric product ID field
     "bundle_productid": {
-        "message": "ไอดีสินค้า"
+        "message": "ไอดีไอเทม"
     },
 
     // Text to show if an experience is blocked, and to view it anyways
@@ -550,7 +550,7 @@
         "message": "เกมพาส"
     },
     "experience_store_selection_developerproducts": {
-        "message": "สินค้าผู้พัฒนา"
+        "message": "ไอเทมของผู้พัฒนา"
     },
 
     // Developer products section
@@ -563,14 +563,14 @@
     },
     // Errors/no developer products
     "experience_developerproducts_genericerror": {
-        "message": "เกิดข้อผิดพลาดขณะพยายามรับข้อมูลสินค้าของผู้พัฒนา , กรุณาลองอีกครั้ง"
+        "message": "เกิดข้อผิดพลาดขณะพยายามรับข้อมูลไอเทมของผู้พัฒนา , กรุณาลองอีกครั้ง"
     },
     "experience_developerproducts_nodeveloperproducts": {
-        "message": "ไม่มีสินค้าของผู้พัฒนาที่ใช้งานได้"
+        "message": "ไม่มีไอเทมของผู้พัฒนาที่ใช้งานได้"
     },
     // Indicates that there is none from your search from the filters, but can change if filtering options are changed
     "experience_developerproducts_nodeveloperproductsfiltered": {
-        "message": "ไม่มีสินค้าของผู้พัฒนาที่คุณค้นหา"
+        "message": "ไม่มีไอเทมของผู้พัฒนาที่คุณค้นหา"
     },
 
     // Experience passes stuff, we discard roblox's version and remake all of it
@@ -618,7 +618,7 @@
     },
     // Table header items, "Field" in this context, is like part of an avatar, avatar type, body, proportion, etc.
     "experience_avatarrestricted_compare_field": {
-        "message": "Field"
+        "message": "ฟิลด์"
     },
     "experience_avatarrestricted_compare_you": {
         "message": "คุณ"
@@ -695,7 +695,7 @@
         "message": "หมวดหมู่"
     },
     "developerproduct_type_value": {
-        "message": "สินค้าผู้พัฒนา"
+        "message": "ไอเทมของผู้พัฒนา"
     },
     "developerproduct_created": {
         "message": "สร้างเมื่อ"
@@ -762,7 +762,7 @@
         "message": "คุณทำการซื้อไอเทมสำเร็จแล้ว"
     },
     "avataritem_errormessage_Load": {
-        "message": "คุณกำลังโดน rate limited โดย Roblox, กรุณาลองอีกครัง"
+        "message": "คุณกำลังโดน จำกัดการใช้งาน โดย Roblox, กรุณาลองอีกครัง"
     },
     // "reason" is the public reason given from the API
     // "realReason" is the actual internal reason given from the API.
@@ -905,7 +905,7 @@
         "message": "คุณไม่จำเป็นต้องจ่ายเงินสำหรับการเข้าถึง แมพ ในการเข้าถึงแบบต้องจ่ายเงิน?????"
     },
     "homeheader_secretmessage_Soothsayer4": {
-        "message": "เจ๋งกว่า BetaTester ทั่วไปแน่นอน"
+        "message": "เจ๋งกว่า เบต้าเทสเตอร์ ทั่วไปแน่นอน"
     },
     "homeheader_secretmessage_Soothsayer5": {
         "message": "Internal Studio เจ๋งไหม?"
@@ -916,7 +916,7 @@
 
     // Translators can put whatever message they like in here, remember: this is crowd-sourced
     "homeheader_secretmessage_NonEnglish": {
-        "message": "ดูเหมือนว่า RoSeal จะไม่ได้รับการแปลเป็นภาษาของคุณ :("
+        "message": "แย่จัง! ดูเหมือนว่า RoSeal จะไม่ได้รับการแปลเป็นภาษาของคุณ :("
     },
 
     // Happy birthday, text shown on the users birthday
@@ -957,20 +957,20 @@
     // Additional fields that will appear with BadgeMoreStatistics feature enabled
     // counts
     "badge_awardedalltime": {
-        "message": ""
+        "message": "ได้รับตลอดกาล"
     },
     "badge_awardedyesterday": {
-        "message": ""
+        "message": "ได้รับเมื่อวาน"
     },
     "badge_percentawardedyesterday": {
-        "message": ""
+        "message": "% ได้รับเมื่อวาน"
     },
     "badge_percentawardedyesterday_value": {
-        "message": ""
+        "message": "{percentage}%"
     },
     // when the user was awarded it
     "badge_awarded": {
-        "message": ""
+        "message": "ได้รับ"
     },
 
     // Adding "View Icon Asset" button to the experience badge context menu
@@ -1036,7 +1036,7 @@
         "message": "ฟิลเตอร์"
     },
     "discover_filters_inputhint": {
-        "message": "ใส่ตัวเลขที่เป็น 0 จะไม่สามารถใช้ได้"
+        "message": "ถ้าใส่ตัวเลขที่เป็น 0 จะไม่สามารถใช้ได้"
     },
     "discover_filters_applyfilters": {
         "message": "ใช้ฟิลเตอร์"
@@ -1490,11 +1490,20 @@
     "features_section_account_general": {
         "message": "ทั่วไป"
     },
+    "features_section_items": {
+        "message": ""
+    },
+    "features_section_items_general": {
+        "message": ""
+    },
+    "features_section_items_avatar": {
+        "message": ""
+    },
     "features_section_miscellaneous": {
         "message": "เบ็ดเตล็ด"
     },
-    "features_section_miscellaneous_itempages": {
-        "message": "หน้าไอเทม"
+    "features_section_miscellaneous_general": {
+        "message": "ทั่วไป"
     },
     "features_section_miscellaneous_transactionspage": {
         "message": "หน้าธุรกรรม"
@@ -1516,9 +1525,6 @@
     },
     "features_section_miscellaneous_messages": {
         "message": "ข้อความ"
-    },
-    "features_section_miscellaneous_general": {
-        "message": "ทั่วไป"
     },
     "features_section_users": {
         "message": "ผู้ใช้"
@@ -1589,16 +1595,16 @@
         "message": "ลบส่วนเซิร์ฟเวอร์ส่วนตัวในแท็บเกี่ยวกับ"
     },
     "features_DeveloperProductsInExperienceStore_title": {
-        "message": "สินค้าของนักพัฒนาในแท็บร้านค้าของแมพ"
+        "message": "ไอเทมของนักพัฒนาในแท็บร้านค้าของแมพ"
     },
     "features_DeveloperProductsInExperienceStore_description": {
-        "message": "เมื่อเปิดใช้งาน จะแสดงสินค้าของนักพัฒนาในดรอปดาวน์ใต้แท็บ ร้านค้า สร้างหน้าใหม่สำหรับดูรายละเอียดสินค้าของนักพัฒนาซอฟต์แวร์"
+        "message": "เมื่อเปิดใช้งาน จะแสดงไอเทมของนักพัฒนาในดรอปดาวน์ใต้แท็บ ร้านค้า สร้างหน้าใหม่สำหรับดูรายละเอียดไอเทมของนักพัฒนาซอฟต์แวร์"
     },
     "features_ExperienceStoreItemFiltering_title": {
         "message": "ฟิวเตอร์การกรองในแท็บร้านค้าของ แมพ"
     },
     "features_ExperienceStoreItemFiltering_description": {
-        "message": "เมื่อเปิดใช้งาน จะแสดงตัวเลือกฟิลเตอร์เพิ่มเติมในแท็บ เกมพาส และ สินค้าของผู้พัฒนา ในร้านค้า ของแมพ"
+        "message": "เมื่อเปิดใช้งาน จะแสดงตัวเลือกฟิลเตอร์เพิ่มเติมในแท็บ เกมพาส และ ไอเทมของผู้พัฒนา ในร้านค้า ของแมพ"
     },
     "features_WebsiteOfflineMode_title": {
         "message": "แสดงเป็นออฟไลน์เมื่ออยู่บนเว็บไซต์เท่านั้น"
@@ -1832,7 +1838,7 @@
         "message": "เมื่อเปิดใช้งาน การนำทางไปยังกลุ่มอื่นจากองค์กรกลุ่ม/กลุ่มที่รอดำเนินการจะไม่ต้องการการรีเฟรชหน้า"
     },
     "features_ItemAdditionalProductInfo_title": {
-        "message": "แสดงข้อมูลสินค้าเพิ่มเติม"
+        "message": "แสดงข้อมูลไอเทมเพิ่มเติม"
     },
     "features_RefreshAvatarItemDetails_title": {
         "message": "ปุ่มรีเฟรชรายละเอียดไอเทมอวาตาร์"
@@ -1874,10 +1880,10 @@
         "message": "เมื่อเปิดใช้งาน จะเพิ่ม \"ลิงก์เซิร์ฟเวอร์ส่วนตัว\" ในแท็บเซิร์ฟเวอร์ คุณสามารถเพิ่มลิงก์เซิร์ฟเวอร์ส่วนตัวและนำเข้าจาก/ส่งออกไปยังไฟล์ข้อมูลได้"
     },
     "features_PrivateServerLinksSection_sub_TryResolveOwner_title": {
-        "message": ""
+        "message": "พยายามแก้ไขเจ้าของเซิร์ฟเวอร์ส่วนตัวโดยอัตโนมัติ"
     },
     "features_BadgeMoreStatistics_title": {
-        "message": ""
+        "message": "เพิ่มสถิติเหรีญตราเพิ่มเติมในหน้าเหรีญตรา"
     },
 
     "popup_extensionname": {

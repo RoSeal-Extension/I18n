@@ -1490,11 +1490,20 @@
     "features_section_account_general": {
         "message": "Général"
     },
+    "features_section_items": {
+        "message": ""
+    },
+    "features_section_items_general": {
+        "message": ""
+    },
+    "features_section_items_avatar": {
+        "message": ""
+    },
     "features_section_miscellaneous": {
         "message": "Divers"
     },
-    "features_section_miscellaneous_itempages": {
-        "message": "Pages des articles"
+    "features_section_miscellaneous_general": {
+        "message": "Général"
     },
     "features_section_miscellaneous_transactionspage": {
         "message": "Page des transactions"
@@ -1516,9 +1525,6 @@
     },
     "features_section_miscellaneous_messages": {
         "message": "Messages"
-    },
-    "features_section_miscellaneous_general": {
-        "message": "Général"
     },
     "features_section_users": {
         "message": "Utilisateurs"
