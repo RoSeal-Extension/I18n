@@ -954,6 +954,25 @@
         "message": "Criado"
     },
 
+    // Additional fields that will appear with BadgeMoreStatistics feature enabled
+    // counts
+    "badge_awardedalltime": {
+        "message": ""
+    },
+    "badge_awardedyesterday": {
+        "message": ""
+    },
+    "badge_percentawardedyesterday": {
+        "message": ""
+    },
+    "badge_percentawardedyesterday_value": {
+        "message": ""
+    },
+    // when the user was awarded it
+    "badge_awarded": {
+        "message": ""
+    },
+
     // Adding "View Icon Asset" button to the experience badge context menu
     "badge_contextmenu_viewiconasset": {
         "message": "Visualizar Ativo de Ícone "
@@ -1853,6 +1872,9 @@
     },
     "features_PrivateServerLinksSection_description": {
         "message": "Quando ativado, adiciona uma seção de \"Links de Servidores Privados\" na aba de servidores. Você pode adicionar links de servidores privados a ela e importar/exportar de/para um arquivo de dados."
+    },
+    "features_BadgeMoreStatistics_title": {
+        "message": ""
     },
 
     "popup_extensionname": {
