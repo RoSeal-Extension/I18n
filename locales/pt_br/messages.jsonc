@@ -303,7 +303,7 @@
     },
     // When the creator is listed as "No One", no creator is set
     "experience_privateserverlinks_privateserver_noone": {
-        "message": ""
+        "message": "Ninguém"
     },
     // Updated time
     "experience_privateserverlinks_privateserver_updated": {
@@ -416,11 +416,11 @@
     },
     // Server owner label
     "experience_privateserverlinks_addprivateservermodal_owner": {
-        "message": ""
+        "message": "Proprietário"
     },
     // Below the server owner input to the right
     "experience_privateserverlinks_addprivateservermodal_owneroptional": {
-        "message": ""
+        "message": "(opcional)"
     },
     // Server link errors
     "experience_privateserverlinks_addprivateservermodal_linkerror_invalid": {
@@ -472,11 +472,11 @@
     },
     // Server owner label
     "experience_privateserverlinks_updateprivateservermodal_owner": {
-        "message": ""
+        "message": "Proprietário"
     },
     // Below the server owner input to the right
     "experience_privateserverlinks_updateprivateservermodal_owneroptional": {
-        "message": ""
+        "message": "(opcional)"
     },
     // modal buttons
     "experience_privateserverlinks_updateprivateservermodal_action": {
@@ -1880,7 +1880,7 @@
         "message": "Quando ativado, adiciona uma seção de \"Links de Servidores Privados\" na aba de servidores. Você pode adicionar links de servidores privados a ela e importar/exportar de/para um arquivo de dados."
     },
     "features_PrivateServerLinksSection_sub_TryResolveOwner_title": {
-        "message": ""
+        "message": "Tentar determinar automaticamente o proprietário do servidor privado"
     },
     "features_BadgeMoreStatistics_title": {
         "message": "Adiciona estatísticas adicionais do emblema à página de emblemas."
