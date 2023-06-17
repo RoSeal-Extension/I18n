@@ -1873,6 +1873,9 @@
     "features_PrivateServerLinksSection_description": {
         "message": "Quando ativado, adiciona uma seção de \"Links de Servidores Privados\" na aba de servidores. Você pode adicionar links de servidores privados a ela e importar/exportar de/para um arquivo de dados."
     },
+    "features_PrivateServerLinksSection_sub_TryResolveOwner_title": {
+        "message": ""
+    },
     "features_BadgeMoreStatistics_title": {
         "message": ""
     },

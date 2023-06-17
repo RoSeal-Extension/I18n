@@ -1873,6 +1873,9 @@
     "features_PrivateServerLinksSection_description": {
         "message": ""
     },
+    "features_PrivateServerLinksSection_sub_TryResolveOwner_title": {
+        "message": ""
+    },
     "features_BadgeMoreStatistics_title": {
         "message": ""
     },

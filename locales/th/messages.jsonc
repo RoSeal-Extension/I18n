@@ -1873,6 +1873,9 @@
     "features_PrivateServerLinksSection_description": {
         "message": "เมื่อเปิดใช้งาน จะเพิ่ม \"ลิงก์เซิร์ฟเวอร์ส่วนตัว\" ในแท็บเซิร์ฟเวอร์ คุณสามารถเพิ่มลิงก์เซิร์ฟเวอร์ส่วนตัวและนำเข้าจาก/ส่งออกไปยังไฟล์ข้อมูลได้"
     },
+    "features_PrivateServerLinksSection_sub_TryResolveOwner_title": {
+        "message": ""
+    },
     "features_BadgeMoreStatistics_title": {
         "message": ""
     },
