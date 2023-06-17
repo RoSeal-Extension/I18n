@@ -1470,7 +1470,7 @@
         "message": "Inicio"
     },
     "features_section_home_general": {
-        "message": "General"
+        "message": ""
     },
     "features_section_experiences": {
         "message": "Experiencias"
@@ -1490,11 +1490,20 @@
     "features_section_account_general": {
         "message": "General"
     },
+    "features_section_items": {
+        "message": ""
+    },
+    "features_section_items_general": {
+        "message": "General"
+    },
+    "features_section_items_avatar": {
+        "message": ""
+    },
     "features_section_miscellaneous": {
         "message": "Misceláneo"
     },
-    "features_section_miscellaneous_itempages": {
-        "message": "Páginas de artículos"
+    "features_section_miscellaneous_general": {
+        "message": "General"
     },
     "features_section_miscellaneous_transactionspage": {
         "message": "Página de transacciones"
@@ -1516,9 +1525,6 @@
     },
     "features_section_miscellaneous_messages": {
         "message": "Mensajes"
-    },
-    "features_section_miscellaneous_general": {
-        "message": "General"
     },
     "features_section_users": {
         "message": "Usuarios"

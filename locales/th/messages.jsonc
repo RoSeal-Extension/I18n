@@ -1490,11 +1490,20 @@
     "features_section_account_general": {
         "message": "ทั่วไป"
     },
+    "features_section_items": {
+        "message": ""
+    },
+    "features_section_items_general": {
+        "message": ""
+    },
+    "features_section_items_avatar": {
+        "message": ""
+    },
     "features_section_miscellaneous": {
         "message": "เบ็ดเตล็ด"
     },
-    "features_section_miscellaneous_itempages": {
-        "message": "หน้าไอเทม"
+    "features_section_miscellaneous_general": {
+        "message": "ทั่วไป"
     },
     "features_section_miscellaneous_transactionspage": {
         "message": "หน้าธุรกรรม"
@@ -1516,9 +1525,6 @@
     },
     "features_section_miscellaneous_messages": {
         "message": "ข้อความ"
-    },
-    "features_section_miscellaneous_general": {
-        "message": "ทั่วไป"
     },
     "features_section_users": {
         "message": "ผู้ใช้"
