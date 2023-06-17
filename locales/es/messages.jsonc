@@ -278,6 +278,14 @@
     "experience_privateserverlinks_title": {
         "message": ""
     },
+    // Button to see more private server links
+    "experience_privateserverlinks_seemore": {
+        "message": ""
+    },
+    // Button to see less private server links
+    "experience_privateserverlinks_seeless": {
+        "message": ""
+    },
     // Tooltip hover message next to the title
     "experience_privateserverlinks_titletooltip": {
         "message": ""

@@ -278,6 +278,14 @@
     "experience_privateserverlinks_title": {
         "message": "ลิงค์เซิร์ฟเวอร์ส่วนตัว"
     },
+    // Button to see more private server links
+    "experience_privateserverlinks_seemore": {
+        "message": ""
+    },
+    // Button to see less private server links
+    "experience_privateserverlinks_seeless": {
+        "message": ""
+    },
     // Tooltip hover message next to the title
     "experience_privateserverlinks_titletooltip": {
         "message": "ลิงก์เซิร์ฟเวอร์ส่วนตัวช่วยให้คุณจัดเก็บเซิร์ฟเวอร์ส่วนตัวสำหรับแมพนี้จากลิงก์หรือนำเข้าไฟล์ และจะระบุเมื่อลิงก์เซิร์ฟเวอร์ส่วนตัวไม่ทำงาน"

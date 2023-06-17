@@ -278,6 +278,14 @@
     "experience_privateserverlinks_title": {
         "message": "Links de Servidores Privados"
     },
+    // Button to see more private server links
+    "experience_privateserverlinks_seemore": {
+        "message": ""
+    },
+    // Button to see less private server links
+    "experience_privateserverlinks_seeless": {
+        "message": ""
+    },
     // Tooltip hover message next to the title
     "experience_privateserverlinks_titletooltip": {
         "message": "Links de Servidores Privados permite que você armazene servidores privados para essa experiência a partir de links ou da importação de um arquivo e indicará quando um link de servidor privado estiver inativo."
