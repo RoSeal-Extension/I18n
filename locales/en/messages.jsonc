@@ -278,6 +278,14 @@
     "experience_privateserverlinks_title": {
         "message": "Private Server Links"
     },
+    // Button to see more private server links
+    "experience_privateserverlinks_seemore": {
+        "message": "See More"
+    },
+    // Button to see less private server links
+    "experience_privateserverlinks_seeless": {
+        "message": "See Less"
+    },
     // Tooltip hover message next to the title
     "experience_privateserverlinks_titletooltip": {
         "message": "Private Server Links lets you store private servers for this experience from links or importing a file and will indicate when a private server link is inactive."
