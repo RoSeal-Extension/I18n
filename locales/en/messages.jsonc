@@ -1873,6 +1873,9 @@
     "features_PrivateServerLinksSection_description": {
         "message": "When enabled, adds a \"Private Server Links\" section to the servers tab. You can add private server links to it and import from/export to a data file."
     },
+    "features_PrivateServerLinksSection_sub_TryResolveOwner_title": {
+        "message": "Try to automatically resolve the private server owner"
+    },
     "features_BadgeMoreStatistics_title": {
         "message": "Add additional badge statistics to badge page"
     },
