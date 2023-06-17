@@ -303,7 +303,7 @@
     },
     // When the creator is listed as "No One", no creator is set
     "experience_privateserverlinks_privateserver_noone": {
-        "message": ""
+        "message": "ไม่มีใคร"
     },
     // Updated time
     "experience_privateserverlinks_privateserver_updated": {
@@ -416,11 +416,11 @@
     },
     // Server owner label
     "experience_privateserverlinks_addprivateservermodal_owner": {
-        "message": ""
+        "message": "เป็นเจ้าของ"
     },
     // Below the server owner input to the right
     "experience_privateserverlinks_addprivateservermodal_owneroptional": {
-        "message": ""
+        "message": "(ไม่จำเป็น)"
     },
     // Server link errors
     "experience_privateserverlinks_addprivateservermodal_linkerror_invalid": {
@@ -472,11 +472,11 @@
     },
     // Server owner label
     "experience_privateserverlinks_updateprivateservermodal_owner": {
-        "message": ""
+        "message": "เป็นเจ้าของ"
     },
     // Below the server owner input to the right
     "experience_privateserverlinks_updateprivateservermodal_owneroptional": {
-        "message": ""
+        "message": "(ไม่จำเป็น)"
     },
     // modal buttons
     "experience_privateserverlinks_updateprivateservermodal_action": {
@@ -957,20 +957,20 @@
     // Additional fields that will appear with BadgeMoreStatistics feature enabled
     // counts
     "badge_awardedalltime": {
-        "message": ""
+        "message": "ได้รับตลอดกาล"
     },
     "badge_awardedyesterday": {
-        "message": ""
+        "message": "ได้รับเมื่อวาน"
     },
     "badge_percentawardedyesterday": {
-        "message": ""
+        "message": "% ได้รับเมื่อวาน"
     },
     "badge_percentawardedyesterday_value": {
-        "message": ""
+        "message": "{percentage}%"
     },
     // when the user was awarded it
     "badge_awarded": {
-        "message": ""
+        "message": "ได้รับ"
     },
 
     // Adding "View Icon Asset" button to the experience badge context menu
@@ -1874,10 +1874,10 @@
         "message": "เมื่อเปิดใช้งาน จะเพิ่ม \"ลิงก์เซิร์ฟเวอร์ส่วนตัว\" ในแท็บเซิร์ฟเวอร์ คุณสามารถเพิ่มลิงก์เซิร์ฟเวอร์ส่วนตัวและนำเข้าจาก/ส่งออกไปยังไฟล์ข้อมูลได้"
     },
     "features_PrivateServerLinksSection_sub_TryResolveOwner_title": {
-        "message": ""
+        "message": "พยายามแก้ไขเจ้าของเซิร์ฟเวอร์ส่วนตัวโดยอัตโนมัติ"
     },
     "features_BadgeMoreStatistics_title": {
-        "message": ""
+        "message": "เพิ่มสถิติเหรีญตราเพิ่มเติมในหน้าเหรีญตรา"
     },
 
     "popup_extensionname": {
