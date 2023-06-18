@@ -280,11 +280,11 @@
     },
     // Button to see more private server links
     "experience_privateserverlinks_seemore": {
-        "message": ""
+        "message": "ดูเพิ่มเติม"
     },
     // Button to see less private server links
     "experience_privateserverlinks_seeless": {
-        "message": ""
+        "message": "ดูน้อยลง"
     },
     // Tooltip hover message next to the title
     "experience_privateserverlinks_titletooltip": {
@@ -1499,13 +1499,13 @@
         "message": "ทั่วไป"
     },
     "features_section_items": {
-        "message": ""
+        "message": "ไอเทม"
     },
     "features_section_items_general": {
-        "message": ""
+        "message": "ทั่วไป"
     },
     "features_section_items_avatar": {
-        "message": ""
+        "message": "ไอเทม อวตาร"
     },
     "features_section_miscellaneous": {
         "message": "เบ็ดเตล็ด"
