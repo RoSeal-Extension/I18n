@@ -280,11 +280,11 @@
     },
     // Button to see more private server links
     "experience_privateserverlinks_seemore": {
-        "message": ""
+        "message": "Ver Mais"
     },
     // Button to see less private server links
     "experience_privateserverlinks_seeless": {
-        "message": ""
+        "message": "Ver Menos"
     },
     // Tooltip hover message next to the title
     "experience_privateserverlinks_titletooltip": {
