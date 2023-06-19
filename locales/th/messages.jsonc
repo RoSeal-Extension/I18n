@@ -66,7 +66,7 @@
         "message": "เกี่ยวกับ RoSeal"
     },
     "settings_about_description": {
-        "message": "<bold>RoSeal</bold> เป็นส่วนขยาย Roblox ที่มีธีมแมวน้ำแบบฟรี พร้อมฟีเจอร์ที่หลากหลายและการปรับปรุงได้อย่างอิสระ โดย ไม่ต้องจ่ายและไม่มีการติดตาม"
+        "message": "<bold>RoSeal</bold> เป็นส่วนขยาย Roblox พร้อมฟีเจอร์ที่หลากหลายและการปรับปรุงได้อย่างอิสระ โดย ใช้งานได้ฟรี,ไม่มีการติดตาม และ ยังมีแมวน้ำอีกด้วย!"
     },
     // under13 is for 13- users over13 is for 13+. this is to prevent exposing discord to underage users
     "settings_about_media_under13": {
@@ -251,7 +251,7 @@
 
     // System feedbacks shown when there's an error/success message
     "accountsmanager_success_AddCurrentRobloxAccount": {
-        "message": "เพิ่มบัญชี Roblox ที่มีอยู่ตอนนี้ไปยัง รายการ สำเร็จ"
+        "message": "เพิ่มบัญชี Roblox ที่มีอยู่ไปยัง รายการ สำเร็จ"
     },
     "accountsmanager_success_LogoutRobloxAccount": {
         "message": "ยกเลิกการใช้เซสชัน และ นำบัญชี Roblox ออกจากรายการ สำเร็จ"
@@ -288,7 +288,7 @@
     },
     // Tooltip hover message next to the title
     "experience_privateserverlinks_titletooltip": {
-        "message": "ลิงก์เซิร์ฟเวอร์ส่วนตัวช่วยให้คุณจัดเก็บเซิร์ฟเวอร์ส่วนตัวสำหรับแมพนี้จากลิงก์หรือนำเข้าไฟล์ และจะระบุเมื่อลิงก์เซิร์ฟเวอร์ส่วนตัวไม่ทำงาน"
+        "message": "ช่วยให้คุณเก็บเซิร์ฟเวอร์ส่วนตัวสำหรับแมพนี้จากลิงก์หรือนำเข้าไฟล์ และจะแจ้งเตือนเมื่อลิงก์เซิร์ฟเวอร์ส่วนตัวใช้ไม่ได้แล้ว"
     },
     "experience_privateserverlinks_noservers": {
         "message": "ไม่พบลิงก์เซิร์ฟเวอร์ส่วนตัว"
@@ -777,7 +777,7 @@
     // in the future, we may consider making proper messages for each {realReason}
     // but for now, it's like this
     "avataritem_errormessage_GenericPurchase": {
-        "message": "ไม่สามารถซื้อไอเทมนี้ได้, ให้สาเหตุ: \"{reason} ({realReason})\""
+        "message": "ไม่สามารถซื้อไอเทมนี้ได้, เนื่องจาก: \"{reason} ({realReason})\""
     },
 
     // "ALT" text button shown on the lower left side on experience thumbnails if available. "ALT" is short for "Alternative", in "Alternative Text" for images.
