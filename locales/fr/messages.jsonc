@@ -1109,6 +1109,27 @@
     "discover_filters_genre_values_Western": {
         "message": "Occidental"
     },
+    "discover_filters_device": {
+        "message": ""
+    },
+    "discover_filters_device_values_All": {
+        "message": ""
+    },
+    "discover_filters_device_values_Desktop": {
+        "message": ""
+    },
+    "discover_filters_device_values_Phone": {
+        "message": ""
+    },
+    "discover_filters_device_values_Tablet": {
+        "message": ""
+    },
+    "discover_filters_device_values_Console": {
+        "message": ""
+    },
+    "discover_filters_device_values_VR": {
+        "message": ""
+    },
 
     // For each filter, the maximum and minimum labels.
     // The placeholders right now do not have translations, merely because they are just "0"
