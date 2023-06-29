@@ -169,7 +169,7 @@
     },
     // No experience keywords blocked
     "settings_blockedexperiences_keywords_nokeywords": {
-        "message": "เพิ่ม คีย์เวิร์ด อันแรกของคุณ เพื่อบล็อก และ เป็นการเริ่มต้น"
+        "message": "เพิ่ม คีย์เวิร์ด อันแรกของคุณ เพื่อบล็อก"
     },
     "settings_blockedexperiences_keywords_inputplaceholder": {
         "message": "เพิ่ม คีย์เวิร์ด..."
@@ -1110,25 +1110,25 @@
         "message": "ตะวันตก"
     },
     "discover_filters_device": {
-        "message": ""
+        "message": "อุปกรณ์"
     },
     "discover_filters_device_values_All": {
-        "message": ""
+        "message": "ทั้งหมด"
     },
     "discover_filters_device_values_Desktop": {
-        "message": ""
+        "message": "เดสก์ทอป"
     },
     "discover_filters_device_values_Phone": {
-        "message": ""
+        "message": "โทรศัพท์"
     },
     "discover_filters_device_values_Tablet": {
-        "message": ""
+        "message": "แทปเล็ต (เอแพด)"
     },
     "discover_filters_device_values_Console": {
-        "message": ""
+        "message": "คอนโซล"
     },
     "discover_filters_device_values_VR": {
-        "message": ""
+        "message": "แว่น VR"
     },
 
     // For each filter, the maximum and minimum labels.
@@ -1562,7 +1562,7 @@
         "message": "หน้าโปรไฟล์"
     },
     "features_section_groups": {
-        "message": "ค้นพบกลุ่ม"
+        "message": "กลุ่ม"
     },
     "features_section_groups_navigation": {
         "message": "แถบนำทาง"
@@ -1576,10 +1576,10 @@
     // `_description` = the description of the feature
     // _sub_ indicates a subfeature
     "features_RemoveHomePageUnnecessarySorts_title": {
-        "message": "นำ \"สิ่งที่ไม่จำเป็น\" ออกจากการจัดเรียงเรียบร้อยแล้ว"
+        "message": "นำ \"สิ่งที่ไม่จำเป็น\" ออกจากการจัดเรียง"
     },
     "features_RemoveHomePageUnnecessarySorts_description": {
-        "message": "เมื่อเปิดใช้งาน จะลบการจัดเรียง ออกจากหน้าแรกที่ไม่ตรงกัน \"แนะนำสำหรับคุณ\", \"รายการโปรด\", \"ดำเนินการต่อ\", \"เพือนกำลังเล่น\", หรือ \"สนับสนุน\"."
+        "message": "เมื่อเปิดใช้งาน จะลบการจัดเรียง ออกจากหน้าแรกที่เกี่ยวกับ \"แนะนำสำหรับคุณ\", \"รายการโปรด\", \"เล่นต่อ\", \"แมพที่เพื่อนเล่น\", หรือ \"สนับสนุน\""
     },
     "features_RefreshedHomeUserHeader_title": {
         "message": "รีเฟรชส่วนของผู้ใช้"
@@ -1594,7 +1594,7 @@
         "message": "ข้อความสุขสันต์วันเกิด"
     },
     "features_RefreshedHomeUserHeader_sub_HelloText_title": {
-        "message": "\"สวัสดี,\" คือการทักทาย"
+        "message": "เปิดใช้งานคำทักทาย \"สวัสดี,\""
     },
     "features_RefreshedHomeUserHeader_sub_ShowNameType_title": {
         "message": "เปลี่ยนประเภทชื่อที่ควรจะแสดง"
@@ -1609,7 +1609,7 @@
         "message": "แสดงชื่อผู้ใช้เท่านั้น"
     },
     "features_MoveExperienceSocialLinks_title": {
-        "message": "ย้ายประสบการณ์โซเชียลลิงก์บนคำอธิบายในแท็บเกี่ยวกับ"
+        "message": "ย้ายลิงก์โซเชียลของแมพไปยังคำอธิบายของแมพในแท็บเกี่ยวกับ"
     },
     "features_AddCommunityWikiButton_title": {
         "message": "เพิ่มปุ่มเพื่อเยี่ยมชม คอมมูนิตี้ วิกิ ที่ไม่เป็นทางการของ แมพ ในแท็บ เกี่ยวกับ"
@@ -1717,7 +1717,7 @@
         "message": "เพิ่มช่องว่างในระหว่างส่วนต่างๆ ในหน้าโปรไฟล์ผู้ใช้"
     },
     "features_ItemPagesMoveReportAbuse_title": {
-        "message": "ย้ายปุ่มรายงานไปยังเมนูบริบทของรายการ *ถ้ามี"
+        "message": "ย้ายปุ่มรายงานไปยังเมนูของไอเทม *ถ้ามี"
     },
     "features_ItemMentions_title": {
         "message": "กล่าวถึงผู้ใช้/กลุ่มที่จัดรูปแบบในคำอธิบายรายการ"
@@ -1744,10 +1744,10 @@
         "message": "บล็อก แมพ"
     },
     "features_BlockExperiences_description": {
-        "message": "เมื่อเปิดใช้งาน เพิ่มรายการใหม่สำหรับการบล็อก experience แต่ละรายการและคำหลักไม่ให้แสดงในหน้าทั่วไปบางหน้าในการตั้งค่า RoSeal คุณสามารถบล็อก experience แต่ละรายการได้จากเมนูในหน้ารายละเอียดของ experience"
+        "message": "เมื่อเปิดใช้งาน เพิ่มรายการใหม่สำหรับการบล็อก แมพ แต่ละรายการและคำหลักไม่ให้แสดงในหน้าทั่วไปบางหน้าในการตั้งค่า RoSeal คุณสามารถบล็อก แมพ แต่ละรายการได้จากเมนูในหน้ารายละเอียดของ แมพ"
     },
     "features_ShowExperienceUniverseId_title": {
-        "message": "แสดง Universe ID ของ แมพนี้"
+        "message": "แสดง Universe ID ของแมพ"
     },
     "features_Enable3DThumbnailDynamicLighting_title": {
         "message": "เปิดใช้แสงไดนามิกภาพขนาดย่อ 3 มิติ"
@@ -1765,13 +1765,13 @@
         "message": "สลับเพื่อซ่อนธุรกรรมของเซิร์ฟเวอร์ส่วนตัว"
     },
     "features_GroupOrganization_title": {
-        "message": "การปรับแต่งองค์กรแบบกลุ่ม"
+        "message": "การปรับแต่งกลุ่ม"
     },
     "features_GroupOrganization_description": {
         "message": "เมื่อเปิดใช้งาน อนุญาตให้จัดระเบียบกลุ่มใหม่และสร้างโฟลเดอร์กลุ่มด้วยการลากและวาง โฟลเดอร์กลุ่มสามารถปรับแต่งเพิ่มเติมได้"
     },
     "features_BetterExperienceBadges_title": {
-        "message": "รายการเหรียญตราของแมพที่ดีขึ้น"
+        "message": "แสดงเหรียญตราของแมพที่ดีขึ้น"
     },
     "features_BetterExperienceBadges_description": {
         "message": "เมื่อเปิดใช้งาน เพิ่มแท็บใหม่เพื่อดูรายละเอียดของ แมพ ที่มีรายการเหรียญตราของ แมพ ที่ดีกว่า คุณยังสามารถดูเหรียญตราที่ไม่ได้ใช้งาน วันที่ได้เหรียญตรา และเปรียบเทียบเหรียญตราของคุณกับผู้ใช้รายอื่น อาจจะไม่เสถียรสำหรับ แมพนี้ ที่มีเหรียญตราจำนวนมาก"
@@ -1819,10 +1819,10 @@
         "message": "แสดงรายละเอียดเหนือปุ่มเข้าชมหากอวาตาร์อาจจะถูกจำกัด"
     },
     "features_AssetDeleteFromInventory_title": {
-        "message": "\"ลบออกจากกระเป๋า\" ปุ่มในเมนู"
+        "message": "ปุ่ม \"ลบออกจากกระเป๋า\" ในเมนู"
     },
     "features_AssetDeleteFromInventory_description": {
-        "message": "เมื่อเปิดใช้งาน เพิ่ม \"ลบออกจากกระเป๋า\" ปุ่มในเมนูรายการไอเทมหากยังไม่มีอยู่ เนื่องจากด้านความปลอดภัย จึงจำเป็นต้องมีการยืนยันแบบสองขั้นตอน"
+        "message": "เมื่อเปิดใช้งาน เพิ่ม ปุ่ม \"ลบออกจากกระเป๋า\" ในเมนูรายการไอเทมหากยังไม่มีอยู่ เนื่องจากด้านความปลอดภัย จึงจำเป็นต้องมีการยืนยันแบบสองขั้นตอน"
     },
     "features_UserFriendsPageNewTitle_title": {
         "message": "แสดงชื่อผู้ใช้ในชื่อหน้าเพื่อนของผู้ใช้"
@@ -1840,16 +1840,16 @@
         "message": "ขอปุ่มไฟล์ CSV ที่มีสิทธิ์ในการลบ"
     },
     "features_DiscoverFilters_title": {
-        "message": "ฟิลเตอร์การค้นพบ"
+        "message": "ฟิลเตอร์การค้นหา"
     },
     "features_DiscoverFilters_description": {
-        "message": "เมื่อเปิดใช้งาน เพิ่มส่วนฟิลเตอร์ในหน้าค้นพบ อนุญาตให้ฟิลเตอร์ทุกประเภทตามเปอร์เซ็นต์การกดไลค์ จำนวนคนที่ชื่นชอบ จำนวนผู้เล่น จำนวนผู้เข้าชม และตามประเภท"
+        "message": "เมื่อเปิดใช้งาน เพิ่มส่วนฟิลเตอร์ในหน้าค้นหา อนุญาตให้ฟิลเตอร์ทุกประเภทตามเปอร์เซ็นต์การกดไลค์ จำนวนคนที่ชื่นชอบ จำนวนผู้เล่น จำนวนผู้เข้าชม และตามประเภท"
     },
     "features_RoSealSettingDropdown_title": {
         "message": "\"การตั้งค่าของ RoSeal\" ในดร็อปดาวน์การตั้งค่า Roblox"
     },
     "features_AccurateHomeContinueSort_title": {
-        "message": "หน้าหลักที่ไม่ได้ดูแลจัดการอย่างแม่นยำ \"ดำเนินการต่อ\" จัดเรียง"
+        "message": "หน้าหลักที่ไม่มีแมพที่ \"เล่นต่อ\" ในรายการ"
     },
     "features_CSSFixes_title": {
         "message": "แก้ไขสไตล์ (CSS) ต่างๆ ทั่วไซต์"
@@ -1876,10 +1876,10 @@
         "message": "การซื้อไอเทมอวาตาร์ฟรีอย่างรวดเร็ว"
     },
     "features_RemoveFriendActivityLabel_title": {
-        "message": "นำ \"กิจกรรมเพื่อน\" ป้ายกำกับส่วนท้ายเปิดอยู่ของ แมพ ออก"
+        "message": "นำ \"แมพที่เพื่อนเล่น\" ออกจากรายการแมพ"
     },
     "features_RemoveHomePhoneNumberUpsell_title": {
-        "message": "ลบหมายเลขโทรศัพท์ในหน้าแรก"
+        "message": "ลบหมายเลขโทรศัพท์ออกจากหน้าแรก"
     },
     "features_UserProfileForceUnfollow_title": {
         "message": "ปุ่ม \"บังคับเลิกติดตาม\" จะอยู่ในเมนูส่วนหัวของโปรไฟล์ผู้ใช้"
