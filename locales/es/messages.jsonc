@@ -319,7 +319,7 @@
   },
   // Shows up as red text "Invalid" if server is invalid now
   "experience_privateserverlinks_privateserver_invalid": {
-    "message": "Invadido"
+    "message": "Invalido"
   },
   // Context menu items
   "experience_privateserverlinks_privateserver_contextmenu_copylink": {
