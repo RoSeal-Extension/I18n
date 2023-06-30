@@ -1065,7 +1065,7 @@
         "message": "Genre"
     },
     "discover_filters_genre_values_All": {
-        "message": "All"
+        "message": "Any"
     },
     "discover_filters_genre_values_Building": {
         "message": "Building"
@@ -1113,7 +1113,7 @@
         "message": "Device"
     },
     "discover_filters_device_values_All": {
-        "message": "All"
+        "message": "Any"
     },
     "discover_filters_device_values_Desktop": {
         "message": "Desktop"
@@ -1134,7 +1134,7 @@
         "message": "Ages"
     },
     "discover_filters_age_values_All": {
-        "message": "Unspecified"
+        "message": "Any"
     },
     "discover_filters_age_values_0": {
         "message": "All Ages"
