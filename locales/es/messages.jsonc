@@ -1130,6 +1130,27 @@
     "discover_filters_device_values_VR": {
         "message": ""
     },
+    "discover_filters_age": {
+        "message": ""
+    },
+    "discover_filters_age_values_All": {
+        "message": ""
+    },
+    "discover_filters_age_values_0": {
+        "message": ""
+    },
+    "discover_filters_age_values_9": {
+        "message": ""
+    },
+    "discover_filters_age_values_13": {
+        "message": ""
+    },
+    "discover_filters_age_values_17": {
+        "message": ""
+    },
+    "discover_filters_age_values_18": {
+        "message": ""
+    },
 
     // For each filter, the maximum and minimum labels.
     // The placeholders right now do not have translations, merely because they are just "0"
