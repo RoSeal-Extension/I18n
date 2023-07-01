@@ -276,222 +276,222 @@
 
     // "Private Servre Links" section
     "experience_privateserverlinks_title": {
-        "message": ""
+        "message": "Link Del Servidor Privado"
     },
     // Button to see more private server links
     "experience_privateserverlinks_seemore": {
-        "message": ""
+        "message": "Ver Más"
     },
     // Button to see less private server links
     "experience_privateserverlinks_seeless": {
-        "message": ""
+        "message": "Ver Menos"
     },
     // Tooltip hover message next to the title
     "experience_privateserverlinks_titletooltip": {
-        "message": ""
+        "message": "Enlaces a Servidores Privados te permite almacenar servidores privados para esta experiencia desde enlaces o importando un archivo e indicará cuando un enlace a servidor privado está inactivo."
     },
     "experience_privateserverlinks_noservers": {
-        "message": ""
+        "message": "No se han encontrado enlaces a servidores privados."
     },
     // "Add" button that will open the "Add Private Server Link" dialog
     "experience_privateserverlinks_actions_add": {
-        "message": ""
+        "message": "Añadir"
     },
     // "Import" button that will open the "Import Private Server Links" dialog
     "experience_privateserverlinks_actions_import": {
-        "message": ""
+        "message": "Importar"
     },
     // this will have a .json file extension
     "experience_privateserverlinks_exportfilename": {
-        "message": ""
+        "message": "{placeName} Servidores Privados"
     },
     // "Export" button that will download the "{placeName} Private Servers.json file"
     "experience_privateserverlinks_actions_export": {
-        "message": ""
+        "message": "Exportar"
     },
     // When the creator is listed as "No One", no creator is set
     "experience_privateserverlinks_privateserver_noone": {
-        "message": ""
+        "message": "Nadie"
     },
     // Updated time
     "experience_privateserverlinks_privateserver_updated": {
-        "message": ""
+        "message": "Actualizado {time}"
     },
     // Shows up as red text "Invalid" if server is invalid now
     "experience_privateserverlinks_privateserver_invalid": {
-        "message": ""
+        "message": "Invalido"
     },
     // Context menu items
     "experience_privateserverlinks_privateserver_contextmenu_copylink": {
-        "message": ""
+        "message": "Copiar Link"
     },
     "experience_privateserverlinks_privateserver_contextmenu_remove": {
-        "message": ""
+        "message": "Eliminar"
     },
     "experience_privateserverlinks_privateserver_contextmenu_update": {
-        "message": ""
+        "message": "Actualizar"
     },
     // Bottom button that switches between "Remove" and "Join"
     // - join if valid, remove if not
     "experience_privateserverlinks_privateserver_remove": {
-        "message": ""
+        "message": "Eliminar"
     },
     "experience_privateserverlinks_privateserver_join": {
-        "message": ""
+        "message": "Unirse"
     },
 
     // Import private servers from file modal
     "experience_privateserverlinks_importprivateserversmodal_title": {
-        "message": ""
+        "message": "{sealEmoji} Importar Enlaces De Servidores Privados"
     },
     "experience_privateserverlinks_importprivateserversmodal_filteredcount": {
-        "message": ""
+        "message": "{filtered} De {total} Servidores privados tenían enlaces inválidos o eran duplicados."
     },
     "experience_privateserverlinks_importprivateserversmodal_importinfo": {
-        "message": ""
+        "message": "Desea importar los siguientes {total, plural, =1 {private server} Otros {# private servers}}:"
     },
     "experience_privateserverlinks_importprivateserversmodal_instructiontext_drag": {
-        "message": ""
+        "message": "Arrastre un archivo de datos aquí"
     },
     "experience_privateserverlinks_importprivateserversmodal_instructiontext_or": {
-        "message": ""
+        "message": "o"
     },
     "experience_privateserverlinks_importprivateserversmodal_instructiontext_select": {
-        "message": ""
+        "message": "Seleccione un archivo de datos de su ordenador"
     },
     // Import error messages
     "experience_privateserverlinks_importprivateserversmodal_importerror_invalid": {
-        "message": ""
+        "message": "Porfavor Introduzca un archivo de datos válido (.json)."
     },
     "experience_privateserverlinks_importprivateserversmodal_importerror_unknown": {
-        "message": ""
+        "message": "Se ha producido un error desconocido al leer el archivo de datos."
     },
     "experience_privateserverlinks_importprivateserversmodal_importerror_unknowncheck": {
-        "message": ""
+        "message": "Se ha producido un error desconocido al comprobar los enlaces del servidor privado."
     },
     "experience_privateserverlinks_importprivateserversmodal_importerror_allinvalid": {
-        "message": ""
+        "message": "Todos los enlaces de servidores privados del archivo de datos no eran válidos."
     },
     "experience_privateserverlinks_importprivateserversmodal_importerror_allduplicate": {
-        "message": ""
+        "message": "Todos los enlaces de servidores privados del archivo de datos eran duplicados."
     },
     "experience_privateserverlinks_importprivateserversmodal_importerror_invalidformat": {
-        "message": ""
+        "message": "El archivo con los datos tiene un formato no válido."
     },
     // Modal actions
     "experience_privateserverlinks_importprivateserversmodal_action": {
-        "message": ""
+        "message": "Importar"
     },
     "experience_privateserverlinks_importprivateserversmodal_neutral": {
-        "message": ""
+        "message": "Cancelar"
     },
 
     // Remove private server modal
     "experience_privateserverlinks_removeprivateservermodal_title": {
-        "message": ""
+        "message": "{sealEmoji} Eliminar enlace de servidor privado"
     },
     "experience_privateserverlinks_removeprivateservermodal_body": {
-        "message": ""
+        "message": "¿Está seguro de que desea eliminar este enlace de servidor privado?"
     },
     "experience_privateserverlinks_removeprivateservermodal_action": {
-        "message": ""
+        "message": "Eliminar"
     },
     "experience_privateserverlinks_removeprivateservermodal_neutral": {
-        "message": ""
+        "message": "Cancelar"
     },
 
     // add private server link modal
     "experience_privateserverlinks_addprivateservermodal_title": {
-        "message": ""
+        "message": "{sealEmoji} Añadir enlace a servidor privado"
     },
     "experience_privateserverlinks_addprivateservermodal_fromlink": {
-        "message": ""
+        "message": "Parece que vienes de un enlace de servidor privado desconocido, ¿quieres añadirlo?"
     },
     // Label for server name text field input
     "experience_privateserverlinks_addprivateservermodal_name": {
-        "message": ""
+        "message": "Nombre"
     },
     "experience_privateserverlinks_addprivateservermodal_nameplaceholder": {
-        "message": ""
+        "message": "Nombre del servidor"
     },
     // Text that appears bottom right of the input
     "experience_privateserverlinks_addprivateservermodal_namelength": {
-        "message": ""
+        "message": "{length}/{maxLength}"
     },
     // Server link label
     "experience_privateserverlinks_addprivateservermodal_link": {
-        "message": ""
+        "message": "Enlace"
     },
     // Server owner label
     "experience_privateserverlinks_addprivateservermodal_owner": {
-        "message": ""
+        "message": "Dueño"
     },
     // Below the server owner input to the right
     "experience_privateserverlinks_addprivateservermodal_owneroptional": {
-        "message": ""
+        "message": "(opcional)"
     },
     // Server link errors
     "experience_privateserverlinks_addprivateservermodal_linkerror_invalid": {
-        "message": ""
+        "message": "El enlace que ha proporcionado no es válido."
     },
     "experience_privateserverlinks_addprivateservermodal_linkerror_unknown": {
-        "message": ""
+        "message": "Se ha producido un error desconocido al comprobar el estado del enlace."
     },
     "experience_privateserverlinks_addprivateservermodal_linkerror_duplicate": {
-        "message": ""
+        "message": "Ya existe un servidor privado con este enlace: \"{name}\""
     },
     // modal buttons
     "experience_privateserverlinks_addprivateservermodal_action": {
-        "message": ""
+        "message": "Añadir"
     },
     "experience_privateserverlinks_addprivateservermodal_neutral": {
-        "message": ""
+        "message": "Cancelar"
     },
 
     // update private server link modal
     // this is very similar to add
     "experience_privateserverlinks_updateprivateservermodal_title": {
-        "message": ""
+        "message": "Actualizar enlace de servidor privado"
     },
     // Label for server name text field input
     "experience_privateserverlinks_updateprivateservermodal_name": {
-        "message": ""
+        "message": "Nombre"
     },
     "experience_privateserverlinks_updateprivateservermodal_nameplaceholder": {
-        "message": ""
+        "message": "Nombre del servidor"
     },
     // Text that appears bottom right of the input
     "experience_privateserverlinks_updateprivateservermodal_namelength": {
-        "message": ""
+        "message": "{length}/{maxLength}"
     },
     // Server link label
     "experience_privateserverlinks_updateprivateservermodal_link": {
-        "message": ""
+        "message": "Enlace"
     },
     // Server link errors
     "experience_privateserverlinks_updateprivateservermodal_linkerror_invalid": {
-        "message": ""
+        "message": "El enlace que ha proporcionado no es válido."
     },
     "experience_privateserverlinks_updateprivateservermodal_linkerror_unknown": {
-        "message": ""
+        "message": "Se ha producido un error desconocido al comprobar el estado del enlace."
     },
     "experience_privateserverlinks_updateprivateservermodal_linkerror_duplicate": {
-        "message": ""
+        "message": "Ya existe un servidor privado con este enlace: \"{name}\""
     },
     // Server owner label
     "experience_privateserverlinks_updateprivateservermodal_owner": {
-        "message": ""
+        "message": "Dueño"
     },
     // Below the server owner input to the right
     "experience_privateserverlinks_updateprivateservermodal_owneroptional": {
-        "message": ""
+        "message": "(opcional)"
     },
     // modal buttons
     "experience_privateserverlinks_updateprivateservermodal_action": {
-        "message": ""
+        "message": "Actualizar"
     },
     "experience_privateserverlinks_updateprivateservermodal_neutral": {
-        "message": ""
+        "message": "Cancelar"
     },
 
     // The context menu "..." item that appears in the experience dropdown menu to unblock/block the target experience
@@ -1128,27 +1128,6 @@
         "message": ""
     },
     "discover_filters_device_values_VR": {
-        "message": ""
-    },
-    "discover_filters_age": {
-        "message": ""
-    },
-    "discover_filters_age_values_All": {
-        "message": ""
-    },
-    "discover_filters_age_values_0": {
-        "message": ""
-    },
-    "discover_filters_age_values_9": {
-        "message": ""
-    },
-    "discover_filters_age_values_13": {
-        "message": ""
-    },
-    "discover_filters_age_values_17": {
-        "message": ""
-    },
-    "discover_filters_age_values_18": {
         "message": ""
     },
 
@@ -1993,4 +1972,4 @@
     }
 }
 
-// Translated by: primarily Furrycality UwU with love - English to Spanish
+// Translated by: primarily Furrycality UwU with love - English to Spanish, PrivateServers by BloxTobal - English to Spanish
