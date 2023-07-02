@@ -1602,6 +1602,12 @@
     "features_RemoveHomePageUnnecessarySorts_description": {
         "message": "Cuando está habilitado, elimina cualquier ordenamiento de la página principal que no coincida con \"Recomendado para ti\", \"Favoritos\", \"Continuar\", \"Amigos jugando\" o \"Patrocinado\"."
     },
+    "features_ForceHomePageGenreExplorer_title": {
+        "message": ""
+    },
+    "features_ForceHomePageGenreExplorer_description": {
+        "message": ""
+    },
     "features_RefreshedHomeUserHeader_title": {
         "message": "Encabezado de usuario actualizado"
     },

@@ -1602,6 +1602,12 @@
     "features_RemoveHomePageUnnecessarySorts_description": {
         "message": "Lorsque cette option est activée, supprime tous les tris de la page d'accueil qui ne correspondent pas à \"Recommandé pour vous\", \"Favoris\", \"Continuer\", \"Jeux entre amis\" ou \"Sponsorisé\"."
     },
+    "features_ForceHomePageGenreExplorer_title": {
+        "message": ""
+    },
+    "features_ForceHomePageGenreExplorer_description": {
+        "message": ""
+    },
     "features_RefreshedHomeUserHeader_title": {
         "message": "En-tête utilisateur actualisé"
     },

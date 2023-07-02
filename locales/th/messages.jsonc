@@ -1602,6 +1602,12 @@
     "features_RemoveHomePageUnnecessarySorts_description": {
         "message": "เมื่อเปิดใช้งาน จะลบการจัดเรียง ออกจากหน้าแรกที่ไม่ตรงกัน \"แนะนำสำหรับคุณ\", \"รายการโปรด\", \"ดำเนินการต่อ\", \"เพือนกำลังเล่น\", หรือ \"สนับสนุน\"."
     },
+    "features_ForceHomePageGenreExplorer_title": {
+        "message": ""
+    },
+    "features_ForceHomePageGenreExplorer_description": {
+        "message": ""
+    },
     "features_RefreshedHomeUserHeader_title": {
         "message": "รีเฟรชส่วนของผู้ใช้"
     },

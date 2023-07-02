@@ -1602,6 +1602,12 @@
     "features_RemoveHomePageUnnecessarySorts_description": {
         "message": "Quando ativado, remove quaisquer tipos de classificações da página inicial que não correspondam a \"Recomendações para você\", \"Favoritas\", \"Continuar\", \"Atividades de suas amizades\", ou \"Patrocinadas\"."
     },
+    "features_ForceHomePageGenreExplorer_title": {
+        "message": ""
+    },
+    "features_ForceHomePageGenreExplorer_description": {
+        "message": ""
+    },
     "features_RefreshedHomeUserHeader_title": {
         "message": "Cabeçalho do usuário atualizado"
     },
