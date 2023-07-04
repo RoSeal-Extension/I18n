@@ -547,7 +547,7 @@
 
     // Text to show if an experience is blocked, and to view it anyways
     "experience_blocked_title": {
-        "message": "Experience โดนบล็อก"
+        "message": "แมพที่โดนบล็อก"
     },
     "experience_blocked_viewanyway": {
         "message": "ดูต่อไป"
@@ -660,7 +660,7 @@
         "message": "R15"
     },
     "experience_avatarrestricted_fields_avatarType_values_PlayerChoice": {
-        "message": "แล้วแค่ผู้เล่น"
+        "message": "แล้วแต่ผู้เล่น"
     },
 
     // Avatar Type stuff shown at the experience's stats.
@@ -797,13 +797,13 @@
         "message": "สวัสดี, ผู้เล่น!"
     },
     "homeheader_secretmessage_Default2": {
-        "message": "พวกเราเล่น Roblox!"
+        "message": "พวกเราเล่น โรบล็อกซ์!"
     },
     "homeheader_secretmessage_Default3": {
-        "message": "ROBLOX"
+        "message": "โรบล็อกซ์"
     },
     "homeheader_secretmessage_Default4": {
-        "message": "roblox"
+        "message": "โรบล็อกซ์"
     },
     "homeheader_secretmessage_Default5": {
         "message": "คุณคิดถึง Tix ไหม?"
@@ -851,7 +851,7 @@
         "message": "นี่ไม่ใช่ข้อความทดสอบ"
     },
     "homeheader_secretmessage_Default20": {
-        "message": "น้องแมว"
+        "message": "น้องแมว ~~"
     },
     "homeheader_secretmessage_Default21": {
         "message": "นก"
@@ -866,7 +866,7 @@
         "message": "ใส่รูปนกที่นี้"
     },
     "homeheader_secretmessage_Default25": {
-        "message": "Roblox ล่มหรอ?"
+        "message": "โรบล็อกซ์ ล่มหรอ?"
     },
     "homeheader_secretmessage_Default26": {
         "message": "David Baszucki"
@@ -1065,7 +1065,7 @@
         "message": "ประเภท"
     },
     "discover_filters_genre_values_All": {
-        "message": "ทั้งหมด"
+        "message": "อะไรก็ได้"
     },
     "discover_filters_genre_values_Building": {
         "message": "สร้าง"
@@ -1113,7 +1113,7 @@
         "message": "อุปกรณ์"
     },
     "discover_filters_device_values_All": {
-        "message": "ทั้งหมด"
+        "message": "อะไรก็ได้"
     },
     "discover_filters_device_values_Desktop": {
         "message": "เดสก์ทอป"
@@ -1131,25 +1131,25 @@
         "message": "แว่น VR"
     },
     "discover_filters_age": {
-        "message": ""
+        "message": "อายุ"
     },
     "discover_filters_age_values_All": {
-        "message": ""
+        "message": "อะไรก็ได้"
     },
     "discover_filters_age_values_0": {
-        "message": ""
+        "message": "ทุกเพศทุกวัย"
     },
     "discover_filters_age_values_9": {
-        "message": ""
+        "message": "9+"
     },
     "discover_filters_age_values_13": {
-        "message": ""
+        "message": "13+"
     },
     "discover_filters_age_values_17": {
-        "message": ""
+        "message": "17+"
     },
     "discover_filters_age_values_18": {
-        "message": ""
+        "message": "18+"
     },
 
     // For each filter, the maximum and minimum labels.
@@ -1600,13 +1600,13 @@
         "message": "นำ \"สิ่งที่ไม่จำเป็น\" ออกจากการจัดเรียง"
     },
     "features_RemoveHomePageUnnecessarySorts_description": {
-        "message": "เมื่อเปิดใช้งาน จะลบการจัดเรียง ออกจากหน้าแรกที่เกี่ยวกับ \"แนะนำสำหรับคุณ\", \"รายการโปรด\", \"เล่นต่อ\", \"แมพที่เพื่อนเล่น\", หรือ \"สนับสนุน\""
+        "message": "เมื่อเปิดใช้งาน จะลบการจัดเรียง ออกจากหน้าแรกที่เกี่ยวกับ \"แนะนำสำหรับคุณ\", \"รายการโปรด\", \"เล่นต่อ\", \"แมพที่เพื่อนเล่น\", หรือ \"สปอนเซอร์\""
     },
     "features_ForceHomePageGenreExplorer_title": {
-        "message": ""
+        "message": "บังคับจัดเรียงของหน้าแรกเอา \"สิ่งที่ไม่จำเป็น\" เป็นตัวจัดเรียง"
     },
     "features_ForceHomePageGenreExplorer_description": {
-        "message": ""
+        "message": "เมื่อเปิดใช้งาน ทุกประเภทที่ไม่ตรงกับ \"แนะนำสำหรับคุณ\", \"รายการโปรด\", \"เล่นต่อ\", \"แมพที่เพื่อนเล่น\" หรือ \"สปอนเซอร์\" จะถูกใส่ลงใน \"หมวดหมู่\" ตัวจัดเรียงที่ด้านบนของจัดเรียงหน้าแรก"
     },
     "features_RefreshedHomeUserHeader_title": {
         "message": "รีเฟรชส่วนของผู้ใช้"
