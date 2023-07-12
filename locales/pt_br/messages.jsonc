@@ -1597,16 +1597,16 @@
     // `_description` = the description of the feature
     // _sub_ indicates a subfeature
     "features_RemoveHomePageUnnecessarySorts_title": {
-        "message": "Remover classificações \"desnecessárias\" das classificações da página inicial"
+        "message": "Remover categorias \"desnecessárias\" das categorias da página inicial"
     },
     "features_RemoveHomePageUnnecessarySorts_description": {
-        "message": "Quando ativado, remove quaisquer tipos de classificações da página inicial que não correspondam a \"Recomendações para você\", \"Favoritas\", \"Continuar\", \"Atividades de suas amizades\", ou \"Patrocinadas\"."
+        "message": "Quando ativado, remove quaisquer tipos de categorias da página inicial que não correspondam a \"Recomendações para você\", \"Favoritas\", \"Continuar\", \"Atividades de suas amizades\", ou \"Patrocinadas\"."
     },
     "features_ForceHomePageGenreExplorer_title": {
-        "message": ""
+        "message": "Forçar categorias desnecessárias da página inicial a um Explorador de Gêneros"
     },
     "features_ForceHomePageGenreExplorer_description": {
-        "message": ""
+        "message": "Quando ativada, todas as categorias que não corresponderem a \"Recomendações para você\", \"Favoritas\", \"Continuar\", \"Atividades de suas amizades\" ou \"Patrocinadas\" serão colocadas em um Explorador de Gêneros de categorias no topo da seção de experiências na página inicial."
     },
     "features_RefreshedHomeUserHeader_title": {
         "message": "Cabeçalho do usuário atualizado"
