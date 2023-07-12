@@ -1160,6 +1160,10 @@
     "discover_filters_filter_maximum": {
         "message": "Máximo"
     },
+    // Tooltip shown when hovering over edit button next to the filter name for number-based filters
+    "discover_filters_filter_edit": {
+        "message": ""
+    },
 
     // Events tab stuff, there's not much here because we just grab the events container from Roblox
     "experience_events_tab": {
