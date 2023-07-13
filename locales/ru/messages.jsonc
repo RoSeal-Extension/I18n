@@ -1109,6 +1109,48 @@
   "discover_filters_genre_values_Western": {
     "message": "Западное"
   },
+  "discover_filters_device": {
+    "message": ""
+  },
+  "discover_filters_device_values_All": {
+    "message": ""
+  },
+  "discover_filters_device_values_Desktop": {
+    "message": ""
+  },
+  "discover_filters_device_values_Phone": {
+    "message": ""
+  },
+  "discover_filters_device_values_Tablet": {
+    "message": ""
+  },
+  "discover_filters_device_values_Console": {
+    "message": ""
+  },
+  "discover_filters_device_values_VR": {
+    "message": ""
+  },
+  "discover_filters_age": {
+    "message": ""
+  },
+  "discover_filters_age_values_All": {
+    "message": ""
+  },
+  "discover_filters_age_values_0": {
+    "message": ""
+  },
+  "discover_filters_age_values_9": {
+    "message": ""
+  },
+  "discover_filters_age_values_13": {
+    "message": ""
+  },
+  "discover_filters_age_values_17": {
+    "message": ""
+  },
+  "discover_filters_age_values_18": {
+    "message": ""
+  },
 
   // For each filter, the maximum and minimum labels.
   // The placeholders right now do not have translations, merely because they are just "0"
@@ -1117,6 +1159,10 @@
   },
   "discover_filters_filter_maximum": {
     "message": "Максимум"
+  },
+  // Tooltip shown when hovering over edit button next to the filter name for number-based filters
+  "discover_filters_filter_edit": {
+    "message": ""
   },
 
   // Events tab stuff, there's not much here because we just grab the events container from Roblox
@@ -1559,6 +1605,12 @@
   },
   "features_RemoveHomePageUnnecessarySorts_description": {
     "message": "Когда функция включена, она удаляет с главной страницы все сорта, которые не соответствуют тегам: \"Рекомендовано для вас\", \"Избранное\", \"Продолжить\", \"Друзья играют\" или \"Спонсировано\"."
+  },
+  "features_ForceHomePageGenreExplorer_title": {
+    "message": ""
+  },
+  "features_ForceHomePageGenreExplorer_description": {
+    "message": ""
   },
   "features_RefreshedHomeUserHeader_title": {
     "message": "Обновлённый заголовок пользователя"
