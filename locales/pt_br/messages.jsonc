@@ -1110,46 +1110,46 @@
         "message": "Velho Oeste"
     },
     "discover_filters_device": {
-        "message": ""
+        "message": "Dispositivo"
     },
     "discover_filters_device_values_All": {
-        "message": ""
+        "message": "Qualquer"
     },
     "discover_filters_device_values_Desktop": {
-        "message": ""
+        "message": "Computador"
     },
     "discover_filters_device_values_Phone": {
-        "message": ""
+        "message": "Celular"
     },
     "discover_filters_device_values_Tablet": {
-        "message": ""
+        "message": "Tablet"
     },
     "discover_filters_device_values_Console": {
-        "message": ""
+        "message": "Console"
     },
     "discover_filters_device_values_VR": {
-        "message": ""
+        "message": "Realidade Virtual"
     },
     "discover_filters_age": {
-        "message": ""
+        "message": "Idades"
     },
     "discover_filters_age_values_All": {
-        "message": ""
+        "message": "Qualquer"
     },
     "discover_filters_age_values_0": {
-        "message": ""
+        "message": "Todas as Idades"
     },
     "discover_filters_age_values_9": {
-        "message": ""
+        "message": "9 anos de idade ou mais"
     },
     "discover_filters_age_values_13": {
-        "message": ""
+        "message": "13 anos de idade ou mais"
     },
     "discover_filters_age_values_17": {
-        "message": ""
+        "message": "17 anos de idade ou mais"
     },
     "discover_filters_age_values_18": {
-        "message": ""
+        "message": "18 anos de idade ou mais"
     },
 
     // For each filter, the maximum and minimum labels.
@@ -1159,6 +1159,10 @@
     },
     "discover_filters_filter_maximum": {
         "message": "Máximo"
+    },
+    // Tooltip shown when hovering over edit button next to the filter name for number-based filters
+    "discover_filters_filter_edit": {
+        "message": "Editar filtro"
     },
 
     // Events tab stuff, there's not much here because we just grab the events container from Roblox
