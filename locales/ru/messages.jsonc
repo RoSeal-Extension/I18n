@@ -1346,7 +1346,7 @@
     "message": "Последний онлайн"
   },
   "userprofile_lastonline_now": {
-    "message": "Недавно"
+    "message": "Только что"
   },
 
   // When "Show username in user's friends page title" is enabled, it will replace the title with this.
@@ -1551,7 +1551,7 @@
     "message": "Общее"
   },
   "features_section_items_avatar": {
-    "message": "Предметы для аватаров"
+    "message": "Предметы для аватара"
   },
   "features_section_miscellaneous": {
     "message": "Другое"
@@ -1643,7 +1643,7 @@
     "message": "Переместить социальные ссылки на страницу игры над описанием в разделе \"О игре\""
   },
   "features_AddCommunityWikiButton_title": {
-    "message": "Добавить кнопку для посещения неофициальной вики сообщества игры на разделе \"О игре\""
+    "message": "Добавить кнопку для посещения неофициальной вики сообщества игры в разделе \"О игре\""
   },
   "features_AddCommunityWikiButton_description": {
     "message": "При включении этой функции расширение отобразит кнопку для посещения неофициальной вики, являющейся частью проекта Roblox Interwiki по фэндому для опыта, если она известна RoSeal."
@@ -1781,7 +1781,7 @@
     "message": "Показать уникальный ID игры"
   },
   "features_Enable3DThumbnailDynamicLighting_title": {
-    "message": "Включение динамического освещения 3D-аватара"
+    "message": "Включить динамическое освещение для 3D-аватара"
   },
   "features_ChatSortTypes_title": {
     "message": "Тип сортировки чата"
@@ -1850,10 +1850,10 @@
     "message": "Показывать информацию над кнопкой \"Играть\", если ваш аватар может не работать в каких-либо играх"
   },
   "features_AssetDeleteFromInventory_title": {
-    "message": "\"Удалить из инвентаря\" на странице \"Объект актива\" "
+    "message": "Кнопка \"Удалить из инвентаря\" на странице \"Просмотр иконки\" "
   },
   "features_AssetDeleteFromInventory_description": {
-    "message": "Когда функция включена в меню элементов актива добавляется кнопка \"Удалить из инвентаря\", если её там нет. Из-за безопасности аккаунта потребуется 2FA подтверждение."
+    "message": "Когда функция включена в меню элементов иконки добавляется кнопка \"Удалить из инвентаря\", если её там нет. Из-за безопасности аккаунта потребуется 2FA подтверждение."
   },
   "features_UserFriendsPageNewTitle_title": {
     "message": "Показывать имя пользователя в заголовке страницы друзей"
@@ -1898,7 +1898,7 @@
     "message": "Показывать дополнительную информацию о пропусках (Gamepasses)"
   },
   "features_RefreshAvatarItemDetails_title": {
-    "message": "Кнопка обновления раздел предмета"
+    "message": "Кнопка обновления в разделе предмета"
   },
   "features_MarketplaceColorFilters_title": {
     "message": "Цветовые фильтры в Каталоге"
