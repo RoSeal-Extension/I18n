@@ -55,7 +55,7 @@
 
   // RoSeal settings titles
   "settings_title": {
-    "message": "การตั้งค่า {sealEmoji}RoSeal ของฉัน"
+    "message": "การตั้งค่า {sealEmoji}RoSeal"
   },
   "settings_return": {
     "message": "กลับไปที่การตั้งค่า Roblox"
@@ -66,7 +66,7 @@
     "message": "เกี่ยวกับ RoSeal"
   },
   "settings_about_description": {
-    "message": "<bold>RoSeal</bold> เป็นส่วนขยาย Roblox พร้อมฟีเจอร์ที่หลากหลายและการปรับปรุงได้อย่างอิสระ โดย ใช้งานได้ฟรี,ไม่มีการติดตาม และ ยังมีแมวน้ำอีกด้วย!"
+    "message": "<bold>RoSeal</bold> เป็นส่วนขยาย Roblox พร้อมฟีเจอร์ที่หลากหลายและสามารถปรับแต่งได้อย่างอิสระ โดย ใช้งานได้ฟรี,ไม่มีการติดตาม และ ยังมีแมวน้ำอีกด้วย!"
   },
   // under13 is for 13- users over13 is for 13+. this is to prevent exposing discord to underage users
   "settings_about_media_under13": {
@@ -1162,7 +1162,7 @@
   },
   // Tooltip shown when hovering over edit button next to the filter name for number-based filters
   "discover_filters_filter_edit": {
-    "message": ""
+    "message": "แก้ไข ฟิลเตอร์"
   },
 
   // Events tab stuff, there's not much here because we just grab the events container from Roblox
@@ -1766,7 +1766,7 @@
     "message": "เมื่อเปิดใช้งาน เพิ่มแถบนำทางแท็บด้วย \"รอดำเนินการ\" ไปยังการนำทางของกลุ่ม"
   },
   "features_DisableAvatarShopInfiniteScrolling_title": {
-    "message": "ปิดใช้งานการเลื่อนแบบไม่สิ้นสุดของ ร้านค้า"
+    "message": "ปิดใช้งานการเลื่อนแบบไม่สิ้นสุดของ ร้านค้าอวาตาร์"
   },
   "features_DisableGroupWallInfiniteScrolling_title": {
     "message": "ปิดใช้งานการเลื่อนแบบไม่สิ้นสุดของ ผนังกลุ่ม"
@@ -1781,7 +1781,7 @@
     "message": "แสดง Universe ID ของแมพ"
   },
   "features_Enable3DThumbnailDynamicLighting_title": {
-    "message": "เปิดใช้แสงไดนามิกภาพขนาดย่อ 3 มิติ"
+    "message": "การใช้แสงไดนามิกภาพขนาดย่อ 3 มิติ"
   },
   "features_ChatSortTypes_title": {
     "message": "ประเภทการจัดเรียงแชท"
@@ -1790,10 +1790,10 @@
     "message": "เมื่อเปิดใช้งาน เพิ่มประเภทการจัดเรียงใหม่ในกล่องแชทเพื่อกรองผ่านการสนทนา"
   },
   "features_Transactions0RobuxAmountToggle_title": {
-    "message": "สลับเพื่อซ่อนธุรกรรมด้วยจำนวน 0 โรบัค"
+    "message": "ซ่อนธุรกรรมด้วยจำนวน 0 โรบัค"
   },
   "features_TransactionsPrivateServersToggle_title": {
-    "message": "สลับเพื่อซ่อนธุรกรรมของเซิร์ฟเวอร์ส่วนตัว"
+    "message": "ซ่อนธุรกรรมของเซิร์ฟเวอร์ส่วนตัว"
   },
   "features_GroupOrganization_title": {
     "message": "การปรับแต่งกลุ่ม"
@@ -1919,7 +1919,7 @@
     "message": "ระบุแมพที่ชื่นชอบทั้งหมดในหน้าหลัก จัดเรียงตาม \"รายการโปรด\""
   },
   "features_PutHomeFavoritesSortAtTop_title": {
-    "message": "ในหน้าหลัก \"รายการโปรด\" จะอยู่ที่ด้านบน"
+    "message": "ทำให้ \"รายการโปรด\" อยู่ด้านบนของหน้าหลัก"
   },
   "features_ShowVoiceChatSuspension_title": {
     "message": "แสดงรายละเอียดการระงับการแชทด้วยเสียงและวันที่แบบเต็ม"
