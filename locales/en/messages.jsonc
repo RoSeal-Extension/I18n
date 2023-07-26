@@ -22,6 +22,10 @@
     "message": "EXPERIMENTAL"
   },
 
+  "errorpage_machineid": {
+    "message": "Roblox Machine ID: {robloxMachineId}"
+  },
+
   // the 404 error page that appears if request is not valid.
   // currently, it's only used by the developer product 404 page
   "errorpage_404_title": {
@@ -1941,6 +1945,9 @@
   },
   "features_BadgeMoreStatistics_title": {
     "message": "Add additional badge statistics to badge page"
+  },
+  "features_ErrorShowMachineID_title": {
+    "message": "Show the Roblox Machine ID in the bottom-right corner of the error page."
   },
 
   "popup_extensionname": {
