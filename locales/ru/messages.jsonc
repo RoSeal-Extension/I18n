@@ -22,6 +22,10 @@
     "message": "EXPERIMENTAL"
   },
 
+  "errorpage_machineid": {
+    "message": ""
+  },
+
   // the 404 error page that appears if request is not valid.
   // currently, it's only used by the developer product 404 page
   "errorpage_404_title": {
@@ -1941,6 +1945,9 @@
   },
   "features_BadgeMoreStatistics_title": {
     "message": "Добавить дополнительную статистику по бейджам на страницу бейджей"
+  },
+  "features_ErrorShowMachineID_title": {
+    "message": ""
   },
 
   "popup_extensionname": {

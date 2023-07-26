@@ -22,6 +22,10 @@
     "message": "EXPERIMENTAL"
   },
 
+  "errorpage_machineid": {
+    "message": ""
+  },
+
   // the 404 error page that appears if request is not valid.
   // currently, it's only used by the developer product 404 page
   "errorpage_404_title": {
@@ -1940,6 +1944,9 @@
     "message": ""
   },
   "features_BadgeMoreStatistics_title": {
+    "message": ""
+  },
+  "features_ErrorShowMachineID_title": {
     "message": ""
   },
 
