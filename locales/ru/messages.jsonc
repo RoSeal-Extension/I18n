@@ -995,7 +995,7 @@
     "message": "Сортировать по"
   },
   "chat_sorttypes_type_Default": {
-    "message": "по умолчанию"
+    "message": "умолчанию"
   },
   "chat_sorttypes_type_NewestFirst": {
     "message": "сначала новые"
