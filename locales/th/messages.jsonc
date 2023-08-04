@@ -1,2011 +1,2022 @@
 {
-  // For details on what to translate, see README.md file
-
-  // Name and description that appears on all stores, and in chrome://extensions
-  "manifest_name": {
-    "message": "RoSeal - เพิ่มประสบการณ์การใช้ Roblox"
-  },
-  "manifest_description": {
-    "message": "เพิ่มประสบการณ์การใช้เว็บไซต์ Roblox และ ยังมีแมวน้ำอีกด้วยนะ"
-  },
-
-  // Popover dropdown menu for the roseal item
-  "robloxsettings_popover_roseal": {
-    "message": "{sealEmoji} การตั้งค่า RoSeal"
-  },
-
-  // Appears in the RoSeal settings, "Beta" and "Experimental" labels
-  "beta_feature_label": {
-    "message": "เบต้า"
-  },
-  "experimental_feature_label": {
-    "message": "โหมดทดลอง"
-  },
-
-  "errorpage_machineid": {
-    "message": ""
-  },
-
-  // the 404 error page that appears if request is not valid.
-  // currently, it's only used by the developer product 404 page
-  "errorpage_404_title": {
-    "message": "ไม่พบหน้านี้ หรือ ไม่สามารถเข้าถึงหน้านี้ได้แล้ว"
-  },
-  "errorpage_404_message": {
-    "message": "{sealEmoji} 404 <span>|</span>ไม่พบหน้านี้"
-  },
-  "errorpage_back": {
-    "message": "กลับ"
-  },
-  "errorpage_back_title": {
-    "message": "กลับไปหน้าก่อนหน้า"
-  },
-  "errorpage_home": {
-    "message": "หน้าหลัก"
-  },
-  "errorpage_home_title": {
-    "message": "กลับไปหน้าหลัก"
-  },
-
-  // Hello variant of the home header feature
-  "homeheader_hellotext": {
-    "message": "สวัสดี !, {displayName}"
-  },
-
-  // "RoSeal Settings" item label in the roblox settings navigation list
-  "robloxsettings_selection_roseal": {
-    "message": "การตั้งค่า RoSeal"
-  },
-
-  // RoSeal settings titles
-  "settings_title": {
-    "message": "การตั้งค่า {sealEmoji}RoSeal"
-  },
-  "settings_return": {
-    "message": "กลับไปที่การตั้งค่า Roblox"
-  },
-
-  // "About" selection in menu and title
-  "settings_selection_about": {
-    "message": "เกี่ยวกับ RoSeal"
-  },
-  "settings_about_description": {
-    "message": "<bold>RoSeal</bold> เป็นส่วนขยาย Roblox พร้อมฟีเจอร์ที่หลากหลายและสามารถปรับแต่งได้อย่างอิสระ โดย ใช้งานได้ฟรี,ไม่มีการติดตาม และ ยังมีแมวน้ำอีกด้วย!"
-  },
-  // under13 is for 13- users over13 is for 13+. this is to prevent exposing discord to underage users
-  "settings_about_media_under13": {
-    "message": "นี้คือ คอมมูนิตี้ <groupLink>กลุ่ม Roblox</groupLink> สำหรับส่วนขยายนี้"
-  },
-  "settings_about_media_over13": {
-    "message": "นี้คือ คอมมูนิตี้ <groupLink>กลุ่ม Roblox</groupLink> และ <discordLink>กลุ่ม ดิสคอร์ด</discordLink> สำหรับส่วนขยายนี้"
-  },
-
-  // "Credits" selection tab in menu and title
-  "settings_about_credits_header": {
-    "message": "เครดิต"
-  },
-  "settings_about_credits_Julli4n": {
-    "message": "<link>Julli4n</link> - หัวหน้าผู้พัฒนา"
-  },
-  "settings_about_credits_Karasuneth": {
-    "message": "<link>Karasuneth</link> - คนออกแบบไอคอนดั้งเดิม"
-  },
-  "settings_about_credits_MaciejCreates": {
-    "message": "<link>MaciejCreates</link> - คนออกแบบไอคอน"
-  },
-
-  // "Feature Switches" selection tab in menu and title
-  "settings_about_featureswitches_header": {
-    "message": "ปรับฟีเจอร์ต่างๆ"
-  },
-  "settings_about_featureswitches_description": {
-    "message": "ปรับฟีเจอร์ได้อย่างรวดเร็วและสามารถเปิดและปิดฟีเจอร์ของ RoSeal ได้อย่างอิสระ"
-  },
-  "settings_about_featureswitches_beta": {
-    "message": "<label>เบต้า</label> ฟีเจอร์ยังไม่พร้อมให้ใช้งานตอนนี้ , อย่างไรก็ตาม ก็ยังไม่ความเสียงที่น้อยในการใช้งาน และ ทุกๆคนสามารถแสดงความคิดกับฟีเจอร์ได้"
-  },
-  "settings_about_featureswitches_experimental": {
-    "message": "<label>โหมดทดลอง</label> ฟีเจอร์นี้ยังไม่พ้อมใช้งาน และอาจจะ ไม่เสถียร หรือ เป็นการทดสอบฟีเจอร์ก่อนที่จะนำมาใช้ , ข้อควรระวัง : ห้ามเปิดฟีเจอร์นี้เด็ดขาดหากคุณยังไม่รู้ว่ามันทำอะไรได้ เตือนแล้วนะ !"
-  },
-
-  // "Donate" selection tab in menu and title
-  "settings_selection_donate": {
-    "message": "โดเนท"
-  },
-  "settings_donate_description": {
-    "message": "สวัสดีฉันชื่อ, <bold>Julli4n</bold>, ไม่ได้รายได้จากการพัฒนาเลย หากคุณชอบใช้ส่วนขยายนี้คุณสามารถโดเนทได้ คุณจะไม่ได้รับอะไรนอกจากคำขอบคุณ{lineBreak}{lineBreak}ลิ้งค์นี้จำพาคุณไปที่ BuyMeACoffee เป็นไซต์ภายนอกที่ใช้สำหรับการโดเนท"
-  },
-
-  // selected tab
-  "settings_selection_featureswitches": {
-    "message": "ปรับฟีเจอร์ต่างๆ"
-  },
-  // feature switch details
-  // a feature switch is disabled primarily remotely
-  "settings_featureswitches_featureswitch_disabled": {
-    "message": "ฟีเจอร์นี้ถูกปิดใช้งานโดย RoSeal"
-  },
-  // when we deprecate a feature because it is no longer useful, or Roblox has their own solution now
-  "settings_featureswitches_featureswitch_deprecated": {
-    "message": "ฟีเจอร์นี้ <bold>เลิกใช้แล้ว</bold> แนะนำให้หาวิธีอื่นกับ RoSeal หรือใช้ฟีเจอร์ดั้งเดิมบนเว็บไซต์ Roblox"
-  },
-  // not used atm, but will be if we ever add support for Safari or add firefox-exclusive features.
-  // "browsers" is a comma-separated list of browsers
-  "settings_featureswitches_featureswitch_exclusivebrowsers": {
-    "message": "ฟีเจอร์พิเศษสำหรับผู้ใช้เบราว์เซอร์ต่อไปนี้: {browsers}"
-  },
-  "settings_featureswitches_featureswitch_permissions_title": {
-    "message": "ฟีเจอร์นี้ต้องการการอนุญาติ"
-  },
-  "settings_featureswitches_featureswitch_permissions_values_Cookies": {
-    "message": "คุกกี้"
-  },
-  "settings_featureswitches_featureswitch_permissions_subtext": {
-    "message": "การอนุญาติสามารถทำได้ใน หน้าฟีเจอร์ของ RoSeal:"
-  },
-  "settings_featureswitches_featureswitch_permissions_openoptions": {
-    "message": "เปิด"
-  },
-  // "Associated Storage" is basically just storage stored from the feature, i.e. Roblox accounts with accounts manager
-  "settings_featureswitches_featureswitch_removeassociatedstorage": {
-    "message": "ล้างข้อมูลที่เกี่ยวกับฟีเจอร์"
-  },
-  // System feedback messages
-  "settings_featureswitches_featureswitch_removeassociatedstorage_systemfeedback_success": {
-    "message": "ล้างข้อมูลที่เกี่ยวกับฟีเจอร์นี้สำเร็จ"
-  },
-  "settings_featureswitches_featureswitch_removeassociatedstorage_systemfeedback_error": {
-    "message": "เกิดข้อผิดพลาดขณะล้างข้อมูลที่เกี่ยวกับฟีเจอร์นี้ , กรุณาลองอีกครั้ง"
-  },
-
-  // "Blocked Experiences" selection tab in menu and title
-  "settings_selection_blockedexperiences": {
-    "message": "บล็อก แมพ"
-  },
-  "settings_blockedexperiences_keywords_title": {
-    "message": "บล็อก คีย์เวิร์ด"
-  },
-  "settings_blockedexperiences_keywords_description": {
-    "message": "คีย์เวิร์ดสามารถ เพิ่ม และ ลบ จะบล็อก แมพ ที่มีชื่อเหมือนกับ คีย์เวิร์ด ได้ , แมพ เหลานี้จะไม่แสดงในหน้าทั่วไป"
-  },
-  "settings_blockedexperiences_keywords_count": {
-    "message": "คุณกำลังบล็อก {keywordsNum} จาก {keywordsMax} คีย์เวิร์ดของ แมพ ที่อนุญาต:"
-  },
-  // No experience keywords blocked
-  "settings_blockedexperiences_keywords_nokeywords": {
-    "message": "เพิ่ม คีย์เวิร์ด อันแรกของคุณ เพื่อบล็อก"
-  },
-  "settings_blockedexperiences_keywords_inputplaceholder": {
-    "message": "เพิ่ม คีย์เวิร์ด..."
-  },
-  "settings_blockedexperiences_keywords_add": {
-    "message": "เพิ่ม"
-  },
-  "settings_blockedexperiences_keywords_keyword_remove": {
-    "message": "นำออก"
-  },
-
-  // Blocked Experiences section
-  "settings_blockedexperiences_individualexperiences_title": {
-    "message": "แมพ โดนบล็อกโดยผู้ใช้"
-  },
-  "settings_blockedexperiences_individualexperiences_description": {
-    "message": "แต่ละแมพสามารถบล็อก และ ยกเลิกการบล็อก ได้จากเมนูของแต่ละ แมพ , แมพ เหลานี้จะไม่แสดงในหน้าทั่วไป"
-  },
-  "settings_blockedexperiences_individualexperiences_count": {
-    "message": "คุณกำลังบล็อก {experiencesNum} จาก {experiencesMax} แมพ ที่อนุญาติ:"
-  },
-  // No experiences blocked
-  "settings_blockedexperiences_individualexperiences_noexperiences": {
-    "message": "เมื่อคุณบล็อก แมพ, แมพนั้นจะมาอยู่ที่นี้"
-  },
-  "settings_blockedexperiences_individualexperiences_experience_universeid": {
-    "message": "Universe ID ของแมพ: {universeId}"
-  },
-  "settings_blockedexperiences_individualexperiences_experience_unblock": {
-    "message": "ยกเลิกการบล็อก"
-  },
-
-  // Hide/show a blocked expiernece section, like keywords or individual ones
-  "settings_blockedexperiences_section_hide": {
-    "message": "ซ่อน"
-  },
-  "settings_blockedexperiences_section_show": {
-    "message": "แสดง"
-  },
-
-  // Account Settings dropdown strings
-  "accountsmanager_entry_login_disabled": {
-    "message": "เข้าสู้ระบบแล้ว"
-  },
-  "accountsmanager_entry_login": {
-    "message": "เข้าสู้ระบบ"
-  },
-  "accountsmanager_entry_logout": {
-    "message": "นำออก"
-  },
-  "accountsmanager_title": {
-    "message": "{sealEmoji} จัดการบัญชี"
-  },
-  "accountsmanager_noaccounts": {
-    "message": "คุณยังไม่มีบัญชี , เพิ่มบัญชีของคุณ เพื่อ เริ่มต้น"
-  },
-  // Not logged in text
-  "accountsmanager_noaccounts_disabled": {
-    "message": "คุณยังไม่มีบัญชี , ล็อกอิน และ เพิ่มบัญชีของคุณ เพื่อ เริ่มต้น"
-  },
-  "accountsmanager_maxaccounts": {
-    "message": "คุณมีบัญชีถึงจำนวนจำกัดแล้ว ({accountLimit})"
-  },
-  // Message to show if Accounts Manager is deprecated. we're not sure if it ever will be but given that
-  // there are new translations on the Roblox website hinting to an account switcher feature, this will be here just in case
-  "accountsmanager_deprecated": {
-    "message": "การจัดการบัญชีนี้ เลิกใช้แล้ว โปรดใช้หน้าการสลับบัญชี Roblox ดั้งเดิมจาก \"การสลับบัญชี\" ใต้การตั้งค่าแบบเลื่อนลงแทน"
-  },
-  // Please don't mess this up.
-  "accountsmanager_addaccount": {
-    "message": "คุณสามารถเพิ่ม {moreAccounts, plural, =1 {1 more account.} อื่นๆ {# more accounts.}} ({accountsNum}/{accountLimit})"
-  },
-  "accountsmanager_actions_addcurrentaccount": {
-    "message": "เพิ่มบัญชีที่มีอยู่ตอนนี้"
-  },
-  "accountsmanager_actions_clearcurrentcookie": {
-    "message": "ออกจากระบบ"
-  },
-
-  // System feedbacks shown when there's an error/success message
-  "accountsmanager_success_AddCurrentRobloxAccount": {
-    "message": "เพิ่มบัญชี Roblox ที่มีอยู่ไปยัง รายการ สำเร็จ"
-  },
-  "accountsmanager_success_LogoutRobloxAccount": {
-    "message": "ยกเลิกการใช้เซสชัน และ นำบัญชี Roblox ออกจากรายการ สำเร็จ"
-  },
-  "accountsmanager_error_UnknownError": {
-    "message": "เกิดข้อผิดพลาดที่ไม่รู้จัก , กรุณาลองอีกครั้งในภายหลัง"
-  },
-  "accountsmanager_error_EndpointError": {
-    "message": "เกิดข้อผิดพลาดขณะพยายามยกเลิกการใช้เซสชัน , กรุณาลองอีกครั้งในภายหลัง"
-  },
-  "accountsmanager_error_InvalidAccount": {
-    "message": "บัญชีไม่ถูกต้อง , กรุณารีเฟรชหน้านี้ใหม่"
-  },
-  "accountsmanager_error_NoCookiePermission": {
-    "message": "RoSeal ยังไม่ได้รับอนุญาคิให้จัดการกับ cookies ของเบราว์เซอร์ , กรุณาอนุญาคิในหน้า รายการของ RoSeal"
-  },
-
-  // The context menu "..." item that appears in the item dropdown menu to view the icon asset
-  "experience_contextmenu_viewiconasset": {
-    "message": "ดูรูปไอคอน"
-  },
-
-  // "Private Servre Links" section
-  "experience_privateserverlinks_title": {
-    "message": "ลิงค์เซิร์ฟเวอร์ส่วนตัว"
-  },
-  // Button to see more private server links
-  "experience_privateserverlinks_seemore": {
-    "message": "ดูเพิ่มเติม"
-  },
-  // Button to see less private server links
-  "experience_privateserverlinks_seeless": {
-    "message": "ดูน้อยลง"
-  },
-  // Tooltip hover message next to the title
-  "experience_privateserverlinks_titletooltip": {
-    "message": "ช่วยให้คุณเก็บเซิร์ฟเวอร์ส่วนตัวสำหรับแมพนี้จากลิงก์หรือนำเข้าไฟล์ และจะแจ้งเตือนเมื่อลิงก์เซิร์ฟเวอร์ส่วนตัวใช้ไม่ได้แล้ว"
-  },
-  "experience_privateserverlinks_noservers": {
-    "message": "ไม่พบลิงก์เซิร์ฟเวอร์ส่วนตัว"
-  },
-  // "Add" button that will open the "Add Private Server Link" dialog
-  "experience_privateserverlinks_actions_add": {
-    "message": "เพิ่ม"
-  },
-  // "Import" button that will open the "Import Private Server Links" dialog
-  "experience_privateserverlinks_actions_import": {
-    "message": "นำเข้า"
-  },
-  // this will have a .json file extension
-  "experience_privateserverlinks_exportfilename": {
-    "message": "{placeName} เซิร์ฟเวอร์ส่วนตัว"
-  },
-  // "Export" button that will download the "{placeName} Private Servers.json file"
-  "experience_privateserverlinks_actions_export": {
-    "message": "ส่งออก"
-  },
-  // When the creator is listed as "No One", no creator is set
-  "experience_privateserverlinks_privateserver_noone": {
-    "message": "ไม่มีใคร"
-  },
-  // Updated time
-  "experience_privateserverlinks_privateserver_updated": {
-    "message": "อัพเดท {time}"
-  },
-  // Shows up as red text "Invalid" if server is invalid now
-  "experience_privateserverlinks_privateserver_invalid": {
-    "message": "ไม่ถูกต้อง"
-  },
-  // Context menu items
-  "experience_privateserverlinks_privateserver_contextmenu_copylink": {
-    "message": "คัดลอกลิงค์"
-  },
-  "experience_privateserverlinks_privateserver_contextmenu_remove": {
-    "message": "ลบ"
-  },
-  "experience_privateserverlinks_privateserver_contextmenu_update": {
-    "message": "อัพเดท"
-  },
-  // Bottom button that switches between "Remove" and "Join"
-  // - join if valid, remove if not
-  "experience_privateserverlinks_privateserver_remove": {
-    "message": "ลบ"
-  },
-  "experience_privateserverlinks_privateserver_join": {
-    "message": "เข้าร่วม"
-  },
-
-  // Import private servers from file modal
-  "experience_privateserverlinks_importprivateserversmodal_title": {
-    "message": "{sealEmoji} นำเข้าลิงก์เซิร์ฟเวอร์ส่วนตัว"
-  },
-  "experience_privateserverlinks_importprivateserversmodal_filteredcount": {
-    "message": "เซิร์ฟเวอร์ส่วนตัว {filtered} จาก {total} รายการมีลิงก์ที่ไม่ถูกต้องหรือซ้ำกัน"
-  },
-  "experience_privateserverlinks_importprivateserversmodal_importinfo": {
-    "message": "คุณต้องการนำเข้า {total, plural, =1 {private server} other {# private servers}} ต่อไปนี้:"
-  },
-  "experience_privateserverlinks_importprivateserversmodal_instructiontext_drag": {
-    "message": "ลากไฟล์ข้อมูลมาที่นี่"
-  },
-  "experience_privateserverlinks_importprivateserversmodal_instructiontext_or": {
-    "message": "หรือ"
-  },
-  "experience_privateserverlinks_importprivateserversmodal_instructiontext_select": {
-    "message": "เลือกไฟล์ข้อมูลจากคอมพิวเตอร์ของคุณ"
-  },
-  // Import error messages
-  "experience_privateserverlinks_importprivateserversmodal_importerror_invalid": {
-    "message": "กรุณาใช้ไฟล์ข้อมูล (.json) ที่ถูกต้อง"
-  },
-  "experience_privateserverlinks_importprivateserversmodal_importerror_unknown": {
-    "message": "เกิดข้อผิดพลาดที่ไม่รู้จักขณะอ่านไฟล์ข้อมูล"
-  },
-  "experience_privateserverlinks_importprivateserversmodal_importerror_unknowncheck": {
-    "message": "เกิดข้อผิดพลาดที่ไม่รู้จักขณะตรวจสอบลิงก์เซิร์ฟเวอร์ส่วนตัว"
-  },
-  "experience_privateserverlinks_importprivateserversmodal_importerror_allinvalid": {
-    "message": "ลิงก์เซิร์ฟเวอร์ส่วนตัวทั้งหมดในไฟล์ข้อมูลไม่ถูกต้อง"
-  },
-  "experience_privateserverlinks_importprivateserversmodal_importerror_allduplicate": {
-    "message": "ลิงก์เซิร์ฟเวอร์ส่วนตัวทั้งหมดในไฟล์ข้อมูลนั้นซ้ำกัน"
-  },
-  "experience_privateserverlinks_importprivateserversmodal_importerror_invalidformat": {
-    "message": "ไฟล์ข้อมูลอยู่ในรูปแบบที่ไม่ถูกต้อง"
-  },
-  // Modal actions
-  "experience_privateserverlinks_importprivateserversmodal_action": {
-    "message": "นำเข้า"
-  },
-  "experience_privateserverlinks_importprivateserversmodal_neutral": {
-    "message": "ยกเลิก"
-  },
-
-  // Remove private server modal
-  "experience_privateserverlinks_removeprivateservermodal_title": {
-    "message": "{sealEmoji} ลบลิงก์เซิร์ฟเวอร์ส่วนตัว"
-  },
-  "experience_privateserverlinks_removeprivateservermodal_body": {
-    "message": "คุณแน่ใจหรือไม่ว่าต้องการลบลิงก์เซิร์ฟเวอร์ส่วนตัวนี้"
-  },
-  "experience_privateserverlinks_removeprivateservermodal_action": {
-    "message": "ลบ"
-  },
-  "experience_privateserverlinks_removeprivateservermodal_neutral": {
-    "message": "ยกเลิก"
-  },
-
-  // add private server link modal
-  "experience_privateserverlinks_addprivateservermodal_title": {
-    "message": "{sealEmoji} เพิ่มลิงก์เซิร์ฟเวอร์ส่วนตัว"
-  },
-  "experience_privateserverlinks_addprivateservermodal_fromlink": {
-    "message": "ดูเหมือนว่าคุณมาจากลิงก์เซิร์ฟเวอร์ส่วนตัวที่ไม่รู้จัก คุณต้องการเพิ่มไหม?"
-  },
-  // Label for server name text field input
-  "experience_privateserverlinks_addprivateservermodal_name": {
-    "message": "ชื่อ"
-  },
-  "experience_privateserverlinks_addprivateservermodal_nameplaceholder": {
-    "message": "ชื่อเซิร์ฟเวอร์"
-  },
-  // Text that appears bottom right of the input
-  "experience_privateserverlinks_addprivateservermodal_namelength": {
-    "message": "{length}/{maxLength}"
-  },
-  // Server link label
-  "experience_privateserverlinks_addprivateservermodal_link": {
-    "message": "ลิ้งค์"
-  },
-  // Server owner label
-  "experience_privateserverlinks_addprivateservermodal_owner": {
-    "message": "เป็นเจ้าของ"
-  },
-  // Below the server owner input to the right
-  "experience_privateserverlinks_addprivateservermodal_owneroptional": {
-    "message": "(ไม่จำเป็น)"
-  },
-  // Server link errors
-  "experience_privateserverlinks_addprivateservermodal_linkerror_invalid": {
-    "message": "ลิงก์ที่คุณระบุไม่ถูกต้อง"
-  },
-  "experience_privateserverlinks_addprivateservermodal_linkerror_unknown": {
-    "message": "เกิดข้อผิดพลาดที่ไม่รู้จักขณะตรวจสอบสถานะลิงก์"
-  },
-  "experience_privateserverlinks_addprivateservermodal_linkerror_duplicate": {
-    "message": "มีเซิร์ฟเวอร์ส่วนตัวที่มีลิงก์นี้อยู่แล้ว: \"{name}\""
-  },
-  // modal buttons
-  "experience_privateserverlinks_addprivateservermodal_action": {
-    "message": "เพิ่ม"
-  },
-  "experience_privateserverlinks_addprivateservermodal_neutral": {
-    "message": "ยกเลิก"
-  },
-
-  // update private server link modal
-  // this is very similar to add
-  "experience_privateserverlinks_updateprivateservermodal_title": {
-    "message": "{sealEmoji} อัปเดตลิงก์เซิร์ฟเวอร์ส่วนตัว"
-  },
-  // Label for server name text field input
-  "experience_privateserverlinks_updateprivateservermodal_name": {
-    "message": "ชื่อ"
-  },
-  "experience_privateserverlinks_updateprivateservermodal_nameplaceholder": {
-    "message": "ชื่อเซิร์ฟเวอร์"
-  },
-  // Text that appears bottom right of the input
-  "experience_privateserverlinks_updateprivateservermodal_namelength": {
-    "message": "{length}/{maxLength}"
-  },
-  // Server link label
-  "experience_privateserverlinks_updateprivateservermodal_link": {
-    "message": "ลิ้งค์"
-  },
-  // Server link errors
-  "experience_privateserverlinks_updateprivateservermodal_linkerror_invalid": {
-    "message": "ลิงก์ที่คุณระบุไม่ถูกต้อง"
-  },
-  "experience_privateserverlinks_updateprivateservermodal_linkerror_unknown": {
-    "message": "เกิดข้อผิดพลาดที่ไม่รู้จักขณะตรวจสอบสถานะลิงก์"
-  },
-  "experience_privateserverlinks_updateprivateservermodal_linkerror_duplicate": {
-    "message": "มีเซิร์ฟเวอร์ส่วนตัวที่มีลิงก์นี้อยู่แล้ว: \"{name}\""
-  },
-  // Server owner label
-  "experience_privateserverlinks_updateprivateservermodal_owner": {
-    "message": "เป็นเจ้าของ"
-  },
-  // Below the server owner input to the right
-  "experience_privateserverlinks_updateprivateservermodal_owneroptional": {
-    "message": "(ไม่จำเป็น)"
-  },
-  // modal buttons
-  "experience_privateserverlinks_updateprivateservermodal_action": {
-    "message": "อัพเดท"
-  },
-  "experience_privateserverlinks_updateprivateservermodal_neutral": {
-    "message": "ยกเลิก"
-  },
-
-  // The context menu "..." item that appears in the experience dropdown menu to unblock/block the target experience
-  "experience_contextmenu_unblock": {
-    "message": "ยกเลิกการบล็อก"
-  },
-  "experience_contextmenu_block": {
-    "message": "บล็อก"
-  },
-
-  // "Universe ID {number}" text under About
-  "experience_universeid": {
-    "message": "Universe ID ของแมพ"
-  },
-
-  // The asset's numeric product ID
-  "generalasset_productid": {
-    "message": "ไอดีไอเทม"
-  },
-  // The collectible item UUID ID
-  "collectibleasset_collectibleitemid": {
-    "message": "ไอดีของลิมิเต็ด"
-  },
-  // The collectible product UUID ID
-  "collectibleasset_collectibleproductid": {
-    "message": "ไอดีไอเทมของของลิมิเต็ด"
-  },
-
-  // The developer product's numeric product ID
-  "developerproduct_productid": {
-    "message": "ไอดีไอเทม"
-  },
-
-  // "Refresh Item Details" tooltip when hovering over the refresh icon under the three dots (...)
-  "avataritem_refreshdetails": {
-    "message": "รีเฟรชข้อมูลไอเทม"
-  },
-
-  // "Refresh Item Details" tooltip when hovering over the search icon next to the creator name
-  "avataritem_searchbycreator": {
-    "message": "ค้นหาไอเทมโดยผู้สร้างคนนี้"
-  },
-
-  // The pass's numeric product ID field
-  "pass_productid": {
-    "message": "ไอดีไอเทม"
-  },
-
-  // The bundle's numeric product ID field
-  "bundle_productid": {
-    "message": "ไอดีไอเทม"
-  },
-
-  // Text to show if an experience is blocked, and to view it anyways
-  "experience_blocked_title": {
-    "message": "แมพที่โดนบล็อก"
-  },
-  "experience_blocked_viewanyway": {
-    "message": "ดูต่อไป"
-  },
-
-  // Dropdown selections for "Passes" and "Developer Products"
-  "experience_store_selection_passes": {
-    "message": "เกมพาส"
-  },
-  "experience_store_selection_developerproducts": {
-    "message": "ไอเทมของผู้พัฒนา"
-  },
-
-  // Developer products section
-  // filtering options
-  "experience_developerproducts_filtering_offsale": {
-    "message": "แสดงไอเทมที่ไม่ได้ขาย"
-  },
-  "experience_developerproducts_filtering_onsale": {
-    "message": "แสดงไอเทมที่เปิดขาย"
-  },
-  // Errors/no developer products
-  "experience_developerproducts_genericerror": {
-    "message": "เกิดข้อผิดพลาดขณะพยายามรับข้อมูลไอเทมของผู้พัฒนา , กรุณาลองอีกครั้ง"
-  },
-  "experience_developerproducts_nodeveloperproducts": {
-    "message": "ไม่มีไอเทมของผู้พัฒนาที่ใช้งานได้"
-  },
-  // Indicates that there is none from your search from the filters, but can change if filtering options are changed
-  "experience_developerproducts_nodeveloperproductsfiltered": {
-    "message": "ไม่มีไอเทมของผู้พัฒนาที่คุณค้นหา"
-  },
-
-  // Experience passes stuff, we discard roblox's version and remake all of it
-  // filtering stuff
-  "experience_passes_filtering_offsale": {
-    "message": "รวมไอเทมที่ไม่ได้ขาย"
-  },
-  "experience_passes_filtering_onsale": {
-    "message": "รวมไอเทมที่เปิดขาย"
-  },
-  "experience_passes_filtering_unowned": {
-    "message": "รวมไอเทมที่ไม่ได้เป็นเจ้าของ"
-  },
-  "experience_passes_filtering_owned": {
-    "message": "รวมไอเทมที่เป็นเจ้าของ"
-  },
-  // Viewing as a specific user
-  "experience_passes_filtering_user": {
-    "message": "ดูเป็น:"
-  },
-  // Errors/no passes
-  "experience_passes_genericerror": {
-    "message": "เกิดข้อผิดพลาดขณะพยายามรับข้อมูลเกมพาส , กรุณาลองอีกครั้ง"
-  },
-  "experience_passes_nopasses": {
-    "message": "ไม่มีเกมพาสที่ใช้งานได้"
-  },
-  // Indicates that there is none from your search from the filters, but can change if filtering options are changed
-  "experience_passes_nopassesfiltered": {
-    "message": "ไม่มีเกมพาสที่คุณค้นหา"
-  },
-  "experience_passes_entry_owned": {
-    "message": "เป็นเจ้าของแล้ว"
-  },
-  "experience_passes_entry_buy": {
-    "message": "ซื้อ"
-  },
-  "experience_passes_addpass": {
-    "message": "เพิ่ม เกมพาส"
-  },
-
-  // Shown over the Play button to indicate to the user that their avatar may not be as intended in the experience
-  "experience_avatarrestricted": {
-    "message": "อวาตาร์ปัจจุบันของคุณอาจะมีลักษณะที่ไม่เหมือนที่คุณแต่งไว้ใน แมพ นี้"
-  },
-  // Table header items, "Field" in this context, is like part of an avatar, avatar type, body, proportion, etc.
-  "experience_avatarrestricted_compare_field": {
-    "message": "ฟิลด์"
-  },
-  "experience_avatarrestricted_compare_you": {
-    "message": "คุณ"
-  },
-  "experience_avatarrestricted_compare_experience": {
-    "message": "แมพ"
-  },
-
-  "experience_avatarrestricted_fields_height": {
-    "message": "ความสูง"
-  },
-  "experience_avatarrestricted_fields_width": {
-    "message": "ความกว้าง"
-  },
-  "experience_avatarrestricted_fields_head": {
-    "message": "ส่วนหัว"
-  },
-  "experience_avatarrestricted_fields_proportion": {
-    "message": "สัดส่วน"
-  },
-  "experience_avatarrestricted_fields_bodyType": {
-    "message": "ประเภทของร่างกาย"
-  },
-  "experience_avatarrestricted_fields_avatarType": {
-    "message": "ประเภทของตัวละคร"
-  },
-  "experience_avatarrestricted_fields_avatarType_values_R6": {
-    "message": "R6"
-  },
-  "experience_avatarrestricted_fields_avatarType_values_R15": {
-    "message": "R15"
-  },
-  "experience_avatarrestricted_fields_avatarType_values_PlayerChoice": {
-    "message": "แล้วแต่ผู้เล่น"
-  },
-
-  // Avatar Type stuff shown at the experience's stats.
-  "experience_avatartype_label": {
-    "message": "ประเภทของตัวละคร"
-  },
-  "experience_avatartype_values_ForcedRthro": {
-    "message": "Rthro"
-  },
-  "experience_avatartype_values_R15Rthro": {
-    "message": "R15, Rthro"
-  },
-  "experience_avatartype_values_R6": {
-    "message": "R6"
-  },
-  "experience_avatartype_values_R15": {
-    "message": "R15"
-  },
-  "experience_avatartype_values_PlayerChoice": {
-    "message": "แล้วแต่ผู้เล่น"
-  },
-
-  // for Robux views, honestly forgot what this is for. likely on developer product/pass items in store
-  // and developer product pages
-  "item_offsale_long": {
-    "message": "ไอเทมนี้ยังไม่เปิดขาย"
-  },
-  "item_offsale_short": {
-    "message": "ไม่ขาย"
-  },
-
-  // Developer product fields stuff.
-  "developerproduct_offsale": {
-    "message": "ไอเทมนี้ยังไม่ให้เปิดขาย"
-  },
-  "developerproduct_price": {
-    "message": "ราคา"
-  },
-  "developerproduct_type": {
-    "message": "หมวดหมู่"
-  },
-  "developerproduct_type_value": {
-    "message": "ไอเทมของผู้พัฒนา"
-  },
-  "developerproduct_created": {
-    "message": "สร้างเมื่อ"
-  },
-  "developerproduct_updated": {
-    "message": "อัพเดท"
-  },
-  "developerproduct_description": {
-    "message": "คำอธิบาย"
-  },
-  "developerproduct_contextmenu_viewiconasset": {
-    "message": "ดูรูปไอคอน"
-  },
-
-  // Whenever the RoSeal privacy policy updates, we show this modal. Only shown once per privacy policy update since the user installed the extension.
-  // required.
-  "ppupdatemodal_title": {
-    "message": "{sealEmoji} การปรับปรุงนโยบายความเป็นส่วนตัวของ RoSeal"
-  },
-  "ppupdatemodal_description": {
-    "message": "อัปเดทนโยบายความเป็นส่วนตัวของ RoSeal ล่าสุด{lineBreak}{lineBreak}<privacyPolicyLink>อ่านนโยบายความเป็นส่วนตัว</privacyPolicyLink>"
-  },
-  "ppupdatemodal_action": {
-    "message": "ยอมรับ"
-  },
-
-  // When accounts manager is enabled, and they try using the default Roblox "logout" button, we provide a modal warning
-  // because they likely don't know that Roblox's one is going to invalidate their session
-  "robloxlogoutmodal_title": {
-    "message": "{sealEmoji} คุณแน่นใจนะ?"
-  },
-  "robloxlogoutmodal_body": {
-    "message": "เมื่อกดปุ่มออกจากระบบของ Roblox คุณจะทำให้เซสชันปัจจุบันไม่สามารถใช้งานได้{lineBreak}{lineBreak}คุณจะไม่สามารถล็อกอินบัญชีนี้ด้วยการจัดการบัญชีโดยไม่ผ่านหน้าล็อกอินของ Roblox อีกครั้ง{lineBreak}{lineBreak}หากต้องการออกจากระบบโดยไม่ทำให้เซสชันใช้งานไม่ได้ ให้เปิดการจัดการบัญชีแล้วคลิก \"ออกจากระบบ\""
-  },
-  "robloxlogoutmodal_action": {
-    "message": "ออกจากระบบ"
-  },
-  "robloxlogoutmodal_neutral": {
-    "message": "ยกเลิก"
-  },
-
-  // A button to direct the user to the unofficial community wiki of an experience. Most don't have this,
-  // but for the ones that do, it's nice
-  "experience_communitywiki_button": {
-    "message": "คอมมูนิตี้ วิกิ ที่ไม่เป็นทางการ"
-  },
-  "experience_communitywiki_modal_title": {
-    "message": "{sealEmoji} คุณกำลังออกจาก Roblox"
-  },
-  // Modal shown when clicking the button to warn the user
-  "experience_communitywiki_modal_body": {
-    "message": "เดี๋ยวก่อน !, ผู้เล่น Roblox – หากกด “ดำเนินการต่อ,” คุณจะไปที่หน้า Fandom, ที่ไม่เกี่ยวข้องกับ Roblox. อาจมีข้อกำหนดและนโยบายความเป็นส่วนตัวที่ไม่เหมือนกัน.{lineBreak}{lineBreak}คอมมูนิตี้ Wiki ที่ไม่เป็นทางการจะนำคุณไปที่หน้าที่เป็นส่วนหนึ่งของโครงการ Roblox Interwiki บน Fandom และต้อง แก้ไขโดยชุมชน ข้อมูลอาจจะไม่ถูกต้อง ไม่มี ไม่เป็นปัจจุบัน หรือถูกดัดแปลง"
-  },
-  "experience_communitywiki_modal_action": {
-    "message": "ดำเนินการต่อ"
-  },
-  "experience_communitywiki_modal_neutral": {
-    "message": "ยกเลิก"
-  },
-
-  // System feedback messages shown when purchasing an item with "Refresh Avatar Item Details" feature enabled.
-  // it's an easier way to communicate stuff to the user than a modal.
-  "avataritem_successmessage_GenericPurchase": {
-    "message": "คุณทำการซื้อไอเทมสำเร็จแล้ว"
-  },
-  "avataritem_errormessage_Load": {
-    "message": "คุณกำลังโดน จำกัดการใช้งาน โดย Roblox, กรุณาลองอีกครัง"
-  },
-  // "reason" is the public reason given from the API
-  // "realReason" is the actual internal reason given from the API.
-  // in the future, we may consider making proper messages for each {realReason}
-  // but for now, it's like this
-  "avataritem_errormessage_GenericPurchase": {
-    "message": "ไม่สามารถซื้อไอเทมนี้ได้, เนื่องจาก: \"{reason} ({realReason})\""
-  },
-
-  // "ALT" text button shown on the lower left side on experience thumbnails if available. "ALT" is short for "Alternative", in "Alternative Text" for images.
-  // the alt text will show on hover. this is just for easily communicating with the user that there is alt text
-  // the img element already has alt text but it's better to indicate
-  "experience_media_alttext": {
-    "message": "แสดงแทน"
-  },
-
-  // "View Thumbnail Asset" button shown in the lower right side on experience thumbnails if available.
-  "experience_media_viewthumbnailasset": {
-    "message": "ดูรูปภาพปก"
-  },
-
-  // Funny little home header secret messages that can be shown despite the user's role
-  "homeheader_secretmessage_Default1": {
-    "message": "สวัสดี, ผู้เล่น!"
-  },
-  "homeheader_secretmessage_Default2": {
-    "message": "พวกเราเล่น โรบล็อกซ์!"
-  },
-  "homeheader_secretmessage_Default3": {
-    "message": "โรบล็อกซ์"
-  },
-  "homeheader_secretmessage_Default4": {
-    "message": "โรบล็อกซ์"
-  },
-  "homeheader_secretmessage_Default5": {
-    "message": "คุณคิดถึง Tix ไหม?"
-  },
-  "homeheader_secretmessage_Default6": {
-    "message": "แมวน้ำ!"
-  },
-  "homeheader_secretmessage_Default7": {
-    "message": "ลาก่อน Legacy Api!"
-  },
-  "homeheader_secretmessage_Default8": {
-    "message": "หยุดโดดเรียนได้แล้ว"
-  },
-  "homeheader_secretmessage_Default9": {
-    "message": "Boycott bad เป็น แมพ ที่ไม่ดีและเป็น แมพ ที่ละเมิดลิขสิทธิ์"
-  },
-  "homeheader_secretmessage_Default10": {
-    "message": "ระวังป้องกันตัวเองโดนหลอก"
-  },
-  "homeheader_secretmessage_Default11": {
-    "message": "การเล่นเป็นสิ่งที่ดีสำหรับสมอง แต่ถ้าเล่นมากเกินไปอาจเป็นอันตรายต่อสุขภาพของคุณ"
-  },
-  "homeheader_secretmessage_Default12": {
-    "message": "จัดการเวลาให้ดีแล้วใช้ชีวิตอย่างมีสุขภาพที่ดีขึ้น"
-  },
-  "homeheader_secretmessage_Default13": {
-    "message": "จินตนาการ 1 ล้าน โรบัค... ดูสิ"
-  },
-  "homeheader_secretmessage_Default14": {
-    "message": "คุณทำอะไรอยู่?"
-  },
-  "homeheader_secretmessage_Default15": {
-    "message": "เราหวังว่าคุณจะเพลิดเพลินกับการใช้ RoSeal"
-  },
-  "homeheader_secretmessage_Default16": {
-    "message": "ฮิฮิฮิฮิฮิ..."
-  },
-  "homeheader_secretmessage_Default17": {
-    "message": "ทุกสิ่งที่ Roblox เกิดขึ้นเกิดขึ้นต่อหน้าต่อตาทุกคน"
-  },
-  "homeheader_secretmessage_Default18": {
-    "message": "[ Content Deleted ]"
-  },
-  "homeheader_secretmessage_Default19": {
-    "message": "นี่ไม่ใช่ข้อความทดสอบ"
-  },
-  "homeheader_secretmessage_Default20": {
-    "message": "น้องแมว ~~"
-  },
-  "homeheader_secretmessage_Default21": {
-    "message": "นก"
-  },
-  "homeheader_secretmessage_Default22": {
-    "message": "ใส่รูปแมวน้ำที่นี้"
-  },
-  "homeheader_secretmessage_Default23": {
-    "message": "ใส่รูปน้องแมวที่นี้"
-  },
-  "homeheader_secretmessage_Default24": {
-    "message": "ใส่รูปนกที่นี้"
-  },
-  "homeheader_secretmessage_Default25": {
-    "message": "โรบล็อกซ์ ล่มหรอ?"
-  },
-  "homeheader_secretmessage_Default26": {
-    "message": "David Baszucki"
-  },
-  "homeheader_secretmessage_Default27": {
-    "message": "คุณจำ guests ได้ไหม?"
-  },
-  "homeheader_secretmessage_Default28": {
-    "message": "คุณจำ old forums ได้ไหม?"
-  },
-  "homeheader_secretmessage_Default29": {
-    "message": "สวัสดี!"
-  },
-  "homeheader_secretmessage_Default30": {
-    "message": "อืม... อร่อยไหม?"
-  },
-
-  // Additional text shown if the user is in the "BetaTester" role. These are users that signed up for it on the DevForum.
-  "homeheader_secretmessage_BetaTester1": {
-    "message": "คนทดสอบหรอ? คิดว่าคุณเจ๋งมากไหม?"
-  },
-  "homeheader_secretmessage_BetaTester2": {
-    "message": "เห็นว่าคุณมีสิทธิ์เข้าถึงฟีเจอร์เบต้าบางอย่าง."
-  },
-  "homeheader_secretmessage_BetaTester3": {
-    "message": "ขอให้มีความสุขกับสิ่งที่คุณทำในวันนี้ ;)"
-  },
-  "homeheader_secretmessage_BetaTester4": {
-    "message": "ไม่เท่เท่าหมอดู"
-  },
-  "homeheader_secretmessage_BetaTester5": {
-    "message": "หนึ่งในไม่กี่คน"
-  },
-
-  // Additional text shown if the user is in the "Soothsayer" role. Typically, they are Roblox admins.
-  // The likelihood of a Roblox admin using the extension is low, but it's fun to put this in anyways
-  "homeheader_secretmessage_Soothsayer1": {
-    "message": "บทบาทสาธารณะที่ดีที่คุณมี"
-  },
-  "homeheader_secretmessage_Soothsayer2": {
-    "message": "คุณต้องมีบัญชีอีเมลของ @roblox.com"
-  },
-  "homeheader_secretmessage_Soothsayer3": {
-    "message": "คุณไม่จำเป็นต้องจ่ายเงินสำหรับการเข้าถึง แมพ ในการเข้าถึงแบบต้องจ่ายเงิน?????"
-  },
-  "homeheader_secretmessage_Soothsayer4": {
-    "message": "เจ๋งกว่า เบต้าเทสเตอร์ ทั่วไปแน่นอน"
-  },
-  "homeheader_secretmessage_Soothsayer5": {
-    "message": "Internal Studio เจ๋งไหม?"
-  },
-  "homeheader_secretmessage_Soothsayer6": {
-    "message": "ทดสอบของสะสมเป็นยังไงบ้าง?"
-  },
-
-  // Translators can put whatever message they like in here, remember: this is crowd-sourced
-  "homeheader_secretmessage_NonEnglish": {
-    "message": "แย่จัง! ดูเหมือนว่า RoSeal จะไม่ได้รับการแปลเป็นภาษาของคุณ :("
-  },
-
-  // Happy birthday, text shown on the users birthday
-  "homeheader_birthdaymessage": {
-    "message": "สุขสันต์วันเกิด,"
-  },
-
-  // "Unlock Pin" modal shown when the user attempts to update their description or unblock someone
-  // on the profile page. we plan to expand this in the future
-  "pinunlockmodal_title": {
-    "message": "{sealEmoji} ต้องใส่รหัส PIN ของบัญชี"
-  },
-  "pinunlockmodal_description": {
-    "message": "ใส่รหัส PIN ของบัญชีของคุณ"
-  },
-  "pinunlockmodal_buttons_action": {
-    "message": "ปลดล็อก"
-  },
-
-  // general asset created and updated fields
-  "generalasset_created": {
-    "message": "สร้างเมื่อ"
-  },
-  "generalasset_updated": {
-    "message": "อัพเดท"
-  },
-
-  // Adding "Delete from Inventory" to the context menu to supported assets.
-  "generalasset_contextmenu_deletefrominventory": {
-    "message": "ลบจากช่องเก็บของ"
-  },
-
-  // Badge "Created" label, we do not need "Updated" because it is already supplied by Roblox
-  "badge_created": {
-    "message": "สร้างเมื่อ"
-  },
-
-  // Additional fields that will appear with BadgeMoreStatistics feature enabled
-  // counts
-  "badge_awardedalltime": {
-    "message": "ได้รับตลอดกาล"
-  },
-  "badge_awardedyesterday": {
-    "message": "ได้รับเมื่อวาน"
-  },
-  "badge_percentawardedyesterday": {
-    "message": "% ได้รับเมื่อวาน"
-  },
-  "badge_percentawardedyesterday_value": {
-    "message": "{percentage}%"
-  },
-  // when the user was awarded it
-  "badge_awarded": {
-    "message": "ได้รับ"
-  },
-
-  // Adding "View Icon Asset" button to the experience badge context menu
-  "badge_contextmenu_viewiconasset": {
-    "message": "ดูรูปไอคอน"
-  },
-
-  // Chat sorts stuff
-  "chat_sorttypes_label": {
-    "message": "จัดเรียงตาม"
-  },
-  "chat_sorttypes_type_Default": {
-    "message": "ค่าเริ่มต้น"
-  },
-  "chat_sorttypes_type_NewestFirst": {
-    "message": "ใหม่สุดก่อน"
-  },
-  "chat_sorttypes_type_OldestFirst": {
-    "message": "เก่าสุดก่อน"
-  },
-  "chat_sorttypes_type_UnreadFirst": {
-    "message": "ยังไม่ได้อ่านก่อน"
-  },
-
-  // The pass created/updated text
-  "pass_created": {
-    "message": "สร้างเมื่อ"
-  },
-  "pass_updated": {
-    "message": "อัพเดท"
-  },
-
-  // Adding "View Icon Asset" button to the experience pass context menu
-  "pass_contextmenu_viewiconasset": {
-    "message": "ดูรูปไอคอน"
-  },
-
-  // The group created text, should this expand to including the time as well?
-  "group_created": {
-    "message": "สร้างเมื่อ"
-  },
-
-  // Adding "View Icon Asset" button to the group context menu, old name for group icon was "Emblem"
-  "group_contextmenu_viewiconasset": {
-    "message": "ดูรูปไอคอน"
-  },
-
-  // "Transactions" tab in the left navigation
-  "navbar_left_transactions": {
-    "message": "ธุรกรรม"
-  },
-
-  // This is for the shared component between Passes "View as" and badges "View as/Compare with"
-  "userlookup_placeholder": {
-    "message": "ชื่อผู้ใช้"
-  },
-  "userlookup_directlookuperror": {
-    "message": "ไม่พบผู้ใช้ที่มีชื่อนั้น"
-  },
-
-  // Discover filters labels and dropdown values stuff
-  "discover_filters_label": {
-    "message": "ฟิลเตอร์"
-  },
-  "discover_filters_inputhint": {
-    "message": "ถ้าใส่ตัวเลขที่เป็น 0 จะไม่สามารถใช้ได้"
-  },
-  "discover_filters_applyfilters": {
-    "message": "ใช้ฟิลเตอร์"
-  },
-  "discover_filters_likes": {
-    "message": "ชอบ %"
-  },
-  "discover_filters_playing": {
-    "message": "กำลังเล่น"
-  },
-  "discover_filters_favorites": {
-    "message": "รายการโปรด"
-  },
-  "discover_filters_visits": {
-    "message": "เข้าชม"
-  },
-  "discover_filters_genre": {
-    "message": "ประเภท"
-  },
-  "discover_filters_genre_values_All": {
-    "message": "อะไรก็ได้"
-  },
-  "discover_filters_genre_values_Building": {
-    "message": "สร้าง"
-  },
-  "discover_filters_genre_values_Horror": {
-    "message": "สยองขวัญ"
-  },
-  "discover_filters_genre_values_TownandCity": {
-    "message": "เมือง"
-  },
-  "discover_filters_genre_values_Military": {
-    "message": "ทหาร"
-  },
-  "discover_filters_genre_values_Comedy": {
-    "message": "ตลก"
-  },
-  "discover_filters_genre_values_Medieval": {
-    "message": "ผจญภัย ยุคกลาง"
-  },
-  "discover_filters_genre_values_Adventure": {
-    "message": "ผจญภัย"
-  },
-  "discover_filters_genre_values_SciFi": {
-    "message": "วิทยาศาสตร์ ไซไฟ"
-  },
-  "discover_filters_genre_values_Naval": {
-    "message": "ทหารเรือ"
-  },
-  "discover_filters_genre_values_FPS": {
-    "message": "ยิงปืน"
-  },
-  "discover_filters_genre_values_RPG": {
-    "message": "อาร์พีจี"
-  },
-  "discover_filters_genre_values_Sports": {
-    "message": "กีฬา"
-  },
-  "discover_filters_genre_values_Fighting": {
-    "message": "ต่อสู่"
-  },
-  "discover_filters_genre_values_Western": {
-    "message": "ตะวันตก"
-  },
-  "discover_filters_device": {
-    "message": "อุปกรณ์"
-  },
-  "discover_filters_device_values_All": {
-    "message": "อะไรก็ได้"
-  },
-  "discover_filters_device_values_Desktop": {
-    "message": "เดสก์ทอป"
-  },
-  "discover_filters_device_values_Phone": {
-    "message": "โทรศัพท์"
-  },
-  "discover_filters_device_values_Tablet": {
-    "message": "แทปเล็ต (เอแพด)"
-  },
-  "discover_filters_device_values_Console": {
-    "message": "คอนโซล"
-  },
-  "discover_filters_device_values_VR": {
-    "message": "แว่น VR"
-  },
-  "discover_filters_age": {
-    "message": "อายุ"
-  },
-  "discover_filters_age_values_All": {
-    "message": "อะไรก็ได้"
-  },
-  "discover_filters_age_values_0": {
-    "message": "ทุกเพศทุกวัย"
-  },
-  "discover_filters_age_values_9": {
-    "message": "9+"
-  },
-  "discover_filters_age_values_13": {
-    "message": "13+"
-  },
-  "discover_filters_age_values_17": {
-    "message": "17+"
-  },
-  "discover_filters_age_values_18": {
-    "message": "18+"
-  },
-
-  // For each filter, the maximum and minimum labels.
-  // The placeholders right now do not have translations, merely because they are just "0"
-  "discover_filters_filter_minimum": {
-    "message": "ขั้นต่ำ"
-  },
-  "discover_filters_filter_maximum": {
-    "message": "สูงสุด"
-  },
-  // Tooltip shown when hovering over edit button next to the filter name for number-based filters
-  "discover_filters_filter_edit": {
-    "message": "แก้ไข ฟิลเตอร์"
-  },
-
-  // Events tab stuff, there's not much here because we just grab the events container from Roblox
-  "experience_events_tab": {
-    "message": "กิจกรรม"
-  },
-  "experience_events_noevents": {
-    "message": "ไม่มีกิจกรรมในขณะนี้"
-  },
-
-  // Tab title
-  "experience_badges_tab": {
-    "message": "เหรียญตรา"
-  },
-  // View as: {user} stuff or compare
-  "experience_badges_viewas": {
-    "message": "ดูเป็น:"
-  },
-  "experience_badges_comparewith": {
-    "message": "เปรียบเทียบกับ:"
-  },
-
-  // Experience badges sorting/filters options
-  "experience_badges_filtering_active": {
-    "message": "แสดงไอเทมที่ใช้งานอยู่"
-  },
-  "experience_badges_filtering_inactive": {
-    "message": "แสดงไอเทมที่ไม่ใช้งาน"
-  },
-  "experience_badges_filtering_obtained": {
-    "message": "แสดงไอเทมที่ได้รับ"
-  },
-  "experience_badges_filtering_unobtained": {
-    "message": "แสดงไอเทมที่ไม่ได้รับ"
-  },
-  "experience_badges_sorting_sortby_label": {
-    "message": "จัดเรียงตาม"
-  },
-  "experience_badges_sorting_sortdirection_label": {
-    "message": "จัดเรียงตามทิศทาง"
-  },
-  "experience_badges_sorting_sortobtained_label": {
-    "message": "จัดเรียงตามลำดับที่ได้รับ"
-  },
-  "experience_badges_sorting_sortby_values_WonYesterday": {
-    "message": "ชนะเมื่อวาน"
-  },
-  "experience_badges_sorting_sortby_values_WonAllTime": {
-    "message": "ชนะทั้งหมด"
-  },
-  "experience_badges_sorting_sortby_values_AwardedTime": {
-    "message": "รางวัลล่าสุด"
-  },
-  "experience_badges_sorting_sortby_values_Created": {
-    "message": "สร้างเมื่อ"
-  },
-  "experience_badges_sorting_sortby_values_Name": {
-    "message": "ชื่อ"
-  },
-  "experience_badges_sorting_sortdirection_values_Ascending": {
-    "message": "จากน้อยไปมาก"
-  },
-  "experience_badges_sorting_sortdirection_values_Descending": {
-    "message": "จากมากไปน้อย"
-  },
-  "experience_badges_sorting_sortobtained_values_First": {
-    "message": "อันดับแรก"
-  },
-  "experience_badges_sorting_sortobtained_values_Last": {
-    "message": "อันดับสุดท้าย"
-  },
-  "experience_badges_sorting_sortobtained_values_Default": {
-    "message": "ค่าเริ่มต้น"
-  },
-  "experience_badges_sortsandfilters": {
-    "message": "การจัดเรียงและฟิลเตอร์"
-  },
-
-  // When there's no filtered badges, but there are badges for the experience
-  "experience_badges_nofilteredbadges": {
-    "message": "ไม่มีเหรียญตราที่จะแสดง"
-  },
-
-  "experience_badges_nobadges": {
-    "message": "ไม่มีเหรียญตราที่ใช้งานได้"
-  },
-  "experience_badges_completed": {
-    "message": "เสร็จสมบูรณ์: {numCompleted}/{numTotal}"
-  },
-  "experience_badges_inactive": {
-    "message": "{inactiveIcon} ไม่ได้ใช้งาน : {numInactive}/{numTotal}"
-  },
-  // Column title for % Won Yesterday
-  "experience_badges_wonyesterday": {
-    "message": "% ชนะเมื่อวาน"
-  },
-  "experience_badges_usercompleted": {
-    "message": "{numCompleted}/{numTotal}"
-  },
-  // Error shown in place of badges when there's an error
-  "experience_badges_awardederror": {
-    "message": "เกิดข้อผิดพลาดขณะเรียกข้อมูลเหรียญตรา , กรุณาลองอีกครั้ง"
-  },
-  "experience_badges_genericerror": {
-    "message": "เกิดข้อผิดพลาดขณะดึงเหรียญตรา , กรุณาลองอีกครั้ง"
-  },
-
-  // Experience badge details
-  "experience_badges_badge_inactive": {
-    "message": "ไม่ได้ใช้งาน"
-  },
-  // Parts of a tooltip when hovering over the question mark
-  "experience_badges_badged_yesterdaypercentage": {
-    "message": "{percentage}%"
-  },
-  "experience_badges_badge_awarded": {
-    "message": "ได้รับ {time}"
-  },
-  "experience_badges_badge_wonalltime": {
-    "message": "ชนะทั้งหมด"
-  },
-  "experience_badges_badge_wonyesterday": {
-    "message": "ชนะเมื่อวาน"
-  },
-
-  // Experience private notes stuff
-  "experience_privatenote_title": {
-    "message": "โน็ตส่วนตัว"
-  },
-  "experience_privatenote_hint": {
-    "message": "โน็ตนี้เป็นส่วนตัว มีเพียงคุณเท่านั้นที่สามารถดูได้"
-  },
-  "experience_privatenote_placeholder": {
-    "message": "การตั้งค่าเฉพาะสำหรับ แมพ นี้..."
-  },
-  "experience_privatenote_length": {
-    "message": "{length}/{maxLength}"
-  },
-  "experience_privatenote_buttons_cancel": {
-    "message": "ยกเลิก"
-  },
-  "experience_privatenote_buttons_save": {
-    "message": "บันทึก"
-  },
-  "generictoggletarget_readmore": {
-    "message": "อ่านเพิ่มเติม"
-  },
-  "generictoggletarget_readless": {
-    "message": "อ่านน้อยลง"
-  },
-
-  // Adding "Report Abuse" to the item pages context menu if it isn't already there
-  "itempages_contextmenu_reportabuse": {
-    "message": "รายงานการละเมิด"
-  },
-
-  // User profile force unfollow action
-  "userprofile_actions_forceunfollow": {
-    "message": "บังคับให้เลิกติดตาม"
-  },
-
-  // System feedback banners for force unfollow in the profile
-  "userprofile_actions_forceunfollow_systemfeedback_success": {
-    "message": "บังคับให้ผู้ใช้เลิกติดตามคุณสำเร็จ"
-  },
-  "userprofile_actions_forceunfollow_systemfeedback_error": {
-    "message": "ไม่สามารถบังคับให้ผู้ใช้เลิกติดตามคุณได้"
-  },
-
-  // User's profile cancel request actions
-  "userprofile_actions_cancelrequest": {
-    "message": "ยกเลิก"
-  },
-  // Cancelled request successfully, disabled button
-  "userprofile_actions_cancelledrequest": {
-    "message": "ยกเลิกแล้ว"
-  },
-
-  // Last online date for a user at the bottom (or under Avatar with BTRoblox)
-  "userprofile_lastonline": {
-    "message": "ออนไลน์ล่าสุด"
-  },
-  "userprofile_lastonline_now": {
-    "message": "ตอนนี้"
-  },
-
-  // When "Show username in user's friends page title" is enabled, it will replace the title with this.
-  // adding {username}
-  "userfriends_newtitle": {
-    "message": "เพื่อนของ {displayName} (@{username})"
-  },
-
-  // Context menu for "Quick actions in the user's friends page"
-  "userfriends_contextmenu_unfriend": {
-    "message": "เลิกเป็นเพื่อน"
-  },
-  "userfriends_contextmenu_unfollow": {
-    "message": "เลิกติดตาม"
-  },
-  "userfriends_contextmenu_forceunfollow": {
-    "message": "บังคับให้เลิกติดตาม"
-  },
-  "userfriends_contextmenu_block": {
-    "message": "บล็อก"
-  },
-
-  // System feedback in the users friends page when doing an action with the "Quick actions in the user's friends page" feature
-  "userfriends_systemfeedback_success_unfriend": {
-    "message": "เลิกเป็นเพื่อนผู้ใช้สำเร็จแล้ว"
-  },
-  "userfriends_systemfeedback_success_unfollow": {
-    "message": "เลิกติดตามผู้ใช้สำเร็จแล้ว"
-  },
-  "userfriends_systemfeedback_success_forceunfollow": {
-    "message": "บังคับให้ผู้ใช้เลิกติดตามคุณสำเร็จ"
-  },
-  "userfriends_systemfeedback_success_block": {
-    "message": "บล็อกผู้ใช้สำเร็จ"
-  },
-  "userfriends_systemfeedback_genericerror": {
-    "message": "เกิดข้อผิดพลาดในการดำเนินการ , กรุณาลองอีกครั้ง"
-  },
-
-  // Red text to show below "Your access to voice chat has been suspended for violating our Community Standards." in Privacy settings
-  "robloxsettings_voicechat_suspensiondate": {
-    "message": "คุณสามารถการเข้าถึงได้ในวันที่ {date}"
-  },
-
-  // Marketplace Color filters UI
-  "avatarshop_colorfilters_title": {
-    "message": "สี"
-  },
-  "avatarshop_colorfilters_items_primary": {
-    "message": "หลัก"
-  },
-  "avatarshop_colorfilters_items_secondary": {
-    "message": "รอง"
-  },
-  "avatarshop_colorfilters_items_any": {
-    "message": "อะไรก็ได้"
-  },
-
-  // Pending group join requests for the user
-  "group_pendingrequests": {
-    "message": "กำลังรอคำขอเข้าร่วม"
-  },
-  "group_typesswitch_joined": {
-    "message": "เข้าร่วม"
-  },
-  "group_typesswitch_pending": {
-    "message": "กำลังดำเนินการ"
-  },
-  "group_discovergroups": {
-    "message": "ค้นพบกลุ่ม"
-  },
-  "group_creategroup": {
-    "message": "สร้างกลุ่ม"
-  },
-
-  // For the next messages, R2E = Right to Erasure
-
-  // pending in button when fetching R2Es
-  "messages_getunreadr2e_pending": {
-    "message": "กำลังดำเนินการ"
-  },
-  // error in button when fetching R2Es
-  "messages_getunreadr2e_error": {
-    "message": "เกิดข้อผิดผลาด"
-  },
-  "messages_getunreadr2e_request": {
-    "message": "คำขอ R2E ที่ยังไม่ได้อ่าน"
-  },
-  "messages_getunreadr2e_download": {
-    "message": "ดาวน์โหลด R2Es ที่ยังไม่ได้อ่าน"
-  },
-  "messages_getunreadr2e_markread": {
-    "message": "ทำเครื่องหมายว่ายังอ่านแล้ว R2Es"
-  },
-
-  // Modal shown when asked if the user wants to mark R2Es as read
-  "messages_getunreadr2e_markreadmodal_title": {
-    "message": "ทำเครื่องหมาย R2Es ว่าอ่านแล้ว"
-  },
-  "messages_getunreadr2e_markreadmodal_body": {
-    "message": "คุณต้องการทำเครื่องหมายข้อความ R2E ว่าอ่านแล้วหรือไม่?"
-  },
-  "messages_getunreadr2e_markreadmodal_action": {
-    "message": "ทำเครื่องหมายว่าอ่านแล้ว"
-  },
-  "messages_getunreadr2e_markreadmodal_neutral": {
-    "message": "ยกเลิก"
-  },
-
-  "voicechatsuspensionmodal_title": {
-    "message": "🦭 การแชทด้วยเสียงถูกระงับ"
-  },
-  "voicechatsuspensionmodal_description": {
-    "message": "เนื่องจากการละเมิด <communityGuidelinesLink>หลักเกณฑ์ของชุมชน Roblox</communityGuidelinesLink> การแชทด้วยเสียงของคุณจึงไม่สามารถใช้งานได้จนถึงวันที่ {date}{lineBreak}{lineBreak}โปรดช่วยรักษา Roblox ให้สนุกด้วยการให้เกียรติผู้อื่น{lineBreak}{lineBreak }คุณสามารถตรวจสอบระยะเวลาที่เหลือได้ใน <privacySettingsLink>การตั้งค่าความเป็นส่วนตัว</privacySettingsLink>"
-  },
-  "voicechatsuspensionmodal_action": {
-    "message": "ฉันเข้าใจแล้ว"
-  },
-
-  // Asking the user to enable 2SV by going to their security settings. This is just for security purposes.
-  "force2svmodal_title": {
-    "message": "{sealEmoji} ต้องการการยืนยันแบบสองขั้นตอน"
-  },
-  "force2svmodal_body": {
-    "message": "เนื่องจากด้านความปลอดภัย คุณต้องเปิดใช้การยืนยันแบบสองขั้นตอนเพื่อใช้ฟีเจอร์นี้{lineBreak}{lineBreak}คุณต้องการไปที่การตั้งค่าความปลอดภัยของบัญชีของคุณหรือไม่?"
-  },
-  "force2svmodal_action": {
-    "message": "โอเค"
-  },
-  "force2svmodal_neutral": {
-    "message": "ยกเลิก"
-  },
-
-  // System feedback shown when cancelling a pending join request from the pending groups list UI
-  "group_pendingrequests_systemfeedback_genericerror": {
-    "message": "ยกเลิกคำขอเข้าร่วมที่รอดำเนินการไม่สำเร็จ , กรุณาลองอีกครั้ง"
-  },
-  "group_pendingrequests_systemfeedback_success": {
-    "message": "ยกเลิกคำขอเข้าร่วมที่รอดำเนินการเรียบร้อยแล้ว"
-  },
-
-  // Modal shown when customizing a folder
-  "group_foldercustomization_modal_title": {
-    "message": "{sealEmoji} ปรับแต่งโฟลเดอร์กลุ่ม"
-  },
-  "group_foldercustomization_modal_field_name": {
-    "message": "ชื่อ"
-  },
-  "group_foldercustomization_modal_lengthtip": {
-    "message": "{length}/{maxLength}"
-  },
-  "group_foldercustomization_modal_field_name_placeholder": {
-    "message": "ชื่อโฟลเดอร์"
-  },
-  "group_foldercustomization_modal_field_color": {
-    "message": "สี"
-  },
-  "group_foldercustomization_modal_action": {
-    "message": "บันทึก"
-  },
-  "group_foldercustomization_modal_neutral": {
-    "message": "ยกเลิก"
-  },
-
-  // Text to show in /transactions to toggle off/on hiding stuff
-  "transactions_hide0robuxamount": {
-    "message": "ซ่อนการทำธุรกรรมด้วยจำนวน 0 โรบัค"
-  },
-  "transactions_hideprivateservers": {
-    "message": "ซ่อนธุรกรรมเซิร์ฟเวอร์ส่วนตัว"
-  },
-
-  // Feature switches sections and subsections
-  "features_section_home": {
-    "message": "หน้าหลัก"
-  },
-  "features_section_home_general": {
-    "message": "ทั่วไป"
-  },
-  "features_section_experiences": {
-    "message": "แมพ"
-  },
-  "features_section_experiences_discover": {
-    "message": "ค้นพบ"
-  },
-  "features_section_experiences_general": {
-    "message": "ทั่วไป"
-  },
-  "features_section_experiences_store": {
-    "message": "ร้านค้า"
-  },
-  "features_section_account": {
-    "message": "บัญชี"
-  },
-  "features_section_account_general": {
-    "message": "ทั่วไป"
-  },
-  "features_section_items": {
-    "message": "ไอเทม"
-  },
-  "features_section_items_general": {
-    "message": "ทั่วไป"
-  },
-  "features_section_items_avatar": {
-    "message": "ไอเทม อวตาร"
-  },
-  "features_section_miscellaneous": {
-    "message": "เบ็ดเตล็ด"
-  },
-  "features_section_miscellaneous_general": {
-    "message": "ทั่วไป"
-  },
-  "features_section_miscellaneous_transactionspage": {
-    "message": "หน้าธุรกรรม"
-  },
-  "features_section_miscellaneous_seals": {
-    "message": "แมวน้ำ"
-  },
-  "features_section_miscellaneous_navbars": {
-    "message": "แถบนำทาง"
-  },
-  "features_section_miscellaneous_avatarshop": {
-    "message": "ร้านค้า"
-  },
-  "features_section_miscellaneous_chat": {
-    "message": "แชท"
-  },
-  "features_section_miscellaneous_messages": {
-    "message": "ข้อความ"
-  },
-  "features_section_users": {
-    "message": "ผู้ใช้"
-  },
-  "features_section_users_friendspage": {
-    "message": "หน้าเพือน"
-  },
-  "features_section_users_profile": {
-    "message": "หน้าโปรไฟล์"
-  },
-  "features_section_groups": {
-    "message": "กลุ่ม"
-  },
-  "features_section_groups_navigation": {
-    "message": "แถบนำทาง"
-  },
-  "features_section_groups_walls": {
-    "message": "ผนังของกลุ่ม"
-  },
-
-  // Feature switches in settings
-  // `_title` = the title of the feature
-  // `_description` = the description of the feature
-  // _sub_ indicates a subfeature
-  "features_RemoveHomePageUnnecessarySorts_title": {
-    "message": "นำ \"สิ่งที่ไม่จำเป็น\" ออกจากการจัดเรียง"
-  },
-  "features_RemoveHomePageUnnecessarySorts_description": {
-    "message": "เมื่อเปิดใช้งาน จะลบการจัดเรียง ออกจากหน้าแรกที่เกี่ยวกับ \"แนะนำสำหรับคุณ\", \"รายการโปรด\", \"เล่นต่อ\", \"แมพที่เพื่อนเล่น\", หรือ \"สปอนเซอร์\""
-  },
-  "features_ForceHomePageGenreExplorer_title": {
-    "message": "บังคับจัดเรียงของหน้าแรกเอา \"สิ่งที่ไม่จำเป็น\" เป็นตัวจัดเรียง"
-  },
-  "features_ForceHomePageGenreExplorer_description": {
-    "message": "เมื่อเปิดใช้งาน ทุกประเภทที่ไม่ตรงกับ \"แนะนำสำหรับคุณ\", \"รายการโปรด\", \"เล่นต่อ\", \"แมพที่เพื่อนเล่น\" หรือ \"สปอนเซอร์\" จะถูกใส่ลงใน \"หมวดหมู่\" ตัวจัดเรียงที่ด้านบนของจัดเรียงหน้าแรก"
-  },
-  "features_RefreshedHomeUserHeader_title": {
-    "message": "รีเฟรชส่วนของผู้ใช้"
-  },
-  "features_RefreshedHomeUserHeader_description": {
-    "message": "เมื่อเปิดใช้งาน จะแสดงส่วนของผู้ใช้เก่าในหน้าแรกโดยมีความแตกต่างกันเล็กน้อย"
-  },
-  "features_RefreshedHomeUserHeader_sub_BasedText_title": {
-    "message": "โอกาส 10% ของข้อความที่เลือกตามบทบาทสาธารณะของคุณ"
-  },
-  "features_RefreshedHomeUserHeader_sub_BirthdayMessage_title": {
-    "message": "ข้อความสุขสันต์วันเกิด"
-  },
-  "features_RefreshedHomeUserHeader_sub_HelloText_title": {
-    "message": "เปิดใช้งานคำทักทาย \"สวัสดี,\""
-  },
-  "features_RefreshedHomeUserHeader_sub_ShowNameType_title": {
-    "message": "เปลี่ยนประเภทชื่อที่ควรจะแสดง"
-  },
-  "features_RefreshedHomeUserHeader_sub_ShowNameType_values_Both": {
-    "message": "ทั้งคู่"
-  },
-  "features_RefreshedHomeUserHeader_sub_ShowNameType_values_DisplayName": {
-    "message": "แสดงชื่อเท่านั้น"
-  },
-  "features_RefreshedHomeUserHeader_sub_ShowNameType_values_Username": {
-    "message": "แสดงชื่อผู้ใช้เท่านั้น"
-  },
-  "features_MoveExperienceSocialLinks_title": {
-    "message": "ย้ายลิงก์โซเชียลของแมพไปยังคำอธิบายของแมพในแท็บเกี่ยวกับ"
-  },
-  "features_AddCommunityWikiButton_title": {
-    "message": "เพิ่มปุ่มเพื่อเยี่ยมชม คอมมูนิตี้ วิกิ ที่ไม่เป็นทางการของ แมพ ในแท็บ เกี่ยวกับ"
-  },
-  "features_AddCommunityWikiButton_description": {
-    "message": "เมื่อเปิดใช้งาน ส่วนขยายจะแสดงปุ่มสำหรับเยี่ยมชมวิกิที่ไม่เป็นทางการซึ่งเป็นส่วนหนึ่งของโครงการ Roblox Interwiki บน Fandom เพื่อรับประสบการณ์ถ้า RoSeal รู้จัก"
-  },
-  "features_RemovePrivateServersSectionInAbout_title": {
-    "message": "ลบส่วนเซิร์ฟเวอร์ส่วนตัวในแท็บเกี่ยวกับ"
-  },
-  "features_DeveloperProductsInExperienceStore_title": {
-    "message": "ไอเทมของนักพัฒนาในแท็บร้านค้าของแมพ"
-  },
-  "features_DeveloperProductsInExperienceStore_description": {
-    "message": "เมื่อเปิดใช้งาน จะแสดงไอเทมของนักพัฒนาในดรอปดาวน์ใต้แท็บ ร้านค้า สร้างหน้าใหม่สำหรับดูรายละเอียดไอเทมของนักพัฒนาซอฟต์แวร์"
-  },
-  "features_ExperienceStoreItemFiltering_title": {
-    "message": "ฟิวเตอร์การกรองในแท็บร้านค้าของ แมพ"
-  },
-  "features_ExperienceStoreItemFiltering_description": {
-    "message": "เมื่อเปิดใช้งาน จะแสดงตัวเลือกฟิลเตอร์เพิ่มเติมในแท็บ เกมพาส และ ไอเทมของผู้พัฒนา ในร้านค้า ของแมพ"
-  },
-  "features_WebsiteOfflineMode_title": {
-    "message": "แสดงเป็นออฟไลน์เมื่ออยู่บนเว็บไซต์เท่านั้น"
-  },
-  "features_WebsiteOfflineMode_description": {
-    "message": "เมื่อเปิดใช้งานจะไม่มีใครรู้ว่าคุณอยู่ในเว็บไซต์เมื่อใด อาจใช้เวลาสักครู่ถึงจะเห็น"
-  },
-  "features_AccountsManager_title": {
-    "message": "จัดการบัญชี"
-  },
-  "features_AccountsManager_description": {
-    "message": "เมื่อเปิดใช้งาน เพิ่มรายการใหม่ในแถบนำทางด้านบนที่เปิดใช้งานป๊อปอัปสำหรับการจัดการบัญชีของคุณ อาจจะทีความเสี่ยง"
-  },
-  "features_ThemeSwitchThroughoutDay_title": {
-    "message": "ซิงค์ธีมเว็บไซต์กับเบราว์เซอร์"
-  },
-  "features_TooltipTimeType_title": {
-    "message": "เปลี่ยนประเภทเวลาของวันที่คำแนะนำเครื่องมือ"
-  },
-  "features_TooltipTimeType_description": {
-    "message": "เมื่อเลือกแล้ว เปลี่ยนวันที่ที่คำแนะนำเครื่องมือ เมื่อพร้อมวันที่จะแสดงเมื่อวางเมาส์เหนือคำแนะนำเครื่องมือ"
-  },
-  "features_TooltipTimeType_values_Disabled": {
-    "message": "ปิดการใช้งาน (ปกติของ Roblox)"
-  },
-  "features_TooltipTimeType_values_Relative": {
-    "message": "คล้ายๆกัน"
-  },
-  "features_TooltipTimeType_values_Absolute": {
-    "message": "ครบถ้วน"
-  },
-  "features_CreatedUpdatedItemsTimeType_title": {
-    "message": "เปลี่ยนประเภทเวลาของฟิลเตอร์ ที่สร้างขึ้น/อัปเดต/รวมถึงในหน้าไอเทม เป็นต้น"
-  },
-  "features_CreatedUpdatedItemsTimeType_description": {
-    "message": "เมื่อเลือกแล้ว ให้เปลี่ยนข้อความ อัปเดต เข้าร่วม หรือ อื่นๆ ในหน้าที่เกี่ยวข้องเป็นรูปแบบเวลาที่คุณเลือก ซึ่งจะเพิ่ม \"สร้าง\", \"อัปเดต\" และ \"เข้าร่วม\" เมื่อจำเป็นในหน้าไอเทม"
-  },
-  "features_CreatedUpdatedItemsTimeType_values_Disabled": {
-    "message": "ปิดใช้งาน"
-  },
-  "features_CreatedUpdatedItemsTimeType_values_Relative": {
-    "message": "เกี่ยวข้องกัน"
-  },
-  "features_CreatedUpdatedItemsTimeType_values_Absolute": {
-    "message": "ครบถ้วน"
-  },
-  "features_CreatedUpdatedItemsTimeType_values_Regular": {
-    "message": "ปกติของ Roblox"
-  },
-  "features_PersistentTransactionsSelection_title": {
-    "message": "การเลือกเมนูแบบเลื่อนลง"
-  },
-  "features_PersistentTransactionsSelection_description": {
-    "message": "เมื่อเปิดใช้งาน ตัวเลือกดรอปดาวน์สุดท้ายของคุณจะยังคงอยู่ แม้จะปิดหน้าไปแล้วก็ตาม อาจเสียหายเมื่อคุณได้รับธุรกรรมใหม่"
-  },
-  "features_BetterRobuxNavigation_title": {
-    "message": "แถบนำทาง โรบัค ที่ดีขึ้น"
-  },
-  "features_BetterRobuxNavigation_description": {
-    "message": "เมื่อเปิดใช้งาน เพิ่มปุ่มบวกถัดจาก โรบัค ในแถบนำทางด้านบนเพื่อเปลี่ยนเส้นทางไปยังการซื้อ โรบัค และเพิ่มธุรกรรมใหม่ในแถบนำทางด้านซ้าย"
-  },
-  "features_MoveAgeBracket_title": {
-    "message": "ย้ายกลุ่มอายุไปที่แถบนำทางด้านซ้าย"
-  },
-  "features_MoveAgeBracket_description": {
-    "message": "เมื่อเปิดใช้งาน ให้ย้ายกลุ่มอายุจากการนำทางด้านบนไปยังแถบนำทางด้านซ้าย และลบรูปโปรไฟล์และชื่อผู้ใช้ออกจากแถบนำทางด้านบน"
-  },
-  "features_DisableDesktopApp_title": {
-    "message": "ลบแบนเนอร์แอปเดสก์ท็อป"
-  },
-  "features_ViewItemIconThumbnailAssets_title": {
-    "message": "เพิ่มลิงก์เพื่อดูเนื้อหาภาพขนาดย่อ/ไอคอนของรายการที่เกี่ยวข้อง"
-  },
-  "features_ViewItemIconThumbnailAssets_description": {
-    "message": "เมื่อเปิดใช้งาน เพิ่มลิงก์ในเมนูบริบทของหน้ารายละเอียดของรายการเพื่อดูเนื้อหาไอคอนของรายการ หากมี นอกจากนี้ยังใช้กับ แมพ ที่เกี่ยวกับรายละเอียดของ แมพนี้"
-  },
-  "features_UserFriendsPageContextMenu_title": {
-    "message": "การดำเนินการด่วนในหน้าเพื่อนของผู้ใช้"
-  },
-  "features_UserFriendsPageContextMenu_description": {
-    "message": "เมื่อเปิดใช้งาน เพิ่มหรือแทนที่เมนูบริบทบนการ์ดเพื่อนในหน้าเพื่อนของผู้ใช้เพื่อดำเนินการอย่างรวดเร็ว การดำเนินการด่วน ได้แก่ การบล็อก เลิกเป็นเพื่อน เลิกติดตาม และบังคับเลิกติดตาม"
-  },
-  "features_UserProfileAddMargins_title": {
-    "message": "เพิ่มช่องว่างในระหว่างส่วนต่างๆ ในหน้าโปรไฟล์ผู้ใช้"
-  },
-  "features_ItemPagesMoveReportAbuse_title": {
-    "message": "ย้ายปุ่มรายงานไปยังเมนูของไอเทม *ถ้ามี"
-  },
-  "features_ItemMentions_title": {
-    "message": "กล่าวถึงผู้ใช้/กลุ่มที่จัดรูปแบบในคำอธิบายรายการ"
-  },
-  "features_ItemMentions_description": {
-    "message": "เมื่อเปิดใช้งาน @ผู้ใช้ ลิงก์ผู้ใช้ และลิงก์กลุ่มจากคำอธิบายรายการจะเปลี่ยนเป็นลิงก์ที่มีภาพประจำตัวประจำตัวหรือภาพขนาดย่อของกลุ่ม"
-  },
-  "features_UserProfileCancelRequest_title": {
-    "message": "ยกเลิกคำขอเป็นเพื่อนในโปรไฟล์"
-  },
-  "features_ListPendingGroups_title": {
-    "message": "แสดงรายการกลุ่มที่มีคำขอเข้าร่วมที่รอดำเนินการในการนำทาง"
-  },
-  "features_ListPendingGroups_description": {
-    "message": "เมื่อเปิดใช้งาน เพิ่มแถบนำทางแท็บด้วย \"รอดำเนินการ\" ไปยังการนำทางของกลุ่ม"
-  },
-  "features_DisableAvatarShopInfiniteScrolling_title": {
-    "message": "ปิดใช้งานการเลื่อนแบบไม่สิ้นสุดของ ร้านค้าอวาตาร์"
-  },
-  "features_DisableGroupWallInfiniteScrolling_title": {
-    "message": "ปิดใช้งานการเลื่อนแบบไม่สิ้นสุดของ ผนังกลุ่ม"
-  },
-  "features_BlockExperiences_title": {
-    "message": "บล็อก แมพ"
-  },
-  "features_BlockExperiences_description": {
-    "message": "เมื่อเปิดใช้งาน เพิ่มรายการใหม่สำหรับการบล็อก แมพ แต่ละรายการและคำหลักไม่ให้แสดงในหน้าทั่วไปบางหน้าในการตั้งค่า RoSeal คุณสามารถบล็อก แมพ แต่ละรายการได้จากเมนูในหน้ารายละเอียดของ แมพ"
-  },
-  "features_ShowExperienceUniverseId_title": {
-    "message": "แสดง Universe ID ของแมพ"
-  },
-  "features_Enable3DThumbnailDynamicLighting_title": {
-    "message": "การใช้แสงไดนามิกภาพขนาดย่อ 3 มิติ"
-  },
-  "features_ChatSortTypes_title": {
-    "message": "ประเภทการจัดเรียงแชท"
-  },
-  "features_ChatSortTypes_description": {
-    "message": "เมื่อเปิดใช้งาน เพิ่มประเภทการจัดเรียงใหม่ในกล่องแชทเพื่อกรองผ่านการสนทนา"
-  },
-  "features_Transactions0RobuxAmountToggle_title": {
-    "message": "ซ่อนธุรกรรมด้วยจำนวน 0 โรบัค"
-  },
-  "features_TransactionsPrivateServersToggle_title": {
-    "message": "ซ่อนธุรกรรมของเซิร์ฟเวอร์ส่วนตัว"
-  },
-  "features_GroupOrganization_title": {
-    "message": "การปรับแต่งกลุ่ม"
-  },
-  "features_GroupOrganization_description": {
-    "message": "เมื่อเปิดใช้งาน อนุญาตให้จัดระเบียบกลุ่มใหม่และสร้างโฟลเดอร์กลุ่มด้วยการลากและวาง โฟลเดอร์กลุ่มสามารถปรับแต่งเพิ่มเติมได้"
-  },
-  "features_BetterExperienceBadges_title": {
-    "message": "แสดงเหรียญตราของแมพที่ดีขึ้น"
-  },
-  "features_BetterExperienceBadges_description": {
-    "message": "เมื่อเปิดใช้งาน เพิ่มแท็บใหม่เพื่อดูรายละเอียดของ แมพ ที่มีรายการเหรียญตราของ แมพ ที่ดีกว่า คุณยังสามารถดูเหรียญตราที่ไม่ได้ใช้งาน วันที่ได้เหรียญตรา และเปรียบเทียบเหรียญตราของคุณกับผู้ใช้รายอื่น อาจจะไม่เสถียรสำหรับ แมพนี้ ที่มีเหรียญตราจำนวนมาก"
-  },
-  "features_BetterExperiencesBadges_sub_FiltersAndSorts_title": {
-    "message": "การกรองเหรียญตราและการเรียงลำดับของ แมพ"
-  },
-  "features_BetterExperiencesBadges_sub_DisableRobloxBadges_title": {
-    "message": "ปิดหน้าเหรียญตราของ Roblox"
-  },
-  "features_UserProfileLastOnline_title": {
-    "message": "แสดงวันที่ออนไลน์ล่าสุด"
-  },
-  "features_ChangeNavFriendsHash_title": {
-    "message": "เปลี่ยนแท็บเพื่อนของผู้ใช้เริ่มต้นจากแถบนำทาง"
-  },
-  "features_ChangeNavFriendsHash_values_friends": {
-    "message": "เพื่อน"
-  },
-  "features_ChangeNavFriendsHash_values_following": {
-    "message": "กำลังติดตาม"
-  },
-  "features_ChangeNavFriendsHash_values_followers": {
-    "message": "ผู้ติดตาม"
-  },
-  "features_ChangeNavFriendsHash_values_friendrequests": {
-    "message": "คำขอเป็นเพื่อน"
-  },
-  "features_HideFriendRequestsCount_title": {
-    "message": "ซ่อนจำนวนคำขอเป็นเพื่อนในแถบนำทาง"
-  },
-  "features_HideMessagesCount_title": {
-    "message": "ซ่อนจำนวนข้อความในแถบนำทาง"
-  },
-  "features_SealImages_title": {
-    "message": "แทนที่ภาพทั้งหมดด้วยภาพแมวน้ำ !"
-  },
-  "features_ExperienceMediaAltTextButton_title": {
-    "message": "ปุ่มข้อความแสดงภาพขนาดย่อขอ แมพ ที่ดีขึ้น"
-  },
-  "features_ShowExperienceAvatarType_title": {
-    "message": "แสดงประเภทอวาตาร์จำกัดใน แมพ ที่หน้าสถิติ"
-  },
-  "features_ShowExperienceAvatarType_sub_ShowAvatarRestriction_title": {
-    "message": "แสดงรายละเอียดเหนือปุ่มเข้าชมหากอวาตาร์อาจจะถูกจำกัด"
-  },
-  "features_AssetDeleteFromInventory_title": {
-    "message": "ปุ่ม \"ลบออกจากกระเป๋า\" ในเมนู"
-  },
-  "features_AssetDeleteFromInventory_description": {
-    "message": "เมื่อเปิดใช้งาน เพิ่ม ปุ่ม \"ลบออกจากกระเป๋า\" ในเมนูรายการไอเทมหากยังไม่มีอยู่ เนื่องจากด้านความปลอดภัย จึงจำเป็นต้องมีการยืนยันแบบสองขั้นตอน"
-  },
-  "features_UserFriendsPageNewTitle_title": {
-    "message": "แสดงชื่อผู้ใช้ในชื่อหน้าเพื่อนของผู้ใช้"
-  },
-  "features_ExperiencePrivateNote_title": {
-    "message": "บันทึกส่วนตัวในหน้าเกี่ยวกับ"
-  },
-  "features_AccountPinPromptMoreLocations_title": {
-    "message": "แสดงรหัส PIN ของบัญชีที่อืน"
-  },
-  "features_AccountPinPromptMoreLocations_description": {
-    "message": "เมื่อเปิดใช้งาน จะแสดงข้อความแจ้งการปลดล็อก PIN ของบัญชีที่อื่น ที่มักจะนำไปยังการตั้งค่าบัญชี"
-  },
-  "features_GetUnreadR2EButton_title": {
-    "message": "ขอปุ่มไฟล์ CSV ที่มีสิทธิ์ในการลบ"
-  },
-  "features_DiscoverFilters_title": {
-    "message": "ฟิลเตอร์การค้นหา"
-  },
-  "features_DiscoverFilters_description": {
-    "message": "เมื่อเปิดใช้งาน เพิ่มส่วนฟิลเตอร์ในหน้าค้นหา อนุญาตให้ฟิลเตอร์ทุกประเภทตามเปอร์เซ็นต์การกดไลค์ จำนวนคนที่ชื่นชอบ จำนวนผู้เล่น จำนวนผู้เข้าชม และตามประเภท"
-  },
-  "features_RoSealSettingDropdown_title": {
-    "message": "\"การตั้งค่าของ RoSeal\" ในดร็อปดาวน์การตั้งค่า Roblox"
-  },
-  "features_AccurateHomeContinueSort_title": {
-    "message": "หน้าหลักที่ไม่มีแมพที่ \"เล่นต่อ\" ในรายการ"
-  },
-  "features_CSSFixes_title": {
-    "message": "แก้ไขสไตล์ (CSS) ต่างๆ ทั่วไซต์"
-  },
-  "features_MoveExperienceEvents_title": {
-    "message": "ย้ายกิจกรรมของ แมพ ไปที่แท็บของตัวเอง"
-  },
-  "features_RefreshlessGroupNavigation_title": {
-    "message": "แถบการนำทางของกลุ่มที่ไม่รีเฟรชหน้า"
-  },
-  "features_RefreshlessGroupNavigation_description": {
-    "message": "เมื่อเปิดใช้งาน การนำทางไปยังกลุ่มอื่นจากองค์กรกลุ่ม/กลุ่มที่รอดำเนินการจะไม่ต้องการการรีเฟรชหน้า"
-  },
-  "features_ItemAdditionalProductInfo_title": {
-    "message": "แสดงข้อมูลไอเทมเพิ่มเติม"
-  },
-  "features_RefreshAvatarItemDetails_title": {
-    "message": "ปุ่มรีเฟรชรายละเอียดไอเทมอวาตาร์"
-  },
-  "features_MarketplaceColorFilters_title": {
-    "message": "ตัวกรองสีของตลาด"
-  },
-  "features_RefreshAvatarItemDetails_sub_FastFreeBuy_title": {
-    "message": "การซื้อไอเทมอวาตาร์ฟรีอย่างรวดเร็ว"
-  },
-  "features_RemoveFriendActivityLabel_title": {
-    "message": "นำ \"แมพที่เพื่อนเล่น\" ออกจากรายการแมพ"
-  },
-  "features_RemoveHomePhoneNumberUpsell_title": {
-    "message": "ลบหมายเลขโทรศัพท์ออกจากหน้าแรก"
-  },
-  "features_UserProfileForceUnfollow_title": {
-    "message": "ปุ่ม \"บังคับเลิกติดตาม\" จะอยู่ในเมนูส่วนหัวของโปรไฟล์ผู้ใช้"
-  },
-  "features_JailbrokenHomeFavoritesSort_title": {
-    "message": "ระบุแมพที่ชื่นชอบทั้งหมดในหน้าหลัก จัดเรียงตาม \"รายการโปรด\""
-  },
-  "features_PutHomeFavoritesSortAtTop_title": {
-    "message": "ทำให้ \"รายการโปรด\" อยู่ด้านบนของหน้าหลัก"
-  },
-  "features_ShowVoiceChatSuspension_title": {
-    "message": "แสดงรายละเอียดการระงับการแชทด้วยเสียงและวันที่แบบเต็ม"
-  },
-  "features_ShowVoiceChatSuspension_description": {
-    "message": "เมื่อเปิดใช้งาน จะแสดงรายละเอียดการระงับการแชทด้วยเสียงในรูปแบบกล่องข้อความในทุกหน้าหากผู้ใช้ยังไม่ได้รับแจ้ง นอกจากนี้ยังจะเพิ่มระยะเวลาการระงับทั้งหมดในหน้าการตั้งค่าบัญชีความเป็นส่วนตัว"
-  },
-  "features_SearchByCreatorButton_title": {
-    "message": "ค้นหาไอเทมเพิ่มเติมโดยปุ่มผู้สร้างไอเทม"
-  },
-  "features_PrivateServerLinksSection_title": {
-    "message": "\"ลิงก์เซิร์ฟเวอร์ส่วนตัว\" ในแท็บเซิร์ฟเวอร์"
-  },
-  "features_PrivateServerLinksSection_description": {
-    "message": "เมื่อเปิดใช้งาน จะเพิ่ม \"ลิงก์เซิร์ฟเวอร์ส่วนตัว\" ในแท็บเซิร์ฟเวอร์ คุณสามารถเพิ่มลิงก์เซิร์ฟเวอร์ส่วนตัวและนำเข้าจาก/ส่งออกไปยังไฟล์ข้อมูลได้"
-  },
-  "features_PrivateServerLinksSection_sub_TryResolveOwner_title": {
-    "message": "พยายามแก้ไขเจ้าของเซิร์ฟเวอร์ส่วนตัวโดยอัตโนมัติ"
-  },
-  "features_BadgeMoreStatistics_title": {
-    "message": "เพิ่มสถิติเหรีญตราเพิ่มเติมในหน้าเหรีญตรา"
-  },
-  "features_ErrorShowMachineID_title": {
-    "message": ""
-  },
-
-  "popup_extensionname": {
-    "message": "{sealEmoji} RoSeal"
-  },
-  // Actions to go to RoSeal social/settings
-  "popup_actions_robloxgroup": {
-    "message": "กลุ่ม Roblox"
-  },
-  "popup_actions_settings": {
-    "message": "การตั่งค่า"
-  },
-  "popup_actions_website": {
-    "message": "เว็บไซต์"
-  },
-
-  // RoSeal optional permissions section
-  "popup_permissions": {
-    "message": "สิทธิ์เพิ่มเติม"
-  },
-  "popup_permissions_cookie": {
-    "message": "คุกกี้"
-  },
-  // Tooltip shown when hovering over the questionmark next to "Cookies"
-  "popup_permissions_cookietooltip": {
-    "message": "กรุณาให้สิทธิ์นี้หากคุณต้องการใช้ตัวจัดการบัญชี คุณสามารถนำการอนุญาตนี้ออกได้ตลอดเวลา"
-  },
-
-  // Popup data managemenet
-  "popup_extensiondata_show": {
-    "message": "แสดง"
-  },
-  "popup_extensiondata_hide": {
-    "message": "ซ่อน"
-  },
-  "popup_extensiondata": {
-    "message": "ข้อมูลส่วนขยาย"
-  },
-  "popup_extensiondata_download": {
-    "message": "ดาวน์โหลดข้อมูล"
-  },
-  "popup_extensiondata_request": {
-    "message": "ขอข้อมูล"
-  },
-  "popup_extensiondata_import": {
-    "message": "นำเข้า"
-  },
-  // Success shown when it successfully imported and parsed the data file
-  "popup_extensiondata_import_alert_success": {
-    "message": "นำเข้าข้อมูลสำเร็จ"
-  },
-  // Error shown when it cannot parse the data file
-  "popup_extensiondata_import_alert_error": {
-    "message": "กรุณาลองอีกครั้งด้วยไฟล์ข้อมูลที่ถูกต้อง"
-  },
-
-  // Display in the RoSeal popup and in settings.
-  "buymeacoffee": {
-    "message": "{coffeeEmoji} ซื้อกาแฟให้หน่อย"
-  }
+    // For details on what to translate, see README.md file
+
+    // Name and description that appears on all stores, and in chrome://extensions
+    "manifest_name": {
+        "message": "RoSeal - เพิ่มประสบการณ์การใช้ Roblox"
+    },
+    "manifest_description": {
+        "message": "เพิ่มประสบการณ์การใช้เว็บไซต์ Roblox และ ยังมีแมวน้ำอีกด้วยนะ"
+    },
+
+    // Popover dropdown menu for the roseal item
+    "robloxsettings_popover_roseal": {
+        "message": "{sealEmoji} การตั้งค่า RoSeal"
+    },
+
+    // Appears in the RoSeal settings, "Beta" and "Experimental" labels
+    "beta_feature_label": {
+        "message": "เบต้า"
+    },
+    "experimental_feature_label": {
+        "message": "โหมดทดลอง"
+    },
+
+    "errorpage_machineid": {
+        "message": ""
+    },
+
+    // the 404 error page that appears if request is not valid.
+    // currently, it's only used by the developer product 404 page
+    "errorpage_404_title": {
+        "message": "ไม่พบหน้านี้ หรือ ไม่สามารถเข้าถึงหน้านี้ได้แล้ว"
+    },
+    "errorpage_404_message": {
+        "message": "{sealEmoji} 404 <span>|</span>ไม่พบหน้านี้"
+    },
+    "errorpage_back": {
+        "message": "กลับ"
+    },
+    "errorpage_back_title": {
+        "message": "กลับไปหน้าก่อนหน้า"
+    },
+    "errorpage_home": {
+        "message": "หน้าหลัก"
+    },
+    "errorpage_home_title": {
+        "message": "กลับไปหน้าหลัก"
+    },
+
+    // Hello variant of the home header feature
+    "homeheader_hellotext": {
+        "message": "สวัสดี !, {displayName}"
+    },
+
+    // "RoSeal Settings" item label in the roblox settings navigation list
+    "robloxsettings_selection_roseal": {
+        "message": "การตั้งค่า RoSeal"
+    },
+
+    // RoSeal settings titles
+    "settings_title": {
+        "message": "การตั้งค่า {sealEmoji}RoSeal"
+    },
+    "settings_return": {
+        "message": "กลับไปที่การตั้งค่า Roblox"
+    },
+
+    // "About" selection in menu and title
+    "settings_selection_about": {
+        "message": "เกี่ยวกับ RoSeal"
+    },
+    "settings_about_description": {
+        "message": "<bold>RoSeal</bold> เป็นส่วนขยาย Roblox พร้อมฟีเจอร์ที่หลากหลายและสามารถปรับแต่งได้อย่างอิสระ โดย ใช้งานได้ฟรี,ไม่มีการติดตาม และ ยังมีแมวน้ำอีกด้วย!"
+    },
+    // under13 is for 13- users over13 is for 13+. this is to prevent exposing discord to underage users
+    "settings_about_media_under13": {
+        "message": "นี้คือ คอมมูนิตี้ <groupLink>กลุ่ม Roblox</groupLink> สำหรับส่วนขยายนี้"
+    },
+    "settings_about_media_over13": {
+        "message": "นี้คือ คอมมูนิตี้ <groupLink>กลุ่ม Roblox</groupLink> และ <discordLink>กลุ่ม ดิสคอร์ด</discordLink> สำหรับส่วนขยายนี้"
+    },
+
+    // "Credits" selection tab in menu and title
+    "settings_about_credits_header": {
+        "message": "เครดิต"
+    },
+    "settings_about_credits_Julli4n": {
+        "message": "<link>Julli4n</link> - หัวหน้าผู้พัฒนา"
+    },
+    "settings_about_credits_Karasuneth": {
+        "message": "<link>Karasuneth</link> - คนออกแบบไอคอนดั้งเดิม"
+    },
+    "settings_about_credits_MaciejCreates": {
+        "message": "<link>MaciejCreates</link> - คนออกแบบไอคอน"
+    },
+
+    // "Feature Switches" selection tab in menu and title
+    "settings_about_featureswitches_header": {
+        "message": "ปรับฟีเจอร์ต่างๆ"
+    },
+    "settings_about_featureswitches_description": {
+        "message": "ปรับฟีเจอร์ได้อย่างรวดเร็วและสามารถเปิดและปิดฟีเจอร์ของ RoSeal ได้อย่างอิสระ"
+    },
+    "settings_about_featureswitches_beta": {
+        "message": "<label>เบต้า</label> ฟีเจอร์ยังไม่พร้อมให้ใช้งานตอนนี้ , อย่างไรก็ตาม ก็ยังไม่ความเสียงที่น้อยในการใช้งาน และ ทุกๆคนสามารถแสดงความคิดกับฟีเจอร์ได้"
+    },
+    "settings_about_featureswitches_experimental": {
+        "message": "<label>โหมดทดลอง</label> ฟีเจอร์นี้ยังไม่พ้อมใช้งาน และอาจจะ ไม่เสถียร หรือ เป็นการทดสอบฟีเจอร์ก่อนที่จะนำมาใช้ , ข้อควรระวัง : ห้ามเปิดฟีเจอร์นี้เด็ดขาดหากคุณยังไม่รู้ว่ามันทำอะไรได้ เตือนแล้วนะ !"
+    },
+
+    // "Donate" selection tab in menu and title
+    "settings_selection_donate": {
+        "message": "โดเนท"
+    },
+    "settings_donate_description": {
+        "message": "สวัสดีฉันชื่อ, <bold>Julli4n</bold>, ไม่ได้รายได้จากการพัฒนาเลย หากคุณชอบใช้ส่วนขยายนี้คุณสามารถโดเนทได้ คุณจะไม่ได้รับอะไรนอกจากคำขอบคุณ{lineBreak}{lineBreak}ลิ้งค์นี้จำพาคุณไปที่ BuyMeACoffee เป็นไซต์ภายนอกที่ใช้สำหรับการโดเนท"
+    },
+
+    // selected tab
+    "settings_selection_featureswitches": {
+        "message": "ปรับฟีเจอร์ต่างๆ"
+    },
+    // feature switch details
+    // a feature switch is disabled primarily remotely
+    "settings_featureswitches_featureswitch_disabled": {
+        "message": "ฟีเจอร์นี้ถูกปิดใช้งานโดย RoSeal"
+    },
+    // when we deprecate a feature because it is no longer useful, or Roblox has their own solution now
+    "settings_featureswitches_featureswitch_deprecated": {
+        "message": "ฟีเจอร์นี้ <bold>เลิกใช้แล้ว</bold> แนะนำให้หาวิธีอื่นกับ RoSeal หรือใช้ฟีเจอร์ดั้งเดิมบนเว็บไซต์ Roblox"
+    },
+    // not used atm, but will be if we ever add support for Safari or add firefox-exclusive features.
+    // "browsers" is a comma-separated list of browsers
+    "settings_featureswitches_featureswitch_exclusivebrowsers": {
+        "message": "ฟีเจอร์พิเศษสำหรับผู้ใช้เบราว์เซอร์ต่อไปนี้: {browsers}"
+    },
+    "settings_featureswitches_featureswitch_permissions_title": {
+        "message": "ฟีเจอร์นี้ต้องการการอนุญาติ"
+    },
+    "settings_featureswitches_featureswitch_permissions_values_Cookies": {
+        "message": "คุกกี้"
+    },
+    "settings_featureswitches_featureswitch_permissions_subtext": {
+        "message": "การอนุญาติสามารถทำได้ใน หน้าฟีเจอร์ของ RoSeal:"
+    },
+    "settings_featureswitches_featureswitch_permissions_openoptions": {
+        "message": "เปิด"
+    },
+    // "Associated Storage" is basically just storage stored from the feature, i.e. Roblox accounts with accounts manager
+    "settings_featureswitches_featureswitch_removeassociatedstorage": {
+        "message": "ล้างข้อมูลที่เกี่ยวกับฟีเจอร์"
+    },
+    // System feedback messages
+    "settings_featureswitches_featureswitch_removeassociatedstorage_systemfeedback_success": {
+        "message": "ล้างข้อมูลที่เกี่ยวกับฟีเจอร์นี้สำเร็จ"
+    },
+    "settings_featureswitches_featureswitch_removeassociatedstorage_systemfeedback_error": {
+        "message": "เกิดข้อผิดพลาดขณะล้างข้อมูลที่เกี่ยวกับฟีเจอร์นี้ , กรุณาลองอีกครั้ง"
+    },
+
+    // "Blocked Experiences" selection tab in menu and title
+    "settings_selection_blockedexperiences": {
+        "message": "บล็อก แมพ"
+    },
+    "settings_blockedexperiences_keywords_title": {
+        "message": "บล็อก คีย์เวิร์ด"
+    },
+    "settings_blockedexperiences_keywords_description": {
+        "message": "คีย์เวิร์ดสามารถ เพิ่ม และ ลบ จะบล็อก แมพ ที่มีชื่อเหมือนกับ คีย์เวิร์ด ได้ , แมพ เหลานี้จะไม่แสดงในหน้าทั่วไป"
+    },
+    "settings_blockedexperiences_keywords_count": {
+        "message": "คุณกำลังบล็อก {keywordsNum} จาก {keywordsMax} คีย์เวิร์ดของ แมพ ที่อนุญาต:"
+    },
+    // No experience keywords blocked
+    "settings_blockedexperiences_keywords_nokeywords": {
+        "message": "เพิ่ม คีย์เวิร์ด อันแรกของคุณ เพื่อบล็อก"
+    },
+    "settings_blockedexperiences_keywords_inputplaceholder": {
+        "message": "เพิ่ม คีย์เวิร์ด..."
+    },
+    "settings_blockedexperiences_keywords_add": {
+        "message": "เพิ่ม"
+    },
+    "settings_blockedexperiences_keywords_keyword_remove": {
+        "message": "นำออก"
+    },
+
+    // Blocked Experiences section
+    "settings_blockedexperiences_individualexperiences_title": {
+        "message": "แมพ โดนบล็อกโดยผู้ใช้"
+    },
+    "settings_blockedexperiences_individualexperiences_description": {
+        "message": "แต่ละแมพสามารถบล็อก และ ยกเลิกการบล็อก ได้จากเมนูของแต่ละ แมพ , แมพ เหลานี้จะไม่แสดงในหน้าทั่วไป"
+    },
+    "settings_blockedexperiences_individualexperiences_count": {
+        "message": "คุณกำลังบล็อก {experiencesNum} จาก {experiencesMax} แมพ ที่อนุญาติ:"
+    },
+    // No experiences blocked
+    "settings_blockedexperiences_individualexperiences_noexperiences": {
+        "message": "เมื่อคุณบล็อก แมพ, แมพนั้นจะมาอยู่ที่นี้"
+    },
+    "settings_blockedexperiences_individualexperiences_experience_universeid": {
+        "message": "Universe ID ของแมพ: {universeId}"
+    },
+    "settings_blockedexperiences_individualexperiences_experience_unblock": {
+        "message": "ยกเลิกการบล็อก"
+    },
+
+    // Hide/show a blocked expiernece section, like keywords or individual ones
+    "settings_blockedexperiences_section_hide": {
+        "message": "ซ่อน"
+    },
+    "settings_blockedexperiences_section_show": {
+        "message": "แสดง"
+    },
+
+    // Account Settings dropdown strings
+    "accountsmanager_entry_login_disabled": {
+        "message": "เข้าสู้ระบบแล้ว"
+    },
+    "accountsmanager_entry_login": {
+        "message": "เข้าสู้ระบบ"
+    },
+    "accountsmanager_entry_logout": {
+        "message": "นำออก"
+    },
+    "accountsmanager_title": {
+        "message": "{sealEmoji} จัดการบัญชี"
+    },
+    "accountsmanager_noaccounts": {
+        "message": "คุณยังไม่มีบัญชี , เพิ่มบัญชีของคุณ เพื่อ เริ่มต้น"
+    },
+    // Not logged in text
+    "accountsmanager_noaccounts_disabled": {
+        "message": "คุณยังไม่มีบัญชี , ล็อกอิน และ เพิ่มบัญชีของคุณ เพื่อ เริ่มต้น"
+    },
+    "accountsmanager_maxaccounts": {
+        "message": "คุณมีบัญชีถึงจำนวนจำกัดแล้ว ({accountLimit})"
+    },
+    // Message to show if Accounts Manager is deprecated. we're not sure if it ever will be but given that
+    // there are new translations on the Roblox website hinting to an account switcher feature, this will be here just in case
+    "accountsmanager_deprecated": {
+        "message": "การจัดการบัญชีนี้ เลิกใช้แล้ว โปรดใช้หน้าการสลับบัญชี Roblox ดั้งเดิมจาก \"การสลับบัญชี\" ใต้การตั้งค่าแบบเลื่อนลงแทน"
+    },
+    // Please don't mess this up.
+    "accountsmanager_addaccount": {
+        "message": "คุณสามารถเพิ่ม {moreAccounts, plural, =1 {1 more account.} อื่นๆ {# more accounts.}} ({accountsNum}/{accountLimit})"
+    },
+    "accountsmanager_actions_addcurrentaccount": {
+        "message": "เพิ่มบัญชีที่มีอยู่ตอนนี้"
+    },
+    "accountsmanager_actions_clearcurrentcookie": {
+        "message": "ออกจากระบบ"
+    },
+
+    // System feedbacks shown when there's an error/success message
+    "accountsmanager_success_AddCurrentRobloxAccount": {
+        "message": "เพิ่มบัญชี Roblox ที่มีอยู่ไปยัง รายการ สำเร็จ"
+    },
+    "accountsmanager_success_LogoutRobloxAccount": {
+        "message": "ยกเลิกการใช้เซสชัน และ นำบัญชี Roblox ออกจากรายการ สำเร็จ"
+    },
+    "accountsmanager_error_UnknownError": {
+        "message": "เกิดข้อผิดพลาดที่ไม่รู้จัก , กรุณาลองอีกครั้งในภายหลัง"
+    },
+    "accountsmanager_error_EndpointError": {
+        "message": "เกิดข้อผิดพลาดขณะพยายามยกเลิกการใช้เซสชัน , กรุณาลองอีกครั้งในภายหลัง"
+    },
+    "accountsmanager_error_InvalidAccount": {
+        "message": "บัญชีไม่ถูกต้อง , กรุณารีเฟรชหน้านี้ใหม่"
+    },
+    "accountsmanager_error_NoCookiePermission": {
+        "message": "RoSeal ยังไม่ได้รับอนุญาคิให้จัดการกับ cookies ของเบราว์เซอร์ , กรุณาอนุญาคิในหน้า รายการของ RoSeal"
+    },
+
+    // The context menu "..." item that appears in the item dropdown menu to view the icon asset
+    "experience_contextmenu_viewiconasset": {
+        "message": "ดูรูปไอคอน"
+    },
+
+    // "Private Servre Links" section
+    "experience_privateserverlinks_title": {
+        "message": "ลิงค์เซิร์ฟเวอร์ส่วนตัว"
+    },
+    // Button to see more private server links
+    "experience_privateserverlinks_seemore": {
+        "message": "ดูเพิ่มเติม"
+    },
+    // Button to see less private server links
+    "experience_privateserverlinks_seeless": {
+        "message": "ดูน้อยลง"
+    },
+    // Tooltip hover message next to the title
+    "experience_privateserverlinks_titletooltip": {
+        "message": "ช่วยให้คุณเก็บเซิร์ฟเวอร์ส่วนตัวสำหรับแมพนี้จากลิงก์หรือนำเข้าไฟล์ และจะแจ้งเตือนเมื่อลิงก์เซิร์ฟเวอร์ส่วนตัวใช้ไม่ได้แล้ว"
+    },
+    "experience_privateserverlinks_noservers": {
+        "message": "ไม่พบลิงก์เซิร์ฟเวอร์ส่วนตัว"
+    },
+    // "Add" button that will open the "Add Private Server Link" dialog
+    "experience_privateserverlinks_actions_add": {
+        "message": "เพิ่ม"
+    },
+    // "Import" button that will open the "Import Private Server Links" dialog
+    "experience_privateserverlinks_actions_import": {
+        "message": "นำเข้า"
+    },
+    // this will have a .json file extension
+    "experience_privateserverlinks_exportfilename": {
+        "message": "{placeName} เซิร์ฟเวอร์ส่วนตัว"
+    },
+    // "Export" button that will download the "{placeName} Private Servers.json file"
+    "experience_privateserverlinks_actions_export": {
+        "message": "ส่งออก"
+    },
+    // When the creator is listed as "No One", no creator is set
+    "experience_privateserverlinks_privateserver_noone": {
+        "message": "ไม่มีใคร"
+    },
+    // Updated time
+    "experience_privateserverlinks_privateserver_updated": {
+        "message": "อัพเดท {time}"
+    },
+    // Shows up as red text "Invalid" if server is invalid now
+    "experience_privateserverlinks_privateserver_invalid": {
+        "message": "ไม่ถูกต้อง"
+    },
+    // Context menu items
+    "experience_privateserverlinks_privateserver_contextmenu_copylink": {
+        "message": "คัดลอกลิงค์"
+    },
+    "experience_privateserverlinks_privateserver_contextmenu_remove": {
+        "message": "ลบ"
+    },
+    "experience_privateserverlinks_privateserver_contextmenu_update": {
+        "message": "อัพเดท"
+    },
+    // Bottom button that switches between "Remove" and "Join"
+    // - join if valid, remove if not
+    "experience_privateserverlinks_privateserver_remove": {
+        "message": "ลบ"
+    },
+    "experience_privateserverlinks_privateserver_join": {
+        "message": "เข้าร่วม"
+    },
+
+    // Import private servers from file modal
+    "experience_privateserverlinks_importprivateserversmodal_title": {
+        "message": "{sealEmoji} นำเข้าลิงก์เซิร์ฟเวอร์ส่วนตัว"
+    },
+    "experience_privateserverlinks_importprivateserversmodal_filteredcount": {
+        "message": "เซิร์ฟเวอร์ส่วนตัว {filtered} จาก {total} รายการมีลิงก์ที่ไม่ถูกต้องหรือซ้ำกัน"
+    },
+    "experience_privateserverlinks_importprivateserversmodal_importinfo": {
+        "message": "คุณต้องการนำเข้า {total, plural, =1 {private server} other {# private servers}} ต่อไปนี้:"
+    },
+    "experience_privateserverlinks_importprivateserversmodal_instructiontext_drag": {
+        "message": "ลากไฟล์ข้อมูลมาที่นี่"
+    },
+    "experience_privateserverlinks_importprivateserversmodal_instructiontext_or": {
+        "message": "หรือ"
+    },
+    "experience_privateserverlinks_importprivateserversmodal_instructiontext_select": {
+        "message": "เลือกไฟล์ข้อมูลจากคอมพิวเตอร์ของคุณ"
+    },
+    // Import error messages
+    "experience_privateserverlinks_importprivateserversmodal_importerror_invalid": {
+        "message": "กรุณาใช้ไฟล์ข้อมูล (.json) ที่ถูกต้อง"
+    },
+    "experience_privateserverlinks_importprivateserversmodal_importerror_unknown": {
+        "message": "เกิดข้อผิดพลาดที่ไม่รู้จักขณะอ่านไฟล์ข้อมูล"
+    },
+    "experience_privateserverlinks_importprivateserversmodal_importerror_unknowncheck": {
+        "message": "เกิดข้อผิดพลาดที่ไม่รู้จักขณะตรวจสอบลิงก์เซิร์ฟเวอร์ส่วนตัว"
+    },
+    "experience_privateserverlinks_importprivateserversmodal_importerror_allinvalid": {
+        "message": "ลิงก์เซิร์ฟเวอร์ส่วนตัวทั้งหมดในไฟล์ข้อมูลไม่ถูกต้อง"
+    },
+    "experience_privateserverlinks_importprivateserversmodal_importerror_allduplicate": {
+        "message": "ลิงก์เซิร์ฟเวอร์ส่วนตัวทั้งหมดในไฟล์ข้อมูลนั้นซ้ำกัน"
+    },
+    "experience_privateserverlinks_importprivateserversmodal_importerror_invalidformat": {
+        "message": "ไฟล์ข้อมูลอยู่ในรูปแบบที่ไม่ถูกต้อง"
+    },
+    // Modal actions
+    "experience_privateserverlinks_importprivateserversmodal_action": {
+        "message": "นำเข้า"
+    },
+    "experience_privateserverlinks_importprivateserversmodal_neutral": {
+        "message": "ยกเลิก"
+    },
+
+    // Remove private server modal
+    "experience_privateserverlinks_removeprivateservermodal_title": {
+        "message": "{sealEmoji} ลบลิงก์เซิร์ฟเวอร์ส่วนตัว"
+    },
+    "experience_privateserverlinks_removeprivateservermodal_body": {
+        "message": "คุณแน่ใจหรือไม่ว่าต้องการลบลิงก์เซิร์ฟเวอร์ส่วนตัวนี้"
+    },
+    "experience_privateserverlinks_removeprivateservermodal_action": {
+        "message": "ลบ"
+    },
+    "experience_privateserverlinks_removeprivateservermodal_neutral": {
+        "message": "ยกเลิก"
+    },
+
+    // add private server link modal
+    "experience_privateserverlinks_addprivateservermodal_title": {
+        "message": "{sealEmoji} เพิ่มลิงก์เซิร์ฟเวอร์ส่วนตัว"
+    },
+    "experience_privateserverlinks_addprivateservermodal_fromlink": {
+        "message": "ดูเหมือนว่าคุณมาจากลิงก์เซิร์ฟเวอร์ส่วนตัวที่ไม่รู้จัก คุณต้องการเพิ่มไหม?"
+    },
+    // Label for server name text field input
+    "experience_privateserverlinks_addprivateservermodal_name": {
+        "message": "ชื่อ"
+    },
+    "experience_privateserverlinks_addprivateservermodal_nameplaceholder": {
+        "message": "ชื่อเซิร์ฟเวอร์"
+    },
+    // Text that appears bottom right of the input
+    "experience_privateserverlinks_addprivateservermodal_namelength": {
+        "message": "{length}/{maxLength}"
+    },
+    // Server link label
+    "experience_privateserverlinks_addprivateservermodal_link": {
+        "message": "ลิ้งค์"
+    },
+    // Server owner label
+    "experience_privateserverlinks_addprivateservermodal_owner": {
+        "message": "เป็นเจ้าของ"
+    },
+    // Below the server owner input to the right
+    "experience_privateserverlinks_addprivateservermodal_owneroptional": {
+        "message": "(ไม่จำเป็น)"
+    },
+    // Server link errors
+    "experience_privateserverlinks_addprivateservermodal_linkerror_invalid": {
+        "message": "ลิงก์ที่คุณระบุไม่ถูกต้อง"
+    },
+    "experience_privateserverlinks_addprivateservermodal_linkerror_unknown": {
+        "message": "เกิดข้อผิดพลาดที่ไม่รู้จักขณะตรวจสอบสถานะลิงก์"
+    },
+    "experience_privateserverlinks_addprivateservermodal_linkerror_duplicate": {
+        "message": "มีเซิร์ฟเวอร์ส่วนตัวที่มีลิงก์นี้อยู่แล้ว: \"{name}\""
+    },
+    // modal buttons
+    "experience_privateserverlinks_addprivateservermodal_action": {
+        "message": "เพิ่ม"
+    },
+    "experience_privateserverlinks_addprivateservermodal_neutral": {
+        "message": "ยกเลิก"
+    },
+
+    // update private server link modal
+    // this is very similar to add
+    "experience_privateserverlinks_updateprivateservermodal_title": {
+        "message": "{sealEmoji} อัปเดตลิงก์เซิร์ฟเวอร์ส่วนตัว"
+    },
+    // Label for server name text field input
+    "experience_privateserverlinks_updateprivateservermodal_name": {
+        "message": "ชื่อ"
+    },
+    "experience_privateserverlinks_updateprivateservermodal_nameplaceholder": {
+        "message": "ชื่อเซิร์ฟเวอร์"
+    },
+    // Text that appears bottom right of the input
+    "experience_privateserverlinks_updateprivateservermodal_namelength": {
+        "message": "{length}/{maxLength}"
+    },
+    // Server link label
+    "experience_privateserverlinks_updateprivateservermodal_link": {
+        "message": "ลิ้งค์"
+    },
+    // Server link errors
+    "experience_privateserverlinks_updateprivateservermodal_linkerror_invalid": {
+        "message": "ลิงก์ที่คุณระบุไม่ถูกต้อง"
+    },
+    "experience_privateserverlinks_updateprivateservermodal_linkerror_unknown": {
+        "message": "เกิดข้อผิดพลาดที่ไม่รู้จักขณะตรวจสอบสถานะลิงก์"
+    },
+    "experience_privateserverlinks_updateprivateservermodal_linkerror_duplicate": {
+        "message": "มีเซิร์ฟเวอร์ส่วนตัวที่มีลิงก์นี้อยู่แล้ว: \"{name}\""
+    },
+    // Server owner label
+    "experience_privateserverlinks_updateprivateservermodal_owner": {
+        "message": "เป็นเจ้าของ"
+    },
+    // Below the server owner input to the right
+    "experience_privateserverlinks_updateprivateservermodal_owneroptional": {
+        "message": "(ไม่จำเป็น)"
+    },
+    // modal buttons
+    "experience_privateserverlinks_updateprivateservermodal_action": {
+        "message": "อัพเดท"
+    },
+    "experience_privateserverlinks_updateprivateservermodal_neutral": {
+        "message": "ยกเลิก"
+    },
+
+    // The context menu "..." item that appears in the experience dropdown menu to unblock/block the target experience
+    "experience_contextmenu_unblock": {
+        "message": "ยกเลิกการบล็อก"
+    },
+    "experience_contextmenu_block": {
+        "message": "บล็อก"
+    },
+
+    // "Universe ID {number}" text under About
+    "experience_universeid": {
+        "message": "Universe ID ของแมพ"
+    },
+
+    // The asset's numeric product ID
+    "generalasset_productid": {
+        "message": "ไอดีไอเทม"
+    },
+    // The collectible item UUID ID
+    "collectibleasset_collectibleitemid": {
+        "message": "ไอดีของลิมิเต็ด"
+    },
+    // The collectible product UUID ID
+    "collectibleasset_collectibleproductid": {
+        "message": "ไอดีไอเทมของของลิมิเต็ด"
+    },
+
+    // The developer product's numeric product ID
+    "developerproduct_productid": {
+        "message": "ไอดีไอเทม"
+    },
+
+    // "Refresh Item Details" tooltip when hovering over the refresh icon under the three dots (...)
+    "avataritem_refreshdetails": {
+        "message": "รีเฟรชข้อมูลไอเทม"
+    },
+
+    // "Refresh Item Details" tooltip when hovering over the search icon next to the creator name
+    "avataritem_searchbycreator": {
+        "message": "ค้นหาไอเทมโดยผู้สร้างคนนี้"
+    },
+
+    // The pass's numeric product ID field
+    "pass_productid": {
+        "message": "ไอดีไอเทม"
+    },
+
+    // The bundle's numeric product ID field
+    "bundle_productid": {
+        "message": "ไอดีไอเทม"
+    },
+
+    // Text to show if an experience is blocked, and to view it anyways
+    "experience_blocked_title": {
+        "message": "แมพที่โดนบล็อก"
+    },
+    "experience_blocked_viewanyway": {
+        "message": "ดูต่อไป"
+    },
+
+    // Dropdown selections for "Passes" and "Developer Products"
+    "experience_store_selection_passes": {
+        "message": "เกมพาส"
+    },
+    "experience_store_selection_developerproducts": {
+        "message": "ไอเทมของผู้พัฒนา"
+    },
+
+    // Developer products section
+    // filtering options
+    "experience_developerproducts_filtering_offsale": {
+        "message": "แสดงไอเทมที่ไม่ได้ขาย"
+    },
+    "experience_developerproducts_filtering_onsale": {
+        "message": "แสดงไอเทมที่เปิดขาย"
+    },
+    // Errors/no developer products
+    "experience_developerproducts_genericerror": {
+        "message": "เกิดข้อผิดพลาดขณะพยายามรับข้อมูลไอเทมของผู้พัฒนา , กรุณาลองอีกครั้ง"
+    },
+    "experience_developerproducts_nodeveloperproducts": {
+        "message": "ไม่มีไอเทมของผู้พัฒนาที่ใช้งานได้"
+    },
+    // Indicates that there is none from your search from the filters, but can change if filtering options are changed
+    "experience_developerproducts_nodeveloperproductsfiltered": {
+        "message": "ไม่มีไอเทมของผู้พัฒนาที่คุณค้นหา"
+    },
+
+    // Experience passes stuff, we discard roblox's version and remake all of it
+    // filtering stuff
+    "experience_passes_filtering_offsale": {
+        "message": "รวมไอเทมที่ไม่ได้ขาย"
+    },
+    "experience_passes_filtering_onsale": {
+        "message": "รวมไอเทมที่เปิดขาย"
+    },
+    "experience_passes_filtering_unowned": {
+        "message": "รวมไอเทมที่ไม่ได้เป็นเจ้าของ"
+    },
+    "experience_passes_filtering_owned": {
+        "message": "รวมไอเทมที่เป็นเจ้าของ"
+    },
+    // Viewing as a specific user
+    "experience_passes_filtering_user": {
+        "message": "ดูเป็น:"
+    },
+    // Errors/no passes
+    "experience_passes_genericerror": {
+        "message": "เกิดข้อผิดพลาดขณะพยายามรับข้อมูลเกมพาส , กรุณาลองอีกครั้ง"
+    },
+    "experience_passes_nopasses": {
+        "message": "ไม่มีเกมพาสที่ใช้งานได้"
+    },
+    // Indicates that there is none from your search from the filters, but can change if filtering options are changed
+    "experience_passes_nopassesfiltered": {
+        "message": "ไม่มีเกมพาสที่คุณค้นหา"
+    },
+    "experience_passes_entry_owned": {
+        "message": "เป็นเจ้าของแล้ว"
+    },
+    "experience_passes_entry_buy": {
+        "message": "ซื้อ"
+    },
+    "experience_passes_addpass": {
+        "message": "เพิ่ม เกมพาส"
+    },
+
+    // Shown over the Play button to indicate to the user that their avatar may not be as intended in the experience
+    "experience_avatarrestricted": {
+        "message": "อวาตาร์ปัจจุบันของคุณอาจะมีลักษณะที่ไม่เหมือนที่คุณแต่งไว้ใน แมพ นี้"
+    },
+    // Table header items, "Field" in this context, is like part of an avatar, avatar type, body, proportion, etc.
+    "experience_avatarrestricted_compare_field": {
+        "message": "ฟิลด์"
+    },
+    "experience_avatarrestricted_compare_you": {
+        "message": "คุณ"
+    },
+    "experience_avatarrestricted_compare_experience": {
+        "message": "แมพ"
+    },
+
+    "experience_avatarrestricted_fields_height": {
+        "message": "ความสูง"
+    },
+    "experience_avatarrestricted_fields_width": {
+        "message": "ความกว้าง"
+    },
+    "experience_avatarrestricted_fields_head": {
+        "message": "ส่วนหัว"
+    },
+    "experience_avatarrestricted_fields_proportion": {
+        "message": "สัดส่วน"
+    },
+    "experience_avatarrestricted_fields_bodyType": {
+        "message": "ประเภทของร่างกาย"
+    },
+    "experience_avatarrestricted_fields_avatarType": {
+        "message": "ประเภทของตัวละคร"
+    },
+    "experience_avatarrestricted_fields_avatarType_values_R6": {
+        "message": "R6"
+    },
+    "experience_avatarrestricted_fields_avatarType_values_R15": {
+        "message": "R15"
+    },
+    "experience_avatarrestricted_fields_avatarType_values_PlayerChoice": {
+        "message": "แล้วแต่ผู้เล่น"
+    },
+
+    // Avatar Type stuff shown at the experience's stats.
+    "experience_avatartype_label": {
+        "message": "ประเภทของตัวละคร"
+    },
+    "experience_avatartype_values_ForcedRthro": {
+        "message": "Rthro"
+    },
+    "experience_avatartype_values_R15Rthro": {
+        "message": "R15, Rthro"
+    },
+    "experience_avatartype_values_R6": {
+        "message": "R6"
+    },
+    "experience_avatartype_values_R15": {
+        "message": "R15"
+    },
+    "experience_avatartype_values_PlayerChoice": {
+        "message": "แล้วแต่ผู้เล่น"
+    },
+
+    // for Robux views, honestly forgot what this is for. likely on developer product/pass items in store
+    // and developer product pages
+    "item_offsale_long": {
+        "message": "ไอเทมนี้ยังไม่เปิดขาย"
+    },
+    "item_offsale_short": {
+        "message": "ไม่ขาย"
+    },
+
+    // Developer product fields stuff.
+    "developerproduct_offsale": {
+        "message": "ไอเทมนี้ยังไม่ให้เปิดขาย"
+    },
+    "developerproduct_price": {
+        "message": "ราคา"
+    },
+    "developerproduct_type": {
+        "message": "หมวดหมู่"
+    },
+    "developerproduct_type_value": {
+        "message": "ไอเทมของผู้พัฒนา"
+    },
+    "developerproduct_created": {
+        "message": "สร้างเมื่อ"
+    },
+    "developerproduct_updated": {
+        "message": "อัพเดท"
+    },
+    "developerproduct_description": {
+        "message": "คำอธิบาย"
+    },
+    "developerproduct_contextmenu_viewiconasset": {
+        "message": "ดูรูปไอคอน"
+    },
+
+    // Whenever the RoSeal privacy policy updates, we show this modal. Only shown once per privacy policy update since the user installed the extension.
+    // required.
+    "ppupdatemodal_title": {
+        "message": "{sealEmoji} การปรับปรุงนโยบายความเป็นส่วนตัวของ RoSeal"
+    },
+    "ppupdatemodal_description": {
+        "message": "อัปเดทนโยบายความเป็นส่วนตัวของ RoSeal ล่าสุด{lineBreak}{lineBreak}<privacyPolicyLink>อ่านนโยบายความเป็นส่วนตัว</privacyPolicyLink>"
+    },
+    "ppupdatemodal_action": {
+        "message": "ยอมรับ"
+    },
+
+    // When accounts manager is enabled, and they try using the default Roblox "logout" button, we provide a modal warning
+    // because they likely don't know that Roblox's one is going to invalidate their session
+    "robloxlogoutmodal_title": {
+        "message": "{sealEmoji} คุณแน่นใจนะ?"
+    },
+    "robloxlogoutmodal_body": {
+        "message": "เมื่อกดปุ่มออกจากระบบของ Roblox คุณจะทำให้เซสชันปัจจุบันไม่สามารถใช้งานได้{lineBreak}{lineBreak}คุณจะไม่สามารถล็อกอินบัญชีนี้ด้วยการจัดการบัญชีโดยไม่ผ่านหน้าล็อกอินของ Roblox อีกครั้ง{lineBreak}{lineBreak}หากต้องการออกจากระบบโดยไม่ทำให้เซสชันใช้งานไม่ได้ ให้เปิดการจัดการบัญชีแล้วคลิก \"ออกจากระบบ\""
+    },
+    "robloxlogoutmodal_action": {
+        "message": "ออกจากระบบ"
+    },
+    "robloxlogoutmodal_neutral": {
+        "message": "ยกเลิก"
+    },
+
+    // A button to direct the user to the unofficial community wiki of an experience. Most don't have this,
+    // but for the ones that do, it's nice
+    "experience_communitywiki_button": {
+        "message": "คอมมูนิตี้ วิกิ ที่ไม่เป็นทางการ"
+    },
+    "experience_communitywiki_modal_title": {
+        "message": "{sealEmoji} คุณกำลังออกจาก Roblox"
+    },
+    // Modal shown when clicking the button to warn the user
+    "experience_communitywiki_modal_body": {
+        "message": "เดี๋ยวก่อน !, ผู้เล่น Roblox – หากกด “ดำเนินการต่อ,” คุณจะไปที่หน้า Fandom, ที่ไม่เกี่ยวข้องกับ Roblox. อาจมีข้อกำหนดและนโยบายความเป็นส่วนตัวที่ไม่เหมือนกัน.{lineBreak}{lineBreak}คอมมูนิตี้ Wiki ที่ไม่เป็นทางการจะนำคุณไปที่หน้าที่เป็นส่วนหนึ่งของโครงการ Roblox Interwiki บน Fandom และต้อง แก้ไขโดยชุมชน ข้อมูลอาจจะไม่ถูกต้อง ไม่มี ไม่เป็นปัจจุบัน หรือถูกดัดแปลง"
+    },
+    "experience_communitywiki_modal_action": {
+        "message": "ดำเนินการต่อ"
+    },
+    "experience_communitywiki_modal_neutral": {
+        "message": "ยกเลิก"
+    },
+
+    // System feedback messages shown when purchasing an item with "Refresh Avatar Item Details" feature enabled.
+    // it's an easier way to communicate stuff to the user than a modal.
+    "avataritem_successmessage_GenericPurchase": {
+        "message": "คุณทำการซื้อไอเทมสำเร็จแล้ว"
+    },
+    "avataritem_errormessage_Load": {
+        "message": "คุณกำลังโดน จำกัดการใช้งาน โดย Roblox, กรุณาลองอีกครัง"
+    },
+    // "reason" is the public reason given from the API
+    // "realReason" is the actual internal reason given from the API.
+    // in the future, we may consider making proper messages for each {realReason}
+    // but for now, it's like this
+    "avataritem_errormessage_GenericPurchase": {
+        "message": "ไม่สามารถซื้อไอเทมนี้ได้, เนื่องจาก: \"{reason} ({realReason})\""
+    },
+
+    // "ALT" text button shown on the lower left side on experience thumbnails if available. "ALT" is short for "Alternative", in "Alternative Text" for images.
+    // the alt text will show on hover. this is just for easily communicating with the user that there is alt text
+    // the img element already has alt text but it's better to indicate
+    "experience_media_alttext": {
+        "message": "แสดงแทน"
+    },
+
+    // "View Thumbnail Asset" button shown in the lower right side on experience thumbnails if available.
+    "experience_media_viewthumbnailasset": {
+        "message": "ดูรูปภาพปก"
+    },
+
+    // Funny little home header secret messages that can be shown despite the user's role
+    "homeheader_secretmessage_Default1": {
+        "message": "สวัสดี, ผู้เล่น!"
+    },
+    "homeheader_secretmessage_Default2": {
+        "message": "พวกเราเล่น โรบล็อกซ์!"
+    },
+    "homeheader_secretmessage_Default3": {
+        "message": "โรบล็อกซ์"
+    },
+    "homeheader_secretmessage_Default4": {
+        "message": "โรบล็อกซ์"
+    },
+    "homeheader_secretmessage_Default5": {
+        "message": "คุณคิดถึง Tix ไหม?"
+    },
+    "homeheader_secretmessage_Default6": {
+        "message": "แมวน้ำ!"
+    },
+    "homeheader_secretmessage_Default7": {
+        "message": "ลาก่อน Legacy Api!"
+    },
+    "homeheader_secretmessage_Default8": {
+        "message": "หยุดโดดเรียนได้แล้ว"
+    },
+    "homeheader_secretmessage_Default9": {
+        "message": "Boycott bad เป็น แมพ ที่ไม่ดีและเป็น แมพ ที่ละเมิดลิขสิทธิ์"
+    },
+    "homeheader_secretmessage_Default10": {
+        "message": "ระวังป้องกันตัวเองโดนหลอก"
+    },
+    "homeheader_secretmessage_Default11": {
+        "message": "การเล่นเป็นสิ่งที่ดีสำหรับสมอง แต่ถ้าเล่นมากเกินไปอาจเป็นอันตรายต่อสุขภาพของคุณ"
+    },
+    "homeheader_secretmessage_Default12": {
+        "message": "จัดการเวลาให้ดีแล้วใช้ชีวิตอย่างมีสุขภาพที่ดีขึ้น"
+    },
+    "homeheader_secretmessage_Default13": {
+        "message": "จินตนาการ 1 ล้าน โรบัค... ดูสิ"
+    },
+    "homeheader_secretmessage_Default14": {
+        "message": "คุณทำอะไรอยู่?"
+    },
+    "homeheader_secretmessage_Default15": {
+        "message": "เราหวังว่าคุณจะเพลิดเพลินกับการใช้ RoSeal"
+    },
+    "homeheader_secretmessage_Default16": {
+        "message": "ฮิฮิฮิฮิฮิ..."
+    },
+    "homeheader_secretmessage_Default17": {
+        "message": "ทุกสิ่งที่ Roblox เกิดขึ้นเกิดขึ้นต่อหน้าต่อตาทุกคน"
+    },
+    "homeheader_secretmessage_Default18": {
+        "message": "[ Content Deleted ]"
+    },
+    "homeheader_secretmessage_Default19": {
+        "message": "นี่ไม่ใช่ข้อความทดสอบ"
+    },
+    "homeheader_secretmessage_Default20": {
+        "message": "น้องแมว ~~"
+    },
+    "homeheader_secretmessage_Default21": {
+        "message": "นก"
+    },
+    "homeheader_secretmessage_Default22": {
+        "message": "ใส่รูปแมวน้ำที่นี้"
+    },
+    "homeheader_secretmessage_Default23": {
+        "message": "ใส่รูปน้องแมวที่นี้"
+    },
+    "homeheader_secretmessage_Default24": {
+        "message": "ใส่รูปนกที่นี้"
+    },
+    "homeheader_secretmessage_Default25": {
+        "message": "โรบล็อกซ์ ล่มหรอ?"
+    },
+    "homeheader_secretmessage_Default26": {
+        "message": "David Baszucki"
+    },
+    "homeheader_secretmessage_Default27": {
+        "message": "คุณจำ guests ได้ไหม?"
+    },
+    "homeheader_secretmessage_Default28": {
+        "message": "คุณจำ old forums ได้ไหม?"
+    },
+    "homeheader_secretmessage_Default29": {
+        "message": "สวัสดี!"
+    },
+    "homeheader_secretmessage_Default30": {
+        "message": "อืม... อร่อยไหม?"
+    },
+
+    // Additional text shown if the user is in the "BetaTester" role. These are users that signed up for it on the DevForum.
+    "homeheader_secretmessage_BetaTester1": {
+        "message": "คนทดสอบหรอ? คิดว่าคุณเจ๋งมากไหม?"
+    },
+    "homeheader_secretmessage_BetaTester2": {
+        "message": "เห็นว่าคุณมีสิทธิ์เข้าถึงฟีเจอร์เบต้าบางอย่าง."
+    },
+    "homeheader_secretmessage_BetaTester3": {
+        "message": "ขอให้มีความสุขกับสิ่งที่คุณทำในวันนี้ ;)"
+    },
+    "homeheader_secretmessage_BetaTester4": {
+        "message": "ไม่เท่เท่าหมอดู"
+    },
+    "homeheader_secretmessage_BetaTester5": {
+        "message": "หนึ่งในไม่กี่คน"
+    },
+
+    // Additional text shown if the user is in the "Soothsayer" role. Typically, they are Roblox admins.
+    // The likelihood of a Roblox admin using the extension is low, but it's fun to put this in anyways
+    "homeheader_secretmessage_Soothsayer1": {
+        "message": "บทบาทสาธารณะที่ดีที่คุณมี"
+    },
+    "homeheader_secretmessage_Soothsayer2": {
+        "message": "คุณต้องมีบัญชีอีเมลของ @roblox.com"
+    },
+    "homeheader_secretmessage_Soothsayer3": {
+        "message": "คุณไม่จำเป็นต้องจ่ายเงินสำหรับการเข้าถึง แมพ ในการเข้าถึงแบบต้องจ่ายเงิน?????"
+    },
+    "homeheader_secretmessage_Soothsayer4": {
+        "message": "เจ๋งกว่า เบต้าเทสเตอร์ ทั่วไปแน่นอน"
+    },
+    "homeheader_secretmessage_Soothsayer5": {
+        "message": "Internal Studio เจ๋งไหม?"
+    },
+    "homeheader_secretmessage_Soothsayer6": {
+        "message": "ทดสอบของสะสมเป็นยังไงบ้าง?"
+    },
+
+    // Translators can put whatever message they like in here, remember: this is crowd-sourced
+    "homeheader_secretmessage_NonEnglish": {
+        "message": "แย่จัง! ดูเหมือนว่า RoSeal จะไม่ได้รับการแปลเป็นภาษาของคุณ :("
+    },
+
+    // Happy birthday, text shown on the users birthday
+    "homeheader_birthdaymessage": {
+        "message": "สุขสันต์วันเกิด,"
+    },
+
+    // "Unlock Pin" modal shown when the user attempts to update their description or unblock someone
+    // on the profile page. we plan to expand this in the future
+    "pinunlockmodal_title": {
+        "message": "{sealEmoji} ต้องใส่รหัส PIN ของบัญชี"
+    },
+    "pinunlockmodal_description": {
+        "message": "ใส่รหัส PIN ของบัญชีของคุณ"
+    },
+    "pinunlockmodal_buttons_action": {
+        "message": "ปลดล็อก"
+    },
+
+    // general asset created and updated fields
+    "generalasset_created": {
+        "message": "สร้างเมื่อ"
+    },
+    "generalasset_updated": {
+        "message": "อัพเดท"
+    },
+
+    // Adding "Delete from Inventory" to the context menu to supported assets.
+    "generalasset_contextmenu_deletefrominventory": {
+        "message": "ลบจากช่องเก็บของ"
+    },
+
+    // Badge "Created" label, we do not need "Updated" because it is already supplied by Roblox
+    "badge_created": {
+        "message": "สร้างเมื่อ"
+    },
+
+    // Additional fields that will appear with BadgeMoreStatistics feature enabled
+    // counts
+    "badge_awardedalltime": {
+        "message": "ได้รับตลอดกาล"
+    },
+    "badge_awardedyesterday": {
+        "message": "ได้รับเมื่อวาน"
+    },
+    "badge_percentawardedyesterday": {
+        "message": "% ได้รับเมื่อวาน"
+    },
+    "badge_percentawardedyesterday_value": {
+        "message": "{percentage}%"
+    },
+    // when the user was awarded it
+    "badge_awarded": {
+        "message": "ได้รับ"
+    },
+
+    // Adding "View Icon Asset" button to the experience badge context menu
+    "badge_contextmenu_viewiconasset": {
+        "message": "ดูรูปไอคอน"
+    },
+
+    // Chat sorts stuff
+    "chat_sorttypes_label": {
+        "message": "จัดเรียงตาม"
+    },
+    "chat_sorttypes_type_Default": {
+        "message": "ค่าเริ่มต้น"
+    },
+    "chat_sorttypes_type_NewestFirst": {
+        "message": "ใหม่สุดก่อน"
+    },
+    "chat_sorttypes_type_OldestFirst": {
+        "message": "เก่าสุดก่อน"
+    },
+    "chat_sorttypes_type_UnreadFirst": {
+        "message": "ยังไม่ได้อ่านก่อน"
+    },
+
+    // The pass created/updated text
+    "pass_created": {
+        "message": "สร้างเมื่อ"
+    },
+    "pass_updated": {
+        "message": "อัพเดท"
+    },
+
+    // Adding "View Icon Asset" button to the experience pass context menu
+    "pass_contextmenu_viewiconasset": {
+        "message": "ดูรูปไอคอน"
+    },
+
+    // The group created text, should this expand to including the time as well?
+    "group_created": {
+        "message": "สร้างเมื่อ"
+    },
+
+    // Adding "View Icon Asset" button to the group context menu, old name for group icon was "Emblem"
+    "group_contextmenu_viewiconasset": {
+        "message": "ดูรูปไอคอน"
+    },
+
+    // "Transactions" tab in the left navigation
+    "navbar_left_transactions": {
+        "message": "ธุรกรรม"
+    },
+
+    // This is for the shared component between Passes "View as" and badges "View as/Compare with"
+    "userlookup_placeholder": {
+        "message": "ชื่อผู้ใช้"
+    },
+    "userlookup_directlookuperror": {
+        "message": "ไม่พบผู้ใช้ที่มีชื่อนั้น"
+    },
+
+    // Discover filters labels and dropdown values stuff
+    "discover_filters_label": {
+        "message": "ฟิลเตอร์"
+    },
+    "discover_filters_inputhint": {
+        "message": "ถ้าใส่ตัวเลขที่เป็น 0 จะไม่สามารถใช้ได้"
+    },
+    "discover_filters_applyfilters": {
+        "message": "ใช้ฟิลเตอร์"
+    },
+    "discover_filters_likes": {
+        "message": "ชอบ %"
+    },
+    "discover_filters_playing": {
+        "message": "กำลังเล่น"
+    },
+    "discover_filters_favorites": {
+        "message": "รายการโปรด"
+    },
+    "discover_filters_visits": {
+        "message": "เข้าชม"
+    },
+    "discover_filters_genre": {
+        "message": "ประเภท"
+    },
+    "discover_filters_genre_values_All": {
+        "message": "อะไรก็ได้"
+    },
+    "discover_filters_genre_values_Building": {
+        "message": "สร้าง"
+    },
+    "discover_filters_genre_values_Horror": {
+        "message": "สยองขวัญ"
+    },
+    "discover_filters_genre_values_TownandCity": {
+        "message": "เมือง"
+    },
+    "discover_filters_genre_values_Military": {
+        "message": "ทหาร"
+    },
+    "discover_filters_genre_values_Comedy": {
+        "message": "ตลก"
+    },
+    "discover_filters_genre_values_Medieval": {
+        "message": "ผจญภัย ยุคกลาง"
+    },
+    "discover_filters_genre_values_Adventure": {
+        "message": "ผจญภัย"
+    },
+    "discover_filters_genre_values_SciFi": {
+        "message": "วิทยาศาสตร์ ไซไฟ"
+    },
+    "discover_filters_genre_values_Naval": {
+        "message": "ทหารเรือ"
+    },
+    "discover_filters_genre_values_FPS": {
+        "message": "ยิงปืน"
+    },
+    "discover_filters_genre_values_RPG": {
+        "message": "อาร์พีจี"
+    },
+    "discover_filters_genre_values_Sports": {
+        "message": "กีฬา"
+    },
+    "discover_filters_genre_values_Fighting": {
+        "message": "ต่อสู่"
+    },
+    "discover_filters_genre_values_Western": {
+        "message": "ตะวันตก"
+    },
+    "discover_filters_device": {
+        "message": "อุปกรณ์"
+    },
+    "discover_filters_device_values_All": {
+        "message": "อะไรก็ได้"
+    },
+    "discover_filters_device_values_Desktop": {
+        "message": "เดสก์ทอป"
+    },
+    "discover_filters_device_values_Phone": {
+        "message": "โทรศัพท์"
+    },
+    "discover_filters_device_values_Tablet": {
+        "message": "แทปเล็ต (เอแพด)"
+    },
+    "discover_filters_device_values_Console": {
+        "message": "คอนโซล"
+    },
+    "discover_filters_device_values_VR": {
+        "message": "แว่น VR"
+    },
+    "discover_filters_age": {
+        "message": "อายุ"
+    },
+    "discover_filters_age_values_All": {
+        "message": "อะไรก็ได้"
+    },
+    "discover_filters_age_values_0": {
+        "message": "ทุกเพศทุกวัย"
+    },
+    "discover_filters_age_values_9": {
+        "message": "9+"
+    },
+    "discover_filters_age_values_13": {
+        "message": "13+"
+    },
+    "discover_filters_age_values_17": {
+        "message": "17+"
+    },
+    "discover_filters_age_values_18": {
+        "message": "18+"
+    },
+
+    // For each filter, the maximum and minimum labels.
+    // The placeholders right now do not have translations, merely because they are just "0"
+    "discover_filters_filter_minimum": {
+        "message": "ขั้นต่ำ"
+    },
+    "discover_filters_filter_maximum": {
+        "message": "สูงสุด"
+    },
+    // Tooltip shown when hovering over edit button next to the filter name for number-based filters
+    "discover_filters_filter_edit": {
+        "message": "แก้ไข ฟิลเตอร์"
+    },
+
+    // Events tab stuff, there's not much here because we just grab the events container from Roblox
+    "experience_events_tab": {
+        "message": "กิจกรรม"
+    },
+    "experience_events_noevents": {
+        "message": "ไม่มีกิจกรรมในขณะนี้"
+    },
+
+    // Tab title
+    "experience_badges_tab": {
+        "message": "เหรียญตรา"
+    },
+    // View as: {user} stuff or compare
+    "experience_badges_viewas": {
+        "message": "ดูเป็น:"
+    },
+    "experience_badges_comparewith": {
+        "message": "เปรียบเทียบกับ:"
+    },
+
+    // Experience badges sorting/filters options
+    "experience_badges_filtering_active": {
+        "message": "แสดงไอเทมที่ใช้งานอยู่"
+    },
+    "experience_badges_filtering_inactive": {
+        "message": "แสดงไอเทมที่ไม่ใช้งาน"
+    },
+    "experience_badges_filtering_obtained": {
+        "message": "แสดงไอเทมที่ได้รับ"
+    },
+    "experience_badges_filtering_unobtained": {
+        "message": "แสดงไอเทมที่ไม่ได้รับ"
+    },
+    "experience_badges_sorting_sortby_label": {
+        "message": "จัดเรียงตาม"
+    },
+    "experience_badges_sorting_sortdirection_label": {
+        "message": "จัดเรียงตามทิศทาง"
+    },
+    "experience_badges_sorting_sortobtained_label": {
+        "message": "จัดเรียงตามลำดับที่ได้รับ"
+    },
+    "experience_badges_sorting_sortby_values_WonYesterday": {
+        "message": "ชนะเมื่อวาน"
+    },
+    "experience_badges_sorting_sortby_values_WonAllTime": {
+        "message": "ชนะทั้งหมด"
+    },
+    "experience_badges_sorting_sortby_values_AwardedTime": {
+        "message": "รางวัลล่าสุด"
+    },
+    "experience_badges_sorting_sortby_values_Created": {
+        "message": "สร้างเมื่อ"
+    },
+    "experience_badges_sorting_sortby_values_Name": {
+        "message": "ชื่อ"
+    },
+    "experience_badges_sorting_sortdirection_values_Ascending": {
+        "message": "จากน้อยไปมาก"
+    },
+    "experience_badges_sorting_sortdirection_values_Descending": {
+        "message": "จากมากไปน้อย"
+    },
+    "experience_badges_sorting_sortobtained_values_First": {
+        "message": "อันดับแรก"
+    },
+    "experience_badges_sorting_sortobtained_values_Last": {
+        "message": "อันดับสุดท้าย"
+    },
+    "experience_badges_sorting_sortobtained_values_Default": {
+        "message": "ค่าเริ่มต้น"
+    },
+    "experience_badges_sortsandfilters": {
+        "message": "การจัดเรียงและฟิลเตอร์"
+    },
+
+    // When there's no filtered badges, but there are badges for the experience
+    "experience_badges_nofilteredbadges": {
+        "message": "ไม่มีเหรียญตราที่จะแสดง"
+    },
+
+    "experience_badges_nobadges": {
+        "message": "ไม่มีเหรียญตราที่ใช้งานได้"
+    },
+    "experience_badges_completed": {
+        "message": "เสร็จสมบูรณ์: {numCompleted}/{numTotal}"
+    },
+    "experience_badges_inactive": {
+        "message": "{inactiveIcon} ไม่ได้ใช้งาน : {numInactive}/{numTotal}"
+    },
+    // Column title for % Won Yesterday
+    "experience_badges_wonyesterday": {
+        "message": "% ชนะเมื่อวาน"
+    },
+    "experience_badges_usercompleted": {
+        "message": "{numCompleted}/{numTotal}"
+    },
+    // Error shown in place of badges when there's an error
+    "experience_badges_awardederror": {
+        "message": "เกิดข้อผิดพลาดขณะเรียกข้อมูลเหรียญตรา , กรุณาลองอีกครั้ง"
+    },
+    "experience_badges_genericerror": {
+        "message": "เกิดข้อผิดพลาดขณะดึงเหรียญตรา , กรุณาลองอีกครั้ง"
+    },
+
+    // Experience badge details
+    "experience_badges_badge_inactive": {
+        "message": "ไม่ได้ใช้งาน"
+    },
+    // Parts of a tooltip when hovering over the question mark
+    "experience_badges_badged_yesterdaypercentage": {
+        "message": "{percentage}%"
+    },
+    "experience_badges_badge_awarded": {
+        "message": "ได้รับ {time}"
+    },
+    "experience_badges_badge_wonalltime": {
+        "message": "ชนะทั้งหมด"
+    },
+    "experience_badges_badge_wonyesterday": {
+        "message": "ชนะเมื่อวาน"
+    },
+
+    // Experience private notes stuff
+    "experience_privatenote_title": {
+        "message": "โน็ตส่วนตัว"
+    },
+    "experience_privatenote_hint": {
+        "message": "โน็ตนี้เป็นส่วนตัว มีเพียงคุณเท่านั้นที่สามารถดูได้"
+    },
+    "experience_privatenote_placeholder": {
+        "message": "การตั้งค่าเฉพาะสำหรับ แมพ นี้..."
+    },
+    "experience_privatenote_length": {
+        "message": "{length}/{maxLength}"
+    },
+    "experience_privatenote_buttons_cancel": {
+        "message": "ยกเลิก"
+    },
+    "experience_privatenote_buttons_save": {
+        "message": "บันทึก"
+    },
+    "generictoggletarget_readmore": {
+        "message": "อ่านเพิ่มเติม"
+    },
+    "generictoggletarget_readless": {
+        "message": "อ่านน้อยลง"
+    },
+
+    // Adding "Report Abuse" to the item pages context menu if it isn't already there
+    "itempages_contextmenu_reportabuse": {
+        "message": "รายงานการละเมิด"
+    },
+
+    // User profile force unfollow action
+    "userprofile_actions_forceunfollow": {
+        "message": "บังคับให้เลิกติดตาม"
+    },
+
+    // System feedback banners for force unfollow in the profile
+    "userprofile_actions_forceunfollow_systemfeedback_success": {
+        "message": "บังคับให้ผู้ใช้เลิกติดตามคุณสำเร็จ"
+    },
+    "userprofile_actions_forceunfollow_systemfeedback_error": {
+        "message": "ไม่สามารถบังคับให้ผู้ใช้เลิกติดตามคุณได้"
+    },
+
+    // User's profile cancel request actions
+    "userprofile_actions_cancelrequest": {
+        "message": "ยกเลิก"
+    },
+    // Cancelled request successfully, disabled button
+    "userprofile_actions_cancelledrequest": {
+        "message": "ยกเลิกแล้ว"
+    },
+
+    // Last online date for a user at the bottom (or under Avatar with BTRoblox)
+    "userprofile_lastonline": {
+        "message": "ออนไลน์ล่าสุด"
+    },
+    "userprofile_lastonline_now": {
+        "message": "ตอนนี้"
+    },
+
+    // When "Show username in user's friends page title" is enabled, it will replace the title with this.
+    // adding {username}
+    "userfriends_newtitle": {
+        "message": "เพื่อนของ {displayName} (@{username})"
+    },
+
+    // Context menu for "Quick actions in the user's friends page"
+    "userfriends_contextmenu_unfriend": {
+        "message": "เลิกเป็นเพื่อน"
+    },
+    "userfriends_contextmenu_unfollow": {
+        "message": "เลิกติดตาม"
+    },
+    "userfriends_contextmenu_forceunfollow": {
+        "message": "บังคับให้เลิกติดตาม"
+    },
+    "userfriends_contextmenu_block": {
+        "message": "บล็อก"
+    },
+
+    // System feedback in the users friends page when doing an action with the "Quick actions in the user's friends page" feature
+    "userfriends_systemfeedback_success_unfriend": {
+        "message": "เลิกเป็นเพื่อนผู้ใช้สำเร็จแล้ว"
+    },
+    "userfriends_systemfeedback_success_unfollow": {
+        "message": "เลิกติดตามผู้ใช้สำเร็จแล้ว"
+    },
+    "userfriends_systemfeedback_success_forceunfollow": {
+        "message": "บังคับให้ผู้ใช้เลิกติดตามคุณสำเร็จ"
+    },
+    "userfriends_systemfeedback_success_block": {
+        "message": "บล็อกผู้ใช้สำเร็จ"
+    },
+    "userfriends_systemfeedback_genericerror": {
+        "message": "เกิดข้อผิดพลาดในการดำเนินการ , กรุณาลองอีกครั้ง"
+    },
+
+    // Red text to show below "Your access to voice chat has been suspended for violating our Community Standards." in Privacy settings
+    "robloxsettings_voicechat_suspensiondate": {
+        "message": "คุณสามารถการเข้าถึงได้ในวันที่ {date}"
+    },
+
+    // Marketplace Color filters UI
+    "avatarshop_colorfilters_title": {
+        "message": "สี"
+    },
+    "avatarshop_colorfilters_items_primary": {
+        "message": "หลัก"
+    },
+    "avatarshop_colorfilters_items_secondary": {
+        "message": "รอง"
+    },
+    "avatarshop_colorfilters_items_any": {
+        "message": "อะไรก็ได้"
+    },
+
+    // Pending group join requests for the user
+    "group_pendingrequests": {
+        "message": "กำลังรอคำขอเข้าร่วม"
+    },
+    "group_typesswitch_joined": {
+        "message": "เข้าร่วม"
+    },
+    "group_typesswitch_pending": {
+        "message": "กำลังดำเนินการ"
+    },
+    "group_discovergroups": {
+        "message": "ค้นพบกลุ่ม"
+    },
+    "group_creategroup": {
+        "message": "สร้างกลุ่ม"
+    },
+
+    // For the next messages, R2E = Right to Erasure
+
+    // pending in button when fetching R2Es
+    "messages_getunreadr2e_pending": {
+        "message": "กำลังดำเนินการ"
+    },
+    // error in button when fetching R2Es
+    "messages_getunreadr2e_error": {
+        "message": "เกิดข้อผิดผลาด"
+    },
+    "messages_getunreadr2e_request": {
+        "message": "คำขอ R2E ที่ยังไม่ได้อ่าน"
+    },
+    "messages_getunreadr2e_download": {
+        "message": "ดาวน์โหลด R2Es ที่ยังไม่ได้อ่าน"
+    },
+    "messages_getunreadr2e_markread": {
+        "message": "ทำเครื่องหมายว่ายังอ่านแล้ว R2Es"
+    },
+
+    // Modal shown when asked if the user wants to mark R2Es as read
+    "messages_getunreadr2e_markreadmodal_title": {
+        "message": "ทำเครื่องหมาย R2Es ว่าอ่านแล้ว"
+    },
+    "messages_getunreadr2e_markreadmodal_body": {
+        "message": "คุณต้องการทำเครื่องหมายข้อความ R2E ว่าอ่านแล้วหรือไม่?"
+    },
+    "messages_getunreadr2e_markreadmodal_action": {
+        "message": "ทำเครื่องหมายว่าอ่านแล้ว"
+    },
+    "messages_getunreadr2e_markreadmodal_neutral": {
+        "message": "ยกเลิก"
+    },
+
+    "voicechatsuspensionmodal_title": {
+        "message": "🦭 การแชทด้วยเสียงถูกระงับ"
+    },
+    "voicechatsuspensionmodal_description": {
+        "message": "เนื่องจากการละเมิด <communityGuidelinesLink>หลักเกณฑ์ของชุมชน Roblox</communityGuidelinesLink> การแชทด้วยเสียงของคุณจึงไม่สามารถใช้งานได้จนถึงวันที่ {date}{lineBreak}{lineBreak}โปรดช่วยรักษา Roblox ให้สนุกด้วยการให้เกียรติผู้อื่น{lineBreak}{lineBreak }คุณสามารถตรวจสอบระยะเวลาที่เหลือได้ใน <privacySettingsLink>การตั้งค่าความเป็นส่วนตัว</privacySettingsLink>"
+    },
+    "voicechatsuspensionmodal_action": {
+        "message": "ฉันเข้าใจแล้ว"
+    },
+
+    // Asking the user to enable 2SV by going to their security settings. This is just for security purposes.
+    "force2svmodal_title": {
+        "message": "{sealEmoji} ต้องการการยืนยันแบบสองขั้นตอน"
+    },
+    "force2svmodal_body": {
+        "message": "เนื่องจากด้านความปลอดภัย คุณต้องเปิดใช้การยืนยันแบบสองขั้นตอนเพื่อใช้ฟีเจอร์นี้{lineBreak}{lineBreak}คุณต้องการไปที่การตั้งค่าความปลอดภัยของบัญชีของคุณหรือไม่?"
+    },
+    "force2svmodal_action": {
+        "message": "โอเค"
+    },
+    "force2svmodal_neutral": {
+        "message": "ยกเลิก"
+    },
+
+    // System feedback shown when cancelling a pending join request from the pending groups list UI
+    "group_pendingrequests_systemfeedback_genericerror": {
+        "message": "ยกเลิกคำขอเข้าร่วมที่รอดำเนินการไม่สำเร็จ , กรุณาลองอีกครั้ง"
+    },
+    "group_pendingrequests_systemfeedback_success": {
+        "message": "ยกเลิกคำขอเข้าร่วมที่รอดำเนินการเรียบร้อยแล้ว"
+    },
+
+    // Modal shown when customizing a folder
+    "group_foldercustomization_modal_title": {
+        "message": "{sealEmoji} ปรับแต่งโฟลเดอร์กลุ่ม"
+    },
+    "group_foldercustomization_modal_field_name": {
+        "message": "ชื่อ"
+    },
+    "group_foldercustomization_modal_lengthtip": {
+        "message": "{length}/{maxLength}"
+    },
+    "group_foldercustomization_modal_field_name_placeholder": {
+        "message": "ชื่อโฟลเดอร์"
+    },
+    "group_foldercustomization_modal_field_color": {
+        "message": "สี"
+    },
+    "group_foldercustomization_modal_action": {
+        "message": "บันทึก"
+    },
+    "group_foldercustomization_modal_neutral": {
+        "message": "ยกเลิก"
+    },
+
+    // Text to show in /transactions to toggle off/on hiding stuff
+    "transactions_hide0robuxamount": {
+        "message": "ซ่อนการทำธุรกรรมด้วยจำนวน 0 โรบัค"
+    },
+    "transactions_hideprivateservers": {
+        "message": "ซ่อนธุรกรรมเซิร์ฟเวอร์ส่วนตัว"
+    },
+
+    // Feature switches sections and subsections
+    "features_section_home": {
+        "message": "หน้าหลัก"
+    },
+    "features_section_home_general": {
+        "message": "ทั่วไป"
+    },
+    "features_section_experiences": {
+        "message": "แมพ"
+    },
+    "features_section_experiences_discover": {
+        "message": "ค้นพบ"
+    },
+    "features_section_experiences_general": {
+        "message": "ทั่วไป"
+    },
+    "features_section_experiences_store": {
+        "message": "ร้านค้า"
+    },
+    "features_section_account": {
+        "message": "บัญชี"
+    },
+    "features_section_account_general": {
+        "message": "ทั่วไป"
+    },
+    "features_section_items": {
+        "message": "ไอเทม"
+    },
+    "features_section_items_general": {
+        "message": "ทั่วไป"
+    },
+    "features_section_items_avatar": {
+        "message": "ไอเทม อวตาร"
+    },
+    "features_section_miscellaneous": {
+        "message": "เบ็ดเตล็ด"
+    },
+    "features_section_miscellaneous_general": {
+        "message": "ทั่วไป"
+    },
+    "features_section_miscellaneous_transactionspage": {
+        "message": "หน้าธุรกรรม"
+    },
+    "features_section_miscellaneous_seals": {
+        "message": "แมวน้ำ"
+    },
+    "features_section_miscellaneous_navbars": {
+        "message": "แถบนำทาง"
+    },
+    "features_section_miscellaneous_avatarshop": {
+        "message": "ร้านค้า"
+    },
+    "features_section_miscellaneous_chat": {
+        "message": "แชท"
+    },
+    "features_section_miscellaneous_messages": {
+        "message": "ข้อความ"
+    },
+    "features_section_users": {
+        "message": "ผู้ใช้"
+    },
+    "features_section_users_friendspage": {
+        "message": "หน้าเพือน"
+    },
+    "features_section_users_profile": {
+        "message": "หน้าโปรไฟล์"
+    },
+    "features_section_groups": {
+        "message": "กลุ่ม"
+    },
+    "features_section_groups_navigation": {
+        "message": "แถบนำทาง"
+    },
+    "features_section_groups_walls": {
+        "message": "ผนังของกลุ่ม"
+    },
+
+    // Feature switches in settings
+    // `_title` = the title of the feature
+    // `_description` = the description of the feature
+    // _sub_ indicates a subfeature
+    "features_RemoveHomePageUnnecessarySorts_title": {
+        "message": "นำ \"สิ่งที่ไม่จำเป็น\" ออกจากการจัดเรียง"
+    },
+    "features_RemoveHomePageUnnecessarySorts_description": {
+        "message": "เมื่อเปิดใช้งาน จะลบการจัดเรียง ออกจากหน้าแรกที่เกี่ยวกับ \"แนะนำสำหรับคุณ\", \"รายการโปรด\", \"เล่นต่อ\", \"แมพที่เพื่อนเล่น\", หรือ \"สปอนเซอร์\""
+    },
+    "features_ForceHomePageGenreExplorer_title": {
+        "message": "บังคับจัดเรียงของหน้าแรกเอา \"สิ่งที่ไม่จำเป็น\" เป็นตัวจัดเรียง"
+    },
+    "features_ForceHomePageGenreExplorer_description": {
+        "message": "เมื่อเปิดใช้งาน ทุกประเภทที่ไม่ตรงกับ \"แนะนำสำหรับคุณ\", \"รายการโปรด\", \"เล่นต่อ\", \"แมพที่เพื่อนเล่น\" หรือ \"สปอนเซอร์\" จะถูกใส่ลงใน \"หมวดหมู่\" ตัวจัดเรียงที่ด้านบนของจัดเรียงหน้าแรก"
+    },
+    "features_RefreshedHomeUserHeader_title": {
+        "message": "รีเฟรชส่วนของผู้ใช้"
+    },
+    "features_RefreshedHomeUserHeader_description": {
+        "message": "เมื่อเปิดใช้งาน จะแสดงส่วนของผู้ใช้เก่าในหน้าแรกโดยมีความแตกต่างกันเล็กน้อย"
+    },
+    "features_RefreshedHomeUserHeader_sub_BasedText_title": {
+        "message": "โอกาส 10% ของข้อความที่เลือกตามบทบาทสาธารณะของคุณ"
+    },
+    "features_RefreshedHomeUserHeader_sub_BirthdayMessage_title": {
+        "message": "ข้อความสุขสันต์วันเกิด"
+    },
+    "features_RefreshedHomeUserHeader_sub_HelloText_title": {
+        "message": "เปิดใช้งานคำทักทาย \"สวัสดี,\""
+    },
+    "features_RefreshedHomeUserHeader_sub_ShowNameType_title": {
+        "message": "เปลี่ยนประเภทชื่อที่ควรจะแสดง"
+    },
+    "features_RefreshedHomeUserHeader_sub_ShowNameType_values_Both": {
+        "message": "ทั้งคู่"
+    },
+    "features_RefreshedHomeUserHeader_sub_ShowNameType_values_DisplayName": {
+        "message": "แสดงชื่อเท่านั้น"
+    },
+    "features_RefreshedHomeUserHeader_sub_ShowNameType_values_Username": {
+        "message": "แสดงชื่อผู้ใช้เท่านั้น"
+    },
+    "features_MoveExperienceSocialLinks_title": {
+        "message": "ย้ายลิงก์โซเชียลของแมพไปยังคำอธิบายของแมพในแท็บเกี่ยวกับ"
+    },
+    "features_AddCommunityWikiButton_title": {
+        "message": "เพิ่มปุ่มเพื่อเยี่ยมชม คอมมูนิตี้ วิกิ ที่ไม่เป็นทางการของ แมพ ในแท็บ เกี่ยวกับ"
+    },
+    "features_AddCommunityWikiButton_description": {
+        "message": "เมื่อเปิดใช้งาน ส่วนขยายจะแสดงปุ่มสำหรับเยี่ยมชมวิกิที่ไม่เป็นทางการซึ่งเป็นส่วนหนึ่งของโครงการ Roblox Interwiki บน Fandom เพื่อรับประสบการณ์ถ้า RoSeal รู้จัก"
+    },
+    "features_RemovePrivateServersSectionInAbout_title": {
+        "message": "ลบส่วนเซิร์ฟเวอร์ส่วนตัวในแท็บเกี่ยวกับ"
+    },
+    "features_DeveloperProductsInExperienceStore_title": {
+        "message": "ไอเทมของนักพัฒนาในแท็บร้านค้าของแมพ"
+    },
+    "features_DeveloperProductsInExperienceStore_description": {
+        "message": "เมื่อเปิดใช้งาน จะแสดงไอเทมของนักพัฒนาในดรอปดาวน์ใต้แท็บ ร้านค้า สร้างหน้าใหม่สำหรับดูรายละเอียดไอเทมของนักพัฒนาซอฟต์แวร์"
+    },
+    "features_ExperienceStoreItemFiltering_title": {
+        "message": "ฟิวเตอร์การกรองในแท็บร้านค้าของ แมพ"
+    },
+    "features_ExperienceStoreItemFiltering_description": {
+        "message": "เมื่อเปิดใช้งาน จะแสดงตัวเลือกฟิลเตอร์เพิ่มเติมในแท็บ เกมพาส และ ไอเทมของผู้พัฒนา ในร้านค้า ของแมพ"
+    },
+    "features_WebsiteOfflineMode_title": {
+        "message": "แสดงเป็นออฟไลน์เมื่ออยู่บนเว็บไซต์เท่านั้น"
+    },
+    "features_WebsiteOfflineMode_description": {
+        "message": "เมื่อเปิดใช้งานจะไม่มีใครรู้ว่าคุณอยู่ในเว็บไซต์เมื่อใด อาจใช้เวลาสักครู่ถึงจะเห็น"
+    },
+    "features_AccountsManager_title": {
+        "message": "จัดการบัญชี"
+    },
+    "features_AccountsManager_description": {
+        "message": "เมื่อเปิดใช้งาน เพิ่มรายการใหม่ในแถบนำทางด้านบนที่เปิดใช้งานป๊อปอัปสำหรับการจัดการบัญชีของคุณ อาจจะทีความเสี่ยง"
+    },
+    "features_ThemeSwitchThroughoutDay_title": {
+        "message": "ซิงค์ธีมเว็บไซต์กับเบราว์เซอร์"
+    },
+    "features_TooltipTimeType_title": {
+        "message": "เปลี่ยนประเภทเวลาของวันที่คำแนะนำเครื่องมือ"
+    },
+    "features_TooltipTimeType_description": {
+        "message": "เมื่อเลือกแล้ว เปลี่ยนวันที่ที่คำแนะนำเครื่องมือ เมื่อพร้อมวันที่จะแสดงเมื่อวางเมาส์เหนือคำแนะนำเครื่องมือ"
+    },
+    "features_TooltipTimeType_values_Disabled": {
+        "message": "ปิดการใช้งาน (ปกติของ Roblox)"
+    },
+    "features_TooltipTimeType_values_Relative": {
+        "message": "คล้ายๆกัน"
+    },
+    "features_TooltipTimeType_values_Absolute": {
+        "message": "ครบถ้วน"
+    },
+    "features_CreatedUpdatedItemsTimeType_title": {
+        "message": "เปลี่ยนประเภทเวลาของฟิลเตอร์ ที่สร้างขึ้น/อัปเดต/รวมถึงในหน้าไอเทม เป็นต้น"
+    },
+    "features_CreatedUpdatedItemsTimeType_description": {
+        "message": "เมื่อเลือกแล้ว ให้เปลี่ยนข้อความ อัปเดต เข้าร่วม หรือ อื่นๆ ในหน้าที่เกี่ยวข้องเป็นรูปแบบเวลาที่คุณเลือก ซึ่งจะเพิ่ม \"สร้าง\", \"อัปเดต\" และ \"เข้าร่วม\" เมื่อจำเป็นในหน้าไอเทม"
+    },
+    "features_CreatedUpdatedItemsTimeType_values_Disabled": {
+        "message": "ปิดใช้งาน"
+    },
+    "features_CreatedUpdatedItemsTimeType_values_Relative": {
+        "message": "เกี่ยวข้องกัน"
+    },
+    "features_CreatedUpdatedItemsTimeType_values_Absolute": {
+        "message": "ครบถ้วน"
+    },
+    "features_CreatedUpdatedItemsTimeType_values_Regular": {
+        "message": "ปกติของ Roblox"
+    },
+    "features_PersistentTransactionsSelection_title": {
+        "message": "การเลือกเมนูแบบเลื่อนลง"
+    },
+    "features_PersistentTransactionsSelection_description": {
+        "message": "เมื่อเปิดใช้งาน ตัวเลือกดรอปดาวน์สุดท้ายของคุณจะยังคงอยู่ แม้จะปิดหน้าไปแล้วก็ตาม อาจเสียหายเมื่อคุณได้รับธุรกรรมใหม่"
+    },
+    "features_BetterRobuxNavigation_title": {
+        "message": "แถบนำทาง โรบัค ที่ดีขึ้น"
+    },
+    "features_BetterRobuxNavigation_description": {
+        "message": "เมื่อเปิดใช้งาน เพิ่มปุ่มบวกถัดจาก โรบัค ในแถบนำทางด้านบนเพื่อเปลี่ยนเส้นทางไปยังการซื้อ โรบัค และเพิ่มธุรกรรมใหม่ในแถบนำทางด้านซ้าย"
+    },
+    "features_MoveAgeBracket_title": {
+        "message": "ย้ายกลุ่มอายุไปที่แถบนำทางด้านซ้าย"
+    },
+    "features_MoveAgeBracket_description": {
+        "message": "เมื่อเปิดใช้งาน ให้ย้ายกลุ่มอายุจากการนำทางด้านบนไปยังแถบนำทางด้านซ้าย และลบรูปโปรไฟล์และชื่อผู้ใช้ออกจากแถบนำทางด้านบน"
+    },
+    "features_DisableDesktopApp_title": {
+        "message": "ลบแบนเนอร์แอปเดสก์ท็อป"
+    },
+    "features_ViewItemIconThumbnailAssets_title": {
+        "message": "เพิ่มลิงก์เพื่อดูเนื้อหาภาพขนาดย่อ/ไอคอนของรายการที่เกี่ยวข้อง"
+    },
+    "features_ViewItemIconThumbnailAssets_description": {
+        "message": "เมื่อเปิดใช้งาน เพิ่มลิงก์ในเมนูบริบทของหน้ารายละเอียดของรายการเพื่อดูเนื้อหาไอคอนของรายการ หากมี นอกจากนี้ยังใช้กับ แมพ ที่เกี่ยวกับรายละเอียดของ แมพนี้"
+    },
+    "features_UserFriendsPageContextMenu_title": {
+        "message": "การดำเนินการด่วนในหน้าเพื่อนของผู้ใช้"
+    },
+    "features_UserFriendsPageContextMenu_description": {
+        "message": "เมื่อเปิดใช้งาน เพิ่มหรือแทนที่เมนูบริบทบนการ์ดเพื่อนในหน้าเพื่อนของผู้ใช้เพื่อดำเนินการอย่างรวดเร็ว การดำเนินการด่วน ได้แก่ การบล็อก เลิกเป็นเพื่อน เลิกติดตาม และบังคับเลิกติดตาม"
+    },
+    "features_UserProfileAddMargins_title": {
+        "message": "เพิ่มช่องว่างในระหว่างส่วนต่างๆ ในหน้าโปรไฟล์ผู้ใช้"
+    },
+    "features_ItemPagesMoveReportAbuse_title": {
+        "message": "ย้ายปุ่มรายงานไปยังเมนูของไอเทม *ถ้ามี"
+    },
+    "features_ItemMentions_title": {
+        "message": "กล่าวถึงผู้ใช้/กลุ่มที่จัดรูปแบบในคำอธิบายรายการ"
+    },
+    "features_ItemMentions_description": {
+        "message": "เมื่อเปิดใช้งาน @ผู้ใช้ ลิงก์ผู้ใช้ และลิงก์กลุ่มจากคำอธิบายรายการจะเปลี่ยนเป็นลิงก์ที่มีภาพประจำตัวประจำตัวหรือภาพขนาดย่อของกลุ่ม"
+    },
+    "features_UserProfileCancelRequest_title": {
+        "message": "ยกเลิกคำขอเป็นเพื่อนในโปรไฟล์"
+    },
+    "features_ListPendingGroups_title": {
+        "message": "แสดงรายการกลุ่มที่มีคำขอเข้าร่วมที่รอดำเนินการในการนำทาง"
+    },
+    "features_ListPendingGroups_description": {
+        "message": "เมื่อเปิดใช้งาน เพิ่มแถบนำทางแท็บด้วย \"รอดำเนินการ\" ไปยังการนำทางของกลุ่ม"
+    },
+    "features_DisableAvatarShopInfiniteScrolling_title": {
+        "message": "ปิดใช้งานการเลื่อนแบบไม่สิ้นสุดของ ร้านค้าอวาตาร์"
+    },
+    "features_DisableGroupWallInfiniteScrolling_title": {
+        "message": "ปิดใช้งานการเลื่อนแบบไม่สิ้นสุดของ ผนังกลุ่ม"
+    },
+    "features_BlockExperiences_title": {
+        "message": "บล็อก แมพ"
+    },
+    "features_BlockExperiences_description": {
+        "message": "เมื่อเปิดใช้งาน เพิ่มรายการใหม่สำหรับการบล็อก แมพ แต่ละรายการและคำหลักไม่ให้แสดงในหน้าทั่วไปบางหน้าในการตั้งค่า RoSeal คุณสามารถบล็อก แมพ แต่ละรายการได้จากเมนูในหน้ารายละเอียดของ แมพ"
+    },
+    "features_ShowExperienceUniverseId_title": {
+        "message": "แสดง Universe ID ของแมพ"
+    },
+    "features_Enable3DThumbnailDynamicLighting_title": {
+        "message": "การใช้แสงไดนามิกภาพขนาดย่อ 3 มิติ"
+    },
+    "features_ChatSortTypes_title": {
+        "message": "ประเภทการจัดเรียงแชท"
+    },
+    "features_ChatSortTypes_description": {
+        "message": "เมื่อเปิดใช้งาน เพิ่มประเภทการจัดเรียงใหม่ในกล่องแชทเพื่อกรองผ่านการสนทนา"
+    },
+    "features_Transactions0RobuxAmountToggle_title": {
+        "message": "ซ่อนธุรกรรมด้วยจำนวน 0 โรบัค"
+    },
+    "features_TransactionsPrivateServersToggle_title": {
+        "message": "ซ่อนธุรกรรมของเซิร์ฟเวอร์ส่วนตัว"
+    },
+    "features_GroupOrganization_title": {
+        "message": "การปรับแต่งกลุ่ม"
+    },
+    "features_GroupOrganization_description": {
+        "message": "เมื่อเปิดใช้งาน อนุญาตให้จัดระเบียบกลุ่มใหม่และสร้างโฟลเดอร์กลุ่มด้วยการลากและวาง โฟลเดอร์กลุ่มสามารถปรับแต่งเพิ่มเติมได้"
+    },
+    "features_BetterExperienceBadges_title": {
+        "message": "แสดงเหรียญตราของแมพที่ดีขึ้น"
+    },
+    "features_BetterExperienceBadges_description": {
+        "message": "เมื่อเปิดใช้งาน เพิ่มแท็บใหม่เพื่อดูรายละเอียดของ แมพ ที่มีรายการเหรียญตราของ แมพ ที่ดีกว่า คุณยังสามารถดูเหรียญตราที่ไม่ได้ใช้งาน วันที่ได้เหรียญตรา และเปรียบเทียบเหรียญตราของคุณกับผู้ใช้รายอื่น อาจจะไม่เสถียรสำหรับ แมพนี้ ที่มีเหรียญตราจำนวนมาก"
+    },
+    "features_BetterExperiencesBadges_sub_FiltersAndSorts_title": {
+        "message": "การกรองเหรียญตราและการเรียงลำดับของ แมพ"
+    },
+    "features_BetterExperiencesBadges_sub_DisableRobloxBadges_title": {
+        "message": "ปิดหน้าเหรียญตราของ Roblox"
+    },
+    "features_UserProfileLastOnline_title": {
+        "message": "แสดงวันที่ออนไลน์ล่าสุด"
+    },
+    "features_ChangeNavFriendsHash_title": {
+        "message": "เปลี่ยนแท็บเพื่อนของผู้ใช้เริ่มต้นจากแถบนำทาง"
+    },
+    "features_ChangeNavFriendsHash_values_friends": {
+        "message": "เพื่อน"
+    },
+    "features_ChangeNavFriendsHash_values_following": {
+        "message": "กำลังติดตาม"
+    },
+    "features_ChangeNavFriendsHash_values_followers": {
+        "message": "ผู้ติดตาม"
+    },
+    "features_ChangeNavFriendsHash_values_friendrequests": {
+        "message": "คำขอเป็นเพื่อน"
+    },
+    "features_HideFriendRequestsCount_title": {
+        "message": "ซ่อนจำนวนคำขอเป็นเพื่อนในแถบนำทาง"
+    },
+    "features_HideMessagesCount_title": {
+        "message": "ซ่อนจำนวนข้อความในแถบนำทาง"
+    },
+    "features_SealImages_title": {
+        "message": "แทนที่ภาพทั้งหมดด้วยภาพแมวน้ำ !"
+    },
+    "features_ExperienceMediaAltTextButton_title": {
+        "message": "ปุ่มข้อความแสดงภาพขนาดย่อขอ แมพ ที่ดีขึ้น"
+    },
+    "features_ShowExperienceAvatarType_title": {
+        "message": "แสดงประเภทอวาตาร์จำกัดใน แมพ ที่หน้าสถิติ"
+    },
+    "features_ShowExperienceAvatarType_sub_ShowAvatarRestriction_title": {
+        "message": "แสดงรายละเอียดเหนือปุ่มเข้าชมหากอวาตาร์อาจจะถูกจำกัด"
+    },
+    "features_AssetDeleteFromInventory_title": {
+        "message": "ปุ่ม \"ลบออกจากกระเป๋า\" ในเมนู"
+    },
+    "features_AssetDeleteFromInventory_description": {
+        "message": "เมื่อเปิดใช้งาน เพิ่ม ปุ่ม \"ลบออกจากกระเป๋า\" ในเมนูรายการไอเทมหากยังไม่มีอยู่ เนื่องจากด้านความปลอดภัย จึงจำเป็นต้องมีการยืนยันแบบสองขั้นตอน"
+    },
+    "features_UserFriendsPageNewTitle_title": {
+        "message": "แสดงชื่อผู้ใช้ในชื่อหน้าเพื่อนของผู้ใช้"
+    },
+    "features_ExperiencePrivateNote_title": {
+        "message": "บันทึกส่วนตัวในหน้าเกี่ยวกับ"
+    },
+    "features_AccountPinPromptMoreLocations_title": {
+        "message": "แสดงรหัส PIN ของบัญชีที่อืน"
+    },
+    "features_AccountPinPromptMoreLocations_description": {
+        "message": "เมื่อเปิดใช้งาน จะแสดงข้อความแจ้งการปลดล็อก PIN ของบัญชีที่อื่น ที่มักจะนำไปยังการตั้งค่าบัญชี"
+    },
+    "features_GetUnreadR2EButton_title": {
+        "message": "ขอปุ่มไฟล์ CSV ที่มีสิทธิ์ในการลบ"
+    },
+    "features_DiscoverFilters_title": {
+        "message": "ฟิลเตอร์การค้นหา"
+    },
+    "features_DiscoverFilters_description": {
+        "message": "เมื่อเปิดใช้งาน เพิ่มส่วนฟิลเตอร์ในหน้าค้นหา อนุญาตให้ฟิลเตอร์ทุกประเภทตามเปอร์เซ็นต์การกดไลค์ จำนวนคนที่ชื่นชอบ จำนวนผู้เล่น จำนวนผู้เข้าชม และตามประเภท"
+    },
+    "features_RoSealSettingDropdown_title": {
+        "message": "\"การตั้งค่าของ RoSeal\" ในดร็อปดาวน์การตั้งค่า Roblox"
+    },
+    "features_AccurateHomeContinueSort_title": {
+        "message": "หน้าหลักที่ไม่มีแมพที่ \"เล่นต่อ\" ในรายการ"
+    },
+    "features_CSSFixes_title": {
+        "message": "แก้ไขสไตล์ (CSS) ต่างๆ ทั่วไซต์"
+    },
+    "features_MoveExperienceEvents_title": {
+        "message": "ย้ายกิจกรรมของ แมพ ไปที่แท็บของตัวเอง"
+    },
+    "features_RefreshlessGroupNavigation_title": {
+        "message": "แถบการนำทางของกลุ่มที่ไม่รีเฟรชหน้า"
+    },
+    "features_RefreshlessGroupNavigation_description": {
+        "message": "เมื่อเปิดใช้งาน การนำทางไปยังกลุ่มอื่นจากองค์กรกลุ่ม/กลุ่มที่รอดำเนินการจะไม่ต้องการการรีเฟรชหน้า"
+    },
+    "features_ItemAdditionalProductInfo_title": {
+        "message": "แสดงข้อมูลไอเทมเพิ่มเติม"
+    },
+    "features_RefreshAvatarItemDetails_title": {
+        "message": "ปุ่มรีเฟรชรายละเอียดไอเทมอวาตาร์"
+    },
+    "features_MarketplaceColorFilters_title": {
+        "message": "ตัวกรองสีของตลาด"
+    },
+    "features_RefreshAvatarItemDetails_sub_FastFreeBuy_title": {
+        "message": "การซื้อไอเทมอวาตาร์ฟรีอย่างรวดเร็ว"
+    },
+    "features_RemoveFriendActivityLabel_title": {
+        "message": "นำ \"แมพที่เพื่อนเล่น\" ออกจากรายการแมพ"
+    },
+    "features_RemoveHomePhoneNumberUpsell_title": {
+        "message": "ลบหมายเลขโทรศัพท์ออกจากหน้าแรก"
+    },
+    "features_UserProfileForceUnfollow_title": {
+        "message": "ปุ่ม \"บังคับเลิกติดตาม\" จะอยู่ในเมนูส่วนหัวของโปรไฟล์ผู้ใช้"
+    },
+    "features_JailbrokenHomeFavoritesSort_title": {
+        "message": "ระบุแมพที่ชื่นชอบทั้งหมดในหน้าหลัก จัดเรียงตาม \"รายการโปรด\""
+    },
+    "features_PutHomeFavoritesSortAtTop_title": {
+        "message": "ทำให้ \"รายการโปรด\" อยู่ด้านบนของหน้าหลัก"
+    },
+    "features_ShowVoiceChatSuspension_title": {
+        "message": "แสดงรายละเอียดการระงับการแชทด้วยเสียงและวันที่แบบเต็ม"
+    },
+    "features_ShowVoiceChatSuspension_description": {
+        "message": "เมื่อเปิดใช้งาน จะแสดงรายละเอียดการระงับการแชทด้วยเสียงในรูปแบบกล่องข้อความในทุกหน้าหากผู้ใช้ยังไม่ได้รับแจ้ง นอกจากนี้ยังจะเพิ่มระยะเวลาการระงับทั้งหมดในหน้าการตั้งค่าบัญชีความเป็นส่วนตัว"
+    },
+    "features_SearchByCreatorButton_title": {
+        "message": "ค้นหาไอเทมเพิ่มเติมโดยปุ่มผู้สร้างไอเทม"
+    },
+    "features_PrivateServerLinksSection_title": {
+        "message": "\"ลิงก์เซิร์ฟเวอร์ส่วนตัว\" ในแท็บเซิร์ฟเวอร์"
+    },
+    "features_PrivateServerLinksSection_description": {
+        "message": "เมื่อเปิดใช้งาน จะเพิ่ม \"ลิงก์เซิร์ฟเวอร์ส่วนตัว\" ในแท็บเซิร์ฟเวอร์ คุณสามารถเพิ่มลิงก์เซิร์ฟเวอร์ส่วนตัวและนำเข้าจาก/ส่งออกไปยังไฟล์ข้อมูลได้"
+    },
+    "features_PrivateServerLinksSection_sub_TryResolveOwner_title": {
+        "message": "พยายามแก้ไขเจ้าของเซิร์ฟเวอร์ส่วนตัวโดยอัตโนมัติ"
+    },
+    "features_BadgeMoreStatistics_title": {
+        "message": "เพิ่มสถิติเหรีญตราเพิ่มเติมในหน้าเหรีญตรา"
+    },
+    "features_ErrorShowMachineID_title": {
+        "message": ""
+    },
+
+    "popup_extensionname": {
+        "message": "{sealEmoji} RoSeal"
+    },
+    // Actions to go to RoSeal social/settings
+    "popup_actions_robloxgroup": {
+        "message": "กลุ่ม Roblox"
+    },
+    "popup_actions_settings": {
+        "message": "การตั่งค่า"
+    },
+    "popup_actions_website": {
+        "message": "เว็บไซต์"
+    },
+
+    // RoSeal optional permissions section
+    "popup_permissions": {
+        "message": "สิทธิ์เพิ่มเติม"
+    },
+    "popup_permissions_cookie": {
+        "message": "คุกกี้"
+    },
+    // Tooltip shown when hovering over the questionmark next to "Cookies"
+    "popup_permissions_cookietooltip": {
+        "message": "กรุณาให้สิทธิ์นี้หากคุณต้องการใช้ตัวจัดการบัญชี คุณสามารถนำการอนุญาตนี้ออกได้ตลอดเวลา"
+    },
+
+    // Popup data managemenet
+    "popup_extensiondata_show": {
+        "message": "แสดง"
+    },
+    "popup_extensiondata_hide": {
+        "message": "ซ่อน"
+    },
+    "popup_extensiondata": {
+        "message": "ข้อมูลส่วนขยาย"
+    },
+    "popup_extensiondata_download": {
+        "message": "ดาวน์โหลดข้อมูล"
+    },
+    "popup_extensiondata_request": {
+        "message": "ขอข้อมูล"
+    },
+    "popup_extensiondata_import": {
+        "message": "นำเข้า"
+    },
+    // Success shown when it successfully imported and parsed the data file
+    "popup_extensiondata_import_alert_success": {
+        "message": "นำเข้าข้อมูลสำเร็จ"
+    },
+    // Error shown when it cannot parse the data file
+    "popup_extensiondata_import_alert_error": {
+        "message": "กรุณาลองอีกครั้งด้วยไฟล์ข้อมูลที่ถูกต้อง"
+    },
+
+    "popup_languageswitcher_title": {
+        "message": ""
+    },
+    // i.e. "American English (default)"
+    "popup_languageswitcher_defaulttext": {
+        "message": ""
+    },
+    "popup_languageswitcher_changenotice": {
+        "message": ""
+    },
+
+    // Display in the RoSeal popup and in settings.
+    "buymeacoffee": {
+        "message": "{coffeeEmoji} ซื้อกาแฟให้หน่อย"
+    }
 }

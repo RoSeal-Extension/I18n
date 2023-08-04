@@ -1,2013 +1,2024 @@
 {
-  // For details on what to translate, see README.md file
-
-  // Name and description that appears on all stores, and in chrome://extensions
-  "manifest_name": {
-    "message": "RoSeal - Дополненное расширение для Roblox"
-  },
-  "manifest_description": {
-    "message": "Улучшите сайт Roblox с помощью RoSeal. У нас кстати ещё есть тюлени!"
-  },
-
-  // Popover dropdown menu for the roseal item
-  "robloxsettings_popover_roseal": {
-    "message": "{sealEmoji} Настройки RoSeal"
-  },
-
-  // Appears in the RoSeal settings, "Beta" and "Experimental" labels
-  "beta_feature_label": {
-    "message": "BETA"
-  },
-  "experimental_feature_label": {
-    "message": "EXPERIMENTAL"
-  },
-
-  "errorpage_machineid": {
-    "message": "Идентификатор машины Roblox: {robloxMachineId}"
-  },
-
-  // the 404 error page that appears if request is not valid.
-  // currently, it's only used by the developer product 404 page
-  "errorpage_404_title": {
-    "message": "Страница не найдена или больше не существует"
-  },
-  "errorpage_404_message": {
-    "message": "{sealEmoji} 404 <span>|</span>Страница не найдена"
-  },
-  "errorpage_back": {
-    "message": "Назад"
-  },
-  "errorpage_back_title": {
-    "message": "Вернуться на пред. страницу"
-  },
-  "errorpage_home": {
-    "message": "Главная"
-  },
-  "errorpage_home_title": {
-    "message": "Вернуться на главную"
-  },
-
-  // Hello variant of the home header feature
-  "homeheader_hellotext": {
-    "message": "Привет, {displayName}"
-  },
-
-  // "RoSeal Settings" item label in the roblox settings navigation list
-  "robloxsettings_selection_roseal": {
-    "message": "Настройки RoSeal"
-  },
-
-  // RoSeal settings titles
-  "settings_title": {
-    "message": "Настройки {sealEmoji}RoSeal"
-  },
-  "settings_return": {
-    "message": "Вернуться в настройки Roblox"
-  },
-
-  // "About" selection in menu and title
-  "settings_selection_about": {
-    "message": "Об RoSeal"
-  },
-  "settings_about_description": {
-    "message": "<bold>RoSeal</bold> это бесплатное расширение для Roblox сайта на тему тюленей с индивидуально настраиваемыми функциями и улучшениями, без каких-либо платных функций и отслеживания."
-  },
-  // under13 is for 13- users over13 is for 13+. this is to prevent exposing discord to underage users
-  "settings_about_media_under13": {
-    "message": "Наше сообщество в <groupLink>Roblox</groupLink>."
-  },
-  "settings_about_media_over13": {
-    "message": "Для расширения существуют сообщества в <discordLink>Discord</discordLink> и в <groupLink>Roblox</groupLink>"
-  },
-
-  // "Credits" selection tab in menu and title
-  "settings_about_credits_header": {
-    "message": "Особая благодарность"
-  },
-  "settings_about_credits_Julli4n": {
-    "message": "<link>Julli4n</link> - Главный разработчик"
-  },
-  "settings_about_credits_Karasuneth": {
-    "message": "<link>Karasuneth</link> - Создал первоначальную иконку"
-  },
-  "settings_about_credits_MaciejCreates": {
-    "message": "<link>MaciejCreates</link> - Создал текущую иконку"
-  },
-
-  // "Feature Switches" selection tab in menu and title
-  "settings_about_featureswitches_header": {
-    "message": "Переключатели функций"
-  },
-  "settings_about_featureswitches_description": {
-    "message": "Переключатели функций - это быстрый способ отключения и включения функций RoSeal в соответствии с вашими предпочтениями."
-  },
-  "settings_about_featureswitches_beta": {
-    "message": "<label>BETA</label> Эти функции не готовы к автоматическому включению; однако риск сломаться при их включении должен быть минимальным. Все желающие могут включить их и оставить свой отзыв."
-  },
-  "settings_about_featureswitches_experimental": {
-    "message": "<label>EXPERIMENTAL</label> Эти функции находятся в экспериментальном режиме и могут быть нестабильными или являться тестовыми для будущих функций. ВАЖНО: Не включайте эти функции, если вы не знаете, какие последствия это может иметь."
-  },
-
-  // "Donate" selection tab in menu and title
-  "settings_selection_donate": {
-    "message": "Поддержать"
-  },
-  "settings_donate_description": {
-    "message": "Я, <bold>Julli4n</bold>, не получаю никакой прибыли от разработки этого расширения. Пожалуйста, подумайте о пожертвовании, если вам понравилось это расширение. Вы не получите никаких преимуществ, кроме моей благодарности.{lineBreak}{lineBreak}Вы будете перенаправлены на BuyMeACoffee, специальный сайт для пожертвований."
-  },
-
-  // selected tab
-  "settings_selection_featureswitches": {
-    "message": "Переключатели"
-  },
-  // feature switch details
-  // a feature switch is disabled primarily remotely
-  "settings_featureswitches_featureswitch_disabled": {
-    "message": "Эта функция была отключена расширением RoSeal"
-  },
-  // when we deprecate a feature because it is no longer useful, or Roblox has their own solution now
-  "settings_featureswitches_featureswitch_deprecated": {
-    "message": "Эта функция <bold>отключёна</bold>. Рекомендуется найти альтернативу в RoSeal или использовать родные функции на сайте Roblox."
-  },
-  // not used atm, but will be if we ever add support for Safari or add firefox-exclusive features.
-  // "browsers" is a comma-separated list of browsers
-  "settings_featureswitches_featureswitch_exclusivebrowsers": {
-    "message": "Эксклюзивно для следующих браузеров: {browsers}"
-  },
-  "settings_featureswitches_featureswitch_permissions_title": {
-    "message": "Требуется разрешение"
-  },
-  "settings_featureswitches_featureswitch_permissions_values_Cookies": {
-    "message": "Куки"
-  },
-  "settings_featureswitches_featureswitch_permissions_subtext": {
-    "message": "Разрешения могут быть предоставлены на странице RoSeal:"
-  },
-  "settings_featureswitches_featureswitch_permissions_openoptions": {
-    "message": "Открыть"
-  },
-  // "Associated Storage" is basically just storage stored from the feature, i.e. Roblox accounts with accounts manager
-  "settings_featureswitches_featureswitch_removeassociatedstorage": {
-    "message": "Очистить данные"
-  },
-  // System feedback messages
-  "settings_featureswitches_featureswitch_removeassociatedstorage_systemfeedback_success": {
-    "message": "Вы успешно очистили данные для этой функции."
-  },
-  "settings_featureswitches_featureswitch_removeassociatedstorage_systemfeedback_error": {
-    "message": "Произошла ошибка при чистке данных для этой функции, повторите попытку позже."
-  },
-
-  // "Blocked Experiences" selection tab in menu and title
-  "settings_selection_blockedexperiences": {
-    "message": "Заблокированные игры"
-  },
-  "settings_blockedexperiences_keywords_title": {
-    "message": "Заблокированные ключевые слова"
-  },
-  "settings_blockedexperiences_keywords_description": {
-    "message": "Ключевые слова можно добавлять и удалять, чтобы блокировать игры, название которых совпадает с одним из добавленных ключевых слов. Такие игры не будут отображаться на некоторых страницах."
-  },
-  "settings_blockedexperiences_keywords_count": {
-    "message": "Вы заблокировали {keywordsNum} из {keywordsMax} разрешенных ключевых слов для игр:"
-  },
-  // No experience keywords blocked
-  "settings_blockedexperiences_keywords_nokeywords": {
-    "message": "Добавьте свое первое ключевое слово в список, чтобы начать."
-  },
-  "settings_blockedexperiences_keywords_inputplaceholder": {
-    "message": "Добавить ключевое слово..."
-  },
-  "settings_blockedexperiences_keywords_add": {
-    "message": "Добавить"
-  },
-  "settings_blockedexperiences_keywords_keyword_remove": {
-    "message": "Удалить"
-  },
-
-  // Blocked Experiences section
-  "settings_blockedexperiences_individualexperiences_title": {
-    "message": "Индивидуальные заблокированные игры"
-  },
-  "settings_blockedexperiences_individualexperiences_description": {
-    "message": "Индивидуальные игры можно блокировать и разблокировать с помощью меню на странице игры. Эти игры не будут отображаться на некоторых страницах."
-  },
-  "settings_blockedexperiences_individualexperiences_count": {
-    "message": "Вы заблокировали {experiencesNum} из {experiencesMax} разрешенных игр:"
-  },
-  // No experiences blocked
-  "settings_blockedexperiences_individualexperiences_noexperiences": {
-    "message": "Когда вы заблокируете игру, она будет отображаться здесь."
-  },
-  "settings_blockedexperiences_individualexperiences_experience_universeid": {
-    "message": "Идентификатор игры: {universeId}"
-  },
-  "settings_blockedexperiences_individualexperiences_experience_unblock": {
-    "message": "Разблокировать"
-  },
-
-  // Hide/show a blocked expiernece section, like keywords or individual ones
-  "settings_blockedexperiences_section_hide": {
-    "message": "Скрыть"
-  },
-  "settings_blockedexperiences_section_show": {
-    "message": "Показать"
-  },
-
-  // Account Settings dropdown strings
-  "accountsmanager_entry_login_disabled": {
-    "message": "Вход"
-  },
-  "accountsmanager_entry_login": {
-    "message": "Войти"
-  },
-  "accountsmanager_entry_logout": {
-    "message": "Выйти"
-  },
-  "accountsmanager_title": {
-    "message": "{sealEmoji} Менеджер аккаунтов"
-  },
-  "accountsmanager_noaccounts": {
-    "message": "У вас нет аккаунтов. Чтобы начать, добавьте свой текущий аккаунт"
-  },
-  // Not logged in text
-  "accountsmanager_noaccounts_disabled": {
-    "message": "У вас нет аккаунтов. Чтобы начать, добавьте свой текущий аккаунт"
-  },
-  "accountsmanager_maxaccounts": {
-    "message": "Вы достигли максимального количества разрешенных учетных записей. ({accountLimit})"
-  },
-  // Message to show if Accounts Manager is deprecated. we're not sure if it ever will be but given that
-  // there are new translations on the Roblox website hinting to an account switcher feature, this will be here just in case
-  "accountsmanager_deprecated": {
-    "message": "Менеджер аккаунтов был отключён, вместо него используйте родной интерфейс переключения аккаунтов Roblox \"Переключить аккаунт\" в выпадающем списке настроек.."
-  },
-  // Please don't mess this up.
-  "accountsmanager_addaccount": {
-    "message": "Вы можете добавить {moreAccounts, plural, =1 {ещё 1 аккаунт.} other {# ещё дополнительно.}} ({accountsNum}/{accountLimit})"
-  },
-  "accountsmanager_actions_addcurrentaccount": {
-    "message": "Добавить текущий аккаунт"
-  },
-  "accountsmanager_actions_clearcurrentcookie": {
-    "message": "Выйти"
-  },
-
-  // System feedbacks shown when there's an error/success message
-  "accountsmanager_success_AddCurrentRobloxAccount": {
-    "message": "Успешно добавлен текущий аккаунт в список."
-  },
-  "accountsmanager_success_LogoutRobloxAccount": {
-    "message": "Успешно удалена сессия и удален аккаунт Roblox из списка."
-  },
-  "accountsmanager_error_UnknownError": {
-    "message": "Произошла неизвестная ошибка, повторите попытку позже."
-  },
-  "accountsmanager_error_EndpointError": {
-    "message": "Произошла ошибка при попытке удалить сессию, повторите попытку позже."
-  },
-  "accountsmanager_error_InvalidAccount": {
-    "message": "Невалидная учетная запись, пожалуйста, обновите страницу."
-  },
-  "accountsmanager_error_NoCookiePermission": {
-    "message": "RoSeal не имеет права на управление файлами cookie браузера. Пожалуйста, разрешите это на странице настроек RoSeal."
-  },
-
-  // The context menu "..." item that appears in the item dropdown menu to view the icon asset
-  "experience_contextmenu_viewiconasset": {
-    "message": "Просмотр иконки"
-  },
-
-  // "Private Servre Links" section
-  "experience_privateserverlinks_title": {
-    "message": "Ссылки на приватный сервера"
-  },
-  // Button to see more private server links
-  "experience_privateserverlinks_seemore": {
-    "message": "См. ещё"
-  },
-  // Button to see less private server links
-  "experience_privateserverlinks_seeless": {
-    "message": "См. меньше"
-  },
-  // Tooltip hover message next to the title
-  "experience_privateserverlinks_titletooltip": {
-    "message": "Ссылки на приватные сервера позволяют сохранять текущие сервера от этой игры из ссылок или в виде файла, и будет показывать статус приватного сервера."
-  },
-  "experience_privateserverlinks_noservers": {
-    "message": "Ссылки на приватные сервера не найдены."
-  },
-  // "Add" button that will open the "Add Private Server Link" dialog
-  "experience_privateserverlinks_actions_add": {
-    "message": "Добавить"
-  },
-  // "Import" button that will open the "Import Private Server Links" dialog
-  "experience_privateserverlinks_actions_import": {
-    "message": "Импорт"
-  },
-  // this will have a .json file extension
-  "experience_privateserverlinks_exportfilename": {
-    "message": "{placeName} Приватные сервера"
-  },
-  // "Export" button that will download the "{placeName} Private Servers.json file"
-  "experience_privateserverlinks_actions_export": {
-    "message": "Экспорт"
-  },
-  // When the creator is listed as "No One", no creator is set
-  "experience_privateserverlinks_privateserver_noone": {
-    "message": "Нет владельца"
-  },
-  // Updated time
-  "experience_privateserverlinks_privateserver_updated": {
-    "message": "Обновлён {time}"
-  },
-  // Shows up as red text "Invalid" if server is invalid now
-  "experience_privateserverlinks_privateserver_invalid": {
-    "message": "Неактивен"
-  },
-  // Context menu items
-  "experience_privateserverlinks_privateserver_contextmenu_copylink": {
-    "message": "Скопировать"
-  },
-  "experience_privateserverlinks_privateserver_contextmenu_remove": {
-    "message": "Удалить"
-  },
-  "experience_privateserverlinks_privateserver_contextmenu_update": {
-    "message": "Обновить"
-  },
-  // Bottom button that switches between "Remove" and "Join"
-  // - join if valid, remove if not
-  "experience_privateserverlinks_privateserver_remove": {
-    "message": "Убрать"
-  },
-  "experience_privateserverlinks_privateserver_join": {
-    "message": "Зайти"
-  },
-
-  // Import private servers from file modal
-  "experience_privateserverlinks_importprivateserversmodal_title": {
-    "message": "{sealEmoji} Импорт приватных серверов"
-  },
-  "experience_privateserverlinks_importprivateserversmodal_filteredcount": {
-    "message": "{filtered} из {total} приватных серверов имели недействительную ссылку или были дубликатами."
-  },
-  "experience_privateserverlinks_importprivateserversmodal_importinfo": {
-    "message": "Вы хотите импортировать следующие {total, plural, =1 {private server} и {# private servers}}:"
-  },
-  "experience_privateserverlinks_importprivateserversmodal_instructiontext_drag": {
-    "message": "Перетащите файл сюда"
-  },
-  "experience_privateserverlinks_importprivateserversmodal_instructiontext_or": {
-    "message": "Или"
-  },
-  "experience_privateserverlinks_importprivateserversmodal_instructiontext_select": {
-    "message": "Загрузите файл"
-  },
-  // Import error messages
-  "experience_privateserverlinks_importprivateserversmodal_importerror_invalid": {
-    "message": "Пожалуйста, вставьте действительный файл данных (.json)."
-  },
-  "experience_privateserverlinks_importprivateserversmodal_importerror_unknown": {
-    "message": "При проверке файла произошла неизвестная ошибка."
-  },
-  "experience_privateserverlinks_importprivateserversmodal_importerror_unknowncheck": {
-    "message": "При проверке ссылок на приватные сервера произошла неизвестная ошибка."
-  },
-  "experience_privateserverlinks_importprivateserversmodal_importerror_allinvalid": {
-    "message": "Все ссылки на приватные сервера в файле были недействительными."
-  },
-  "experience_privateserverlinks_importprivateserversmodal_importerror_allduplicate": {
-    "message": "Все ссылки на приватные сервера в файле были дубликатами."
-  },
-  "experience_privateserverlinks_importprivateserversmodal_importerror_invalidformat": {
-    "message": "Файл в неверном формате."
-  },
-  // Modal actions
-  "experience_privateserverlinks_importprivateserversmodal_action": {
-    "message": "Импорт"
-  },
-  "experience_privateserverlinks_importprivateserversmodal_neutral": {
-    "message": "Отменить"
-  },
-
-  // Remove private server modal
-  "experience_privateserverlinks_removeprivateservermodal_title": {
-    "message": "{sealEmoji} Удалить ссылку на сервер"
-  },
-  "experience_privateserverlinks_removeprivateservermodal_body": {
-    "message": "Вы уверены, что хотите удалить эту ссылку на приватный сервер?"
-  },
-  "experience_privateserverlinks_removeprivateservermodal_action": {
-    "message": "Удалить"
-  },
-  "experience_privateserverlinks_removeprivateservermodal_neutral": {
-    "message": "Отменить"
-  },
-
-  // add private server link modal
-  "experience_privateserverlinks_addprivateservermodal_title": {
-    "message": "{sealEmoji} Добавить ссылку на сервер"
-  },
-  "experience_privateserverlinks_addprivateservermodal_fromlink": {
-    "message": "Похоже, что вы перешли по неизвестной ссылке на приватный сервер, не хотите добавить его?"
-  },
-  // Label for server name text field input
-  "experience_privateserverlinks_addprivateservermodal_name": {
-    "message": "Имя"
-  },
-  "experience_privateserverlinks_addprivateservermodal_nameplaceholder": {
-    "message": "Название сервера"
-  },
-  // Text that appears bottom right of the input
-  "experience_privateserverlinks_addprivateservermodal_namelength": {
-    "message": "{length}/{maxLength}"
-  },
-  // Server link label
-  "experience_privateserverlinks_addprivateservermodal_link": {
-    "message": "Ссылка"
-  },
-  // Server owner label
-  "experience_privateserverlinks_addprivateservermodal_owner": {
-    "message": "Владелец"
-  },
-  // Below the server owner input to the right
-  "experience_privateserverlinks_addprivateservermodal_owneroptional": {
-    "message": "(необязательно)"
-  },
-  // Server link errors
-  "experience_privateserverlinks_addprivateservermodal_linkerror_invalid": {
-    "message": "Ссылку, которую вы ввели недействительна."
-  },
-  "experience_privateserverlinks_addprivateservermodal_linkerror_unknown": {
-    "message": "Произошла неизвестная ошибка при проверке действительности ссылки."
-  },
-  "experience_privateserverlinks_addprivateservermodal_linkerror_duplicate": {
-    "message": "Приватный сервер с такой ссылкой уже имеется: \"{name}\""
-  },
-  // modal buttons
-  "experience_privateserverlinks_addprivateservermodal_action": {
-    "message": "Добавить"
-  },
-  "experience_privateserverlinks_addprivateservermodal_neutral": {
-    "message": "Отменить"
-  },
-
-  // update private server link modal
-  // this is very similar to add
-  "experience_privateserverlinks_updateprivateservermodal_title": {
-    "message": "{sealEmoji} Обновить ссылку на сервер"
-  },
-  // Label for server name text field input
-  "experience_privateserverlinks_updateprivateservermodal_name": {
-    "message": "Имя"
-  },
-  "experience_privateserverlinks_updateprivateservermodal_nameplaceholder": {
-    "message": "Название сервера"
-  },
-  // Text that appears bottom right of the input
-  "experience_privateserverlinks_updateprivateservermodal_namelength": {
-    "message": "{length}/{maxLength}"
-  },
-  // Server link label
-  "experience_privateserverlinks_updateprivateservermodal_link": {
-    "message": "Ссылка"
-  },
-  // Server link errors
-  "experience_privateserverlinks_updateprivateservermodal_linkerror_invalid": {
-    "message": "Ссылку, которую вы ввели недействительна."
-  },
-  "experience_privateserverlinks_updateprivateservermodal_linkerror_unknown": {
-    "message": "Произошла неизвестная ошибка при проверке действительности ссылки."
-  },
-  "experience_privateserverlinks_updateprivateservermodal_linkerror_duplicate": {
-    "message": "Приватный сервер с такой ссылкой уже имеется: \"{name}\""
-  },
-  // Server owner label
-  "experience_privateserverlinks_updateprivateservermodal_owner": {
-    "message": "Владелец"
-  },
-  // Below the server owner input to the right
-  "experience_privateserverlinks_updateprivateservermodal_owneroptional": {
-    "message": "(необязательно)"
-  },
-  // modal buttons
-  "experience_privateserverlinks_updateprivateservermodal_action": {
-    "message": "Обновить"
-  },
-  "experience_privateserverlinks_updateprivateservermodal_neutral": {
-    "message": "Отменить"
-  },
-
-  // The context menu "..." item that appears in the experience dropdown menu to unblock/block the target experience
-  "experience_contextmenu_unblock": {
-    "message": "Разблокировать"
-  },
-  "experience_contextmenu_block": {
-    "message": "Заблокировать"
-  },
-
-  // "Universe ID {number}" text under About
-  "experience_universeid": {
-    "message": "Идентификатор игры"
-  },
-
-  // The asset's numeric product ID
-  "generalasset_productid": {
-    "message": "ID предмета"
-  },
-  // The collectible item UUID ID
-  "collectibleasset_collectibleitemid": {
-    "message": "ID коллекционного предмета"
-  },
-  // The collectible product UUID ID
-  "collectibleasset_collectibleproductid": {
-    "message": "ID коллекционного продукта"
-  },
-
-  // The developer product's numeric product ID
-  "developerproduct_productid": {
-    "message": "ID продукта"
-  },
-
-  // "Refresh Item Details" tooltip when hovering over the refresh icon under the three dots (...)
-  "avataritem_refreshdetails": {
-    "message": "Обновить раздел предмета"
-  },
-
-  // "Refresh Item Details" tooltip when hovering over the search icon next to the creator name
-  "avataritem_searchbycreator": {
-    "message": "Поиск предметов с этим автором"
-  },
-
-  // The pass's numeric product ID field
-  "pass_productid": {
-    "message": "ID продукта"
-  },
-
-  // The bundle's numeric product ID field
-  "bundle_productid": {
-    "message": "ID костюма"
-  },
-
-  // Text to show if an experience is blocked, and to view it anyways
-  "experience_blocked_title": {
-    "message": "Эта игра заблокирована"
-  },
-  "experience_blocked_viewanyway": {
-    "message": "Посмотреть все равно"
-  },
-
-  // Dropdown selections for "Passes" and "Developer Products"
-  "experience_store_selection_passes": {
-    "message": "Пропуски"
-  },
-  "experience_store_selection_developerproducts": {
-    "message": "Продукты разработчиков"
-  },
-
-  // Developer products section
-  // filtering options
-  "experience_developerproducts_filtering_offsale": {
-    "message": "Показать распроданные предметы"
-  },
-  "experience_developerproducts_filtering_onsale": {
-    "message": "Показать активные предметы"
-  },
-  // Errors/no developer products
-  "experience_developerproducts_genericerror": {
-    "message": "При попытке получить продукты разработчика произошла ошибка, пожалуйста, повторите попытку позже."
-  },
-  "experience_developerproducts_nodeveloperproducts": {
-    "message": "Продукты разработчиков не доступны."
-  },
-  // Indicates that there is none from your search from the filters, but can change if filtering options are changed
-  "experience_developerproducts_nodeveloperproductsfiltered": {
-    "message": "Продукты разработчиков не доступны из вашего поиска."
-  },
-
-  // Experience passes stuff, we discard roblox's version and remake all of it
-  // filtering stuff
-  "experience_passes_filtering_offsale": {
-    "message": "Включить неактивные пропуски"
-  },
-  "experience_passes_filtering_onsale": {
-    "message": "Включить активные пропуски"
-  },
-  "experience_passes_filtering_unowned": {
-    "message": "Включить неимеющие пропуски"
-  },
-  "experience_passes_filtering_owned": {
-    "message": "Включить имеющие пропуски"
-  },
-  // Viewing as a specific user
-  "experience_passes_filtering_user": {
-    "message": "Посмотреть как:"
-  },
-  // Errors/no passes
-  "experience_passes_genericerror": {
-    "message": "При попытке получения пропусков произошла ошибка, пожалуйста, повторите попытку позже."
-  },
-  "experience_passes_nopasses": {
-    "message": "Пропуски отсутствуют."
-  },
-  // Indicates that there is none from your search from the filters, but can change if filtering options are changed
-  "experience_passes_nopassesfiltered": {
-    "message": "Нет пропусков, полученных из вашего поиска."
-  },
-  "experience_passes_entry_owned": {
-    "message": "Имеется"
-  },
-  "experience_passes_entry_buy": {
-    "message": "Купить"
-  },
-  "experience_passes_addpass": {
-    "message": "Добавить пропуск"
-  },
-
-  // Shown over the Play button to indicate to the user that their avatar may not be as intended in the experience
-  "experience_avatarrestricted": {
-    "message": "Ваш текущий аватар может выглядеть или функционировать не так, как задумывалось в этой игре."
-  },
-  // Table header items, "Field" in this context, is like part of an avatar, avatar type, body, proportion, etc.
-  "experience_avatarrestricted_compare_field": {
-    "message": "Поле"
-  },
-  "experience_avatarrestricted_compare_you": {
-    "message": "Вы"
-  },
-  "experience_avatarrestricted_compare_experience": {
-    "message": "Игра"
-  },
-
-  "experience_avatarrestricted_fields_height": {
-    "message": "Высота"
-  },
-  "experience_avatarrestricted_fields_width": {
-    "message": "Ширина"
-  },
-  "experience_avatarrestricted_fields_head": {
-    "message": "Голова"
-  },
-  "experience_avatarrestricted_fields_proportion": {
-    "message": "Пропорции"
-  },
-  "experience_avatarrestricted_fields_bodyType": {
-    "message": "Тип тела"
-  },
-  "experience_avatarrestricted_fields_avatarType": {
-    "message": "Тип аватара"
-  },
-  "experience_avatarrestricted_fields_avatarType_values_R6": {
-    "message": "R6"
-  },
-  "experience_avatarrestricted_fields_avatarType_values_R15": {
-    "message": "R15"
-  },
-  "experience_avatarrestricted_fields_avatarType_values_PlayerChoice": {
-    "message": "Пользовательский"
-  },
-
-  // Avatar Type stuff shown at the experience's stats.
-  "experience_avatartype_label": {
-    "message": "Тип аватара"
-  },
-  "experience_avatartype_values_ForcedRthro": {
-    "message": "Rthro"
-  },
-  "experience_avatartype_values_R15Rthro": {
-    "message": "R15, Rthro"
-  },
-  "experience_avatartype_values_R6": {
-    "message": "R6"
-  },
-  "experience_avatartype_values_R15": {
-    "message": "R15"
-  },
-  "experience_avatartype_values_PlayerChoice": {
-    "message": "Пользовательский"
-  },
-
-  // for Robux views, honestly forgot what this is for. likely on developer product/pass items in store
-  // and developer product pages
-  "item_offsale_long": {
-    "message": "Этот предмет сейчас не в продаже."
-  },
-  "item_offsale_short": {
-    "message": "Не в продаже"
-  },
-
-  // Developer product fields stuff.
-  "developerproduct_offsale": {
-    "message": "Этот предмет сейчас не в продаже."
-  },
-  "developerproduct_price": {
-    "message": "Цена"
-  },
-  "developerproduct_type": {
-    "message": "Тип"
-  },
-  "developerproduct_type_value": {
-    "message": "Продукт разработчика"
-  },
-  "developerproduct_created": {
-    "message": "Создан"
-  },
-  "developerproduct_updated": {
-    "message": "Обновлён"
-  },
-  "developerproduct_description": {
-    "message": "Описание"
-  },
-  "developerproduct_contextmenu_viewiconasset": {
-    "message": "Просмотреть иконку"
-  },
-
-  // Whenever the RoSeal privacy policy updates, we show this modal. Only shown once per privacy policy update since the user installed the extension.
-  // required.
-  "ppupdatemodal_title": {
-    "message": "{sealEmoji} Обновление политики конфиденциальности RoSeal"
-  },
-  "ppupdatemodal_description": {
-    "message": "Мы обновили политику конфиденциальности RoSeal с момента вашего последнего посещения.{lineBreak}{lineBreak}<privacyPolicyLink>Прочитайте политику конфиденциальности здесь</privacyPolicyLink>."
-  },
-  "ppupdatemodal_action": {
-    "message": "Принять"
-  },
-
-  // When accounts manager is enabled, and they try using the default Roblox "logout" button, we provide a modal warning
-  // because they likely don't know that Roblox's one is going to invalidate their session
-  "robloxlogoutmodal_title": {
-    "message": "{sealEmoji} Вы уверены?"
-  },
-  "robloxlogoutmodal_body": {
-    "message": "Используя обычную кнопку выхода из Roblox, вы аннулируете текущую сессию.{lineBreak}{lineBreak}Вы не сможете войти в эту учетную запись с помощью Менеджера учетных записей без повторного входа в аккаунт.{lineBreak}{lineBreak}Чтобы выйти из аккаунта без аннулирования сессии, откройте Менеджер аккаунтов и нажмите кнопку \"Выйти\"."
-  },
-  "robloxlogoutmodal_action": {
-    "message": "Выйти"
-  },
-  "robloxlogoutmodal_neutral": {
-    "message": "Отменить"
-  },
-
-  // A button to direct the user to the unofficial community wiki of an experience. Most don't have this,
-  // but for the ones that do, it's nice
-  "experience_communitywiki_button": {
-    "message": "Неофициальная вики сообщество"
-  },
-  "experience_communitywiki_modal_title": {
-    "message": "{sealEmoji} Вы покидаете Roblox"
-  },
-  // Modal shown when clicking the button to warn the user
-  "experience_communitywiki_modal_body": {
-    "message": "Внимание, роблоксиан - Нажимая на кнопку “продолжить,” вы будете перенаправлены на сайт Fandom, который не принадлежит Roblox и не управляется им. У них могут быть другие условия и политика конфиденциальности..{lineBreak}{lineBreak}Неофициальная вики сообщество, на которую вы будете перенаправлены, является частью проекта Roblox Interwiki по фэндому и зависит от правок сообщества. Информация может быть противоречивой, устаревшей или искаженной.."
-  },
-  "experience_communitywiki_modal_action": {
-    "message": "Продолжить"
-  },
-  "experience_communitywiki_modal_neutral": {
-    "message": "Отменить"
-  },
-
-  // System feedback messages shown when purchasing an item with "Refresh Avatar Item Details" feature enabled.
-  // it's an easier way to communicate stuff to the user than a modal.
-  "avataritem_successmessage_GenericPurchase": {
-    "message": "Вы успешно купили этот предмет."
-  },
-  "avataritem_errormessage_Load": {
-    "message": "Вы получили рейт-лимит от Roblox, пожалуйста попробуйте позже"
-  },
-  // "reason" is the public reason given from the API
-  // "realReason" is the actual internal reason given from the API.
-  // in the future, we may consider making proper messages for each {realReason}
-  // but for now, it's like this
-  "avataritem_errormessage_GenericPurchase": {
-    "message": "Не получилось купить предмет из-за ошибки: \"{reason} ({realReason})\""
-  },
-
-  // "ALT" text button shown on the lower left side on experience thumbnails if available. "ALT" is short for "Alternative", in "Alternative Text" for images.
-  // the alt text will show on hover. this is just for easily communicating with the user that there is alt text
-  // the img element already has alt text but it's better to indicate
-  "experience_media_alttext": {
-    "message": "ALT"
-  },
-
-  // "View Thumbnail Asset" button shown in the lower right side on experience thumbnails if available.
-  "experience_media_viewthumbnailasset": {
-    "message": "Просмотреть баннер"
-  },
-
-  // Funny little home header secret messages that can be shown despite the user's role
-  "homeheader_secretmessage_Default1": {
-    "message": "Привет, пользователь!"
-  },
-  "homeheader_secretmessage_Default2": {
-    "message": "Мы играем в Roblox!"
-  },
-  "homeheader_secretmessage_Default3": {
-    "message": "ROBLOX"
-  },
-  "homeheader_secretmessage_Default4": {
-    "message": "роблокс"
-  },
-  "homeheader_secretmessage_Default5": {
-    "message": "А вы скучаете по Tix'ам?"
-  },
-  "homeheader_secretmessage_Default6": {
-    "message": "Тюлени явно лучше, правда?"
-  },
-  "homeheader_secretmessage_Default7": {
-    "message": "Пора прощаться, LegacyApi!"
-  },
-  "homeheader_secretmessage_Default8": {
-    "message": "Перестань пропускать школу."
-  },
-  "homeheader_secretmessage_Default9": {
-    "message": "Откажитесь от плохих игр, не отказывайтесь от пиратских игр."
-  },
-  "homeheader_secretmessage_Default10": {
-    "message": "Знайте о самообороне и о том, как стать обманутым."
-  },
-  "homeheader_secretmessage_Default11": {
-    "message": "Игры полезны для вашего мозга, но проводить много времени в них может нанести вред вашему здоровью."
-  },
-  "homeheader_secretmessage_Default12": {
-    "message": "Правильно распоряжайся своим временем и веди здоровый образ жизни."
-  },
-  "homeheader_secretmessage_Default13": {
-    "message": "Представьте что у тебя на счету 1M Robux..."
-  },
-  "homeheader_secretmessage_Default14": {
-    "message": "Что делаете?"
-  },
-  "homeheader_secretmessage_Default15": {
-    "message": "Надеемся, что вам понравился Roseal."
-  },
-  "homeheader_secretmessage_Default16": {
-    "message": "Ехехех..."
-  },
-  "homeheader_secretmessage_Default17": {
-    "message": "В Roblox происходит всё на глазах у всех."
-  },
-  "homeheader_secretmessage_Default18": {
-    "message": "[ ДАННЫЕ УДАЛЕНЫ ]"
-  },
-  "homeheader_secretmessage_Default19": {
-    "message": "Это не тестовое сообщение."
-  },
-  "homeheader_secretmessage_Default20": {
-    "message": "котики."
-  },
-  "homeheader_secretmessage_Default21": {
-    "message": "голубь."
-  },
-  "homeheader_secretmessage_Default22": {
-    "message": "Вставьте сюда изображение тюленя"
-  },
-  "homeheader_secretmessage_Default23": {
-    "message": "Вставьте сюда изображение котика"
-  },
-  "homeheader_secretmessage_Default24": {
-    "message": "Вставьте сюда изображение голубя"
-  },
-  "homeheader_secretmessage_Default25": {
-    "message": "Роблокс упал?"
-  },
-  "homeheader_secretmessage_Default26": {
-    "message": "Дэвид Базуки"
-  },
-  "homeheader_secretmessage_Default27": {
-    "message": "Помните тех самых Guests в Roblox?"
-  },
-  "homeheader_secretmessage_Default28": {
-    "message": "Помните старые форумы в Roblox?"
-  },
-  "homeheader_secretmessage_Default29": {
-    "message": "Привет!"
-  },
-  "homeheader_secretmessage_Default30": {
-    "message": "ммм... ням?"
-  },
-
-  // Additional text shown if the user is in the "BetaTester" role. These are users that signed up for it on the DevForum.
-  "homeheader_secretmessage_BetaTester1": {
-    "message": "Бета-тестеры считают себя крутыми?"
-  },
-  "homeheader_secretmessage_BetaTester2": {
-    "message": "Похоже, у вас есть доступ к бета-функциям."
-  },
-  "homeheader_secretmessage_BetaTester3": {
-    "message": "Получайте удовольствие от того, чем занимаетесь сегодня ;)"
-  },
-  "homeheader_secretmessage_BetaTester4": {
-    "message": "Не так крут, как админ Roblox."
-  },
-  "homeheader_secretmessage_BetaTester5": {
-    "message": "Один из немногих."
-  },
-
-  // Additional text shown if the user is in the "Soothsayer" role. Typically, they are Roblox admins.
-  // The likelihood of a Roblox admin using the extension is low, but it's fun to put this in anyways
-  "homeheader_secretmessage_Soothsayer1": {
-    "message": "У вас отличная должность на глазах у общества."
-  },
-  "homeheader_secretmessage_Soothsayer2": {
-    "message": "У вас должна быть почта в виде @roblox.com."
-  },
-  "homeheader_secretmessage_Soothsayer3": {
-    "message": "Вам правда даже не нужно платить за доступ к игре с платным доступом?????."
-  },
-  "homeheader_secretmessage_Soothsayer4": {
-    "message": "Это определенно круче, чем обычный бета-тестер.."
-  },
-  "homeheader_secretmessage_Soothsayer5": {
-    "message": "Своя студия - это крутяк?"
-  },
-  "homeheader_secretmessage_Soothsayer6": {
-    "message": "Как прошла проверка коллекционных предметов?"
-  },
-
-  // Translators can put whatever message they like in here, remember: this is crowd-sourced
-  "homeheader_secretmessage_NonEnglish": {
-    "message": "Кажется, что RoSeal не был локализован для вашего языка, печалька :("
-  },
-
-  // Happy birthday, text shown on the users birthday
-  "homeheader_birthdaymessage": {
-    "message": "С днём рождения,"
-  },
-
-  // "Unlock Pin" modal shown when the user attempts to update their description or unblock someone
-  // on the profile page. we plan to expand this in the future
-  "pinunlockmodal_title": {
-    "message": "{sealEmoji} Требуется пин-код от аккаунта"
-  },
-  "pinunlockmodal_description": {
-    "message": "Введите пин-код, который вы ставили на свой аккаунт"
-  },
-  "pinunlockmodal_buttons_action": {
-    "message": "Разблокировать"
-  },
-
-  // general asset created and updated fields
-  "generalasset_created": {
-    "message": "Создан"
-  },
-  "generalasset_updated": {
-    "message": "Обновлён"
-  },
-
-  // Adding "Delete from Inventory" to the context menu to supported assets.
-  "generalasset_contextmenu_deletefrominventory": {
-    "message": "Удалить из инвентаря"
-  },
-
-  // Badge "Created" label, we do not need "Updated" because it is already supplied by Roblox
-  "badge_created": {
-    "message": "Создан"
-  },
-
-  // Additional fields that will appear with BadgeMoreStatistics feature enabled
-  // counts
-  "badge_awardedalltime": {
-    "message": "Получено за всё время"
-  },
-  "badge_awardedyesterday": {
-    "message": "Получено вчера"
-  },
-  "badge_percentawardedyesterday": {
-    "message": "% Получено вчера"
-  },
-  "badge_percentawardedyesterday_value": {
-    "message": "{percentage}%"
-  },
-  // when the user was awarded it
-  "badge_awarded": {
-    "message": "Получено"
-  },
-
-  // Adding "View Icon Asset" button to the experience badge context menu
-  "badge_contextmenu_viewiconasset": {
-    "message": "Просмотреть иконку"
-  },
-
-  // Chat sorts stuff
-  "chat_sorttypes_label": {
-    "message": "Сортировать по"
-  },
-  "chat_sorttypes_type_Default": {
-    "message": "по умолчанию"
-  },
-  "chat_sorttypes_type_NewestFirst": {
-    "message": "сначала новые"
-  },
-  "chat_sorttypes_type_OldestFirst": {
-    "message": "сначала старые"
-  },
-  "chat_sorttypes_type_UnreadFirst": {
-    "message": "непрочитанные"
-  },
-
-  // The pass created/updated text
-  "pass_created": {
-    "message": "Создан"
-  },
-  "pass_updated": {
-    "message": "Обновлён"
-  },
-
-  // Adding "View Icon Asset" button to the experience pass context menu
-  "pass_contextmenu_viewiconasset": {
-    "message": "Просмотреть иконку"
-  },
-
-  // The group created text, should this expand to including the time as well?
-  "group_created": {
-    "message": "Создан"
-  },
-
-  // Adding "View Icon Asset" button to the group context menu, old name for group icon was "Emblem"
-  "group_contextmenu_viewiconasset": {
-    "message": "Просмотреть иконку"
-  },
-
-  // "Transactions" tab in the left navigation
-  "navbar_left_transactions": {
-    "message": "Транзакции"
-  },
-
-  // This is for the shared component between Passes "View as" and badges "View as/Compare with"
-  "userlookup_placeholder": {
-    "message": "Пользователь"
-  },
-  "userlookup_directlookuperror": {
-    "message": "Пользователь с таким именем не найден."
-  },
-
-  // Discover filters labels and dropdown values stuff
-  "discover_filters_label": {
-    "message": "Фильтры"
-  },
-  "discover_filters_inputhint": {
-    "message": "Числа в виде 0 будут игнорироваться"
-  },
-  "discover_filters_applyfilters": {
-    "message": "Применить"
-  },
-  "discover_filters_likes": {
-    "message": "Лайки в %"
-  },
-  "discover_filters_playing": {
-    "message": "Играют"
-  },
-  "discover_filters_favorites": {
-    "message": "Избранное"
-  },
-  "discover_filters_visits": {
-    "message": "Посещения"
-  },
-  "discover_filters_genre": {
-    "message": "Жанр"
-  },
-  "discover_filters_genre_values_All": {
-    "message": "Все"
-  },
-  "discover_filters_genre_values_Building": {
-    "message": "Строение"
-  },
-  "discover_filters_genre_values_Horror": {
-    "message": "Хоррор"
-  },
-  "discover_filters_genre_values_TownandCity": {
-    "message": "Город и города"
-  },
-  "discover_filters_genre_values_Military": {
-    "message": "Военное"
-  },
-  "discover_filters_genre_values_Comedy": {
-    "message": "Комедия"
-  },
-  "discover_filters_genre_values_Medieval": {
-    "message": "Средневековье"
-  },
-  "discover_filters_genre_values_Adventure": {
-    "message": "Приключения"
-  },
-  "discover_filters_genre_values_SciFi": {
-    "message": "Научная-фантастика"
-  },
-  "discover_filters_genre_values_Naval": {
-    "message": "Военно-морской"
-  },
-  "discover_filters_genre_values_FPS": {
-    "message": "Шутеры"
-  },
-  "discover_filters_genre_values_RPG": {
-    "message": "Ролевые"
-  },
-  "discover_filters_genre_values_Sports": {
-    "message": "Спорт"
-  },
-  "discover_filters_genre_values_Fighting": {
-    "message": "Бои"
-  },
-  "discover_filters_genre_values_Western": {
-    "message": "Западное"
-  },
-  "discover_filters_device": {
-    "message": "Устройство"
-  },
-  "discover_filters_device_values_All": {
-    "message": "Любое"
-  },
-  "discover_filters_device_values_Desktop": {
-    "message": "ПК"
-  },
-  "discover_filters_device_values_Phone": {
-    "message": "Телефон"
-  },
-  "discover_filters_device_values_Tablet": {
-    "message": "Планшет"
-  },
-  "discover_filters_device_values_Console": {
-    "message": "Консоль"
-  },
-  "discover_filters_device_values_VR": {
-    "message": "VR"
-  },
-  "discover_filters_age": {
-    "message": "Возраст"
-  },
-  "discover_filters_age_values_All": {
-    "message": "Любой"
-  },
-  "discover_filters_age_values_0": {
-    "message": "Все"
-  },
-  "discover_filters_age_values_9": {
-    "message": "+9"
-  },
-  "discover_filters_age_values_13": {
-    "message": "+13"
-  },
-  "discover_filters_age_values_17": {
-    "message": "+17"
-  },
-  "discover_filters_age_values_18": {
-    "message": "+18"
-  },
-
-  // For each filter, the maximum and minimum labels.
-  // The placeholders right now do not have translations, merely because they are just "0"
-  "discover_filters_filter_minimum": {
-    "message": "Минимум"
-  },
-  "discover_filters_filter_maximum": {
-    "message": "Максимум"
-  },
-  // Tooltip shown when hovering over edit button next to the filter name for number-based filters
-  "discover_filters_filter_edit": {
-    "message": "Отредактировать фильтр"
-  },
-
-  // Events tab stuff, there's not much here because we just grab the events container from Roblox
-  "experience_events_tab": {
-    "message": "События"
-  },
-  "experience_events_noevents": {
-    "message": "События отсутствуют."
-  },
-
-  // Tab title
-  "experience_badges_tab": {
-    "message": "Значки"
-  },
-  // View as: {user} stuff or compare
-  "experience_badges_viewas": {
-    "message": "Посмотреть как:"
-  },
-  "experience_badges_comparewith": {
-    "message": "Сравнить с:"
-  },
-
-  // Experience badges sorting/filters options
-  "experience_badges_filtering_active": {
-    "message": "Показать активные предметы"
-  },
-  "experience_badges_filtering_inactive": {
-    "message": "Показать неактивные предметы"
-  },
-  "experience_badges_filtering_obtained": {
-    "message": "Показать полученные предметы"
-  },
-  "experience_badges_filtering_unobtained": {
-    "message": "Показать недоступные предметы"
-  },
-  "experience_badges_sorting_sortby_label": {
-    "message": "Сортировать по"
-  },
-  "experience_badges_sorting_sortdirection_label": {
-    "message": "Направление сортировки"
-  },
-  "experience_badges_sorting_sortobtained_label": {
-    "message": "Получено"
-  },
-  "experience_badges_sorting_sortby_values_WonYesterday": {
-    "message": "Получили вчера"
-  },
-  "experience_badges_sorting_sortby_values_WonAllTime": {
-    "message": "Получили за всё время"
-  },
-  "experience_badges_sorting_sortby_values_AwardedTime": {
-    "message": "Получили последние"
-  },
-  "experience_badges_sorting_sortby_values_Created": {
-    "message": "Создан"
-  },
-  "experience_badges_sorting_sortby_values_Name": {
-    "message": "Название"
-  },
-  "experience_badges_sorting_sortdirection_values_Ascending": {
-    "message": "Выше"
-  },
-  "experience_badges_sorting_sortdirection_values_Descending": {
-    "message": "Ниже"
-  },
-  "experience_badges_sorting_sortobtained_values_First": {
-    "message": "Первый"
-  },
-  "experience_badges_sorting_sortobtained_values_Last": {
-    "message": "Последний"
-  },
-  "experience_badges_sorting_sortobtained_values_Default": {
-    "message": "По умолчанию"
-  },
-  "experience_badges_sortsandfilters": {
-    "message": "Сортировка и фильтры"
-  },
-
-  // When there's no filtered badges, but there are badges for the experience
-  "experience_badges_nofilteredbadges": {
-    "message": "Нет отфильтрованных значков для отображения."
-  },
-
-  "experience_badges_nobadges": {
-    "message": "Значки недоступны."
-  },
-  "experience_badges_completed": {
-    "message": "Выполнено: {numCompleted}/{numTotal}"
-  },
-  "experience_badges_inactive": {
-    "message": "{inactiveIcon}Неактивно: {numInactive}/{numTotal}"
-  },
-  // Column title for % Won Yesterday
-  "experience_badges_wonyesterday": {
-    "message": "% Получили вчера"
-  },
-  "experience_badges_usercompleted": {
-    "message": "{numCompleted}/{numTotal}"
-  },
-  // Error shown in place of badges when there's an error
-  "experience_badges_awardederror": {
-    "message": "При получении информации значков произошла ошибка, пожалуйста повторите попытку позже."
-  },
-  "experience_badges_genericerror": {
-    "message": "При получении значков произошла ошибка, пожалуйста, повторите попытку позже."
-  },
-
-  // Experience badge details
-  "experience_badges_badge_inactive": {
-    "message": "Неактивен"
-  },
-  // Parts of a tooltip when hovering over the question mark
-  "experience_badges_badged_yesterdaypercentage": {
-    "message": "{percentage}%"
-  },
-  "experience_badges_badge_awarded": {
-    "message": "Получено {time}"
-  },
-  "experience_badges_badge_wonalltime": {
-    "message": "Получили за всё время"
-  },
-  "experience_badges_badge_wonyesterday": {
-    "message": "Получили вчера"
-  },
-
-  // Experience private notes stuff
-  "experience_privatenote_title": {
-    "message": "Ваши заметки"
-  },
-  "experience_privatenote_hint": {
-    "message": "Это заметки, которые сможете увидеть только Вы."
-  },
-  "experience_privatenote_placeholder": {
-    "message": "Специфические темпераменты или установки для этой игры..."
-  },
-  "experience_privatenote_length": {
-    "message": "{length}/{maxLength}"
-  },
-  "experience_privatenote_buttons_cancel": {
-    "message": "Отменить"
-  },
-  "experience_privatenote_buttons_save": {
-    "message": "Сохранить"
-  },
-  "generictoggletarget_readmore": {
-    "message": "Больше"
-  },
-  "generictoggletarget_readless": {
-    "message": "Меньше"
-  },
-
-  // Adding "Report Abuse" to the item pages context menu if it isn't already there
-  "itempages_contextmenu_reportabuse": {
-    "message": "Отправить репорт"
-  },
-
-  // User profile force unfollow action
-  "userprofile_actions_forceunfollow": {
-    "message": "Быстрая отписка"
-  },
-
-  // System feedback banners for force unfollow in the profile
-  "userprofile_actions_forceunfollow_systemfeedback_success": {
-    "message": "Вы успешно заставили отписаться пользователя от вас."
-  },
-  "userprofile_actions_forceunfollow_systemfeedback_error": {
-    "message": "При выполении функции произошла неизвестная ошибка."
-  },
-
-  // User's profile cancel request actions
-  "userprofile_actions_cancelrequest": {
-    "message": "Отменить"
-  },
-  // Cancelled request successfully, disabled button
-  "userprofile_actions_cancelledrequest": {
-    "message": "Отменено"
-  },
-
-  // Last online date for a user at the bottom (or under Avatar with BTRoblox)
-  "userprofile_lastonline": {
-    "message": "Последний онлайн"
-  },
-  "userprofile_lastonline_now": {
-    "message": "Только что"
-  },
-
-  // When "Show username in user's friends page title" is enabled, it will replace the title with this.
-  // adding {username}
-  "userfriends_newtitle": {
-    "message": "Друзья {displayName} (@{username})"
-  },
-
-  // Context menu for "Quick actions in the user's friends page"
-  "userfriends_contextmenu_unfriend": {
-    "message": "Удалить из друзей"
-  },
-  "userfriends_contextmenu_unfollow": {
-    "message": "Отписаться"
-  },
-  "userfriends_contextmenu_forceunfollow": {
-    "message": "Моментально отписаться"
-  },
-  "userfriends_contextmenu_block": {
-    "message": "Заблокировать"
-  },
-
-  // System feedback in the users friends page when doing an action with the "Quick actions in the user's friends page" feature
-  "userfriends_systemfeedback_success_unfriend": {
-    "message": "Пользователь удален из друзей."
-  },
-  "userfriends_systemfeedback_success_unfollow": {
-    "message": "Пользователь был удалён из подписок."
-  },
-  "userfriends_systemfeedback_success_forceunfollow": {
-    "message": "Пользователь успешно отписался от вас."
-  },
-  "userfriends_systemfeedback_success_block": {
-    "message": "Пользователь был заблокирован."
-  },
-  "userfriends_systemfeedback_genericerror": {
-    "message": "При обработке произошла ошибка, пожалуйста, повторите попытку позже."
-  },
-
-  // Red text to show below "Your access to voice chat has been suspended for violating our Community Standards." in Privacy settings
-  "robloxsettings_voicechat_suspensiondate": {
-    "message": "Ваш доступ будет восстановлен начиная с {date}"
-  },
-
-  // Marketplace Color filters UI
-  "avatarshop_colorfilters_title": {
-    "message": "Цвета"
-  },
-  "avatarshop_colorfilters_items_primary": {
-    "message": "Основной"
-  },
-  "avatarshop_colorfilters_items_secondary": {
-    "message": "Вторичный"
-  },
-  "avatarshop_colorfilters_items_any": {
-    "message": "Любой"
-  },
-
-  // Pending group join requests for the user
-  "group_pendingrequests": {
-    "message": "Ожидающие ответа заявки"
-  },
-  "group_typesswitch_joined": {
-    "message": "Присоединились"
-  },
-  "group_typesswitch_pending": {
-    "message": "Ожидающие"
-  },
-  "group_discovergroups": {
-    "message": "Узнать о других группах"
-  },
-  "group_creategroup": {
-    "message": "Создать группу"
-  },
-
-  // For the next messages, R2E = Right to Erasure
-
-  // pending in button when fetching R2Es
-  "messages_getunreadr2e_pending": {
-    "message": "Ожидание"
-  },
-  // error in button when fetching R2Es
-  "messages_getunreadr2e_error": {
-    "message": "Ошибка"
-  },
-  "messages_getunreadr2e_request": {
-    "message": "Запросить непрочитанные R2E"
-  },
-  "messages_getunreadr2e_download": {
-    "message": "Скачать непрочитанные R2E"
-  },
-  "messages_getunreadr2e_markread": {
-    "message": "Пометить непрочитанные R2E прочитанными"
-  },
-
-  // Modal shown when asked if the user wants to mark R2Es as read
-  "messages_getunreadr2e_markreadmodal_title": {
-    "message": "Пометить R2E как прочитанными"
-  },
-  "messages_getunreadr2e_markreadmodal_body": {
-    "message": "Вы хотите отметить сообщения R2E как прочитанные?"
-  },
-  "messages_getunreadr2e_markreadmodal_action": {
-    "message": "Пометить как прочитанными"
-  },
-  "messages_getunreadr2e_markreadmodal_neutral": {
-    "message": "Отменить"
-  },
-
-  "voicechatsuspensionmodal_title": {
-    "message": "🦭 Голосовой чат ограничен"
-  },
-  "voicechatsuspensionmodal_description": {
-    "message": "Из-за нарушения <communityGuidelinesLink>Roblox's Community Guidelines</communityGuidelinesLink>, ваш голосовой чат был временно приостановлен до {date}.{lineBreak}{lineBreak}Пожалуйста, будьте уважительны к другим и помогите сохранить веселье в Roblox.{lineBreak}{lineBreak}Вы можете проверить, сколько времени осталось в ваших <privacySettingsLink>Настройках приватности</privacySettingsLink>."
-  },
-  "voicechatsuspensionmodal_action": {
-    "message": "Я понимаю"
-  },
-
-  // Asking the user to enable 2SV by going to their security settings. This is just for security purposes.
-  "force2svmodal_title": {
-    "message": "{sealEmoji} Требуется двухэтапная верификация"
-  },
-  "force2svmodal_body": {
-    "message": "Для безопасности вашего аккаунта для использования этой функции необходимо включить двухступенчатую верификацию.{lineBreak}{lineBreak}Вы хотите перейти к настройкам безопасности вашей учетной записи?"
-  },
-  "force2svmodal_action": {
-    "message": "Перейти"
-  },
-  "force2svmodal_neutral": {
-    "message": "Отменить"
-  },
-
-  // System feedback shown when cancelling a pending join request from the pending groups list UI
-  "group_pendingrequests_systemfeedback_genericerror": {
-    "message": "Не удалось отменить ожидающий запрос на присоединение, повторите попытку позже."
-  },
-  "group_pendingrequests_systemfeedback_success": {
-    "message": "Успешно отменен запрос на присоединение в группу."
-  },
-
-  // Modal shown when customizing a folder
-  "group_foldercustomization_modal_title": {
-    "message": "{sealEmoji} Настройка папки группы"
-  },
-  "group_foldercustomization_modal_field_name": {
-    "message": "Имя"
-  },
-  "group_foldercustomization_modal_lengthtip": {
-    "message": "{length}/{maxLength}"
-  },
-  "group_foldercustomization_modal_field_name_placeholder": {
-    "message": "Название папки"
-  },
-  "group_foldercustomization_modal_field_color": {
-    "message": "Цвет"
-  },
-  "group_foldercustomization_modal_action": {
-    "message": "Сохранить"
-  },
-  "group_foldercustomization_modal_neutral": {
-    "message": "Отменить"
-  },
-
-  // Text to show in /transactions to toggle off/on hiding stuff
-  "transactions_hide0robuxamount": {
-    "message": "Скрыть транзакции на сумму 0 робуксов"
-  },
-  "transactions_hideprivateservers": {
-    "message": "Скрыть транзакции с приватными серверами"
-  },
-
-  // Feature switches sections and subsections
-  "features_section_home": {
-    "message": "Главная"
-  },
-  "features_section_home_general": {
-    "message": "Общее"
-  },
-  "features_section_experiences": {
-    "message": "Игры"
-  },
-  "features_section_experiences_discover": {
-    "message": "Обнаружение"
-  },
-  "features_section_experiences_general": {
-    "message": "Общее"
-  },
-  "features_section_experiences_store": {
-    "message": "Магазин"
-  },
-  "features_section_account": {
-    "message": "Аккаунт"
-  },
-  "features_section_account_general": {
-    "message": "Общее"
-  },
-  "features_section_items": {
-    "message": "Предметы"
-  },
-  "features_section_items_general": {
-    "message": "Общее"
-  },
-  "features_section_items_avatar": {
-    "message": "Предметы для аватара"
-  },
-  "features_section_miscellaneous": {
-    "message": "Другое"
-  },
-  "features_section_miscellaneous_general": {
-    "message": "Общее"
-  },
-  "features_section_miscellaneous_transactionspage": {
-    "message": "Страница операций"
-  },
-  "features_section_miscellaneous_seals": {
-    "message": "Тюлени"
-  },
-  "features_section_miscellaneous_navbars": {
-    "message": "Панель"
-  },
-  "features_section_miscellaneous_avatarshop": {
-    "message": "Магазин"
-  },
-  "features_section_miscellaneous_chat": {
-    "message": "Чат"
-  },
-  "features_section_miscellaneous_messages": {
-    "message": "Сообщения"
-  },
-  "features_section_users": {
-    "message": "Пользователи"
-  },
-  "features_section_users_friendspage": {
-    "message": "Страница Друзья"
-  },
-  "features_section_users_profile": {
-    "message": "Профиль"
-  },
-  "features_section_groups": {
-    "message": "Группы"
-  },
-  "features_section_groups_navigation": {
-    "message": "Навигация"
-  },
-  "features_section_groups_walls": {
-    "message": "Лента группы"
-  },
-
-  // Feature switches in settings
-  // `_title` = the title of the feature
-  // `_description` = the description of the feature
-  // _sub_ indicates a subfeature
-  "features_RemoveHomePageUnnecessarySorts_title": {
-    "message": "Убрать \"лишние\" сортировки из главной страницы"
-  },
-  "features_RemoveHomePageUnnecessarySorts_description": {
-    "message": "Когда функция включена, он удаляет с главной страницы все сорта, которые не соответствуют тегам: \"Рекомендовано для вас\", \"Избранное\", \"Продолжить\", \"Друзья играют\" или \"Спонсировано\"."
-  },
-  "features_ForceHomePageGenreExplorer_title": {
-    "message": "Переместить \"ненужные\" сортировки в проводник"
-  },
-  "features_ForceHomePageGenreExplorer_description": {
-    "message": "Когда функция включена, все сортировки которые не соответствуют категориям \"Рекомендовано для вас\", \"Избранное\", \"Продолжить\", \"Друзья играют\" или \"Спонсировано\", будут помещены в \"Категории\" на главную страницу в верхней части."
-  },
-  "features_RefreshedHomeUserHeader_title": {
-    "message": "Обновлённый заголовок пользователя"
-  },
-  "features_RefreshedHomeUserHeader_description": {
-    "message": "Когда включено, возвращает старый заголовок пользователя на страницу \"Главная\", но с некоторыми отличиями."
-  },
-  "features_RefreshedHomeUserHeader_sub_BasedText_title": {
-    "message": "10%-тный шанс получить случайное сообщение на основе ваших публичных ролей"
-  },
-  "features_RefreshedHomeUserHeader_sub_BirthdayMessage_title": {
-    "message": "Поздравление с днём рождения"
-  },
-  "features_RefreshedHomeUserHeader_sub_HelloText_title": {
-    "message": "Приветствие в виде \"Привет,\""
-  },
-  "features_RefreshedHomeUserHeader_sub_ShowNameType_title": {
-    "message": "Изменение типа отображаемого имени"
-  },
-  "features_RefreshedHomeUserHeader_sub_ShowNameType_values_Both": {
-    "message": "Оба"
-  },
-  "features_RefreshedHomeUserHeader_sub_ShowNameType_values_DisplayName": {
-    "message": "Только отображаемое имя"
-  },
-  "features_RefreshedHomeUserHeader_sub_ShowNameType_values_Username": {
-    "message": "Только имя пользователя"
-  },
-  "features_MoveExperienceSocialLinks_title": {
-    "message": "Переместить социальные ссылки на страницу игры над описанием в разделе \"О игре\""
-  },
-  "features_AddCommunityWikiButton_title": {
-    "message": "Добавить кнопку для посещения неофициальной вики сообщества игры в разделе \"О игре\""
-  },
-  "features_AddCommunityWikiButton_description": {
-    "message": "При включении этой функции расширение отобразит кнопку для посещения неофициальной вики, являющейся частью проекта Roblox Interwiki по фэндому для опыта, если она известна RoSeal."
-  },
-  "features_RemovePrivateServersSectionInAbout_title": {
-    "message": "Убрать раздел \"Приватные сервера\" в вкладке \"О игре\""
-  },
-  "features_DeveloperProductsInExperienceStore_title": {
-    "message": "Продукты разработчика в вкладке \"Магазин\" игры"
-  },
-  "features_DeveloperProductsInExperienceStore_description": {
-    "message": "При включении этой опции продукты разработчиков отображаются в выпадающем списке на вкладке \"Магазин\". При нажатии создается новая страница для просмотра информации о продукте разработчика."
-  },
-  "features_ExperienceStoreItemFiltering_title": {
-    "message": "Параметры фильтрации в вкладке \"Магазин игры\""
-  },
-  "features_ExperienceStoreItemFiltering_description": {
-    "message": "Когда эта опция включена, то во вкладках \"Пропуски\" и \"Продукты разработчика\" в магазине игры отображаются дополнительные параметры для фильтра."
-  },
-  "features_WebsiteOfflineMode_title": {
-    "message": "Отображение в режиме оффлайн только на сайте"
-  },
-  "features_WebsiteOfflineMode_description": {
-    "message": "Когда эта функция включена, никто не узнает, были-ли вы на сайте. Включение может занять несколько минут."
-  },
-  "features_AccountsManager_title": {
-    "message": "Менеджер аккаунтов"
-  },
-  "features_AccountsManager_description": {
-    "message": "При включении этой функции справа сверху добавляется иконка, активирующий всплывающее окно для управления учетными записями. Используйте на свой страх и риск."
-  },
-  "features_ThemeSwitchThroughoutDay_title": {
-    "message": "Синхронизировать тему сайта с браузером"
-  },
-  "features_TooltipTimeType_title": {
-    "message": "Изменение типа времени для дат всплывающей подсказки"
-  },
-  "features_TooltipTimeType_description": {
-    "message": "При выборе параметра изменяется формат даты, в котором всплывающие подсказки с датами будут отображаться при наведении.."
-  },
-  "features_TooltipTimeType_values_Disabled": {
-    "message": "Отключено (Обычная от Roblox)"
-  },
-  "features_TooltipTimeType_values_Relative": {
-    "message": "Относительно"
-  },
-  "features_TooltipTimeType_values_Absolute": {
-    "message": "Абсолютная"
-  },
-  "features_CreatedUpdatedItemsTimeType_title": {
-    "message": "Изменение типа времени для полей Created/Updated/Joined/ и т.д."
-  },
-  "features_CreatedUpdatedItemsTimeType_description": {
-    "message": "При выборе этого параметра текст полей Created, Updated, Joined или других полей на соответствующих страницах изменяется в соответствии с выбранным форматом времени. Это добавит поля \"Создано\", \"Обновлено\" и \"Присоединён\" на страницы элементов, когда это необходимо."
-  },
-  "features_CreatedUpdatedItemsTimeType_values_Disabled": {
-    "message": "Отключить"
-  },
-  "features_CreatedUpdatedItemsTimeType_values_Relative": {
-    "message": "Относительно"
-  },
-  "features_CreatedUpdatedItemsTimeType_values_Absolute": {
-    "message": "Абсолютная"
-  },
-  "features_CreatedUpdatedItemsTimeType_values_Regular": {
-    "message": "Обычная от Roblox"
-  },
-  "features_PersistentTransactionsSelection_title": {
-    "message": "Запоминать мой выбор на странице \"Транкзакции\""
-  },
-  "features_PersistentTransactionsSelection_description": {
-    "message": "Когда функция включена, то последний выбор в списке сохраняется даже после закрытия страницы. Может сломаться при получении нового типа в транзакциях."
-  },
-  "features_BetterRobuxNavigation_title": {
-    "message": "Более удобная навигация Робуксов"
-  },
-  "features_BetterRobuxNavigation_description": {
-    "message": "При включении этой опции в верхней навигации рядом с балансом Робуксов появлится кнопка Плюс (+) для перенаправления к покупке Робуксов, а в левой навигации добавляется новый пункт Транзакции."
-  },
-  "features_MoveAgeBracket_title": {
-    "message": "Переместить возрастную группу в левую навигацию"
-  },
-  "features_MoveAgeBracket_description": {
-    "message": "Когда включено, возрастная группа перемещается из верхней навигации в левую, а изображение профиля и имя пользователя удаляются из верхней навигации."
-  },
-  "features_DisableDesktopApp_title": {
-    "message": "Убрать баннер \"Приложение Roblox на PC\""
-  },
-  "features_ViewItemIconThumbnailAssets_title": {
-    "message": "Добавить ссылки для просмотра баннеров/значков"
-  },
-  "features_ViewItemIconThumbnailAssets_description": {
-    "message": "При включении этой опции в контекстное меню страниц с подробной информацией об элементах добавляются ссылки для просмотра иконки, если такая имеется. Это также относится к баннерам игры на странице \"О игре\" самой игры."
-  },
-  "features_UserFriendsPageContextMenu_title": {
-    "message": "Быстрые действия на странице \"Друзья\""
-  },
-  "features_UserFriendsPageContextMenu_description": {
-    "message": "При включении этой опции добавляется или заменяется контекстное меню на карточках друзей на странице \"Друзья\" пользователя для выполнения быстрых действий. К быстрым действиям относятся: заблокировать, удалить из друзей, отписка и моментальная отписка."
-  },
-  "features_UserProfileAddMargins_title": {
-    "message": "Добавить отступ между разделами на странице профиля пользователя"
-  },
-  "features_ItemPagesMoveReportAbuse_title": {
-    "message": "Переместить кнопку \"Отправить репорт\" в контекстное меню, когда это возможно"
-  },
-  "features_ItemMentions_title": {
-    "message": "Форматирование упоминаний пользователей/групп в сообщениях"
-  },
-  "features_ItemMentions_description": {
-    "message": "При включении этой опции, ссылки с @user, ссылки на профиль и ссылки на группу из сообщений преобразуются в ссылку с изображением аватара или группы."
-  },
-  "features_UserProfileCancelRequest_title": {
-    "message": "Отменить исходящий запрос на дружбу в профиле"
-  },
-  "features_ListPendingGroups_title": {
-    "message": "Показывать список групп с нерассмотренными заявками на присоединение в навигации"
-  },
-  "features_ListPendingGroups_description": {
-    "message": "Когда функция включена, к навигации по группам добавляется навигация по вкладкам с \"Ожидающие подтверждения\"."
-  },
-  "features_DisableAvatarShopInfiniteScrolling_title": {
-    "message": "Отключить бесконечную прокрутку в Каталоге"
-  },
-  "features_DisableGroupWallInfiniteScrolling_title": {
-    "message": "Отключить бесконечную прокрутку ленты в группах"
-  },
-  "features_BlockExperiences_title": {
-    "message": "Заблокированные игры"
-  },
-  "features_BlockExperiences_description": {
-    "message": "Когда включено, в настройках RoSeal добавляется новый раздел для блокировки показа игр и ключевых слов на некоторых страницах. Блокировать игры можно из меню на странице подробной информации об игре."
-  },
-  "features_ShowExperienceUniverseId_title": {
-    "message": "Показывать уникальный ID игры"
-  },
-  "features_Enable3DThumbnailDynamicLighting_title": {
-    "message": "Включить динамическое освещение для 3D-аватара"
-  },
-  "features_ChatSortTypes_title": {
-    "message": "Тип сортировки чата"
-  },
-  "features_ChatSortTypes_description": {
-    "message": "При включении этой опции в поле \"Чат\" добавляются новые типы сортировки для фильтрации разговоров."
-  },
-  "features_Transactions0RobuxAmountToggle_title": {
-    "message": "Включите чтобы спрятать транкзакции с суммой 0 Робуксов"
-  },
-  "features_TransactionsPrivateServersToggle_title": {
-    "message": "Включите чтобы спрятать транзакции связанные с Приватными серверами"
-  },
-  "features_GroupOrganization_title": {
-    "message": "Папки для групп"
-  },
-  "features_GroupOrganization_description": {
-    "message": "Когда функция включена, она позволяет реорганизовывать группы и создавать групповые папки с помощью перетаскивания. Также папки могут быть дополнительно настроены."
-  },
-  "features_BetterExperienceBadges_title": {
-    "message": "Список лучших значков игры"
-  },
-  "features_BetterExperienceBadges_description": {
-    "message": "При включении этой функции в сведениях об игре добавляется новая вкладка, содержащая список лучших значков игры. Вы также можете просмотреть неактивные значки, даты награждения значков и сравнить свои значки с другими пользователями. Не совсем будет удобно для игры с большим количеством значков.."
-  },
-  "features_BetterExperiencesBadges_sub_FiltersAndSorts_title": {
-    "message": "Фильтры и сортировка значков игры"
-  },
-  "features_BetterExperiencesBadges_sub_DisableRobloxBadges_title": {
-    "message": "Отключить раздел значков от Roblox"
-  },
-  "features_UserProfileLastOnline_title": {
-    "message": "Показывать дату последнего выхода в профиле пользователя"
-  },
-  "features_ChangeNavFriendsHash_title": {
-    "message": "Изменить вкладку друзей пользователей по умолчанию на панели навигации"
-  },
-  "features_ChangeNavFriendsHash_values_friends": {
-    "message": "Друзья"
-  },
-  "features_ChangeNavFriendsHash_values_following": {
-    "message": "Подписки"
-  },
-  "features_ChangeNavFriendsHash_values_followers": {
-    "message": "Подписчики"
-  },
-  "features_ChangeNavFriendsHash_values_friendrequests": {
-    "message": "Запросы в друзья"
-  },
-  "features_HideFriendRequestsCount_title": {
-    "message": "Скрыть счётчик запросов друзей на панели навигации"
-  },
-  "features_HideMessagesCount_title": {
-    "message": "Скрыть счётчик сообщений в панели навигации"
-  },
-  "features_SealImages_title": {
-    "message": "Заменить все изображения на картинки тюленей"
-  },
-  "features_ExperienceMediaAltTextButton_title": {
-    "message": "Улучшение работы с кнопкой ALT для картинок"
-  },
-  "features_ShowExperienceAvatarType_title": {
-    "message": "Показывать тип аватара в играх рядом со статистикой"
-  },
-  "features_ShowExperienceAvatarType_sub_ShowAvatarRestriction_title": {
-    "message": "Показывать информацию над кнопкой \"Играть\", если ваш аватар может не работать в каких-либо играх"
-  },
-  "features_AssetDeleteFromInventory_title": {
-    "message": "Кнопка \"Удалить из инвентаря\" на странице \"Просмотр иконки\" "
-  },
-  "features_AssetDeleteFromInventory_description": {
-    "message": "Когда функция включена в меню элементов иконки добавляется кнопка \"Удалить из инвентаря\", если её там нет. Из-за безопасности аккаунта потребуется 2FA подтверждение."
-  },
-  "features_UserFriendsPageNewTitle_title": {
-    "message": "Показывать имя пользователя в заголовке страницы друзей"
-  },
-  "features_ExperiencePrivateNote_title": {
-    "message": "Добавить заметки об игре на странице игры"
-  },
-  "features_AccountPinPromptMoreLocations_title": {
-    "message": "Показывать запрос на ввод пин-кода от аккаунта в большинстве местах"
-  },
-  "features_AccountPinPromptMoreLocations_description": {
-    "message": "Когда функция включена, то запрос на разблокировку пин-кода учетной записи отображается в большем количестве мест, где обычно Roblox просит ввести пин-код чтобы что-то изменить."
-  },
-  "features_GetUnreadR2EButton_title": {
-    "message": "Кнопка запроса CSV-файла"
-  },
-  "features_DiscoverFilters_title": {
-    "message": "Фильтры для игр"
-  },
-  "features_DiscoverFilters_description": {
-    "message": "Когда функция включена, на страницу Discover добавляется раздел Фильтры. Он позволяет отфильтровать всевозможные варианты по проценту \"нравится\", количеству избранных, количеству игроков, количеству посещений и жанру."
-  },
-  "features_RoSealSettingDropdown_title": {
-    "message": "\"Настройки RoSeal\" в списке настроек Roblox"
-  },
-  "features_AccurateHomeContinueSort_title": {
-    "message": "Упорядочивание игр на странице \"Продолжить\""
-  },
-  "features_CSSFixes_title": {
-    "message": "Различные исправления стилей (CSS) на сайте"
-  },
-  "features_MoveExperienceEvents_title": {
-    "message": "Перенести события игры в отдельную вкладку"
-  },
-  "features_RefreshlessGroupNavigation_title": {
-    "message": "Навигация в группах без обновления страницы"
-  },
-  "features_RefreshlessGroupNavigation_description": {
-    "message": "Когда эта функция включена, то переход к другой группе из любого списка групп не требует обновления страницы."
-  },
-  "features_ItemAdditionalProductInfo_title": {
-    "message": "Показывать дополнительную информацию о пропусках (Gamepasses)"
-  },
-  "features_RefreshAvatarItemDetails_title": {
-    "message": "Кнопка обновления в разделе предмета"
-  },
-  "features_MarketplaceColorFilters_title": {
-    "message": "Цветовые фильтры в Каталоге"
-  },
-  "features_RefreshAvatarItemDetails_sub_FastFreeBuy_title": {
-    "message": "Быстрая покупка предметов в Каталоге"
-  },
-  "features_RemoveFriendActivityLabel_title": {
-    "message": "Убрать текст \"Friends playing\" под играми на главной странице"
-  },
-  "features_RemoveHomePhoneNumberUpsell_title": {
-    "message": "Убрать предупреждение с \"Привязкой номера\" на главной странице сайта"
-  },
-  "features_UserProfileForceUnfollow_title": {
-    "message": "Кнопка \"Моментальная отписка\" в контекстном меню заголовка профиля пользователя"
-  },
-  "features_JailbrokenHomeFavoritesSort_title": {
-    "message": "Перечислить все любимые игры на Главной странице в \"Избранное\""
-  },
-  "features_PutHomeFavoritesSortAtTop_title": {
-    "message": "Поместите сортировку Главной на \"Избранное\" вверху"
-  },
-  "features_ShowVoiceChatSuspension_title": {
-    "message": "Показать детали приостановки голосового чата и полную дату"
-  },
-  "features_ShowVoiceChatSuspension_description": {
-    "message": "При включении этой функции на всех страницах отображается модальное окно с информацией о приостановке голосового чата, если пользователь еще не был проинформирован. Он также добавляет полную дату истечения срока приостановки на страницу настроек учетной записи конфиденциальности."
-  },
-  "features_SearchByCreatorButton_title": {
-    "message": "Кнопка поиска дополнительных предметов рядом с именем создателя"
-  },
-  "features_PrivateServerLinksSection_title": {
-    "message": "Добавить раздел в вкладке серверов \"Ссылки на приватные сервера\""
-  },
-  "features_PrivateServerLinksSection_description": {
-    "message": "При включении добавляется раздел \"Ссылки на приватные сервера\" в вкладке серверов. Вы можете добавить в него ссылки на приватные сервера и импортировать/экспортировать в виде файла."
-  },
-  "features_PrivateServerLinksSection_sub_TryResolveOwner_title": {
-    "message": "Автоматически определить владельца приватного сервера"
-  },
-  "features_BadgeMoreStatistics_title": {
-    "message": "Добавить дополнительную статистику по бейджам на страницу бейджей"
-  },
-  "features_ErrorShowMachineID_title": {
-    "message": "Показывать идентификатор машины Roblox в правом нижнем углу на странице ошибки"
-  },
-
-  "popup_extensionname": {
-    "message": "{sealEmoji} RoSeal"
-  },
-  // Actions to go to RoSeal social/settings
-  "popup_actions_robloxgroup": {
-    "message": "Roblox группа"
-  },
-  "popup_actions_settings": {
-    "message": "Настройки"
-  },
-  "popup_actions_website": {
-    "message": "Сайт"
-  },
-
-  // RoSeal optional permissions section
-  "popup_permissions": {
-    "message": "Дополнительные разрешения"
-  },
-  "popup_permissions_cookie": {
-    "message": "Куки"
-  },
-  // Tooltip shown when hovering over the questionmark next to "Cookies"
-  "popup_permissions_cookietooltip": {
-    "message": "Предоставьте это разрешение, если хотите использовать Менеджер аккаунтов. Вы можете отозвать это разрешение в любое время."
-  },
-
-  // Popup data managemenet
-  "popup_extensiondata_show": {
-    "message": "Показать"
-  },
-  "popup_extensiondata_hide": {
-    "message": "Спрятать"
-  },
-  "popup_extensiondata": {
-    "message": "Данные расширения"
-  },
-  "popup_extensiondata_download": {
-    "message": "Скачать данные"
-  },
-  "popup_extensiondata_request": {
-    "message": "Запросить данные"
-  },
-  "popup_extensiondata_import": {
-    "message": "Импорт"
-  },
-  // Success shown when it successfully imported and parsed the data file
-  "popup_extensiondata_import_alert_success": {
-    "message": "Данные успешно импортированы."
-  },
-  // Error shown when it cannot parse the data file
-  "popup_extensiondata_import_alert_error": {
-    "message": "Пожалуйста, повторите попытку с подходящим файлом."
-  },
-
-  // Display in the RoSeal popup and in settings.
-  "buymeacoffee": {
-    "message": "{coffeeEmoji} Купить мне кофе :-)"
-  }
+    // For details on what to translate, see README.md file
+
+    // Name and description that appears on all stores, and in chrome://extensions
+    "manifest_name": {
+        "message": "RoSeal - Дополненное расширение для Roblox"
+    },
+    "manifest_description": {
+        "message": "Улучшите сайт Roblox с помощью RoSeal. У нас кстати ещё есть тюлени!"
+    },
+
+    // Popover dropdown menu for the roseal item
+    "robloxsettings_popover_roseal": {
+        "message": "{sealEmoji} Настройки RoSeal"
+    },
+
+    // Appears in the RoSeal settings, "Beta" and "Experimental" labels
+    "beta_feature_label": {
+        "message": "BETA"
+    },
+    "experimental_feature_label": {
+        "message": "EXPERIMENTAL"
+    },
+
+    "errorpage_machineid": {
+        "message": "Идентификатор машины Roblox: {robloxMachineId}"
+    },
+
+    // the 404 error page that appears if request is not valid.
+    // currently, it's only used by the developer product 404 page
+    "errorpage_404_title": {
+        "message": "Страница не найдена или больше не существует"
+    },
+    "errorpage_404_message": {
+        "message": "{sealEmoji} 404 <span>|</span>Страница не найдена"
+    },
+    "errorpage_back": {
+        "message": "Назад"
+    },
+    "errorpage_back_title": {
+        "message": "Вернуться на пред. страницу"
+    },
+    "errorpage_home": {
+        "message": "Главная"
+    },
+    "errorpage_home_title": {
+        "message": "Вернуться на главную"
+    },
+
+    // Hello variant of the home header feature
+    "homeheader_hellotext": {
+        "message": "Привет, {displayName}"
+    },
+
+    // "RoSeal Settings" item label in the roblox settings navigation list
+    "robloxsettings_selection_roseal": {
+        "message": "Настройки RoSeal"
+    },
+
+    // RoSeal settings titles
+    "settings_title": {
+        "message": "Настройки {sealEmoji}RoSeal"
+    },
+    "settings_return": {
+        "message": "Вернуться в настройки Roblox"
+    },
+
+    // "About" selection in menu and title
+    "settings_selection_about": {
+        "message": "Об RoSeal"
+    },
+    "settings_about_description": {
+        "message": "<bold>RoSeal</bold> это бесплатное расширение для Roblox сайта на тему тюленей с индивидуально настраиваемыми функциями и улучшениями, без каких-либо платных функций и отслеживания."
+    },
+    // under13 is for 13- users over13 is for 13+. this is to prevent exposing discord to underage users
+    "settings_about_media_under13": {
+        "message": "Наше сообщество в <groupLink>Roblox</groupLink>."
+    },
+    "settings_about_media_over13": {
+        "message": "Для расширения существуют сообщества в <discordLink>Discord</discordLink> и в <groupLink>Roblox</groupLink>"
+    },
+
+    // "Credits" selection tab in menu and title
+    "settings_about_credits_header": {
+        "message": "Особая благодарность"
+    },
+    "settings_about_credits_Julli4n": {
+        "message": "<link>Julli4n</link> - Главный разработчик"
+    },
+    "settings_about_credits_Karasuneth": {
+        "message": "<link>Karasuneth</link> - Создал первоначальную иконку"
+    },
+    "settings_about_credits_MaciejCreates": {
+        "message": "<link>MaciejCreates</link> - Создал текущую иконку"
+    },
+
+    // "Feature Switches" selection tab in menu and title
+    "settings_about_featureswitches_header": {
+        "message": "Переключатели функций"
+    },
+    "settings_about_featureswitches_description": {
+        "message": "Переключатели функций - это быстрый способ отключения и включения функций RoSeal в соответствии с вашими предпочтениями."
+    },
+    "settings_about_featureswitches_beta": {
+        "message": "<label>BETA</label> Эти функции не готовы к автоматическому включению; однако риск сломаться при их включении должен быть минимальным. Все желающие могут включить их и оставить свой отзыв."
+    },
+    "settings_about_featureswitches_experimental": {
+        "message": "<label>EXPERIMENTAL</label> Эти функции находятся в экспериментальном режиме и могут быть нестабильными или являться тестовыми для будущих функций. ВАЖНО: Не включайте эти функции, если вы не знаете, какие последствия это может иметь."
+    },
+
+    // "Donate" selection tab in menu and title
+    "settings_selection_donate": {
+        "message": "Поддержать"
+    },
+    "settings_donate_description": {
+        "message": "Я, <bold>Julli4n</bold>, не получаю никакой прибыли от разработки этого расширения. Пожалуйста, подумайте о пожертвовании, если вам понравилось это расширение. Вы не получите никаких преимуществ, кроме моей благодарности.{lineBreak}{lineBreak}Вы будете перенаправлены на BuyMeACoffee, специальный сайт для пожертвований."
+    },
+
+    // selected tab
+    "settings_selection_featureswitches": {
+        "message": "Переключатели"
+    },
+    // feature switch details
+    // a feature switch is disabled primarily remotely
+    "settings_featureswitches_featureswitch_disabled": {
+        "message": "Эта функция была отключена расширением RoSeal"
+    },
+    // when we deprecate a feature because it is no longer useful, or Roblox has their own solution now
+    "settings_featureswitches_featureswitch_deprecated": {
+        "message": "Эта функция <bold>отключёна</bold>. Рекомендуется найти альтернативу в RoSeal или использовать родные функции на сайте Roblox."
+    },
+    // not used atm, but will be if we ever add support for Safari or add firefox-exclusive features.
+    // "browsers" is a comma-separated list of browsers
+    "settings_featureswitches_featureswitch_exclusivebrowsers": {
+        "message": "Эксклюзивно для следующих браузеров: {browsers}"
+    },
+    "settings_featureswitches_featureswitch_permissions_title": {
+        "message": "Требуется разрешение"
+    },
+    "settings_featureswitches_featureswitch_permissions_values_Cookies": {
+        "message": "Куки"
+    },
+    "settings_featureswitches_featureswitch_permissions_subtext": {
+        "message": "Разрешения могут быть предоставлены на странице RoSeal:"
+    },
+    "settings_featureswitches_featureswitch_permissions_openoptions": {
+        "message": "Открыть"
+    },
+    // "Associated Storage" is basically just storage stored from the feature, i.e. Roblox accounts with accounts manager
+    "settings_featureswitches_featureswitch_removeassociatedstorage": {
+        "message": "Очистить данные"
+    },
+    // System feedback messages
+    "settings_featureswitches_featureswitch_removeassociatedstorage_systemfeedback_success": {
+        "message": "Вы успешно очистили данные для этой функции."
+    },
+    "settings_featureswitches_featureswitch_removeassociatedstorage_systemfeedback_error": {
+        "message": "Произошла ошибка при чистке данных для этой функции, повторите попытку позже."
+    },
+
+    // "Blocked Experiences" selection tab in menu and title
+    "settings_selection_blockedexperiences": {
+        "message": "Заблокированные игры"
+    },
+    "settings_blockedexperiences_keywords_title": {
+        "message": "Заблокированные ключевые слова"
+    },
+    "settings_blockedexperiences_keywords_description": {
+        "message": "Ключевые слова можно добавлять и удалять, чтобы блокировать игры, название которых совпадает с одним из добавленных ключевых слов. Такие игры не будут отображаться на некоторых страницах."
+    },
+    "settings_blockedexperiences_keywords_count": {
+        "message": "Вы заблокировали {keywordsNum} из {keywordsMax} разрешенных ключевых слов для игр:"
+    },
+    // No experience keywords blocked
+    "settings_blockedexperiences_keywords_nokeywords": {
+        "message": "Добавьте свое первое ключевое слово в список, чтобы начать."
+    },
+    "settings_blockedexperiences_keywords_inputplaceholder": {
+        "message": "Добавить ключевое слово..."
+    },
+    "settings_blockedexperiences_keywords_add": {
+        "message": "Добавить"
+    },
+    "settings_blockedexperiences_keywords_keyword_remove": {
+        "message": "Удалить"
+    },
+
+    // Blocked Experiences section
+    "settings_blockedexperiences_individualexperiences_title": {
+        "message": "Индивидуальные заблокированные игры"
+    },
+    "settings_blockedexperiences_individualexperiences_description": {
+        "message": "Индивидуальные игры можно блокировать и разблокировать с помощью меню на странице игры. Эти игры не будут отображаться на некоторых страницах."
+    },
+    "settings_blockedexperiences_individualexperiences_count": {
+        "message": "Вы заблокировали {experiencesNum} из {experiencesMax} разрешенных игр:"
+    },
+    // No experiences blocked
+    "settings_blockedexperiences_individualexperiences_noexperiences": {
+        "message": "Когда вы заблокируете игру, она будет отображаться здесь."
+    },
+    "settings_blockedexperiences_individualexperiences_experience_universeid": {
+        "message": "Идентификатор игры: {universeId}"
+    },
+    "settings_blockedexperiences_individualexperiences_experience_unblock": {
+        "message": "Разблокировать"
+    },
+
+    // Hide/show a blocked expiernece section, like keywords or individual ones
+    "settings_blockedexperiences_section_hide": {
+        "message": "Скрыть"
+    },
+    "settings_blockedexperiences_section_show": {
+        "message": "Показать"
+    },
+
+    // Account Settings dropdown strings
+    "accountsmanager_entry_login_disabled": {
+        "message": "Вход"
+    },
+    "accountsmanager_entry_login": {
+        "message": "Войти"
+    },
+    "accountsmanager_entry_logout": {
+        "message": "Выйти"
+    },
+    "accountsmanager_title": {
+        "message": "{sealEmoji} Менеджер аккаунтов"
+    },
+    "accountsmanager_noaccounts": {
+        "message": "У вас нет аккаунтов. Чтобы начать, добавьте свой текущий аккаунт"
+    },
+    // Not logged in text
+    "accountsmanager_noaccounts_disabled": {
+        "message": "У вас нет аккаунтов. Чтобы начать, добавьте свой текущий аккаунт"
+    },
+    "accountsmanager_maxaccounts": {
+        "message": "Вы достигли максимального количества разрешенных учетных записей. ({accountLimit})"
+    },
+    // Message to show if Accounts Manager is deprecated. we're not sure if it ever will be but given that
+    // there are new translations on the Roblox website hinting to an account switcher feature, this will be here just in case
+    "accountsmanager_deprecated": {
+        "message": "Менеджер аккаунтов был отключён, вместо него используйте родной интерфейс переключения аккаунтов Roblox \"Переключить аккаунт\" в выпадающем списке настроек.."
+    },
+    // Please don't mess this up.
+    "accountsmanager_addaccount": {
+        "message": "Вы можете добавить {moreAccounts, plural, =1 {ещё 1 аккаунт.} other {# ещё дополнительно.}} ({accountsNum}/{accountLimit})"
+    },
+    "accountsmanager_actions_addcurrentaccount": {
+        "message": "Добавить текущий аккаунт"
+    },
+    "accountsmanager_actions_clearcurrentcookie": {
+        "message": "Выйти"
+    },
+
+    // System feedbacks shown when there's an error/success message
+    "accountsmanager_success_AddCurrentRobloxAccount": {
+        "message": "Успешно добавлен текущий аккаунт в список."
+    },
+    "accountsmanager_success_LogoutRobloxAccount": {
+        "message": "Успешно удалена сессия и удален аккаунт Roblox из списка."
+    },
+    "accountsmanager_error_UnknownError": {
+        "message": "Произошла неизвестная ошибка, повторите попытку позже."
+    },
+    "accountsmanager_error_EndpointError": {
+        "message": "Произошла ошибка при попытке удалить сессию, повторите попытку позже."
+    },
+    "accountsmanager_error_InvalidAccount": {
+        "message": "Невалидная учетная запись, пожалуйста, обновите страницу."
+    },
+    "accountsmanager_error_NoCookiePermission": {
+        "message": "RoSeal не имеет права на управление файлами cookie браузера. Пожалуйста, разрешите это на странице настроек RoSeal."
+    },
+
+    // The context menu "..." item that appears in the item dropdown menu to view the icon asset
+    "experience_contextmenu_viewiconasset": {
+        "message": "Просмотр иконки"
+    },
+
+    // "Private Servre Links" section
+    "experience_privateserverlinks_title": {
+        "message": "Ссылки на приватный сервера"
+    },
+    // Button to see more private server links
+    "experience_privateserverlinks_seemore": {
+        "message": "См. ещё"
+    },
+    // Button to see less private server links
+    "experience_privateserverlinks_seeless": {
+        "message": "См. меньше"
+    },
+    // Tooltip hover message next to the title
+    "experience_privateserverlinks_titletooltip": {
+        "message": "Ссылки на приватные сервера позволяют сохранять текущие сервера от этой игры из ссылок или в виде файла, и будет показывать статус приватного сервера."
+    },
+    "experience_privateserverlinks_noservers": {
+        "message": "Ссылки на приватные сервера не найдены."
+    },
+    // "Add" button that will open the "Add Private Server Link" dialog
+    "experience_privateserverlinks_actions_add": {
+        "message": "Добавить"
+    },
+    // "Import" button that will open the "Import Private Server Links" dialog
+    "experience_privateserverlinks_actions_import": {
+        "message": "Импорт"
+    },
+    // this will have a .json file extension
+    "experience_privateserverlinks_exportfilename": {
+        "message": "{placeName} Приватные сервера"
+    },
+    // "Export" button that will download the "{placeName} Private Servers.json file"
+    "experience_privateserverlinks_actions_export": {
+        "message": "Экспорт"
+    },
+    // When the creator is listed as "No One", no creator is set
+    "experience_privateserverlinks_privateserver_noone": {
+        "message": "Нет владельца"
+    },
+    // Updated time
+    "experience_privateserverlinks_privateserver_updated": {
+        "message": "Обновлён {time}"
+    },
+    // Shows up as red text "Invalid" if server is invalid now
+    "experience_privateserverlinks_privateserver_invalid": {
+        "message": "Неактивен"
+    },
+    // Context menu items
+    "experience_privateserverlinks_privateserver_contextmenu_copylink": {
+        "message": "Скопировать"
+    },
+    "experience_privateserverlinks_privateserver_contextmenu_remove": {
+        "message": "Удалить"
+    },
+    "experience_privateserverlinks_privateserver_contextmenu_update": {
+        "message": "Обновить"
+    },
+    // Bottom button that switches between "Remove" and "Join"
+    // - join if valid, remove if not
+    "experience_privateserverlinks_privateserver_remove": {
+        "message": "Убрать"
+    },
+    "experience_privateserverlinks_privateserver_join": {
+        "message": "Зайти"
+    },
+
+    // Import private servers from file modal
+    "experience_privateserverlinks_importprivateserversmodal_title": {
+        "message": "{sealEmoji} Импорт приватных серверов"
+    },
+    "experience_privateserverlinks_importprivateserversmodal_filteredcount": {
+        "message": "{filtered} из {total} приватных серверов имели недействительную ссылку или были дубликатами."
+    },
+    "experience_privateserverlinks_importprivateserversmodal_importinfo": {
+        "message": "Вы хотите импортировать следующие {total, plural, =1 {private server} и {# private servers}}:"
+    },
+    "experience_privateserverlinks_importprivateserversmodal_instructiontext_drag": {
+        "message": "Перетащите файл сюда"
+    },
+    "experience_privateserverlinks_importprivateserversmodal_instructiontext_or": {
+        "message": "Или"
+    },
+    "experience_privateserverlinks_importprivateserversmodal_instructiontext_select": {
+        "message": "Загрузите файл"
+    },
+    // Import error messages
+    "experience_privateserverlinks_importprivateserversmodal_importerror_invalid": {
+        "message": "Пожалуйста, вставьте действительный файл данных (.json)."
+    },
+    "experience_privateserverlinks_importprivateserversmodal_importerror_unknown": {
+        "message": "При проверке файла произошла неизвестная ошибка."
+    },
+    "experience_privateserverlinks_importprivateserversmodal_importerror_unknowncheck": {
+        "message": "При проверке ссылок на приватные сервера произошла неизвестная ошибка."
+    },
+    "experience_privateserverlinks_importprivateserversmodal_importerror_allinvalid": {
+        "message": "Все ссылки на приватные сервера в файле были недействительными."
+    },
+    "experience_privateserverlinks_importprivateserversmodal_importerror_allduplicate": {
+        "message": "Все ссылки на приватные сервера в файле были дубликатами."
+    },
+    "experience_privateserverlinks_importprivateserversmodal_importerror_invalidformat": {
+        "message": "Файл в неверном формате."
+    },
+    // Modal actions
+    "experience_privateserverlinks_importprivateserversmodal_action": {
+        "message": "Импорт"
+    },
+    "experience_privateserverlinks_importprivateserversmodal_neutral": {
+        "message": "Отменить"
+    },
+
+    // Remove private server modal
+    "experience_privateserverlinks_removeprivateservermodal_title": {
+        "message": "{sealEmoji} Удалить ссылку на сервер"
+    },
+    "experience_privateserverlinks_removeprivateservermodal_body": {
+        "message": "Вы уверены, что хотите удалить эту ссылку на приватный сервер?"
+    },
+    "experience_privateserverlinks_removeprivateservermodal_action": {
+        "message": "Удалить"
+    },
+    "experience_privateserverlinks_removeprivateservermodal_neutral": {
+        "message": "Отменить"
+    },
+
+    // add private server link modal
+    "experience_privateserverlinks_addprivateservermodal_title": {
+        "message": "{sealEmoji} Добавить ссылку на сервер"
+    },
+    "experience_privateserverlinks_addprivateservermodal_fromlink": {
+        "message": "Похоже, что вы перешли по неизвестной ссылке на приватный сервер, не хотите добавить его?"
+    },
+    // Label for server name text field input
+    "experience_privateserverlinks_addprivateservermodal_name": {
+        "message": "Имя"
+    },
+    "experience_privateserverlinks_addprivateservermodal_nameplaceholder": {
+        "message": "Название сервера"
+    },
+    // Text that appears bottom right of the input
+    "experience_privateserverlinks_addprivateservermodal_namelength": {
+        "message": "{length}/{maxLength}"
+    },
+    // Server link label
+    "experience_privateserverlinks_addprivateservermodal_link": {
+        "message": "Ссылка"
+    },
+    // Server owner label
+    "experience_privateserverlinks_addprivateservermodal_owner": {
+        "message": "Владелец"
+    },
+    // Below the server owner input to the right
+    "experience_privateserverlinks_addprivateservermodal_owneroptional": {
+        "message": "(необязательно)"
+    },
+    // Server link errors
+    "experience_privateserverlinks_addprivateservermodal_linkerror_invalid": {
+        "message": "Ссылку, которую вы ввели недействительна."
+    },
+    "experience_privateserverlinks_addprivateservermodal_linkerror_unknown": {
+        "message": "Произошла неизвестная ошибка при проверке действительности ссылки."
+    },
+    "experience_privateserverlinks_addprivateservermodal_linkerror_duplicate": {
+        "message": "Приватный сервер с такой ссылкой уже имеется: \"{name}\""
+    },
+    // modal buttons
+    "experience_privateserverlinks_addprivateservermodal_action": {
+        "message": "Добавить"
+    },
+    "experience_privateserverlinks_addprivateservermodal_neutral": {
+        "message": "Отменить"
+    },
+
+    // update private server link modal
+    // this is very similar to add
+    "experience_privateserverlinks_updateprivateservermodal_title": {
+        "message": "{sealEmoji} Обновить ссылку на сервер"
+    },
+    // Label for server name text field input
+    "experience_privateserverlinks_updateprivateservermodal_name": {
+        "message": "Имя"
+    },
+    "experience_privateserverlinks_updateprivateservermodal_nameplaceholder": {
+        "message": "Название сервера"
+    },
+    // Text that appears bottom right of the input
+    "experience_privateserverlinks_updateprivateservermodal_namelength": {
+        "message": "{length}/{maxLength}"
+    },
+    // Server link label
+    "experience_privateserverlinks_updateprivateservermodal_link": {
+        "message": "Ссылка"
+    },
+    // Server link errors
+    "experience_privateserverlinks_updateprivateservermodal_linkerror_invalid": {
+        "message": "Ссылку, которую вы ввели недействительна."
+    },
+    "experience_privateserverlinks_updateprivateservermodal_linkerror_unknown": {
+        "message": "Произошла неизвестная ошибка при проверке действительности ссылки."
+    },
+    "experience_privateserverlinks_updateprivateservermodal_linkerror_duplicate": {
+        "message": "Приватный сервер с такой ссылкой уже имеется: \"{name}\""
+    },
+    // Server owner label
+    "experience_privateserverlinks_updateprivateservermodal_owner": {
+        "message": "Владелец"
+    },
+    // Below the server owner input to the right
+    "experience_privateserverlinks_updateprivateservermodal_owneroptional": {
+        "message": "(необязательно)"
+    },
+    // modal buttons
+    "experience_privateserverlinks_updateprivateservermodal_action": {
+        "message": "Обновить"
+    },
+    "experience_privateserverlinks_updateprivateservermodal_neutral": {
+        "message": "Отменить"
+    },
+
+    // The context menu "..." item that appears in the experience dropdown menu to unblock/block the target experience
+    "experience_contextmenu_unblock": {
+        "message": "Разблокировать"
+    },
+    "experience_contextmenu_block": {
+        "message": "Заблокировать"
+    },
+
+    // "Universe ID {number}" text under About
+    "experience_universeid": {
+        "message": "Идентификатор игры"
+    },
+
+    // The asset's numeric product ID
+    "generalasset_productid": {
+        "message": "ID предмета"
+    },
+    // The collectible item UUID ID
+    "collectibleasset_collectibleitemid": {
+        "message": "ID коллекционного предмета"
+    },
+    // The collectible product UUID ID
+    "collectibleasset_collectibleproductid": {
+        "message": "ID коллекционного продукта"
+    },
+
+    // The developer product's numeric product ID
+    "developerproduct_productid": {
+        "message": "ID продукта"
+    },
+
+    // "Refresh Item Details" tooltip when hovering over the refresh icon under the three dots (...)
+    "avataritem_refreshdetails": {
+        "message": "Обновить раздел предмета"
+    },
+
+    // "Refresh Item Details" tooltip when hovering over the search icon next to the creator name
+    "avataritem_searchbycreator": {
+        "message": "Поиск предметов с этим автором"
+    },
+
+    // The pass's numeric product ID field
+    "pass_productid": {
+        "message": "ID продукта"
+    },
+
+    // The bundle's numeric product ID field
+    "bundle_productid": {
+        "message": "ID костюма"
+    },
+
+    // Text to show if an experience is blocked, and to view it anyways
+    "experience_blocked_title": {
+        "message": "Эта игра заблокирована"
+    },
+    "experience_blocked_viewanyway": {
+        "message": "Посмотреть все равно"
+    },
+
+    // Dropdown selections for "Passes" and "Developer Products"
+    "experience_store_selection_passes": {
+        "message": "Пропуски"
+    },
+    "experience_store_selection_developerproducts": {
+        "message": "Продукты разработчиков"
+    },
+
+    // Developer products section
+    // filtering options
+    "experience_developerproducts_filtering_offsale": {
+        "message": "Показать распроданные предметы"
+    },
+    "experience_developerproducts_filtering_onsale": {
+        "message": "Показать активные предметы"
+    },
+    // Errors/no developer products
+    "experience_developerproducts_genericerror": {
+        "message": "При попытке получить продукты разработчика произошла ошибка, пожалуйста, повторите попытку позже."
+    },
+    "experience_developerproducts_nodeveloperproducts": {
+        "message": "Продукты разработчиков не доступны."
+    },
+    // Indicates that there is none from your search from the filters, but can change if filtering options are changed
+    "experience_developerproducts_nodeveloperproductsfiltered": {
+        "message": "Продукты разработчиков не доступны из вашего поиска."
+    },
+
+    // Experience passes stuff, we discard roblox's version and remake all of it
+    // filtering stuff
+    "experience_passes_filtering_offsale": {
+        "message": "Включить неактивные пропуски"
+    },
+    "experience_passes_filtering_onsale": {
+        "message": "Включить активные пропуски"
+    },
+    "experience_passes_filtering_unowned": {
+        "message": "Включить неимеющие пропуски"
+    },
+    "experience_passes_filtering_owned": {
+        "message": "Включить имеющие пропуски"
+    },
+    // Viewing as a specific user
+    "experience_passes_filtering_user": {
+        "message": "Посмотреть как:"
+    },
+    // Errors/no passes
+    "experience_passes_genericerror": {
+        "message": "При попытке получения пропусков произошла ошибка, пожалуйста, повторите попытку позже."
+    },
+    "experience_passes_nopasses": {
+        "message": "Пропуски отсутствуют."
+    },
+    // Indicates that there is none from your search from the filters, but can change if filtering options are changed
+    "experience_passes_nopassesfiltered": {
+        "message": "Нет пропусков, полученных из вашего поиска."
+    },
+    "experience_passes_entry_owned": {
+        "message": "Имеется"
+    },
+    "experience_passes_entry_buy": {
+        "message": "Купить"
+    },
+    "experience_passes_addpass": {
+        "message": "Добавить пропуск"
+    },
+
+    // Shown over the Play button to indicate to the user that their avatar may not be as intended in the experience
+    "experience_avatarrestricted": {
+        "message": "Ваш текущий аватар может выглядеть или функционировать не так, как задумывалось в этой игре."
+    },
+    // Table header items, "Field" in this context, is like part of an avatar, avatar type, body, proportion, etc.
+    "experience_avatarrestricted_compare_field": {
+        "message": "Поле"
+    },
+    "experience_avatarrestricted_compare_you": {
+        "message": "Вы"
+    },
+    "experience_avatarrestricted_compare_experience": {
+        "message": "Игра"
+    },
+
+    "experience_avatarrestricted_fields_height": {
+        "message": "Высота"
+    },
+    "experience_avatarrestricted_fields_width": {
+        "message": "Ширина"
+    },
+    "experience_avatarrestricted_fields_head": {
+        "message": "Голова"
+    },
+    "experience_avatarrestricted_fields_proportion": {
+        "message": "Пропорции"
+    },
+    "experience_avatarrestricted_fields_bodyType": {
+        "message": "Тип тела"
+    },
+    "experience_avatarrestricted_fields_avatarType": {
+        "message": "Тип аватара"
+    },
+    "experience_avatarrestricted_fields_avatarType_values_R6": {
+        "message": "R6"
+    },
+    "experience_avatarrestricted_fields_avatarType_values_R15": {
+        "message": "R15"
+    },
+    "experience_avatarrestricted_fields_avatarType_values_PlayerChoice": {
+        "message": "Пользовательский"
+    },
+
+    // Avatar Type stuff shown at the experience's stats.
+    "experience_avatartype_label": {
+        "message": "Тип аватара"
+    },
+    "experience_avatartype_values_ForcedRthro": {
+        "message": "Rthro"
+    },
+    "experience_avatartype_values_R15Rthro": {
+        "message": "R15, Rthro"
+    },
+    "experience_avatartype_values_R6": {
+        "message": "R6"
+    },
+    "experience_avatartype_values_R15": {
+        "message": "R15"
+    },
+    "experience_avatartype_values_PlayerChoice": {
+        "message": "Пользовательский"
+    },
+
+    // for Robux views, honestly forgot what this is for. likely on developer product/pass items in store
+    // and developer product pages
+    "item_offsale_long": {
+        "message": "Этот предмет сейчас не в продаже."
+    },
+    "item_offsale_short": {
+        "message": "Не в продаже"
+    },
+
+    // Developer product fields stuff.
+    "developerproduct_offsale": {
+        "message": "Этот предмет сейчас не в продаже."
+    },
+    "developerproduct_price": {
+        "message": "Цена"
+    },
+    "developerproduct_type": {
+        "message": "Тип"
+    },
+    "developerproduct_type_value": {
+        "message": "Продукт разработчика"
+    },
+    "developerproduct_created": {
+        "message": "Создан"
+    },
+    "developerproduct_updated": {
+        "message": "Обновлён"
+    },
+    "developerproduct_description": {
+        "message": "Описание"
+    },
+    "developerproduct_contextmenu_viewiconasset": {
+        "message": "Просмотреть иконку"
+    },
+
+    // Whenever the RoSeal privacy policy updates, we show this modal. Only shown once per privacy policy update since the user installed the extension.
+    // required.
+    "ppupdatemodal_title": {
+        "message": "{sealEmoji} Обновление политики конфиденциальности RoSeal"
+    },
+    "ppupdatemodal_description": {
+        "message": "Мы обновили политику конфиденциальности RoSeal с момента вашего последнего посещения.{lineBreak}{lineBreak}<privacyPolicyLink>Прочитайте политику конфиденциальности здесь</privacyPolicyLink>."
+    },
+    "ppupdatemodal_action": {
+        "message": "Принять"
+    },
+
+    // When accounts manager is enabled, and they try using the default Roblox "logout" button, we provide a modal warning
+    // because they likely don't know that Roblox's one is going to invalidate their session
+    "robloxlogoutmodal_title": {
+        "message": "{sealEmoji} Вы уверены?"
+    },
+    "robloxlogoutmodal_body": {
+        "message": "Используя обычную кнопку выхода из Roblox, вы аннулируете текущую сессию.{lineBreak}{lineBreak}Вы не сможете войти в эту учетную запись с помощью Менеджера учетных записей без повторного входа в аккаунт.{lineBreak}{lineBreak}Чтобы выйти из аккаунта без аннулирования сессии, откройте Менеджер аккаунтов и нажмите кнопку \"Выйти\"."
+    },
+    "robloxlogoutmodal_action": {
+        "message": "Выйти"
+    },
+    "robloxlogoutmodal_neutral": {
+        "message": "Отменить"
+    },
+
+    // A button to direct the user to the unofficial community wiki of an experience. Most don't have this,
+    // but for the ones that do, it's nice
+    "experience_communitywiki_button": {
+        "message": "Неофициальная вики сообщество"
+    },
+    "experience_communitywiki_modal_title": {
+        "message": "{sealEmoji} Вы покидаете Roblox"
+    },
+    // Modal shown when clicking the button to warn the user
+    "experience_communitywiki_modal_body": {
+        "message": "Внимание, роблоксиан - Нажимая на кнопку “продолжить,” вы будете перенаправлены на сайт Fandom, который не принадлежит Roblox и не управляется им. У них могут быть другие условия и политика конфиденциальности..{lineBreak}{lineBreak}Неофициальная вики сообщество, на которую вы будете перенаправлены, является частью проекта Roblox Interwiki по фэндому и зависит от правок сообщества. Информация может быть противоречивой, устаревшей или искаженной.."
+    },
+    "experience_communitywiki_modal_action": {
+        "message": "Продолжить"
+    },
+    "experience_communitywiki_modal_neutral": {
+        "message": "Отменить"
+    },
+
+    // System feedback messages shown when purchasing an item with "Refresh Avatar Item Details" feature enabled.
+    // it's an easier way to communicate stuff to the user than a modal.
+    "avataritem_successmessage_GenericPurchase": {
+        "message": "Вы успешно купили этот предмет."
+    },
+    "avataritem_errormessage_Load": {
+        "message": "Вы получили рейт-лимит от Roblox, пожалуйста попробуйте позже"
+    },
+    // "reason" is the public reason given from the API
+    // "realReason" is the actual internal reason given from the API.
+    // in the future, we may consider making proper messages for each {realReason}
+    // but for now, it's like this
+    "avataritem_errormessage_GenericPurchase": {
+        "message": "Не получилось купить предмет из-за ошибки: \"{reason} ({realReason})\""
+    },
+
+    // "ALT" text button shown on the lower left side on experience thumbnails if available. "ALT" is short for "Alternative", in "Alternative Text" for images.
+    // the alt text will show on hover. this is just for easily communicating with the user that there is alt text
+    // the img element already has alt text but it's better to indicate
+    "experience_media_alttext": {
+        "message": "ALT"
+    },
+
+    // "View Thumbnail Asset" button shown in the lower right side on experience thumbnails if available.
+    "experience_media_viewthumbnailasset": {
+        "message": "Просмотреть баннер"
+    },
+
+    // Funny little home header secret messages that can be shown despite the user's role
+    "homeheader_secretmessage_Default1": {
+        "message": "Привет, пользователь!"
+    },
+    "homeheader_secretmessage_Default2": {
+        "message": "Мы играем в Roblox!"
+    },
+    "homeheader_secretmessage_Default3": {
+        "message": "ROBLOX"
+    },
+    "homeheader_secretmessage_Default4": {
+        "message": "роблокс"
+    },
+    "homeheader_secretmessage_Default5": {
+        "message": "А вы скучаете по Tix'ам?"
+    },
+    "homeheader_secretmessage_Default6": {
+        "message": "Тюлени явно лучше, правда?"
+    },
+    "homeheader_secretmessage_Default7": {
+        "message": "Пора прощаться, LegacyApi!"
+    },
+    "homeheader_secretmessage_Default8": {
+        "message": "Перестань пропускать школу."
+    },
+    "homeheader_secretmessage_Default9": {
+        "message": "Откажитесь от плохих игр, не отказывайтесь от пиратских игр."
+    },
+    "homeheader_secretmessage_Default10": {
+        "message": "Знайте о самообороне и о том, как стать обманутым."
+    },
+    "homeheader_secretmessage_Default11": {
+        "message": "Игры полезны для вашего мозга, но проводить много времени в них может нанести вред вашему здоровью."
+    },
+    "homeheader_secretmessage_Default12": {
+        "message": "Правильно распоряжайся своим временем и веди здоровый образ жизни."
+    },
+    "homeheader_secretmessage_Default13": {
+        "message": "Представьте что у тебя на счету 1M Robux..."
+    },
+    "homeheader_secretmessage_Default14": {
+        "message": "Что делаете?"
+    },
+    "homeheader_secretmessage_Default15": {
+        "message": "Надеемся, что вам понравился Roseal."
+    },
+    "homeheader_secretmessage_Default16": {
+        "message": "Ехехех..."
+    },
+    "homeheader_secretmessage_Default17": {
+        "message": "В Roblox происходит всё на глазах у всех."
+    },
+    "homeheader_secretmessage_Default18": {
+        "message": "[ ДАННЫЕ УДАЛЕНЫ ]"
+    },
+    "homeheader_secretmessage_Default19": {
+        "message": "Это не тестовое сообщение."
+    },
+    "homeheader_secretmessage_Default20": {
+        "message": "котики."
+    },
+    "homeheader_secretmessage_Default21": {
+        "message": "голубь."
+    },
+    "homeheader_secretmessage_Default22": {
+        "message": "Вставьте сюда изображение тюленя"
+    },
+    "homeheader_secretmessage_Default23": {
+        "message": "Вставьте сюда изображение котика"
+    },
+    "homeheader_secretmessage_Default24": {
+        "message": "Вставьте сюда изображение голубя"
+    },
+    "homeheader_secretmessage_Default25": {
+        "message": "Роблокс упал?"
+    },
+    "homeheader_secretmessage_Default26": {
+        "message": "Дэвид Базуки"
+    },
+    "homeheader_secretmessage_Default27": {
+        "message": "Помните тех самых Guests в Roblox?"
+    },
+    "homeheader_secretmessage_Default28": {
+        "message": "Помните старые форумы в Roblox?"
+    },
+    "homeheader_secretmessage_Default29": {
+        "message": "Привет!"
+    },
+    "homeheader_secretmessage_Default30": {
+        "message": "ммм... ням?"
+    },
+
+    // Additional text shown if the user is in the "BetaTester" role. These are users that signed up for it on the DevForum.
+    "homeheader_secretmessage_BetaTester1": {
+        "message": "Бета-тестеры считают себя крутыми?"
+    },
+    "homeheader_secretmessage_BetaTester2": {
+        "message": "Похоже, у вас есть доступ к бета-функциям."
+    },
+    "homeheader_secretmessage_BetaTester3": {
+        "message": "Получайте удовольствие от того, чем занимаетесь сегодня ;)"
+    },
+    "homeheader_secretmessage_BetaTester4": {
+        "message": "Не так крут, как админ Roblox."
+    },
+    "homeheader_secretmessage_BetaTester5": {
+        "message": "Один из немногих."
+    },
+
+    // Additional text shown if the user is in the "Soothsayer" role. Typically, they are Roblox admins.
+    // The likelihood of a Roblox admin using the extension is low, but it's fun to put this in anyways
+    "homeheader_secretmessage_Soothsayer1": {
+        "message": "У вас отличная должность на глазах у общества."
+    },
+    "homeheader_secretmessage_Soothsayer2": {
+        "message": "У вас должна быть почта в виде @roblox.com."
+    },
+    "homeheader_secretmessage_Soothsayer3": {
+        "message": "Вам правда даже не нужно платить за доступ к игре с платным доступом?????."
+    },
+    "homeheader_secretmessage_Soothsayer4": {
+        "message": "Это определенно круче, чем обычный бета-тестер.."
+    },
+    "homeheader_secretmessage_Soothsayer5": {
+        "message": "Своя студия - это крутяк?"
+    },
+    "homeheader_secretmessage_Soothsayer6": {
+        "message": "Как прошла проверка коллекционных предметов?"
+    },
+
+    // Translators can put whatever message they like in here, remember: this is crowd-sourced
+    "homeheader_secretmessage_NonEnglish": {
+        "message": "Кажется, что RoSeal не был локализован для вашего языка, печалька :("
+    },
+
+    // Happy birthday, text shown on the users birthday
+    "homeheader_birthdaymessage": {
+        "message": "С днём рождения,"
+    },
+
+    // "Unlock Pin" modal shown when the user attempts to update their description or unblock someone
+    // on the profile page. we plan to expand this in the future
+    "pinunlockmodal_title": {
+        "message": "{sealEmoji} Требуется пин-код от аккаунта"
+    },
+    "pinunlockmodal_description": {
+        "message": "Введите пин-код, который вы ставили на свой аккаунт"
+    },
+    "pinunlockmodal_buttons_action": {
+        "message": "Разблокировать"
+    },
+
+    // general asset created and updated fields
+    "generalasset_created": {
+        "message": "Создан"
+    },
+    "generalasset_updated": {
+        "message": "Обновлён"
+    },
+
+    // Adding "Delete from Inventory" to the context menu to supported assets.
+    "generalasset_contextmenu_deletefrominventory": {
+        "message": "Удалить из инвентаря"
+    },
+
+    // Badge "Created" label, we do not need "Updated" because it is already supplied by Roblox
+    "badge_created": {
+        "message": "Создан"
+    },
+
+    // Additional fields that will appear with BadgeMoreStatistics feature enabled
+    // counts
+    "badge_awardedalltime": {
+        "message": "Получено за всё время"
+    },
+    "badge_awardedyesterday": {
+        "message": "Получено вчера"
+    },
+    "badge_percentawardedyesterday": {
+        "message": "% Получено вчера"
+    },
+    "badge_percentawardedyesterday_value": {
+        "message": "{percentage}%"
+    },
+    // when the user was awarded it
+    "badge_awarded": {
+        "message": "Получено"
+    },
+
+    // Adding "View Icon Asset" button to the experience badge context menu
+    "badge_contextmenu_viewiconasset": {
+        "message": "Просмотреть иконку"
+    },
+
+    // Chat sorts stuff
+    "chat_sorttypes_label": {
+        "message": "Сортировать по"
+    },
+    "chat_sorttypes_type_Default": {
+        "message": "по умолчанию"
+    },
+    "chat_sorttypes_type_NewestFirst": {
+        "message": "сначала новые"
+    },
+    "chat_sorttypes_type_OldestFirst": {
+        "message": "сначала старые"
+    },
+    "chat_sorttypes_type_UnreadFirst": {
+        "message": "непрочитанные"
+    },
+
+    // The pass created/updated text
+    "pass_created": {
+        "message": "Создан"
+    },
+    "pass_updated": {
+        "message": "Обновлён"
+    },
+
+    // Adding "View Icon Asset" button to the experience pass context menu
+    "pass_contextmenu_viewiconasset": {
+        "message": "Просмотреть иконку"
+    },
+
+    // The group created text, should this expand to including the time as well?
+    "group_created": {
+        "message": "Создан"
+    },
+
+    // Adding "View Icon Asset" button to the group context menu, old name for group icon was "Emblem"
+    "group_contextmenu_viewiconasset": {
+        "message": "Просмотреть иконку"
+    },
+
+    // "Transactions" tab in the left navigation
+    "navbar_left_transactions": {
+        "message": "Транзакции"
+    },
+
+    // This is for the shared component between Passes "View as" and badges "View as/Compare with"
+    "userlookup_placeholder": {
+        "message": "Пользователь"
+    },
+    "userlookup_directlookuperror": {
+        "message": "Пользователь с таким именем не найден."
+    },
+
+    // Discover filters labels and dropdown values stuff
+    "discover_filters_label": {
+        "message": "Фильтры"
+    },
+    "discover_filters_inputhint": {
+        "message": "Числа в виде 0 будут игнорироваться"
+    },
+    "discover_filters_applyfilters": {
+        "message": "Применить"
+    },
+    "discover_filters_likes": {
+        "message": "Лайки в %"
+    },
+    "discover_filters_playing": {
+        "message": "Играют"
+    },
+    "discover_filters_favorites": {
+        "message": "Избранное"
+    },
+    "discover_filters_visits": {
+        "message": "Посещения"
+    },
+    "discover_filters_genre": {
+        "message": "Жанр"
+    },
+    "discover_filters_genre_values_All": {
+        "message": "Все"
+    },
+    "discover_filters_genre_values_Building": {
+        "message": "Строение"
+    },
+    "discover_filters_genre_values_Horror": {
+        "message": "Хоррор"
+    },
+    "discover_filters_genre_values_TownandCity": {
+        "message": "Город и города"
+    },
+    "discover_filters_genre_values_Military": {
+        "message": "Военное"
+    },
+    "discover_filters_genre_values_Comedy": {
+        "message": "Комедия"
+    },
+    "discover_filters_genre_values_Medieval": {
+        "message": "Средневековье"
+    },
+    "discover_filters_genre_values_Adventure": {
+        "message": "Приключения"
+    },
+    "discover_filters_genre_values_SciFi": {
+        "message": "Научная-фантастика"
+    },
+    "discover_filters_genre_values_Naval": {
+        "message": "Военно-морской"
+    },
+    "discover_filters_genre_values_FPS": {
+        "message": "Шутеры"
+    },
+    "discover_filters_genre_values_RPG": {
+        "message": "Ролевые"
+    },
+    "discover_filters_genre_values_Sports": {
+        "message": "Спорт"
+    },
+    "discover_filters_genre_values_Fighting": {
+        "message": "Бои"
+    },
+    "discover_filters_genre_values_Western": {
+        "message": "Западное"
+    },
+    "discover_filters_device": {
+        "message": "Устройство"
+    },
+    "discover_filters_device_values_All": {
+        "message": "Любое"
+    },
+    "discover_filters_device_values_Desktop": {
+        "message": "ПК"
+    },
+    "discover_filters_device_values_Phone": {
+        "message": "Телефон"
+    },
+    "discover_filters_device_values_Tablet": {
+        "message": "Планшет"
+    },
+    "discover_filters_device_values_Console": {
+        "message": "Консоль"
+    },
+    "discover_filters_device_values_VR": {
+        "message": "VR"
+    },
+    "discover_filters_age": {
+        "message": "Возраст"
+    },
+    "discover_filters_age_values_All": {
+        "message": "Любой"
+    },
+    "discover_filters_age_values_0": {
+        "message": "Все"
+    },
+    "discover_filters_age_values_9": {
+        "message": "+9"
+    },
+    "discover_filters_age_values_13": {
+        "message": "+13"
+    },
+    "discover_filters_age_values_17": {
+        "message": "+17"
+    },
+    "discover_filters_age_values_18": {
+        "message": "+18"
+    },
+
+    // For each filter, the maximum and minimum labels.
+    // The placeholders right now do not have translations, merely because they are just "0"
+    "discover_filters_filter_minimum": {
+        "message": "Минимум"
+    },
+    "discover_filters_filter_maximum": {
+        "message": "Максимум"
+    },
+    // Tooltip shown when hovering over edit button next to the filter name for number-based filters
+    "discover_filters_filter_edit": {
+        "message": "Отредактировать фильтр"
+    },
+
+    // Events tab stuff, there's not much here because we just grab the events container from Roblox
+    "experience_events_tab": {
+        "message": "События"
+    },
+    "experience_events_noevents": {
+        "message": "События отсутствуют."
+    },
+
+    // Tab title
+    "experience_badges_tab": {
+        "message": "Значки"
+    },
+    // View as: {user} stuff or compare
+    "experience_badges_viewas": {
+        "message": "Посмотреть как:"
+    },
+    "experience_badges_comparewith": {
+        "message": "Сравнить с:"
+    },
+
+    // Experience badges sorting/filters options
+    "experience_badges_filtering_active": {
+        "message": "Показать активные предметы"
+    },
+    "experience_badges_filtering_inactive": {
+        "message": "Показать неактивные предметы"
+    },
+    "experience_badges_filtering_obtained": {
+        "message": "Показать полученные предметы"
+    },
+    "experience_badges_filtering_unobtained": {
+        "message": "Показать недоступные предметы"
+    },
+    "experience_badges_sorting_sortby_label": {
+        "message": "Сортировать по"
+    },
+    "experience_badges_sorting_sortdirection_label": {
+        "message": "Направление сортировки"
+    },
+    "experience_badges_sorting_sortobtained_label": {
+        "message": "Получено"
+    },
+    "experience_badges_sorting_sortby_values_WonYesterday": {
+        "message": "Получили вчера"
+    },
+    "experience_badges_sorting_sortby_values_WonAllTime": {
+        "message": "Получили за всё время"
+    },
+    "experience_badges_sorting_sortby_values_AwardedTime": {
+        "message": "Получили последние"
+    },
+    "experience_badges_sorting_sortby_values_Created": {
+        "message": "Создан"
+    },
+    "experience_badges_sorting_sortby_values_Name": {
+        "message": "Название"
+    },
+    "experience_badges_sorting_sortdirection_values_Ascending": {
+        "message": "Выше"
+    },
+    "experience_badges_sorting_sortdirection_values_Descending": {
+        "message": "Ниже"
+    },
+    "experience_badges_sorting_sortobtained_values_First": {
+        "message": "Первый"
+    },
+    "experience_badges_sorting_sortobtained_values_Last": {
+        "message": "Последний"
+    },
+    "experience_badges_sorting_sortobtained_values_Default": {
+        "message": "По умолчанию"
+    },
+    "experience_badges_sortsandfilters": {
+        "message": "Сортировка и фильтры"
+    },
+
+    // When there's no filtered badges, but there are badges for the experience
+    "experience_badges_nofilteredbadges": {
+        "message": "Нет отфильтрованных значков для отображения."
+    },
+
+    "experience_badges_nobadges": {
+        "message": "Значки недоступны."
+    },
+    "experience_badges_completed": {
+        "message": "Выполнено: {numCompleted}/{numTotal}"
+    },
+    "experience_badges_inactive": {
+        "message": "{inactiveIcon}Неактивно: {numInactive}/{numTotal}"
+    },
+    // Column title for % Won Yesterday
+    "experience_badges_wonyesterday": {
+        "message": "% Получили вчера"
+    },
+    "experience_badges_usercompleted": {
+        "message": "{numCompleted}/{numTotal}"
+    },
+    // Error shown in place of badges when there's an error
+    "experience_badges_awardederror": {
+        "message": "При получении информации значков произошла ошибка, пожалуйста повторите попытку позже."
+    },
+    "experience_badges_genericerror": {
+        "message": "При получении значков произошла ошибка, пожалуйста, повторите попытку позже."
+    },
+
+    // Experience badge details
+    "experience_badges_badge_inactive": {
+        "message": "Неактивен"
+    },
+    // Parts of a tooltip when hovering over the question mark
+    "experience_badges_badged_yesterdaypercentage": {
+        "message": "{percentage}%"
+    },
+    "experience_badges_badge_awarded": {
+        "message": "Получено {time}"
+    },
+    "experience_badges_badge_wonalltime": {
+        "message": "Получили за всё время"
+    },
+    "experience_badges_badge_wonyesterday": {
+        "message": "Получили вчера"
+    },
+
+    // Experience private notes stuff
+    "experience_privatenote_title": {
+        "message": "Ваши заметки"
+    },
+    "experience_privatenote_hint": {
+        "message": "Это заметки, которые сможете увидеть только Вы."
+    },
+    "experience_privatenote_placeholder": {
+        "message": "Специфические темпераменты или установки для этой игры..."
+    },
+    "experience_privatenote_length": {
+        "message": "{length}/{maxLength}"
+    },
+    "experience_privatenote_buttons_cancel": {
+        "message": "Отменить"
+    },
+    "experience_privatenote_buttons_save": {
+        "message": "Сохранить"
+    },
+    "generictoggletarget_readmore": {
+        "message": "Больше"
+    },
+    "generictoggletarget_readless": {
+        "message": "Меньше"
+    },
+
+    // Adding "Report Abuse" to the item pages context menu if it isn't already there
+    "itempages_contextmenu_reportabuse": {
+        "message": "Отправить репорт"
+    },
+
+    // User profile force unfollow action
+    "userprofile_actions_forceunfollow": {
+        "message": "Быстрая отписка"
+    },
+
+    // System feedback banners for force unfollow in the profile
+    "userprofile_actions_forceunfollow_systemfeedback_success": {
+        "message": "Вы успешно заставили отписаться пользователя от вас."
+    },
+    "userprofile_actions_forceunfollow_systemfeedback_error": {
+        "message": "При выполении функции произошла неизвестная ошибка."
+    },
+
+    // User's profile cancel request actions
+    "userprofile_actions_cancelrequest": {
+        "message": "Отменить"
+    },
+    // Cancelled request successfully, disabled button
+    "userprofile_actions_cancelledrequest": {
+        "message": "Отменено"
+    },
+
+    // Last online date for a user at the bottom (or under Avatar with BTRoblox)
+    "userprofile_lastonline": {
+        "message": "Последний онлайн"
+    },
+    "userprofile_lastonline_now": {
+        "message": "Только что"
+    },
+
+    // When "Show username in user's friends page title" is enabled, it will replace the title with this.
+    // adding {username}
+    "userfriends_newtitle": {
+        "message": "Друзья {displayName} (@{username})"
+    },
+
+    // Context menu for "Quick actions in the user's friends page"
+    "userfriends_contextmenu_unfriend": {
+        "message": "Удалить из друзей"
+    },
+    "userfriends_contextmenu_unfollow": {
+        "message": "Отписаться"
+    },
+    "userfriends_contextmenu_forceunfollow": {
+        "message": "Моментально отписаться"
+    },
+    "userfriends_contextmenu_block": {
+        "message": "Заблокировать"
+    },
+
+    // System feedback in the users friends page when doing an action with the "Quick actions in the user's friends page" feature
+    "userfriends_systemfeedback_success_unfriend": {
+        "message": "Пользователь удален из друзей."
+    },
+    "userfriends_systemfeedback_success_unfollow": {
+        "message": "Пользователь был удалён из подписок."
+    },
+    "userfriends_systemfeedback_success_forceunfollow": {
+        "message": "Пользователь успешно отписался от вас."
+    },
+    "userfriends_systemfeedback_success_block": {
+        "message": "Пользователь был заблокирован."
+    },
+    "userfriends_systemfeedback_genericerror": {
+        "message": "При обработке произошла ошибка, пожалуйста, повторите попытку позже."
+    },
+
+    // Red text to show below "Your access to voice chat has been suspended for violating our Community Standards." in Privacy settings
+    "robloxsettings_voicechat_suspensiondate": {
+        "message": "Ваш доступ будет восстановлен начиная с {date}"
+    },
+
+    // Marketplace Color filters UI
+    "avatarshop_colorfilters_title": {
+        "message": "Цвета"
+    },
+    "avatarshop_colorfilters_items_primary": {
+        "message": "Основной"
+    },
+    "avatarshop_colorfilters_items_secondary": {
+        "message": "Вторичный"
+    },
+    "avatarshop_colorfilters_items_any": {
+        "message": "Любой"
+    },
+
+    // Pending group join requests for the user
+    "group_pendingrequests": {
+        "message": "Ожидающие ответа заявки"
+    },
+    "group_typesswitch_joined": {
+        "message": "Присоединились"
+    },
+    "group_typesswitch_pending": {
+        "message": "Ожидающие"
+    },
+    "group_discovergroups": {
+        "message": "Узнать о других группах"
+    },
+    "group_creategroup": {
+        "message": "Создать группу"
+    },
+
+    // For the next messages, R2E = Right to Erasure
+
+    // pending in button when fetching R2Es
+    "messages_getunreadr2e_pending": {
+        "message": "Ожидание"
+    },
+    // error in button when fetching R2Es
+    "messages_getunreadr2e_error": {
+        "message": "Ошибка"
+    },
+    "messages_getunreadr2e_request": {
+        "message": "Запросить непрочитанные R2E"
+    },
+    "messages_getunreadr2e_download": {
+        "message": "Скачать непрочитанные R2E"
+    },
+    "messages_getunreadr2e_markread": {
+        "message": "Пометить непрочитанные R2E прочитанными"
+    },
+
+    // Modal shown when asked if the user wants to mark R2Es as read
+    "messages_getunreadr2e_markreadmodal_title": {
+        "message": "Пометить R2E как прочитанными"
+    },
+    "messages_getunreadr2e_markreadmodal_body": {
+        "message": "Вы хотите отметить сообщения R2E как прочитанные?"
+    },
+    "messages_getunreadr2e_markreadmodal_action": {
+        "message": "Пометить как прочитанными"
+    },
+    "messages_getunreadr2e_markreadmodal_neutral": {
+        "message": "Отменить"
+    },
+
+    "voicechatsuspensionmodal_title": {
+        "message": "🦭 Голосовой чат ограничен"
+    },
+    "voicechatsuspensionmodal_description": {
+        "message": "Из-за нарушения <communityGuidelinesLink>Roblox's Community Guidelines</communityGuidelinesLink>, ваш голосовой чат был временно приостановлен до {date}.{lineBreak}{lineBreak}Пожалуйста, будьте уважительны к другим и помогите сохранить веселье в Roblox.{lineBreak}{lineBreak}Вы можете проверить, сколько времени осталось в ваших <privacySettingsLink>Настройках приватности</privacySettingsLink>."
+    },
+    "voicechatsuspensionmodal_action": {
+        "message": "Я понимаю"
+    },
+
+    // Asking the user to enable 2SV by going to their security settings. This is just for security purposes.
+    "force2svmodal_title": {
+        "message": "{sealEmoji} Требуется двухэтапная верификация"
+    },
+    "force2svmodal_body": {
+        "message": "Для безопасности вашего аккаунта для использования этой функции необходимо включить двухступенчатую верификацию.{lineBreak}{lineBreak}Вы хотите перейти к настройкам безопасности вашей учетной записи?"
+    },
+    "force2svmodal_action": {
+        "message": "Перейти"
+    },
+    "force2svmodal_neutral": {
+        "message": "Отменить"
+    },
+
+    // System feedback shown when cancelling a pending join request from the pending groups list UI
+    "group_pendingrequests_systemfeedback_genericerror": {
+        "message": "Не удалось отменить ожидающий запрос на присоединение, повторите попытку позже."
+    },
+    "group_pendingrequests_systemfeedback_success": {
+        "message": "Успешно отменен запрос на присоединение в группу."
+    },
+
+    // Modal shown when customizing a folder
+    "group_foldercustomization_modal_title": {
+        "message": "{sealEmoji} Настройка папки группы"
+    },
+    "group_foldercustomization_modal_field_name": {
+        "message": "Имя"
+    },
+    "group_foldercustomization_modal_lengthtip": {
+        "message": "{length}/{maxLength}"
+    },
+    "group_foldercustomization_modal_field_name_placeholder": {
+        "message": "Название папки"
+    },
+    "group_foldercustomization_modal_field_color": {
+        "message": "Цвет"
+    },
+    "group_foldercustomization_modal_action": {
+        "message": "Сохранить"
+    },
+    "group_foldercustomization_modal_neutral": {
+        "message": "Отменить"
+    },
+
+    // Text to show in /transactions to toggle off/on hiding stuff
+    "transactions_hide0robuxamount": {
+        "message": "Скрыть транзакции на сумму 0 робуксов"
+    },
+    "transactions_hideprivateservers": {
+        "message": "Скрыть транзакции с приватными серверами"
+    },
+
+    // Feature switches sections and subsections
+    "features_section_home": {
+        "message": "Главная"
+    },
+    "features_section_home_general": {
+        "message": "Общее"
+    },
+    "features_section_experiences": {
+        "message": "Игры"
+    },
+    "features_section_experiences_discover": {
+        "message": "Обнаружение"
+    },
+    "features_section_experiences_general": {
+        "message": "Общее"
+    },
+    "features_section_experiences_store": {
+        "message": "Магазин"
+    },
+    "features_section_account": {
+        "message": "Аккаунт"
+    },
+    "features_section_account_general": {
+        "message": "Общее"
+    },
+    "features_section_items": {
+        "message": "Предметы"
+    },
+    "features_section_items_general": {
+        "message": "Общее"
+    },
+    "features_section_items_avatar": {
+        "message": "Предметы для аватара"
+    },
+    "features_section_miscellaneous": {
+        "message": "Другое"
+    },
+    "features_section_miscellaneous_general": {
+        "message": "Общее"
+    },
+    "features_section_miscellaneous_transactionspage": {
+        "message": "Страница операций"
+    },
+    "features_section_miscellaneous_seals": {
+        "message": "Тюлени"
+    },
+    "features_section_miscellaneous_navbars": {
+        "message": "Панель"
+    },
+    "features_section_miscellaneous_avatarshop": {
+        "message": "Магазин"
+    },
+    "features_section_miscellaneous_chat": {
+        "message": "Чат"
+    },
+    "features_section_miscellaneous_messages": {
+        "message": "Сообщения"
+    },
+    "features_section_users": {
+        "message": "Пользователи"
+    },
+    "features_section_users_friendspage": {
+        "message": "Страница Друзья"
+    },
+    "features_section_users_profile": {
+        "message": "Профиль"
+    },
+    "features_section_groups": {
+        "message": "Группы"
+    },
+    "features_section_groups_navigation": {
+        "message": "Навигация"
+    },
+    "features_section_groups_walls": {
+        "message": "Лента группы"
+    },
+
+    // Feature switches in settings
+    // `_title` = the title of the feature
+    // `_description` = the description of the feature
+    // _sub_ indicates a subfeature
+    "features_RemoveHomePageUnnecessarySorts_title": {
+        "message": "Убрать \"лишние\" сортировки из главной страницы"
+    },
+    "features_RemoveHomePageUnnecessarySorts_description": {
+        "message": "Когда функция включена, он удаляет с главной страницы все сорта, которые не соответствуют тегам: \"Рекомендовано для вас\", \"Избранное\", \"Продолжить\", \"Друзья играют\" или \"Спонсировано\"."
+    },
+    "features_ForceHomePageGenreExplorer_title": {
+        "message": "Переместить \"ненужные\" сортировки в проводник"
+    },
+    "features_ForceHomePageGenreExplorer_description": {
+        "message": "Когда функция включена, все сортировки которые не соответствуют категориям \"Рекомендовано для вас\", \"Избранное\", \"Продолжить\", \"Друзья играют\" или \"Спонсировано\", будут помещены в \"Категории\" на главную страницу в верхней части."
+    },
+    "features_RefreshedHomeUserHeader_title": {
+        "message": "Обновлённый заголовок пользователя"
+    },
+    "features_RefreshedHomeUserHeader_description": {
+        "message": "Когда включено, возвращает старый заголовок пользователя на страницу \"Главная\", но с некоторыми отличиями."
+    },
+    "features_RefreshedHomeUserHeader_sub_BasedText_title": {
+        "message": "10%-тный шанс получить случайное сообщение на основе ваших публичных ролей"
+    },
+    "features_RefreshedHomeUserHeader_sub_BirthdayMessage_title": {
+        "message": "Поздравление с днём рождения"
+    },
+    "features_RefreshedHomeUserHeader_sub_HelloText_title": {
+        "message": "Приветствие в виде \"Привет,\""
+    },
+    "features_RefreshedHomeUserHeader_sub_ShowNameType_title": {
+        "message": "Изменение типа отображаемого имени"
+    },
+    "features_RefreshedHomeUserHeader_sub_ShowNameType_values_Both": {
+        "message": "Оба"
+    },
+    "features_RefreshedHomeUserHeader_sub_ShowNameType_values_DisplayName": {
+        "message": "Только отображаемое имя"
+    },
+    "features_RefreshedHomeUserHeader_sub_ShowNameType_values_Username": {
+        "message": "Только имя пользователя"
+    },
+    "features_MoveExperienceSocialLinks_title": {
+        "message": "Переместить социальные ссылки на страницу игры над описанием в разделе \"О игре\""
+    },
+    "features_AddCommunityWikiButton_title": {
+        "message": "Добавить кнопку для посещения неофициальной вики сообщества игры в разделе \"О игре\""
+    },
+    "features_AddCommunityWikiButton_description": {
+        "message": "При включении этой функции расширение отобразит кнопку для посещения неофициальной вики, являющейся частью проекта Roblox Interwiki по фэндому для опыта, если она известна RoSeal."
+    },
+    "features_RemovePrivateServersSectionInAbout_title": {
+        "message": "Убрать раздел \"Приватные сервера\" в вкладке \"О игре\""
+    },
+    "features_DeveloperProductsInExperienceStore_title": {
+        "message": "Продукты разработчика в вкладке \"Магазин\" игры"
+    },
+    "features_DeveloperProductsInExperienceStore_description": {
+        "message": "При включении этой опции продукты разработчиков отображаются в выпадающем списке на вкладке \"Магазин\". При нажатии создается новая страница для просмотра информации о продукте разработчика."
+    },
+    "features_ExperienceStoreItemFiltering_title": {
+        "message": "Параметры фильтрации в вкладке \"Магазин игры\""
+    },
+    "features_ExperienceStoreItemFiltering_description": {
+        "message": "Когда эта опция включена, то во вкладках \"Пропуски\" и \"Продукты разработчика\" в магазине игры отображаются дополнительные параметры для фильтра."
+    },
+    "features_WebsiteOfflineMode_title": {
+        "message": "Отображение в режиме оффлайн только на сайте"
+    },
+    "features_WebsiteOfflineMode_description": {
+        "message": "Когда эта функция включена, никто не узнает, были-ли вы на сайте. Включение может занять несколько минут."
+    },
+    "features_AccountsManager_title": {
+        "message": "Менеджер аккаунтов"
+    },
+    "features_AccountsManager_description": {
+        "message": "При включении этой функции справа сверху добавляется иконка, активирующий всплывающее окно для управления учетными записями. Используйте на свой страх и риск."
+    },
+    "features_ThemeSwitchThroughoutDay_title": {
+        "message": "Синхронизировать тему сайта с браузером"
+    },
+    "features_TooltipTimeType_title": {
+        "message": "Изменение типа времени для дат всплывающей подсказки"
+    },
+    "features_TooltipTimeType_description": {
+        "message": "При выборе параметра изменяется формат даты, в котором всплывающие подсказки с датами будут отображаться при наведении.."
+    },
+    "features_TooltipTimeType_values_Disabled": {
+        "message": "Отключено (Обычная от Roblox)"
+    },
+    "features_TooltipTimeType_values_Relative": {
+        "message": "Относительно"
+    },
+    "features_TooltipTimeType_values_Absolute": {
+        "message": "Абсолютная"
+    },
+    "features_CreatedUpdatedItemsTimeType_title": {
+        "message": "Изменение типа времени для полей Created/Updated/Joined/ и т.д."
+    },
+    "features_CreatedUpdatedItemsTimeType_description": {
+        "message": "При выборе этого параметра текст полей Created, Updated, Joined или других полей на соответствующих страницах изменяется в соответствии с выбранным форматом времени. Это добавит поля \"Создано\", \"Обновлено\" и \"Присоединён\" на страницы элементов, когда это необходимо."
+    },
+    "features_CreatedUpdatedItemsTimeType_values_Disabled": {
+        "message": "Отключить"
+    },
+    "features_CreatedUpdatedItemsTimeType_values_Relative": {
+        "message": "Относительно"
+    },
+    "features_CreatedUpdatedItemsTimeType_values_Absolute": {
+        "message": "Абсолютная"
+    },
+    "features_CreatedUpdatedItemsTimeType_values_Regular": {
+        "message": "Обычная от Roblox"
+    },
+    "features_PersistentTransactionsSelection_title": {
+        "message": "Запоминать мой выбор на странице \"Транкзакции\""
+    },
+    "features_PersistentTransactionsSelection_description": {
+        "message": "Когда функция включена, то последний выбор в списке сохраняется даже после закрытия страницы. Может сломаться при получении нового типа в транзакциях."
+    },
+    "features_BetterRobuxNavigation_title": {
+        "message": "Более удобная навигация Робуксов"
+    },
+    "features_BetterRobuxNavigation_description": {
+        "message": "При включении этой опции в верхней навигации рядом с балансом Робуксов появлится кнопка Плюс (+) для перенаправления к покупке Робуксов, а в левой навигации добавляется новый пункт Транзакции."
+    },
+    "features_MoveAgeBracket_title": {
+        "message": "Переместить возрастную группу в левую навигацию"
+    },
+    "features_MoveAgeBracket_description": {
+        "message": "Когда включено, возрастная группа перемещается из верхней навигации в левую, а изображение профиля и имя пользователя удаляются из верхней навигации."
+    },
+    "features_DisableDesktopApp_title": {
+        "message": "Убрать баннер \"Приложение Roblox на PC\""
+    },
+    "features_ViewItemIconThumbnailAssets_title": {
+        "message": "Добавить ссылки для просмотра баннеров/значков"
+    },
+    "features_ViewItemIconThumbnailAssets_description": {
+        "message": "При включении этой опции в контекстное меню страниц с подробной информацией об элементах добавляются ссылки для просмотра иконки, если такая имеется. Это также относится к баннерам игры на странице \"О игре\" самой игры."
+    },
+    "features_UserFriendsPageContextMenu_title": {
+        "message": "Быстрые действия на странице \"Друзья\""
+    },
+    "features_UserFriendsPageContextMenu_description": {
+        "message": "При включении этой опции добавляется или заменяется контекстное меню на карточках друзей на странице \"Друзья\" пользователя для выполнения быстрых действий. К быстрым действиям относятся: заблокировать, удалить из друзей, отписка и моментальная отписка."
+    },
+    "features_UserProfileAddMargins_title": {
+        "message": "Добавить отступ между разделами на странице профиля пользователя"
+    },
+    "features_ItemPagesMoveReportAbuse_title": {
+        "message": "Переместить кнопку \"Отправить репорт\" в контекстное меню, когда это возможно"
+    },
+    "features_ItemMentions_title": {
+        "message": "Форматирование упоминаний пользователей/групп в сообщениях"
+    },
+    "features_ItemMentions_description": {
+        "message": "При включении этой опции, ссылки с @user, ссылки на профиль и ссылки на группу из сообщений преобразуются в ссылку с изображением аватара или группы."
+    },
+    "features_UserProfileCancelRequest_title": {
+        "message": "Отменить исходящий запрос на дружбу в профиле"
+    },
+    "features_ListPendingGroups_title": {
+        "message": "Показывать список групп с нерассмотренными заявками на присоединение в навигации"
+    },
+    "features_ListPendingGroups_description": {
+        "message": "Когда функция включена, к навигации по группам добавляется навигация по вкладкам с \"Ожидающие подтверждения\"."
+    },
+    "features_DisableAvatarShopInfiniteScrolling_title": {
+        "message": "Отключить бесконечную прокрутку в Каталоге"
+    },
+    "features_DisableGroupWallInfiniteScrolling_title": {
+        "message": "Отключить бесконечную прокрутку ленты в группах"
+    },
+    "features_BlockExperiences_title": {
+        "message": "Заблокированные игры"
+    },
+    "features_BlockExperiences_description": {
+        "message": "Когда включено, в настройках RoSeal добавляется новый раздел для блокировки показа игр и ключевых слов на некоторых страницах. Блокировать игры можно из меню на странице подробной информации об игре."
+    },
+    "features_ShowExperienceUniverseId_title": {
+        "message": "Показывать уникальный ID игры"
+    },
+    "features_Enable3DThumbnailDynamicLighting_title": {
+        "message": "Включить динамическое освещение для 3D-аватара"
+    },
+    "features_ChatSortTypes_title": {
+        "message": "Тип сортировки чата"
+    },
+    "features_ChatSortTypes_description": {
+        "message": "При включении этой опции в поле \"Чат\" добавляются новые типы сортировки для фильтрации разговоров."
+    },
+    "features_Transactions0RobuxAmountToggle_title": {
+        "message": "Включите чтобы спрятать транкзакции с суммой 0 Робуксов"
+    },
+    "features_TransactionsPrivateServersToggle_title": {
+        "message": "Включите чтобы спрятать транзакции связанные с Приватными серверами"
+    },
+    "features_GroupOrganization_title": {
+        "message": "Папки для групп"
+    },
+    "features_GroupOrganization_description": {
+        "message": "Когда функция включена, она позволяет реорганизовывать группы и создавать групповые папки с помощью перетаскивания. Также папки могут быть дополнительно настроены."
+    },
+    "features_BetterExperienceBadges_title": {
+        "message": "Список лучших значков игры"
+    },
+    "features_BetterExperienceBadges_description": {
+        "message": "При включении этой функции в сведениях об игре добавляется новая вкладка, содержащая список лучших значков игры. Вы также можете просмотреть неактивные значки, даты награждения значков и сравнить свои значки с другими пользователями. Не совсем будет удобно для игры с большим количеством значков.."
+    },
+    "features_BetterExperiencesBadges_sub_FiltersAndSorts_title": {
+        "message": "Фильтры и сортировка значков игры"
+    },
+    "features_BetterExperiencesBadges_sub_DisableRobloxBadges_title": {
+        "message": "Отключить раздел значков от Roblox"
+    },
+    "features_UserProfileLastOnline_title": {
+        "message": "Показывать дату последнего выхода в профиле пользователя"
+    },
+    "features_ChangeNavFriendsHash_title": {
+        "message": "Изменить вкладку друзей пользователей по умолчанию на панели навигации"
+    },
+    "features_ChangeNavFriendsHash_values_friends": {
+        "message": "Друзья"
+    },
+    "features_ChangeNavFriendsHash_values_following": {
+        "message": "Подписки"
+    },
+    "features_ChangeNavFriendsHash_values_followers": {
+        "message": "Подписчики"
+    },
+    "features_ChangeNavFriendsHash_values_friendrequests": {
+        "message": "Запросы в друзья"
+    },
+    "features_HideFriendRequestsCount_title": {
+        "message": "Скрыть счётчик запросов друзей на панели навигации"
+    },
+    "features_HideMessagesCount_title": {
+        "message": "Скрыть счётчик сообщений в панели навигации"
+    },
+    "features_SealImages_title": {
+        "message": "Заменить все изображения на картинки тюленей"
+    },
+    "features_ExperienceMediaAltTextButton_title": {
+        "message": "Улучшение работы с кнопкой ALT для картинок"
+    },
+    "features_ShowExperienceAvatarType_title": {
+        "message": "Показывать тип аватара в играх рядом со статистикой"
+    },
+    "features_ShowExperienceAvatarType_sub_ShowAvatarRestriction_title": {
+        "message": "Показывать информацию над кнопкой \"Играть\", если ваш аватар может не работать в каких-либо играх"
+    },
+    "features_AssetDeleteFromInventory_title": {
+        "message": "Кнопка \"Удалить из инвентаря\" на странице \"Просмотр иконки\" "
+    },
+    "features_AssetDeleteFromInventory_description": {
+        "message": "Когда функция включена в меню элементов иконки добавляется кнопка \"Удалить из инвентаря\", если её там нет. Из-за безопасности аккаунта потребуется 2FA подтверждение."
+    },
+    "features_UserFriendsPageNewTitle_title": {
+        "message": "Показывать имя пользователя в заголовке страницы друзей"
+    },
+    "features_ExperiencePrivateNote_title": {
+        "message": "Добавить заметки об игре на странице игры"
+    },
+    "features_AccountPinPromptMoreLocations_title": {
+        "message": "Показывать запрос на ввод пин-кода от аккаунта в большинстве местах"
+    },
+    "features_AccountPinPromptMoreLocations_description": {
+        "message": "Когда функция включена, то запрос на разблокировку пин-кода учетной записи отображается в большем количестве мест, где обычно Roblox просит ввести пин-код чтобы что-то изменить."
+    },
+    "features_GetUnreadR2EButton_title": {
+        "message": "Кнопка запроса CSV-файла"
+    },
+    "features_DiscoverFilters_title": {
+        "message": "Фильтры для игр"
+    },
+    "features_DiscoverFilters_description": {
+        "message": "Когда функция включена, на страницу Discover добавляется раздел Фильтры. Он позволяет отфильтровать всевозможные варианты по проценту \"нравится\", количеству избранных, количеству игроков, количеству посещений и жанру."
+    },
+    "features_RoSealSettingDropdown_title": {
+        "message": "\"Настройки RoSeal\" в списке настроек Roblox"
+    },
+    "features_AccurateHomeContinueSort_title": {
+        "message": "Упорядочивание игр на странице \"Продолжить\""
+    },
+    "features_CSSFixes_title": {
+        "message": "Различные исправления стилей (CSS) на сайте"
+    },
+    "features_MoveExperienceEvents_title": {
+        "message": "Перенести события игры в отдельную вкладку"
+    },
+    "features_RefreshlessGroupNavigation_title": {
+        "message": "Навигация в группах без обновления страницы"
+    },
+    "features_RefreshlessGroupNavigation_description": {
+        "message": "Когда эта функция включена, то переход к другой группе из любого списка групп не требует обновления страницы."
+    },
+    "features_ItemAdditionalProductInfo_title": {
+        "message": "Показывать дополнительную информацию о пропусках (Gamepasses)"
+    },
+    "features_RefreshAvatarItemDetails_title": {
+        "message": "Кнопка обновления в разделе предмета"
+    },
+    "features_MarketplaceColorFilters_title": {
+        "message": "Цветовые фильтры в Каталоге"
+    },
+    "features_RefreshAvatarItemDetails_sub_FastFreeBuy_title": {
+        "message": "Быстрая покупка предметов в Каталоге"
+    },
+    "features_RemoveFriendActivityLabel_title": {
+        "message": "Убрать текст \"Friends playing\" под играми на главной странице"
+    },
+    "features_RemoveHomePhoneNumberUpsell_title": {
+        "message": "Убрать предупреждение с \"Привязкой номера\" на главной странице сайта"
+    },
+    "features_UserProfileForceUnfollow_title": {
+        "message": "Кнопка \"Моментальная отписка\" в контекстном меню заголовка профиля пользователя"
+    },
+    "features_JailbrokenHomeFavoritesSort_title": {
+        "message": "Перечислить все любимые игры на Главной странице в \"Избранное\""
+    },
+    "features_PutHomeFavoritesSortAtTop_title": {
+        "message": "Поместите сортировку Главной на \"Избранное\" вверху"
+    },
+    "features_ShowVoiceChatSuspension_title": {
+        "message": "Показать детали приостановки голосового чата и полную дату"
+    },
+    "features_ShowVoiceChatSuspension_description": {
+        "message": "При включении этой функции на всех страницах отображается модальное окно с информацией о приостановке голосового чата, если пользователь еще не был проинформирован. Он также добавляет полную дату истечения срока приостановки на страницу настроек учетной записи конфиденциальности."
+    },
+    "features_SearchByCreatorButton_title": {
+        "message": "Кнопка поиска дополнительных предметов рядом с именем создателя"
+    },
+    "features_PrivateServerLinksSection_title": {
+        "message": "Добавить раздел в вкладке серверов \"Ссылки на приватные сервера\""
+    },
+    "features_PrivateServerLinksSection_description": {
+        "message": "При включении добавляется раздел \"Ссылки на приватные сервера\" в вкладке серверов. Вы можете добавить в него ссылки на приватные сервера и импортировать/экспортировать в виде файла."
+    },
+    "features_PrivateServerLinksSection_sub_TryResolveOwner_title": {
+        "message": "Автоматически определить владельца приватного сервера"
+    },
+    "features_BadgeMoreStatistics_title": {
+        "message": "Добавить дополнительную статистику по бейджам на страницу бейджей"
+    },
+    "features_ErrorShowMachineID_title": {
+        "message": "Показывать идентификатор машины Roblox в правом нижнем углу на странице ошибки"
+    },
+
+    "popup_extensionname": {
+        "message": "{sealEmoji} RoSeal"
+    },
+    // Actions to go to RoSeal social/settings
+    "popup_actions_robloxgroup": {
+        "message": "Roblox группа"
+    },
+    "popup_actions_settings": {
+        "message": "Настройки"
+    },
+    "popup_actions_website": {
+        "message": "Сайт"
+    },
+
+    // RoSeal optional permissions section
+    "popup_permissions": {
+        "message": "Дополнительные разрешения"
+    },
+    "popup_permissions_cookie": {
+        "message": "Куки"
+    },
+    // Tooltip shown when hovering over the questionmark next to "Cookies"
+    "popup_permissions_cookietooltip": {
+        "message": "Предоставьте это разрешение, если хотите использовать Менеджер аккаунтов. Вы можете отозвать это разрешение в любое время."
+    },
+
+    // Popup data managemenet
+    "popup_extensiondata_show": {
+        "message": "Показать"
+    },
+    "popup_extensiondata_hide": {
+        "message": "Спрятать"
+    },
+    "popup_extensiondata": {
+        "message": "Данные расширения"
+    },
+    "popup_extensiondata_download": {
+        "message": "Скачать данные"
+    },
+    "popup_extensiondata_request": {
+        "message": "Запросить данные"
+    },
+    "popup_extensiondata_import": {
+        "message": "Импорт"
+    },
+    // Success shown when it successfully imported and parsed the data file
+    "popup_extensiondata_import_alert_success": {
+        "message": "Данные успешно импортированы."
+    },
+    // Error shown when it cannot parse the data file
+    "popup_extensiondata_import_alert_error": {
+        "message": "Пожалуйста, повторите попытку с подходящим файлом."
+    },
+
+    "popup_languageswitcher_title": {
+        "message": ""
+    },
+    // i.e. "American English (default)"
+    "popup_languageswitcher_defaulttext": {
+        "message": ""
+    },
+    "popup_languageswitcher_changenotice": {
+        "message": ""
+    },
+
+    // Display in the RoSeal popup and in settings.
+    "buymeacoffee": {
+        "message": "{coffeeEmoji} Купить мне кофе :-)"
+    }
 }
 
 // Translated by: primarily Flaryanlxrd
