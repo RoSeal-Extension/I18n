@@ -1,2011 +1,2022 @@
 {
-  // For details on what to translate, see README.md file
-
-  // Name and description that appears on all stores, and in chrome://extensions
-  "manifest_name": {
-    "message": "RoSeal - Augmented Roblox Experience"
-  },
-  "manifest_description": {
-    "message": "Improve your Roblox website experience. And there's also seals."
-  },
-
-  // Popover dropdown menu for the roseal item
-  "robloxsettings_popover_roseal": {
-    "message": "{sealEmoji} RoSeal Settings"
-  },
-
-  // Appears in the RoSeal settings, "Beta" and "Experimental" labels
-  "beta_feature_label": {
-    "message": "BETA"
-  },
-  "experimental_feature_label": {
-    "message": "EXPERIMENTAL"
-  },
-
-  "errorpage_machineid": {
-    "message": "Roblox Machine ID: {robloxMachineId}"
-  },
-
-  // the 404 error page that appears if request is not valid.
-  // currently, it's only used by the developer product 404 page
-  "errorpage_404_title": {
-    "message": "Page cannot be found or no longer exists"
-  },
-  "errorpage_404_message": {
-    "message": "{sealEmoji} 404 <span>|</span>Page Not Found"
-  },
-  "errorpage_back": {
-    "message": "Back"
-  },
-  "errorpage_back_title": {
-    "message": "Go to the Previous Page"
-  },
-  "errorpage_home": {
-    "message": "Home"
-  },
-  "errorpage_home_title": {
-    "message": "Return Home"
-  },
-
-  // Hello variant of the home header feature
-  "homeheader_hellotext": {
-    "message": "Hello, {displayName}"
-  },
-
-  // "RoSeal Settings" item label in the roblox settings navigation list
-  "robloxsettings_selection_roseal": {
-    "message": "RoSeal Settings"
-  },
-
-  // RoSeal settings titles
-  "settings_title": {
-    "message": "My {sealEmoji}RoSeal Settings"
-  },
-  "settings_return": {
-    "message": "Return to Roblox Settings"
-  },
-
-  // "About" selection in menu and title
-  "settings_selection_about": {
-    "message": "About RoSeal"
-  },
-  "settings_about_description": {
-    "message": "<bold>RoSeal</bold> is a free seal-themed Roblox browser extension with individually togglable features and enhancements, without any paywalls or tracking."
-  },
-  // under13 is for 13- users over13 is for 13+. this is to prevent exposing discord to underage users
-  "settings_about_media_under13": {
-    "message": "There is a community <groupLink>Roblox Group</groupLink> for the extension."
-  },
-  "settings_about_media_over13": {
-    "message": "There is a community <groupLink>Roblox Group</groupLink> and a <discordLink>Discord Server</discordLink> for the extension."
-  },
-
-  // "Credits" selection tab in menu and title
-  "settings_about_credits_header": {
-    "message": "Credits"
-  },
-  "settings_about_credits_Julli4n": {
-    "message": "<link>Julli4n</link> - Lead Developer"
-  },
-  "settings_about_credits_Karasuneth": {
-    "message": "<link>Karasuneth</link> - Designed the original icon"
-  },
-  "settings_about_credits_MaciejCreates": {
-    "message": "<link>MaciejCreates</link> - Designed the icon"
-  },
-
-  // "Feature Switches" selection tab in menu and title
-  "settings_about_featureswitches_header": {
-    "message": "Feature Switches"
-  },
-  "settings_about_featureswitches_description": {
-    "message": "Feature Switches are a quick way to toggle RoSeal features off and on to your preference."
-  },
-  "settings_about_featureswitches_beta": {
-    "message": "<label>BETA</label> features are not ready to be turned on automatically; however, there should be minimal risk in enabling them. Everyone is welcome to enable and give feedback."
-  },
-  "settings_about_featureswitches_experimental": {
-    "message": "<label>EXPERIMENTAL</label> features are either unstable which may not stabilize or a test for a feature to come. IMPORTANT: Don't enable these features unless you know the risk."
-  },
-
-  // "Donate" selection tab in menu and title
-  "settings_selection_donate": {
-    "message": "Donate"
-  },
-  "settings_donate_description": {
-    "message": "I, <bold>Julli4n</bold>, earn no profit from the development of this extension. Please consider donating if you have enjoyed the extension. You will not be granted any benefits, just a thank you.{lineBreak}{lineBreak}You will be redirected to BuyMeACoffee, a 3rd-party site for donations."
-  },
-
-  // selected tab
-  "settings_selection_featureswitches": {
-    "message": "Feature Switches"
-  },
-  // feature switch details
-  // a feature switch is disabled primarily remotely
-  "settings_featureswitches_featureswitch_disabled": {
-    "message": "This feature has been disabled by RoSeal"
-  },
-  // when we deprecate a feature because it is no longer useful, or Roblox has their own solution now
-  "settings_featureswitches_featureswitch_deprecated": {
-    "message": "This feature has been <bold>discontinued</bold>. It is recommended to find alternatives in RoSeal or use native features on the Roblox website."
-  },
-  // not used atm, but will be if we ever add support for Safari or add firefox-exclusive features.
-  // "browsers" is a comma-separated list of browsers
-  "settings_featureswitches_featureswitch_exclusivebrowsers": {
-    "message": "Exclusive to the following browsers: {browsers}"
-  },
-  "settings_featureswitches_featureswitch_permissions_title": {
-    "message": "Required Permissions"
-  },
-  "settings_featureswitches_featureswitch_permissions_values_Cookies": {
-    "message": "Cookies"
-  },
-  "settings_featureswitches_featureswitch_permissions_subtext": {
-    "message": "Permissions can be granted in RoSeal's options page:"
-  },
-  "settings_featureswitches_featureswitch_permissions_openoptions": {
-    "message": "Open"
-  },
-  // "Associated Storage" is basically just storage stored from the feature, i.e. Roblox accounts with accounts manager
-  "settings_featureswitches_featureswitch_removeassociatedstorage": {
-    "message": "Remove Associated Storage"
-  },
-  // System feedback messages
-  "settings_featureswitches_featureswitch_removeassociatedstorage_systemfeedback_success": {
-    "message": "Successfully removed associated storage for this feature."
-  },
-  "settings_featureswitches_featureswitch_removeassociatedstorage_systemfeedback_error": {
-    "message": "An error occurred while removing associated storage for this feature, please try again later."
-  },
-
-  // "Blocked Experiences" selection tab in menu and title
-  "settings_selection_blockedexperiences": {
-    "message": "Blocked Experiences"
-  },
-  "settings_blockedexperiences_keywords_title": {
-    "message": "Blocked Keywords"
-  },
-  "settings_blockedexperiences_keywords_description": {
-    "message": "Keywords can be added and removed to block experiences whose name matches one of the added keywords. These experiences will not display on some common pages."
-  },
-  "settings_blockedexperiences_keywords_count": {
-    "message": "You're blocking {keywordsNum} of {keywordsMax} experience keywords allowed:"
-  },
-  // No experience keywords blocked
-  "settings_blockedexperiences_keywords_nokeywords": {
-    "message": "Add your first keyword to block to get started."
-  },
-  "settings_blockedexperiences_keywords_inputplaceholder": {
-    "message": "Add a keyword..."
-  },
-  "settings_blockedexperiences_keywords_add": {
-    "message": "Add"
-  },
-  "settings_blockedexperiences_keywords_keyword_remove": {
-    "message": "Remove"
-  },
-
-  // Blocked Experiences section
-  "settings_blockedexperiences_individualexperiences_title": {
-    "message": "Individual Blocked Experiences"
-  },
-  "settings_blockedexperiences_individualexperiences_description": {
-    "message": "Individual experiences can be blocked and unblocked from the context menu on an experience page. These experiences will not display on some common pages."
-  },
-  "settings_blockedexperiences_individualexperiences_count": {
-    "message": "You're blocking {experiencesNum} of {experiencesMax} experiences allowed:"
-  },
-  // No experiences blocked
-  "settings_blockedexperiences_individualexperiences_noexperiences": {
-    "message": "When you block an experience, it will show up here."
-  },
-  "settings_blockedexperiences_individualexperiences_experience_universeid": {
-    "message": "Universe ID: {universeId}"
-  },
-  "settings_blockedexperiences_individualexperiences_experience_unblock": {
-    "message": "Unblock"
-  },
-
-  // Hide/show a blocked expiernece section, like keywords or individual ones
-  "settings_blockedexperiences_section_hide": {
-    "message": "Hide"
-  },
-  "settings_blockedexperiences_section_show": {
-    "message": "Show"
-  },
-
-  // Account Settings dropdown strings
-  "accountsmanager_entry_login_disabled": {
-    "message": "Logged In"
-  },
-  "accountsmanager_entry_login": {
-    "message": "Login"
-  },
-  "accountsmanager_entry_logout": {
-    "message": "Remove"
-  },
-  "accountsmanager_title": {
-    "message": "{sealEmoji} Accounts Manager"
-  },
-  "accountsmanager_noaccounts": {
-    "message": "You have no accounts. Add your current account to get started."
-  },
-  // Not logged in text
-  "accountsmanager_noaccounts_disabled": {
-    "message": "You have no accounts. Login and add your account to get started."
-  },
-  "accountsmanager_maxaccounts": {
-    "message": "You have reached the maximum number of allowed accounts. ({accountLimit})"
-  },
-  // Message to show if Accounts Manager is deprecated. we're not sure if it ever will be but given that
-  // there are new translations on the Roblox website hinting to an account switcher feature, this will be here just in case
-  "accountsmanager_deprecated": {
-    "message": "Accounts Manager has been discontinued, please use the native Roblox account switching interface from \"Switch Account\" under the Settings cog dropdown instead."
-  },
-  // Please don't mess this up.
-  "accountsmanager_addaccount": {
-    "message": "You can add {moreAccounts, plural, =1 {1 more account.} other {# more accounts.}} ({accountsNum}/{accountLimit})"
-  },
-  "accountsmanager_actions_addcurrentaccount": {
-    "message": "Add Current Account"
-  },
-  "accountsmanager_actions_clearcurrentcookie": {
-    "message": "Logout"
-  },
-
-  // System feedbacks shown when there's an error/success message
-  "accountsmanager_success_AddCurrentRobloxAccount": {
-    "message": "Successfully added the current Roblox account to list."
-  },
-  "accountsmanager_success_LogoutRobloxAccount": {
-    "message": "Successfully invalidated session and removed Roblox account from list."
-  },
-  "accountsmanager_error_UnknownError": {
-    "message": "An unknown error occurred, please try again later."
-  },
-  "accountsmanager_error_EndpointError": {
-    "message": "An error occurred while trying to invalidate the session, please try again later."
-  },
-  "accountsmanager_error_InvalidAccount": {
-    "message": "Invalid account, please refresh the page."
-  },
-  "accountsmanager_error_NoCookiePermission": {
-    "message": "RoSeal does not have permission to manage browser cookies. Please allow it in RoSeal's options page."
-  },
-
-  // The context menu "..." item that appears in the item dropdown menu to view the icon asset
-  "experience_contextmenu_viewiconasset": {
-    "message": "View Icon Asset"
-  },
-
-  // "Private Servre Links" section
-  "experience_privateserverlinks_title": {
-    "message": "Private Server Links"
-  },
-  // Button to see more private server links
-  "experience_privateserverlinks_seemore": {
-    "message": "See More"
-  },
-  // Button to see less private server links
-  "experience_privateserverlinks_seeless": {
-    "message": "See Less"
-  },
-  // Tooltip hover message next to the title
-  "experience_privateserverlinks_titletooltip": {
-    "message": "Private Server Links lets you store private servers for this experience from links or importing a file and will indicate when a private server link is inactive."
-  },
-  "experience_privateserverlinks_noservers": {
-    "message": "No Private Server Links Found."
-  },
-  // "Add" button that will open the "Add Private Server Link" dialog
-  "experience_privateserverlinks_actions_add": {
-    "message": "Add"
-  },
-  // "Import" button that will open the "Import Private Server Links" dialog
-  "experience_privateserverlinks_actions_import": {
-    "message": "Import"
-  },
-  // this will have a .json file extension
-  "experience_privateserverlinks_exportfilename": {
-    "message": "{placeName} Private Servers"
-  },
-  // "Export" button that will download the "{placeName} Private Servers.json file"
-  "experience_privateserverlinks_actions_export": {
-    "message": "Export"
-  },
-  // When the creator is listed as "No One", no creator is set
-  "experience_privateserverlinks_privateserver_noone": {
-    "message": "No One"
-  },
-  // Updated time
-  "experience_privateserverlinks_privateserver_updated": {
-    "message": "Updated {time}"
-  },
-  // Shows up as red text "Invalid" if server is invalid now
-  "experience_privateserverlinks_privateserver_invalid": {
-    "message": "Invalid"
-  },
-  // Context menu items
-  "experience_privateserverlinks_privateserver_contextmenu_copylink": {
-    "message": "Copy Link"
-  },
-  "experience_privateserverlinks_privateserver_contextmenu_remove": {
-    "message": "Remove"
-  },
-  "experience_privateserverlinks_privateserver_contextmenu_update": {
-    "message": "Update"
-  },
-  // Bottom button that switches between "Remove" and "Join"
-  // - join if valid, remove if not
-  "experience_privateserverlinks_privateserver_remove": {
-    "message": "Remove"
-  },
-  "experience_privateserverlinks_privateserver_join": {
-    "message": "Join"
-  },
-
-  // Import private servers from file modal
-  "experience_privateserverlinks_importprivateserversmodal_title": {
-    "message": "{sealEmoji} Import Private Server Links"
-  },
-  "experience_privateserverlinks_importprivateserversmodal_filteredcount": {
-    "message": "{filtered} of {total} private servers had invalid links or were duplicates."
-  },
-  "experience_privateserverlinks_importprivateserversmodal_importinfo": {
-    "message": "Would you like to import the following {total, plural, =1 {private server} other {# private servers}}:"
-  },
-  "experience_privateserverlinks_importprivateserversmodal_instructiontext_drag": {
-    "message": "Drag a data file here"
-  },
-  "experience_privateserverlinks_importprivateserversmodal_instructiontext_or": {
-    "message": "Or"
-  },
-  "experience_privateserverlinks_importprivateserversmodal_instructiontext_select": {
-    "message": "Select a data file from your computer"
-  },
-  // Import error messages
-  "experience_privateserverlinks_importprivateserversmodal_importerror_invalid": {
-    "message": "Please input a valid data (.json) file."
-  },
-  "experience_privateserverlinks_importprivateserversmodal_importerror_unknown": {
-    "message": "An unknown error occurred while reading the data file."
-  },
-  "experience_privateserverlinks_importprivateserversmodal_importerror_unknowncheck": {
-    "message": "An unknown error occurred while checking the private server links."
-  },
-  "experience_privateserverlinks_importprivateserversmodal_importerror_allinvalid": {
-    "message": "All the private server links in the data file were invalid."
-  },
-  "experience_privateserverlinks_importprivateserversmodal_importerror_allduplicate": {
-    "message": "All the private server links in the data file were duplicates."
-  },
-  "experience_privateserverlinks_importprivateserversmodal_importerror_invalidformat": {
-    "message": "The data file was in an invalid format."
-  },
-  // Modal actions
-  "experience_privateserverlinks_importprivateserversmodal_action": {
-    "message": "Import"
-  },
-  "experience_privateserverlinks_importprivateserversmodal_neutral": {
-    "message": "Cancel"
-  },
-
-  // Remove private server modal
-  "experience_privateserverlinks_removeprivateservermodal_title": {
-    "message": "{sealEmoji} Remove Private Server Link"
-  },
-  "experience_privateserverlinks_removeprivateservermodal_body": {
-    "message": "Are you sure you want to remove this Private Server Link?"
-  },
-  "experience_privateserverlinks_removeprivateservermodal_action": {
-    "message": "Remove"
-  },
-  "experience_privateserverlinks_removeprivateservermodal_neutral": {
-    "message": "Cancel"
-  },
-
-  // add private server link modal
-  "experience_privateserverlinks_addprivateservermodal_title": {
-    "message": "{sealEmoji} Add Private Server Link"
-  },
-  "experience_privateserverlinks_addprivateservermodal_fromlink": {
-    "message": "It looks like you came from an unknown private server link, would you like to add it?"
-  },
-  // Label for server name text field input
-  "experience_privateserverlinks_addprivateservermodal_name": {
-    "message": "Name"
-  },
-  "experience_privateserverlinks_addprivateservermodal_nameplaceholder": {
-    "message": "Server Name"
-  },
-  // Text that appears bottom right of the input
-  "experience_privateserverlinks_addprivateservermodal_namelength": {
-    "message": "{length}/{maxLength}"
-  },
-  // Server link label
-  "experience_privateserverlinks_addprivateservermodal_link": {
-    "message": "Link"
-  },
-  // Server owner label
-  "experience_privateserverlinks_addprivateservermodal_owner": {
-    "message": "Owner"
-  },
-  // Below the server owner input to the right
-  "experience_privateserverlinks_addprivateservermodal_owneroptional": {
-    "message": "(optional)"
-  },
-  // Server link errors
-  "experience_privateserverlinks_addprivateservermodal_linkerror_invalid": {
-    "message": "The link you provided was invalid."
-  },
-  "experience_privateserverlinks_addprivateservermodal_linkerror_unknown": {
-    "message": "An unknown error occurred while checking the link status."
-  },
-  "experience_privateserverlinks_addprivateservermodal_linkerror_duplicate": {
-    "message": "There is already a private server with this link: \"{name}\""
-  },
-  // modal buttons
-  "experience_privateserverlinks_addprivateservermodal_action": {
-    "message": "Add"
-  },
-  "experience_privateserverlinks_addprivateservermodal_neutral": {
-    "message": "Cancel"
-  },
-
-  // update private server link modal
-  // this is very similar to add
-  "experience_privateserverlinks_updateprivateservermodal_title": {
-    "message": "{sealEmoji} Update Private Server Link"
-  },
-  // Label for server name text field input
-  "experience_privateserverlinks_updateprivateservermodal_name": {
-    "message": "Name"
-  },
-  "experience_privateserverlinks_updateprivateservermodal_nameplaceholder": {
-    "message": "Server Name"
-  },
-  // Text that appears bottom right of the input
-  "experience_privateserverlinks_updateprivateservermodal_namelength": {
-    "message": "{length}/{maxLength}"
-  },
-  // Server link label
-  "experience_privateserverlinks_updateprivateservermodal_link": {
-    "message": "Link"
-  },
-  // Server link errors
-  "experience_privateserverlinks_updateprivateservermodal_linkerror_invalid": {
-    "message": "The link you provided was invalid."
-  },
-  "experience_privateserverlinks_updateprivateservermodal_linkerror_unknown": {
-    "message": "An unknown error occurred while checking the link status."
-  },
-  "experience_privateserverlinks_updateprivateservermodal_linkerror_duplicate": {
-    "message": "There is already a private server with this link: \"{name}\""
-  },
-  // Server owner label
-  "experience_privateserverlinks_updateprivateservermodal_owner": {
-    "message": "Owner"
-  },
-  // Below the server owner input to the right
-  "experience_privateserverlinks_updateprivateservermodal_owneroptional": {
-    "message": "(optional)"
-  },
-  // modal buttons
-  "experience_privateserverlinks_updateprivateservermodal_action": {
-    "message": "Update"
-  },
-  "experience_privateserverlinks_updateprivateservermodal_neutral": {
-    "message": "Cancel"
-  },
-
-  // The context menu "..." item that appears in the experience dropdown menu to unblock/block the target experience
-  "experience_contextmenu_unblock": {
-    "message": "Unblock"
-  },
-  "experience_contextmenu_block": {
-    "message": "Block"
-  },
-
-  // "Universe ID {number}" text under About
-  "experience_universeid": {
-    "message": "Universe ID"
-  },
-
-  // The asset's numeric product ID
-  "generalasset_productid": {
-    "message": "Product ID"
-  },
-  // The collectible item UUID ID
-  "collectibleasset_collectibleitemid": {
-    "message": "Collectible Item ID"
-  },
-  // The collectible product UUID ID
-  "collectibleasset_collectibleproductid": {
-    "message": "Collectible Product ID"
-  },
-
-  // The developer product's numeric product ID
-  "developerproduct_productid": {
-    "message": "Product ID"
-  },
-
-  // "Refresh Item Details" tooltip when hovering over the refresh icon under the three dots (...)
-  "avataritem_refreshdetails": {
-    "message": "Refresh Item Details"
-  },
-
-  // "Refresh Item Details" tooltip when hovering over the search icon next to the creator name
-  "avataritem_searchbycreator": {
-    "message": "Search Items By This Creator"
-  },
-
-  // The pass's numeric product ID field
-  "pass_productid": {
-    "message": "Product ID"
-  },
-
-  // The bundle's numeric product ID field
-  "bundle_productid": {
-    "message": "Product ID"
-  },
-
-  // Text to show if an experience is blocked, and to view it anyways
-  "experience_blocked_title": {
-    "message": "This experience is blocked"
-  },
-  "experience_blocked_viewanyway": {
-    "message": "View Anyway"
-  },
-
-  // Dropdown selections for "Passes" and "Developer Products"
-  "experience_store_selection_passes": {
-    "message": "Passes"
-  },
-  "experience_store_selection_developerproducts": {
-    "message": "Developer Products"
-  },
-
-  // Developer products section
-  // filtering options
-  "experience_developerproducts_filtering_offsale": {
-    "message": "Show Off Sale Items"
-  },
-  "experience_developerproducts_filtering_onsale": {
-    "message": "Show On Sale Items"
-  },
-  // Errors/no developer products
-  "experience_developerproducts_genericerror": {
-    "message": "An error occurred while trying to fetch developer products, please try again later."
-  },
-  "experience_developerproducts_nodeveloperproducts": {
-    "message": "No developer products available."
-  },
-  // Indicates that there is none from your search from the filters, but can change if filtering options are changed
-  "experience_developerproducts_nodeveloperproductsfiltered": {
-    "message": "No developer products available from your search."
-  },
-
-  // Experience passes stuff, we discard roblox's version and remake all of it
-  // filtering stuff
-  "experience_passes_filtering_offsale": {
-    "message": "Include Off Sale Items"
-  },
-  "experience_passes_filtering_onsale": {
-    "message": "Include On Sale Items"
-  },
-  "experience_passes_filtering_unowned": {
-    "message": "Include Unowned Items"
-  },
-  "experience_passes_filtering_owned": {
-    "message": "Include Owned Items"
-  },
-  // Viewing as a specific user
-  "experience_passes_filtering_user": {
-    "message": "View as:"
-  },
-  // Errors/no passes
-  "experience_passes_genericerror": {
-    "message": "An error occurred while trying to fetch passes, please try again later."
-  },
-  "experience_passes_nopasses": {
-    "message": "No passes available."
-  },
-  // Indicates that there is none from your search from the filters, but can change if filtering options are changed
-  "experience_passes_nopassesfiltered": {
-    "message": "No passes available from your search."
-  },
-  "experience_passes_entry_owned": {
-    "message": "Owned"
-  },
-  "experience_passes_entry_buy": {
-    "message": "Buy"
-  },
-  "experience_passes_addpass": {
-    "message": "Add Pass"
-  },
-
-  // Shown over the Play button to indicate to the user that their avatar may not be as intended in the experience
-  "experience_avatarrestricted": {
-    "message": "Your current avatar may not look or function as intended in this experience."
-  },
-  // Table header items, "Field" in this context, is like part of an avatar, avatar type, body, proportion, etc.
-  "experience_avatarrestricted_compare_field": {
-    "message": "Field"
-  },
-  "experience_avatarrestricted_compare_you": {
-    "message": "You"
-  },
-  "experience_avatarrestricted_compare_experience": {
-    "message": "Experience"
-  },
-
-  "experience_avatarrestricted_fields_height": {
-    "message": "Height"
-  },
-  "experience_avatarrestricted_fields_width": {
-    "message": "Width"
-  },
-  "experience_avatarrestricted_fields_head": {
-    "message": "Head"
-  },
-  "experience_avatarrestricted_fields_proportion": {
-    "message": "Proportion"
-  },
-  "experience_avatarrestricted_fields_bodyType": {
-    "message": "Body Type"
-  },
-  "experience_avatarrestricted_fields_avatarType": {
-    "message": "Avatar Type"
-  },
-  "experience_avatarrestricted_fields_avatarType_values_R6": {
-    "message": "R6"
-  },
-  "experience_avatarrestricted_fields_avatarType_values_R15": {
-    "message": "R15"
-  },
-  "experience_avatarrestricted_fields_avatarType_values_PlayerChoice": {
-    "message": "User Choice"
-  },
-
-  // Avatar Type stuff shown at the experience's stats.
-  "experience_avatartype_label": {
-    "message": "Avatar Type"
-  },
-  "experience_avatartype_values_ForcedRthro": {
-    "message": "Rthro"
-  },
-  "experience_avatartype_values_R15Rthro": {
-    "message": "R15, Rthro"
-  },
-  "experience_avatartype_values_R6": {
-    "message": "R6"
-  },
-  "experience_avatartype_values_R15": {
-    "message": "R15"
-  },
-  "experience_avatartype_values_PlayerChoice": {
-    "message": "User Choice"
-  },
-
-  // for Robux views, honestly forgot what this is for. likely on developer product/pass items in store
-  // and developer product pages
-  "item_offsale_long": {
-    "message": "This item is not currently for sale."
-  },
-  "item_offsale_short": {
-    "message": "Off Sale"
-  },
-
-  // Developer product fields stuff.
-  "developerproduct_offsale": {
-    "message": "This item is not currently for sale."
-  },
-  "developerproduct_price": {
-    "message": "Price"
-  },
-  "developerproduct_type": {
-    "message": "Type"
-  },
-  "developerproduct_type_value": {
-    "message": "Developer Product"
-  },
-  "developerproduct_created": {
-    "message": "Created"
-  },
-  "developerproduct_updated": {
-    "message": "Updated"
-  },
-  "developerproduct_description": {
-    "message": "Description"
-  },
-  "developerproduct_contextmenu_viewiconasset": {
-    "message": "View Icon Asset"
-  },
-
-  // Whenever the RoSeal privacy policy updates, we show this modal. Only shown once per privacy policy update since the user installed the extension.
-  // required.
-  "ppupdatemodal_title": {
-    "message": "{sealEmoji} RoSeal Privacy Policy Update"
-  },
-  "ppupdatemodal_description": {
-    "message": "We've updated RoSeal's Privacy Policy since the last time you visited.{lineBreak}{lineBreak}<privacyPolicyLink>Read the Privacy Policy</privacyPolicyLink>"
-  },
-  "ppupdatemodal_action": {
-    "message": "Accept"
-  },
-
-  // When accounts manager is enabled, and they try using the default Roblox "logout" button, we provide a modal warning
-  // because they likely don't know that Roblox's one is going to invalidate their session
-  "robloxlogoutmodal_title": {
-    "message": "{sealEmoji} Are you sure?"
-  },
-  "robloxlogoutmodal_body": {
-    "message": "By using Roblox's default logout button, you will invalidate the current session.{lineBreak}{lineBreak}You will not be able to login to this account with Accounts Manager without going through Roblox's login page again.{lineBreak}{lineBreak}To logout without invalidating the session, open Accounts Manager and click \"Logout\"."
-  },
-  "robloxlogoutmodal_action": {
-    "message": "Logout"
-  },
-  "robloxlogoutmodal_neutral": {
-    "message": "Cancel"
-  },
-
-  // A button to direct the user to the unofficial community wiki of an experience. Most don't have this,
-  // but for the ones that do, it's nice
-  "experience_communitywiki_button": {
-    "message": "Unofficial Community Wiki"
-  },
-  "experience_communitywiki_modal_title": {
-    "message": "{sealEmoji} You are leaving Roblox"
-  },
-  // Modal shown when clicking the button to warn the user
-  "experience_communitywiki_modal_body": {
-    "message": "Heads up, Robloxian – by clicking “continue,” you will be redirected to Fandom, which is not owned or operated by Roblox. They may have different terms and privacy policies.{lineBreak}{lineBreak}The unofficial Community Wiki you will be redirected to is part of the Roblox Interwiki Project on Fandom, and relies on community edits. Information may be controversial, vandalized, outdated, or manipulated."
-  },
-  "experience_communitywiki_modal_action": {
-    "message": "Continue"
-  },
-  "experience_communitywiki_modal_neutral": {
-    "message": "Cancel"
-  },
-
-  // System feedback messages shown when purchasing an item with "Refresh Avatar Item Details" feature enabled.
-  // it's an easier way to communicate stuff to the user than a modal.
-  "avataritem_successmessage_GenericPurchase": {
-    "message": "You have successfully purchased this item."
-  },
-  "avataritem_errormessage_Load": {
-    "message": "You are being rate limited by Roblox, please try again later."
-  },
-  // "reason" is the public reason given from the API
-  // "realReason" is the actual internal reason given from the API.
-  // in the future, we may consider making proper messages for each {realReason}
-  // but for now, it's like this
-  "avataritem_errormessage_GenericPurchase": {
-    "message": "Could not purchase item, given reason: \"{reason} ({realReason})\""
-  },
-
-  // "ALT" text button shown on the lower left side on experience thumbnails if available. "ALT" is short for "Alternative", in "Alternative Text" for images.
-  // the alt text will show on hover. this is just for easily communicating with the user that there is alt text
-  // the img element already has alt text but it's better to indicate
-  "experience_media_alttext": {
-    "message": "ALT"
-  },
-
-  // "View Thumbnail Asset" button shown in the lower right side on experience thumbnails if available.
-  "experience_media_viewthumbnailasset": {
-    "message": "View Thumbnail Asset"
-  },
-
-  // Funny little home header secret messages that can be shown despite the user's role
-  "homeheader_secretmessage_Default1": {
-    "message": "Hello, user!"
-  },
-  "homeheader_secretmessage_Default2": {
-    "message": "We play Roblox!"
-  },
-  "homeheader_secretmessage_Default3": {
-    "message": "ROBLOX"
-  },
-  "homeheader_secretmessage_Default4": {
-    "message": "roblox"
-  },
-  "homeheader_secretmessage_Default5": {
-    "message": "Do you miss Tix?"
-  },
-  "homeheader_secretmessage_Default6": {
-    "message": "seals"
-  },
-  "homeheader_secretmessage_Default7": {
-    "message": "Farewell, LegacyApi!"
-  },
-  "homeheader_secretmessage_Default8": {
-    "message": "Stop skipping school."
-  },
-  "homeheader_secretmessage_Default9": {
-    "message": "Boycott bad experiences, refuse pirated experiences."
-  },
-  "homeheader_secretmessage_Default10": {
-    "message": "Be aware of self-defense and being deceived."
-  },
-  "homeheader_secretmessage_Default11": {
-    "message": "Playing is good for your brain, but too much playing can harm your health."
-  },
-  "homeheader_secretmessage_Default12": {
-    "message": "Manage your time well and enjoy a healthy lifestyle."
-  },
-  "homeheader_secretmessage_Default13": {
-    "message": "Imagine 1M Robux..."
-  },
-  "homeheader_secretmessage_Default14": {
-    "message": "How are you doing?"
-  },
-  "homeheader_secretmessage_Default15": {
-    "message": "We hope you are enjoying RoSeal."
-  },
-  "homeheader_secretmessage_Default16": {
-    "message": "Hehehe..."
-  },
-  "homeheader_secretmessage_Default17": {
-    "message": "Everything at Roblox happens behind everyone's eyes."
-  },
-  "homeheader_secretmessage_Default18": {
-    "message": "[ Content Deleted ]"
-  },
-  "homeheader_secretmessage_Default19": {
-    "message": "This is not a test message."
-  },
-  "homeheader_secretmessage_Default20": {
-    "message": "kitty."
-  },
-  "homeheader_secretmessage_Default21": {
-    "message": "bird."
-  },
-  "homeheader_secretmessage_Default22": {
-    "message": "Insert seal image here"
-  },
-  "homeheader_secretmessage_Default23": {
-    "message": "Insert kitty image here"
-  },
-  "homeheader_secretmessage_Default24": {
-    "message": "Insert bird image here"
-  },
-  "homeheader_secretmessage_Default25": {
-    "message": "Roblox down?"
-  },
-  "homeheader_secretmessage_Default26": {
-    "message": "David Baszucki"
-  },
-  "homeheader_secretmessage_Default27": {
-    "message": "Do you remember guests?"
-  },
-  "homeheader_secretmessage_Default28": {
-    "message": "Do you remember the old forums?"
-  },
-  "homeheader_secretmessage_Default29": {
-    "message": "Hi there!"
-  },
-  "homeheader_secretmessage_Default30": {
-    "message": "um... yum?"
-  },
-
-  // Additional text shown if the user is in the "BetaTester" role. These are users that signed up for it on the DevForum.
-  "homeheader_secretmessage_BetaTester1": {
-    "message": "A beta tester? Think you're cool?"
-  },
-  "homeheader_secretmessage_BetaTester2": {
-    "message": "I see you have access to some beta features."
-  },
-  "homeheader_secretmessage_BetaTester3": {
-    "message": "Have fun with whatever you do today ;)"
-  },
-  "homeheader_secretmessage_BetaTester4": {
-    "message": "Not as cool as a Soothsayer."
-  },
-  "homeheader_secretmessage_BetaTester5": {
-    "message": "One of the few."
-  },
-
-  // Additional text shown if the user is in the "Soothsayer" role. Typically, they are Roblox admins.
-  // The likelihood of a Roblox admin using the extension is low, but it's fun to put this in anyways
-  "homeheader_secretmessage_Soothsayer1": {
-    "message": "Nice public role you have there."
-  },
-  "homeheader_secretmessage_Soothsayer2": {
-    "message": "You might have an @roblox.com email."
-  },
-  "homeheader_secretmessage_Soothsayer3": {
-    "message": "You don't even need to pay for experience access on paid-access experiences?????"
-  },
-  "homeheader_secretmessage_Soothsayer4": {
-    "message": "Definitely cooler than a regular BetaTester."
-  },
-  "homeheader_secretmessage_Soothsayer5": {
-    "message": "Is Internal Studio cool?"
-  },
-  "homeheader_secretmessage_Soothsayer6": {
-    "message": "How'd collectible testing go?"
-  },
-
-  // Translators can put whatever message they like in here, remember: this is crowd-sourced
-  "homeheader_secretmessage_NonEnglish": {
-    "message": "It doesn't look like RoSeal has been localized for your language :("
-  },
-
-  // Happy birthday, text shown on the users birthday
-  "homeheader_birthdaymessage": {
-    "message": "Happy birthday,"
-  },
-
-  // "Unlock Pin" modal shown when the user attempts to update their description or unblock someone
-  // on the profile page. we plan to expand this in the future
-  "pinunlockmodal_title": {
-    "message": "{sealEmoji} Account PIN Required"
-  },
-  "pinunlockmodal_description": {
-    "message": "Enter the PIN attached to your account"
-  },
-  "pinunlockmodal_buttons_action": {
-    "message": "Unlock"
-  },
-
-  // general asset created and updated fields
-  "generalasset_created": {
-    "message": "Created"
-  },
-  "generalasset_updated": {
-    "message": "Updated"
-  },
-
-  // Adding "Delete from Inventory" to the context menu to supported assets.
-  "generalasset_contextmenu_deletefrominventory": {
-    "message": "Delete from Inventory"
-  },
-
-  // Badge "Created" label, we do not need "Updated" because it is already supplied by Roblox
-  "badge_created": {
-    "message": "Created"
-  },
-
-  // Additional fields that will appear with BadgeMoreStatistics feature enabled
-  // counts
-  "badge_awardedalltime": {
-    "message": "Awarded All-Time"
-  },
-  "badge_awardedyesterday": {
-    "message": "Awarded Yesterday"
-  },
-  "badge_percentawardedyesterday": {
-    "message": "% Awarded Yesterday"
-  },
-  "badge_percentawardedyesterday_value": {
-    "message": "{percentage}%"
-  },
-  // when the user was awarded it
-  "badge_awarded": {
-    "message": "Awarded"
-  },
-
-  // Adding "View Icon Asset" button to the experience badge context menu
-  "badge_contextmenu_viewiconasset": {
-    "message": "View Icon Asset"
-  },
-
-  // Chat sorts stuff
-  "chat_sorttypes_label": {
-    "message": "Sort by"
-  },
-  "chat_sorttypes_type_Default": {
-    "message": "Default"
-  },
-  "chat_sorttypes_type_NewestFirst": {
-    "message": "Newest first"
-  },
-  "chat_sorttypes_type_OldestFirst": {
-    "message": "Oldest first"
-  },
-  "chat_sorttypes_type_UnreadFirst": {
-    "message": "Unread first"
-  },
-
-  // The pass created/updated text
-  "pass_created": {
-    "message": "Created"
-  },
-  "pass_updated": {
-    "message": "Updated"
-  },
-
-  // Adding "View Icon Asset" button to the experience pass context menu
-  "pass_contextmenu_viewiconasset": {
-    "message": "View Icon Asset"
-  },
-
-  // The group created text, should this expand to including the time as well?
-  "group_created": {
-    "message": "Created"
-  },
-
-  // Adding "View Icon Asset" button to the group context menu, old name for group icon was "Emblem"
-  "group_contextmenu_viewiconasset": {
-    "message": "View Icon Asset"
-  },
-
-  // "Transactions" tab in the left navigation
-  "navbar_left_transactions": {
-    "message": "Transactions"
-  },
-
-  // This is for the shared component between Passes "View as" and badges "View as/Compare with"
-  "userlookup_placeholder": {
-    "message": "Username"
-  },
-  "userlookup_directlookuperror": {
-    "message": "A user with that username was not found."
-  },
-
-  // Discover filters labels and dropdown values stuff
-  "discover_filters_label": {
-    "message": "Filters"
-  },
-  "discover_filters_inputhint": {
-    "message": "Number inputs left as 0 will be ignored"
-  },
-  "discover_filters_applyfilters": {
-    "message": "Apply Filters"
-  },
-  "discover_filters_likes": {
-    "message": "Like %"
-  },
-  "discover_filters_playing": {
-    "message": "Playing"
-  },
-  "discover_filters_favorites": {
-    "message": "Favorites"
-  },
-  "discover_filters_visits": {
-    "message": "Visits"
-  },
-  "discover_filters_genre": {
-    "message": "Genre"
-  },
-  "discover_filters_genre_values_All": {
-    "message": "Any"
-  },
-  "discover_filters_genre_values_Building": {
-    "message": "Building"
-  },
-  "discover_filters_genre_values_Horror": {
-    "message": "Horror"
-  },
-  "discover_filters_genre_values_TownandCity": {
-    "message": "Town and City"
-  },
-  "discover_filters_genre_values_Military": {
-    "message": "Military"
-  },
-  "discover_filters_genre_values_Comedy": {
-    "message": "Comedy"
-  },
-  "discover_filters_genre_values_Medieval": {
-    "message": "Medieval"
-  },
-  "discover_filters_genre_values_Adventure": {
-    "message": "Adventure"
-  },
-  "discover_filters_genre_values_SciFi": {
-    "message": "Sci-Fi"
-  },
-  "discover_filters_genre_values_Naval": {
-    "message": "Naval"
-  },
-  "discover_filters_genre_values_FPS": {
-    "message": "FPS"
-  },
-  "discover_filters_genre_values_RPG": {
-    "message": "RPG"
-  },
-  "discover_filters_genre_values_Sports": {
-    "message": "Sports"
-  },
-  "discover_filters_genre_values_Fighting": {
-    "message": "Fighting"
-  },
-  "discover_filters_genre_values_Western": {
-    "message": "Western"
-  },
-  "discover_filters_device": {
-    "message": "Device"
-  },
-  "discover_filters_device_values_All": {
-    "message": "Any"
-  },
-  "discover_filters_device_values_Desktop": {
-    "message": "Desktop"
-  },
-  "discover_filters_device_values_Phone": {
-    "message": "Phone"
-  },
-  "discover_filters_device_values_Tablet": {
-    "message": "Tablet"
-  },
-  "discover_filters_device_values_Console": {
-    "message": "Console"
-  },
-  "discover_filters_device_values_VR": {
-    "message": "VR"
-  },
-  "discover_filters_age": {
-    "message": "Ages"
-  },
-  "discover_filters_age_values_All": {
-    "message": "Any"
-  },
-  "discover_filters_age_values_0": {
-    "message": "All Ages"
-  },
-  "discover_filters_age_values_9": {
-    "message": "9+"
-  },
-  "discover_filters_age_values_13": {
-    "message": "13+"
-  },
-  "discover_filters_age_values_17": {
-    "message": "17+"
-  },
-  "discover_filters_age_values_18": {
-    "message": "18+"
-  },
-
-  // For each filter, the maximum and minimum labels.
-  // The placeholders right now do not have translations, merely because they are just "0"
-  "discover_filters_filter_minimum": {
-    "message": "Minimum"
-  },
-  "discover_filters_filter_maximum": {
-    "message": "Maximum"
-  },
-  // Tooltip shown when hovering over edit button next to the filter name for number-based filters
-  "discover_filters_filter_edit": {
-    "message": "Edit Filter"
-  },
-
-  // Events tab stuff, there's not much here because we just grab the events container from Roblox
-  "experience_events_tab": {
-    "message": "Events"
-  },
-  "experience_events_noevents": {
-    "message": "No events available."
-  },
-
-  // Tab title
-  "experience_badges_tab": {
-    "message": "Badges"
-  },
-  // View as: {user} stuff or compare
-  "experience_badges_viewas": {
-    "message": "View as:"
-  },
-  "experience_badges_comparewith": {
-    "message": "Compare with:"
-  },
-
-  // Experience badges sorting/filters options
-  "experience_badges_filtering_active": {
-    "message": "Show Active Items"
-  },
-  "experience_badges_filtering_inactive": {
-    "message": "Show Inactive Items"
-  },
-  "experience_badges_filtering_obtained": {
-    "message": "Show Obtained Items"
-  },
-  "experience_badges_filtering_unobtained": {
-    "message": "Show Unobtained Items"
-  },
-  "experience_badges_sorting_sortby_label": {
-    "message": "Sort By"
-  },
-  "experience_badges_sorting_sortdirection_label": {
-    "message": "Sort Direction"
-  },
-  "experience_badges_sorting_sortobtained_label": {
-    "message": "Sort Obtained"
-  },
-  "experience_badges_sorting_sortby_values_WonYesterday": {
-    "message": "Won Yesterday"
-  },
-  "experience_badges_sorting_sortby_values_WonAllTime": {
-    "message": "Won All-Time"
-  },
-  "experience_badges_sorting_sortby_values_AwardedTime": {
-    "message": "Awarded Latest"
-  },
-  "experience_badges_sorting_sortby_values_Created": {
-    "message": "Created"
-  },
-  "experience_badges_sorting_sortby_values_Name": {
-    "message": "Name"
-  },
-  "experience_badges_sorting_sortdirection_values_Ascending": {
-    "message": "Ascending"
-  },
-  "experience_badges_sorting_sortdirection_values_Descending": {
-    "message": "Descending"
-  },
-  "experience_badges_sorting_sortobtained_values_First": {
-    "message": "First"
-  },
-  "experience_badges_sorting_sortobtained_values_Last": {
-    "message": "Last"
-  },
-  "experience_badges_sorting_sortobtained_values_Default": {
-    "message": "Default"
-  },
-  "experience_badges_sortsandfilters": {
-    "message": "Sorts and Filters"
-  },
-
-  // When there's no filtered badges, but there are badges for the experience
-  "experience_badges_nofilteredbadges": {
-    "message": "There are no filtered badges to display."
-  },
-
-  "experience_badges_nobadges": {
-    "message": "No badges available."
-  },
-  "experience_badges_completed": {
-    "message": "Completed: {numCompleted}/{numTotal}"
-  },
-  "experience_badges_inactive": {
-    "message": "{inactiveIcon}Inactive: {numInactive}/{numTotal}"
-  },
-  // Column title for % Won Yesterday
-  "experience_badges_wonyesterday": {
-    "message": "% Won Yesterday"
-  },
-  "experience_badges_usercompleted": {
-    "message": "{numCompleted}/{numTotal}"
-  },
-  // Error shown in place of badges when there's an error
-  "experience_badges_awardederror": {
-    "message": "An error occurred while fetching badges' awarded info, please try again later."
-  },
-  "experience_badges_genericerror": {
-    "message": "An error occurred while fetching badges, please try again later."
-  },
-
-  // Experience badge details
-  "experience_badges_badge_inactive": {
-    "message": "Inactive"
-  },
-  // Parts of a tooltip when hovering over the question mark
-  "experience_badges_badged_yesterdaypercentage": {
-    "message": "{percentage}%"
-  },
-  "experience_badges_badge_awarded": {
-    "message": "Awarded {time}"
-  },
-  "experience_badges_badge_wonalltime": {
-    "message": "Won All-Time"
-  },
-  "experience_badges_badge_wonyesterday": {
-    "message": "Won Yesterday"
-  },
-
-  // Experience private notes stuff
-  "experience_privatenote_title": {
-    "message": "Private Note"
-  },
-  "experience_privatenote_hint": {
-    "message": "This note is private, only you will be able to see it."
-  },
-  "experience_privatenote_placeholder": {
-    "message": "Specific temperaments or settings for this experience..."
-  },
-  "experience_privatenote_length": {
-    "message": "{length}/{maxLength}"
-  },
-  "experience_privatenote_buttons_cancel": {
-    "message": "Cancel"
-  },
-  "experience_privatenote_buttons_save": {
-    "message": "Save"
-  },
-  "generictoggletarget_readmore": {
-    "message": "Read More"
-  },
-  "generictoggletarget_readless": {
-    "message": "Read Less"
-  },
-
-  // Adding "Report Abuse" to the item pages context menu if it isn't already there
-  "itempages_contextmenu_reportabuse": {
-    "message": "Report Abuse"
-  },
-
-  // User profile force unfollow action
-  "userprofile_actions_forceunfollow": {
-    "message": "Force Unfollow"
-  },
-
-  // System feedback banners for force unfollow in the profile
-  "userprofile_actions_forceunfollow_systemfeedback_success": {
-    "message": "Successfully forced user to unfollow you."
-  },
-  "userprofile_actions_forceunfollow_systemfeedback_error": {
-    "message": "Failed to force user to unfollow you."
-  },
-
-  // User's profile cancel request actions
-  "userprofile_actions_cancelrequest": {
-    "message": "Cancel"
-  },
-  // Cancelled request successfully, disabled button
-  "userprofile_actions_cancelledrequest": {
-    "message": "Cancelled"
-  },
-
-  // Last online date for a user at the bottom (or under Avatar with BTRoblox)
-  "userprofile_lastonline": {
-    "message": "Last Online"
-  },
-  "userprofile_lastonline_now": {
-    "message": "Now"
-  },
-
-  // When "Show username in user's friends page title" is enabled, it will replace the title with this.
-  // adding {username}
-  "userfriends_newtitle": {
-    "message": "{displayName} (@{username})'s Friends"
-  },
-
-  // Context menu for "Quick actions in the user's friends page"
-  "userfriends_contextmenu_unfriend": {
-    "message": "Unfriend"
-  },
-  "userfriends_contextmenu_unfollow": {
-    "message": "Unfollow"
-  },
-  "userfriends_contextmenu_forceunfollow": {
-    "message": "Force Unfollow"
-  },
-  "userfriends_contextmenu_block": {
-    "message": "Block"
-  },
-
-  // System feedback in the users friends page when doing an action with the "Quick actions in the user's friends page" feature
-  "userfriends_systemfeedback_success_unfriend": {
-    "message": "Successfully unfriended user."
-  },
-  "userfriends_systemfeedback_success_unfollow": {
-    "message": "Successfully unfollowed user."
-  },
-  "userfriends_systemfeedback_success_forceunfollow": {
-    "message": "Successfully forced user to unfollow you."
-  },
-  "userfriends_systemfeedback_success_block": {
-    "message": "Successfully blocked user."
-  },
-  "userfriends_systemfeedback_genericerror": {
-    "message": "An error occurred processing the action, please try again later."
-  },
-
-  // Red text to show below "Your access to voice chat has been suspended for violating our Community Standards." in Privacy settings
-  "robloxsettings_voicechat_suspensiondate": {
-    "message": "Your access will be restored on {date}"
-  },
-
-  // Marketplace Color filters UI
-  "avatarshop_colorfilters_title": {
-    "message": "Colors"
-  },
-  "avatarshop_colorfilters_items_primary": {
-    "message": "Primary"
-  },
-  "avatarshop_colorfilters_items_secondary": {
-    "message": "Secondary"
-  },
-  "avatarshop_colorfilters_items_any": {
-    "message": "Any"
-  },
-
-  // Pending group join requests for the user
-  "group_pendingrequests": {
-    "message": "Pending Join Requests"
-  },
-  "group_typesswitch_joined": {
-    "message": "Joined"
-  },
-  "group_typesswitch_pending": {
-    "message": "Pending"
-  },
-  "group_discovergroups": {
-    "message": "Discover Groups"
-  },
-  "group_creategroup": {
-    "message": "Create Group"
-  },
-
-  // For the next messages, R2E = Right to Erasure
-
-  // pending in button when fetching R2Es
-  "messages_getunreadr2e_pending": {
-    "message": "Pending"
-  },
-  // error in button when fetching R2Es
-  "messages_getunreadr2e_error": {
-    "message": "Error"
-  },
-  "messages_getunreadr2e_request": {
-    "message": "Request Unread R2Es"
-  },
-  "messages_getunreadr2e_download": {
-    "message": "Download Unread R2Es"
-  },
-  "messages_getunreadr2e_markread": {
-    "message": "Mark Unread R2Es Read"
-  },
-
-  // Modal shown when asked if the user wants to mark R2Es as read
-  "messages_getunreadr2e_markreadmodal_title": {
-    "message": "Mark R2Es as Read"
-  },
-  "messages_getunreadr2e_markreadmodal_body": {
-    "message": "Would you like to mark the R2E messages as read?"
-  },
-  "messages_getunreadr2e_markreadmodal_action": {
-    "message": "Mark as Read"
-  },
-  "messages_getunreadr2e_markreadmodal_neutral": {
-    "message": "Cancel"
-  },
-
-  "voicechatsuspensionmodal_title": {
-    "message": "🦭 Voice Chat Suspended"
-  },
-  "voicechatsuspensionmodal_description": {
-    "message": "Due to the violation of <communityGuidelinesLink>Roblox's Community Guidelines</communityGuidelinesLink>, your Voice Chat has been temporarily revoked until {date}.{lineBreak}{lineBreak}Please help keep Roblox fun by being respectful to others.{lineBreak}{lineBreak}You can check how much time is remaining in your <privacySettingsLink>Privacy Settings</privacySettingsLink>."
-  },
-  "voicechatsuspensionmodal_action": {
-    "message": "I Understand"
-  },
-
-  // Asking the user to enable 2SV by going to their security settings. This is just for security purposes.
-  "force2svmodal_title": {
-    "message": "{sealEmoji} Two Step Verification Required"
-  },
-  "force2svmodal_body": {
-    "message": "Due to security concerns, you must have two step verification enabled to use this feature.{lineBreak}{lineBreak}Would you like to go to your account security settings?"
-  },
-  "force2svmodal_action": {
-    "message": "Ok"
-  },
-  "force2svmodal_neutral": {
-    "message": "Cancel"
-  },
-
-  // System feedback shown when cancelling a pending join request from the pending groups list UI
-  "group_pendingrequests_systemfeedback_genericerror": {
-    "message": "Failed to cancel pending join request, please try again later."
-  },
-  "group_pendingrequests_systemfeedback_success": {
-    "message": "Successfully cancelled pending join request."
-  },
-
-  // Modal shown when customizing a folder
-  "group_foldercustomization_modal_title": {
-    "message": "{sealEmoji} Customize Group Folder"
-  },
-  "group_foldercustomization_modal_field_name": {
-    "message": "Name"
-  },
-  "group_foldercustomization_modal_lengthtip": {
-    "message": "{length}/{maxLength}"
-  },
-  "group_foldercustomization_modal_field_name_placeholder": {
-    "message": "Folder Name"
-  },
-  "group_foldercustomization_modal_field_color": {
-    "message": "Color"
-  },
-  "group_foldercustomization_modal_action": {
-    "message": "Save"
-  },
-  "group_foldercustomization_modal_neutral": {
-    "message": "Cancel"
-  },
-
-  // Text to show in /transactions to toggle off/on hiding stuff
-  "transactions_hide0robuxamount": {
-    "message": "Hide transactions with 0 Robux amount"
-  },
-  "transactions_hideprivateservers": {
-    "message": "Hide Private Server transactions"
-  },
-
-  // Feature switches sections and subsections
-  "features_section_home": {
-    "message": "Home"
-  },
-  "features_section_home_general": {
-    "message": "General"
-  },
-  "features_section_experiences": {
-    "message": "Experiences"
-  },
-  "features_section_experiences_discover": {
-    "message": "Discover"
-  },
-  "features_section_experiences_general": {
-    "message": "General"
-  },
-  "features_section_experiences_store": {
-    "message": "Store"
-  },
-  "features_section_account": {
-    "message": "Account"
-  },
-  "features_section_account_general": {
-    "message": "General"
-  },
-  "features_section_items": {
-    "message": "Items"
-  },
-  "features_section_items_general": {
-    "message": "General"
-  },
-  "features_section_items_avatar": {
-    "message": "Avatar Items"
-  },
-  "features_section_miscellaneous": {
-    "message": "Miscellaneous"
-  },
-  "features_section_miscellaneous_general": {
-    "message": "General"
-  },
-  "features_section_miscellaneous_transactionspage": {
-    "message": "Transactions Page"
-  },
-  "features_section_miscellaneous_seals": {
-    "message": "Seals"
-  },
-  "features_section_miscellaneous_navbars": {
-    "message": "Navbars"
-  },
-  "features_section_miscellaneous_avatarshop": {
-    "message": "Marketplace"
-  },
-  "features_section_miscellaneous_chat": {
-    "message": "Chat"
-  },
-  "features_section_miscellaneous_messages": {
-    "message": "Messages"
-  },
-  "features_section_users": {
-    "message": "Users"
-  },
-  "features_section_users_friendspage": {
-    "message": "Friends Page"
-  },
-  "features_section_users_profile": {
-    "message": "Profile"
-  },
-  "features_section_groups": {
-    "message": "Groups"
-  },
-  "features_section_groups_navigation": {
-    "message": "Navigation"
-  },
-  "features_section_groups_walls": {
-    "message": "Walls"
-  },
-
-  // Feature switches in settings
-  // `_title` = the title of the feature
-  // `_description` = the description of the feature
-  // _sub_ indicates a subfeature
-  "features_RemoveHomePageUnnecessarySorts_title": {
-    "message": "Remove \"unnecessary\" sorts from the home sorts"
-  },
-  "features_RemoveHomePageUnnecessarySorts_description": {
-    "message": "When enabled, removes any sorts from the Home page that don't match \"Recommended For You\", \"Favorites\", \"Continue\", \"Friends Playing\", or \"Sponsored\"."
-  },
-  "features_ForceHomePageGenreExplorer_title": {
-    "message": "Force \"unnecessary\" home sorts into a Genre explorer"
-  },
-  "features_ForceHomePageGenreExplorer_description": {
-    "message": "When enabled, all sorts that don't match \"Recommended For You\", \"Favorites\", \"Continue\", \"Friends Playing\", or \"Sponsored\" will be put into a \"Categories\" Genre explorer at the top of the home sorts section."
-  },
-  "features_RefreshedHomeUserHeader_title": {
-    "message": "Refreshed user header"
-  },
-  "features_RefreshedHomeUserHeader_description": {
-    "message": "When enabled, returns the old user header on the home page with a few differences."
-  },
-  "features_RefreshedHomeUserHeader_sub_BasedText_title": {
-    "message": "10% chance of a chosen message based on your public roles"
-  },
-  "features_RefreshedHomeUserHeader_sub_BirthdayMessage_title": {
-    "message": "Birthday message"
-  },
-  "features_RefreshedHomeUserHeader_sub_HelloText_title": {
-    "message": "\"Hello,\" greeting"
-  },
-  "features_RefreshedHomeUserHeader_sub_ShowNameType_title": {
-    "message": "Change the type of name that should be displayed"
-  },
-  "features_RefreshedHomeUserHeader_sub_ShowNameType_values_Both": {
-    "message": "Both"
-  },
-  "features_RefreshedHomeUserHeader_sub_ShowNameType_values_DisplayName": {
-    "message": "Display Name Only"
-  },
-  "features_RefreshedHomeUserHeader_sub_ShowNameType_values_Username": {
-    "message": "Username Only"
-  },
-  "features_MoveExperienceSocialLinks_title": {
-    "message": "Move experience Social Links above Description in the About tab"
-  },
-  "features_AddCommunityWikiButton_title": {
-    "message": "Add a button to visit an unofficial Community Wiki of an experience in the About tab"
-  },
-  "features_AddCommunityWikiButton_description": {
-    "message": "When enabled, the extension will display a button to visit an unofficial wiki which is part of the Roblox Interwiki project on Fandom for the experience if it is known to RoSeal."
-  },
-  "features_RemovePrivateServersSectionInAbout_title": {
-    "message": "Remove private servers section in the About tab"
-  },
-  "features_DeveloperProductsInExperienceStore_title": {
-    "message": "Developer Products in experience store tab"
-  },
-  "features_DeveloperProductsInExperienceStore_description": {
-    "message": "When enabled, shows Developer Products in a dropdown under the Store tab. Creates a new page for viewing Developer Product details."
-  },
-  "features_ExperienceStoreItemFiltering_title": {
-    "message": "Filtering options in experience store tab"
-  },
-  "features_ExperienceStoreItemFiltering_description": {
-    "message": "When enabled, shows additional filtering options in the Passes and Developer Products tabs in experience store."
-  },
-  "features_WebsiteOfflineMode_title": {
-    "message": "Display as offline when only on the website"
-  },
-  "features_WebsiteOfflineMode_description": {
-    "message": "When enabled, no one will know when you are on the website. It may take a few minutes to take effect."
-  },
-  "features_AccountsManager_title": {
-    "message": "Accounts manager"
-  },
-  "features_AccountsManager_description": {
-    "message": "When enabled, adds a new item to the top navigation that activates a popup for managing your accounts. Use at your own risk."
-  },
-  "features_ThemeSwitchThroughoutDay_title": {
-    "message": "Sync website theme with browser"
-  },
-  "features_TooltipTimeType_title": {
-    "message": "Change time type of tooltip dates"
-  },
-  "features_TooltipTimeType_description": {
-    "message": "When selected, changes the date format that tooltips with dates will show on hover."
-  },
-  "features_TooltipTimeType_values_Disabled": {
-    "message": "Disabled (Roblox Regular)"
-  },
-  "features_TooltipTimeType_values_Relative": {
-    "message": "Relative"
-  },
-  "features_TooltipTimeType_values_Absolute": {
-    "message": "Absolute"
-  },
-  "features_CreatedUpdatedItemsTimeType_title": {
-    "message": "Change time type of Created/Updated/Joined/etc fields"
-  },
-  "features_CreatedUpdatedItemsTimeType_description": {
-    "message": "When selected, changes the text of the Created, Updated, Joined, or other fields on applicable pages to your selected time format. This will add \"Created\", \"Updated\", and \"Joined\" fields when necessary on item pages."
-  },
-  "features_CreatedUpdatedItemsTimeType_values_Disabled": {
-    "message": "Disabled"
-  },
-  "features_CreatedUpdatedItemsTimeType_values_Relative": {
-    "message": "Relative"
-  },
-  "features_CreatedUpdatedItemsTimeType_values_Absolute": {
-    "message": "Absolute"
-  },
-  "features_CreatedUpdatedItemsTimeType_values_Regular": {
-    "message": "Roblox Regular"
-  },
-  "features_PersistentTransactionsSelection_title": {
-    "message": "Persistent dropdown selections"
-  },
-  "features_PersistentTransactionsSelection_description": {
-    "message": "When enabled, your last dropdown selections will persist, even after closing the page. It may break when you receive a new transaction type."
-  },
-  "features_BetterRobuxNavigation_title": {
-    "message": "Better Robux navigation"
-  },
-  "features_BetterRobuxNavigation_description": {
-    "message": "When enabled, adds a Plus button next to Robux in the top navigation to redirect to Robux purchases, and adds a new Transactions item to the left navigation."
-  },
-  "features_MoveAgeBracket_title": {
-    "message": "Move the age bracket to the left navigation"
-  },
-  "features_MoveAgeBracket_description": {
-    "message": "When enabled, moves the age bracket from the top navigation to the left navigation and removes the profile picture and username from the top navigation."
-  },
-  "features_DisableDesktopApp_title": {
-    "message": "Remove the Desktop App banner"
-  },
-  "features_ViewItemIconThumbnailAssets_title": {
-    "message": "Add links to view thumbnail/icon asset of applicable items"
-  },
-  "features_ViewItemIconThumbnailAssets_description": {
-    "message": "When enabled, adds links in the context menu of items' detail pages to view the icon asset of the item if applicable. This also applies to experience media in the carousel on experience details."
-  },
-  "features_UserFriendsPageContextMenu_title": {
-    "message": "Quick actions in the user's friends page"
-  },
-  "features_UserFriendsPageContextMenu_description": {
-    "message": "When enabled, adds or replaces a context menu on friend cards in the user's friend page for quick actions. Quick actions include blocking, unfriend, unfollowing, and force unfollow."
-  },
-  "features_UserProfileAddMargins_title": {
-    "message": "Add padding between sections in the user profile page"
-  },
-  "features_ItemPagesMoveReportAbuse_title": {
-    "message": "Move the Report Abuse buttons to the item context menus if applicable"
-  },
-  "features_ItemMentions_title": {
-    "message": "Formatted user/group mentions in item descriptions"
-  },
-  "features_ItemMentions_description": {
-    "message": "When enabled, @user, user links, and group links from item descriptions will be transformed into a link with an avatar headshot or group thumbnail image."
-  },
-  "features_UserProfileCancelRequest_title": {
-    "message": "Cancel outgoing friend request on profile"
-  },
-  "features_ListPendingGroups_title": {
-    "message": "List groups with pending join requests in navigation"
-  },
-  "features_ListPendingGroups_description": {
-    "message": "When enabled, adds tabs navigation with \"Pending\" to the groups navigation."
-  },
-  "features_DisableAvatarShopInfiniteScrolling_title": {
-    "message": "Disable Marketplace infinite scrolling"
-  },
-  "features_DisableGroupWallInfiniteScrolling_title": {
-    "message": "Disable Group Wall infinite scrolling"
-  },
-  "features_BlockExperiences_title": {
-    "message": "Block experiences"
-  },
-  "features_BlockExperiences_description": {
-    "message": "When enabled, adds a new section for blocking individual experiences and keywords from showing on some common pages to RoSeal settings. You can block individual experiences from the context menu on an experience's details page."
-  },
-  "features_ShowExperienceUniverseId_title": {
-    "message": "Show Experience Universe ID"
-  },
-  "features_Enable3DThumbnailDynamicLighting_title": {
-    "message": "Enable 3D Thumbnail Dynamic Lighting"
-  },
-  "features_ChatSortTypes_title": {
-    "message": "Chat sort types"
-  },
-  "features_ChatSortTypes_description": {
-    "message": "When enabled, adds new sort types to the Chat box for filtering through conversations."
-  },
-  "features_Transactions0RobuxAmountToggle_title": {
-    "message": "Toggle to hide transactions with 0 Robux amounts"
-  },
-  "features_TransactionsPrivateServersToggle_title": {
-    "message": "Toggle to hide Private Server transactions"
-  },
-  "features_GroupOrganization_title": {
-    "message": "Group organization customization"
-  },
-  "features_GroupOrganization_description": {
-    "message": "When enabled, allows for reorganizing groups and creating group folders with drag and drop. Group folders can then be further customized."
-  },
-  "features_BetterExperienceBadges_title": {
-    "message": "Better experience badges list"
-  },
-  "features_BetterExperienceBadges_description": {
-    "message": "When enabled, adds a new tab to experience details that contains a better experience badges list. You can also view inactive badges, awarded dates for badges, and compare your badges with another user. This is unstable for experiences with a significantly large number of badges."
-  },
-  "features_BetterExperiencesBadges_sub_FiltersAndSorts_title": {
-    "message": "Experience badges filters and sorts"
-  },
-  "features_BetterExperiencesBadges_sub_DisableRobloxBadges_title": {
-    "message": "Disable Roblox's badges section"
-  },
-  "features_UserProfileLastOnline_title": {
-    "message": "Show user's last online date"
-  },
-  "features_ChangeNavFriendsHash_title": {
-    "message": "Change default users' friends tab from the navigation bar"
-  },
-  "features_ChangeNavFriendsHash_values_friends": {
-    "message": "Friends"
-  },
-  "features_ChangeNavFriendsHash_values_following": {
-    "message": "Following"
-  },
-  "features_ChangeNavFriendsHash_values_followers": {
-    "message": "Followers"
-  },
-  "features_ChangeNavFriendsHash_values_friendrequests": {
-    "message": "Friend Requests"
-  },
-  "features_HideFriendRequestsCount_title": {
-    "message": "Hide friend requests count in the navigation bar"
-  },
-  "features_HideMessagesCount_title": {
-    "message": "Hide messages count in the navigation bar"
-  },
-  "features_SealImages_title": {
-    "message": "Replace all images with seal images"
-  },
-  "features_ExperienceMediaAltTextButton_title": {
-    "message": "Better experience thumbnail alt text button"
-  },
-  "features_ShowExperienceAvatarType_title": {
-    "message": "Show experience restricted avatar type in statistics"
-  },
-  "features_ShowExperienceAvatarType_sub_ShowAvatarRestriction_title": {
-    "message": "Show details above the visit button if your avatar may be restricted"
-  },
-  "features_AssetDeleteFromInventory_title": {
-    "message": "\"Delete from Inventory\" button in asset item menu"
-  },
-  "features_AssetDeleteFromInventory_description": {
-    "message": "When enabled, adds a \"Delete from Inventory\" button in an asset item's item menu if it doesn't already exist. Due to security concerns, a two step verification challenge is required."
-  },
-  "features_UserFriendsPageNewTitle_title": {
-    "message": "Show username in user's friends page title"
-  },
-  "features_ExperiencePrivateNote_title": {
-    "message": "Experience private note in About section"
-  },
-  "features_AccountPinPromptMoreLocations_title": {
-    "message": "Show the account pin prompt in more locations"
-  },
-  "features_AccountPinPromptMoreLocations_description": {
-    "message": "When enabled, shows the account pin unlock prompt in more locations where it usually directs to account settings."
-  },
-  "features_GetUnreadR2EButton_title": {
-    "message": "Request Right-to-Erasures CSV file button"
-  },
-  "features_DiscoverFilters_title": {
-    "message": "Discover Filters"
-  },
-  "features_DiscoverFilters_description": {
-    "message": "When enabled, adds a Filters section to the Discover page. It allows for filtering of all sorts by like percentage, favorite count, player count, visit count and genre."
-  },
-  "features_RoSealSettingDropdown_title": {
-    "message": "\"RoSeal Settings\" item in the Roblox settings dropdown"
-  },
-  "features_AccurateHomeContinueSort_title": {
-    "message": "Accurate non-curated home page \"Continue\" sort"
-  },
-  "features_CSSFixes_title": {
-    "message": "Various (CSS) styling fixes around the site"
-  },
-  "features_MoveExperienceEvents_title": {
-    "message": "Move experience events to it's own tab"
-  },
-  "features_RefreshlessGroupNavigation_title": {
-    "message": "Page refreshless group navigation"
-  },
-  "features_RefreshlessGroupNavigation_description": {
-    "message": "When enabled, navigating to another group from any groups list will not require a page refresh."
-  },
-  "features_ItemAdditionalProductInfo_title": {
-    "message": "Show additional product information"
-  },
-  "features_RefreshAvatarItemDetails_title": {
-    "message": "Refresh avatar item details button"
-  },
-  "features_MarketplaceColorFilters_title": {
-    "message": "Marketplace color filters"
-  },
-  "features_RefreshAvatarItemDetails_sub_FastFreeBuy_title": {
-    "message": "Fast Free avatar item purchases"
-  },
-  "features_RemoveFriendActivityLabel_title": {
-    "message": "Remove \"Friend Activity\" footer label on experiences"
-  },
-  "features_RemoveHomePhoneNumberUpsell_title": {
-    "message": "Remove \"Protect Your Account\" phone number upsell on the home page"
-  },
-  "features_UserProfileForceUnfollow_title": {
-    "message": "\"Force Unfollow\" button in the user profile header context menu"
-  },
-  "features_JailbrokenHomeFavoritesSort_title": {
-    "message": "List all favorite experiences in the home \"Favorites\" sort"
-  },
-  "features_PutHomeFavoritesSortAtTop_title": {
-    "message": "Put home \"Favorites\" sort at the top"
-  },
-  "features_ShowVoiceChatSuspension_title": {
-    "message": "Show voice chat suspension details and full date"
-  },
-  "features_ShowVoiceChatSuspension_description": {
-    "message": "When enabled, shows voice chat suspension details in a modal on all pages if the user has not yet been informed. It will also add the full date of suspension expiry to the privacy account settings page."
-  },
-  "features_SearchByCreatorButton_title": {
-    "message": "Search more items by item creator button"
-  },
-  "features_PrivateServerLinksSection_title": {
-    "message": "\"Private Server Links\" section in the servers tab"
-  },
-  "features_PrivateServerLinksSection_description": {
-    "message": "When enabled, adds a \"Private Server Links\" section to the servers tab. You can add private server links to it and import from/export to a data file."
-  },
-  "features_PrivateServerLinksSection_sub_TryResolveOwner_title": {
-    "message": "Try to automatically resolve the private server owner"
-  },
-  "features_BadgeMoreStatistics_title": {
-    "message": "Add additional badge statistics to badge page"
-  },
-  "features_ErrorShowMachineID_title": {
-    "message": "Show the Roblox Machine ID in the bottom-right corner of the error page."
-  },
-
-  "popup_extensionname": {
-    "message": "{sealEmoji} RoSeal"
-  },
-  // Actions to go to RoSeal social/settings
-  "popup_actions_robloxgroup": {
-    "message": "Roblox Group"
-  },
-  "popup_actions_settings": {
-    "message": "Settings"
-  },
-  "popup_actions_website": {
-    "message": "Website"
-  },
-
-  // RoSeal optional permissions section
-  "popup_permissions": {
-    "message": "Optional Permissions"
-  },
-  "popup_permissions_cookie": {
-    "message": "Cookies"
-  },
-  // Tooltip shown when hovering over the questionmark next to "Cookies"
-  "popup_permissions_cookietooltip": {
-    "message": "Grant this permission if you would like to use Accounts Manager. You can revoke this permission at any time."
-  },
-
-  // Popup data managemenet
-  "popup_extensiondata_show": {
-    "message": "Show"
-  },
-  "popup_extensiondata_hide": {
-    "message": "Hide"
-  },
-  "popup_extensiondata": {
-    "message": "Extension Data"
-  },
-  "popup_extensiondata_download": {
-    "message": "Download Data"
-  },
-  "popup_extensiondata_request": {
-    "message": "Request Data"
-  },
-  "popup_extensiondata_import": {
-    "message": "Import"
-  },
-  // Success shown when it successfully imported and parsed the data file
-  "popup_extensiondata_import_alert_success": {
-    "message": "Successfully imported data."
-  },
-  // Error shown when it cannot parse the data file
-  "popup_extensiondata_import_alert_error": {
-    "message": "Please try again with a valid data file."
-  },
-
-  // Display in the RoSeal popup and in settings.
-  "buymeacoffee": {
-    "message": "{coffeeEmoji} Buy me a coffee"
-  }
+    // For details on what to translate, see README.md file
+
+    // Name and description that appears on all stores, and in chrome://extensions
+    "manifest_name": {
+        "message": "RoSeal - Augmented Roblox Experience"
+    },
+    "manifest_description": {
+        "message": "Improve your Roblox website experience. And there's also seals."
+    },
+
+    // Popover dropdown menu for the roseal item
+    "robloxsettings_popover_roseal": {
+        "message": "{sealEmoji} RoSeal Settings"
+    },
+
+    // Appears in the RoSeal settings, "Beta" and "Experimental" labels
+    "beta_feature_label": {
+        "message": "BETA"
+    },
+    "experimental_feature_label": {
+        "message": "EXPERIMENTAL"
+    },
+
+    "errorpage_machineid": {
+        "message": "Roblox Machine ID: {robloxMachineId}"
+    },
+
+    // the 404 error page that appears if request is not valid.
+    // currently, it's only used by the developer product 404 page
+    "errorpage_404_title": {
+        "message": "Page cannot be found or no longer exists"
+    },
+    "errorpage_404_message": {
+        "message": "{sealEmoji} 404 <span>|</span>Page Not Found"
+    },
+    "errorpage_back": {
+        "message": "Back"
+    },
+    "errorpage_back_title": {
+        "message": "Go to the Previous Page"
+    },
+    "errorpage_home": {
+        "message": "Home"
+    },
+    "errorpage_home_title": {
+        "message": "Return Home"
+    },
+
+    // Hello variant of the home header feature
+    "homeheader_hellotext": {
+        "message": "Hello, {displayName}"
+    },
+
+    // "RoSeal Settings" item label in the roblox settings navigation list
+    "robloxsettings_selection_roseal": {
+        "message": "RoSeal Settings"
+    },
+
+    // RoSeal settings titles
+    "settings_title": {
+        "message": "My {sealEmoji}RoSeal Settings"
+    },
+    "settings_return": {
+        "message": "Return to Roblox Settings"
+    },
+
+    // "About" selection in menu and title
+    "settings_selection_about": {
+        "message": "About RoSeal"
+    },
+    "settings_about_description": {
+        "message": "<bold>RoSeal</bold> is a free seal-themed Roblox browser extension with individually togglable features and enhancements, without any paywalls or tracking."
+    },
+    // under13 is for 13- users over13 is for 13+. this is to prevent exposing discord to underage users
+    "settings_about_media_under13": {
+        "message": "There is a community <groupLink>Roblox Group</groupLink> for the extension."
+    },
+    "settings_about_media_over13": {
+        "message": "There is a community <groupLink>Roblox Group</groupLink> and a <discordLink>Discord Server</discordLink> for the extension."
+    },
+
+    // "Credits" selection tab in menu and title
+    "settings_about_credits_header": {
+        "message": "Credits"
+    },
+    "settings_about_credits_Julli4n": {
+        "message": "<link>Julli4n</link> - Lead Developer"
+    },
+    "settings_about_credits_Karasuneth": {
+        "message": "<link>Karasuneth</link> - Designed the original icon"
+    },
+    "settings_about_credits_MaciejCreates": {
+        "message": "<link>MaciejCreates</link> - Designed the icon"
+    },
+
+    // "Feature Switches" selection tab in menu and title
+    "settings_about_featureswitches_header": {
+        "message": "Feature Switches"
+    },
+    "settings_about_featureswitches_description": {
+        "message": "Feature Switches are a quick way to toggle RoSeal features off and on to your preference."
+    },
+    "settings_about_featureswitches_beta": {
+        "message": "<label>BETA</label> features are not ready to be turned on automatically; however, there should be minimal risk in enabling them. Everyone is welcome to enable and give feedback."
+    },
+    "settings_about_featureswitches_experimental": {
+        "message": "<label>EXPERIMENTAL</label> features are either unstable which may not stabilize or a test for a feature to come. IMPORTANT: Don't enable these features unless you know the risk."
+    },
+
+    // "Donate" selection tab in menu and title
+    "settings_selection_donate": {
+        "message": "Donate"
+    },
+    "settings_donate_description": {
+        "message": "I, <bold>Julli4n</bold>, earn no profit from the development of this extension. Please consider donating if you have enjoyed the extension. You will not be granted any benefits, just a thank you.{lineBreak}{lineBreak}You will be redirected to BuyMeACoffee, a 3rd-party site for donations."
+    },
+
+    // selected tab
+    "settings_selection_featureswitches": {
+        "message": "Feature Switches"
+    },
+    // feature switch details
+    // a feature switch is disabled primarily remotely
+    "settings_featureswitches_featureswitch_disabled": {
+        "message": "This feature has been disabled by RoSeal"
+    },
+    // when we deprecate a feature because it is no longer useful, or Roblox has their own solution now
+    "settings_featureswitches_featureswitch_deprecated": {
+        "message": "This feature has been <bold>discontinued</bold>. It is recommended to find alternatives in RoSeal or use native features on the Roblox website."
+    },
+    // not used atm, but will be if we ever add support for Safari or add firefox-exclusive features.
+    // "browsers" is a comma-separated list of browsers
+    "settings_featureswitches_featureswitch_exclusivebrowsers": {
+        "message": "Exclusive to the following browsers: {browsers}"
+    },
+    "settings_featureswitches_featureswitch_permissions_title": {
+        "message": "Required Permissions"
+    },
+    "settings_featureswitches_featureswitch_permissions_values_Cookies": {
+        "message": "Cookies"
+    },
+    "settings_featureswitches_featureswitch_permissions_subtext": {
+        "message": "Permissions can be granted in RoSeal's options page:"
+    },
+    "settings_featureswitches_featureswitch_permissions_openoptions": {
+        "message": "Open"
+    },
+    // "Associated Storage" is basically just storage stored from the feature, i.e. Roblox accounts with accounts manager
+    "settings_featureswitches_featureswitch_removeassociatedstorage": {
+        "message": "Remove Associated Storage"
+    },
+    // System feedback messages
+    "settings_featureswitches_featureswitch_removeassociatedstorage_systemfeedback_success": {
+        "message": "Successfully removed associated storage for this feature."
+    },
+    "settings_featureswitches_featureswitch_removeassociatedstorage_systemfeedback_error": {
+        "message": "An error occurred while removing associated storage for this feature, please try again later."
+    },
+
+    // "Blocked Experiences" selection tab in menu and title
+    "settings_selection_blockedexperiences": {
+        "message": "Blocked Experiences"
+    },
+    "settings_blockedexperiences_keywords_title": {
+        "message": "Blocked Keywords"
+    },
+    "settings_blockedexperiences_keywords_description": {
+        "message": "Keywords can be added and removed to block experiences whose name matches one of the added keywords. These experiences will not display on some common pages."
+    },
+    "settings_blockedexperiences_keywords_count": {
+        "message": "You're blocking {keywordsNum} of {keywordsMax} experience keywords allowed:"
+    },
+    // No experience keywords blocked
+    "settings_blockedexperiences_keywords_nokeywords": {
+        "message": "Add your first keyword to block to get started."
+    },
+    "settings_blockedexperiences_keywords_inputplaceholder": {
+        "message": "Add a keyword..."
+    },
+    "settings_blockedexperiences_keywords_add": {
+        "message": "Add"
+    },
+    "settings_blockedexperiences_keywords_keyword_remove": {
+        "message": "Remove"
+    },
+
+    // Blocked Experiences section
+    "settings_blockedexperiences_individualexperiences_title": {
+        "message": "Individual Blocked Experiences"
+    },
+    "settings_blockedexperiences_individualexperiences_description": {
+        "message": "Individual experiences can be blocked and unblocked from the context menu on an experience page. These experiences will not display on some common pages."
+    },
+    "settings_blockedexperiences_individualexperiences_count": {
+        "message": "You're blocking {experiencesNum} of {experiencesMax} experiences allowed:"
+    },
+    // No experiences blocked
+    "settings_blockedexperiences_individualexperiences_noexperiences": {
+        "message": "When you block an experience, it will show up here."
+    },
+    "settings_blockedexperiences_individualexperiences_experience_universeid": {
+        "message": "Universe ID: {universeId}"
+    },
+    "settings_blockedexperiences_individualexperiences_experience_unblock": {
+        "message": "Unblock"
+    },
+
+    // Hide/show a blocked expiernece section, like keywords or individual ones
+    "settings_blockedexperiences_section_hide": {
+        "message": "Hide"
+    },
+    "settings_blockedexperiences_section_show": {
+        "message": "Show"
+    },
+
+    // Account Settings dropdown strings
+    "accountsmanager_entry_login_disabled": {
+        "message": "Logged In"
+    },
+    "accountsmanager_entry_login": {
+        "message": "Login"
+    },
+    "accountsmanager_entry_logout": {
+        "message": "Remove"
+    },
+    "accountsmanager_title": {
+        "message": "{sealEmoji} Accounts Manager"
+    },
+    "accountsmanager_noaccounts": {
+        "message": "You have no accounts. Add your current account to get started."
+    },
+    // Not logged in text
+    "accountsmanager_noaccounts_disabled": {
+        "message": "You have no accounts. Login and add your account to get started."
+    },
+    "accountsmanager_maxaccounts": {
+        "message": "You have reached the maximum number of allowed accounts. ({accountLimit})"
+    },
+    // Message to show if Accounts Manager is deprecated. we're not sure if it ever will be but given that
+    // there are new translations on the Roblox website hinting to an account switcher feature, this will be here just in case
+    "accountsmanager_deprecated": {
+        "message": "Accounts Manager has been discontinued, please use the native Roblox account switching interface from \"Switch Account\" under the Settings cog dropdown instead."
+    },
+    // Please don't mess this up.
+    "accountsmanager_addaccount": {
+        "message": "You can add {moreAccounts, plural, =1 {1 more account.} other {# more accounts.}} ({accountsNum}/{accountLimit})"
+    },
+    "accountsmanager_actions_addcurrentaccount": {
+        "message": "Add Current Account"
+    },
+    "accountsmanager_actions_clearcurrentcookie": {
+        "message": "Logout"
+    },
+
+    // System feedbacks shown when there's an error/success message
+    "accountsmanager_success_AddCurrentRobloxAccount": {
+        "message": "Successfully added the current Roblox account to list."
+    },
+    "accountsmanager_success_LogoutRobloxAccount": {
+        "message": "Successfully invalidated session and removed Roblox account from list."
+    },
+    "accountsmanager_error_UnknownError": {
+        "message": "An unknown error occurred, please try again later."
+    },
+    "accountsmanager_error_EndpointError": {
+        "message": "An error occurred while trying to invalidate the session, please try again later."
+    },
+    "accountsmanager_error_InvalidAccount": {
+        "message": "Invalid account, please refresh the page."
+    },
+    "accountsmanager_error_NoCookiePermission": {
+        "message": "RoSeal does not have permission to manage browser cookies. Please allow it in RoSeal's options page."
+    },
+
+    // The context menu "..." item that appears in the item dropdown menu to view the icon asset
+    "experience_contextmenu_viewiconasset": {
+        "message": "View Icon Asset"
+    },
+
+    // "Private Servre Links" section
+    "experience_privateserverlinks_title": {
+        "message": "Private Server Links"
+    },
+    // Button to see more private server links
+    "experience_privateserverlinks_seemore": {
+        "message": "See More"
+    },
+    // Button to see less private server links
+    "experience_privateserverlinks_seeless": {
+        "message": "See Less"
+    },
+    // Tooltip hover message next to the title
+    "experience_privateserverlinks_titletooltip": {
+        "message": "Private Server Links lets you store private servers for this experience from links or importing a file and will indicate when a private server link is inactive."
+    },
+    "experience_privateserverlinks_noservers": {
+        "message": "No Private Server Links Found."
+    },
+    // "Add" button that will open the "Add Private Server Link" dialog
+    "experience_privateserverlinks_actions_add": {
+        "message": "Add"
+    },
+    // "Import" button that will open the "Import Private Server Links" dialog
+    "experience_privateserverlinks_actions_import": {
+        "message": "Import"
+    },
+    // this will have a .json file extension
+    "experience_privateserverlinks_exportfilename": {
+        "message": "{placeName} Private Servers"
+    },
+    // "Export" button that will download the "{placeName} Private Servers.json file"
+    "experience_privateserverlinks_actions_export": {
+        "message": "Export"
+    },
+    // When the creator is listed as "No One", no creator is set
+    "experience_privateserverlinks_privateserver_noone": {
+        "message": "No One"
+    },
+    // Updated time
+    "experience_privateserverlinks_privateserver_updated": {
+        "message": "Updated {time}"
+    },
+    // Shows up as red text "Invalid" if server is invalid now
+    "experience_privateserverlinks_privateserver_invalid": {
+        "message": "Invalid"
+    },
+    // Context menu items
+    "experience_privateserverlinks_privateserver_contextmenu_copylink": {
+        "message": "Copy Link"
+    },
+    "experience_privateserverlinks_privateserver_contextmenu_remove": {
+        "message": "Remove"
+    },
+    "experience_privateserverlinks_privateserver_contextmenu_update": {
+        "message": "Update"
+    },
+    // Bottom button that switches between "Remove" and "Join"
+    // - join if valid, remove if not
+    "experience_privateserverlinks_privateserver_remove": {
+        "message": "Remove"
+    },
+    "experience_privateserverlinks_privateserver_join": {
+        "message": "Join"
+    },
+
+    // Import private servers from file modal
+    "experience_privateserverlinks_importprivateserversmodal_title": {
+        "message": "{sealEmoji} Import Private Server Links"
+    },
+    "experience_privateserverlinks_importprivateserversmodal_filteredcount": {
+        "message": "{filtered} of {total} private servers had invalid links or were duplicates."
+    },
+    "experience_privateserverlinks_importprivateserversmodal_importinfo": {
+        "message": "Would you like to import the following {total, plural, =1 {private server} other {# private servers}}:"
+    },
+    "experience_privateserverlinks_importprivateserversmodal_instructiontext_drag": {
+        "message": "Drag a data file here"
+    },
+    "experience_privateserverlinks_importprivateserversmodal_instructiontext_or": {
+        "message": "Or"
+    },
+    "experience_privateserverlinks_importprivateserversmodal_instructiontext_select": {
+        "message": "Select a data file from your computer"
+    },
+    // Import error messages
+    "experience_privateserverlinks_importprivateserversmodal_importerror_invalid": {
+        "message": "Please input a valid data (.json) file."
+    },
+    "experience_privateserverlinks_importprivateserversmodal_importerror_unknown": {
+        "message": "An unknown error occurred while reading the data file."
+    },
+    "experience_privateserverlinks_importprivateserversmodal_importerror_unknowncheck": {
+        "message": "An unknown error occurred while checking the private server links."
+    },
+    "experience_privateserverlinks_importprivateserversmodal_importerror_allinvalid": {
+        "message": "All the private server links in the data file were invalid."
+    },
+    "experience_privateserverlinks_importprivateserversmodal_importerror_allduplicate": {
+        "message": "All the private server links in the data file were duplicates."
+    },
+    "experience_privateserverlinks_importprivateserversmodal_importerror_invalidformat": {
+        "message": "The data file was in an invalid format."
+    },
+    // Modal actions
+    "experience_privateserverlinks_importprivateserversmodal_action": {
+        "message": "Import"
+    },
+    "experience_privateserverlinks_importprivateserversmodal_neutral": {
+        "message": "Cancel"
+    },
+
+    // Remove private server modal
+    "experience_privateserverlinks_removeprivateservermodal_title": {
+        "message": "{sealEmoji} Remove Private Server Link"
+    },
+    "experience_privateserverlinks_removeprivateservermodal_body": {
+        "message": "Are you sure you want to remove this Private Server Link?"
+    },
+    "experience_privateserverlinks_removeprivateservermodal_action": {
+        "message": "Remove"
+    },
+    "experience_privateserverlinks_removeprivateservermodal_neutral": {
+        "message": "Cancel"
+    },
+
+    // add private server link modal
+    "experience_privateserverlinks_addprivateservermodal_title": {
+        "message": "{sealEmoji} Add Private Server Link"
+    },
+    "experience_privateserverlinks_addprivateservermodal_fromlink": {
+        "message": "It looks like you came from an unknown private server link, would you like to add it?"
+    },
+    // Label for server name text field input
+    "experience_privateserverlinks_addprivateservermodal_name": {
+        "message": "Name"
+    },
+    "experience_privateserverlinks_addprivateservermodal_nameplaceholder": {
+        "message": "Server Name"
+    },
+    // Text that appears bottom right of the input
+    "experience_privateserverlinks_addprivateservermodal_namelength": {
+        "message": "{length}/{maxLength}"
+    },
+    // Server link label
+    "experience_privateserverlinks_addprivateservermodal_link": {
+        "message": "Link"
+    },
+    // Server owner label
+    "experience_privateserverlinks_addprivateservermodal_owner": {
+        "message": "Owner"
+    },
+    // Below the server owner input to the right
+    "experience_privateserverlinks_addprivateservermodal_owneroptional": {
+        "message": "(optional)"
+    },
+    // Server link errors
+    "experience_privateserverlinks_addprivateservermodal_linkerror_invalid": {
+        "message": "The link you provided was invalid."
+    },
+    "experience_privateserverlinks_addprivateservermodal_linkerror_unknown": {
+        "message": "An unknown error occurred while checking the link status."
+    },
+    "experience_privateserverlinks_addprivateservermodal_linkerror_duplicate": {
+        "message": "There is already a private server with this link: \"{name}\""
+    },
+    // modal buttons
+    "experience_privateserverlinks_addprivateservermodal_action": {
+        "message": "Add"
+    },
+    "experience_privateserverlinks_addprivateservermodal_neutral": {
+        "message": "Cancel"
+    },
+
+    // update private server link modal
+    // this is very similar to add
+    "experience_privateserverlinks_updateprivateservermodal_title": {
+        "message": "{sealEmoji} Update Private Server Link"
+    },
+    // Label for server name text field input
+    "experience_privateserverlinks_updateprivateservermodal_name": {
+        "message": "Name"
+    },
+    "experience_privateserverlinks_updateprivateservermodal_nameplaceholder": {
+        "message": "Server Name"
+    },
+    // Text that appears bottom right of the input
+    "experience_privateserverlinks_updateprivateservermodal_namelength": {
+        "message": "{length}/{maxLength}"
+    },
+    // Server link label
+    "experience_privateserverlinks_updateprivateservermodal_link": {
+        "message": "Link"
+    },
+    // Server link errors
+    "experience_privateserverlinks_updateprivateservermodal_linkerror_invalid": {
+        "message": "The link you provided was invalid."
+    },
+    "experience_privateserverlinks_updateprivateservermodal_linkerror_unknown": {
+        "message": "An unknown error occurred while checking the link status."
+    },
+    "experience_privateserverlinks_updateprivateservermodal_linkerror_duplicate": {
+        "message": "There is already a private server with this link: \"{name}\""
+    },
+    // Server owner label
+    "experience_privateserverlinks_updateprivateservermodal_owner": {
+        "message": "Owner"
+    },
+    // Below the server owner input to the right
+    "experience_privateserverlinks_updateprivateservermodal_owneroptional": {
+        "message": "(optional)"
+    },
+    // modal buttons
+    "experience_privateserverlinks_updateprivateservermodal_action": {
+        "message": "Update"
+    },
+    "experience_privateserverlinks_updateprivateservermodal_neutral": {
+        "message": "Cancel"
+    },
+
+    // The context menu "..." item that appears in the experience dropdown menu to unblock/block the target experience
+    "experience_contextmenu_unblock": {
+        "message": "Unblock"
+    },
+    "experience_contextmenu_block": {
+        "message": "Block"
+    },
+
+    // "Universe ID {number}" text under About
+    "experience_universeid": {
+        "message": "Universe ID"
+    },
+
+    // The asset's numeric product ID
+    "generalasset_productid": {
+        "message": "Product ID"
+    },
+    // The collectible item UUID ID
+    "collectibleasset_collectibleitemid": {
+        "message": "Collectible Item ID"
+    },
+    // The collectible product UUID ID
+    "collectibleasset_collectibleproductid": {
+        "message": "Collectible Product ID"
+    },
+
+    // The developer product's numeric product ID
+    "developerproduct_productid": {
+        "message": "Product ID"
+    },
+
+    // "Refresh Item Details" tooltip when hovering over the refresh icon under the three dots (...)
+    "avataritem_refreshdetails": {
+        "message": "Refresh Item Details"
+    },
+
+    // "Refresh Item Details" tooltip when hovering over the search icon next to the creator name
+    "avataritem_searchbycreator": {
+        "message": "Search Items By This Creator"
+    },
+
+    // The pass's numeric product ID field
+    "pass_productid": {
+        "message": "Product ID"
+    },
+
+    // The bundle's numeric product ID field
+    "bundle_productid": {
+        "message": "Product ID"
+    },
+
+    // Text to show if an experience is blocked, and to view it anyways
+    "experience_blocked_title": {
+        "message": "This experience is blocked"
+    },
+    "experience_blocked_viewanyway": {
+        "message": "View Anyway"
+    },
+
+    // Dropdown selections for "Passes" and "Developer Products"
+    "experience_store_selection_passes": {
+        "message": "Passes"
+    },
+    "experience_store_selection_developerproducts": {
+        "message": "Developer Products"
+    },
+
+    // Developer products section
+    // filtering options
+    "experience_developerproducts_filtering_offsale": {
+        "message": "Show Off Sale Items"
+    },
+    "experience_developerproducts_filtering_onsale": {
+        "message": "Show On Sale Items"
+    },
+    // Errors/no developer products
+    "experience_developerproducts_genericerror": {
+        "message": "An error occurred while trying to fetch developer products, please try again later."
+    },
+    "experience_developerproducts_nodeveloperproducts": {
+        "message": "No developer products available."
+    },
+    // Indicates that there is none from your search from the filters, but can change if filtering options are changed
+    "experience_developerproducts_nodeveloperproductsfiltered": {
+        "message": "No developer products available from your search."
+    },
+
+    // Experience passes stuff, we discard roblox's version and remake all of it
+    // filtering stuff
+    "experience_passes_filtering_offsale": {
+        "message": "Include Off Sale Items"
+    },
+    "experience_passes_filtering_onsale": {
+        "message": "Include On Sale Items"
+    },
+    "experience_passes_filtering_unowned": {
+        "message": "Include Unowned Items"
+    },
+    "experience_passes_filtering_owned": {
+        "message": "Include Owned Items"
+    },
+    // Viewing as a specific user
+    "experience_passes_filtering_user": {
+        "message": "View as:"
+    },
+    // Errors/no passes
+    "experience_passes_genericerror": {
+        "message": "An error occurred while trying to fetch passes, please try again later."
+    },
+    "experience_passes_nopasses": {
+        "message": "No passes available."
+    },
+    // Indicates that there is none from your search from the filters, but can change if filtering options are changed
+    "experience_passes_nopassesfiltered": {
+        "message": "No passes available from your search."
+    },
+    "experience_passes_entry_owned": {
+        "message": "Owned"
+    },
+    "experience_passes_entry_buy": {
+        "message": "Buy"
+    },
+    "experience_passes_addpass": {
+        "message": "Add Pass"
+    },
+
+    // Shown over the Play button to indicate to the user that their avatar may not be as intended in the experience
+    "experience_avatarrestricted": {
+        "message": "Your current avatar may not look or function as intended in this experience."
+    },
+    // Table header items, "Field" in this context, is like part of an avatar, avatar type, body, proportion, etc.
+    "experience_avatarrestricted_compare_field": {
+        "message": "Field"
+    },
+    "experience_avatarrestricted_compare_you": {
+        "message": "You"
+    },
+    "experience_avatarrestricted_compare_experience": {
+        "message": "Experience"
+    },
+
+    "experience_avatarrestricted_fields_height": {
+        "message": "Height"
+    },
+    "experience_avatarrestricted_fields_width": {
+        "message": "Width"
+    },
+    "experience_avatarrestricted_fields_head": {
+        "message": "Head"
+    },
+    "experience_avatarrestricted_fields_proportion": {
+        "message": "Proportion"
+    },
+    "experience_avatarrestricted_fields_bodyType": {
+        "message": "Body Type"
+    },
+    "experience_avatarrestricted_fields_avatarType": {
+        "message": "Avatar Type"
+    },
+    "experience_avatarrestricted_fields_avatarType_values_R6": {
+        "message": "R6"
+    },
+    "experience_avatarrestricted_fields_avatarType_values_R15": {
+        "message": "R15"
+    },
+    "experience_avatarrestricted_fields_avatarType_values_PlayerChoice": {
+        "message": "User Choice"
+    },
+
+    // Avatar Type stuff shown at the experience's stats.
+    "experience_avatartype_label": {
+        "message": "Avatar Type"
+    },
+    "experience_avatartype_values_ForcedRthro": {
+        "message": "Rthro"
+    },
+    "experience_avatartype_values_R15Rthro": {
+        "message": "R15, Rthro"
+    },
+    "experience_avatartype_values_R6": {
+        "message": "R6"
+    },
+    "experience_avatartype_values_R15": {
+        "message": "R15"
+    },
+    "experience_avatartype_values_PlayerChoice": {
+        "message": "User Choice"
+    },
+
+    // for Robux views, honestly forgot what this is for. likely on developer product/pass items in store
+    // and developer product pages
+    "item_offsale_long": {
+        "message": "This item is not currently for sale."
+    },
+    "item_offsale_short": {
+        "message": "Off Sale"
+    },
+
+    // Developer product fields stuff.
+    "developerproduct_offsale": {
+        "message": "This item is not currently for sale."
+    },
+    "developerproduct_price": {
+        "message": "Price"
+    },
+    "developerproduct_type": {
+        "message": "Type"
+    },
+    "developerproduct_type_value": {
+        "message": "Developer Product"
+    },
+    "developerproduct_created": {
+        "message": "Created"
+    },
+    "developerproduct_updated": {
+        "message": "Updated"
+    },
+    "developerproduct_description": {
+        "message": "Description"
+    },
+    "developerproduct_contextmenu_viewiconasset": {
+        "message": "View Icon Asset"
+    },
+
+    // Whenever the RoSeal privacy policy updates, we show this modal. Only shown once per privacy policy update since the user installed the extension.
+    // required.
+    "ppupdatemodal_title": {
+        "message": "{sealEmoji} RoSeal Privacy Policy Update"
+    },
+    "ppupdatemodal_description": {
+        "message": "We've updated RoSeal's Privacy Policy since the last time you visited.{lineBreak}{lineBreak}<privacyPolicyLink>Read the Privacy Policy</privacyPolicyLink>"
+    },
+    "ppupdatemodal_action": {
+        "message": "Accept"
+    },
+
+    // When accounts manager is enabled, and they try using the default Roblox "logout" button, we provide a modal warning
+    // because they likely don't know that Roblox's one is going to invalidate their session
+    "robloxlogoutmodal_title": {
+        "message": "{sealEmoji} Are you sure?"
+    },
+    "robloxlogoutmodal_body": {
+        "message": "By using Roblox's default logout button, you will invalidate the current session.{lineBreak}{lineBreak}You will not be able to login to this account with Accounts Manager without going through Roblox's login page again.{lineBreak}{lineBreak}To logout without invalidating the session, open Accounts Manager and click \"Logout\"."
+    },
+    "robloxlogoutmodal_action": {
+        "message": "Logout"
+    },
+    "robloxlogoutmodal_neutral": {
+        "message": "Cancel"
+    },
+
+    // A button to direct the user to the unofficial community wiki of an experience. Most don't have this,
+    // but for the ones that do, it's nice
+    "experience_communitywiki_button": {
+        "message": "Unofficial Community Wiki"
+    },
+    "experience_communitywiki_modal_title": {
+        "message": "{sealEmoji} You are leaving Roblox"
+    },
+    // Modal shown when clicking the button to warn the user
+    "experience_communitywiki_modal_body": {
+        "message": "Heads up, Robloxian – by clicking “continue,” you will be redirected to Fandom, which is not owned or operated by Roblox. They may have different terms and privacy policies.{lineBreak}{lineBreak}The unofficial Community Wiki you will be redirected to is part of the Roblox Interwiki Project on Fandom, and relies on community edits. Information may be controversial, vandalized, outdated, or manipulated."
+    },
+    "experience_communitywiki_modal_action": {
+        "message": "Continue"
+    },
+    "experience_communitywiki_modal_neutral": {
+        "message": "Cancel"
+    },
+
+    // System feedback messages shown when purchasing an item with "Refresh Avatar Item Details" feature enabled.
+    // it's an easier way to communicate stuff to the user than a modal.
+    "avataritem_successmessage_GenericPurchase": {
+        "message": "You have successfully purchased this item."
+    },
+    "avataritem_errormessage_Load": {
+        "message": "You are being rate limited by Roblox, please try again later."
+    },
+    // "reason" is the public reason given from the API
+    // "realReason" is the actual internal reason given from the API.
+    // in the future, we may consider making proper messages for each {realReason}
+    // but for now, it's like this
+    "avataritem_errormessage_GenericPurchase": {
+        "message": "Could not purchase item, given reason: \"{reason} ({realReason})\""
+    },
+
+    // "ALT" text button shown on the lower left side on experience thumbnails if available. "ALT" is short for "Alternative", in "Alternative Text" for images.
+    // the alt text will show on hover. this is just for easily communicating with the user that there is alt text
+    // the img element already has alt text but it's better to indicate
+    "experience_media_alttext": {
+        "message": "ALT"
+    },
+
+    // "View Thumbnail Asset" button shown in the lower right side on experience thumbnails if available.
+    "experience_media_viewthumbnailasset": {
+        "message": "View Thumbnail Asset"
+    },
+
+    // Funny little home header secret messages that can be shown despite the user's role
+    "homeheader_secretmessage_Default1": {
+        "message": "Hello, user!"
+    },
+    "homeheader_secretmessage_Default2": {
+        "message": "We play Roblox!"
+    },
+    "homeheader_secretmessage_Default3": {
+        "message": "ROBLOX"
+    },
+    "homeheader_secretmessage_Default4": {
+        "message": "roblox"
+    },
+    "homeheader_secretmessage_Default5": {
+        "message": "Do you miss Tix?"
+    },
+    "homeheader_secretmessage_Default6": {
+        "message": "seals"
+    },
+    "homeheader_secretmessage_Default7": {
+        "message": "Farewell, LegacyApi!"
+    },
+    "homeheader_secretmessage_Default8": {
+        "message": "Stop skipping school."
+    },
+    "homeheader_secretmessage_Default9": {
+        "message": "Boycott bad experiences, refuse pirated experiences."
+    },
+    "homeheader_secretmessage_Default10": {
+        "message": "Be aware of self-defense and being deceived."
+    },
+    "homeheader_secretmessage_Default11": {
+        "message": "Playing is good for your brain, but too much playing can harm your health."
+    },
+    "homeheader_secretmessage_Default12": {
+        "message": "Manage your time well and enjoy a healthy lifestyle."
+    },
+    "homeheader_secretmessage_Default13": {
+        "message": "Imagine 1M Robux..."
+    },
+    "homeheader_secretmessage_Default14": {
+        "message": "How are you doing?"
+    },
+    "homeheader_secretmessage_Default15": {
+        "message": "We hope you are enjoying RoSeal."
+    },
+    "homeheader_secretmessage_Default16": {
+        "message": "Hehehe..."
+    },
+    "homeheader_secretmessage_Default17": {
+        "message": "Everything at Roblox happens behind everyone's eyes."
+    },
+    "homeheader_secretmessage_Default18": {
+        "message": "[ Content Deleted ]"
+    },
+    "homeheader_secretmessage_Default19": {
+        "message": "This is not a test message."
+    },
+    "homeheader_secretmessage_Default20": {
+        "message": "kitty."
+    },
+    "homeheader_secretmessage_Default21": {
+        "message": "bird."
+    },
+    "homeheader_secretmessage_Default22": {
+        "message": "Insert seal image here"
+    },
+    "homeheader_secretmessage_Default23": {
+        "message": "Insert kitty image here"
+    },
+    "homeheader_secretmessage_Default24": {
+        "message": "Insert bird image here"
+    },
+    "homeheader_secretmessage_Default25": {
+        "message": "Roblox down?"
+    },
+    "homeheader_secretmessage_Default26": {
+        "message": "David Baszucki"
+    },
+    "homeheader_secretmessage_Default27": {
+        "message": "Do you remember guests?"
+    },
+    "homeheader_secretmessage_Default28": {
+        "message": "Do you remember the old forums?"
+    },
+    "homeheader_secretmessage_Default29": {
+        "message": "Hi there!"
+    },
+    "homeheader_secretmessage_Default30": {
+        "message": "um... yum?"
+    },
+
+    // Additional text shown if the user is in the "BetaTester" role. These are users that signed up for it on the DevForum.
+    "homeheader_secretmessage_BetaTester1": {
+        "message": "A beta tester? Think you're cool?"
+    },
+    "homeheader_secretmessage_BetaTester2": {
+        "message": "I see you have access to some beta features."
+    },
+    "homeheader_secretmessage_BetaTester3": {
+        "message": "Have fun with whatever you do today ;)"
+    },
+    "homeheader_secretmessage_BetaTester4": {
+        "message": "Not as cool as a Soothsayer."
+    },
+    "homeheader_secretmessage_BetaTester5": {
+        "message": "One of the few."
+    },
+
+    // Additional text shown if the user is in the "Soothsayer" role. Typically, they are Roblox admins.
+    // The likelihood of a Roblox admin using the extension is low, but it's fun to put this in anyways
+    "homeheader_secretmessage_Soothsayer1": {
+        "message": "Nice public role you have there."
+    },
+    "homeheader_secretmessage_Soothsayer2": {
+        "message": "You might have an @roblox.com email."
+    },
+    "homeheader_secretmessage_Soothsayer3": {
+        "message": "You don't even need to pay for experience access on paid-access experiences?????"
+    },
+    "homeheader_secretmessage_Soothsayer4": {
+        "message": "Definitely cooler than a regular BetaTester."
+    },
+    "homeheader_secretmessage_Soothsayer5": {
+        "message": "Is Internal Studio cool?"
+    },
+    "homeheader_secretmessage_Soothsayer6": {
+        "message": "How'd collectible testing go?"
+    },
+
+    // Translators can put whatever message they like in here, remember: this is crowd-sourced
+    "homeheader_secretmessage_NonEnglish": {
+        "message": "It doesn't look like RoSeal has been localized for your language :("
+    },
+
+    // Happy birthday, text shown on the users birthday
+    "homeheader_birthdaymessage": {
+        "message": "Happy birthday,"
+    },
+
+    // "Unlock Pin" modal shown when the user attempts to update their description or unblock someone
+    // on the profile page. we plan to expand this in the future
+    "pinunlockmodal_title": {
+        "message": "{sealEmoji} Account PIN Required"
+    },
+    "pinunlockmodal_description": {
+        "message": "Enter the PIN attached to your account"
+    },
+    "pinunlockmodal_buttons_action": {
+        "message": "Unlock"
+    },
+
+    // general asset created and updated fields
+    "generalasset_created": {
+        "message": "Created"
+    },
+    "generalasset_updated": {
+        "message": "Updated"
+    },
+
+    // Adding "Delete from Inventory" to the context menu to supported assets.
+    "generalasset_contextmenu_deletefrominventory": {
+        "message": "Delete from Inventory"
+    },
+
+    // Badge "Created" label, we do not need "Updated" because it is already supplied by Roblox
+    "badge_created": {
+        "message": "Created"
+    },
+
+    // Additional fields that will appear with BadgeMoreStatistics feature enabled
+    // counts
+    "badge_awardedalltime": {
+        "message": "Awarded All-Time"
+    },
+    "badge_awardedyesterday": {
+        "message": "Awarded Yesterday"
+    },
+    "badge_percentawardedyesterday": {
+        "message": "% Awarded Yesterday"
+    },
+    "badge_percentawardedyesterday_value": {
+        "message": "{percentage}%"
+    },
+    // when the user was awarded it
+    "badge_awarded": {
+        "message": "Awarded"
+    },
+
+    // Adding "View Icon Asset" button to the experience badge context menu
+    "badge_contextmenu_viewiconasset": {
+        "message": "View Icon Asset"
+    },
+
+    // Chat sorts stuff
+    "chat_sorttypes_label": {
+        "message": "Sort by"
+    },
+    "chat_sorttypes_type_Default": {
+        "message": "Default"
+    },
+    "chat_sorttypes_type_NewestFirst": {
+        "message": "Newest first"
+    },
+    "chat_sorttypes_type_OldestFirst": {
+        "message": "Oldest first"
+    },
+    "chat_sorttypes_type_UnreadFirst": {
+        "message": "Unread first"
+    },
+
+    // The pass created/updated text
+    "pass_created": {
+        "message": "Created"
+    },
+    "pass_updated": {
+        "message": "Updated"
+    },
+
+    // Adding "View Icon Asset" button to the experience pass context menu
+    "pass_contextmenu_viewiconasset": {
+        "message": "View Icon Asset"
+    },
+
+    // The group created text, should this expand to including the time as well?
+    "group_created": {
+        "message": "Created"
+    },
+
+    // Adding "View Icon Asset" button to the group context menu, old name for group icon was "Emblem"
+    "group_contextmenu_viewiconasset": {
+        "message": "View Icon Asset"
+    },
+
+    // "Transactions" tab in the left navigation
+    "navbar_left_transactions": {
+        "message": "Transactions"
+    },
+
+    // This is for the shared component between Passes "View as" and badges "View as/Compare with"
+    "userlookup_placeholder": {
+        "message": "Username"
+    },
+    "userlookup_directlookuperror": {
+        "message": "A user with that username was not found."
+    },
+
+    // Discover filters labels and dropdown values stuff
+    "discover_filters_label": {
+        "message": "Filters"
+    },
+    "discover_filters_inputhint": {
+        "message": "Number inputs left as 0 will be ignored"
+    },
+    "discover_filters_applyfilters": {
+        "message": "Apply Filters"
+    },
+    "discover_filters_likes": {
+        "message": "Like %"
+    },
+    "discover_filters_playing": {
+        "message": "Playing"
+    },
+    "discover_filters_favorites": {
+        "message": "Favorites"
+    },
+    "discover_filters_visits": {
+        "message": "Visits"
+    },
+    "discover_filters_genre": {
+        "message": "Genre"
+    },
+    "discover_filters_genre_values_All": {
+        "message": "Any"
+    },
+    "discover_filters_genre_values_Building": {
+        "message": "Building"
+    },
+    "discover_filters_genre_values_Horror": {
+        "message": "Horror"
+    },
+    "discover_filters_genre_values_TownandCity": {
+        "message": "Town and City"
+    },
+    "discover_filters_genre_values_Military": {
+        "message": "Military"
+    },
+    "discover_filters_genre_values_Comedy": {
+        "message": "Comedy"
+    },
+    "discover_filters_genre_values_Medieval": {
+        "message": "Medieval"
+    },
+    "discover_filters_genre_values_Adventure": {
+        "message": "Adventure"
+    },
+    "discover_filters_genre_values_SciFi": {
+        "message": "Sci-Fi"
+    },
+    "discover_filters_genre_values_Naval": {
+        "message": "Naval"
+    },
+    "discover_filters_genre_values_FPS": {
+        "message": "FPS"
+    },
+    "discover_filters_genre_values_RPG": {
+        "message": "RPG"
+    },
+    "discover_filters_genre_values_Sports": {
+        "message": "Sports"
+    },
+    "discover_filters_genre_values_Fighting": {
+        "message": "Fighting"
+    },
+    "discover_filters_genre_values_Western": {
+        "message": "Western"
+    },
+    "discover_filters_device": {
+        "message": "Device"
+    },
+    "discover_filters_device_values_All": {
+        "message": "Any"
+    },
+    "discover_filters_device_values_Desktop": {
+        "message": "Desktop"
+    },
+    "discover_filters_device_values_Phone": {
+        "message": "Phone"
+    },
+    "discover_filters_device_values_Tablet": {
+        "message": "Tablet"
+    },
+    "discover_filters_device_values_Console": {
+        "message": "Console"
+    },
+    "discover_filters_device_values_VR": {
+        "message": "VR"
+    },
+    "discover_filters_age": {
+        "message": "Ages"
+    },
+    "discover_filters_age_values_All": {
+        "message": "Any"
+    },
+    "discover_filters_age_values_0": {
+        "message": "All Ages"
+    },
+    "discover_filters_age_values_9": {
+        "message": "9+"
+    },
+    "discover_filters_age_values_13": {
+        "message": "13+"
+    },
+    "discover_filters_age_values_17": {
+        "message": "17+"
+    },
+    "discover_filters_age_values_18": {
+        "message": "18+"
+    },
+
+    // For each filter, the maximum and minimum labels.
+    // The placeholders right now do not have translations, merely because they are just "0"
+    "discover_filters_filter_minimum": {
+        "message": "Minimum"
+    },
+    "discover_filters_filter_maximum": {
+        "message": "Maximum"
+    },
+    // Tooltip shown when hovering over edit button next to the filter name for number-based filters
+    "discover_filters_filter_edit": {
+        "message": "Edit Filter"
+    },
+
+    // Events tab stuff, there's not much here because we just grab the events container from Roblox
+    "experience_events_tab": {
+        "message": "Events"
+    },
+    "experience_events_noevents": {
+        "message": "No events available."
+    },
+
+    // Tab title
+    "experience_badges_tab": {
+        "message": "Badges"
+    },
+    // View as: {user} stuff or compare
+    "experience_badges_viewas": {
+        "message": "View as:"
+    },
+    "experience_badges_comparewith": {
+        "message": "Compare with:"
+    },
+
+    // Experience badges sorting/filters options
+    "experience_badges_filtering_active": {
+        "message": "Show Active Items"
+    },
+    "experience_badges_filtering_inactive": {
+        "message": "Show Inactive Items"
+    },
+    "experience_badges_filtering_obtained": {
+        "message": "Show Obtained Items"
+    },
+    "experience_badges_filtering_unobtained": {
+        "message": "Show Unobtained Items"
+    },
+    "experience_badges_sorting_sortby_label": {
+        "message": "Sort By"
+    },
+    "experience_badges_sorting_sortdirection_label": {
+        "message": "Sort Direction"
+    },
+    "experience_badges_sorting_sortobtained_label": {
+        "message": "Sort Obtained"
+    },
+    "experience_badges_sorting_sortby_values_WonYesterday": {
+        "message": "Won Yesterday"
+    },
+    "experience_badges_sorting_sortby_values_WonAllTime": {
+        "message": "Won All-Time"
+    },
+    "experience_badges_sorting_sortby_values_AwardedTime": {
+        "message": "Awarded Latest"
+    },
+    "experience_badges_sorting_sortby_values_Created": {
+        "message": "Created"
+    },
+    "experience_badges_sorting_sortby_values_Name": {
+        "message": "Name"
+    },
+    "experience_badges_sorting_sortdirection_values_Ascending": {
+        "message": "Ascending"
+    },
+    "experience_badges_sorting_sortdirection_values_Descending": {
+        "message": "Descending"
+    },
+    "experience_badges_sorting_sortobtained_values_First": {
+        "message": "First"
+    },
+    "experience_badges_sorting_sortobtained_values_Last": {
+        "message": "Last"
+    },
+    "experience_badges_sorting_sortobtained_values_Default": {
+        "message": "Default"
+    },
+    "experience_badges_sortsandfilters": {
+        "message": "Sorts and Filters"
+    },
+
+    // When there's no filtered badges, but there are badges for the experience
+    "experience_badges_nofilteredbadges": {
+        "message": "There are no filtered badges to display."
+    },
+
+    "experience_badges_nobadges": {
+        "message": "No badges available."
+    },
+    "experience_badges_completed": {
+        "message": "Completed: {numCompleted}/{numTotal}"
+    },
+    "experience_badges_inactive": {
+        "message": "{inactiveIcon}Inactive: {numInactive}/{numTotal}"
+    },
+    // Column title for % Won Yesterday
+    "experience_badges_wonyesterday": {
+        "message": "% Won Yesterday"
+    },
+    "experience_badges_usercompleted": {
+        "message": "{numCompleted}/{numTotal}"
+    },
+    // Error shown in place of badges when there's an error
+    "experience_badges_awardederror": {
+        "message": "An error occurred while fetching badges' awarded info, please try again later."
+    },
+    "experience_badges_genericerror": {
+        "message": "An error occurred while fetching badges, please try again later."
+    },
+
+    // Experience badge details
+    "experience_badges_badge_inactive": {
+        "message": "Inactive"
+    },
+    // Parts of a tooltip when hovering over the question mark
+    "experience_badges_badged_yesterdaypercentage": {
+        "message": "{percentage}%"
+    },
+    "experience_badges_badge_awarded": {
+        "message": "Awarded {time}"
+    },
+    "experience_badges_badge_wonalltime": {
+        "message": "Won All-Time"
+    },
+    "experience_badges_badge_wonyesterday": {
+        "message": "Won Yesterday"
+    },
+
+    // Experience private notes stuff
+    "experience_privatenote_title": {
+        "message": "Private Note"
+    },
+    "experience_privatenote_hint": {
+        "message": "This note is private, only you will be able to see it."
+    },
+    "experience_privatenote_placeholder": {
+        "message": "Specific temperaments or settings for this experience..."
+    },
+    "experience_privatenote_length": {
+        "message": "{length}/{maxLength}"
+    },
+    "experience_privatenote_buttons_cancel": {
+        "message": "Cancel"
+    },
+    "experience_privatenote_buttons_save": {
+        "message": "Save"
+    },
+    "generictoggletarget_readmore": {
+        "message": "Read More"
+    },
+    "generictoggletarget_readless": {
+        "message": "Read Less"
+    },
+
+    // Adding "Report Abuse" to the item pages context menu if it isn't already there
+    "itempages_contextmenu_reportabuse": {
+        "message": "Report Abuse"
+    },
+
+    // User profile force unfollow action
+    "userprofile_actions_forceunfollow": {
+        "message": "Force Unfollow"
+    },
+
+    // System feedback banners for force unfollow in the profile
+    "userprofile_actions_forceunfollow_systemfeedback_success": {
+        "message": "Successfully forced user to unfollow you."
+    },
+    "userprofile_actions_forceunfollow_systemfeedback_error": {
+        "message": "Failed to force user to unfollow you."
+    },
+
+    // User's profile cancel request actions
+    "userprofile_actions_cancelrequest": {
+        "message": "Cancel"
+    },
+    // Cancelled request successfully, disabled button
+    "userprofile_actions_cancelledrequest": {
+        "message": "Cancelled"
+    },
+
+    // Last online date for a user at the bottom (or under Avatar with BTRoblox)
+    "userprofile_lastonline": {
+        "message": "Last Online"
+    },
+    "userprofile_lastonline_now": {
+        "message": "Now"
+    },
+
+    // When "Show username in user's friends page title" is enabled, it will replace the title with this.
+    // adding {username}
+    "userfriends_newtitle": {
+        "message": "{displayName} (@{username})'s Friends"
+    },
+
+    // Context menu for "Quick actions in the user's friends page"
+    "userfriends_contextmenu_unfriend": {
+        "message": "Unfriend"
+    },
+    "userfriends_contextmenu_unfollow": {
+        "message": "Unfollow"
+    },
+    "userfriends_contextmenu_forceunfollow": {
+        "message": "Force Unfollow"
+    },
+    "userfriends_contextmenu_block": {
+        "message": "Block"
+    },
+
+    // System feedback in the users friends page when doing an action with the "Quick actions in the user's friends page" feature
+    "userfriends_systemfeedback_success_unfriend": {
+        "message": "Successfully unfriended user."
+    },
+    "userfriends_systemfeedback_success_unfollow": {
+        "message": "Successfully unfollowed user."
+    },
+    "userfriends_systemfeedback_success_forceunfollow": {
+        "message": "Successfully forced user to unfollow you."
+    },
+    "userfriends_systemfeedback_success_block": {
+        "message": "Successfully blocked user."
+    },
+    "userfriends_systemfeedback_genericerror": {
+        "message": "An error occurred processing the action, please try again later."
+    },
+
+    // Red text to show below "Your access to voice chat has been suspended for violating our Community Standards." in Privacy settings
+    "robloxsettings_voicechat_suspensiondate": {
+        "message": "Your access will be restored on {date}"
+    },
+
+    // Marketplace Color filters UI
+    "avatarshop_colorfilters_title": {
+        "message": "Colors"
+    },
+    "avatarshop_colorfilters_items_primary": {
+        "message": "Primary"
+    },
+    "avatarshop_colorfilters_items_secondary": {
+        "message": "Secondary"
+    },
+    "avatarshop_colorfilters_items_any": {
+        "message": "Any"
+    },
+
+    // Pending group join requests for the user
+    "group_pendingrequests": {
+        "message": "Pending Join Requests"
+    },
+    "group_typesswitch_joined": {
+        "message": "Joined"
+    },
+    "group_typesswitch_pending": {
+        "message": "Pending"
+    },
+    "group_discovergroups": {
+        "message": "Discover Groups"
+    },
+    "group_creategroup": {
+        "message": "Create Group"
+    },
+
+    // For the next messages, R2E = Right to Erasure
+
+    // pending in button when fetching R2Es
+    "messages_getunreadr2e_pending": {
+        "message": "Pending"
+    },
+    // error in button when fetching R2Es
+    "messages_getunreadr2e_error": {
+        "message": "Error"
+    },
+    "messages_getunreadr2e_request": {
+        "message": "Request Unread R2Es"
+    },
+    "messages_getunreadr2e_download": {
+        "message": "Download Unread R2Es"
+    },
+    "messages_getunreadr2e_markread": {
+        "message": "Mark Unread R2Es Read"
+    },
+
+    // Modal shown when asked if the user wants to mark R2Es as read
+    "messages_getunreadr2e_markreadmodal_title": {
+        "message": "Mark R2Es as Read"
+    },
+    "messages_getunreadr2e_markreadmodal_body": {
+        "message": "Would you like to mark the R2E messages as read?"
+    },
+    "messages_getunreadr2e_markreadmodal_action": {
+        "message": "Mark as Read"
+    },
+    "messages_getunreadr2e_markreadmodal_neutral": {
+        "message": "Cancel"
+    },
+
+    "voicechatsuspensionmodal_title": {
+        "message": "🦭 Voice Chat Suspended"
+    },
+    "voicechatsuspensionmodal_description": {
+        "message": "Due to the violation of <communityGuidelinesLink>Roblox's Community Guidelines</communityGuidelinesLink>, your Voice Chat has been temporarily revoked until {date}.{lineBreak}{lineBreak}Please help keep Roblox fun by being respectful to others.{lineBreak}{lineBreak}You can check how much time is remaining in your <privacySettingsLink>Privacy Settings</privacySettingsLink>."
+    },
+    "voicechatsuspensionmodal_action": {
+        "message": "I Understand"
+    },
+
+    // Asking the user to enable 2SV by going to their security settings. This is just for security purposes.
+    "force2svmodal_title": {
+        "message": "{sealEmoji} Two Step Verification Required"
+    },
+    "force2svmodal_body": {
+        "message": "Due to security concerns, you must have two step verification enabled to use this feature.{lineBreak}{lineBreak}Would you like to go to your account security settings?"
+    },
+    "force2svmodal_action": {
+        "message": "Ok"
+    },
+    "force2svmodal_neutral": {
+        "message": "Cancel"
+    },
+
+    // System feedback shown when cancelling a pending join request from the pending groups list UI
+    "group_pendingrequests_systemfeedback_genericerror": {
+        "message": "Failed to cancel pending join request, please try again later."
+    },
+    "group_pendingrequests_systemfeedback_success": {
+        "message": "Successfully cancelled pending join request."
+    },
+
+    // Modal shown when customizing a folder
+    "group_foldercustomization_modal_title": {
+        "message": "{sealEmoji} Customize Group Folder"
+    },
+    "group_foldercustomization_modal_field_name": {
+        "message": "Name"
+    },
+    "group_foldercustomization_modal_lengthtip": {
+        "message": "{length}/{maxLength}"
+    },
+    "group_foldercustomization_modal_field_name_placeholder": {
+        "message": "Folder Name"
+    },
+    "group_foldercustomization_modal_field_color": {
+        "message": "Color"
+    },
+    "group_foldercustomization_modal_action": {
+        "message": "Save"
+    },
+    "group_foldercustomization_modal_neutral": {
+        "message": "Cancel"
+    },
+
+    // Text to show in /transactions to toggle off/on hiding stuff
+    "transactions_hide0robuxamount": {
+        "message": "Hide transactions with 0 Robux amount"
+    },
+    "transactions_hideprivateservers": {
+        "message": "Hide Private Server transactions"
+    },
+
+    // Feature switches sections and subsections
+    "features_section_home": {
+        "message": "Home"
+    },
+    "features_section_home_general": {
+        "message": "General"
+    },
+    "features_section_experiences": {
+        "message": "Experiences"
+    },
+    "features_section_experiences_discover": {
+        "message": "Discover"
+    },
+    "features_section_experiences_general": {
+        "message": "General"
+    },
+    "features_section_experiences_store": {
+        "message": "Store"
+    },
+    "features_section_account": {
+        "message": "Account"
+    },
+    "features_section_account_general": {
+        "message": "General"
+    },
+    "features_section_items": {
+        "message": "Items"
+    },
+    "features_section_items_general": {
+        "message": "General"
+    },
+    "features_section_items_avatar": {
+        "message": "Avatar Items"
+    },
+    "features_section_miscellaneous": {
+        "message": "Miscellaneous"
+    },
+    "features_section_miscellaneous_general": {
+        "message": "General"
+    },
+    "features_section_miscellaneous_transactionspage": {
+        "message": "Transactions Page"
+    },
+    "features_section_miscellaneous_seals": {
+        "message": "Seals"
+    },
+    "features_section_miscellaneous_navbars": {
+        "message": "Navbars"
+    },
+    "features_section_miscellaneous_avatarshop": {
+        "message": "Marketplace"
+    },
+    "features_section_miscellaneous_chat": {
+        "message": "Chat"
+    },
+    "features_section_miscellaneous_messages": {
+        "message": "Messages"
+    },
+    "features_section_users": {
+        "message": "Users"
+    },
+    "features_section_users_friendspage": {
+        "message": "Friends Page"
+    },
+    "features_section_users_profile": {
+        "message": "Profile"
+    },
+    "features_section_groups": {
+        "message": "Groups"
+    },
+    "features_section_groups_navigation": {
+        "message": "Navigation"
+    },
+    "features_section_groups_walls": {
+        "message": "Walls"
+    },
+
+    // Feature switches in settings
+    // `_title` = the title of the feature
+    // `_description` = the description of the feature
+    // _sub_ indicates a subfeature
+    "features_RemoveHomePageUnnecessarySorts_title": {
+        "message": "Remove \"unnecessary\" sorts from the home sorts"
+    },
+    "features_RemoveHomePageUnnecessarySorts_description": {
+        "message": "When enabled, removes any sorts from the Home page that don't match \"Recommended For You\", \"Favorites\", \"Continue\", \"Friends Playing\", or \"Sponsored\"."
+    },
+    "features_ForceHomePageGenreExplorer_title": {
+        "message": "Force \"unnecessary\" home sorts into a Genre explorer"
+    },
+    "features_ForceHomePageGenreExplorer_description": {
+        "message": "When enabled, all sorts that don't match \"Recommended For You\", \"Favorites\", \"Continue\", \"Friends Playing\", or \"Sponsored\" will be put into a \"Categories\" Genre explorer at the top of the home sorts section."
+    },
+    "features_RefreshedHomeUserHeader_title": {
+        "message": "Refreshed user header"
+    },
+    "features_RefreshedHomeUserHeader_description": {
+        "message": "When enabled, returns the old user header on the home page with a few differences."
+    },
+    "features_RefreshedHomeUserHeader_sub_BasedText_title": {
+        "message": "10% chance of a chosen message based on your public roles"
+    },
+    "features_RefreshedHomeUserHeader_sub_BirthdayMessage_title": {
+        "message": "Birthday message"
+    },
+    "features_RefreshedHomeUserHeader_sub_HelloText_title": {
+        "message": "\"Hello,\" greeting"
+    },
+    "features_RefreshedHomeUserHeader_sub_ShowNameType_title": {
+        "message": "Change the type of name that should be displayed"
+    },
+    "features_RefreshedHomeUserHeader_sub_ShowNameType_values_Both": {
+        "message": "Both"
+    },
+    "features_RefreshedHomeUserHeader_sub_ShowNameType_values_DisplayName": {
+        "message": "Display Name Only"
+    },
+    "features_RefreshedHomeUserHeader_sub_ShowNameType_values_Username": {
+        "message": "Username Only"
+    },
+    "features_MoveExperienceSocialLinks_title": {
+        "message": "Move experience Social Links above Description in the About tab"
+    },
+    "features_AddCommunityWikiButton_title": {
+        "message": "Add a button to visit an unofficial Community Wiki of an experience in the About tab"
+    },
+    "features_AddCommunityWikiButton_description": {
+        "message": "When enabled, the extension will display a button to visit an unofficial wiki which is part of the Roblox Interwiki project on Fandom for the experience if it is known to RoSeal."
+    },
+    "features_RemovePrivateServersSectionInAbout_title": {
+        "message": "Remove private servers section in the About tab"
+    },
+    "features_DeveloperProductsInExperienceStore_title": {
+        "message": "Developer Products in experience store tab"
+    },
+    "features_DeveloperProductsInExperienceStore_description": {
+        "message": "When enabled, shows Developer Products in a dropdown under the Store tab. Creates a new page for viewing Developer Product details."
+    },
+    "features_ExperienceStoreItemFiltering_title": {
+        "message": "Filtering options in experience store tab"
+    },
+    "features_ExperienceStoreItemFiltering_description": {
+        "message": "When enabled, shows additional filtering options in the Passes and Developer Products tabs in experience store."
+    },
+    "features_WebsiteOfflineMode_title": {
+        "message": "Display as offline when only on the website"
+    },
+    "features_WebsiteOfflineMode_description": {
+        "message": "When enabled, no one will know when you are on the website. It may take a few minutes to take effect."
+    },
+    "features_AccountsManager_title": {
+        "message": "Accounts manager"
+    },
+    "features_AccountsManager_description": {
+        "message": "When enabled, adds a new item to the top navigation that activates a popup for managing your accounts. Use at your own risk."
+    },
+    "features_ThemeSwitchThroughoutDay_title": {
+        "message": "Sync website theme with browser"
+    },
+    "features_TooltipTimeType_title": {
+        "message": "Change time type of tooltip dates"
+    },
+    "features_TooltipTimeType_description": {
+        "message": "When selected, changes the date format that tooltips with dates will show on hover."
+    },
+    "features_TooltipTimeType_values_Disabled": {
+        "message": "Disabled (Roblox Regular)"
+    },
+    "features_TooltipTimeType_values_Relative": {
+        "message": "Relative"
+    },
+    "features_TooltipTimeType_values_Absolute": {
+        "message": "Absolute"
+    },
+    "features_CreatedUpdatedItemsTimeType_title": {
+        "message": "Change time type of Created/Updated/Joined/etc fields"
+    },
+    "features_CreatedUpdatedItemsTimeType_description": {
+        "message": "When selected, changes the text of the Created, Updated, Joined, or other fields on applicable pages to your selected time format. This will add \"Created\", \"Updated\", and \"Joined\" fields when necessary on item pages."
+    },
+    "features_CreatedUpdatedItemsTimeType_values_Disabled": {
+        "message": "Disabled"
+    },
+    "features_CreatedUpdatedItemsTimeType_values_Relative": {
+        "message": "Relative"
+    },
+    "features_CreatedUpdatedItemsTimeType_values_Absolute": {
+        "message": "Absolute"
+    },
+    "features_CreatedUpdatedItemsTimeType_values_Regular": {
+        "message": "Roblox Regular"
+    },
+    "features_PersistentTransactionsSelection_title": {
+        "message": "Persistent dropdown selections"
+    },
+    "features_PersistentTransactionsSelection_description": {
+        "message": "When enabled, your last dropdown selections will persist, even after closing the page. It may break when you receive a new transaction type."
+    },
+    "features_BetterRobuxNavigation_title": {
+        "message": "Better Robux navigation"
+    },
+    "features_BetterRobuxNavigation_description": {
+        "message": "When enabled, adds a Plus button next to Robux in the top navigation to redirect to Robux purchases, and adds a new Transactions item to the left navigation."
+    },
+    "features_MoveAgeBracket_title": {
+        "message": "Move the age bracket to the left navigation"
+    },
+    "features_MoveAgeBracket_description": {
+        "message": "When enabled, moves the age bracket from the top navigation to the left navigation and removes the profile picture and username from the top navigation."
+    },
+    "features_DisableDesktopApp_title": {
+        "message": "Remove the Desktop App banner"
+    },
+    "features_ViewItemIconThumbnailAssets_title": {
+        "message": "Add links to view thumbnail/icon asset of applicable items"
+    },
+    "features_ViewItemIconThumbnailAssets_description": {
+        "message": "When enabled, adds links in the context menu of items' detail pages to view the icon asset of the item if applicable. This also applies to experience media in the carousel on experience details."
+    },
+    "features_UserFriendsPageContextMenu_title": {
+        "message": "Quick actions in the user's friends page"
+    },
+    "features_UserFriendsPageContextMenu_description": {
+        "message": "When enabled, adds or replaces a context menu on friend cards in the user's friend page for quick actions. Quick actions include blocking, unfriend, unfollowing, and force unfollow."
+    },
+    "features_UserProfileAddMargins_title": {
+        "message": "Add padding between sections in the user profile page"
+    },
+    "features_ItemPagesMoveReportAbuse_title": {
+        "message": "Move the Report Abuse buttons to the item context menus if applicable"
+    },
+    "features_ItemMentions_title": {
+        "message": "Formatted user/group mentions in item descriptions"
+    },
+    "features_ItemMentions_description": {
+        "message": "When enabled, @user, user links, and group links from item descriptions will be transformed into a link with an avatar headshot or group thumbnail image."
+    },
+    "features_UserProfileCancelRequest_title": {
+        "message": "Cancel outgoing friend request on profile"
+    },
+    "features_ListPendingGroups_title": {
+        "message": "List groups with pending join requests in navigation"
+    },
+    "features_ListPendingGroups_description": {
+        "message": "When enabled, adds tabs navigation with \"Pending\" to the groups navigation."
+    },
+    "features_DisableAvatarShopInfiniteScrolling_title": {
+        "message": "Disable Marketplace infinite scrolling"
+    },
+    "features_DisableGroupWallInfiniteScrolling_title": {
+        "message": "Disable Group Wall infinite scrolling"
+    },
+    "features_BlockExperiences_title": {
+        "message": "Block experiences"
+    },
+    "features_BlockExperiences_description": {
+        "message": "When enabled, adds a new section for blocking individual experiences and keywords from showing on some common pages to RoSeal settings. You can block individual experiences from the context menu on an experience's details page."
+    },
+    "features_ShowExperienceUniverseId_title": {
+        "message": "Show Experience Universe ID"
+    },
+    "features_Enable3DThumbnailDynamicLighting_title": {
+        "message": "Enable 3D Thumbnail Dynamic Lighting"
+    },
+    "features_ChatSortTypes_title": {
+        "message": "Chat sort types"
+    },
+    "features_ChatSortTypes_description": {
+        "message": "When enabled, adds new sort types to the Chat box for filtering through conversations."
+    },
+    "features_Transactions0RobuxAmountToggle_title": {
+        "message": "Toggle to hide transactions with 0 Robux amounts"
+    },
+    "features_TransactionsPrivateServersToggle_title": {
+        "message": "Toggle to hide Private Server transactions"
+    },
+    "features_GroupOrganization_title": {
+        "message": "Group organization customization"
+    },
+    "features_GroupOrganization_description": {
+        "message": "When enabled, allows for reorganizing groups and creating group folders with drag and drop. Group folders can then be further customized."
+    },
+    "features_BetterExperienceBadges_title": {
+        "message": "Better experience badges list"
+    },
+    "features_BetterExperienceBadges_description": {
+        "message": "When enabled, adds a new tab to experience details that contains a better experience badges list. You can also view inactive badges, awarded dates for badges, and compare your badges with another user. This is unstable for experiences with a significantly large number of badges."
+    },
+    "features_BetterExperiencesBadges_sub_FiltersAndSorts_title": {
+        "message": "Experience badges filters and sorts"
+    },
+    "features_BetterExperiencesBadges_sub_DisableRobloxBadges_title": {
+        "message": "Disable Roblox's badges section"
+    },
+    "features_UserProfileLastOnline_title": {
+        "message": "Show user's last online date"
+    },
+    "features_ChangeNavFriendsHash_title": {
+        "message": "Change default users' friends tab from the navigation bar"
+    },
+    "features_ChangeNavFriendsHash_values_friends": {
+        "message": "Friends"
+    },
+    "features_ChangeNavFriendsHash_values_following": {
+        "message": "Following"
+    },
+    "features_ChangeNavFriendsHash_values_followers": {
+        "message": "Followers"
+    },
+    "features_ChangeNavFriendsHash_values_friendrequests": {
+        "message": "Friend Requests"
+    },
+    "features_HideFriendRequestsCount_title": {
+        "message": "Hide friend requests count in the navigation bar"
+    },
+    "features_HideMessagesCount_title": {
+        "message": "Hide messages count in the navigation bar"
+    },
+    "features_SealImages_title": {
+        "message": "Replace all images with seal images"
+    },
+    "features_ExperienceMediaAltTextButton_title": {
+        "message": "Better experience thumbnail alt text button"
+    },
+    "features_ShowExperienceAvatarType_title": {
+        "message": "Show experience restricted avatar type in statistics"
+    },
+    "features_ShowExperienceAvatarType_sub_ShowAvatarRestriction_title": {
+        "message": "Show details above the visit button if your avatar may be restricted"
+    },
+    "features_AssetDeleteFromInventory_title": {
+        "message": "\"Delete from Inventory\" button in asset item menu"
+    },
+    "features_AssetDeleteFromInventory_description": {
+        "message": "When enabled, adds a \"Delete from Inventory\" button in an asset item's item menu if it doesn't already exist. Due to security concerns, a two step verification challenge is required."
+    },
+    "features_UserFriendsPageNewTitle_title": {
+        "message": "Show username in user's friends page title"
+    },
+    "features_ExperiencePrivateNote_title": {
+        "message": "Experience private note in About section"
+    },
+    "features_AccountPinPromptMoreLocations_title": {
+        "message": "Show the account pin prompt in more locations"
+    },
+    "features_AccountPinPromptMoreLocations_description": {
+        "message": "When enabled, shows the account pin unlock prompt in more locations where it usually directs to account settings."
+    },
+    "features_GetUnreadR2EButton_title": {
+        "message": "Request Right-to-Erasures CSV file button"
+    },
+    "features_DiscoverFilters_title": {
+        "message": "Discover Filters"
+    },
+    "features_DiscoverFilters_description": {
+        "message": "When enabled, adds a Filters section to the Discover page. It allows for filtering of all sorts by like percentage, favorite count, player count, visit count and genre."
+    },
+    "features_RoSealSettingDropdown_title": {
+        "message": "\"RoSeal Settings\" item in the Roblox settings dropdown"
+    },
+    "features_AccurateHomeContinueSort_title": {
+        "message": "Accurate non-curated home page \"Continue\" sort"
+    },
+    "features_CSSFixes_title": {
+        "message": "Various (CSS) styling fixes around the site"
+    },
+    "features_MoveExperienceEvents_title": {
+        "message": "Move experience events to it's own tab"
+    },
+    "features_RefreshlessGroupNavigation_title": {
+        "message": "Page refreshless group navigation"
+    },
+    "features_RefreshlessGroupNavigation_description": {
+        "message": "When enabled, navigating to another group from any groups list will not require a page refresh."
+    },
+    "features_ItemAdditionalProductInfo_title": {
+        "message": "Show additional product information"
+    },
+    "features_RefreshAvatarItemDetails_title": {
+        "message": "Refresh avatar item details button"
+    },
+    "features_MarketplaceColorFilters_title": {
+        "message": "Marketplace color filters"
+    },
+    "features_RefreshAvatarItemDetails_sub_FastFreeBuy_title": {
+        "message": "Fast Free avatar item purchases"
+    },
+    "features_RemoveFriendActivityLabel_title": {
+        "message": "Remove \"Friend Activity\" footer label on experiences"
+    },
+    "features_RemoveHomePhoneNumberUpsell_title": {
+        "message": "Remove \"Protect Your Account\" phone number upsell on the home page"
+    },
+    "features_UserProfileForceUnfollow_title": {
+        "message": "\"Force Unfollow\" button in the user profile header context menu"
+    },
+    "features_JailbrokenHomeFavoritesSort_title": {
+        "message": "List all favorite experiences in the home \"Favorites\" sort"
+    },
+    "features_PutHomeFavoritesSortAtTop_title": {
+        "message": "Put home \"Favorites\" sort at the top"
+    },
+    "features_ShowVoiceChatSuspension_title": {
+        "message": "Show voice chat suspension details and full date"
+    },
+    "features_ShowVoiceChatSuspension_description": {
+        "message": "When enabled, shows voice chat suspension details in a modal on all pages if the user has not yet been informed. It will also add the full date of suspension expiry to the privacy account settings page."
+    },
+    "features_SearchByCreatorButton_title": {
+        "message": "Search more items by item creator button"
+    },
+    "features_PrivateServerLinksSection_title": {
+        "message": "\"Private Server Links\" section in the servers tab"
+    },
+    "features_PrivateServerLinksSection_description": {
+        "message": "When enabled, adds a \"Private Server Links\" section to the servers tab. You can add private server links to it and import from/export to a data file."
+    },
+    "features_PrivateServerLinksSection_sub_TryResolveOwner_title": {
+        "message": "Try to automatically resolve the private server owner"
+    },
+    "features_BadgeMoreStatistics_title": {
+        "message": "Add additional badge statistics to badge page"
+    },
+    "features_ErrorShowMachineID_title": {
+        "message": "Show the Roblox Machine ID in the bottom-right corner of the error page."
+    },
+
+    "popup_extensionname": {
+        "message": "{sealEmoji} RoSeal"
+    },
+    // Actions to go to RoSeal social/settings
+    "popup_actions_robloxgroup": {
+        "message": "Roblox Group"
+    },
+    "popup_actions_settings": {
+        "message": "Settings"
+    },
+    "popup_actions_website": {
+        "message": "Website"
+    },
+
+    // RoSeal optional permissions section
+    "popup_permissions": {
+        "message": "Optional Permissions"
+    },
+    "popup_permissions_cookie": {
+        "message": "Cookies"
+    },
+    // Tooltip shown when hovering over the questionmark next to "Cookies"
+    "popup_permissions_cookietooltip": {
+        "message": "Grant this permission if you would like to use Accounts Manager. You can revoke this permission at any time."
+    },
+
+    // Popup data managemenet
+    "popup_extensiondata_show": {
+        "message": "Show"
+    },
+    "popup_extensiondata_hide": {
+        "message": "Hide"
+    },
+    "popup_extensiondata": {
+        "message": "Extension Data"
+    },
+    "popup_extensiondata_download": {
+        "message": "Download Data"
+    },
+    "popup_extensiondata_request": {
+        "message": "Request Data"
+    },
+    "popup_extensiondata_import": {
+        "message": "Import"
+    },
+    // Success shown when it successfully imported and parsed the data file
+    "popup_extensiondata_import_alert_success": {
+        "message": "Successfully imported data."
+    },
+    // Error shown when it cannot parse the data file
+    "popup_extensiondata_import_alert_error": {
+        "message": "Please try again with a valid data file."
+    },
+
+    "popup_languageswitcher_title": {
+        "message": "Language Switcher"
+    },
+    // i.e. "American English (default)"
+    "popup_languageswitcher_defaulttext": {
+        "message": " (default)"
+    },
+    "popup_languageswitcher_changenotice": {
+        "message": "Some pages may need to be refreshed a few times for the change to take effect."
+    },
+
+    // Display in the RoSeal popup and in settings.
+    "buymeacoffee": {
+        "message": "{coffeeEmoji} Buy me a coffee"
+    }
 }
