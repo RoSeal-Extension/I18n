@@ -23,7 +23,7 @@
     },
 
     "errorpage_machineid": {
-        "message": ""
+        "message": "Machine ID ของ Roblox : {robloxMachineId}"
     },
 
     // the 404 error page that appears if request is not valid.
@@ -1887,7 +1887,7 @@
         "message": "หน้าหลักที่ไม่มีแมพที่ \"เล่นต่อ\" ในรายการ"
     },
     "features_CSSFixes_title": {
-        "message": "แก้ไขสไตล์ (CSS) ต่างๆ ทั่วไซต์"
+        "message": "แก้ไขสไตล์ (CSS) ต่างๆ ทั่วเว็ปไซต์"
     },
     "features_MoveExperienceEvents_title": {
         "message": "ย้ายกิจกรรมของ แมพ ไปที่แท็บของตัวเอง"
@@ -1947,7 +1947,7 @@
         "message": "เพิ่มสถิติเหรีญตราเพิ่มเติมในหน้าเหรีญตรา"
     },
     "features_ErrorShowMachineID_title": {
-        "message": ""
+        "message": "แสดง Machine ID ของ Roblox ที่มุมล่างขวาของหน้าผิดผลาด"
     },
 
     "popup_extensionname": {
@@ -2005,14 +2005,14 @@
     },
 
     "popup_languageswitcher_title": {
-        "message": ""
+        "message": "สลับภาษา"
     },
     // i.e. "American English (default)"
     "popup_languageswitcher_defaulttext": {
-        "message": ""
+        "message": "(ค่าเริ่มต้น)"
     },
     "popup_languageswitcher_changenotice": {
-        "message": ""
+        "message": "บางหน้าอาจต้องรีเฟรช 2-3 ครั้งเพื่อให้มีการเปลี่ยนแปลง"
     },
 
     // Display in the RoSeal popup and in settings.
