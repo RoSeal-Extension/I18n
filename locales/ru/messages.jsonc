@@ -22,6 +22,10 @@
     "message": "EXPERIMENTAL"
   },
 
+  "errorpage_machineid": {
+    "message": "Идентификатор машины Roblox: {robloxMachineId}"
+  },
+
   // the 404 error page that appears if request is not valid.
   // currently, it's only used by the developer product 404 page
   "errorpage_404_title": {
@@ -1110,46 +1114,46 @@
     "message": "Западное"
   },
   "discover_filters_device": {
-    "message": ""
+    "message": "Устройство"
   },
   "discover_filters_device_values_All": {
-    "message": ""
+    "message": "Любое"
   },
   "discover_filters_device_values_Desktop": {
-    "message": ""
+    "message": "ПК"
   },
   "discover_filters_device_values_Phone": {
-    "message": ""
+    "message": "Телефон"
   },
   "discover_filters_device_values_Tablet": {
-    "message": ""
+    "message": "Планшет"
   },
   "discover_filters_device_values_Console": {
-    "message": ""
+    "message": "Консоль"
   },
   "discover_filters_device_values_VR": {
-    "message": ""
+    "message": "VR"
   },
   "discover_filters_age": {
-    "message": ""
+    "message": "Возраст"
   },
   "discover_filters_age_values_All": {
-    "message": ""
+    "message": "Любой"
   },
   "discover_filters_age_values_0": {
-    "message": ""
+    "message": "Все"
   },
   "discover_filters_age_values_9": {
-    "message": ""
+    "message": "+9"
   },
   "discover_filters_age_values_13": {
-    "message": ""
+    "message": "+13"
   },
   "discover_filters_age_values_17": {
-    "message": ""
+    "message": "+17"
   },
   "discover_filters_age_values_18": {
-    "message": ""
+    "message": "+18"
   },
 
   // For each filter, the maximum and minimum labels.
@@ -1162,7 +1166,7 @@
   },
   // Tooltip shown when hovering over edit button next to the filter name for number-based filters
   "discover_filters_filter_edit": {
-    "message": ""
+    "message": "Отредактировать фильтр"
   },
 
   // Events tab stuff, there's not much here because we just grab the events container from Roblox
@@ -1601,16 +1605,16 @@
   // `_description` = the description of the feature
   // _sub_ indicates a subfeature
   "features_RemoveHomePageUnnecessarySorts_title": {
-    "message": "Удалить \"лишние\" сортировки из главной страницы"
+    "message": "Убрать \"лишние\" сортировки из главной страницы"
   },
   "features_RemoveHomePageUnnecessarySorts_description": {
     "message": "Когда функция включена, он удаляет с главной страницы все сорта, которые не соответствуют тегам: \"Рекомендовано для вас\", \"Избранное\", \"Продолжить\", \"Друзья играют\" или \"Спонсировано\"."
   },
   "features_ForceHomePageGenreExplorer_title": {
-    "message": ""
+    "message": "Переместить \"ненужные\" сортировки в проводник"
   },
   "features_ForceHomePageGenreExplorer_description": {
-    "message": ""
+    "message": "Когда функция включена, все сортировки которые не соответствуют категориям \"Рекомендовано для вас\", \"Избранное\", \"Продолжить\", \"Друзья играют\" или \"Спонсировано\", будут помещены в \"Категории\" на главную страницу в верхней части."
   },
   "features_RefreshedHomeUserHeader_title": {
     "message": "Обновлённый заголовок пользователя"
@@ -1941,6 +1945,9 @@
   },
   "features_BadgeMoreStatistics_title": {
     "message": "Добавить дополнительную статистику по бейджам на страницу бейджей"
+  },
+  "features_ErrorShowMachineID_title": {
+    "message": "Показывать идентификатор машины Roblox в правом нижнем углу на странице ошибки"
   },
 
   "popup_extensionname": {
