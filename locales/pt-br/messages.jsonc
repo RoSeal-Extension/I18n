@@ -23,7 +23,7 @@
     },
 
     "errorpage_machineid": {
-        "message": ""
+        "message": "ID da Máquina do Roblox: {robloxMachineId}"
     },
 
     // the 404 error page that appears if request is not valid.
@@ -1947,7 +1947,7 @@
         "message": "Adiciona estatísticas adicionais do emblema à página de emblemas."
     },
     "features_ErrorShowMachineID_title": {
-        "message": ""
+        "message": "Exibe o ID da Máquina do Roblox no canto inferior direito de uma página de erro."
     },
 
     "popup_extensionname": {
@@ -2005,14 +2005,14 @@
     },
 
     "popup_languageswitcher_title": {
-        "message": ""
+        "message": "Seletor de idioma"
     },
     // i.e. "American English (default)"
     "popup_languageswitcher_defaulttext": {
-        "message": ""
+        "message": "(padrão)"
     },
     "popup_languageswitcher_changenotice": {
-        "message": ""
+        "message": "Algumas páginas talvez precisem ser atualizadas algumas vezes para que a alteração tenha efeito."
     },
 
     // Display in the RoSeal popup and in settings.
