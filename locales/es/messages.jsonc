@@ -1461,13 +1461,13 @@
     },
 
     "voicechatsuspensionmodal_title": {
-        "message": ""
+        "message": "🦭 Chat de voz suspendido"
     },
     "voicechatsuspensionmodal_description": {
-        "message": ""
+        "message": "Debido a la violación de las <communityGuidelinesLink>Lineamientos de la comunidad de Roblox</communityGuidelinesLink>, tu chat de voz ha sido revocado temporalmente hasta {date}.{lineBreak}{lineBreak}Por favor, ayuda a que Roblox siga siendo divertido y mostrando respeto por los demás.{lineBreak}{lineBreak}Puedes comprobar cuánto tiempo queda en <privacySettingsLink>Ajustes de privacidad</privacySettingsLink>."
     },
     "voicechatsuspensionmodal_action": {
-        "message": ""
+        "message": "Lo Entiendo"
     },
 
     // Asking the user to enable 2SV by going to their security settings. This is just for security purposes.
@@ -1605,16 +1605,16 @@
     // `_description` = the description of the feature
     // _sub_ indicates a subfeature
     "features_RemoveHomePageUnnecessarySorts_title": {
-        "message": "Eliminar ordenamientos \"innecesarios\" de la página principal"
+        "message": "Eliminar ordenamientos \"Innecesarios\" de la página principal"
     },
     "features_RemoveHomePageUnnecessarySorts_description": {
         "message": "Cuando está habilitado, elimina cualquier ordenamiento de la página principal que no coincida con \"Recomendado para ti\", \"Favoritos\", \"Continuar\", \"Amigos jugando\" o \"Patrocinado\"."
     },
     "features_ForceHomePageGenreExplorer_title": {
-        "message": ""
+        "message": "Forzar las clasificaciones de inicio \"Innecesarios\" en un explorador de géneros"
     },
     "features_ForceHomePageGenreExplorer_description": {
-        "message": ""
+        "message": "Cuando está habilitado, todos los tipos que no coinciden con \"Recomendado para tí\", \Favoritos\", \"Continuar\", \"Amigos Jugando\", o \"Patrocinado\" se pondrán en un explorador de género \"Categorias\" en la parte superior de la sección de tipos de inicio."
     },
     "features_RefreshedHomeUserHeader_title": {
         "message": "Encabezado de usuario actualizado"
@@ -1632,16 +1632,16 @@
         "message": "Saludo \"Hola\""
     },
     "features_RefreshedHomeUserHeader_sub_ShowNameType_title": {
-        "message": ""
+        "message": "Cambiar el tipo de nombre que debe mostrarse"
     },
     "features_RefreshedHomeUserHeader_sub_ShowNameType_values_Both": {
-        "message": ""
+        "message": "Ambos"
     },
     "features_RefreshedHomeUserHeader_sub_ShowNameType_values_DisplayName": {
-        "message": ""
+        "message": "Solo Nombre En Pantalla"
     },
     "features_RefreshedHomeUserHeader_sub_ShowNameType_values_Username": {
-        "message": ""
+        "message": "Sólo nombre de usuario"
     },
     "features_MoveExperienceSocialLinks_title": {
         "message": "Mover los enlaces sociales de la experiencia sobre la descripción en la pestaña \"Acerca de\""
@@ -1692,10 +1692,10 @@
         "message": ""
     },
     "features_TooltipTimeType_values_Relative": {
-        "message": ""
+        "message": "Relativo"
     },
     "features_TooltipTimeType_values_Absolute": {
-        "message": ""
+        "message": "Absoluto"
     },
     "features_CreatedUpdatedItemsTimeType_title": {
         "message": "Cambiar el tipo de tiempo de los campos Creado/Actualizado/Unido en las páginas de los elementos"
@@ -1833,7 +1833,7 @@
         "message": "Ocultar el número de solicitudes de amistad en la barra de navegación"
     },
     "features_HideMessagesCount_title": {
-        "message": ""
+        "message": "Ocultar el recuento de mensajes en la barra de navegación"
     },
     "features_SealImages_title": {
         "message": "Reemplazar todas las imágenes con imágenes de focas"
@@ -1845,7 +1845,7 @@
         "message": "Mostrar el tipo de avatar restringido de la experiencia en las estadísticas"
     },
     "features_ShowExperienceAvatarType_sub_ShowAvatarRestriction_title": {
-        "message": ""
+        "message": "Mostrar detalles sobre el botón de visita si su avatar puede estar restringido"
     },
     "features_AssetDeleteFromInventory_title": {
         "message": "Botón \"Eliminar del inventario\" en el menú de elementos de activos"
@@ -1905,10 +1905,10 @@
         "message": "Compras rápidas y gratuitas de elementos de avatar"
     },
     "features_RemoveFriendActivityLabel_title": {
-        "message": ""
+        "message": "Eliminar la etiqueta de pie de página \"Actividad De Amigos\" en las experiencias"
     },
     "features_RemoveHomePhoneNumberUpsell_title": {
-        "message": ""
+        "message": "Eliminar Mensaje de \"Proteja Su Cuenta\" de la página de inicio."
     },
     "features_UserProfileForceUnfollow_title": {
         "message": ""
@@ -1917,31 +1917,31 @@
         "message": ""
     },
     "features_PutHomeFavoritesSortAtTop_title": {
-        "message": ""
+        "message": "Poner en la parte superior la clasificación \"Favoritos\""
     },
     "features_ShowVoiceChatSuspension_title": {
-        "message": ""
+        "message": "Mostrar los detalles de la suspensión del chat de voz y la fecha completa"
     },
     "features_ShowVoiceChatSuspension_description": {
-        "message": ""
+        "message": "Cuando se activa, muestra los detalles de la suspensión del chat de voz en un modal en todas las páginas si el usuario aún no ha sido informado. También añadirá la fecha completa de expiración de la suspensión en la página de configuración de la cuenta de privacidad."
     },
     "features_SearchByCreatorButton_title": {
-        "message": ""
+        "message": "Botón Buscar más artículos por creador de artículo"
     },
     "features_PrivateServerLinksSection_title": {
-        "message": ""
+        "message": "\"Enlace De Servidor Privado\" en la pestaña de servidores"
     },
     "features_PrivateServerLinksSection_description": {
-        "message": ""
+        "message": "Cuando está activada, añade una sección \"Enlaces a Servidores Privados\" a la pestaña de servidores. Puedes añadir enlaces a servidores privados e importarlos desde/exportarlos a un archivo de datos."
     },
     "features_PrivateServerLinksSection_sub_TryResolveOwner_title": {
-        "message": ""
+        "message": "Intenta resolver automáticamente el propietario del servidor privado"
     },
     "features_BadgeMoreStatistics_title": {
-        "message": ""
+        "message": "Añadir estadísticas adicionales a la página de insignias"
     },
     "features_ErrorShowMachineID_title": {
-        "message": ""
+        "message": "Muestra el ID de la máquina Roblox en la esquina inferior derecha de la página de error."
     },
 
     "popup_extensionname": {
