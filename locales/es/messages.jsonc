@@ -1721,12 +1721,6 @@
     "features_PersistentTransactionsSelection_description": {
         "message": "Cuando está habilitado, sus últimas selecciones en el menú desplegable persistirán, incluso después de cerrar la página. Puede dejar de funcionar cuando reciba un nuevo tipo de transacción."
     },
-    "features_BetterRobuxNavigation_title": {
-        "message": "Navegación mejorada de Robux"
-    },
-    "features_BetterRobuxNavigation_description": {
-        "message": "Cuando está habilitado, agrega un botón (+) junto a \"Robux\" en la navegación superior para redirigir a las compras de Robux y agrega el nuevo elemento \"Transacciones\" en el menú de la izquierda."
-    },
     "features_MoveAgeBracket_title": {
         "message": "Mover el rango de edad a la navegación izquierda"
     },

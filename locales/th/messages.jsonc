@@ -1721,12 +1721,6 @@
     "features_PersistentTransactionsSelection_description": {
         "message": "เมื่อเปิดใช้งาน ตัวเลือกดรอปดาวน์สุดท้ายของคุณจะยังคงอยู่ แม้จะปิดหน้าไปแล้วก็ตาม อาจเสียหายเมื่อคุณได้รับธุรกรรมใหม่"
     },
-    "features_BetterRobuxNavigation_title": {
-        "message": "แถบนำทาง โรบัค ที่ดีขึ้น"
-    },
-    "features_BetterRobuxNavigation_description": {
-        "message": "เมื่อเปิดใช้งาน เพิ่มปุ่มบวกถัดจาก โรบัค ในแถบนำทางด้านบนเพื่อเปลี่ยนเส้นทางไปยังการซื้อ โรบัค และเพิ่มธุรกรรมใหม่ในแถบนำทางด้านซ้าย"
-    },
     "features_MoveAgeBracket_title": {
         "message": "ย้ายกลุ่มอายุไปที่แถบนำทางด้านซ้าย"
     },

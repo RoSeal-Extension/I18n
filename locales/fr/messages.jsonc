@@ -1721,12 +1721,6 @@
     "features_PersistentTransactionsSelection_description": {
         "message": "Lorsqu'elle est activée, vos dernières sélections déroulantes seront conservées, même après la fermeture de la page. Il peut se casser lorsque vous recevez un nouveau type de transaction."
     },
-    "features_BetterRobuxNavigation_title": {
-        "message": "Meilleure navigation Robux"
-    },
-    "features_BetterRobuxNavigation_description": {
-        "message": "Lorsqu'il est activé, ajoute un bouton Plus à côté de Robux dans la navigation supérieure pour rediriger vers les achats Robux, et ajoute un nouvel élément Transactions à la navigation de gauche."
-    },
     "features_MoveAgeBracket_title": {
         "message": "Déplacer la tranche d'âge vers la navigation de gauche"
     },

@@ -1721,12 +1721,6 @@
     "features_PersistentTransactionsSelection_description": {
         "message": "Quando ativado, suas últimas seleções de menu suspenso serão mantidas, mesmo após fechar a página. Pode ocorrer falhas quando receber um novo tipo de transação."
     },
-    "features_BetterRobuxNavigation_title": {
-        "message": "Navegação aprimorada de Robux"
-    },
-    "features_BetterRobuxNavigation_description": {
-        "message": "Quando ativado, adiciona um botão de Mais ao lado de Robux na navegação superior para redirecionar para compras de Robux e adiciona um novo botão de Transações na barra de navegação esquerda."
-    },
     "features_MoveAgeBracket_title": {
         "message": "Mover a faixa etária para a barra de navegação esquerda"
     },
