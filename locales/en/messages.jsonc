@@ -1721,12 +1721,6 @@
     "features_PersistentTransactionsSelection_description": {
         "message": "When enabled, your last dropdown selections will persist, even after closing the page. It may break when you receive a new transaction type."
     },
-    "features_BetterRobuxNavigation_title": {
-        "message": "Better Robux navigation"
-    },
-    "features_BetterRobuxNavigation_description": {
-        "message": "When enabled, adds a Plus button next to Robux in the top navigation to redirect to Robux purchases, and adds a new Transactions item to the left navigation."
-    },
     "features_MoveAgeBracket_title": {
         "message": "Move the age bracket to the left navigation"
     },
