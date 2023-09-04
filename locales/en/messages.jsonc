@@ -1865,7 +1865,7 @@
         "message": "Disabled"
     },
     "features_AnimalText_title": {
-        "message": "Replace all images with text from a certain animal"
+        "message": "Replace all text with text from a certain animal"
     },
     "features_AnimalText_values_Seal": {
         "message": "Seal"
