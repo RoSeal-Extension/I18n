@@ -986,20 +986,20 @@
     },
 
     "animaltext_Seal1": {
-        "message": ""
+        "message": "тюлень"
     },
 
     "animaltext_Kitty1": {
-        "message": ""
+        "message": "мрр"
     },
     "animaltext_Kitty2": {
-        "message": ""
+        "message": "мяу"
     },
     "animaltext_Kitty3": {
-        "message": ""
+        "message": "миау"
     },
     "animaltext_Kitty4": {
-        "message": ""
+        "message": "мррияу"
     },
 
     // Adding "View Icon Asset" button to the experience badge context menu
@@ -1584,7 +1584,7 @@
         "message": "Страница операций"
     },
     "features_section_miscellaneous_animals": {
-        "message": ""
+        "message": "Животные"
     },
     "features_section_miscellaneous_navbars": {
         "message": "Панель"
@@ -1853,28 +1853,28 @@
         "message": "Скрыть счётчик сообщений в панели навигации"
     },
     "features_AnimalImages_title": {
-        "message": ""
+        "message": "Заменить все изображения на картинки определенного животного"
     },
     "features_AnimalImages_values_Seal": {
-        "message": ""
+        "message": "Тюлени"
     },
     "features_AnimalImages_values_Kitty": {
-        "message": ""
+        "message": "Котики"
     },
     "features_AnimalImages_values_Disabled": {
-        "message": ""
+        "message": "Отключить"
     },
     "features_AnimalText_title": {
-        "message": ""
+        "message": "Заменить текста на текст определенного животного"
     },
     "features_AnimalText_values_Seal": {
-        "message": ""
+        "message": "Тюлени"
     },
     "features_AnimalText_values_Kitty": {
-        "message": ""
+        "message": "Котики"
     },
     "features_AnimalText_values_Disabled": {
-        "message": ""
+        "message": "Отключить"
     },
     "features_ExperienceMediaAltTextButton_title": {
         "message": "Улучшение работы с кнопкой ALT для картинок"
@@ -2033,18 +2033,18 @@
     },
     // Error shown when it cannot parse the data file
     "popup_extensiondata_import_alert_error": {
-        "message": "Пожалуйста, повторите попытку с подходящим файлом."
+        "message": "Пожалуйста, повторите попытку с нужным файлом."
     },
 
     "popup_languageswitcher_title": {
-        "message": ""
+        "message": "Сменить язык"
     },
     // i.e. "American English (default)"
     "popup_languageswitcher_defaulttext": {
-        "message": ""
+        "message": "русский (по умолч.)"
     },
     "popup_languageswitcher_changenotice": {
-        "message": ""
+        "message": "Для того чтобы изменения вступили в силу, может потребоваться несколько раз обновить страницу."
     },
 
     // Display in the RoSeal popup and in settings.
