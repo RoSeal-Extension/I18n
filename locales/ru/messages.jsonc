@@ -985,6 +985,23 @@
         "message": "Получено"
     },
 
+    "animaltext_Seal1": {
+        "message": ""
+    },
+
+    "animaltext_Kitty1": {
+        "message": ""
+    },
+    "animaltext_Kitty2": {
+        "message": ""
+    },
+    "animaltext_Kitty3": {
+        "message": ""
+    },
+    "animaltext_Kitty4": {
+        "message": ""
+    },
+
     // Adding "View Icon Asset" button to the experience badge context menu
     "badge_contextmenu_viewiconasset": {
         "message": "Просмотреть иконку"
@@ -1566,8 +1583,8 @@
     "features_section_miscellaneous_transactionspage": {
         "message": "Страница операций"
     },
-    "features_section_miscellaneous_seals": {
-        "message": "Тюлени"
+    "features_section_miscellaneous_animals": {
+        "message": ""
     },
     "features_section_miscellaneous_navbars": {
         "message": "Панель"
@@ -1835,8 +1852,29 @@
     "features_HideMessagesCount_title": {
         "message": "Скрыть счётчик сообщений в панели навигации"
     },
-    "features_SealImages_title": {
-        "message": "Заменить все изображения на картинки тюленей"
+    "features_AnimalImages_title": {
+        "message": ""
+    },
+    "features_AnimalImages_values_Seal": {
+        "message": ""
+    },
+    "features_AnimalImages_values_Kitty": {
+        "message": ""
+    },
+    "features_AnimalImages_values_Disabled": {
+        "message": ""
+    },
+    "features_AnimalText_title": {
+        "message": ""
+    },
+    "features_AnimalText_values_Seal": {
+        "message": ""
+    },
+    "features_AnimalText_values_Kitty": {
+        "message": ""
+    },
+    "features_AnimalText_values_Disabled": {
+        "message": ""
     },
     "features_ExperienceMediaAltTextButton_title": {
         "message": "Улучшение работы с кнопкой ALT для картинок"

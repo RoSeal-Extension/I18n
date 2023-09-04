@@ -985,6 +985,23 @@
         "message": "ได้รับ"
     },
 
+    "animaltext_Seal1": {
+        "message": ""
+    },
+
+    "animaltext_Kitty1": {
+        "message": ""
+    },
+    "animaltext_Kitty2": {
+        "message": ""
+    },
+    "animaltext_Kitty3": {
+        "message": ""
+    },
+    "animaltext_Kitty4": {
+        "message": ""
+    },
+
     // Adding "View Icon Asset" button to the experience badge context menu
     "badge_contextmenu_viewiconasset": {
         "message": "ดูรูปไอคอน"
@@ -1566,8 +1583,8 @@
     "features_section_miscellaneous_transactionspage": {
         "message": "หน้าธุรกรรม"
     },
-    "features_section_miscellaneous_seals": {
-        "message": "แมวน้ำ"
+    "features_section_miscellaneous_animals": {
+        "message": ""
     },
     "features_section_miscellaneous_navbars": {
         "message": "แถบนำทาง"
@@ -1835,8 +1852,29 @@
     "features_HideMessagesCount_title": {
         "message": "ซ่อนจำนวนข้อความในแถบนำทาง"
     },
-    "features_SealImages_title": {
-        "message": "แทนที่ภาพทั้งหมดด้วยภาพแมวน้ำ !"
+    "features_AnimalImages_title": {
+        "message": ""
+    },
+    "features_AnimalImages_values_Seal": {
+        "message": ""
+    },
+    "features_AnimalImages_values_Kitty": {
+        "message": ""
+    },
+    "features_AnimalImages_values_Disabled": {
+        "message": ""
+    },
+    "features_AnimalText_title": {
+        "message": ""
+    },
+    "features_AnimalText_values_Seal": {
+        "message": ""
+    },
+    "features_AnimalText_values_Kitty": {
+        "message": ""
+    },
+    "features_AnimalText_values_Disabled": {
+        "message": ""
     },
     "features_ExperienceMediaAltTextButton_title": {
         "message": "ปุ่มข้อความแสดงภาพขนาดย่อขอ แมพ ที่ดีขึ้น"

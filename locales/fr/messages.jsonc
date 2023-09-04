@@ -985,6 +985,23 @@
         "message": ""
     },
 
+    "animaltext_Seal1": {
+        "message": ""
+    },
+
+    "animaltext_Kitty1": {
+        "message": ""
+    },
+    "animaltext_Kitty2": {
+        "message": ""
+    },
+    "animaltext_Kitty3": {
+        "message": ""
+    },
+    "animaltext_Kitty4": {
+        "message": ""
+    },
+
     // Adding "View Icon Asset" button to the experience badge context menu
     "badge_contextmenu_viewiconasset": {
         "message": "Voir la page de l'icône"
@@ -1566,8 +1583,8 @@
     "features_section_miscellaneous_transactionspage": {
         "message": "Page des transactions"
     },
-    "features_section_miscellaneous_seals": {
-        "message": "Phoques"
+    "features_section_miscellaneous_animals": {
+        "message": ""
     },
     "features_section_miscellaneous_navbars": {
         "message": "Barres de navigation"
@@ -1835,8 +1852,29 @@
     "features_HideMessagesCount_title": {
         "message": ""
     },
-    "features_SealImages_title": {
-        "message": "Remplacer toutes les images par des images de phoques"
+    "features_AnimalImages_title": {
+        "message": ""
+    },
+    "features_AnimalImages_values_Seal": {
+        "message": ""
+    },
+    "features_AnimalImages_values_Kitty": {
+        "message": ""
+    },
+    "features_AnimalImages_values_Disabled": {
+        "message": ""
+    },
+    "features_AnimalText_title": {
+        "message": ""
+    },
+    "features_AnimalText_values_Seal": {
+        "message": ""
+    },
+    "features_AnimalText_values_Kitty": {
+        "message": ""
+    },
+    "features_AnimalText_values_Disabled": {
+        "message": ""
     },
     "features_ExperienceMediaAltTextButton_title": {
         "message": "Meilleure expérience du bouton de texte alternatif de la vignette"
