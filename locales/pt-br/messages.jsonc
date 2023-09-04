@@ -985,6 +985,23 @@
         "message": "Desbloqueado"
     },
 
+    "animaltext_Seal1": {
+        "message": ""
+    },
+
+    "animaltext_Kitty1": {
+        "message": ""
+    },
+    "animaltext_Kitty2": {
+        "message": ""
+    },
+    "animaltext_Kitty3": {
+        "message": ""
+    },
+    "animaltext_Kitty4": {
+        "message": ""
+    },
+
     // Adding "View Icon Asset" button to the experience badge context menu
     "badge_contextmenu_viewiconasset": {
         "message": "Visualizar Ativo de Ícone "
@@ -1566,8 +1583,8 @@
     "features_section_miscellaneous_transactionspage": {
         "message": "Página de Transações"
     },
-    "features_section_miscellaneous_seals": {
-        "message": "Focas"
+    "features_section_miscellaneous_animals": {
+        "message": ""
     },
     "features_section_miscellaneous_navbars": {
         "message": "Barras de Navegação"
@@ -1835,8 +1852,29 @@
     "features_HideMessagesCount_title": {
         "message": "Ocultar a contagem de mensagens na barra de navegação."
     },
-    "features_SealImages_title": {
-        "message": "Substituir todas as imagens por imagens de focas"
+    "features_AnimalImages_title": {
+        "message": ""
+    },
+    "features_AnimalImages_values_Seal": {
+        "message": ""
+    },
+    "features_AnimalImages_values_Kitty": {
+        "message": ""
+    },
+    "features_AnimalImages_values_Disabled": {
+        "message": ""
+    },
+    "features_AnimalText_title": {
+        "message": ""
+    },
+    "features_AnimalText_values_Seal": {
+        "message": ""
+    },
+    "features_AnimalText_values_Kitty": {
+        "message": ""
+    },
+    "features_AnimalText_values_Disabled": {
+        "message": ""
     },
     "features_ExperienceMediaAltTextButton_title": {
         "message": "Botão de texto alternativo em thumbnails de experiências melhorado."
