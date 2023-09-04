@@ -985,6 +985,23 @@
         "message": "Awarded"
     },
 
+    "animaltext_Seal1": {
+        "message": "seal"
+    },
+
+    "animaltext_Kitty1": {
+        "message": "mreow"
+    },
+    "animaltext_Kitty2": {
+        "message": "meow"
+    },
+    "animaltext_Kitty3": {
+        "message": "mraeow"
+    },
+    "animaltext_Kitty4": {
+        "message": "mew"
+    },
+
     // Adding "View Icon Asset" button to the experience badge context menu
     "badge_contextmenu_viewiconasset": {
         "message": "View Icon Asset"
@@ -1566,8 +1583,8 @@
     "features_section_miscellaneous_transactionspage": {
         "message": "Transactions Page"
     },
-    "features_section_miscellaneous_seals": {
-        "message": "Seals"
+    "features_section_miscellaneous_animals": {
+        "message": "Animals"
     },
     "features_section_miscellaneous_navbars": {
         "message": "Navbars"
@@ -1835,8 +1852,29 @@
     "features_HideMessagesCount_title": {
         "message": "Hide messages count in the navigation bar"
     },
-    "features_SealImages_title": {
-        "message": "Replace all images with seal images"
+    "features_AnimalImages_title": {
+        "message": "Replace all images with images of a certain animal"
+    },
+    "features_AnimalImages_values_Seal": {
+        "message": "Seal"
+    },
+    "features_AnimalImages_values_Kitty": {
+        "message": "Kitty"
+    },
+    "features_AnimalImages_values_Disabled": {
+        "message": "Disabled"
+    },
+    "features_AnimalText_title": {
+        "message": "Replace all images with text from a certain animal"
+    },
+    "features_AnimalText_values_Seal": {
+        "message": "Seal"
+    },
+    "features_AnimalText_values_Kitty": {
+        "message": "Kitty"
+    },
+    "features_AnimalText_values_Disabled": {
+        "message": "Disabled"
     },
     "features_ExperienceMediaAltTextButton_title": {
         "message": "Better experience thumbnail alt text button"
