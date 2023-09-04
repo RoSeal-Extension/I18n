@@ -986,20 +986,20 @@
     },
 
     "animaltext_Seal1": {
-        "message": ""
+        "message": "foca"
     },
 
     "animaltext_Kitty1": {
-        "message": ""
+        "message": "mreou"
     },
     "animaltext_Kitty2": {
-        "message": ""
+        "message": "miau"
     },
     "animaltext_Kitty3": {
-        "message": ""
+        "message": "mraeou"
     },
     "animaltext_Kitty4": {
-        "message": ""
+        "message": "mia"
     },
 
     // Adding "View Icon Asset" button to the experience badge context menu
