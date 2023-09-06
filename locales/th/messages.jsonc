@@ -2009,12 +2009,6 @@
     },
 
     // Popup data managemenet
-    "popup_extensiondata_show": {
-        "message": "แสดง"
-    },
-    "popup_extensiondata_hide": {
-        "message": "ซ่อน"
-    },
     "popup_extensiondata": {
         "message": "ข้อมูลส่วนขยาย"
     },

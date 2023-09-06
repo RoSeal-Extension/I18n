@@ -2009,12 +2009,6 @@
     },
 
     // Popup data managemenet
-    "popup_extensiondata_show": {
-        "message": "Показать"
-    },
-    "popup_extensiondata_hide": {
-        "message": "Спрятать"
-    },
     "popup_extensiondata": {
         "message": "Данные расширения"
     },

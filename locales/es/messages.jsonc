@@ -2009,12 +2009,6 @@
     },
 
     // Popup data managemenet
-    "popup_extensiondata_show": {
-        "message": "Mostrar"
-    },
-    "popup_extensiondata_hide": {
-        "message": "Ocultar"
-    },
     "popup_extensiondata": {
         "message": "Datos de la extensión"
     },
