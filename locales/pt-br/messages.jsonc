@@ -1584,7 +1584,7 @@
         "message": "Página de Transações"
     },
     "features_section_miscellaneous_animals": {
-        "message": ""
+        "message": "Animais"
     },
     "features_section_miscellaneous_navbars": {
         "message": "Barras de Navegação"
@@ -1853,28 +1853,28 @@
         "message": "Ocultar a contagem de mensagens na barra de navegação."
     },
     "features_AnimalImages_title": {
-        "message": ""
+        "message": "Substituir todas as imagens por imagens de um determinado animal"
     },
     "features_AnimalImages_values_Seal": {
-        "message": ""
+        "message": "Foca"
     },
     "features_AnimalImages_values_Kitty": {
-        "message": ""
+        "message": "Gatinho"
     },
     "features_AnimalImages_values_Disabled": {
-        "message": ""
+        "message": "Desativado"
     },
     "features_AnimalText_title": {
-        "message": ""
+        "message": "Substituir todo o texto pelo texto de um determinado animal"
     },
     "features_AnimalText_values_Seal": {
-        "message": ""
+        "message": "Foca"
     },
     "features_AnimalText_values_Kitty": {
-        "message": ""
+        "message": "Gatinho"
     },
     "features_AnimalText_values_Disabled": {
-        "message": ""
+        "message": "Desativado"
     },
     "features_ExperienceMediaAltTextButton_title": {
         "message": "Botão de texto alternativo em thumbnails de experiências melhorado."
