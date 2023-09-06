@@ -2009,12 +2009,6 @@
     },
 
     // Popup data managemenet
-    "popup_extensiondata_show": {
-        "message": "Show"
-    },
-    "popup_extensiondata_hide": {
-        "message": "Hide"
-    },
     "popup_extensiondata": {
         "message": "Extension Data"
     },
@@ -2022,7 +2016,7 @@
         "message": "Download Data"
     },
     "popup_extensiondata_request": {
-        "message": "Request Data"
+        "message": "Get Data"
     },
     "popup_extensiondata_import": {
         "message": "Import"
