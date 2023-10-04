@@ -269,7 +269,7 @@
     "accountsmanager_error_InvalidAccount": {
         "message": "Compte invalide, veillez rafraîchir la page."
     },
-    "accountsmanager_error_NoCookiePermission": {
+    "accountsmanager_error_NoPermission": {
         "message": "RoSeal n'est pas autorisé à gérer les cookies du navigateur. Veuillez l'autoriser dans la boîte de dialogue contextuelle de RoSeal à partir de la barre d'outils du navigateur."
     },
 

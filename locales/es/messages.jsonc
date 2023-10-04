@@ -269,7 +269,7 @@
     "accountsmanager_error_InvalidAccount": {
         "message": "Cuenta no válida, actualiza la página."
     },
-    "accountsmanager_error_NoCookiePermission": {
+    "accountsmanager_error_NoPermission": {
         "message": "RoSeal no tiene permiso para administrar cookies del navegador. Permíteselo en el cuadro de diálogo emergente de RoSeal desde la barra de herramientas del navegador."
     },
 
