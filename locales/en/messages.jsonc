@@ -1981,6 +1981,9 @@
     "features_ErrorShowMachineID_title": {
         "message": "Show the Roblox Machine ID in the bottom-right corner of the error page."
     },
+    "features_HideWalletInNav_title": {
+        "message": "Force the wallet amount in navigation to only show in the dropdown"
+    },
 
     "popup_extensionname": {
         "message": "{sealEmoji} RoSeal"
