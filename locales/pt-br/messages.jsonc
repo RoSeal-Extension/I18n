@@ -1981,6 +1981,9 @@
     "features_ErrorShowMachineID_title": {
         "message": "Exibe o ID da Máquina do Roblox no canto inferior direito de uma página de erro."
     },
+    "features_HideWalletInNav_title": {
+        "message": ""
+    },
 
     "popup_extensionname": {
         "message": "{sealEmoji} RoSeal"

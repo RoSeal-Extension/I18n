@@ -1981,6 +1981,9 @@
     "features_ErrorShowMachineID_title": {
         "message": "แสดง Machine ID ของ Roblox ที่มุมล่างขวาของหน้าผิดผลาด"
     },
+    "features_HideWalletInNav_title": {
+        "message": ""
+    },
 
     "popup_extensionname": {
         "message": "{sealEmoji} RoSeal"

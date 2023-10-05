@@ -1981,6 +1981,9 @@
     "features_ErrorShowMachineID_title": {
         "message": "Показывать идентификатор машины Roblox в правом нижнем углу на странице ошибки"
     },
+    "features_HideWalletInNav_title": {
+        "message": ""
+    },
 
     "popup_extensionname": {
         "message": "{sealEmoji} RoSeal"
