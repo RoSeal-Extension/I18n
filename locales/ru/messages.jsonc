@@ -269,7 +269,7 @@
     "accountsmanager_error_InvalidAccount": {
         "message": "Невалидная учетная запись, пожалуйста, обновите страницу."
     },
-    "accountsmanager_error_NoCookiePermission": {
+    "accountsmanager_error_NoPermission": {
         "message": "RoSeal не имеет права на управление файлами cookie браузера. Пожалуйста, разрешите это на странице настроек RoSeal."
     },
 
