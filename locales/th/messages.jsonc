@@ -986,20 +986,20 @@
     },
 
     "animaltext_Seal1": {
-        "message": ""
+        "message": "แมวน้ำ"
     },
 
     "animaltext_Kitty1": {
-        "message": ""
+        "message": "mreow"
     },
     "animaltext_Kitty2": {
-        "message": ""
+        "message": "เหมียว"
     },
     "animaltext_Kitty3": {
-        "message": ""
+        "message": "mraeow"
     },
     "animaltext_Kitty4": {
-        "message": ""
+        "message": "mew"
     },
 
     // Adding "View Icon Asset" button to the experience badge context menu
@@ -1575,7 +1575,7 @@
         "message": "ไอเทม อวตาร"
     },
     "features_section_miscellaneous": {
-        "message": "เบ็ดเตล็ด"
+        "message": "อื่นๆ"
     },
     "features_section_miscellaneous_general": {
         "message": "ทั่วไป"
@@ -1584,7 +1584,7 @@
         "message": "หน้าธุรกรรม"
     },
     "features_section_miscellaneous_animals": {
-        "message": ""
+        "message": "ฟีเจอร์ สัตว์"
     },
     "features_section_miscellaneous_navbars": {
         "message": "แถบนำทาง"
@@ -1853,28 +1853,28 @@
         "message": "ซ่อนจำนวนข้อความในแถบนำทาง"
     },
     "features_AnimalImages_title": {
-        "message": ""
+        "message": "แทนที่รูปภาพทั้งหมดด้วยรูปภาพของสัตว์บางชนิด"
     },
     "features_AnimalImages_values_Seal": {
-        "message": ""
+        "message": "แมวน้ำ"
     },
     "features_AnimalImages_values_Kitty": {
-        "message": ""
+        "message": "แมว"
     },
     "features_AnimalImages_values_Disabled": {
-        "message": ""
+        "message": "ปิดการใช้งาน"
     },
     "features_AnimalText_title": {
-        "message": ""
+        "message": "แทนที่รูปภาพทั้งหมดด้วยข้อความจากสัตว์บางชนิด"
     },
     "features_AnimalText_values_Seal": {
-        "message": ""
+        "message": "แมวน้ำ"
     },
     "features_AnimalText_values_Kitty": {
-        "message": ""
+        "message": "แมว"
     },
     "features_AnimalText_values_Disabled": {
-        "message": ""
+        "message": "ปิดการใช้งาน"
     },
     "features_ExperienceMediaAltTextButton_title": {
         "message": "ปุ่มข้อความแสดงภาพขนาดย่อขอ แมพ ที่ดีขึ้น"
