@@ -559,7 +559,7 @@
 
     // Dropdown selections for "Passes" and "Developer Products"
     "experience_store_selection_passes": {
-        "message": "Пропуски"
+        "message": "Пассы"
     },
     "experience_store_selection_developerproducts": {
         "message": "Продукты разработчиков"
@@ -588,40 +588,40 @@
     // Experience passes stuff, we discard roblox's version and remake all of it
     // filtering stuff
     "experience_passes_filtering_offsale": {
-        "message": "Включить неактивные пропуски"
+        "message": "Включить неактивные пассы"
     },
     "experience_passes_filtering_onsale": {
-        "message": "Включить активные пропуски"
+        "message": "Включить активные пассы"
     },
     "experience_passes_filtering_unowned": {
-        "message": "Включить неимеющие пропуски"
+        "message": "Включить неимеющие пассы"
     },
     "experience_passes_filtering_owned": {
-        "message": "Включить имеющие пропуски"
+        "message": "Включить имеющие пассы"
     },
     // Viewing as a specific user
     "experience_passes_filtering_user": {
-        "message": "Посмотреть как:"
+        "message": "Просмотреть как:"
     },
     // Errors/no passes
     "experience_passes_genericerror": {
-        "message": "При попытке получения пропусков произошла ошибка, пожалуйста, повторите попытку позже."
+        "message": "При попытке получения пассов произошла ошибка, пожалуйста, повторите попытку позже."
     },
     "experience_passes_nopasses": {
-        "message": "Пропуски отсутствуют."
+        "message": "Пассы отсутствуют."
     },
     // Indicates that there is none from your search from the filters, but can change if filtering options are changed
     "experience_passes_nopassesfiltered": {
-        "message": "Нет пропусков, полученных из вашего поиска."
+        "message": "Нет пассов, полученных из поиска."
     },
     "experience_passes_entry_owned": {
-        "message": "Имеется"
+        "message": "Куплено"
     },
     "experience_passes_entry_buy": {
         "message": "Купить"
     },
     "experience_passes_addpass": {
-        "message": "Добавить пропуск"
+        "message": "Добавить пасс"
     },
 
     // Shown over the Play button to indicate to the user that their avatar may not be as intended in the experience
@@ -1054,10 +1054,10 @@
 
     // This is for the shared component between Passes "View as" and badges "View as/Compare with"
     "userlookup_placeholder": {
-        "message": "Пользователь"
+        "message": "Никнейм"
     },
     "userlookup_directlookuperror": {
-        "message": "Пользователь с таким именем не найден."
+        "message": "Пользователь с таким никнеймом не найден."
     },
 
     // Discover filters labels and dropdown values stuff
@@ -1065,7 +1065,7 @@
         "message": "Фильтры"
     },
     "discover_filters_inputhint": {
-        "message": "Числа в виде 0 будут игнорироваться"
+        "message": "Числа в виде нуля будут игнорироваться"
     },
     "discover_filters_applyfilters": {
         "message": "Применить"
@@ -1200,7 +1200,7 @@
     },
     // View as: {user} stuff or compare
     "experience_badges_viewas": {
-        "message": "Посмотреть как:"
+        "message": "Просмотреть как:"
     },
     "experience_badges_comparewith": {
         "message": "Сравнить с:"
@@ -1208,22 +1208,22 @@
 
     // Experience badges sorting/filters options
     "experience_badges_filtering_active": {
-        "message": "Показать активные предметы"
+        "message": "Показать активные значки"
     },
     "experience_badges_filtering_inactive": {
-        "message": "Показать неактивные предметы"
+        "message": "Показать неактивные значки"
     },
     "experience_badges_filtering_obtained": {
-        "message": "Показать полученные предметы"
+        "message": "Показать полученные значки"
     },
     "experience_badges_filtering_unobtained": {
-        "message": "Показать недоступные предметы"
+        "message": "Показать недоступные значки"
     },
     "experience_badges_sorting_sortby_label": {
         "message": "Сортировать по"
     },
     "experience_badges_sorting_sortdirection_label": {
-        "message": "Направление сортировки"
+        "message": "Хронология"
     },
     "experience_badges_sorting_sortobtained_label": {
         "message": "Получено"
@@ -1235,25 +1235,25 @@
         "message": "Получили за всё время"
     },
     "experience_badges_sorting_sortby_values_AwardedTime": {
-        "message": "Получили последние"
+        "message": "Последнему значку"
     },
     "experience_badges_sorting_sortby_values_Created": {
-        "message": "Создан"
+        "message": "Созданию значка"
     },
     "experience_badges_sorting_sortby_values_Name": {
-        "message": "Название"
+        "message": "Названию значка"
     },
     "experience_badges_sorting_sortdirection_values_Ascending": {
-        "message": "Выше"
+        "message": "Сначала новые"
     },
     "experience_badges_sorting_sortdirection_values_Descending": {
-        "message": "Ниже"
+        "message": "Сначала старые"
     },
     "experience_badges_sorting_sortobtained_values_First": {
-        "message": "Первый"
+        "message": "По убыванию"
     },
     "experience_badges_sorting_sortobtained_values_Last": {
-        "message": "Последний"
+        "message": "По возрастанию"
     },
     "experience_badges_sorting_sortobtained_values_Default": {
         "message": "По умолчанию"
@@ -1652,13 +1652,13 @@
         "message": "Изменение типа отображаемого имени"
     },
     "features_RefreshedHomeUserHeader_sub_ShowNameType_values_Both": {
-        "message": "Оба"
+        "message": "Оба варианта"
     },
     "features_RefreshedHomeUserHeader_sub_ShowNameType_values_DisplayName": {
-        "message": "Только отображаемое имя"
+        "message": "Только отображаемый дисплей"
     },
     "features_RefreshedHomeUserHeader_sub_ShowNameType_values_Username": {
-        "message": "Только имя пользователя"
+        "message": "Только никнейм"
     },
     "features_MoveExperienceSocialLinks_title": {
         "message": "Переместить социальные ссылки на страницу игры над описанием в разделе \"О игре\""
@@ -1682,7 +1682,7 @@
         "message": "Параметры фильтрации в вкладке \"Магазин игры\""
     },
     "features_ExperienceStoreItemFiltering_description": {
-        "message": "Когда эта опция включена, то во вкладках \"Пропуски\" и \"Продукты разработчика\" в магазине игры отображаются дополнительные параметры для фильтра."
+        "message": "Когда эта опция включена, то во вкладках \"Пассы\" и \"Продукты разработчика\" в магазине игры отображаются дополнительные параметры для фильтра."
     },
     "features_WebsiteOfflineMode_title": {
         "message": "Отображение в режиме оффлайн только на сайте"
@@ -1931,7 +1931,7 @@
         "message": "Когда эта функция включена, то переход к другой группе из любого списка групп не требует обновления страницы."
     },
     "features_ItemAdditionalProductInfo_title": {
-        "message": "Показывать дополнительную информацию о пропусках (Gamepasses)"
+        "message": "Показывать дополнительную информацию о пассах (Gamepasses)"
     },
     "features_RefreshAvatarItemDetails_title": {
         "message": "Кнопка обновления в разделе предмета"
@@ -1964,7 +1964,7 @@
         "message": "При включении этой функции на всех страницах отображается модальное окно с информацией о приостановке голосового чата, если пользователь еще не был проинформирован. Он также добавляет полную дату истечения срока приостановки на страницу настроек учетной записи конфиденциальности."
     },
     "features_SearchByCreatorButton_title": {
-        "message": "Кнопка поиска дополнительных предметов рядом с именем создателя"
+        "message": "Кнопка поиска дополнительных предметов рядом с никнеймом создателя"
     },
     "features_PrivateServerLinksSection_title": {
         "message": "Добавить раздел в вкладке серверов \"Ссылки на приватные сервера\""
