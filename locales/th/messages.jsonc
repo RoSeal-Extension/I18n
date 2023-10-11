@@ -996,10 +996,10 @@
         "message": "เหมียว"
     },
     "animaltext_Kitty3": {
-        "message": "mraeow"
+        "message": "เมียว"
     },
     "animaltext_Kitty4": {
-        "message": "mew"
+        "message": "เมะ"
     },
 
     // Adding "View Icon Asset" button to the experience badge context menu
@@ -1125,7 +1125,7 @@
         "message": "กีฬา"
     },
     "discover_filters_genre_values_Fighting": {
-        "message": "ต่อสู่"
+        "message": "ต่อสู้"
     },
     "discover_filters_genre_values_Western": {
         "message": "ตะวันตก"
@@ -1982,7 +1982,7 @@
         "message": "แสดง Machine ID ของ Roblox ที่มุมล่างขวาของหน้าผิดผลาด"
     },
     "features_HideWalletInNav_title": {
-        "message": ""
+        "message": "บังคับให้จํานวนกระเป๋าเงินในการนําทางแสดงเฉพาะในเมนูแบบเลื่อนลง"
     },
 
     "popup_extensionname": {
@@ -2034,7 +2034,7 @@
     },
 
     "popup_languageswitcher_title": {
-        "message": "สลับภาษา"
+        "message": "เปลื่ยนภาษา"
     },
     // i.e. "American English (default)"
     "popup_languageswitcher_defaulttext": {
