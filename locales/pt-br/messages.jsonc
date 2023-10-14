@@ -1982,7 +1982,7 @@
         "message": "Exibe o ID da Máquina do Roblox no canto inferior direito de uma página de erro."
     },
     "features_HideWalletInNav_title": {
-        "message": ""
+        "message": "Forçar que o valor da carteira na navegação seja exibido apenas pelo menu suspenso"
     },
 
     "popup_extensionname": {
@@ -2019,7 +2019,7 @@
         "message": "Baixar Dados"
     },
     "popup_extensiondata_request": {
-        "message": "Solicitar Dados"
+        "message": "Obter Dados"
     },
     "popup_extensiondata_import": {
         "message": "Importar"
