@@ -1982,7 +1982,7 @@
         "message": "Показывать идентификатор машины Roblox в правом нижнем углу на странице ошибки"
     },
     "features_HideWalletInNav_title": {
-        "message": ""
+        "message": "Переместить кошелёк в раскрывающий список"
     },
 
     "popup_extensionname": {
