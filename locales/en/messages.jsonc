@@ -1684,12 +1684,6 @@
     "features_ExperienceStoreItemFiltering_description": {
         "message": "When enabled, shows additional filtering options in the Passes and Developer Products tabs in experience store."
     },
-    "features_WebsiteOfflineMode_title": {
-        "message": "Display as offline when only on the website"
-    },
-    "features_WebsiteOfflineMode_description": {
-        "message": "When enabled, no one will know when you are on the website. It may take a few minutes to take effect."
-    },
     "features_AccountsManager_title": {
         "message": "Accounts manager"
     },
