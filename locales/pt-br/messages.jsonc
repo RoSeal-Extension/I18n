@@ -773,6 +773,37 @@
     "avataritem_successmessage_GenericPurchase": {
         "message": "Você comprou este item com sucesso."
     },
+    "avataritem_loadingmessage_Load": {
+        "message": ""
+    },
+    "avataritem_errormessage_Flooded": {
+        "message": ""
+    },
+    "avataritem_errormessage_InsufficentBalance": {
+        "message": ""
+    },
+    "avataritem_errormessage_PriceMismatch": {
+        "message": ""
+    },
+    "avataritem_errormessage_QuantityExhausted": {
+        "message": ""
+    },
+    "avataritem_errormessage_AlreadyOwned": {
+        "message": ""
+    },
+    "avataritem_errormessage_NotForSale": {
+        "message": ""
+    },
+    "avataritem_errormessage_SupplyExhausted": {
+        "message": ""
+    },
+    "avataritem_errormessage_InsufficientFundsView": {
+        "message": ""
+    },
+    "avataritem_errormessage_PriceChangedView": {
+        "message": ""
+    },
+
     "avataritem_errormessage_Load": {
         "message": "Você está sendo limitado em sua taxa de uso pelo Roblox, por favor, tente novamente mais tarde."
     },
