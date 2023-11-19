@@ -773,6 +773,37 @@
     "avataritem_successmessage_GenericPurchase": {
         "message": "You have successfully purchased this item."
     },
+    "avataritem_loadingmessage_Load": {
+        "message": "Purchasing item..."
+    },
+    "avataritem_errormessage_Flooded": {
+        "message": "There are too many attempts to purchase this item, please try again later."
+    },
+    "avataritem_errormessage_InsufficentBalance": {
+        "message": "You do not have enough Robux to purchase this item."
+    },
+    "avataritem_errormessage_PriceMismatch": {
+        "message": "The price of this item changed recently, please refresh the page."
+    },
+    "avataritem_errormessage_QuantityExhausted": {
+        "message": "The limited quantity of this item has been exhausted."
+    },
+    "avataritem_errormessage_AlreadyOwned": {
+        "message": "You already own this item."
+    },
+    "avataritem_errormessage_NotForSale": {
+        "message": "This item is no longer for sale."
+    },
+    "avataritem_errormessage_SupplyExhausted": {
+        "message": "The limited quantity of this item has been exhausted."
+    },
+    "avataritem_errormessage_InsufficientFundsView": {
+        "message": "You do not have enough Robux to purchase this item."
+    },
+    "avataritem_errormessage_PriceChangedView": {
+        "message": "The price of this item changed recently, please refresh the page."
+    },
+
     "avataritem_errormessage_Load": {
         "message": "You are being rate limited by Roblox, please try again later."
     },
