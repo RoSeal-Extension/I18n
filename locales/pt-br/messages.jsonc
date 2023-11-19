@@ -1684,12 +1684,6 @@
     "features_ExperienceStoreItemFiltering_description": {
         "message": "Quando ativado, exibe opções adicionais de filtro nas abas \"Passes\" e \"Produtos de Desenvolvedor\" na loja das experiências."
     },
-    "features_WebsiteOfflineMode_title": {
-        "message": "Exibir como offline quando estiver apenas no site."
-    },
-    "features_WebsiteOfflineMode_description": {
-        "message": "Quando ativado, ninguém saberá quando você estiver no site. Pode levar alguns minutos para entrar em vigor."
-    },
     "features_AccountsManager_title": {
         "message": "Gerenciador de contas"
     },

@@ -1684,12 +1684,6 @@
     "features_ExperienceStoreItemFiltering_description": {
         "message": "Cuando está habilitado, muestra opciones adicionales de filtrado en las pestañas de Pases y Productos de desarrollador en la tienda de la experiencia."
     },
-    "features_WebsiteOfflineMode_title": {
-        "message": "Mostrar como fuera de línea solo en el sitio web"
-    },
-    "features_WebsiteOfflineMode_description": {
-        "message": "Cuando está habilitado, nadie sabrá cuándo estás en el sitio web. Puede tardar unos minutos en hacer efecto."
-    },
     "features_AccountsManager_title": {
         "message": "Administrador de cuentas"
     },

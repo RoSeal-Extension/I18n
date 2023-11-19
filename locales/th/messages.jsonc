@@ -1684,12 +1684,6 @@
     "features_ExperienceStoreItemFiltering_description": {
         "message": "เมื่อเปิดใช้งาน จะแสดงตัวเลือกฟิลเตอร์เพิ่มเติมในแท็บ เกมพาส และ ไอเทมของผู้พัฒนา ในร้านค้า ของแมพ"
     },
-    "features_WebsiteOfflineMode_title": {
-        "message": "แสดงเป็นออฟไลน์เมื่ออยู่บนเว็บไซต์เท่านั้น"
-    },
-    "features_WebsiteOfflineMode_description": {
-        "message": "เมื่อเปิดใช้งานจะไม่มีใครรู้ว่าคุณอยู่ในเว็บไซต์เมื่อใด อาจใช้เวลาสักครู่ถึงจะเห็น"
-    },
     "features_AccountsManager_title": {
         "message": "จัดการบัญชี"
     },

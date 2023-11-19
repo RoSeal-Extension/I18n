@@ -1684,12 +1684,6 @@
     "features_ExperienceStoreItemFiltering_description": {
         "message": "Когда эта опция включена, то во вкладках \"Пассы\" и \"Продукты разработчика\" в магазине игры отображаются дополнительные параметры для фильтра."
     },
-    "features_WebsiteOfflineMode_title": {
-        "message": "Отображение в режиме оффлайн только на сайте"
-    },
-    "features_WebsiteOfflineMode_description": {
-        "message": "Когда эта функция включена, никто не узнает, были-ли вы на сайте. Включение может занять несколько минут."
-    },
     "features_AccountsManager_title": {
         "message": "Менеджер аккаунтов"
     },
