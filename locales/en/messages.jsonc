@@ -559,7 +559,7 @@
 
     // Dropdown selections for "Passes" and "Developer Products"
     "experience_store_selection_passes": {
-        "message": "Passes"
+        "message": "Passes & Subscriptions"
     },
     "experience_store_selection_developerproducts": {
         "message": "Developer Products"
