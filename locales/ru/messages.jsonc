@@ -557,7 +557,7 @@
         "message": "Посмотреть все равно"
     },
 
-    // Dropdown selections for "Passes" and "Developer Products"
+    // Dropdown selections for "Passes & Subscriptions" and "Developer Products"
     "experience_store_selection_passes": {
         "message": "Пассы"
     },

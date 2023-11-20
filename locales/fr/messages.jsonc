@@ -557,7 +557,7 @@
         "message": "Voir quand même"
     },
 
-    // Dropdown selections for "Passes" and "Developer Products"
+    // Dropdown selections for "Passes & Subscriptions" and "Developer Products"
     "experience_store_selection_passes": {
         "message": "Passes"
     },
