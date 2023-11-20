@@ -777,34 +777,34 @@
         "message": "Você comprou este item com sucesso."
     },
     "avataritem_loadingmessage_Load": {
-        "message": ""
+        "message": "Comprando item..."
     },
     "avataritem_errormessage_Flooded": {
-        "message": ""
+        "message": "Foram feitas muitas tentativas para comprar este item, por favor, tente novamente mais tarde."
     },
     "avataritem_errormessage_InsufficentBalance": {
-        "message": ""
+        "message": "Você não tem Robux suficiente para comprar esse item."
     },
     "avataritem_errormessage_PriceMismatch": {
-        "message": ""
+        "message": "O preço desse item mudou recentemente, por favor, atualize a página."
     },
     "avataritem_errormessage_QuantityExhausted": {
-        "message": ""
+        "message": "O estoque limitado desse item foi esgotado."
     },
     "avataritem_errormessage_AlreadyOwned": {
-        "message": ""
+        "message": "Você já possuí esse item."
     },
     "avataritem_errormessage_NotForSale": {
-        "message": ""
+        "message": "Esse item não está mais a venda."
     },
     "avataritem_errormessage_SupplyExhausted": {
-        "message": ""
+        "message": "O estoque limitado desse item foi esgotado."
     },
     "avataritem_errormessage_InsufficientFundsView": {
-        "message": ""
+        "message": "Você não tem Robux suficiente para comprar esse item."
     },
     "avataritem_errormessage_PriceChangedView": {
-        "message": ""
+        "message": "O preço desse item mudou recentemente, por favor, atualize a página."
     },
 
     "avataritem_errormessage_Load": {
