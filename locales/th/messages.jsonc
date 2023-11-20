@@ -773,6 +773,37 @@
     "avataritem_successmessage_GenericPurchase": {
         "message": "คุณทำการซื้อไอเทมสำเร็จแล้ว"
     },
+    "avataritem_loadingmessage_Load": {
+        "message": ""
+    },
+    "avataritem_errormessage_Flooded": {
+        "message": ""
+    },
+    "avataritem_errormessage_InsufficentBalance": {
+        "message": ""
+    },
+    "avataritem_errormessage_PriceMismatch": {
+        "message": ""
+    },
+    "avataritem_errormessage_QuantityExhausted": {
+        "message": ""
+    },
+    "avataritem_errormessage_AlreadyOwned": {
+        "message": ""
+    },
+    "avataritem_errormessage_NotForSale": {
+        "message": ""
+    },
+    "avataritem_errormessage_SupplyExhausted": {
+        "message": ""
+    },
+    "avataritem_errormessage_InsufficientFundsView": {
+        "message": ""
+    },
+    "avataritem_errormessage_PriceChangedView": {
+        "message": ""
+    },
+
     "avataritem_errormessage_Load": {
         "message": "คุณกำลังโดน จำกัดการใช้งาน โดย Roblox, กรุณาลองอีกครัง"
     },
