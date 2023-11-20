@@ -277,6 +277,12 @@
     "experience_contextmenu_viewiconasset": {
         "message": "Просмотр иконки"
     },
+    "experience_contextmenu_addtoprofile": {
+        "message": ""
+    },
+    "experience_contextmenu_removefromprofile": {
+        "message": ""
+    },
 
     // "Private Servre Links" section
     "experience_privateserverlinks_title": {
@@ -2011,6 +2017,9 @@
     },
     "features_HideWalletInNav_title": {
         "message": "Переместить кошелёк в раскрывающий список"
+    },
+    "features_AddToProfileGroupExperiences_title": {
+        "message": ""
     },
 
     "popup_extensionname": {

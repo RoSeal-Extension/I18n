@@ -277,6 +277,12 @@
     "experience_contextmenu_viewiconasset": {
         "message": "Ver el asset del icono"
     },
+    "experience_contextmenu_addtoprofile": {
+        "message": ""
+    },
+    "experience_contextmenu_removefromprofile": {
+        "message": ""
+    },
 
     // "Private Servre Links" section
     "experience_privateserverlinks_title": {
@@ -2010,6 +2016,9 @@
         "message": "Muestra el ID de la máquina Roblox en la esquina inferior derecha de la página de error."
     },
     "features_HideWalletInNav_title": {
+        "message": ""
+    },
+    "features_AddToProfileGroupExperiences_title": {
         "message": ""
     },
 

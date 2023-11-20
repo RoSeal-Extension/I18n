@@ -277,6 +277,12 @@
     "experience_contextmenu_viewiconasset": {
         "message": "Visualizar Ativo de Ícone"
     },
+    "experience_contextmenu_addtoprofile": {
+        "message": ""
+    },
+    "experience_contextmenu_removefromprofile": {
+        "message": ""
+    },
 
     // "Private Servre Links" section
     "experience_privateserverlinks_title": {
@@ -2011,6 +2017,9 @@
     },
     "features_HideWalletInNav_title": {
         "message": "Forçar que o valor da carteira na navegação seja exibido apenas pelo menu suspenso"
+    },
+    "features_AddToProfileGroupExperiences_title": {
+        "message": ""
     },
 
     "popup_extensionname": {
