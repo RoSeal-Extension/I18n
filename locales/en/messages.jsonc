@@ -277,6 +277,12 @@
     "experience_contextmenu_viewiconasset": {
         "message": "View Icon Asset"
     },
+    "experience_contextmenu_addtoprofile": {
+        "message": "Add to Profile"
+    },
+    "experience_contextmenu_removefromprofile": {
+        "message": "Remove from Profile"
+    },
 
     // "Private Servre Links" section
     "experience_privateserverlinks_title": {
@@ -2007,10 +2013,13 @@
         "message": "Add additional badge statistics to badge page"
     },
     "features_ErrorShowMachineID_title": {
-        "message": "Show the Roblox Machine ID in the bottom-right corner of the error page."
+        "message": "Show the Roblox Machine ID in the bottom-right corner of the error page"
     },
     "features_HideWalletInNav_title": {
         "message": "Force the wallet amount in navigation to only show in the dropdown"
+    },
+    "features_AddToProfileGroupExperiences_title": {
+        "message": "Allow adding group-owned experiences of groups you own to your profile"
     },
 
     "popup_extensionname": {

@@ -11,7 +11,6 @@ possible. **Only editing translation strings to execute XSS is not going to work
 
 **Do not translate:**
 
-- Strings marked as "DEPRECATED"
 - Strings inside arrows `<>` or curly brackets "{}", these are formatted by the extension and must
   be consistent across all locales.
   - e.g: `<bold>Seal</bold>` should be translated to `<bold>Foca</bold>`, `{sealEmoji} Seal` should
