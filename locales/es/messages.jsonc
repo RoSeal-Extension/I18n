@@ -623,6 +623,9 @@
     "experience_passes_addpass": {
         "message": "Agregar Pase"
     },
+    "experience_passes_header": {
+        "message": ""
+    },
 
     // Shown over the Play button to indicate to the user that their avatar may not be as intended in the experience
     "experience_avatarrestricted": {

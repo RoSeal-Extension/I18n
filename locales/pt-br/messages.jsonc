@@ -559,7 +559,7 @@
 
     // Dropdown selections for "Passes & Subscriptions" and "Developer Products"
     "experience_store_selection_passes": {
-        "message": "Passes"
+        "message": ""
     },
     "experience_store_selection_developerproducts": {
         "message": "Produtos de Desenvolvedor"
@@ -622,6 +622,9 @@
     },
     "experience_passes_addpass": {
         "message": "Adicionar Passe"
+    },
+    "experience_passes_header": {
+        "message": "Passes"
     },
 
     // Shown over the Play button to indicate to the user that their avatar may not be as intended in the experience
