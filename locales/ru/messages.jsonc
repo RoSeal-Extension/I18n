@@ -2075,7 +2075,7 @@
     },
     // i.e. "American English (default)"
     "popup_languageswitcher_defaulttext": {
-        "message": "русский (по умолч.)"
+        "message": "(по умолч.)"
     },
     "popup_languageswitcher_changenotice": {
         "message": "Для того чтобы изменения вступили в силу, может потребоваться несколько раз обновить страницу."
