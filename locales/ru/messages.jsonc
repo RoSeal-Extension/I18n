@@ -278,10 +278,10 @@
         "message": "Просмотр иконки"
     },
     "experience_contextmenu_addtoprofile": {
-        "message": ""
+        "message": "Добавить в профиль"
     },
     "experience_contextmenu_removefromprofile": {
-        "message": ""
+        "message": "Удалить из профиля"
     },
 
     // "Private Servre Links" section
@@ -630,7 +630,7 @@
         "message": "Добавить пасс"
     },
     "experience_passes_header": {
-        "message": ""
+        "message": "Пассы"
     },
 
     // Shown over the Play button to indicate to the user that their avatar may not be as intended in the experience
@@ -768,7 +768,7 @@
     },
     // Modal shown when clicking the button to warn the user
     "experience_communitywiki_modal_body": {
-        "message": "Внимание, роблоксиан - Нажимая на кнопку “продолжить,” вы будете перенаправлены на сайт Fandom, который не принадлежит Roblox и не управляется им. У них могут быть другие условия и политика конфиденциальности..{lineBreak}{lineBreak}Неофициальная вики сообщество, на которую вы будете перенаправлены, является частью проекта Roblox Interwiki по фэндому и зависит от правок сообщества. Информация может быть противоречивой, устаревшей или искаженной.."
+        "message": "Обратите внимание - Нажимая на кнопку “продолжить,” вы будете перенаправлены на сайт Fandom, который не принадлежит Roblox и не управляется им. У них могут быть другие условия и политика конфиденциальности..{lineBreak}{lineBreak}Неофициальная вики сообщество, на которую вы будете перенаправлены, является частью проекта Roblox Interwiki по фэндому и зависит от правок сообщества. Информация может быть противоречивой, или устаревшей.."
     },
     "experience_communitywiki_modal_action": {
         "message": "Продолжить"
@@ -783,34 +783,34 @@
         "message": "Вы успешно купили этот предмет."
     },
     "avataritem_loadingmessage_Load": {
-        "message": ""
+        "message": "Покупка предмета..."
     },
     "avataritem_errormessage_Flooded": {
-        "message": ""
+        "message": "Вы использовали слишком много попыток для покупки, пожалуйста попробуйте позже."
     },
     "avataritem_errormessage_InsufficentBalance": {
-        "message": ""
+        "message": "У вас недостаточно робуксов для покупки предмета."
     },
     "avataritem_errormessage_PriceMismatch": {
-        "message": ""
+        "message": "Цена предмета была изменена, пожалуйста обновите страницу."
     },
     "avataritem_errormessage_QuantityExhausted": {
-        "message": ""
+        "message": "Количество копий лимитированного предмета уже закончились."
     },
     "avataritem_errormessage_AlreadyOwned": {
-        "message": ""
+        "message": "Вы уже владеете этим предметом."
     },
     "avataritem_errormessage_NotForSale": {
-        "message": ""
+        "message": "Этот предмет больше не продается."
     },
     "avataritem_errormessage_SupplyExhausted": {
-        "message": ""
+        "message": "Количество копий лимитированного предмета уже закончились."
     },
     "avataritem_errormessage_InsufficientFundsView": {
-        "message": ""
+        "message": "У вас недостаточно робуксов для покупки предмета."
     },
     "avataritem_errormessage_PriceChangedView": {
-        "message": ""
+        "message": "Цена предмета была изменена, пожалуйста обновите страницу."
     },
 
     "avataritem_errormessage_Load": {
@@ -841,13 +841,13 @@
         "message": "Привет, пользователь!"
     },
     "homeheader_secretmessage_Default2": {
-        "message": "Мы играем в Roblox!"
+        "message": "Как думаете, похожи ли вы на Райна Гослинга?"
     },
     "homeheader_secretmessage_Default3": {
-        "message": "ROBLOX"
+        "message": "ROBLOX: Powering Imagination"
     },
     "homeheader_secretmessage_Default4": {
-        "message": "роблокс"
+        "message": "print(\"hello world!\")"
     },
     "homeheader_secretmessage_Default5": {
         "message": "А вы скучаете по Tix'ам?"
@@ -859,7 +859,7 @@
         "message": "Пора прощаться, LegacyApi!"
     },
     "homeheader_secretmessage_Default8": {
-        "message": "Перестань пропускать школу."
+        "message": "Перестаньте пропускать школу."
     },
     "homeheader_secretmessage_Default9": {
         "message": "Откажитесь от дорогих игр, не отказывайтесь от пиратских игр."
@@ -883,10 +883,10 @@
         "message": "Надеемся, что вам понравился Roseal."
     },
     "homeheader_secretmessage_Default16": {
-        "message": "Ехехех..."
+        "message": "У вас нет пульта от ядерки?"
     },
     "homeheader_secretmessage_Default17": {
-        "message": "В Roblox происходит всё на глазах у всех."
+        "message": "В Roblox происходит всё на глазах у коммьюнити."
     },
     "homeheader_secretmessage_Default18": {
         "message": "[ ДАННЫЕ УДАЛЕНЫ ]"
@@ -895,10 +895,10 @@
         "message": "Это не тестовое сообщение."
     },
     "homeheader_secretmessage_Default20": {
-        "message": "котики."
+        "message": "я стал котиком"
     },
     "homeheader_secretmessage_Default21": {
-        "message": "голубь."
+        "message": "я голубь."
     },
     "homeheader_secretmessage_Default22": {
         "message": "Вставьте сюда изображение тюленя"
@@ -913,7 +913,7 @@
         "message": "Роблокс упал?"
     },
     "homeheader_secretmessage_Default26": {
-        "message": "Дэвид Базуки"
+        "message": "Вы случаем не Дэвид Базуки?"
     },
     "homeheader_secretmessage_Default27": {
         "message": "Помните тех самых Guests в Roblox?"
@@ -925,7 +925,7 @@
         "message": "Привет!"
     },
     "homeheader_secretmessage_Default30": {
-        "message": "ммм... ням?"
+        "message": "ммм... ням-ням?"
     },
 
     // Additional text shown if the user is in the "BetaTester" role. These are users that signed up for it on the DevForum.
@@ -968,7 +968,7 @@
 
     // Translators can put whatever message they like in here, remember: this is crowd-sourced
     "homeheader_secretmessage_NonEnglish": {
-        "message": "Кажется, что RoSeal не был локализован для вашего языка, печалька :("
+        "message": "Переведено и озвучено котиком © flossya4sv"
     },
 
     // Happy birthday, text shown on the users birthday
@@ -2019,7 +2019,7 @@
         "message": "Переместить кошелёк в раскрывающий список"
     },
     "features_AddToProfileGroupExperiences_title": {
-        "message": ""
+        "message": "Разрешить добавлять в свой профиль игры от групп, которыми вы владеете"
     },
 
     "popup_extensionname": {
@@ -2075,7 +2075,7 @@
     },
     // i.e. "American English (default)"
     "popup_languageswitcher_defaulttext": {
-        "message": "русский (по умолч.)"
+        "message": "(по умолч.)"
     },
     "popup_languageswitcher_changenotice": {
         "message": "Для того чтобы изменения вступили в силу, может потребоваться несколько раз обновить страницу."
