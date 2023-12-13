@@ -277,6 +277,12 @@
     "experience_contextmenu_viewiconasset": {
         "message": "Visualizar Ativo de Ícone"
     },
+    "experience_contextmenu_addtoprofile": {
+        "message": "Adicionar ao perfil"
+    },
+    "experience_contextmenu_removefromprofile": {
+        "message": "Remover do perfil"
+    },
 
     // "Private Servre Links" section
     "experience_privateserverlinks_title": {
@@ -2007,10 +2013,13 @@
         "message": "Adiciona estatísticas adicionais do emblema à página de emblemas."
     },
     "features_ErrorShowMachineID_title": {
-        "message": "Exibe o ID da Máquina do Roblox no canto inferior direito de uma página de erro."
+        "message": "Exibe o ID da Máquina do Roblox no canto inferior direito de uma página de erro"
     },
     "features_HideWalletInNav_title": {
         "message": "Forçar que o valor da carteira na navegação seja exibido apenas pelo menu suspenso"
+    },
+    "features_AddToProfileGroupExperiences_title": {
+        "message": "Permite a adição de experiências de grupos pertencentes a você ao seu perfil"
     },
 
     "popup_extensionname": {

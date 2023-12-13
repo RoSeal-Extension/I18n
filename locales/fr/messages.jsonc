@@ -277,6 +277,12 @@
     "experience_contextmenu_viewiconasset": {
         "message": "Voir la page de l'icône"
     },
+    "experience_contextmenu_addtoprofile": {
+        "message": ""
+    },
+    "experience_contextmenu_removefromprofile": {
+        "message": ""
+    },
 
     // "Private Servre Links" section
     "experience_privateserverlinks_title": {
@@ -2010,6 +2016,9 @@
         "message": ""
     },
     "features_HideWalletInNav_title": {
+        "message": ""
+    },
+    "features_AddToProfileGroupExperiences_title": {
         "message": ""
     },
 
