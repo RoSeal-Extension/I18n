@@ -545,6 +545,11 @@
         "message": ""
     },
 
+    // Shows instead of just the time, createdTime is when item was created
+    "avataritem_created_by": {
+        "message": ""
+    },
+
     // "Refresh Item Details" tooltip when hovering over the search icon next to the creator name
     "avataritem_searchbycreator": {
         "message": ""
