@@ -540,6 +540,11 @@
         "message": "Actualizar Detalles del Artículo"
     },
 
+    // Shows instead of just the time, updatedTime is when item was updated
+    "avataritem_updated_by": {
+        "message": ""
+    },
+
     // "Refresh Item Details" tooltip when hovering over the search icon next to the creator name
     "avataritem_searchbycreator": {
         "message": ""
@@ -1765,6 +1770,9 @@
     },
     "features_CreatedUpdatedItemsTimeType_values_Regular": {
         "message": "Regular de Roblox"
+    },
+    "features_CreatedUpdatedItemsTimeType_sub_GroupUpdated_title": {
+        "message": ""
     },
     "features_PersistentTransactionsSelection_title": {
         "message": "Selecciones de menú desplegable persistentes"

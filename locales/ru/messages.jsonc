@@ -540,6 +540,11 @@
         "message": "Обновить раздел предмета"
     },
 
+    // Shows instead of just the time, updatedTime is when item was updated
+    "avataritem_updated_by": {
+        "message": ""
+    },
+
     // "Refresh Item Details" tooltip when hovering over the search icon next to the creator name
     "avataritem_searchbycreator": {
         "message": "Поиск предметов с этим автором"
@@ -1765,6 +1770,9 @@
     },
     "features_CreatedUpdatedItemsTimeType_values_Regular": {
         "message": "Обычная от Roblox"
+    },
+    "features_CreatedUpdatedItemsTimeType_sub_GroupUpdated_title": {
+        "message": ""
     },
     "features_PersistentTransactionsSelection_title": {
         "message": "Запоминать мой выбор на странице \"Транкзакции\""
