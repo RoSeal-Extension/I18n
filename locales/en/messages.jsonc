@@ -542,7 +542,12 @@
 
     // Shows instead of just the time, updatedTime is when item was updated
     "avataritem_updated_by": {
-        "message": "{updatedTime} by {user}"
+        "message": "{updatedTime} (by {user})"
+    },
+
+    // Shows instead of just the time, createdTime is when item was created
+    "avataritem_created_by": {
+        "message": "{createdTime} (by {user})"
     },
 
     // "Refresh Item Details" tooltip when hovering over the search icon next to the creator name
