@@ -2029,6 +2029,9 @@
     "features_AddToProfileGroupExperiences_title": {
         "message": "Allow adding group-owned experiences of groups you own to your profile"
     },
+    "features_CreatorMarketplaceViewOffSaleAssetPage_title": {
+        "message": "Allow viewing off sale asset details in the Creator Marketplace"
+    },
 
     "popup_extensionname": {
         "message": "{sealEmoji} RoSeal"
