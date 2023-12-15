@@ -1779,6 +1779,9 @@
     "features_CreatedUpdatedItemsTimeType_sub_GroupUpdated_title": {
         "message": ""
     },
+    "features_CreatedUpdatedItemsTimeType_sub_GroupCreated_title": {
+        "message": ""
+    },
     "features_PersistentTransactionsSelection_title": {
         "message": "Sélections déroulantes persistantes"
     },
