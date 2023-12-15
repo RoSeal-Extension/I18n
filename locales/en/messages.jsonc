@@ -1779,6 +1779,9 @@
     "features_CreatedUpdatedItemsTimeType_sub_GroupUpdated_title": {
         "message": "Show the user that last updated group-created avatar items"
     },
+    "features_CreatedUpdatedItemsTimeType_sub_GroupCreated_title": {
+        "message": "Show the user that created group-created avatar items"
+    },
     "features_PersistentTransactionsSelection_title": {
         "message": "Persistent dropdown selections"
     },
