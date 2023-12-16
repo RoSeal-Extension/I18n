@@ -2038,7 +2038,7 @@
         "message": "Разрешить добавлять в свой профиль игры от групп, которыми вы владеете"
     },
     "features_CreatorMarketplaceViewOffSaleAssetPage_title": {
-        "message": "Разрешить просмотр информации о непродаваемых активах в Creator Marketplace"
+        "message": "Разрешить просмотр информации активов которые не в продаже в Creator Marketplace"
     },
 
     "popup_extensionname": {
