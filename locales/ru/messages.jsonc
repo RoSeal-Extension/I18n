@@ -542,12 +542,12 @@
 
     // Shows instead of just the time, updatedTime is when item was updated
     "avataritem_updated_by": {
-        "message": ""
+        "message": "{updatedTime} (от {user})"
     },
 
     // Shows instead of just the time, createdTime is when item was created
     "avataritem_created_by": {
-        "message": ""
+        "message": "{createdTime} (от {user})"
     },
 
     // "Refresh Item Details" tooltip when hovering over the search icon next to the creator name
@@ -851,7 +851,7 @@
         "message": "Привет, пользователь!"
     },
     "homeheader_secretmessage_Default2": {
-        "message": "Как думаете, похожи ли вы на Райна Гослинга?"
+        "message": "Как думаете, похожи ли вы на Райана Гослинга?"
     },
     "homeheader_secretmessage_Default3": {
         "message": "ROBLOX: Powering Imagination"
@@ -1777,10 +1777,10 @@
         "message": "Обычная от Roblox"
     },
     "features_CreatedUpdatedItemsTimeType_sub_GroupUpdated_title": {
-        "message": ""
+        "message": "Показывать пользователя, который последний раз обновлял созданные группой предметы для аватара"
     },
     "features_CreatedUpdatedItemsTimeType_sub_GroupCreated_title": {
-        "message": ""
+        "message": "Показывать пользователя создавшего предмет в группе, если он не совпадает с пользователем который обновлял его в последний раз"
     },
     "features_PersistentTransactionsSelection_title": {
         "message": "Запоминать мой выбор на странице \"Транкзакции\""
@@ -2038,7 +2038,7 @@
         "message": "Разрешить добавлять в свой профиль игры от групп, которыми вы владеете"
     },
     "features_CreatorMarketplaceViewOffSaleAssetPage_title": {
-        "message": ""
+        "message": "Разрешить просмотр информации о непродаваемых активах в Creator Marketplace"
     },
 
     "popup_extensionname": {
