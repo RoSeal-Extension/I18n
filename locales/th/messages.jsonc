@@ -278,10 +278,10 @@
         "message": "ดูรูปไอคอน"
     },
     "experience_contextmenu_addtoprofile": {
-        "message": ""
+        "message": "เพิ่มไปยังหน้าโปรไฟล์"
     },
     "experience_contextmenu_removefromprofile": {
-        "message": ""
+        "message": "นำออกจากหน้าโปรไฟล์"
     },
 
     // "Private Servre Links" section
@@ -542,12 +542,12 @@
 
     // Shows instead of just the time, updatedTime is when item was updated
     "avataritem_updated_by": {
-        "message": ""
+        "message": "{updatedTime} (โดย {user})"
     },
 
     // Shows instead of just the time, createdTime is when item was created
     "avataritem_created_by": {
-        "message": ""
+        "message": "{createdTime} (โดย {user})"
     },
 
     // "Refresh Item Details" tooltip when hovering over the search icon next to the creator name
@@ -640,7 +640,7 @@
         "message": "เพิ่ม เกมพาส"
     },
     "experience_passes_header": {
-        "message": ""
+        "message": "เกมพาส"
     },
 
     // Shown over the Play button to indicate to the user that their avatar may not be as intended in the experience
@@ -793,34 +793,34 @@
         "message": "คุณทำการซื้อไอเทมสำเร็จแล้ว"
     },
     "avataritem_loadingmessage_Load": {
-        "message": ""
+        "message": "กำลังซื้อไอเทม ..."
     },
     "avataritem_errormessage_Flooded": {
-        "message": ""
+        "message": "ซื้อไอเทมนี้หลายครั้งเกินไป , กรุณาลองใหม่อีกครั้งในภายหลัง"
     },
     "avataritem_errormessage_InsufficentBalance": {
-        "message": ""
+        "message": "คุณไม่มีโรบัคพอที่จะซื้อไอเทมนี้"
     },
     "avataritem_errormessage_PriceMismatch": {
-        "message": ""
+        "message": "ราคาของไอเทมนี้มีการเปลี่ยนแปลงเมื่อเร็วๆนี้ , กรุณารีเฟรชหน้านี้อีกครั้ง"
     },
     "avataritem_errormessage_QuantityExhausted": {
-        "message": ""
+        "message": "ไอเทมนี้มีจำนวนจำกัดหมดแล้ว"
     },
     "avataritem_errormessage_AlreadyOwned": {
-        "message": ""
+        "message": "คุณเป็นเจ้าของไอเทมนี้อยู่แล้ว"
     },
     "avataritem_errormessage_NotForSale": {
-        "message": ""
+        "message": "ไอเทมนี้ยังไม่เปิดขาย"
     },
     "avataritem_errormessage_SupplyExhausted": {
-        "message": ""
+        "message": "ไอเทมนี้มีจำนวนจำกัดหมดแล้ว"
     },
     "avataritem_errormessage_InsufficientFundsView": {
-        "message": ""
+        "message": "คุณไม่มีโรบัคพอที่จะซื้อไอเทมนี้"
     },
     "avataritem_errormessage_PriceChangedView": {
-        "message": ""
+        "message": "ราคาของไอเทมนี้มีการเปลี่ยนแปลงเมื่อเร็วๆนี้ , กรุณารีเฟรชหน้านี้อีกครั้ง"
     },
 
     "avataritem_errormessage_Load": {
@@ -1777,10 +1777,10 @@
         "message": "ปกติของ Roblox"
     },
     "features_CreatedUpdatedItemsTimeType_sub_GroupUpdated_title": {
-        "message": ""
+        "message": "แสดงให้ผู้ใช้เห็นว่าอัปเดตรายการอวตารที่สร้างโดยกลุ่มครั้งล่าสุด"
     },
     "features_CreatedUpdatedItemsTimeType_sub_GroupCreated_title": {
-        "message": ""
+        "message": "แสดงผู้ใช้ที่สร้างรายการอวตารที่สร้างโดยกลุ่ม หากไม่ตรงกับผู้ใช้ที่อัปเดตครั้งล่าสุด"
     },
     "features_PersistentTransactionsSelection_title": {
         "message": "การเลือกเมนูแบบเลื่อนลง"
@@ -2035,10 +2035,10 @@
         "message": "บังคับให้จํานวนกระเป๋าเงินในการนําทางแสดงเฉพาะในเมนูแบบเลื่อนลง"
     },
     "features_AddToProfileGroupExperiences_title": {
-        "message": ""
+        "message": "อนุญาตให้เพิ่มแมพที่เป็นเจ้าของกลุ่มที่คุณเป็นเจ้าของในโปรไฟล์ของคุณ"
     },
     "features_CreatorMarketplaceViewOffSaleAssetPage_title": {
-        "message": ""
+        "message": "อนุญาตให้ดูรายละเอียดสินทรัพย์การขายในร้านค้าผู้สร้าง"
     },
 
     "popup_extensionname": {
