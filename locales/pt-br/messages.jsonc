@@ -542,12 +542,12 @@
 
     // Shows instead of just the time, updatedTime is when item was updated
     "avataritem_updated_by": {
-        "message": ""
+        "message": "{updatedTime} (por {user})"
     },
 
     // Shows instead of just the time, createdTime is when item was created
     "avataritem_created_by": {
-        "message": ""
+        "message": "{createdTime} (por {user})"
     },
 
     // "Refresh Item Details" tooltip when hovering over the search icon next to the creator name
@@ -575,7 +575,7 @@
 
     // Dropdown selections for "Passes & Subscriptions" and "Developer Products"
     "experience_store_selection_passes": {
-        "message": ""
+        "message": "Passes e Assinaturas"
     },
     "experience_store_selection_developerproducts": {
         "message": "Produtos de Desenvolvedor"
@@ -1777,10 +1777,10 @@
         "message": "Padrão do Roblox"
     },
     "features_CreatedUpdatedItemsTimeType_sub_GroupUpdated_title": {
-        "message": ""
+        "message": "Mostra qual foi o último usuário a atualizar o item de avatar, caso ele seja criado por um grupo"
     },
     "features_CreatedUpdatedItemsTimeType_sub_GroupCreated_title": {
-        "message": ""
+        "message": "Mostra o usuário que criou o item de avatar, caso ele seja criado por um grupo e não corresponda ao usuário que o atualizou pela última vez"
     },
     "features_PersistentTransactionsSelection_title": {
         "message": "Seleções de menu suspenso persistentes"
@@ -2038,7 +2038,7 @@
         "message": "Permite a adição de experiências de grupos pertencentes a você ao seu perfil"
     },
     "features_CreatorMarketplaceViewOffSaleAssetPage_title": {
-        "message": ""
+        "message": "Permite a visualização dos detalhes de ativos (assets) fora de venda no Mercado do Criador"
     },
 
     "popup_extensionname": {
