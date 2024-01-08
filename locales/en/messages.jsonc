@@ -1677,12 +1677,6 @@
     "features_RemoveHomePageUnnecessarySorts_description": {
         "message": "When enabled, removes any sorts from the Home page that don't match \"Recommended For You\", \"Favorites\", \"Continue\", \"Friends Playing\", or \"Sponsored\"."
     },
-    "features_ForceHomePageGenreExplorer_title": {
-        "message": "Force \"unnecessary\" home sorts into a Genre explorer"
-    },
-    "features_ForceHomePageGenreExplorer_description": {
-        "message": "When enabled, all sorts that don't match \"Recommended For You\", \"Favorites\", \"Continue\", \"Friends Playing\", or \"Sponsored\" will be put into a \"Categories\" Genre explorer at the top of the home sorts section."
-    },
     "features_RefreshedHomeUserHeader_title": {
         "message": "Refreshed user header"
     },
