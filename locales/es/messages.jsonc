@@ -1677,12 +1677,6 @@
     "features_RemoveHomePageUnnecessarySorts_description": {
         "message": "Cuando está habilitado, elimina cualquier ordenamiento de la página principal que no coincida con \"Recomendado para ti\", \"Favoritos\", \"Continuar\", \"Amigos jugando\" o \"Patrocinado\"."
     },
-    "features_ForceHomePageGenreExplorer_title": {
-        "message": "Forzar las clasificaciones de inicio \"Innecesarios\" en un explorador de géneros"
-    },
-    "features_ForceHomePageGenreExplorer_description": {
-        "message": "Cuando está habilitado, todos los tipos que no coinciden con \"Recomendado para tí\", \"Favoritos\", \"Continuar\", \"Amigos Jugando\", o \"Patrocinado\" se pondrán en un explorador de género \"Categorias\" en la parte superior de la sección de tipos de inicio."
-    },
     "features_RefreshedHomeUserHeader_title": {
         "message": "Encabezado de usuario actualizado"
     },

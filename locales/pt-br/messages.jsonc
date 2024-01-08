@@ -1677,12 +1677,6 @@
     "features_RemoveHomePageUnnecessarySorts_description": {
         "message": "Quando ativado, remove quaisquer tipos de categorias da página inicial que não correspondam a \"Recomendações para você\", \"Favoritas\", \"Continuar\", \"Atividades de suas amizades\", ou \"Patrocinadas\"."
     },
-    "features_ForceHomePageGenreExplorer_title": {
-        "message": "Forçar categorias desnecessárias da página inicial a um Explorador de Gêneros"
-    },
-    "features_ForceHomePageGenreExplorer_description": {
-        "message": "Quando ativada, todas as categorias que não corresponderem a \"Recomendações para você\", \"Favoritas\", \"Continuar\", \"Atividades de suas amizades\" ou \"Patrocinadas\" serão colocadas em um Explorador de Gêneros de categorias no topo da seção de experiências na página inicial."
-    },
     "features_RefreshedHomeUserHeader_title": {
         "message": "Cabeçalho do usuário atualizado"
     },

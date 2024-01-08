@@ -1677,12 +1677,6 @@
     "features_RemoveHomePageUnnecessarySorts_description": {
         "message": "Когда функция включена, он удаляет с главной страницы все сортировки, которые не соответствуют тегам: \"Recommended For You\", \"Favorites\", \"Continue\", \"Friends Playing\" или \"Sponsored\"."
     },
-    "features_ForceHomePageGenreExplorer_title": {
-        "message": "Переместить \"ненужные\" сортировки в проводник"
-    },
-    "features_ForceHomePageGenreExplorer_description": {
-        "message": "Когда функция включена, все сортировки которые не соответствуют тегам \"Recommended For You\", \"Favorites\", \"Continue\", \"Friends Playing\" или \"Sponsored\", будут помещены в \"Categories\" на главную страницу в верхней части."
-    },
     "features_RefreshedHomeUserHeader_title": {
         "message": "Обновлённый заголовок пользователя"
     },
