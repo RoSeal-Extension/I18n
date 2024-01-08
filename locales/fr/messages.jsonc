@@ -1236,6 +1236,32 @@
         "message": ""
     },
 
+    // "Followed Experiences" section
+    "robloxsettings_followedexperiences_title": {
+        "message": ""
+    },
+    // when the user hasn't followed any experiences yet
+    "robloxsettings_followedexperiences_noexperiences": {
+        "message": ""
+    },
+    "robloxsettings_followedexperiences_experience_by": {
+        "message": ""
+    },
+    "robloxsettings_followedexperiences_experience_since": {
+        "message": ""
+    },
+    // not actually the last updated date.... it's the last time the developer pushed out an update to push notifications
+    // via Experience Updates
+    "robloxsettings_followedexperiences_experience_lastupdated": {
+        "message": ""
+    },
+    "robloxsettings_followedexperiences_experience_unfollow": {
+        "message": ""
+    },
+    "robloxsettings_followedexperiences_systemfeedback_error": {
+        "message": ""
+    },
+
     // Events tab stuff, there's not much here because we just grab the events container from Roblox
     "experience_events_tab": {
         "message": "Événements"
@@ -1677,12 +1703,6 @@
     "features_RemoveHomePageUnnecessarySorts_description": {
         "message": "Lorsque cette option est activée, supprime tous les tris de la page d'accueil qui ne correspondent pas à \"Recommandé pour vous\", \"Favoris\", \"Continuer\", \"Jeux entre amis\" ou \"Sponsorisé\"."
     },
-    "features_ForceHomePageGenreExplorer_title": {
-        "message": ""
-    },
-    "features_ForceHomePageGenreExplorer_description": {
-        "message": ""
-    },
     "features_RefreshedHomeUserHeader_title": {
         "message": "En-tête utilisateur actualisé"
     },
@@ -2038,6 +2058,9 @@
         "message": ""
     },
     "features_CreatorMarketplaceViewOffSaleAssetPage_title": {
+        "message": ""
+    },
+    "features_ListFollowedExperiences_title": {
         "message": ""
     },
 

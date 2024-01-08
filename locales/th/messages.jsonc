@@ -1236,6 +1236,32 @@
         "message": "แก้ไข ฟิลเตอร์"
     },
 
+    // "Followed Experiences" section
+    "robloxsettings_followedexperiences_title": {
+        "message": ""
+    },
+    // when the user hasn't followed any experiences yet
+    "robloxsettings_followedexperiences_noexperiences": {
+        "message": ""
+    },
+    "robloxsettings_followedexperiences_experience_by": {
+        "message": ""
+    },
+    "robloxsettings_followedexperiences_experience_since": {
+        "message": ""
+    },
+    // not actually the last updated date.... it's the last time the developer pushed out an update to push notifications
+    // via Experience Updates
+    "robloxsettings_followedexperiences_experience_lastupdated": {
+        "message": ""
+    },
+    "robloxsettings_followedexperiences_experience_unfollow": {
+        "message": ""
+    },
+    "robloxsettings_followedexperiences_systemfeedback_error": {
+        "message": ""
+    },
+
     // Events tab stuff, there's not much here because we just grab the events container from Roblox
     "experience_events_tab": {
         "message": "กิจกรรม"
@@ -1677,12 +1703,6 @@
     "features_RemoveHomePageUnnecessarySorts_description": {
         "message": "เมื่อเปิดใช้งาน จะลบการจัดเรียง ออกจากหน้าแรกที่เกี่ยวกับ \"แนะนำสำหรับคุณ\", \"รายการโปรด\", \"เล่นต่อ\", \"แมพที่เพื่อนเล่น\", หรือ \"สปอนเซอร์\""
     },
-    "features_ForceHomePageGenreExplorer_title": {
-        "message": "บังคับจัดเรียงของหน้าแรกเอา \"สิ่งที่ไม่จำเป็น\" เป็นตัวจัดเรียง"
-    },
-    "features_ForceHomePageGenreExplorer_description": {
-        "message": "เมื่อเปิดใช้งาน ทุกประเภทที่ไม่ตรงกับ \"แนะนำสำหรับคุณ\", \"รายการโปรด\", \"เล่นต่อ\", \"แมพที่เพื่อนเล่น\" หรือ \"สปอนเซอร์\" จะถูกใส่ลงใน \"หมวดหมู่\" ตัวจัดเรียงที่ด้านบนของจัดเรียงหน้าแรก"
-    },
     "features_RefreshedHomeUserHeader_title": {
         "message": "รีเฟรชส่วนของผู้ใช้"
     },
@@ -2039,6 +2059,9 @@
     },
     "features_CreatorMarketplaceViewOffSaleAssetPage_title": {
         "message": "อนุญาตให้ดูรายละเอียดสินทรัพย์การขายในร้านค้าผู้สร้าง"
+    },
+    "features_ListFollowedExperiences_title": {
+        "message": ""
     },
 
     "popup_extensionname": {

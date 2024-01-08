@@ -1236,6 +1236,32 @@
         "message": "Отредактировать фильтр"
     },
 
+    // "Followed Experiences" section
+    "robloxsettings_followedexperiences_title": {
+        "message": ""
+    },
+    // when the user hasn't followed any experiences yet
+    "robloxsettings_followedexperiences_noexperiences": {
+        "message": ""
+    },
+    "robloxsettings_followedexperiences_experience_by": {
+        "message": ""
+    },
+    "robloxsettings_followedexperiences_experience_since": {
+        "message": ""
+    },
+    // not actually the last updated date.... it's the last time the developer pushed out an update to push notifications
+    // via Experience Updates
+    "robloxsettings_followedexperiences_experience_lastupdated": {
+        "message": ""
+    },
+    "robloxsettings_followedexperiences_experience_unfollow": {
+        "message": ""
+    },
+    "robloxsettings_followedexperiences_systemfeedback_error": {
+        "message": ""
+    },
+
     // Events tab stuff, there's not much here because we just grab the events container from Roblox
     "experience_events_tab": {
         "message": "События"
@@ -1677,12 +1703,6 @@
     "features_RemoveHomePageUnnecessarySorts_description": {
         "message": "Когда функция включена, он удаляет с главной страницы все сортировки, которые не соответствуют тегам: \"Recommended For You\", \"Favorites\", \"Continue\", \"Friends Playing\" или \"Sponsored\"."
     },
-    "features_ForceHomePageGenreExplorer_title": {
-        "message": "Переместить \"ненужные\" сортировки в проводник"
-    },
-    "features_ForceHomePageGenreExplorer_description": {
-        "message": "Когда функция включена, все сортировки которые не соответствуют тегам \"Recommended For You\", \"Favorites\", \"Continue\", \"Friends Playing\" или \"Sponsored\", будут помещены в \"Categories\" на главную страницу в верхней части."
-    },
     "features_RefreshedHomeUserHeader_title": {
         "message": "Обновлённый заголовок пользователя"
     },
@@ -2039,6 +2059,9 @@
     },
     "features_CreatorMarketplaceViewOffSaleAssetPage_title": {
         "message": "Разрешить просмотр информации активов которые не в продаже в Creator Marketplace"
+    },
+    "features_ListFollowedExperiences_title": {
+        "message": ""
     },
 
     "popup_extensionname": {

@@ -1236,6 +1236,32 @@
         "message": "Edit Filter"
     },
 
+    // "Followed Experiences" section
+    "robloxsettings_followedexperiences_title": {
+        "message": "Followed Experiences"
+    },
+    // when the user hasn't followed any experiences yet
+    "robloxsettings_followedexperiences_noexperiences": {
+        "message": "You have not followed any experiences yet."
+    },
+    "robloxsettings_followedexperiences_experience_by": {
+        "message": "by {mention}"
+    },
+    "robloxsettings_followedexperiences_experience_since": {
+        "message": "Since {date}"
+    },
+    // not actually the last updated date.... it's the last time the developer pushed out an update to push notifications
+    // via Experience Updates
+    "robloxsettings_followedexperiences_experience_lastupdated": {
+        "message": "Last updated {date}"
+    },
+    "robloxsettings_followedexperiences_experience_unfollow": {
+        "message": "Unfollow"
+    },
+    "robloxsettings_followedexperiences_systemfeedback_error": {
+        "message": "You are unfollowing experiences too fast, please slow down and try again."
+    },
+
     // Events tab stuff, there's not much here because we just grab the events container from Roblox
     "experience_events_tab": {
         "message": "Events"
@@ -1677,12 +1703,6 @@
     "features_RemoveHomePageUnnecessarySorts_description": {
         "message": "When enabled, removes any sorts from the Home page that don't match \"Recommended For You\", \"Favorites\", \"Continue\", \"Friends Playing\", or \"Sponsored\"."
     },
-    "features_ForceHomePageGenreExplorer_title": {
-        "message": "Force \"unnecessary\" home sorts into a Genre explorer"
-    },
-    "features_ForceHomePageGenreExplorer_description": {
-        "message": "When enabled, all sorts that don't match \"Recommended For You\", \"Favorites\", \"Continue\", \"Friends Playing\", or \"Sponsored\" will be put into a \"Categories\" Genre explorer at the top of the home sorts section."
-    },
     "features_RefreshedHomeUserHeader_title": {
         "message": "Refreshed user header"
     },
@@ -2039,6 +2059,9 @@
     },
     "features_CreatorMarketplaceViewOffSaleAssetPage_title": {
         "message": "Allow viewing off sale asset details in the Creator Marketplace"
+    },
+    "features_ListFollowedExperiences_title": {
+        "message": "List followed experiences in the Notifications tab in account settings"
     },
 
     "popup_extensionname": {
