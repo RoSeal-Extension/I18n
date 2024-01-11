@@ -1238,28 +1238,28 @@
 
     // "Followed Experiences" section
     "robloxsettings_followedexperiences_title": {
-        "message": ""
+        "message": "Experiências seguidas"
     },
     // when the user hasn't followed any experiences yet
     "robloxsettings_followedexperiences_noexperiences": {
-        "message": ""
+        "message": "Você ainda não segue nenhuma experiência."
     },
     "robloxsettings_followedexperiences_experience_by": {
-        "message": ""
+        "message": "de {mention}"
     },
     "robloxsettings_followedexperiences_experience_since": {
-        "message": ""
+        "message": "Desde {date}"
     },
     // not actually the last updated date.... it's the last time the developer pushed out an update to push notifications
     // via Experience Updates
     "robloxsettings_followedexperiences_experience_lastupdated": {
-        "message": ""
+        "message": "Atualizado por último em {date}"
     },
     "robloxsettings_followedexperiences_experience_unfollow": {
-        "message": ""
+        "message": "Deixar de seguir"
     },
     "robloxsettings_followedexperiences_systemfeedback_error": {
-        "message": ""
+        "message": "Você está deixando de seguir experiências muito rapidamente. Diminua a velocidade e tente novamente"
     },
 
     // Events tab stuff, there's not much here because we just grab the events container from Roblox
@@ -2061,7 +2061,7 @@
         "message": "Permite a visualização dos detalhes de ativos (assets) fora de venda no Mercado do Criador"
     },
     "features_ListFollowedExperiences_title": {
-        "message": ""
+        "message": "Lista as experiências que você segue na aba de Notificações nas configurações da conta"
     },
 
     "popup_extensionname": {
