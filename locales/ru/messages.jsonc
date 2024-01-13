@@ -1242,7 +1242,7 @@
     },
     // when the user hasn't followed any experiences yet
     "robloxsettings_followedexperiences_noexperiences": {
-        "message": "Вы ещё не следите ни за какой игрой."
+        "message": "Вы еще не отслеживаете никакую игру."
     },
     "robloxsettings_followedexperiences_experience_by": {
         "message": "От {mention}"
