@@ -714,6 +714,9 @@
     "item_offsale_short": {
         "message": "Fuera de venta"
     },
+    "item_free": {
+        "message": ""
+    },
 
     // Developer product fields stuff.
     "developerproduct_offsale": {
