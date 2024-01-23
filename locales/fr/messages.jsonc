@@ -555,6 +555,20 @@
         "message": ""
     },
 
+    // Item bundles at the top of the page
+    "avataritem_itembundles_multiplebundles": {
+        "message": ""
+    },
+    "avataritem_itembundles_searchbundles": {
+        "message": ""
+    },
+    "avataritem_itembundles_partof": {
+        "message": ""
+    },
+    "avataritem_itembundles_partof_view": {
+        "message": ""
+    },
+
     // The pass's numeric product ID field
     "pass_productid": {
         "message": "ID du produit"
@@ -2064,6 +2078,9 @@
         "message": ""
     },
     "features_ListFollowedExperiences_title": {
+        "message": ""
+    },
+    "features_ViewItemBundle_title": {
         "message": ""
     },
 
