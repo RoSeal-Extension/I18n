@@ -555,6 +555,20 @@
         "message": "Search Items By This Creator"
     },
 
+    // Item bundles at the top of the page
+    "avataritem_itembundles_multiplebundles": {
+        "message": "This item is part of multiple bundles and is likely a template asset."
+    },
+    "avataritem_itembundles_searchbundles": {
+        "message": "Search bundles"
+    },
+    "avataritem_itembundles_partof": {
+        "message": "This item is part of the {link}{hasPrice, select, true { ({price})} other {} } bundle."
+    },
+    "avataritem_itembundles_partof_view": {
+        "message": "View"
+    },
+
     // The pass's numeric product ID field
     "pass_productid": {
         "message": "Product ID"
@@ -2065,6 +2079,9 @@
     },
     "features_ListFollowedExperiences_title": {
         "message": "List followed experiences in the Notifications tab in account settings"
+    },
+    "features_ViewItemBundle_title": {
+        "message": "Show the bundle where an item originates from"
     },
 
     "popup_extensionname": {
