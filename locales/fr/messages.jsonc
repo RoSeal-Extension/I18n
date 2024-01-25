@@ -757,6 +757,12 @@
     "developerproduct_contextmenu_viewiconasset": {
         "message": "Voir la page de l'icône"
     },
+    "developerproduct_by": {
+        "message": ""
+    },
+    "developerproduct_purchaseassociateduniverse": {
+        "message": ""
+    },
 
     // Whenever the RoSeal privacy policy updates, we show this modal. Only shown once per privacy policy update since the user installed the extension.
     // required.
