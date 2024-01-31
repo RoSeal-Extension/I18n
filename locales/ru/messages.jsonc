@@ -1444,6 +1444,20 @@
         "message": "Быстрая отписка"
     },
 
+    // Set visibility status of models & packages in Creations tab
+    "userprofile_creations_modelsvisibility_title": {
+        "message": ""
+    },
+    "userprofile_creations_modelsvisibility_titletooltip": {
+        "message": ""
+    },
+    "userprofile_creations_modelsvisibility_items_Visible": {
+        "message": ""
+    },
+    "userprofile_creations_modelsvisibility_items_Hidden": {
+        "message": ""
+    },
+
     // System feedback banners for force unfollow in the profile
     "userprofile_actions_forceunfollow_systemfeedback_success": {
         "message": "Вы успешно заставили отписаться пользователя от вас."
@@ -2087,6 +2101,12 @@
         "message": ""
     },
     "features_ViewItemBundle_title": {
+        "message": ""
+    },
+    "features_HideModelsCreations_title": {
+        "message": ""
+    },
+    "features_HideModelsCreations_description": {
         "message": ""
     },
 
