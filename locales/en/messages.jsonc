@@ -1444,6 +1444,20 @@
         "message": "Force Unfollow"
     },
 
+    // Set visibility status of models & packages in Creations tab
+    "userprofile_creations_modelsvisibility_title": {
+        "message": "Visibility"
+    },
+    "userprofile_creations_modelsvisibility_titletooltip": {
+        "message": "This only changes the visibility of your Models in your Creations tab. When it is set to Hidden, RoSeal users will not see any of your models, and users that don't have RoSeal will only see 1 \"Hidden\" model."
+    },
+    "userprofile_creations_modelsvisibility_items_Visible": {
+        "message": "Visible"
+    },
+    "userprofile_creations_modelsvisibility_items_Hidden": {
+        "message": "Hidden"
+    },
+
     // System feedback banners for force unfollow in the profile
     "userprofile_actions_forceunfollow_systemfeedback_success": {
         "message": "Successfully forced user to unfollow you."
@@ -2066,7 +2080,7 @@
         "message": "When enabled, adds a \"Private Server Links\" section to the servers tab. You can add private server links to it and import from/export to a data file."
     },
     "features_PrivateServerLinksSection_sub_TryResolveOwner_title": {
-        "message": "Try to automatically resolve the private server owner"
+        "message": "Try to automatically resolve the owner for old private server links"
     },
     "features_BadgeMoreStatistics_title": {
         "message": "Add additional badge statistics to badge page"
@@ -2088,6 +2102,12 @@
     },
     "features_ViewItemBundle_title": {
         "message": "Show the bundle where an item originates from"
+    },
+    "features_HideModelsCreations_title": {
+        "message": "Set visibility status of Models & Packages on your profile"
+    },
+    "features_HideModelsCreations_description": {
+        "message": "When enabled, allows you to set the visibility status of your Models & Creations collections tab in Creatiosn on your profile. When you set your visibility to \"Hidden\", RoSeal users will not see any \"Models & Packages\" section hidden with RoSeal, users that don't have RoSeal will only see 1 \"Hidden\" model. You can also add \"!hide\" to the name of an existing model to hide the entire section if it's the only item."
     },
 
     "popup_extensionname": {
