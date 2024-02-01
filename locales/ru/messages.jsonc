@@ -1261,28 +1261,28 @@
 
     // "Followed Experiences" section
     "robloxsettings_followedexperiences_title": {
-        "message": ""
+        "message": "Отслеживание игр"
     },
     // when the user hasn't followed any experiences yet
     "robloxsettings_followedexperiences_noexperiences": {
-        "message": ""
+        "message": "Вы еще не отслеживаете никакую игру."
     },
     "robloxsettings_followedexperiences_experience_by": {
-        "message": ""
+        "message": "От {mention}"
     },
     "robloxsettings_followedexperiences_experience_since": {
-        "message": ""
+        "message": "С {date}"
     },
     // not actually the last updated date.... it's the last time the developer pushed out an update to push notifications
     // via Experience Updates
     "robloxsettings_followedexperiences_experience_lastupdated": {
-        "message": ""
+        "message": "Последний раз обновлён {date}"
     },
     "robloxsettings_followedexperiences_experience_unfollow": {
-        "message": ""
+        "message": "Отписаться"
     },
     "robloxsettings_followedexperiences_systemfeedback_error": {
-        "message": ""
+        "message": "Вы слишком быстро отменяете отслеживание на игру, пожалуйста подождите и попробуйте еще раз"
     },
 
     // Events tab stuff, there's not much here because we just grab the events container from Roblox
@@ -1442,6 +1442,20 @@
     // User profile force unfollow action
     "userprofile_actions_forceunfollow": {
         "message": "Быстрая отписка"
+    },
+
+    // Set visibility status of models & packages in Creations tab
+    "userprofile_creations_modelsvisibility_title": {
+        "message": ""
+    },
+    "userprofile_creations_modelsvisibility_titletooltip": {
+        "message": ""
+    },
+    "userprofile_creations_modelsvisibility_items_Visible": {
+        "message": ""
+    },
+    "userprofile_creations_modelsvisibility_items_Hidden": {
+        "message": ""
     },
 
     // System feedback banners for force unfollow in the profile
@@ -2084,9 +2098,15 @@
         "message": "Разрешить просмотр информации активов которые не в продаже в Creator Marketplace"
     },
     "features_ListFollowedExperiences_title": {
-        "message": ""
+        "message": "Список отслеживаемых игр в вкладке \"Уведомления\" в настройках аккаунта"
     },
     "features_ViewItemBundle_title": {
+        "message": ""
+    },
+    "features_HideModelsCreations_title": {
+        "message": ""
+    },
+    "features_HideModelsCreations_description": {
         "message": ""
     },
 
