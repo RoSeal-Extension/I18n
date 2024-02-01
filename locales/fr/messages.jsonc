@@ -1660,6 +1660,9 @@
     "features_section_home_general": {
         "message": "Général"
     },
+    "features_section_home_sorts": {
+        "message": ""
+    },
     "features_section_experiences": {
         "message": "Expériences"
     },
@@ -2107,6 +2110,12 @@
         "message": ""
     },
     "features_HideModelsCreations_description": {
+        "message": ""
+    },
+    "features_GridSameWidth_title": {
+        "message": ""
+    },
+    "features_ForceHomeSortsCarousel_title": {
         "message": ""
     },
 
