@@ -1660,6 +1660,9 @@
     "features_section_home_general": {
         "message": "General"
     },
+    "features_section_home_sorts": {
+        "message": "Sorts"
+    },
     "features_section_experiences": {
         "message": "Experiences"
     },
@@ -2108,6 +2111,12 @@
     },
     "features_HideModelsCreations_description": {
         "message": "When enabled, allows you to set the visibility status of your Models & Creations collections tab in Creatiosn on your profile. When you set your visibility to \"Hidden\", RoSeal users will not see any \"Models & Packages\" section hidden with RoSeal, users that don't have RoSeal will only see 1 \"Hidden\" model. You can also add \"!hide\" to the name of an existing model to hide the entire section if it's the only item."
+    },
+    "features_GridSameWidth_title": {
+        "message": "Force home sort grid tiles to be the same width as carousel tiles"
+    },
+    "features_ForceHomeSortsCarousel_title": {
+        "message": "Force home sort grids into carousels"
     },
 
     "popup_extensionname": {
