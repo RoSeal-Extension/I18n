@@ -1552,6 +1552,9 @@
     "group_discovergroups": {
         "message": "ค้นพบกลุ่ม"
     },
+    "group_searchmygroups": {
+        "message": ""
+    },
     "group_creategroup": {
         "message": "สร้างกลุ่ม"
     },
