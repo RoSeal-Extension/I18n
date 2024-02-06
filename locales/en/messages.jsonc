@@ -1552,6 +1552,9 @@
     "group_discovergroups": {
         "message": "Discover Groups"
     },
+    "group_searchmygroups": {
+        "message": "Search My Groups"
+    },
     "group_creategroup": {
         "message": "Create Group"
     },
