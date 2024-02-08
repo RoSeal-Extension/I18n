@@ -1552,6 +1552,9 @@
     "group_discovergroups": {
         "message": "Узнать о других группах"
     },
+    "group_searchmygroups": {
+        "message": ""
+    },
     "group_creategroup": {
         "message": "Создать группу"
     },
