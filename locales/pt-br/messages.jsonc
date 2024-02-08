@@ -2121,6 +2121,51 @@
     "features_ForceHomeSortsCarousel_title": {
         "message": ""
     },
+    "features_OverrideHomeSortsLayout_title": {
+        "message": ""
+    },
+    "features_OverrideHomeSortsLayout_sub_ComponentType_title": {
+        "message": ""
+    },
+    "features_OverrideHomeSortsLayout_sub_ComponentType_values_Default": {
+        "message": ""
+    },
+    "features_OverrideHomeSortsLayout_sub_ComponentType_values_RobloxDefault": {
+        "message": ""
+    },
+    "features_OverrideHomeSortsLayout_sub_ComponentType_values_GridTile": {
+        "message": ""
+    },
+    "features_OverrideHomeSortsLayout_sub_ComponentType_values_AppGameTileNoMetadata": {
+        "message": ""
+    },
+    "features_OverrideHomeSortsLayout_sub_PlayerCount_title": {
+        "message": ""
+    },
+    "features_OverrideHomeSortsLayout_sub_PlayerCount_values_Always": {
+        "message": ""
+    },
+    "features_OverrideHomeSortsLayout_sub_PlayerCount_values_Hover": {
+        "message": ""
+    },
+    "features_OverrideHomeSortsLayout_sub_PlayerCount_values_RobloxDefault": {
+        "message": ""
+    },
+    "features_OverrideHomeSortsLayout_sub_PlayerCount_values_Default": {
+        "message": ""
+    },
+    "features_OverrideHomeSortsLayout_sub_PlayButton_title": {
+        "message": ""
+    },
+    "features_OverrideHomeSortsLayout_sub_PlayButton_values_Disabled": {
+        "message": ""
+    },
+    "features_OverrideHomeSortsLayout_sub_PlayButton_values_RobloxDefault": {
+        "message": ""
+    },
+    "features_OverrideHomeSortsLayout_sub_PlayButton_values_Default": {
+        "message": ""
+    },
 
     "popup_extensionname": {
         "message": "{sealEmoji} RoSeal"
