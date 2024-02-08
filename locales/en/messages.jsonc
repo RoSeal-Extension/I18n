@@ -2119,7 +2119,52 @@
         "message": "Force home sort grid tiles to be the same width as carousel tiles"
     },
     "features_ForceHomeSortsCarousel_title": {
-        "message": "Force home sort grids into carousels"
+        "message": "Collapse home sort grids into carousels"
+    },
+    "features_OverrideHomeSortsLayout_title": {
+        "message": "Override home sort layout style"
+    },
+    "features_OverrideHomeSortsLayout_sub_ComponentType_title": {
+        "message": "Component type"
+    },
+    "features_OverrideHomeSortsLayout_sub_ComponentType_values_Default": {
+        "message": "Default"
+    },
+    "features_OverrideHomeSortsLayout_sub_ComponentType_values_RobloxDefault": {
+        "message": "Roblox Default"
+    },
+    "features_OverrideHomeSortsLayout_sub_ComponentType_values_GridTile": {
+        "message": "Thumbnail tile"
+    },
+    "features_OverrideHomeSortsLayout_sub_ComponentType_values_AppGameTileNoMetadata": {
+        "message": "Tile with no metadata"
+    },
+    "features_OverrideHomeSortsLayout_sub_PlayerCount_title": {
+        "message": "Player count"
+    },
+    "features_OverrideHomeSortsLayout_sub_PlayerCount_values_Always": {
+        "message": "Always appear"
+    },
+    "features_OverrideHomeSortsLayout_sub_PlayerCount_values_Hover": {
+        "message": "Appear on hover"
+    },
+    "features_OverrideHomeSortsLayout_sub_PlayerCount_values_RobloxDefault": {
+        "message": "Roblox Default"
+    },
+    "features_OverrideHomeSortsLayout_sub_PlayerCount_values_Default": {
+        "message": "Default"
+    },
+    "features_OverrideHomeSortsLayout_sub_PlayButton_title": {
+        "message": "Play button"
+    },
+    "features_OverrideHomeSortsLayout_sub_PlayButton_values_Disabled": {
+        "message": "Disabled"
+    },
+    "features_OverrideHomeSortsLayout_sub_PlayButton_values_RobloxDefault": {
+        "message": "Roblox Default"
+    },
+    "features_OverrideHomeSortsLayout_sub_PlayButton_values_Default": {
+        "message": "Default"
     },
 
     "popup_extensionname": {
