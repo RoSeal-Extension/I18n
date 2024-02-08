@@ -2131,7 +2131,7 @@
         "message": "Default"
     },
     "features_OverrideHomeSortsLayout_sub_ComponentType_values_RobloxDefault": {
-        "message": "Roblox Default"
+        "message": "Set by Roblox"
     },
     "features_OverrideHomeSortsLayout_sub_ComponentType_values_GridTile": {
         "message": "Thumbnail tile"
@@ -2149,7 +2149,7 @@
         "message": "Appear on hover"
     },
     "features_OverrideHomeSortsLayout_sub_PlayerCount_values_RobloxDefault": {
-        "message": "Roblox Default"
+        "message": "Set by Roblox"
     },
     "features_OverrideHomeSortsLayout_sub_PlayerCount_values_Default": {
         "message": "Default"
@@ -2161,7 +2161,7 @@
         "message": "Disabled"
     },
     "features_OverrideHomeSortsLayout_sub_PlayButton_values_RobloxDefault": {
-        "message": "Roblox Default"
+        "message": "Set by Roblox"
     },
     "features_OverrideHomeSortsLayout_sub_PlayButton_values_Default": {
         "message": "Default"
