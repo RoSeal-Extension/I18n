@@ -2124,11 +2124,11 @@
     "features_OverrideHomeSortsLayout_title": {
         "message": "Override layout style for home sorts"
     },
+    "features_OverrideHomeSortsLayout_description": {
+        "message": "When enabled, overrides the layout for all sorts on the home page to what you set. Some settings are not supported without setting the \"Component type\" to \"Thumbnail tile\""
+    },
     "features_OverrideHomeSortsLayout_sub_ComponentType_title": {
         "message": "Component type"
-    },
-    "features_OverrideHomeSortsLayout_sub_ComponentType_description": {
-        "message": "When enabled, overrides the layout for all sorts on the home page to what you set. Some settings are not supported without setting the \"Component type\" to \"Thumbnail tile\""
     },
     "features_OverrideHomeSortsLayout_sub_ComponentType_values_Default": {
         "message": "Default"
