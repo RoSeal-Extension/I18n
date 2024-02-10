@@ -2002,7 +2002,7 @@
         "message": "\"Delete from Inventory\" button in asset item menu"
     },
     "features_AssetDeleteFromInventory_description": {
-        "message": "When enabled, adds a \"Delete from Inventory\" button in an asset item's item menu if it doesn't already exist. Due to security concerns, a two step verification challenge is required."
+        "message": "When enabled, adds a \"Delete from Inventory\" button in an asset's item menu if it doesn't already exist and the asset is supported. Due to security concerns, a two step verification challenge is required. Not all asset types are supported."
     },
     "features_UserFriendsPageNewTitle_title": {
         "message": "Show username in user's friends page title"
@@ -2122,10 +2122,13 @@
         "message": "Collapse home sort grids into carousels"
     },
     "features_OverrideHomeSortsLayout_title": {
-        "message": "Override home sort layout style"
+        "message": "Override layout style for home sorts"
     },
     "features_OverrideHomeSortsLayout_sub_ComponentType_title": {
         "message": "Component type"
+    },
+    "features_OverrideHomeSortsLayout_sub_ComponentType_description": {
+        "message": "When enabled, overrides the layout for all sorts on the home page to what you set. Some settings are not supported without setting the \"Component type\" to \"Thumbnail tile\""
     },
     "features_OverrideHomeSortsLayout_sub_ComponentType_values_Default": {
         "message": "Default"
