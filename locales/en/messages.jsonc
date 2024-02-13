@@ -1840,10 +1840,10 @@
         "message": "Roblox Regular"
     },
     "features_CreatedUpdatedItemsTimeType_sub_GroupUpdated_title": {
-        "message": "Show the user that last updated group-created avatar items"
+        "message": "Show the creator that last updated a group-created avatar item"
     },
     "features_CreatedUpdatedItemsTimeType_sub_GroupCreated_title": {
-        "message": "Show the user that created group-created avatar items if it doesn't match the user who last updated it"
+        "message": "Show the creator that uploaded an avatar item if it doesn't match the creator who last updated it"
     },
     "features_PersistentTransactionsSelection_title": {
         "message": "Persistent dropdown selections"
