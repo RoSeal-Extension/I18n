@@ -2195,6 +2195,12 @@
     "popup_permissions_cookietooltip": {
         "message": "Accordez cette autorisation si vous souhaitez utiliser le Gestionnaire de comptes. Vous pouvez révoquer cette autorisation à tout moment."
     },
+    "popup_permissions_webrequest": {
+        "message": ""
+    },
+    "popup_permissions_webrequesttooltip": {
+        "message": ""
+    },
 
     // Popup data managemenet
     "popup_extensiondata": {

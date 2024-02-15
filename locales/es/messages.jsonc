@@ -2195,6 +2195,12 @@
     "popup_permissions_cookietooltip": {
         "message": ""
     },
+    "popup_permissions_webrequest": {
+        "message": ""
+    },
+    "popup_permissions_webrequesttooltip": {
+        "message": ""
+    },
 
     // Popup data managemenet
     "popup_extensiondata": {
