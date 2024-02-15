@@ -2195,6 +2195,12 @@
     "popup_permissions_cookietooltip": {
         "message": "Предоставьте это разрешение, если хотите использовать Менеджер аккаунтов. Вы можете отозвать это разрешение в любое время."
     },
+    "popup_permissions_webrequest": {
+        "message": ""
+    },
+    "popup_permissions_webrequesttooltip": {
+        "message": ""
+    },
 
     // Popup data managemenet
     "popup_extensiondata": {
