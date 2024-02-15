@@ -2199,7 +2199,7 @@
         "message": "Web Request"
     },
     "popup_permissions_webrequesttooltip": {
-        "message": "Grant this permission if you'd like to view details of hidden avatar assets. You can revoke this permission at any time."
+        "message": "Grant this permission if you would like to be redirected to view details of hidden assets. You can revoke this permission at any time."
     },
 
     // Popup data managemenet
