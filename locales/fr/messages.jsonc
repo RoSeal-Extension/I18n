@@ -137,8 +137,17 @@
     "settings_featureswitches_featureswitch_permissions_title": {
         "message": "Permissions Requises"
     },
+    "settings_featureswitches_featureswitch_permissions_required_title": {
+        "message": ""
+    },
+    "settings_featureswitches_featureswitch_permissions_optional_title": {
+        "message": ""
+    },
     "settings_featureswitches_featureswitch_permissions_values_Cookies": {
         "message": "Cookies"
+    },
+    "settings_featureswitches_featureswitch_permissions_values_WebRequest": {
+        "message": ""
     },
     "settings_featureswitches_featureswitch_permissions_subtext": {
         "message": "Les autorisations peuvent être accordées dans la page d'options de RoSeal :"
@@ -2167,6 +2176,15 @@
         "message": ""
     },
     "features_OverrideHomeSortsLayout_sub_PlayButton_values_Default": {
+        "message": ""
+    },
+    "features_ViewHiddenAvatarAsset_title": {
+        "message": ""
+    },
+    "features_ViewHiddenAvatarAsset_description": {
+        "message": ""
+    },
+    "features_ViewHiddenAvatarAsset_optionalpermissions_webrequest_tooltiptext": {
         "message": ""
     },
 
