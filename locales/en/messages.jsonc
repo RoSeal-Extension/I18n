@@ -1363,32 +1363,6 @@
         "message": "Edit Filter"
     },
 
-    // "Followed Experiences" section
-    "robloxsettings_followedexperiences_title": {
-        "message": "Followed Experiences"
-    },
-    // when the user hasn't followed any experiences yet
-    "robloxsettings_followedexperiences_noexperiences": {
-        "message": "You have not followed any experiences yet."
-    },
-    "robloxsettings_followedexperiences_experience_by": {
-        "message": "by {mention}"
-    },
-    "robloxsettings_followedexperiences_experience_since": {
-        "message": "Since {date}"
-    },
-    // not actually the last updated date.... it's the last time the developer pushed out an update to push notifications
-    // via Experience Updates
-    "robloxsettings_followedexperiences_experience_lastupdated": {
-        "message": "Last updated {date}"
-    },
-    "robloxsettings_followedexperiences_experience_unfollow": {
-        "message": "Unfollow"
-    },
-    "robloxsettings_followedexperiences_systemfeedback_error": {
-        "message": "You are unfollowing experiences too fast, please slow down and try again."
-    },
-
     // Events tab stuff, there's not much here because we just grab the events container from Roblox
     "experience_events_tab": {
         "message": "Events"
@@ -2206,9 +2180,6 @@
     },
     "features_CreatorMarketplaceViewOffSaleAssetPage_title": {
         "message": "Allow viewing off sale asset details in the Creator Store"
-    },
-    "features_ListFollowedExperiences_title": {
-        "message": "List followed experiences in the Notifications tab in account settings"
     },
     "features_ViewItemBundle_title": {
         "message": "Show the bundle where an item originates from"
