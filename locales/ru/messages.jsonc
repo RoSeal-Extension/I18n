@@ -143,10 +143,10 @@
     "settings_featureswitches_featureswitch_permissions_optional_title": {
         "message": ""
     },
-    "settings_featureswitches_featureswitch_permissions_values_Cookies": {
+    "settings_featureswitches_featureswitch_permissions_values_cookies": {
         "message": "Куки"
     },
-    "settings_featureswitches_featureswitch_permissions_values_WebRequest": {
+    "settings_featureswitches_featureswitch_permissions_values_webRequest": {
         "message": ""
     },
     "settings_featureswitches_featureswitch_permissions_subtext": {
@@ -2279,7 +2279,7 @@
     "features_ViewHiddenAvatarAsset_description": {
         "message": ""
     },
-    "features_ViewHiddenAvatarAsset_optionalpermissions_webrequest_tooltiptext": {
+    "features_ViewHiddenAvatarAsset_optionalpermissions_webRequest_tooltiptext": {
         "message": ""
     },
 
@@ -2301,17 +2301,17 @@
     "popup_permissions": {
         "message": "Дополнительные разрешения"
     },
-    "popup_permissions_cookie": {
+    "popup_permissions_cookies": {
         "message": "Куки"
     },
     // Tooltip shown when hovering over the questionmark next to "Cookies"
-    "popup_permissions_cookietooltip": {
+    "popup_permissions_cookies_tooltip": {
         "message": "Предоставьте это разрешение, если хотите использовать Менеджер аккаунтов. Вы можете отозвать это разрешение в любое время."
     },
-    "popup_permissions_webrequest": {
+    "popup_permissions_webRequest": {
         "message": ""
     },
-    "popup_permissions_webrequesttooltip": {
+    "popup_permissions_webRequest_tooltip": {
         "message": ""
     },
 

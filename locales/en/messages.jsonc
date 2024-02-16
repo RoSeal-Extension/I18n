@@ -143,10 +143,10 @@
     "settings_featureswitches_featureswitch_permissions_optional_title": {
         "message": "Optional"
     },
-    "settings_featureswitches_featureswitch_permissions_values_Cookies": {
+    "settings_featureswitches_featureswitch_permissions_values_cookies": {
         "message": "Cookies"
     },
-    "settings_featureswitches_featureswitch_permissions_values_WebRequest": {
+    "settings_featureswitches_featureswitch_permissions_values_webRequest": {
         "message": "Web Request"
     },
     "settings_featureswitches_featureswitch_permissions_subtext": {
@@ -2279,7 +2279,7 @@
     "features_ViewHiddenAvatarAsset_description": {
         "message": "When enabled, allows you to view details of hidden avatar assets. Hidden avatar assets are items that can not be accessed normally and redirect back to Marketplace. You can also grant a permission to automatically redirect to view details of hidden avatar assets."
     },
-    "features_ViewHiddenAvatarAsset_optionalpermissions_webrequest_tooltiptext": {
+    "features_ViewHiddenAvatarAsset_optionalpermissions_webRequest_tooltiptext": {
         "message": "Grant this permission to allow the extension to automatically redirect to view details of hidden avatar assets."
     },
 
@@ -2301,17 +2301,17 @@
     "popup_permissions": {
         "message": "Optional Permissions"
     },
-    "popup_permissions_cookie": {
+    "popup_permissions_cookies": {
         "message": "Cookies"
     },
     // Tooltip shown when hovering over the questionmark next to "Cookies"
-    "popup_permissions_cookietooltip": {
+    "popup_permissions_cookies_tooltip": {
         "message": "Grant this permission if you would like to use Accounts Manager. You can revoke this permission at any time."
     },
-    "popup_permissions_webrequest": {
+    "popup_permissions_webRequest": {
         "message": "Web Request"
     },
-    "popup_permissions_webrequesttooltip": {
+    "popup_permissions_webRequest_tooltip": {
         "message": "Grant this permission if you would like to be redirected to view details of hidden assets. You can revoke this permission at any time."
     },
 
