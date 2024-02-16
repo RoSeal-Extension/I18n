@@ -573,7 +573,7 @@
         "message": "You save {percentage}% with Premium (original price: {originalPrice})"
     },
     "haa_availablepremium": {
-        "message": "Available because you have Premium"
+        "message": "Available because you are a Premium member"
     },
     "haa_unavailablepremium": {
         "message": "Available for Premium members only"
