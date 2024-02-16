@@ -526,6 +526,101 @@
         "message": "Universe ID"
     },
 
+    // haa = hidden avatar asset
+    "haa_deletemodal_title": {
+        "message": "{sealEmoji} Delete from Inventory"
+    },
+    "haa_deletemodal_body": {
+        "message": "Are you sure you want to delete this item from your inventory?"
+    },
+    "haa_deletemodal_action": {
+        "message": "Confirm"
+    },
+    "haa_deletemodal_neutral": {
+        "message": "Cancel"
+    },
+    "haa_deletemodal_systemfeedback_success": {
+        "message": "Successfully deleted item from inventory."
+    },
+    "haa_deletemodal_systemfeedback_error": {
+        "message": "Could not delete item from inventory."
+    },
+    "haa_tryon": {
+        "message": "Try On"
+    },
+    "haa_takeoff": {
+        "message": "Take Off"
+    },
+    "haa_3d": {
+        "message": "3D"
+    },
+    "haa_2d": {
+        "message": "2D"
+    },
+    "haa_by": {
+        "message": "By {creator}"
+    },
+    "haa_itemowned": {
+        "message": "Item Owned{quantityLimited, select, false { ({count})} other {} }"
+    },
+    "haa_availableinventory": {
+        "message": "This item is available in your inventory."
+    },
+    "haa_offsale": {
+        "message": "This item is not currently for sale."
+    },
+    "haa_premiumsave": {
+        "message": "You save {percentage}% with Premium (original price: {originalPrice})"
+    },
+    "haa_availablepremium": {
+        "message": "Available because you have Premium"
+    },
+    "haa_unavailablepremium": {
+        "message": "Available for Premium members only"
+    },
+    "haa_fields_type": {
+        "message": "Type"
+    },
+    "haa_fields_tradable": {
+        "message": "Tradable"
+    },
+    "haa_fields_tradable_yes": {
+        "message": "Yes"
+    },
+    "haa_fields_tradable_no": {
+        "message": "No"
+    },
+    "haa_fields_description": {
+        "message": "Description"
+    },
+    "haa_addtofavorites": {
+        "message": "Add to Favorites"
+    },
+    "haa_removefromfavorites": {
+        "message": "Remove from Favorites"
+    },
+    "haa_contextmenu_reportitem": {
+        "message": "Report Item"
+    },
+    "haa_contextmenu_addtoprofile": {
+        "message": "Add to Profile"
+    },
+    "haa_contextmenu_removefromprofile": {
+        "message": "Remove from Profile"
+    },
+    "haa_addtoprofile_systemfeedback_success": {
+        "message": "Successfully added item to your profile."
+    },
+    "haa_removefromprofile_systemfeedback_success": {
+        "message": "Successfully removed item from your profile."
+    },
+    "haa_addtoprofile_systemfeedback_error": {
+        "message": "Failed to add item to your profile."
+    },
+    "haa_removefromprofile_systemfeedback_error": {
+        "message": "Failed to remove item from your profile."
+    },
+
     // The asset's numeric product ID
     "generalasset_productid": {
         "message": "Product ID"
