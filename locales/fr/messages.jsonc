@@ -526,6 +526,101 @@
         "message": "ID de l'univers"
     },
 
+    // haa = hidden avatar asset
+    "haa_deletemodal_title": {
+        "message": ""
+    },
+    "haa_deletemodal_body": {
+        "message": ""
+    },
+    "haa_deletemodal_action": {
+        "message": ""
+    },
+    "haa_deletemodal_neutral": {
+        "message": ""
+    },
+    "haa_deletemodal_systemfeedback_success": {
+        "message": ""
+    },
+    "haa_deletemodal_systemfeedback_error": {
+        "message": ""
+    },
+    "haa_tryon": {
+        "message": ""
+    },
+    "haa_takeoff": {
+        "message": ""
+    },
+    "haa_3d": {
+        "message": ""
+    },
+    "haa_2d": {
+        "message": ""
+    },
+    "haa_by": {
+        "message": ""
+    },
+    "haa_itemowned": {
+        "message": ""
+    },
+    "haa_availableinventory": {
+        "message": ""
+    },
+    "haa_offsale": {
+        "message": ""
+    },
+    "haa_premiumsave": {
+        "message": ""
+    },
+    "haa_availablepremium": {
+        "message": ""
+    },
+    "haa_unavailablepremium": {
+        "message": ""
+    },
+    "haa_fields_type": {
+        "message": ""
+    },
+    "haa_fields_tradable": {
+        "message": ""
+    },
+    "haa_fields_tradable_yes": {
+        "message": ""
+    },
+    "haa_fields_tradable_no": {
+        "message": ""
+    },
+    "haa_fields_description": {
+        "message": ""
+    },
+    "haa_addtofavorites": {
+        "message": ""
+    },
+    "haa_removefromfavorites": {
+        "message": ""
+    },
+    "haa_contextmenu_reportitem": {
+        "message": ""
+    },
+    "haa_contextmenu_addtoprofile": {
+        "message": ""
+    },
+    "haa_contextmenu_removefromprofile": {
+        "message": ""
+    },
+    "haa_addtoprofile_systemfeedback_success": {
+        "message": ""
+    },
+    "haa_removefromprofile_systemfeedback_success": {
+        "message": ""
+    },
+    "haa_addtoprofile_systemfeedback_error": {
+        "message": ""
+    },
+    "haa_removefromprofile_systemfeedback_error": {
+        "message": ""
+    },
+
     // The asset's numeric product ID
     "generalasset_productid": {
         "message": "ID du produit"
