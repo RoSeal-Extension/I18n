@@ -166,6 +166,18 @@
     "settings_featureswitches_featureswitch_removeassociatedstorage_systemfeedback_error": {
         "message": "Une erreur est survenue lors la suppression du stockage associé à cette fonctionnalité, essayez plus tard"
     },
+    "promptpermissionsmodal_title": {
+        "message": ""
+    },
+    "promptpermissionsmodal_body": {
+        "message": ""
+    },
+    "promptpermissionsmodal_action": {
+        "message": ""
+    },
+    "promptpermissionsmodal_neutral": {
+        "message": ""
+    },
 
     // "Blocked Experiences" selection tab in menu and title
     "settings_selection_blockedexperiences": {

@@ -166,6 +166,18 @@
     "settings_featureswitches_featureswitch_removeassociatedstorage_systemfeedback_error": {
         "message": "Произошла ошибка при чистке данных для этой функции, повторите попытку позже."
     },
+    "promptpermissionsmodal_title": {
+        "message": ""
+    },
+    "promptpermissionsmodal_body": {
+        "message": ""
+    },
+    "promptpermissionsmodal_action": {
+        "message": ""
+    },
+    "promptpermissionsmodal_neutral": {
+        "message": ""
+    },
 
     // "Blocked Experiences" selection tab in menu and title
     "settings_selection_blockedexperiences": {
