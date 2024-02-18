@@ -556,10 +556,10 @@
     },
     "haa_2d": {
         "message": "2D"
-        },
+    },
     "haa_by": {
         "message": "От {creator}"
-        },
+    },
     "haa_itemowned": {
         "message": "Предмет в собственности{quantityLimited, select, false { ({count})} other {} }"
     },
