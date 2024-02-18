@@ -166,6 +166,18 @@
     "settings_featureswitches_featureswitch_removeassociatedstorage_systemfeedback_error": {
         "message": "An error occurred while removing associated storage for this feature, please try again later."
     },
+    "promptpermissionsmodal_title": {
+        "message": "{sealEmoji} Grant Additional Permissions"
+    },
+    "promptpermissionsmodal_body": {
+        "message": "Would you also like to grant optional permissions for additional functionality?{lineBreak}{lineBreak}Click \"Yes\" and in the popup grant the \"{permissionName}\" permission for the functionality:{lineBreak}{functionalityText}"
+    },
+    "promptpermissionsmodal_action": {
+        "message": "Yes"
+    },
+    "promptpermissionsmodal_neutral": {
+        "message": "No"
+    },
 
     // "Blocked Experiences" selection tab in menu and title
     "settings_selection_blockedexperiences": {
