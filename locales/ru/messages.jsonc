@@ -166,6 +166,9 @@
     "settings_featureswitches_featureswitch_removeassociatedstorage_systemfeedback_error": {
         "message": "Произошла ошибка при чистке данных для этой функции, повторите попытку позже."
     },
+    "promptpermissionsmodal_title": {
+        "message": "{sealEmoji} Предоставьте дополнительные разрешения"
+    },
     "promptpermissionsmodal_body": {
         "message": "Вы хотите предоставить необязательное разрешение для дополнительного функционала?{lineBreak}{lineBreak}Нажмите \"Да\" и во всплывающем окне предоставьте разрешение для \"{permissionName}\" для работы:{lineBreak}{functionalityText}"
     },
