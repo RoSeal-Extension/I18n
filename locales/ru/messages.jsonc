@@ -305,7 +305,7 @@
         "message": "Удалить из профиля"
     },
 
-    // "Private Servre Links" section
+    // "Private Server Links" section
     "experience_privateserverlinks_title": {
         "message": "Ссылки на приватные сервера"
     },
@@ -1615,6 +1615,38 @@
         "message": "Ваш доступ будет восстановлен начиная с {date}"
     },
 
+    // Better "Experience Notifications" section
+    "robloxsettings_experiencenotifications_title": {
+        "message": ""
+    },
+    "robloxsettings_experiencenotifications_description": {
+        "message": ""
+    },
+    // when the user hasn't followed any experiences yet
+    "robloxsettings_experiencenotifications_noexperiences": {
+        "message": ""
+    },
+    "robloxsettings_experiencenotifications_experience_by": {
+        "message": ""
+    },
+    "robloxsettings_experiencenotifications_experience_since": {
+        "message": ""
+    },
+    // not actually the last updated date.... it's the last time the developer pushed out an update to push notifications
+    // via Experience Updates
+    "robloxsettings_experiencenotifications_experience_lastupdated": {
+        "message": ""
+    },
+    "robloxsettings_experiencenotifications_experience_unfollow": {
+        "message": ""
+    },
+    "robloxsettings_experiencenotifications_remove_systemfeedback_error": {
+        "message": ""
+    },
+    "robloxsettings_experiencenotifications_add_systemfeedback_error": {
+        "message": ""
+    },
+
     // Marketplace Color filters UI
     "avatarshop_colorfilters_title": {
         "message": "Цвета"
@@ -2190,6 +2222,9 @@
     "features_AddToProfileGroupExperiences_title": {
         "message": "Разрешить добавлять в свой профиль игры от групп, которыми вы владеете"
     },
+    "features_AddToProfileBundles_title": {
+        "message": ""
+    },
     "features_CreatorMarketplaceViewOffSaleAssetPage_title": {
         "message": "Разрешить просмотр информации активов которые не в продаже в Creator Marketplace"
     },
@@ -2263,6 +2298,12 @@
         "message": ""
     },
     "features_ViewHiddenAvatarAsset_optionalpermissions_webRequest_tooltiptext": {
+        "message": ""
+    },
+    "features_BetterExperienceNotificationsList_title": {
+        "message": ""
+    },
+    "features_BetterExperienceNotificationsList_description": {
         "message": ""
     },
 
