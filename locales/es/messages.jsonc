@@ -166,6 +166,18 @@
     "settings_featureswitches_featureswitch_removeassociatedstorage_systemfeedback_error": {
         "message": "Se produjo un error al eliminar el almacenamiento asociado para esta función, por favor, inténtelo de nuevo más tarde."
     },
+    "promptpermissionsmodal_title": {
+        "message": ""
+    },
+    "promptpermissionsmodal_body": {
+        "message": ""
+    },
+    "promptpermissionsmodal_action": {
+        "message": ""
+    },
+    "promptpermissionsmodal_neutral": {
+        "message": ""
+    },
 
     // "Blocked Experiences" selection tab in menu and title
     "settings_selection_blockedexperiences": {

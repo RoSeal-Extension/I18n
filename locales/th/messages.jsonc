@@ -166,6 +166,18 @@
     "settings_featureswitches_featureswitch_removeassociatedstorage_systemfeedback_error": {
         "message": "เกิดข้อผิดพลาดขณะล้างข้อมูลที่เกี่ยวกับฟีเจอร์นี้ , กรุณาลองอีกครั้ง"
     },
+    "promptpermissionsmodal_title": {
+        "message": ""
+    },
+    "promptpermissionsmodal_body": {
+        "message": ""
+    },
+    "promptpermissionsmodal_action": {
+        "message": ""
+    },
+    "promptpermissionsmodal_neutral": {
+        "message": ""
+    },
 
     // "Blocked Experiences" selection tab in menu and title
     "settings_selection_blockedexperiences": {
