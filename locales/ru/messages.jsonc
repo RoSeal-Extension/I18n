@@ -305,7 +305,7 @@
         "message": "Удалить из профиля"
     },
 
-    // "Private Servre Links" section
+    // "Private Server Links" section
     "experience_privateserverlinks_title": {
         "message": "Ссылки на приватные сервера"
     },
@@ -1615,6 +1615,38 @@
         "message": "Ваш доступ будет восстановлен начиная с {date}"
     },
 
+// Better "Experience Notifications" section
+    "robloxsettings_experiencenotifications_title": {
+        "message": "Уведомления об обновлениях игр"
+    },
+    "robloxsettings_experiencenotifications_description": {
+        "message": "Здесь будут игры, для которых вы включили уведомления об их обновлениях"
+    },
+    // when the user hasn't followed any experiences yet
+    "robloxsettings_experiencenotifications_noexperiences": {
+        "message": "Вы не следите ни за какой игрой."
+    },
+    "robloxsettings_experiencenotifications_experience_by": {
+        "message": "От {mention}"
+    },
+    "robloxsettings_experiencenotifications_experience_since": {
+        "message": "С {date}"
+    },
+    // not actually the last updated date.... it's the last time the developer pushed out an update to push notifications
+    // via Experience Updates
+    "robloxsettings_experiencenotifications_experience_lastupdated": {
+        "message": "Обновлен {date}"
+    },
+    "robloxsettings_experiencenotifications_experience_unfollow": {
+        "message": "Отписаться"
+    },
+    "robloxsettings_experiencenotifications_remove_systemfeedback_error": {
+        "message": "Вы слишком быстро отключаете уведомления, пожалуйста, подождите и попробуйте еще раз."
+    },
+    "robloxsettings_experiencenotifications_add_systemfeedback_error": {
+        "message": "Вы слишком быстро включаете уведомления, пожалуйста, подождите и попробуйте еще раз."
+    },
+
     // Marketplace Color filters UI
     "avatarshop_colorfilters_title": {
         "message": "Цвета"
@@ -2190,6 +2222,9 @@
     "features_AddToProfileGroupExperiences_title": {
         "message": "Разрешить добавлять в свой профиль игры от групп, которыми вы владеете"
     },
+    "features_AddToProfileBundles_title": {
+        "message": "Разрешить добавлять свои Bundles в коллекцию на ваш профиль"
+    },
     "features_CreatorMarketplaceViewOffSaleAssetPage_title": {
         "message": "Разрешить просмотр информации активов которые не в продаже в Creator Marketplace"
     },
@@ -2267,6 +2302,12 @@
     },
     "features_ViewHiddenAvatarAsset_optionalpermissions_webRequest_tooltiptext": {
         "message": "Предоставляя это разрешение, вы разрешаете RoSeal автоматически перенаправлять на страницу RoSeal для просмотра подробностей о скрытых предметах аватара, а не на Marketplace."
+    },
+    "features_BetterExperienceNotificationsList_title": {
+        "message": "Улучшенный список уведомлений об обновлениях игр"
+    },
+    "features_BetterExperienceNotificationsList_description": {
+        "message": "Когда функция включена, она добавляет гиперссылки, дату последнего обновления и уведомления, включенные с этой даты в категории \"Уведомления об обновлениях игр\" в разделе \"Уведомления\" в настройках аккаунта."
     },
 
     "popup_extensionname": {
