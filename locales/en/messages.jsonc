@@ -305,7 +305,7 @@
         "message": "Remove from Profile"
     },
 
-    // "Private Servre Links" section
+    // "Private Server Links" section
     "experience_privateserverlinks_title": {
         "message": "Private Server Links"
     },
@@ -1615,6 +1615,38 @@
         "message": "Your access will be restored on {date}"
     },
 
+    // Better "Experience Notifications" section
+    "robloxsettings_experiencenotifications_title": {
+        "message": "Experience Notifications"
+    },
+    "robloxsettings_experiencenotifications_description": {
+        "message": "Activity updates from experiences you have turned on notifications for"
+    },
+    // when the user hasn't followed any experiences yet
+    "robloxsettings_experiencenotifications_noexperiences": {
+        "message": "You have not followed any experiences yet."
+    },
+    "robloxsettings_experiencenotifications_experience_by": {
+        "message": "by {mention}"
+    },
+    "robloxsettings_experiencenotifications_experience_since": {
+        "message": "Since {date}"
+    },
+    // not actually the last updated date.... it's the last time the developer pushed out an update to push notifications
+    // via Experience Updates
+    "robloxsettings_experiencenotifications_experience_lastupdated": {
+        "message": "Last updated {date}"
+    },
+    "robloxsettings_experiencenotifications_experience_unfollow": {
+        "message": "Unfollow"
+    },
+    "robloxsettings_experiencenotifications_remove_systemfeedback_error": {
+        "message": "You are disabling experience notifications too fast, please slow down and try again."
+    },
+    "robloxsettings_experiencenotifications_add_systemfeedback_error": {
+        "message": "You are enabling experience notifications too fast, please slow down and try again."
+    },
+
     // Marketplace Color filters UI
     "avatarshop_colorfilters_title": {
         "message": "Colors"
@@ -2190,6 +2222,9 @@
     "features_AddToProfileGroupExperiences_title": {
         "message": "Allow adding group-owned experiences of groups you own to your profile"
     },
+    "features_AddToProfileBundles_title": {
+        "message": "Allow adding owned Bundles to your profile collections"
+    },
     "features_CreatorMarketplaceViewOffSaleAssetPage_title": {
         "message": "Allow viewing off sale asset details in the Creator Store"
     },
@@ -2264,6 +2299,12 @@
     },
     "features_ViewHiddenAvatarAsset_optionalpermissions_webRequest_tooltiptext": {
         "message": "Grant this permission to allow the extension to automatically redirect to the RoSeal page to view details of hidden avatar assets instead of to the Marketplace."
+    },
+    "features_BetterExperienceNotificationsList_title": {
+        "message": "Better experience notifications list"
+    },
+    "features_BetterExperienceNotificationsList_description": {
+        "message": "When enabled, adds hyperlinks, last updated date, and notifications turned on since date to experiences in the \"Experience Notifications\" category in Notifications in Account Settings."
     },
 
     "popup_extensionname": {

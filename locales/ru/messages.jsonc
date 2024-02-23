@@ -2309,6 +2309,12 @@
     "features_BetterExperienceNotificationsList_description": {
         "message": "Когда функция включена, она добавляет гиперссылки, дату последнего обновления и уведомления, включенные с этой даты в категории \"Уведомления об обновлениях игр\" в разделе \"Уведомления\" в настройках аккаунта."
     },
+    "features_BetterExperienceNotificationsList_title": {
+        "message": ""
+    },
+    "features_BetterExperienceNotificationsList_description": {
+        "message": ""
+    },
 
     "popup_extensionname": {
         "message": "{sealEmoji} RoSeal"
