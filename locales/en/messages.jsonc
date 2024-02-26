@@ -2111,6 +2111,9 @@
     "features_AnimalText_values_Disabled": {
         "message": "Disabled"
     },
+    "features_BunnyErrorPage_title": {
+        "message": "Replace the error image on error pages with the error image from the legacy Developer Hub"
+    },
     "features_ExperienceMediaAltTextButton_title": {
         "message": "Better experience thumbnail alt text button"
     },
