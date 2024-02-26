@@ -70,7 +70,7 @@
         "message": "Об RoSeal"
     },
     "settings_about_description": {
-        "message": "<bold>RoSeal</bold> это бесплатное расширение для Roblox сайта на тему тюленей с индивидуально настраиваемыми функциями и улучшениями, без каких-либо платных функций и отслеживания."
+        "message": "<bold>RoSeal</bold> это бесплатное расширение для Roblox сайта на тему тюленей с индивидуально настраиваемыми функциями и улучшениями, без каких-либо платных функций и отслеживаний."
     },
     // under13 is for 13- users over13 is for 13+. this is to prevent exposing discord to underage users
     "settings_about_media_under13": {
@@ -85,7 +85,7 @@
         "message": "Особая благодарность"
     },
     "settings_about_credits_Julli4n": {
-        "message": "<link>Julli4n</link> - Главный разработчик"
+        "message": "<link>Julli4n</link> - Разработчик"
     },
     "settings_about_credits_Karasuneth": {
         "message": "<link>Karasuneth</link> - Создал первоначальную иконку"
@@ -127,7 +127,7 @@
     },
     // when we deprecate a feature because it is no longer useful, or Roblox has their own solution now
     "settings_featureswitches_featureswitch_deprecated": {
-        "message": "Эта функция <bold>отключёна</bold>. Рекомендуется найти альтернативу в RoSeal или использовать родные функции на сайте Roblox."
+        "message": "Эта функция <bold>отключена</bold>. Рекомендуется найти альтернативу в RoSeal или использовать родные функции от Roblox."
     },
     // not used atm, but will be if we ever add support for Safari or add firefox-exclusive features.
     // "browsers" is a comma-separated list of browsers
@@ -138,19 +138,19 @@
         "message": "Требуется разрешение"
     },
     "settings_featureswitches_featureswitch_permissions_required_title": {
-        "message": ""
+        "message": "Необходимо"
     },
     "settings_featureswitches_featureswitch_permissions_optional_title": {
-        "message": ""
+        "message": "Необязательно"
     },
     "settings_featureswitches_featureswitch_permissions_values_cookies": {
         "message": "Куки"
     },
     "settings_featureswitches_featureswitch_permissions_values_webRequest": {
-        "message": ""
+        "message": "Веб-запрос"
     },
     "settings_featureswitches_featureswitch_permissions_subtext": {
-        "message": "Разрешения могут быть предоставлены на странице RoSeal:"
+        "message": "Разрешения могут быть предоставлены для Roseal здесь:"
     },
     "settings_featureswitches_featureswitch_permissions_openoptions": {
         "message": "Открыть"
@@ -167,16 +167,16 @@
         "message": "Произошла ошибка при чистке данных для этой функции, повторите попытку позже."
     },
     "promptpermissionsmodal_title": {
-        "message": ""
+        "message": "{sealEmoji} Предоставьте дополнительные разрешения"
     },
     "promptpermissionsmodal_body": {
-        "message": ""
+        "message": "Вы хотите предоставить необязательное разрешение для дополнительного функционала?{lineBreak}{lineBreak}Нажмите \"Да\" и во всплывающем окне предоставьте разрешение для \"{permissionName}\" для работы:{lineBreak}{functionalityText}"
     },
     "promptpermissionsmodal_action": {
-        "message": ""
+        "message": "Да"
     },
     "promptpermissionsmodal_neutral": {
-        "message": ""
+        "message": "Нет"
     },
 
     // "Blocked Experiences" selection tab in menu and title
@@ -261,7 +261,7 @@
     // Message to show if Accounts Manager is deprecated. we're not sure if it ever will be but given that
     // there are new translations on the Roblox website hinting to an account switcher feature, this will be here just in case
     "accountsmanager_deprecated": {
-        "message": "Менеджер аккаунтов был отключён, вместо него используйте родной интерфейс переключения аккаунтов Roblox \"Переключить аккаунт\" в выпадающем списке настроек.."
+        "message": "Менеджер аккаунтов был отключён, вместо него используйте родной интерфейс переключения аккаунтов Roblox \"Switch Accounts\" в настройках.."
     },
     // Please don't mess this up.
     "accountsmanager_addaccount": {
@@ -540,97 +540,97 @@
 
     // haa = hidden avatar asset
     "haa_deletemodal_title": {
-        "message": ""
+        "message": "{sealEmoji} Удалить из инвентаря"
     },
     "haa_deletemodal_body": {
-        "message": ""
+        "message": "Вы уверены, что хотите удалить предмет из инвентаря?"
     },
     "haa_deletemodal_action": {
-        "message": ""
+        "message": "Потдвердить "
     },
     "haa_deletemodal_neutral": {
-        "message": ""
+            "message": "Отменить"
     },
     "haa_deletemodal_systemfeedback_success": {
-        "message": ""
+        "message": "Предмет успешно удалён из инвентаря."
     },
     "haa_deletemodal_systemfeedback_error": {
-        "message": ""
+       "message": "Не удалось удалить предмет."
     },
     "haa_tryon": {
-        "message": ""
+        "message": "Примерить"
     },
     "haa_takeoff": {
-        "message": ""
+        "message": "Снять"
     },
     "haa_3d": {
-        "message": ""
+        "message": "3D"
     },
     "haa_2d": {
-        "message": ""
+        "message": "2D"
     },
     "haa_by": {
-        "message": ""
+        "message": "От {creator}"
     },
     "haa_itemowned": {
-        "message": ""
+        "message": "Предмет в собственности{quantityLimited, select, false { ({count})} other {} }"
     },
     "haa_availableinventory": {
-        "message": ""
+        "message": "Предмет уже доступен в вашем инвентаре"
     },
     "haa_offsale": {
-        "message": ""
+        "message": "В данный момент этот предмет находится "
     },
     "haa_premiumsave": {
-        "message": ""
+        "message": "Вы сохраните {percentage}% имея подписку Premium (ориг. цена: {originalPrice})"
     },
     "haa_availablepremium": {
-        "message": ""
+        "message": "Доступно, потому что вы являетесь подписчиком Premium"
     },
     "haa_unavailablepremium": {
-        "message": ""
+        "message": "Доступно только для подписчиков Premium"
     },
     "haa_fields_type": {
-        "message": ""
+        "message": "Тип"
     },
     "haa_fields_tradable": {
-        "message": ""
+        "message": "Возможность обменять предмет"
     },
     "haa_fields_tradable_yes": {
-        "message": ""
+        "message": "Да"
     },
     "haa_fields_tradable_no": {
-        "message": ""
+        "message": "Нет"
     },
     "haa_fields_description": {
-        "message": ""
+        "message": "Описание"
     },
     "haa_addtofavorites": {
-        "message": ""
+        "message": "Добавить в избранное"
     },
     "haa_removefromfavorites": {
-        "message": ""
+        "message": "Удалить из избранного"
     },
     "haa_contextmenu_reportitem": {
-        "message": ""
+        "message": "Пожаловаться"
     },
     "haa_contextmenu_addtoprofile": {
-        "message": ""
+        "message": "Добавить в профиль"
     },
     "haa_contextmenu_removefromprofile": {
-        "message": ""
+        "message": "Удалить из профиля"
     },
     "haa_addtoprofile_systemfeedback_success": {
-        "message": ""
+        "message": "Предмет успешно добавлен в профиль."
     },
     "haa_removefromprofile_systemfeedback_success": {
-        "message": ""
+        "message": "Предмет успешно удален из профиля."
     },
     "haa_addtoprofile_systemfeedback_error": {
-        "message": ""
+        "message": "Не удалось добавить предмет в профиль"
     },
     "haa_removefromprofile_systemfeedback_error": {
-        "message": ""
+        "message": "Не удалось удалить предмет из профиля"
     },
 
     // The asset's numeric product ID
@@ -673,16 +673,16 @@
 
     // Item bundles at the top of the page
     "avataritem_itembundles_multiplebundles": {
-        "message": ""
+        "message": "Этот предмет входит в группу нескольких наборов и, вероятно, является шаблонным активом"
     },
     "avataritem_itembundles_searchbundles": {
-        "message": ""
+        "message": "Поиск наборов"
     },
     "avataritem_itembundles_partof": {
-        "message": ""
+        "message": "Этот предмет является частью набора {link}{hasPrice, select, true { ({price})} other {} }."
     },
     "avataritem_itembundles_partof_view": {
-        "message": ""
+        "message": "Просмотр"
     },
 
     // The pass's numeric product ID field
@@ -845,7 +845,7 @@
         "message": "Не в продаже"
     },
     "item_free": {
-        "message": ""
+        "message": "Бесплатно"
     },
 
     // Developer product fields stuff.
@@ -874,10 +874,10 @@
         "message": "Просмотреть иконку"
     },
     "developerproduct_by": {
-        "message": ""
+        "message": "От <creatorLink>{creatorType, select, User {@} other {}}{creatorName}</creatorLink>"
     },
     "developerproduct_purchaseassociateduniverse": {
-        "message": ""
+        "message": "Купить этот продукт разработчика можно здесь: {link}"
     },
 
     // Whenever the RoSeal privacy policy updates, we show this modal. Only shown once per privacy policy update since the user installed the extension.
@@ -1536,16 +1536,16 @@
 
     // Set visibility status of models & packages in Creations tab
     "userprofile_creations_modelsvisibility_title": {
-        "message": ""
+        "message": "Видимость моделей/пакетов"
     },
     "userprofile_creations_modelsvisibility_titletooltip": {
-        "message": ""
+        "message": "Это только изменяет видимость ваших моделей в вкладке \"Creations\" . Если установить значение \"Скрыть\", пользователи RoSeal не смогут видеть ваши модели/пакеты, а пользователи, у которых нет RoSeal, увидят только одну скрытую модель."
     },
     "userprofile_creations_modelsvisibility_items_Visible": {
-        "message": ""
+        "message": "Показывать"
     },
     "userprofile_creations_modelsvisibility_items_Hidden": {
-        "message": ""
+        "message": "Скрыть"
     },
 
     // System feedback banners for force unfollow in the profile
@@ -1615,36 +1615,36 @@
         "message": "Ваш доступ будет восстановлен начиная с {date}"
     },
 
-    // Better "Experience Notifications" section
+// Better "Experience Notifications" section
     "robloxsettings_experiencenotifications_title": {
-        "message": ""
+        "message": "Уведомления об обновлениях игр"
     },
     "robloxsettings_experiencenotifications_description": {
-        "message": ""
+        "message": "Здесь будут игры, для которых вы включили уведомления об их обновлениях"
     },
     // when the user hasn't followed any experiences yet
     "robloxsettings_experiencenotifications_noexperiences": {
-        "message": ""
+        "message": "Вы не следите ни за какой игрой."
     },
     "robloxsettings_experiencenotifications_experience_by": {
-        "message": ""
+        "message": "От {mention}"
     },
     "robloxsettings_experiencenotifications_experience_since": {
-        "message": ""
+        "message": "С {date}"
     },
     // not actually the last updated date.... it's the last time the developer pushed out an update to push notifications
     // via Experience Updates
     "robloxsettings_experiencenotifications_experience_lastupdated": {
-        "message": ""
+        "message": "Обновлен {date}"
     },
     "robloxsettings_experiencenotifications_experience_unfollow": {
-        "message": ""
+        "message": "Отписаться"
     },
     "robloxsettings_experiencenotifications_remove_systemfeedback_error": {
-        "message": ""
+        "message": "Вы слишком быстро отключаете уведомления, пожалуйста, подождите и попробуйте еще раз."
     },
     "robloxsettings_experiencenotifications_add_systemfeedback_error": {
-        "message": ""
+        "message": "Вы слишком быстро включаете уведомления, пожалуйста, подождите и попробуйте еще раз."
     },
 
     // Marketplace Color filters UI
@@ -1675,7 +1675,7 @@
         "message": "Узнать о других группах"
     },
     "group_searchmygroups": {
-        "message": ""
+        "message": "Поиск..."
     },
     "group_creategroup": {
         "message": "Создать группу"
@@ -1786,7 +1786,7 @@
         "message": "Общее"
     },
     "features_section_home_sorts": {
-        "message": ""
+        "message": "Сортировка"
     },
     "features_section_experiences": {
         "message": "Игры"
@@ -1866,7 +1866,7 @@
         "message": "Убрать \"лишние\" сортировки из главной страницы"
     },
     "features_RemoveHomePageUnnecessarySorts_description": {
-        "message": "Когда функция включена, он удаляет с главной страницы все сортировки, которые не соответствуют тегам: \"Recommended For You\", \"Favorites\", \"Continue\", \"Friends Playing\" или \"Sponsored\"."
+        "message": "Когда функция включена, удаляет с главной страницы все сортировки, кроме: \"Recommended For You\", \"Favorites\", \"Continue\", \"Friends Playing\" и \"Sponsored\"."
     },
     "features_RefreshedHomeUserHeader_title": {
         "message": "Обновлённый заголовок пользователя"
@@ -2187,10 +2187,10 @@
         "message": "Кнопка \"Моментальная отписка\" в контекстном меню заголовка профиля пользователя"
     },
     "features_JailbrokenHomeFavoritesSort_title": {
-        "message": "Перечислить все любимые игры на главной странице в \"Favorites\""
+        "message": "Перечислить игры из \"Favorites\" на главной странице"
     },
     "features_PutHomeFavoritesSortAtTop_title": {
-        "message": "Поместите сортировку Главной на \"Избранное\" вверху"
+        "message": "Переместить категорию \"Favorites\" наверх на главной странице"
     },
     "features_ShowVoiceChatSuspension_title": {
         "message": "Показать детали приостановки голосового чата и полную дату"
@@ -2223,82 +2223,91 @@
         "message": "Разрешить добавлять в свой профиль игры от групп, которыми вы владеете"
     },
     "features_AddToProfileBundles_title": {
-        "message": ""
+        "message": "Разрешить добавлять свои Bundles в коллекцию на ваш профиль"
     },
     "features_CreatorMarketplaceViewOffSaleAssetPage_title": {
         "message": "Разрешить просмотр информации активов которые не в продаже в Creator Marketplace"
     },
+    "features_ListFollowedExperiences_title": {
+        "message": "Список отслеживаемых игр в вкладке \"Уведомления\" в настройках аккаунта"
+    },
     "features_ViewItemBundle_title": {
-        "message": ""
+        "message": "Показывать набор, с которым связан какой-либо предмет"
     },
     "features_HideModelsCreations_title": {
-        "message": ""
+        "message": "Статус видимости моделей и пакетов на странице вашего профиля"
     },
     "features_HideModelsCreations_description": {
-        "message": ""
+        "message": "Позволяет установить статус видимости в вкладке \"Models & Packages\" на странице \"Creations\" в вашем профиле. Если установить видимость \"Скрыть\", пользователи RoSeal не увидят ни одного раздела \"Модели и наборы\", скрытого с помощью RoSeal, но пользователи, у которых нет RoSeal, увидят только 1 модель. Вы также можете добавить \"!hide\" к названию модели, чтобы скрыть весь раздел, если это единственный предмет."
     },
-    "features_GridSameWidth_title": {
-        "message": ""
+    "features_GridSameWidth_title": { // Flaryanlxrd: No idea how to explain in russian, so there's gonna be a temporary option 
+        "message": "Принудительно сделать игры без сортировки иметь ту же ширину, что и плитки карусели на главной странице"
     },
-    "features_ForceHomeSortsCarousel_title": {
-        "message": ""
+    "features_ForceHomeSortsCarousel_title": { // Flaryanlxrd: No idea how to explain in russian, so there's gonna be a temporary option 
+        "message": "Свернуть игры сортировок в карусели на главной странице"
     },
     "features_OverrideHomeSortsLayout_title": {
-        "message": ""
+        "message": "Смена стиля оформления для Главной страницы"
     },
     "features_OverrideHomeSortsLayout_description": {
-        "message": ""
+        "message": "Когда включена, переопределяет стиль всех сортировок на главной странице на тот, который вы установили. Некоторые настройки не поддерживаются без \"Плитка превью\" в \"Типа компонента\"."
     },
     "features_OverrideHomeSortsLayout_sub_ComponentType_title": {
-        "message": ""
+        "message": "Тип компонента"
     },
     "features_OverrideHomeSortsLayout_sub_ComponentType_values_Default": {
-        "message": ""
+        "message": "По умолчанию"
     },
     "features_OverrideHomeSortsLayout_sub_ComponentType_values_RobloxDefault": {
-        "message": ""
+        "message": "Обычная от Roblox"
     },
     "features_OverrideHomeSortsLayout_sub_ComponentType_values_GridTile": {
-        "message": ""
+        "message": "Плитка превью" // Flaryanlxrd: temporary option
     },
     "features_OverrideHomeSortsLayout_sub_ComponentType_values_AppGameTileNoMetadata": {
-        "message": ""
+        "message": "Плитка без информации об активности"
     },
     "features_OverrideHomeSortsLayout_sub_PlayerCount_title": {
-        "message": ""
+        "message": "Кол-во игроков"
     },
     "features_OverrideHomeSortsLayout_sub_PlayerCount_values_Always": {
-        "message": ""
+        "message": "Всегда показывать"
     },
     "features_OverrideHomeSortsLayout_sub_PlayerCount_values_Hover": {
-        "message": ""
+        "message": "Показывать при наведении"
     },
     "features_OverrideHomeSortsLayout_sub_PlayerCount_values_RobloxDefault": {
-        "message": ""
+        "message": "Обычная от Roblox"
     },
     "features_OverrideHomeSortsLayout_sub_PlayerCount_values_Default": {
-        "message": ""
+        "message": "По умолчанию"
     },
     "features_OverrideHomeSortsLayout_sub_PlayButton_title": {
-        "message": ""
+        "message": "Кнопка \"Играть\" "
     },
     "features_OverrideHomeSortsLayout_sub_PlayButton_values_Disabled": {
-        "message": ""
+        "message": "Отключить"
     },
     "features_OverrideHomeSortsLayout_sub_PlayButton_values_RobloxDefault": {
-        "message": ""
+        "message": "Обычная от Roblox"
     },
     "features_OverrideHomeSortsLayout_sub_PlayButton_values_Default": {
-        "message": ""
+        "message": "По умолчанию"
     },
     "features_ViewHiddenAvatarAsset_title": {
-        "message": ""
+        "message": "Возможность просматривать о скрытых предметах для аватара"
     },
     "features_ViewHiddenAvatarAsset_description": {
-        "message": ""
+        "message": "Когда включена, позволяет просматривать описание предметов со страницы `/hidden-catalog/ITEM_ID/ITEM_NAME`. Скрытые предметы - это предметы, которые не могут быть доступны обычному пользователю и перенаправляют обратно на главную страницу Marketplace. Вы также можете предоставить разрешение на автоматическое перенаправление на страницу RoSeal для просмотра подробностей о скрытых предметах, а не на Marketplace."
     },
     "features_ViewHiddenAvatarAsset_optionalpermissions_webRequest_tooltiptext": {
-        "message": ""
+        "message": "Предоставляя это разрешение, вы разрешаете RoSeal автоматически перенаправлять на страницу RoSeal для просмотра подробностей о скрытых предметах аватара, а не на Marketplace."
+    },
+    "features_BetterExperienceNotificationsList_title": {
+        "message": "Улучшенный список уведомлений об обновлениях игр"
+    },
+    "features_BetterExperienceNotificationsList_description": {
+        "message": "Когда функция включена, она добавляет гиперссылки, дату последнего обновления и уведомления, включенные с этой даты в категории \"Уведомления об обновлениях игр\" в разделе \"Уведомления\" в настройках аккаунта."
     },
     "features_BetterExperienceNotificationsList_title": {
         "message": ""
@@ -2333,10 +2342,10 @@
         "message": "Предоставьте это разрешение, если хотите использовать Менеджер аккаунтов. Вы можете отозвать это разрешение в любое время."
     },
     "popup_permissions_webRequest": {
-        "message": ""
+        "message": "Веб-запрос"
     },
     "popup_permissions_webRequest_tooltip": {
-        "message": ""
+        "message": "Предоставляя это разрешение, вы разрешаете RoSeal автоматически перенаправлять на страницу RoSeal для просмотра подробностей о скрытых предметах аватара, а не на Marketplace. Вы можете отозвать это разрешение в любое время."
     },
 
     // Popup data managemenet
