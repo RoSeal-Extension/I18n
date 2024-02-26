@@ -549,13 +549,13 @@
         "message": "Потдвердить "
     },
     "haa_deletemodal_neutral": {
-            "message": "Отменить"
+        "message": "Отменить"
     },
     "haa_deletemodal_systemfeedback_success": {
         "message": "Предмет успешно удалён из инвентаря."
     },
     "haa_deletemodal_systemfeedback_error": {
-       "message": "Не удалось удалить предмет."
+        "message": "Не удалось удалить предмет."
     },
     "haa_tryon": {
         "message": "Примерить"
@@ -1615,7 +1615,7 @@
         "message": "Ваш доступ будет восстановлен начиная с {date}"
     },
 
-// Better "Experience Notifications" section
+    // Better "Experience Notifications" section
     "robloxsettings_experiencenotifications_title": {
         "message": "Уведомления об обновлениях игр"
     },
@@ -2228,9 +2228,6 @@
     "features_CreatorMarketplaceViewOffSaleAssetPage_title": {
         "message": "Разрешить просмотр информации активов которые не в продаже в Creator Marketplace"
     },
-    "features_ListFollowedExperiences_title": {
-        "message": "Список отслеживаемых игр в вкладке \"Уведомления\" в настройках аккаунта"
-    },
     "features_ViewItemBundle_title": {
         "message": "Показывать набор, с которым связан какой-либо предмет"
     },
@@ -2240,10 +2237,10 @@
     "features_HideModelsCreations_description": {
         "message": "Позволяет установить статус видимости в вкладке \"Models & Packages\" на странице \"Creations\" в вашем профиле. Если установить видимость \"Скрыть\", пользователи RoSeal не увидят ни одного раздела \"Модели и наборы\", скрытого с помощью RoSeal, но пользователи, у которых нет RoSeal, увидят только 1 модель. Вы также можете добавить \"!hide\" к названию модели, чтобы скрыть весь раздел, если это единственный предмет."
     },
-    "features_GridSameWidth_title": { // Flaryanlxrd: No idea how to explain in russian, so there's gonna be a temporary option 
+    "features_GridSameWidth_title": {
         "message": "Принудительно сделать игры без сортировки иметь ту же ширину, что и плитки карусели на главной странице"
     },
-    "features_ForceHomeSortsCarousel_title": { // Flaryanlxrd: No idea how to explain in russian, so there's gonna be a temporary option 
+    "features_ForceHomeSortsCarousel_title": {
         "message": "Свернуть игры сортировок в карусели на главной странице"
     },
     "features_OverrideHomeSortsLayout_title": {
@@ -2262,7 +2259,7 @@
         "message": "Обычная от Roblox"
     },
     "features_OverrideHomeSortsLayout_sub_ComponentType_values_GridTile": {
-        "message": "Плитка превью" // Flaryanlxrd: temporary option
+        "message": "Плитка превью"
     },
     "features_OverrideHomeSortsLayout_sub_ComponentType_values_AppGameTileNoMetadata": {
         "message": "Плитка без информации об активности"
@@ -2302,12 +2299,6 @@
     },
     "features_ViewHiddenAvatarAsset_optionalpermissions_webRequest_tooltiptext": {
         "message": "Предоставляя это разрешение, вы разрешаете RoSeal автоматически перенаправлять на страницу RoSeal для просмотра подробностей о скрытых предметах аватара, а не на Marketplace."
-    },
-    "features_BetterExperienceNotificationsList_title": {
-        "message": "Улучшенный список уведомлений об обновлениях игр"
-    },
-    "features_BetterExperienceNotificationsList_description": {
-        "message": "Когда функция включена, она добавляет гиперссылки, дату последнего обновления и уведомления, включенные с этой даты в категории \"Уведомления об обновлениях игр\" в разделе \"Уведомления\" в настройках аккаунта."
     },
     "features_BetterExperienceNotificationsList_title": {
         "message": ""
