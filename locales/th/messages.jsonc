@@ -2111,6 +2111,9 @@
     "features_AnimalText_values_Disabled": {
         "message": "ปิดการใช้งาน"
     },
+    "features_BunnyErrorPage_title": {
+        "message": ""
+    },
     "features_ExperienceMediaAltTextButton_title": {
         "message": "ปุ่มข้อความแสดงภาพขนาดย่อขอ แมพ ที่ดีขึ้น"
     },
