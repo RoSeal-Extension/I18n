@@ -579,7 +579,7 @@
         "message": "Предмет уже доступен в вашем инвентаре"
     },
     "haa_offsale": {
-        "message": "В данный момент этот предмет находится "
+        "message": "В данный момент этот предмет не в продаже"
     },
     "haa_premiumsave": {
         "message": "Вы сохраните {percentage}% имея подписку Premium (ориг. цена: {originalPrice})"
@@ -2112,7 +2112,7 @@
         "message": "Отключить"
     },
     "features_BunnyErrorPage_title": {
-        "message": ""
+        "message": "Заменять ошибки на страницах ошибок изображением ошибки из устаревшей версии Developer Hub."
     },
     "features_ExperienceMediaAltTextButton_title": {
         "message": "Улучшение работы с кнопкой ALT для картинок"
