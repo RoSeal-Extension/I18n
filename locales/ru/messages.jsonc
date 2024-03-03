@@ -1076,6 +1076,12 @@
     "homeheader_secretmessage_Default30": {
         "message": "ммм... ням-ням?"
     },
+    "homeheader_secretmessage_Default31": {
+        "message": ""
+    },
+    "homeheader_secretmessage_Default32": {
+        "message": ""
+    },
 
     // Additional text shown if the user is in the "BetaTester" role. These are users that signed up for it on the DevForum.
     "homeheader_secretmessage_BetaTester1": {
