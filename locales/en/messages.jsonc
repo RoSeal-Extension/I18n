@@ -1255,6 +1255,10 @@
         "message": "A user with that username was not found."
     },
 
+    "discover_tryexactmatch": {
+        "message": "Can't find what you're searching for? Try an <boldText>exact match search</boldText> by wrapping the keyword in double quotes: {newKeyword}"
+    },
+
     // Discover filters labels and dropdown values stuff
     "discover_filters_label": {
         "message": "Filters"
@@ -2155,6 +2159,9 @@
     },
     "features_DiscoverFilters_description": {
         "message": "When enabled, adds a Filters section to the Discover page. It allows for filtering of all sorts by like percentage, favorite count, player count, visit count and genre."
+    },
+    "features_DiscoverTryExactMatch_title": {
+        "message": "Suggest trying exact match search"
     },
     "features_RoSealSettingDropdown_title": {
         "message": "\"RoSeal Settings\" item in the Roblox settings dropdown"
