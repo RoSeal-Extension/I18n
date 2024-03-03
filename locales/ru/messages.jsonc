@@ -2111,6 +2111,9 @@
     "features_AnimalText_values_Disabled": {
         "message": "Отключить"
     },
+    "features_BunnyErrorPage_title": {
+        "message": ""
+    },
     "features_ExperienceMediaAltTextButton_title": {
         "message": "Улучшение работы с кнопкой ALT для картинок"
     },
