@@ -1939,10 +1939,10 @@
         "message": "Sincronizar tema del sitio web con el navegador"
     },
     "features_TooltipTimeType_title": {
-        "message": ""
+        "message": "Cambiar el tipo de hora de las fechas"
     },
     "features_TooltipTimeType_description": {
-        "message": ""
+        "message": "Cuando se selecciona, cambia el formato de fecha que mostrarán la información de herramientas con fechas al pasar el ratón por encima."
     },
     "features_TooltipTimeType_values_Disabled": {
         "message": ""
@@ -1972,10 +1972,10 @@
         "message": "Regular de Roblox"
     },
     "features_CreatedUpdatedItemsTimeType_sub_GroupUpdated_title": {
-        "message": ""
+        "message": "Mostrar el creador que actualizó por última vez un elemento de avatar creado en grupo"
     },
     "features_CreatedUpdatedItemsTimeType_sub_GroupCreated_title": {
-        "message": ""
+        "message": "Mostrar el creador que subió un elemento de avatar si no coincide con el creador que lo actualizó por última vez."
     },
     "features_PersistentTransactionsSelection_title": {
         "message": "Selecciones de menú desplegable persistentes"
@@ -1987,7 +1987,7 @@
         "message": "Mover el rango de edad a la navegación izquierda"
     },
     "features_MoveAgeBracket_description": {
-        "message": ""
+        "message": "Cuando está activada, mueve el rango de edad de la navegación superior a la navegación izquierda y elimina la foto de perfil y el nombre de usuario de la navegación superior."
     },
     "features_DisableDesktopApp_title": {
         "message": "Eliminar el banner de la aplicación de escritorio"
@@ -2098,31 +2098,31 @@
         "message": "Ocultar el recuento de mensajes en la barra de navegación"
     },
     "features_AnimalImages_title": {
-        "message": ""
+        "message": "Sustituir todas las imágenes por imágenes de un determinado animal"
     },
     "features_AnimalImages_values_Seal": {
-        "message": ""
+        "message": "Foca"
     },
     "features_AnimalImages_values_Kitty": {
-        "message": ""
+        "message": "Gato"
     },
     "features_AnimalImages_values_Disabled": {
-        "message": ""
+        "message": "Desactivado"
     },
     "features_AnimalText_title": {
-        "message": ""
+        "message": "Sustituir todo el texto por el texto de un determinado animal"
     },
     "features_AnimalText_values_Seal": {
-        "message": ""
+        "message": "Foca"
     },
     "features_AnimalText_values_Kitty": {
-        "message": ""
+        "message": "Gato"
     },
     "features_AnimalText_values_Disabled": {
-        "message": ""
+        "message": "Desactivado"
     },
     "features_BunnyErrorPage_title": {
-        "message": ""
+        "message": "Sustituir la imagen de error en las páginas de error por la imagen de error del Developer Hub heredado."
     },
     "features_ExperienceMediaAltTextButton_title": {
         "message": "Mejor botón de texto alternativo de miniatura de experiencia"
@@ -2200,7 +2200,7 @@
         "message": "Eliminar Mensaje de \"Proteja Su Cuenta\" de la página de inicio."
     },
     "features_UserProfileForceUnfollow_title": {
-        "message": ""
+        "message": "Botón \"Forzar Dejar de seguir\" en el menú contextual de la cabecera del perfil de usuario"
     },
     "features_JailbrokenHomeFavoritesSort_title": {
         "message": ""
@@ -2233,25 +2233,25 @@
         "message": "Muestra el ID de la máquina Roblox en la esquina inferior derecha de la página de error."
     },
     "features_HideWalletInNav_title": {
-        "message": ""
+        "message": "Forzar que el importe del monedero en la navegación sólo se muestre en el desplegable"
     },
     "features_AddToProfileGroupExperiences_title": {
-        "message": ""
+        "message": "Permitir añadir a su perfil experiencias de grupos de su propiedad"
     },
     "features_AddToProfileBundles_title": {
-        "message": ""
+        "message": "Permitir añadir paquetes propios a las colecciones de su perfil"
     },
     "features_CreatorMarketplaceViewOffSaleAssetPage_title": {
-        "message": ""
+        "message": "Permitir la visualización de los detalles de los activos fuera de venta en la Tienda del Creador"
     },
     "features_ViewItemBundle_title": {
         "message": ""
     },
     "features_HideModelsCreations_title": {
-        "message": ""
+        "message": "Establecer el estado de visibilidad de Modelos y Paquetes en su perfil"
     },
     "features_HideModelsCreations_description": {
-        "message": ""
+        "message": "Cuando está activada, le permite establecer el estado de visibilidad de su pestaña de colecciones de Modelos y Creaciones en Creaciones en su perfil. Cuando configure su visibilidad a \"Oculto\", los usuarios de RoSeal no verán ninguna sección \"Modelos & Creaciones\" oculta con RoSeal, los usuarios que no tengan RoSeal sólo verán 1 modelo \"Oculto\". También puede añadir \"!hide\" al nombre de un modelo existente para ocultar toda la sección si es el único elemento."
     },
     "features_GridSameWidth_title": {
         "message": ""
@@ -2317,10 +2317,10 @@
         "message": ""
     },
     "features_BetterExperienceNotificationsList_title": {
-        "message": ""
+        "message": "Lista de notificaciones de mejor experiencia"
     },
     "features_BetterExperienceNotificationsList_description": {
-        "message": ""
+        "message": "Cuando se activa esta opción, se añaden hipervínculos, la fecha de la última actualización y las notificaciones activadas desde esa fecha a las experiencias de la categoría \"Notificaciones de experiencias\" de Notificaciones en Configuración de la cuenta."
     },
 
     "popup_extensionname": {
