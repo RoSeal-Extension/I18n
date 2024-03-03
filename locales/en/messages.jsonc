@@ -294,6 +294,13 @@
         "message": "RoSeal does not have permission to manage browser cookies. Please allow it in RoSeal's options page."
     },
 
+    "experience_countdown_release": {
+        "message": "{isSoon, select, true {<label>Releases </label><time>soon</time>} other {<label>Releases in</label> <time>{timeDuration}</time>} }"
+    },
+    "experience_countdown_update": {
+        "message": "{isSoon, select, true {<label>Updates </label><time>soon</time>} other {<label>Updates in</label> <time>{timeDuration}</time>} }"
+    },
+
     // The context menu "..." item that appears in the item dropdown menu to view the icon asset
     "experience_contextmenu_viewiconasset": {
         "message": "View Icon Asset"
@@ -2321,6 +2328,12 @@
     },
     "features_BetterExperienceNotificationsList_description": {
         "message": "When enabled, adds hyperlinks, last updated date, and notifications turned on since date to experiences in the \"Experience Notifications\" category in Notifications in Account Settings."
+    },
+    "features_ExperienceCountdowns_title": {
+        "message": "Release/update countdowns on experience details pages"
+    },
+    "features_ExperienceCountdowns_description": {
+        "message": "When enabled, adds a release/update countdown on eligible experiences above the Play button or where it would be. When an experience with a release countdown releases, the countdown will be removed and the Play button will refresh automatically."
     },
 
     "popup_extensionname": {
