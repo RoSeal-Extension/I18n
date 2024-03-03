@@ -300,6 +300,9 @@
     "experience_countdown_update": {
         "message": "{isSoon, select, true {<label>Updates </label><time>soon</time>} other {<label>Updates in</label> <time>{timeDuration}</time>} }"
     },
+    "experience_countdown_unknown": {
+        "message": "{isSoon, select, true {<label>Event </label><time>happening soon</time>} other {<label>Event in </label> <time>{timeDuration}</time>} }"
+    },
 
     // The context menu "..." item that appears in the item dropdown menu to view the icon asset
     "experience_contextmenu_viewiconasset": {
@@ -2330,10 +2333,10 @@
         "message": "When enabled, adds hyperlinks, last updated date, and notifications turned on since date to experiences in the \"Experience Notifications\" category in Notifications in Account Settings."
     },
     "features_ExperienceCountdowns_title": {
-        "message": "Release/update countdowns on experience details pages"
+        "message": "Release/update/event countdowns on experience details pages"
     },
     "features_ExperienceCountdowns_description": {
-        "message": "When enabled, adds a release/update countdown on eligible experiences above the Play button or where it would be. When an experience with a release countdown releases, the countdown will be removed and the Play button will refresh automatically."
+        "message": "When enabled, adds a release/update/event countdown on eligible experiences above the Play button or where it would be. When an experience with a release countdown releases, the countdown will be removed and the Play button will refresh automatically. Event countdowns are treated as Release countdowns and only shows when the experience is unreleased."
     },
 
     "popup_extensionname": {
