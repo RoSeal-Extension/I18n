@@ -294,6 +294,13 @@
         "message": "RoSeal ยังไม่ได้รับอนุญาคิให้จัดการกับ cookies ของเบราว์เซอร์ , กรุณาอนุญาคิในหน้า รายการของ RoSeal"
     },
 
+    "experience_countdown_release": {
+        "message": ""
+    },
+    "experience_countdown_update": {
+        "message": ""
+    },
+
     // The context menu "..." item that appears in the item dropdown menu to view the icon asset
     "experience_contextmenu_viewiconasset": {
         "message": "ดูรูปไอคอน"
@@ -2320,6 +2327,12 @@
         "message": ""
     },
     "features_BetterExperienceNotificationsList_description": {
+        "message": ""
+    },
+    "features_ExperienceCountdowns_title": {
+        "message": ""
+    },
+    "features_ExperienceCountdowns_description": {
         "message": ""
     },
 

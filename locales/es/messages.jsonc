@@ -294,6 +294,13 @@
         "message": "RoSeal no tiene permiso para administrar cookies del navegador. Permíteselo en el cuadro de diálogo emergente de RoSeal desde la barra de herramientas del navegador."
     },
 
+    "experience_countdown_release": {
+        "message": ""
+    },
+    "experience_countdown_update": {
+        "message": ""
+    },
+
     // The context menu "..." item that appears in the item dropdown menu to view the icon asset
     "experience_contextmenu_viewiconasset": {
         "message": "Ver el asset del icono"
@@ -2321,6 +2328,12 @@
     },
     "features_BetterExperienceNotificationsList_description": {
         "message": "Cuando se activa esta opción, se añaden hipervínculos, la fecha de la última actualización y las notificaciones activadas desde esa fecha a las experiencias de la categoría \"Notificaciones de experiencias\" de Notificaciones en Configuración de la cuenta."
+    },
+    "features_ExperienceCountdowns_title": {
+        "message": ""
+    },
+    "features_ExperienceCountdowns_description": {
+        "message": ""
     },
 
     "popup_extensionname": {

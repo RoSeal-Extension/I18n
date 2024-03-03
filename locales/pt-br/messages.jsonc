@@ -294,6 +294,13 @@
         "message": "RoSeal não tem permissão para gerenciar cookies do navegador. Por favor, permita isso na página de opções do RoSeal."
     },
 
+    "experience_countdown_release": {
+        "message": ""
+    },
+    "experience_countdown_update": {
+        "message": ""
+    },
+
     // The context menu "..." item that appears in the item dropdown menu to view the icon asset
     "experience_contextmenu_viewiconasset": {
         "message": "Visualizar Ativo de Ícone"
@@ -2320,6 +2327,12 @@
         "message": ""
     },
     "features_BetterExperienceNotificationsList_description": {
+        "message": ""
+    },
+    "features_ExperienceCountdowns_title": {
+        "message": ""
+    },
+    "features_ExperienceCountdowns_description": {
         "message": ""
     },
 
