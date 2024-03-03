@@ -1255,6 +1255,10 @@
         "message": "Пользователь с таким никнеймом не найден."
     },
 
+    "discover_tryexactmatch": {
+        "message": ""
+    },
+
     // Discover filters labels and dropdown values stuff
     "discover_filters_label": {
         "message": "Фильтры"
@@ -2155,6 +2159,9 @@
     },
     "features_DiscoverFilters_description": {
         "message": "Когда функция включена, на страницу Discover добавляется раздел Фильтры. Он позволяет отфильтровать всевозможные варианты по проценту \"нравится\", количеству избранных, количеству игроков, количеству посещений и жанру."
+    },
+    "features_DiscoverTryExactMatch_title": {
+        "message": ""
     },
     "features_RoSealSettingDropdown_title": {
         "message": "\"Настройки RoSeal\" в списке настроек Roblox"

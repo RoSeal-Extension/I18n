@@ -1255,6 +1255,10 @@
         "message": "Não foi encontrado nenhum usuário com esse nome de usuário."
     },
 
+    "discover_tryexactmatch": {
+        "message": ""
+    },
+
     // Discover filters labels and dropdown values stuff
     "discover_filters_label": {
         "message": "Filtros"
@@ -2155,6 +2159,9 @@
     },
     "features_DiscoverFilters_description": {
         "message": "Quando ativado, adiciona uma seção de Filtros à página Descobrir. Isso permite a filtragem por porcentagem de curtidas, contagem de favoritos, contagem de jogadores, contagem de visitas e gênero."
+    },
+    "features_DiscoverTryExactMatch_title": {
+        "message": ""
     },
     "features_RoSealSettingDropdown_title": {
         "message": "Botão \"Configurações do RoSeal\" no menu suspenso de configurações do Roblox."

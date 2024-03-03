@@ -1255,6 +1255,10 @@
         "message": "ไม่พบผู้ใช้ที่มีชื่อนั้น"
     },
 
+    "discover_tryexactmatch": {
+        "message": ""
+    },
+
     // Discover filters labels and dropdown values stuff
     "discover_filters_label": {
         "message": "ฟิลเตอร์"
@@ -2155,6 +2159,9 @@
     },
     "features_DiscoverFilters_description": {
         "message": "เมื่อเปิดใช้งาน เพิ่มส่วนฟิลเตอร์ในหน้าค้นหา อนุญาตให้ฟิลเตอร์ทุกประเภทตามเปอร์เซ็นต์การกดไลค์ จำนวนคนที่ชื่นชอบ จำนวนผู้เล่น จำนวนผู้เข้าชม และตามประเภท"
+    },
+    "features_DiscoverTryExactMatch_title": {
+        "message": ""
     },
     "features_RoSealSettingDropdown_title": {
         "message": "\"การตั้งค่าของ RoSeal\" ในดร็อปดาวน์การตั้งค่า Roblox"
