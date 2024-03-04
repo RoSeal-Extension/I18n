@@ -295,13 +295,13 @@
     },
 
     "experience_countdown_release": {
-        "message": "{isSoon, select, true {<label>Releases </label><time>soon</time>} other {<label>Releases in</label> <time>{timeDuration}</time>} }"
+        "message": "{isSoon, select, true {<label>Releases</label> <time>soon</time>} other {<label>Releases in</label> <time>{timeDuration}</time>} }"
     },
     "experience_countdown_update": {
-        "message": "{isSoon, select, true {<label>Updates </label><time>soon</time>} other {<label>Updates in</label> <time>{timeDuration}</time>} }"
+        "message": "{isSoon, select, true {<label>Updates</label> <time>soon</time>} other {<label>Updates in</label> <time>{timeDuration}</time>} }"
     },
     "experience_countdown_unknown": {
-        "message": "{isSoon, select, true {<label>Event </label><time>happening soon</time>} other {<label>Event in </label> <time>{timeDuration}</time>} }"
+        "message": "{isSoon, select, true {<label>Event</label> <time>happening soon</time>} other {<label>Event in</label> <time>{timeDuration}</time>} }"
     },
 
     // The context menu "..." item that appears in the item dropdown menu to view the icon asset
