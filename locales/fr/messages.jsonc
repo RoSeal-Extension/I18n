@@ -300,6 +300,9 @@
     "experience_countdown_update": {
         "message": ""
     },
+    "experience_countdown_unknown": {
+        "message": ""
+    },
 
     // The context menu "..." item that appears in the item dropdown menu to view the icon asset
     "experience_contextmenu_viewiconasset": {
