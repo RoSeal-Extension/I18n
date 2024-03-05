@@ -295,13 +295,13 @@
     },
 
     "experience_countdown_release": {
-        "message": ""
+        "message": "{isSoon, select, true {<label>Выйдет</label> <time>скоро</time>} other {<label>Выйдет через</label> <time>{timeDuration}</time>} }"
     },
     "experience_countdown_update": {
-        "message": ""
+        "message": "{isSoon, select, true {<label>Обновление выйдет</label> <time>скоро</time>} other {<label>Обновление через</label> <time>{timeDuration}</time>} }"
     },
     "experience_countdown_unknown": {
-        "message": ""
+        "message": "{isSoon, select, true {<label>Событие</label> <time>произойдет очень скоро</time>} other {<label>Событие выйдет через</label> <time>{timeDuration}</time>} }"
     },
 
     // The context menu "..." item that appears in the item dropdown menu to view the icon asset
@@ -668,7 +668,7 @@
 
     // Off sale timer for avatar items that will appear under the Price, countdown is automatically translated
     "avataritem_saletimer": {
-        "message": ""
+        "message": "Прекращение продаж через {countdown}"
     },
 
     // Shows instead of just the time, updatedTime is when item was updated
@@ -790,7 +790,7 @@
 
     // Shown over the Play button to indicate to the user that their avatar may not be as intended in the experience
     "experience_avatarrestricted2": {
-        "message": ""
+        "message": "Ваш аватар может быть изменён в этой игре"
     },
     // Table header items, "Field" in this context, is like part of an avatar, avatar type, body, proportion, etc.
     "experience_avatarrestricted_compare_field": {
@@ -1092,10 +1092,10 @@
         "message": "ммм... ням-ням?"
     },
     "homeheader_secretmessage_Default31": {
-        "message": ""
+        "message": "The Hunt... уже здесь.."
     },
     "homeheader_secretmessage_Default32": {
-        "message": ""
+        "message": "jabba the hunt"
     },
 
     // Additional text shown if the user is in the "BetaTester" role. These are users that signed up for it on the DevForum.
@@ -1225,13 +1225,13 @@
         "message": "умолчанию"
     },
     "chat_sorttypes_type_NewestFirst": {
-        "message": "сначала новые"
+        "message": "сначала новым"
     },
     "chat_sorttypes_type_OldestFirst": {
-        "message": "сначала старые"
+        "message": "сначала старым"
     },
     "chat_sorttypes_type_UnreadFirst": {
-        "message": "непрочитанные"
+        "message": "непрочитанным"
     },
 
     // The pass created/updated text
@@ -1271,7 +1271,7 @@
     },
 
     "discover_tryexactmatch": {
-        "message": ""
+        "message": "Не смогли найти, что нужно? Попробуйте ввести запрос <boldText>по точному поиску</boldText> взяв ключевое слово в двойные кавычки: {newKeyword}"
     },
 
     // Discover filters labels and dropdown values stuff
@@ -1847,7 +1847,7 @@
         "message": "Общее"
     },
     "features_section_miscellaneous_transactionspage": {
-        "message": "Страница операций"
+        "message": "Страница транзакций"
     },
     "features_section_miscellaneous_animals": {
         "message": "Животные"
@@ -2065,7 +2065,7 @@
         "message": "При включении этой опции в поле \"Chat\" добавляются новые типы сортировки для фильтрации разговоров."
     },
     "features_Transactions0RobuxAmountToggle_title": {
-        "message": "Включите чтобы спрятать транкзакции с суммой 0 Робуксов"
+        "message": "Включите чтобы спрятать транкзакции с суммой 0 R$"
     },
     "features_TransactionsPrivateServersToggle_title": {
         "message": "Включите чтобы спрятать транзакции связанные с Приватными серверами"
@@ -2152,7 +2152,7 @@
         "message": "Кнопка \"Удалить из инвентаря\" на странице \"Просмотр иконки\" "
     },
     "features_AssetDeleteFromInventory_description": {
-        "message": "Когда функция включена в меню элементов иконки добавляется кнопка \"Удалить из инвентаря\", если её там нет. Из-за безопасности аккаунта потребуется 2FA подтверждение."
+        "message": "Когда функция включена в меню элементов иконки добавляется кнопка \"Удалить из инвентаря\", если её там нет. Из-за безопасности аккаунта может потребуется 2FA подтверждение."
     },
     "features_UserFriendsPageNewTitle_title": {
         "message": "Показывать имя пользователя в заголовке страницы друзей"
@@ -2176,7 +2176,7 @@
         "message": "Когда функция включена, на страницу Discover добавляется раздел Фильтры. Он позволяет отфильтровать всевозможные варианты по проценту \"нравится\", количеству избранных, количеству игроков, количеству посещений и жанру."
     },
     "features_DiscoverTryExactMatch_title": {
-        "message": ""
+        "message": "Предлагать поиск по точному совпадению"
     },
     "features_RoSealSettingDropdown_title": {
         "message": "\"Настройки RoSeal\" в списке настроек Roblox"
@@ -2206,7 +2206,7 @@
         "message": "Цветовые фильтры в Каталоге"
     },
     "features_RefreshAvatarItemDetails_sub_FastFreeBuy_title": {
-        "message": "Быстрая покупка предметов в Каталоге"
+        "message": "Быстрая покупка предметов в Marketplace"
     },
     "features_RemoveFriendActivityLabel_title": {
         "message": "Убрать текст \"Friends playing\" под играми на главной странице"
@@ -2230,7 +2230,7 @@
         "message": "При включении этой функции на всех страницах отображается модальное окно с информацией о приостановке голосового чата, если пользователь еще не был проинформирован. Он также добавляет полную дату истечения срока приостановки на страницу настроек учетной записи конфиденциальности."
     },
     "features_SearchByCreatorButton_title": {
-        "message": "Кнопка поиска дополнительных предметов рядом с никнеймом создателя"
+        "message": "Кнопка поиска предметов от того же создателя рядом с его никнеймом"
     },
     "features_PrivateServerLinksSection_title": {
         "message": "Добавить раздел в вкладке серверов \"Ссылки на приватные сервера\""
@@ -2332,19 +2332,19 @@
         "message": "Предоставляя это разрешение, вы разрешаете RoSeal автоматически перенаправлять на страницу RoSeal для просмотра подробностей о скрытых предметах аватара, а не на Marketplace."
     },
     "features_BetterExperienceNotificationsList_title": {
-        "message": ""
+        "message": "Улучшенный список уведомлений об обновлениях игр"
     },
     "features_BetterExperienceNotificationsList_description": {
-        "message": ""
+        "message": "Когда функция включена, она добавляет гиперссылки, дату последнего обновления и уведомления, включенные с этой даты в категории \"Уведомления об обновлениях игр\" в разделе \"Уведомления\" в настройках аккаунта."
     },
     "features_ExperienceCountdowns_title": {
-        "message": ""
+        "message": "Отображать на страницах игр информацию об \"Релизах/обновлениях/событиях\""
     },
     "features_ExperienceCountdowns_description": {
-        "message": ""
+        "message": "Когда включена, добавляет обратный отсчет времени выхода/обновления/события на соответствующих играх над кнопкой \"Play\" или там, где она должна быть. Когда обратный отсчет релиза закончится, он будет удален, а кнопка \"Play\" автоматически обновится. Отсчеты событий считаются как отсчеты обновлений."
     },
     "features_AvatarItemViewSaleTimer_title": {
-        "message": ""
+        "message": "Разрешить просматривать скрытый таймер на предметах для аватара с ограниченным сроком продажи"
     },
 
     "popup_extensionname": {
