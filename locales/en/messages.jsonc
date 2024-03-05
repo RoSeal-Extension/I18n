@@ -784,8 +784,8 @@
     },
 
     // Shown over the Play button to indicate to the user that their avatar may not be as intended in the experience
-    "experience_avatarrestricted": {
-        "message": "Your current avatar may not look or function as intended in this experience."
+    "experience_avatarrestricted2": {
+        "message": "Your avatar may be scaled in this experience"
     },
     // Table header items, "Field" in this context, is like part of an avatar, avatar type, body, proportion, etc.
     "experience_avatarrestricted_compare_field": {
@@ -2336,7 +2336,7 @@
         "message": "Release/update/event countdowns on experience details pages"
     },
     "features_ExperienceCountdowns_description": {
-        "message": "When enabled, adds a release/update/event countdown on eligible experiences above the Play button or where it would be. When an experience with a release countdown releases, the countdown will be removed and the Play button will refresh automatically. Event countdowns are treated as Release countdowns and only shows when the experience is unreleased."
+        "message": "When enabled, adds a release/update/event countdown on eligible experiences above the Play button or where it would be. When an experience with a release countdown releases, the countdown will be removed and the Play button will refresh automatically. Event countdowns are treated as Update countdowns."
     },
 
     "popup_extensionname": {
