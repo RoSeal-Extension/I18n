@@ -666,6 +666,11 @@
         "message": "Refresh Item Details"
     },
 
+    // Off sale timer for avatar items that will appear under the Price, countdown is automatically translated
+    "avataritem_saletimer": {
+        "message": "Off Sale in {countdown}"
+    },
+
     // Shows instead of just the time, updatedTime is when item was updated
     "avataritem_updated_by": {
         "message": "{updatedTime} (by {user})"
@@ -2337,6 +2342,9 @@
     },
     "features_ExperienceCountdowns_description": {
         "message": "When enabled, adds a release/update/event countdown on eligible experiences above the Play button or where it would be. When an experience with a release countdown releases, the countdown will be removed and the Play button will refresh automatically. Event countdowns are treated as Update countdowns."
+    },
+    "features_AvatarItemViewSaleTimer_title": {
+        "message": "View the currently hidden Off Sale timer on limited-time avatar items"
     },
 
     "popup_extensionname": {
