@@ -784,8 +784,8 @@
     },
 
     // Shown over the Play button to indicate to the user that their avatar may not be as intended in the experience
-    "experience_avatarrestricted": {
-        "message": "Ваш текущий аватар может выглядеть или функционировать не так, как задумывалось в этой игре."
+    "experience_avatarrestricted2": {
+        "message": ""
     },
     // Table header items, "Field" in this context, is like part of an avatar, avatar type, body, proportion, etc.
     "experience_avatarrestricted_compare_field": {
