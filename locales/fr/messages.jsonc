@@ -666,6 +666,11 @@
         "message": "Actualiser les détails de l'article"
     },
 
+    // Off sale timer for avatar items that will appear under the Price, countdown is automatically translated
+    "avataritem_saletimer": {
+        "message": ""
+    },
+
     // Shows instead of just the time, updatedTime is when item was updated
     "avataritem_updated_by": {
         "message": ""
@@ -2336,6 +2341,9 @@
         "message": ""
     },
     "features_ExperienceCountdowns_description": {
+        "message": ""
+    },
+    "features_AvatarItemViewSaleTimer_title": {
         "message": ""
     },
 
