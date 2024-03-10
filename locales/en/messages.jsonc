@@ -1706,6 +1706,13 @@
         "message": "Create Group"
     },
 
+    "assetdependencies_title": {
+        "message": "Dependencies"
+    },
+    "assetdependencies_item_by": {
+        "message": "By {creator}"
+    },
+
     // For the next messages, R2E = Right to Erasure
 
     // pending in button when fetching R2Es
@@ -2345,6 +2352,9 @@
     },
     "features_AvatarItemViewSaleTimer_title": {
         "message": "View the currently hidden Off Sale timer on limited-time avatar items"
+    },
+    "features_ViewAvatarAssetDependencies_title": {
+        "message": "View avatar asset dependencies"
     },
 
     "popup_extensionname": {
