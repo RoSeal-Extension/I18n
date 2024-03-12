@@ -651,9 +651,15 @@
     "collectibleasset_collectibleitemid": {
         "message": "ID de l'objet à collectionner"
     },
+    "bundle_collectibleitemid": {
+        "message": ""
+    },
     // The collectible product UUID ID
     "collectibleasset_collectibleproductid": {
         "message": "ID du produit à collectionner"
+    },
+    "bundle_collectibleproductid": {
+        "message": ""
     },
 
     // The developer product's numeric product ID
