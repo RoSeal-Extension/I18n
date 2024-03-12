@@ -1712,6 +1712,10 @@
     "assetdependencies_item_by": {
         "message": ""
     },
+    // label before the verison input
+    "assetdependencies_version": {
+        "message": ""
+    },
 
     // For the next messages, R2E = Right to Erasure
 
