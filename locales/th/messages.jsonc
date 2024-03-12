@@ -1706,6 +1706,13 @@
         "message": "สร้างกลุ่ม"
     },
 
+    "assetdependencies_title": {
+        "message": ""
+    },
+    "assetdependencies_item_by": {
+        "message": ""
+    },
+
     // For the next messages, R2E = Right to Erasure
 
     // pending in button when fetching R2Es
@@ -2344,6 +2351,9 @@
         "message": ""
     },
     "features_AvatarItemViewSaleTimer_title": {
+        "message": ""
+    },
+    "features_ViewAvatarAssetDependencies_title": {
         "message": ""
     },
 
