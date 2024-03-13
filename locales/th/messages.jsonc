@@ -651,9 +651,15 @@
     "collectibleasset_collectibleitemid": {
         "message": "ไอดีของลิมิเต็ด"
     },
+    "bundle_collectibleitemid": {
+        "message": ""
+    },
     // The collectible product UUID ID
     "collectibleasset_collectibleproductid": {
         "message": "ไอดีไอเทมของของลิมิเต็ด"
+    },
+    "bundle_collectibleproductid": {
+        "message": ""
     },
 
     // The developer product's numeric product ID
