@@ -1722,6 +1722,9 @@
     "assetdependencies_version": {
         "message": "Version: "
     },
+    "assetdependencies_noresults": {
+        "message": "No dependencies found or the version does not exist."
+    },
 
     // For the next messages, R2E = Right to Erasure
 
