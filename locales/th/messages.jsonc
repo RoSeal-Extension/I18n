@@ -937,8 +937,11 @@
         "message": "{sealEmoji} คุณกำลังออกจาก Roblox"
     },
     // Modal shown when clicking the button to warn the user
-    "experience_communitywiki_modal_body": {
-        "message": "เดี๋ยวก่อน !, ผู้เล่น Roblox – หากกด “ดำเนินการต่อ,” คุณจะไปที่หน้า Fandom, ที่ไม่เกี่ยวข้องกับ Roblox. อาจมีข้อกำหนดและนโยบายความเป็นส่วนตัวที่ไม่เหมือนกัน.{lineBreak}{lineBreak}คอมมูนิตี้ Wiki ที่ไม่เป็นทางการจะนำคุณไปที่หน้าที่เป็นส่วนหนึ่งของโครงการ Roblox Interwiki บน Fandom และต้อง แก้ไขโดยชุมชน ข้อมูลอาจจะไม่ถูกต้อง ไม่มี ไม่เป็นปัจจุบัน หรือถูกดัดแปลง"
+    "experience_communitywiki_modal_body_fandom": {
+        "message": ""
+    },
+    "experience_communitywiki_modal_body_other": {
+        "message": ""
     },
     "experience_communitywiki_modal_action": {
         "message": "ดำเนินการต่อ"

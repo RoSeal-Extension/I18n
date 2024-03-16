@@ -937,8 +937,11 @@
         "message": "{sealEmoji} Vous quittez Roblox"
     },
     // Modal shown when clicking the button to warn the user
-    "experience_communitywiki_modal_body": {
-        "message": "Attention, Robloxien - en cliquant sur 'Continuer', vous serez redirigé vers Fandom, qui n'appartient ni n'est exploité par Roblox. Ils peuvent avoir des conditions et des politiques de confidentialité différentes.{lineBreak}{lineBreak}Le wiki non officiel de la Communautée vers lequel vous serez redirigé fait partie du projet Roblox Interwiki sur Fandom et s'appuie sur les modifications de la communauté. Les informations peuvent être controversées, vandalisées, obsolètes ou manipulées."
+    "experience_communitywiki_modal_body_fandom": {
+        "message": ""
+    },
+    "experience_communitywiki_modal_body_other": {
+        "message": ""
     },
     "experience_communitywiki_modal_action": {
         "message": "Continuer"
