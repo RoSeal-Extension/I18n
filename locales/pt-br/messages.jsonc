@@ -138,16 +138,16 @@
         "message": "Permissão exigida"
     },
     "settings_featureswitches_featureswitch_permissions_required_title": {
-        "message": ""
+        "message": "Necessário"
     },
     "settings_featureswitches_featureswitch_permissions_optional_title": {
-        "message": ""
+        "message": "Opcional"
     },
     "settings_featureswitches_featureswitch_permissions_values_cookies": {
         "message": "Cookies"
     },
     "settings_featureswitches_featureswitch_permissions_values_webRequest": {
-        "message": ""
+        "message": "Solicitação da Web"
     },
     "settings_featureswitches_featureswitch_permissions_subtext": {
         "message": "As permissões podem ser concedidas na página de opções do RoSeal:"
@@ -167,16 +167,16 @@
         "message": "Um erro ocorrou ao remover o armazenamento associado a essa função, por favor, tente novamente mais tarde."
     },
     "promptpermissionsmodal_title": {
-        "message": ""
+        "message": "{sealEmoji} Conceder permissões adicionais"
     },
     "promptpermissionsmodal_body": {
-        "message": ""
+        "message": "Você também gostaria de conceder permissões opcionais para funcionalidades adicionais?{lineBreak}{lineBreak}Clique \"Sim\" e, na janela pop-up, conceda a permissão \"{permissionName}\" para a funcionalidade:{lineBreak}{functionalityText}"
     },
     "promptpermissionsmodal_action": {
-        "message": ""
+        "message": "Sim"
     },
     "promptpermissionsmodal_neutral": {
-        "message": ""
+        "message": "Não"
     },
 
     // "Blocked Experiences" selection tab in menu and title
@@ -295,13 +295,13 @@
     },
 
     "experience_countdown_release": {
-        "message": ""
+        "message": "{isSoon, select, true {<label>Lançamento</label> <time>em breve</time>} other {<label>Lançamento em</label> <time>{timeDuration}</time>} }"
     },
     "experience_countdown_update": {
-        "message": ""
+        "message": "{isSoon, select, true {<label>Atualização</label> <time>em breve</time>} other {<label>Atualização em</label> <time>{timeDuration}</time>} }"
     },
     "experience_countdown_unknown": {
-        "message": ""
+        "message": "{isSoon, select, true {<label>Evento</label> <time>acontecendo em breve/time>} other {<label>Evento em</label> <time>{timeDuration}</time>} }"
     },
 
     // The context menu "..." item that appears in the item dropdown menu to view the icon asset
@@ -550,97 +550,97 @@
 
     // haa = hidden avatar asset
     "haa_deletemodal_title": {
-        "message": ""
+        "message": "{sealEmoji} Excluir do inventário"
     },
     "haa_deletemodal_body": {
-        "message": ""
+        "message": "Tem certeza de que deseja excluir esse item do seu inventário?"
     },
     "haa_deletemodal_action": {
-        "message": ""
+        "message": "Confirmar"
     },
     "haa_deletemodal_neutral": {
-        "message": ""
+        "message": "Cancelar"
     },
     "haa_deletemodal_systemfeedback_success": {
-        "message": ""
+        "message": "Item excluído com sucesso do inventário."
     },
     "haa_deletemodal_systemfeedback_error": {
-        "message": ""
+        "message": "Não foi possível excluir o item do inventário."
     },
     "haa_tryon": {
-        "message": ""
+        "message": "Experimentar"
     },
     "haa_takeoff": {
-        "message": ""
+        "message": "Tirar"
     },
     "haa_3d": {
-        "message": ""
+        "message": "3D"
     },
     "haa_2d": {
-        "message": ""
+        "message": "2D"
     },
     "haa_by": {
-        "message": ""
+        "message": "Por {creator}"
     },
     "haa_itemowned": {
-        "message": ""
+        "message": "Item possuído{quantityLimited, select, false { ({count})} other {} }"
     },
     "haa_availableinventory": {
-        "message": ""
+        "message": "Esse item está disponível em seu inventário."
     },
     "haa_offsale": {
-        "message": ""
+        "message": "Esse item não está à venda no momento."
     },
     "haa_premiumsave": {
-        "message": ""
+        "message": "Você economiza {percentage}% com Premium (original price: {originalPrice})"
     },
     "haa_availablepremium": {
-        "message": ""
+        "message": "Disponível porque você é um membro Premium"
     },
     "haa_unavailablepremium": {
-        "message": ""
+        "message": "Disponível apenas para membros Premium"
     },
     "haa_fields_type": {
-        "message": ""
+        "message": "Tipo"
     },
     "haa_fields_tradable": {
-        "message": ""
+        "message": "Trocável"
     },
     "haa_fields_tradable_yes": {
-        "message": ""
+        "message": "Sim"
     },
     "haa_fields_tradable_no": {
-        "message": ""
+        "message": "Não"
     },
     "haa_fields_description": {
-        "message": ""
+        "message": "Descrição"
     },
     "haa_addtofavorites": {
-        "message": ""
+        "message": "Adicionar aos favoritos"
     },
     "haa_removefromfavorites": {
-        "message": ""
+        "message": "Remover dos favoritos"
     },
     "haa_contextmenu_reportitem": {
-        "message": ""
+        "message": "Denunciar item"
     },
     "haa_contextmenu_addtoprofile": {
-        "message": ""
+        "message": "Adicionar ao perfil"
     },
     "haa_contextmenu_removefromprofile": {
-        "message": ""
+        "message": "Remover do perfil"
     },
     "haa_addtoprofile_systemfeedback_success": {
-        "message": ""
+        "message": "Item adicionado com sucesso ao seu perfil."
     },
     "haa_removefromprofile_systemfeedback_success": {
-        "message": ""
+        "message": "Item removido com sucesso de seu perfil."
     },
     "haa_addtoprofile_systemfeedback_error": {
-        "message": ""
+        "message": "Falha ao adicionar o item ao seu perfil."
     },
     "haa_removefromprofile_systemfeedback_error": {
-        "message": ""
+        "message": "Falha ao remover o item ao seu perfil."
     },
 
     // The asset's numeric product ID
@@ -659,7 +659,7 @@
         "message": "ID do Produto Colecionável"
     },
     "bundle_collectibleproductid": {
-        "message": ""
+        "message": "ID do Produto Colecionável"
     },
 
     // The developer product's numeric product ID
@@ -674,7 +674,7 @@
 
     // Off sale timer for avatar items that will appear under the Price, countdown is automatically translated
     "avataritem_saletimer": {
-        "message": ""
+        "message": "Sairá de venda em {countdown}"
     },
 
     // Shows instead of just the time, updatedTime is when item was updated
@@ -694,16 +694,16 @@
 
     // Item bundles at the top of the page
     "avataritem_itembundles_multiplebundles": {
-        "message": ""
+        "message": "Este item faz parte de diversos pacotes e provavelmente é um asset de template."
     },
     "avataritem_itembundles_searchbundles": {
-        "message": ""
+        "message": "Pesquisar pacotes"
     },
     "avataritem_itembundles_partof": {
-        "message": ""
+        "message": "Esse item é parte do pacote {link}{hasPrice, select, true { ({price})} other {} }."
     },
     "avataritem_itembundles_partof_view": {
-        "message": ""
+        "message": "Visualizar"
     },
 
     // The pass's numeric product ID field
@@ -796,7 +796,7 @@
 
     // Shown over the Play button to indicate to the user that their avatar may not be as intended in the experience
     "experience_avatarrestricted2": {
-        "message": ""
+        "message": "O tamanho de seu avatar pode ser dimensionado nessa experiência"
     },
     // Table header items, "Field" in this context, is like part of an avatar, avatar type, body, proportion, etc.
     "experience_avatarrestricted_compare_field": {
@@ -866,7 +866,7 @@
         "message": "Fora de Venda"
     },
     "item_free": {
-        "message": ""
+        "message": "Grátis"
     },
 
     // Developer product fields stuff.
@@ -895,10 +895,10 @@
         "message": "Visualizar ativo de ícone"
     },
     "developerproduct_by": {
-        "message": ""
+        "message": "Por <creatorLink>{creatorType, select, User {@} other {}}{creatorName}</creatorLink>"
     },
     "developerproduct_purchaseassociateduniverse": {
-        "message": ""
+        "message": "Compre este produto do desenvolvedor em: {link}"
     },
 
     // Whenever the RoSeal privacy policy updates, we show this modal. Only shown once per privacy policy update since the user installed the extension.
@@ -1101,10 +1101,10 @@
         "message": "um... yum?"
     },
     "homeheader_secretmessage_Default31": {
-        "message": ""
+        "message": "the hunt"
     },
     "homeheader_secretmessage_Default32": {
-        "message": ""
+        "message": "jabba the hunt"
     },
 
     // Additional text shown if the user is in the "BetaTester" role. These are users that signed up for it on the DevForum.
@@ -1280,7 +1280,7 @@
     },
 
     "discover_tryexactmatch": {
-        "message": ""
+        "message": "Não consegue encontrar o que está procurando? Tente fazer uma <boldText>pesquisa de correspondência exata</boldText> colocando a palavra-chave entre aspas duplas: {newKeyword}"
     },
 
     // Discover filters labels and dropdown values stuff
@@ -1570,16 +1570,16 @@
 
     // Set visibility status of models & packages in Creations tab
     "userprofile_creations_modelsvisibility_title": {
-        "message": ""
+        "message": "Visibilidade"
     },
     "userprofile_creations_modelsvisibility_titletooltip": {
-        "message": ""
+        "message": "Isso só muda a visibilidade de seus modelos na sua aba de Criações. Quando estiver definido como Oculto, os usuários da RoSeal não verão nenhum dos seus modelos, e os usuários que não tiverem o RoSeal verão apenas 1 modelo \"Oculto\"."
     },
     "userprofile_creations_modelsvisibility_items_Visible": {
-        "message": ""
+        "message": "Visível"
     },
     "userprofile_creations_modelsvisibility_items_Hidden": {
-        "message": ""
+        "message": "Oculto"
     },
 
     // System feedback banners for force unfollow in the profile
@@ -1651,34 +1651,34 @@
 
     // Better "Experience Notifications" section
     "robloxsettings_experiencenotifications_title": {
-        "message": ""
+        "message": "Notificações de Experiências"
     },
     "robloxsettings_experiencenotifications_description": {
-        "message": ""
+        "message": "Atualizações de atividade de experiências para as quais você ativou as notificações"
     },
     // when the user hasn't followed any experiences yet
     "robloxsettings_experiencenotifications_noexperiences": {
-        "message": ""
+        "message": "Você ainda não seguiu nenhuma experiência."
     },
     "robloxsettings_experiencenotifications_experience_by": {
-        "message": ""
+        "message": "De {mention}"
     },
     "robloxsettings_experiencenotifications_experience_since": {
-        "message": ""
+        "message": "Desde {date}"
     },
     // not actually the last updated date.... it's the last time the developer pushed out an update to push notifications
     // via Experience Updates
     "robloxsettings_experiencenotifications_experience_lastupdated": {
-        "message": ""
+        "message": "Última notificação de atualização em {date}"
     },
     "robloxsettings_experiencenotifications_experience_unfollow": {
-        "message": ""
+        "message": "Deixar de seguir"
     },
     "robloxsettings_experiencenotifications_remove_systemfeedback_error": {
-        "message": ""
+        "message": "Você está desativando as notificações de experiência muito rápido. Diminua a velocidade e tente novamente."
     },
     "robloxsettings_experiencenotifications_add_systemfeedback_error": {
-        "message": ""
+        "message": "Você está ativando as notificações de experiência muito rápido. Diminua a velocidade e tente novamente."
     },
 
     // Marketplace Color filters UI
@@ -1709,24 +1709,24 @@
         "message": "Descobrir Grupos"
     },
     "group_searchmygroups": {
-        "message": ""
+        "message": "Pesquisar meus grupos"
     },
     "group_creategroup": {
         "message": "Criar Grupo"
     },
 
     "assetdependencies_title": {
-        "message": ""
+        "message": "Dependências"
     },
     "assetdependencies_item_by": {
-        "message": ""
+        "message": "Por {creator}"
     },
     // label before the verison input
     "assetdependencies_version": {
-        "message": ""
+        "message": "Versão: "
     },
     "assetdependencies_noresults": {
-        "message": ""
+        "message": "Não foram encontradas dependências ou a versão não existe."
     },
 
     // For the next messages, R2E = Right to Erasure
@@ -1834,7 +1834,7 @@
         "message": "Geral"
     },
     "features_section_home_sorts": {
-        "message": ""
+        "message": "Categorias"
     },
     "features_section_experiences": {
         "message": "Experiências"
@@ -2160,7 +2160,7 @@
         "message": "Desativado"
     },
     "features_BunnyErrorPage_title": {
-        "message": ""
+        "message": "Substitua a imagem das páginas de erro pela imagem de erro do antigo Developer Hub"
     },
     "features_ExperienceMediaAltTextButton_title": {
         "message": "Botão de texto alternativo em thumbnails de experiências melhorado."
@@ -2199,7 +2199,7 @@
         "message": "Quando ativado, adiciona uma seção de Filtros à página Descobrir. Isso permite a filtragem por porcentagem de curtidas, contagem de favoritos, contagem de jogadores, contagem de visitas e gênero."
     },
     "features_DiscoverTryExactMatch_title": {
-        "message": ""
+        "message": "Sugerir a tentativa de pesquisa de correspondência exata"
     },
     "features_RoSealSettingDropdown_title": {
         "message": "Botão \"Configurações do RoSeal\" no menu suspenso de configurações do Roblox."
@@ -2277,16 +2277,16 @@
         "message": "Permite a adição de experiências de grupos pertencentes a você ao seu perfil"
     },
     "features_AddToProfileBundles_title": {
-        "message": ""
+        "message": "Permitir adicionar pacotes possuídos à coleção de seu perfil"
     },
     "features_CreatorMarketplaceViewOffSaleAssetPage_title": {
         "message": "Permite a visualização dos detalhes de ativos (assets) fora de venda no Mercado do Criador"
     },
     "features_ViewItemBundle_title": {
-        "message": ""
+        "message": "Mostra o pacote de origem de um item"
     },
     "features_HideModelsCreations_title": {
-        "message": ""
+        "message": "Definir o status de visibilidade de Modelos e Pacotes em seu perfil"
     },
     "features_HideModelsCreations_description": {
         "message": ""
