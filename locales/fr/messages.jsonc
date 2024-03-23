@@ -1009,6 +1009,11 @@
         "message": "Afficher la page de la miniature"
     },
 
+    // Shown in inventory when an item is hidden, like LIMITED or LIMITED UNIQUE tags
+    "itemtag_hidden": {
+        "message": ""
+    },
+
     // Funny little home header secret messages that can be shown despite the user's role
     "homeheader_secretmessage_Default1": {
         "message": "Bonjour, utilisateur!"
