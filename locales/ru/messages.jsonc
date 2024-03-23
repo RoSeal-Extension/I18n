@@ -1927,6 +1927,19 @@
     "features_RefreshedHomeUserHeader_description": {
         "message": "Когда включено, возвращает старый заголовок пользователя на страницу \"Главная\", но с некоторыми отличиями."
     },
+    "features_RefreshedHomeUserHeader_sub_AvatarSize_title": {
+        "message": ""
+    },
+    "features_RefreshedHomeUserHeader_sub_AvatarSize_values_Small": {
+        "message": ""
+    },
+    "features_RefreshedHomeUserHeader_sub_AvatarSize_values_Medium": {
+        "message": ""
+    },
+    "features_RefreshedHomeUserHeader_sub_AvatarSize_values_Large": {
+        "message": ""
+    },
+
     "features_RefreshedHomeUserHeader_sub_BasedText_title": {
         "message": "10%-тный шанс получить случайное сообщение на основе ваших публичных ролей"
     },

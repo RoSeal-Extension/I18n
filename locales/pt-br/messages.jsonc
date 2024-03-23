@@ -1927,6 +1927,19 @@
     "features_RefreshedHomeUserHeader_description": {
         "message": "Quando ativado, retorna o antigo cabeçalho do usuário na página inicial com algumas diferenças."
     },
+    "features_RefreshedHomeUserHeader_sub_AvatarSize_title": {
+        "message": ""
+    },
+    "features_RefreshedHomeUserHeader_sub_AvatarSize_values_Small": {
+        "message": ""
+    },
+    "features_RefreshedHomeUserHeader_sub_AvatarSize_values_Medium": {
+        "message": ""
+    },
+    "features_RefreshedHomeUserHeader_sub_AvatarSize_values_Large": {
+        "message": ""
+    },
+
     "features_RefreshedHomeUserHeader_sub_BasedText_title": {
         "message": "10% de chance de uma mensagem escolhida com base em seus cargos públicos."
     },

@@ -1927,6 +1927,19 @@
     "features_RefreshedHomeUserHeader_description": {
         "message": "เมื่อเปิดใช้งาน จะแสดงส่วนของผู้ใช้เก่าในหน้าแรกโดยมีความแตกต่างกันเล็กน้อย"
     },
+    "features_RefreshedHomeUserHeader_sub_AvatarSize_title": {
+        "message": ""
+    },
+    "features_RefreshedHomeUserHeader_sub_AvatarSize_values_Small": {
+        "message": ""
+    },
+    "features_RefreshedHomeUserHeader_sub_AvatarSize_values_Medium": {
+        "message": ""
+    },
+    "features_RefreshedHomeUserHeader_sub_AvatarSize_values_Large": {
+        "message": ""
+    },
+
     "features_RefreshedHomeUserHeader_sub_BasedText_title": {
         "message": "โอกาส 10% ของข้อความที่เลือกตามบทบาทสาธารณะของคุณ"
     },
