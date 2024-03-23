@@ -1927,6 +1927,19 @@
     "features_RefreshedHomeUserHeader_description": {
         "message": "When enabled, returns the old user header on the home page with a few differences."
     },
+    "features_RefreshedHomeUserHeader_sub_AvatarSize_title": {
+        "message": "Avatar headshot thumbnail size"
+    },
+    "features_RefreshedHomeUserHeader_sub_AvatarSize_values_Small": {
+        "message": "Small"
+    },
+    "features_RefreshedHomeUserHeader_sub_AvatarSize_values_Medium": {
+        "message": "Medium"
+    },
+    "features_RefreshedHomeUserHeader_sub_AvatarSize_values_Large": {
+        "message": "Large"
+    },
+
     "features_RefreshedHomeUserHeader_sub_BasedText_title": {
         "message": "10% chance of a chosen message based on your public roles"
     },
