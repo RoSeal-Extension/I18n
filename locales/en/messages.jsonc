@@ -1939,6 +1939,9 @@
     "features_RefreshedHomeUserHeader_sub_AvatarSize_values_Large": {
         "message": "Large"
     },
+    "features_RefreshedHomeUserHeader_sub_AvatarSize_values_ExtraLarge": {
+        "message": "Extra Large"
+    },
 
     "features_RefreshedHomeUserHeader_sub_BasedText_title": {
         "message": "10% chance of a chosen message based on your public roles"
