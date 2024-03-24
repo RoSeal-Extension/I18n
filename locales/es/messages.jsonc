@@ -1927,6 +1927,19 @@
     "features_RefreshedHomeUserHeader_description": {
         "message": "Cuando está habilitado, devuelve el antiguo encabezado de usuario en la página principal con algunas diferencias."
     },
+    "features_RefreshedHomeUserHeader_sub_AvatarSize_title": {
+        "message": ""
+    },
+    "features_RefreshedHomeUserHeader_sub_AvatarSize_values_Small": {
+        "message": ""
+    },
+    "features_RefreshedHomeUserHeader_sub_AvatarSize_values_Medium": {
+        "message": ""
+    },
+    "features_RefreshedHomeUserHeader_sub_AvatarSize_values_Large": {
+        "message": ""
+    },
+
     "features_RefreshedHomeUserHeader_sub_BasedText_title": {
         "message": "10% de probabilidad de un mensaje elegido en función de tus roles públicos"
     },
