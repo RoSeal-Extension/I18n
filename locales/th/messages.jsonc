@@ -1939,6 +1939,9 @@
     "features_RefreshedHomeUserHeader_sub_AvatarSize_values_Large": {
         "message": ""
     },
+    "features_RefreshedHomeUserHeader_sub_AvatarSize_values_ExtraLarge": {
+        "message": ""
+    },
 
     "features_RefreshedHomeUserHeader_sub_BasedText_title": {
         "message": "โอกาส 10% ของข้อความที่เลือกตามบทบาทสาธารณะของคุณ"
