@@ -1927,6 +1927,22 @@
     "features_RefreshedHomeUserHeader_description": {
         "message": "Lorsqu'il est activé, renvoie l'ancien en-tête d'utilisateur sur la page d'accueil avec quelques différences."
     },
+    "features_RefreshedHomeUserHeader_sub_AvatarSize_title": {
+        "message": ""
+    },
+    "features_RefreshedHomeUserHeader_sub_AvatarSize_values_Small": {
+        "message": ""
+    },
+    "features_RefreshedHomeUserHeader_sub_AvatarSize_values_Medium": {
+        "message": ""
+    },
+    "features_RefreshedHomeUserHeader_sub_AvatarSize_values_Large": {
+        "message": ""
+    },
+    "features_RefreshedHomeUserHeader_sub_AvatarSize_values_ExtraLarge": {
+        "message": ""
+    },
+
     "features_RefreshedHomeUserHeader_sub_BasedText_title": {
         "message": "10 % de chances d'obtenir un message choisi en fonction de vos rôles publics"
     },
