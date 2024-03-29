@@ -2397,7 +2397,7 @@
         "message": "Fix experience deeplinks"
     },
     "features_FixDeeplinks_description": {
-        "message": "When enabled, fixes experience join deeplinks (https://www.roblox.com/games/start) not working correctly without a \"launchData\" parameter, and adds \"gameInstanceId\" support to join a specific server with a link."
+        "message": "When enabled, fixes a Roblox bug where deeplinks (links that directly launch experiences) do not work in certain cases, and adds support for joining specific servers (via gameInstanceId parameter)."
     },
 
     "popup_extensionname": {
