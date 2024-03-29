@@ -2393,6 +2393,12 @@
     "features_ViewAvatarAssetDependencies_title": {
         "message": ""
     },
+    "features_FixDeeplinks_title": {
+        "message": ""
+    },
+    "features_FixDeeplinks_description": {
+        "message": ""
+    },
 
     "popup_extensionname": {
         "message": "{sealEmoji} RoSeal"
