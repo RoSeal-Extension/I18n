@@ -2393,6 +2393,12 @@
     "features_ViewAvatarAssetDependencies_title": {
         "message": "View avatar asset dependencies"
     },
+    "features_FixDeeplinks_title": {
+        "message": "Fix experience deeplinks"
+    },
+    "features_FixDeeplinks_description": {
+        "message": "When enabled, fixes experience join deeplinks (https://www.roblox.com/games/start) not working correctly without a \"launchData\" parameter, and adds \"gameInstanceId\" support to join a specific server with a link."
+    },
 
     "popup_extensionname": {
         "message": "{sealEmoji} RoSeal"
