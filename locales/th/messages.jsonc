@@ -2267,6 +2267,9 @@
     "features_PutHomeFavoritesSortAtTop_title": {
         "message": "ทำให้ \"รายการโปรด\" อยู่ด้านบนของหน้าหลัก"
     },
+    "features_PutHomeContinueSortAtTop_title": {
+        "message": ""
+    },
     "features_ShowVoiceChatSuspension_title": {
         "message": "แสดงรายละเอียดการระงับการแชทด้วยเสียงและวันที่แบบเต็ม"
     },

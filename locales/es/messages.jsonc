@@ -2267,6 +2267,9 @@
     "features_PutHomeFavoritesSortAtTop_title": {
         "message": "Poner en la parte superior la clasificación \"Favoritos\""
     },
+    "features_PutHomeContinueSortAtTop_title": {
+        "message": ""
+    },
     "features_ShowVoiceChatSuspension_title": {
         "message": "Mostrar los detalles de la suspensión del chat de voz y la fecha completa"
     },
