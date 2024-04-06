@@ -1928,7 +1928,7 @@
         "message": "When enabled, returns the old user header on the home page with a few differences."
     },
     "features_RefreshedHomeUserHeader_sub_AvatarSize_title": {
-        "message": "Avatar headshot thumbnail size"
+        "message": "Avatar thumbnail size"
     },
     "features_RefreshedHomeUserHeader_sub_AvatarSize_values_Small": {
         "message": "Small"
@@ -1942,6 +1942,21 @@
     "features_RefreshedHomeUserHeader_sub_AvatarSize_values_ExtraLarge": {
         "message": "Extra Large"
     },
+    "features_RefreshedHomeUserHeader_sub_AvatarType_title": {
+        "message": "Avatar thumbnail type"
+    },
+    "features_RefreshedHomeUserHeader_sub_AvatarType_values_Avatar": {
+        "message": "Full body"
+    },
+    "features_RefreshedHomeUserHeader_sub_AvatarType_values_AvatarHeadShot": {
+        "message": "Head shot"
+    },
+    "features_RefreshedHomeUserHeader_sub_AvatarType_values_AvatarBust": {
+        "message": "Bust shot"
+    },
+    "features_RefreshedHomeUserHeader_sub_HasBackground_title": {
+        "message": "Include white background"
+    },
 
     "features_RefreshedHomeUserHeader_sub_BasedText_title": {
         "message": "10% chance of a chosen message based on your public roles"
@@ -1953,7 +1968,7 @@
         "message": "\"Hello,\" greeting"
     },
     "features_RefreshedHomeUserHeader_sub_ShowNameType_title": {
-        "message": "Change the type of name that should be displayed"
+        "message": "The type of name that should be displayed"
     },
     "features_RefreshedHomeUserHeader_sub_ShowNameType_values_Both": {
         "message": "Both"
