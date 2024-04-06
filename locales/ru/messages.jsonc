@@ -2267,6 +2267,9 @@
     "features_PutHomeFavoritesSortAtTop_title": {
         "message": "Переместить категорию \"Favorites\" наверх на главной странице"
     },
+    "features_PutHomeContinueSortAtTop_title": {
+        "message": ""
+    },
     "features_ShowVoiceChatSuspension_title": {
         "message": "Показать детали приостановки голосового чата и полную дату"
     },
