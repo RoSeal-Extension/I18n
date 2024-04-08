@@ -1919,7 +1919,7 @@
         "message": "Remove \"unnecessary\" sorts from the home sorts"
     },
     "features_RemoveHomePageUnnecessarySorts_description": {
-        "message": "When enabled, removes any sorts from the Home page that don't match \"Recommended For You\", \"Favorites\", \"Continue\", \"Friends Playing\", or \"Sponsored\"."
+        "message": "When enabled, removes any sorts from the Home page that don't match \"Recommended For You\", \"Favorites\", \"Continue\", \"Friends Playing\", \"Sponsored\", or \"Today's Picks\"."
     },
     "features_RefreshedHomeUserHeader_title": {
         "message": "Refreshed user header"
