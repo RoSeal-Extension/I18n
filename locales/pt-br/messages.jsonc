@@ -1942,6 +1942,21 @@
     "features_RefreshedHomeUserHeader_sub_AvatarSize_values_ExtraLarge": {
         "message": ""
     },
+    "features_RefreshedHomeUserHeader_sub_AvatarType_title": {
+        "message": ""
+    },
+    "features_RefreshedHomeUserHeader_sub_AvatarType_values_Avatar": {
+        "message": ""
+    },
+    "features_RefreshedHomeUserHeader_sub_AvatarType_values_AvatarHeadShot": {
+        "message": ""
+    },
+    "features_RefreshedHomeUserHeader_sub_AvatarType_values_AvatarBust": {
+        "message": ""
+    },
+    "features_RefreshedHomeUserHeader_sub_HasBackground_title": {
+        "message": ""
+    },
 
     "features_RefreshedHomeUserHeader_sub_BasedText_title": {
         "message": "10% de chance de uma mensagem escolhida com base em seus cargos públicos."
