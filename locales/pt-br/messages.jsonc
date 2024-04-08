@@ -2285,6 +2285,9 @@
     "features_PutHomeContinueSortAtTop_title": {
         "message": ""
     },
+    "features_PutHomeFriendsAtTop_title": {
+        "message": ""
+    },
     "features_ShowVoiceChatSuspension_title": {
         "message": "Mostrar detalhes da suspensão do bate-papo por voz e a data completa"
     },
