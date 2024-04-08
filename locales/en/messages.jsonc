@@ -65,6 +65,17 @@
         "message": "Return to Roblox Settings"
     },
 
+    "settings_languageswitcher_title": {
+        "message": "Language Switcher"
+    },
+    // i.e. "American English (default)"
+    "settings_languageswitcher_defaulttext": {
+        "message": " (default)"
+    },
+    "settings_languageswitcher_changenotice": {
+        "message": "Some pages may need to be refreshed a few times for the change to take effect."
+    },
+
     // "About" selection in menu and title
     "settings_selection_about": {
         "message": "About RoSeal"
