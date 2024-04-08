@@ -65,6 +65,17 @@
         "message": "Volver a las configuraciones de Roblox"
     },
 
+    "settings_languageswitcher_title": {
+        "message": ""
+    },
+    // i.e. "American English (default)"
+    "settings_languageswitcher_defaulttext": {
+        "message": ""
+    },
+    "settings_languageswitcher_changenotice": {
+        "message": ""
+    },
+
     // "About" selection in menu and title
     "settings_selection_about": {
         "message": "Acerca de RoSeal"
