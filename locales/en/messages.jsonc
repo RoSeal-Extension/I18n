@@ -2285,6 +2285,9 @@
     "features_PutHomeContinueSortAtTop_title": {
         "message": "Put home \"Continue\" sort at the top"
     },
+    "features_PutHomeFriendsAtTop_title": {
+        "message": "Put home friends carousel at the top"
+    },
     "features_ShowVoiceChatSuspension_title": {
         "message": "Show voice chat suspension details and full date"
     },
