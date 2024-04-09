@@ -2489,12 +2489,8 @@
     "popup_languageswitcher_title": {
         "message": "Сменить язык"
     },
-    // i.e. "American English (default)"
-    "popup_languageswitcher_defaulttext": {
-        "message": "(по умолч.)"
-    },
-    "popup_languageswitcher_changenotice": {
-        "message": "Для того чтобы изменения вступили в силу, может потребоваться несколько раз обновить страницу."
+    "popup_languageswitcher_moved": {
+        "message": ""
     },
 
     // Display in the RoSeal popup and in settings.
