@@ -2490,7 +2490,7 @@
         "message": "Сменить язык"
     },
     // i.e. "American English (default)"
-    "popup_languageswitcher_defaulttext": {
+    "popup_languageswitcher_moved": {
         "message": " (по умолч.)"
     },
     "popup_languageswitcher_changenotice": {
