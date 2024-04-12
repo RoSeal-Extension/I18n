@@ -66,14 +66,14 @@
     },
 
     "settings_languageswitcher_title": {
-        "message": ""
+        "message": "Язык RoSeal"
     },
     // i.e. "American English (default)"
     "settings_languageswitcher_defaulttext": {
-        "message": ""
+        "message": " (по умолч.)"
     },
     "settings_languageswitcher_changenotice": {
-        "message": ""
+        "message": "Для того чтобы изменения вступили в силу, может потребоваться несколько раз обновить страницу."
     },
 
     // "About" selection in menu and title
@@ -309,10 +309,10 @@
         "message": "{isSoon, select, true {<label>Выйдет</label> <time>скоро</time>} other {<label>Выйдет через</label> <time>{timeDuration}</time>} }"
     },
     "experience_countdown_update": {
-        "message": "{isSoon, select, true {<label>Обновление выйдет</label> <time>скоро</time>} other {<label>Обновление через</label> <time>{timeDuration}</time>} }"
+        "message": "{isSoon, select, true {<label>Обновление выйдет</label> <time>очень скоро</time>} other {<label>Обновление выйдет через</label> <time>{timeDuration}</time>} }"
     },
     "experience_countdown_unknown": {
-        "message": "{isSoon, select, true {<label>Событие</label> <time>произойдет очень скоро</time>} other {<label>Событие выйдет через</label> <time>{timeDuration}</time>} }"
+        "message": "{isSoon, select, true {<label>Событие</label> <time>произойдет очень скоро</time>} other {<label>Событие появится через</label> <time>{timeDuration}</time>} }"
     },
 
     // The context menu "..." item that appears in the item dropdown menu to view the icon asset
@@ -663,14 +663,14 @@
         "message": "ID коллекционного предмета"
     },
     "bundle_collectibleitemid": {
-        "message": ""
+        "message": "ID коллекционного предмета"
     },
     // The collectible product UUID ID
     "collectibleasset_collectibleproductid": {
         "message": "ID коллекционного продукта"
     },
     "bundle_collectibleproductid": {
-        "message": ""
+        "message": "ID коллекционного продукта"
     },
 
     // The developer product's numeric product ID
@@ -949,10 +949,10 @@
     },
     // Modal shown when clicking the button to warn the user
     "experience_communitywiki_modal_body_fandom": {
-        "message": ""
+        "message": "Обратите внимание - Нажимая на кнопку “продолжить,” вы будете перенаправлены на сайт Fandom, который не принадлежит Roblox и не управляется им. У них могут быть другие условия и политика конфиденциальности.{lineBreak}{lineBreak}Неофициальная вики сообщество, на которую вы будете перенаправлены, основана на правках сообщества. Информация может быть противоречивой, или устаревшей.."
     },
     "experience_communitywiki_modal_body_other": {
-        "message": ""
+        "message": "Обратите внимание - Нажимая на кнопку “продолжить,” вы будете перенаправлены на сайт {wikiDomain}, который не принадлежит Roblox и не управляется им. У них могут быть другие условия и политика конфиденциальности.{lineBreak}{lineBreak}Неофициальная вики сообщество, на которую вы будете перенаправлены, основана на правках сообщества. Информация может быть противоречивой, или устаревшей.."
     },
     "experience_communitywiki_modal_action": {
         "message": "Продолжить"
@@ -1022,7 +1022,7 @@
 
     // Shown in inventory when an item is hidden, like LIMITED or LIMITED UNIQUE tags
     "itemtag_hidden": {
-        "message": ""
+        "message": "HIDDEN"
     },
 
     // Funny little home header secret messages that can be shown despite the user's role
@@ -1732,17 +1732,17 @@
     },
 
     "assetdependencies_title": {
-        "message": ""
+        "message": "Изменения"
     },
     "assetdependencies_item_by": {
-        "message": ""
+        "message": "От {creator}"
     },
     // label before the verison input
     "assetdependencies_version": {
-        "message": ""
+        "message": "Версия: "
     },
     "assetdependencies_noresults": {
-        "message": ""
+        "message": "Не найдена версия или изменения отсувствуют"
     },
 
     // For the next messages, R2E = Right to Erasure
@@ -1939,34 +1939,34 @@
         "message": "Когда включено, возвращает старый заголовок пользователя на страницу \"Главная\", но с некоторыми отличиями."
     },
     "features_RefreshedHomeUserHeader_sub_AvatarSize_title": {
-        "message": ""
+        "message": "Размер аватарок"
     },
     "features_RefreshedHomeUserHeader_sub_AvatarSize_values_Small": {
-        "message": ""
+        "message": "Маленькие"
     },
     "features_RefreshedHomeUserHeader_sub_AvatarSize_values_Medium": {
-        "message": ""
+        "message": "Средние"
     },
     "features_RefreshedHomeUserHeader_sub_AvatarSize_values_Large": {
-        "message": ""
+        "message": "Большие"
     },
     "features_RefreshedHomeUserHeader_sub_AvatarSize_values_ExtraLarge": {
-        "message": ""
+        "message": "Очень большие"
     },
     "features_RefreshedHomeUserHeader_sub_AvatarType_title": {
-        "message": ""
+        "message": "Размер аватара"
     },
     "features_RefreshedHomeUserHeader_sub_AvatarType_values_Avatar": {
-        "message": ""
+        "message": "Все тело"
     },
     "features_RefreshedHomeUserHeader_sub_AvatarType_values_AvatarHeadShot": {
-        "message": ""
+        "message": "Только лицо"
     },
     "features_RefreshedHomeUserHeader_sub_AvatarType_values_AvatarBust": {
-        "message": ""
+        "message": "Выше груди"
     },
     "features_RefreshedHomeUserHeader_sub_HasBackground_title": {
-        "message": ""
+        "message": "Добавлять белый фон"
     },
 
     "features_RefreshedHomeUserHeader_sub_BasedText_title": {
@@ -2159,7 +2159,7 @@
         "message": "Отключить раздел значков от Roblox"
     },
     "features_UserProfileLastOnline_title": {
-        "message": "Показывать дату последнего выхода в профиле пользователя"
+        "message": "Показывать дату последнего онлайна в профиле пользователя"
     },
     "features_ChangeNavFriendsHash_title": {
         "message": "Изменить вкладку друзей пользователей по умолчанию на панели навигации"
@@ -2207,7 +2207,7 @@
         "message": "Отключить"
     },
     "features_BunnyErrorPage_title": {
-        "message": "Заменять ошибки на страницах ошибок изображением ошибки из устаревшей версии Developer Hub."
+        "message": "Заменять ошибки страниц из старых картинок Developer Hub."
     },
     "features_ExperienceMediaAltTextButton_title": {
         "message": "Улучшение работы с кнопкой ALT для картинок"
@@ -2294,7 +2294,7 @@
         "message": "Переместить категорию \"Favorites\" наверх на главной странице"
     },
     "features_PutHomeContinueSortAtTop_title": {
-        "message": ""
+        "message": "Поместить сортировку \"Continue\" наверх"
     },
     "features_PutHomeFriendsAtTop_title": {
         "message": ""
@@ -2423,13 +2423,13 @@
         "message": "Разрешить просматривать скрытый таймер на предметах для аватара с ограниченным сроком продажи"
     },
     "features_ViewAvatarAssetDependencies_title": {
-        "message": ""
+        "message": "Просмотр изменений в предмете"
     },
     "features_FixDeeplinks_title": {
-        "message": ""
+        "message": "Исправить кнопку \"Play\" в играх"
     },
     "features_FixDeeplinks_description": {
-        "message": ""
+        "message": "Когда включено, исправляет ошибку Roblox которая не позволяла запустить игру (ссылки, напрямую запускающие Roblox) в некоторых случаях, также добавляется поддержка присоединения к определённым серверам (через параметр gameInstanceId)."
     },
 
     "popup_extensionname": {
@@ -2489,8 +2489,12 @@
     "popup_languageswitcher_title": {
         "message": "Сменить язык"
     },
+    // i.e. "American English (default)"
     "popup_languageswitcher_moved": {
-        "message": ""
+        "message": " (по умолч.)"
+    },
+    "popup_languageswitcher_changenotice": {
+        "message": "Для того чтобы изменения вступили в силу, может потребоваться несколько раз обновить страницу."
     },
 
     // Display in the RoSeal popup and in settings.
