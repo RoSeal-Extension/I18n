@@ -1990,9 +1990,6 @@
     "features_RefreshedHomeUserHeader_sub_ShowNameType_values_Username": {
         "message": "Sólo nombre de usuario"
     },
-    "features_MoveExperienceSocialLinks_title": {
-        "message": "Mover los enlaces sociales de la experiencia sobre la descripción en la pestaña \"Acerca de\""
-    },
     "features_AddCommunityWikiButton_title": {
         "message": "Agregar un botón para visitar una Wiki comunitaria no oficial de una experiencia en la pestaña \"Acerca de\""
     },
