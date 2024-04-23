@@ -2489,12 +2489,8 @@
     "popup_languageswitcher_title": {
         "message": "เปลื่ยนภาษา"
     },
-    // i.e. "American English (default)"
-    "popup_languageswitcher_defaulttext": {
-        "message": "(ค่าเริ่มต้น)"
-    },
-    "popup_languageswitcher_changenotice": {
-        "message": "บางหน้าอาจต้องรีเฟรช 2-3 ครั้งเพื่อให้มีการเปลี่ยนแปลง"
+    "popup_languageswitcher_moved": {
+        "message": ""
     },
 
     // Display in the RoSeal popup and in settings.

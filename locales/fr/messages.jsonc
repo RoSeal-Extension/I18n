@@ -2489,11 +2489,7 @@
     "popup_languageswitcher_title": {
         "message": ""
     },
-    // i.e. "American English (default)"
-    "popup_languageswitcher_defaulttext": {
-        "message": ""
-    },
-    "popup_languageswitcher_changenotice": {
+    "popup_languageswitcher_moved": {
         "message": ""
     },
 

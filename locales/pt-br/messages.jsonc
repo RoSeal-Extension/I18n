@@ -2489,12 +2489,8 @@
     "popup_languageswitcher_title": {
         "message": "Seletor de idioma"
     },
-    // i.e. "American English (default)"
-    "popup_languageswitcher_defaulttext": {
-        "message": "(padrão)"
-    },
-    "popup_languageswitcher_changenotice": {
-        "message": "Algumas páginas talvez precisem ser atualizadas algumas vezes para que a alteração tenha efeito."
+    "popup_languageswitcher_moved": {
+        "message": ""
     },
 
     // Display in the RoSeal popup and in settings.
