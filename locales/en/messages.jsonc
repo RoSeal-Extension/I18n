@@ -1990,9 +1990,6 @@
     "features_RefreshedHomeUserHeader_sub_ShowNameType_values_Username": {
         "message": "Username Only"
     },
-    "features_MoveExperienceSocialLinks_title": {
-        "message": "Move experience Social Links above Description in the About tab"
-    },
     "features_AddCommunityWikiButton_title": {
         "message": "Add a button to visit an unofficial Community Wiki of an experience in the About tab"
     },
