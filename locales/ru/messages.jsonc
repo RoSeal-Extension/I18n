@@ -1745,6 +1745,58 @@
         "message": "Не найдена версия или изменения отсувствуют"
     },
 
+    "avatar_bodycolors_or": {
+        "message": ""
+    },
+    "avatar_createoutfit_title": {
+        "message": ""
+    },
+    "avatar_createoutfit_description": {
+        "message": ""
+    },
+    "avatar_createoutfit_notice": {
+        "message": ""
+    },
+    "avatar_createoutfit_success": {
+        "message": ""
+    },
+    "avatar_createoutfit_error_name": {
+        "message": ""
+    },
+    "avatar_createoutfit_error_max": {
+        "message": ""
+    },
+    "avatar_createoutfit_error": {
+        "message": ""
+    },
+    "avatar_createoutfit_action": {
+        "message": ""
+    },
+    "avatar_createoutfit_neutral": {
+        "message": ""
+    },
+    "avatar_updateoutfit_title": {
+        "message": ""
+    },
+    "avatar_updateoutfit_description": {
+        "message": ""
+    },
+    "avatar_updateoutfit_action": {
+        "message": ""
+    },
+    "avatar_updateoutfit_neutral": {
+        "message": ""
+    },
+    "avatar_updateoutfit_success": {
+        "message": ""
+    },
+    "avatar_updateoutfit_error_nolongerexists": {
+        "message": ""
+    },
+    "avatar_updateoutfit_error": {
+        "message": ""
+    },
+
     // For the next messages, R2E = Right to Erasure
 
     // pending in button when fetching R2Es
