@@ -1745,6 +1745,58 @@
         "message": "No dependencies found or the version does not exist."
     },
 
+    "avatar_bodycolors_or": {
+        "message": "OR"
+    },
+    "avatar_createoutfit_title": {
+        "message": "Create New Outfit"
+    },
+    "avatar_createoutfit_description": {
+        "message": "A character will be created from your avatar's current appearance."
+    },
+    "avatar_createoutfit_notice": {
+        "message": "The name can only contain letters, numbers, and spaces."
+    },
+    "avatar_createoutfit_success": {
+        "message": "Successfully created character."
+    },
+    "avatar_createoutfit_error_name": {
+        "message": "The character name is invalid."
+    },
+    "avatar_createoutfit_error_max": {
+        "message": "You have the maximum amount of characters."
+    },
+    "avatar_createoutfit_error": {
+        "message": "Failed to create character."
+    },
+    "avatar_createoutfit_action": {
+        "message": "Create"
+    },
+    "avatar_createoutfit_neutral": {
+        "message": "Cancel"
+    },
+    "avatar_updateoutfit_title": {
+        "message": "Update Character"
+    },
+    "avatar_updateoutfit_description": {
+        "message": "Do you want to update this character? This will overwrite the character with your avatar's current appearance."
+    },
+    "avatar_updateoutfit_action": {
+        "message": "Update"
+    },
+    "avatar_updateoutfit_neutral": {
+        "message": "Cancel"
+    },
+    "avatar_updateoutfit_success": {
+        "message": "Successfully updated character."
+    },
+    "avatar_updateoutfit_error_nolongerexists": {
+        "message": "This character no longer exists."
+    },
+    "avatar_updateoutfit_error": {
+        "message": "Failed to update character."
+    },
+
     // For the next messages, R2E = Right to Erasure
 
     // pending in button when fetching R2Es
