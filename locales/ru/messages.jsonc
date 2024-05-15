@@ -1934,6 +1934,9 @@
     "features_section_miscellaneous": {
         "message": "Другое"
     },
+    "features_section_miscellaneous_avatar": {
+        "message": ""
+    },
     "features_section_miscellaneous_general": {
         "message": "Общее"
     },
@@ -2467,6 +2470,9 @@
     },
     "features_ExperienceCountdowns_description": {
         "message": "Когда включена, добавляет обратный отсчет времени выхода/обновления/события на соответствующих играх над кнопкой \"Play\" или там, где она должна быть. Когда обратный отсчет релиза закончится, он будет удален, а кнопка \"Play\" автоматически обновится. Отсчеты событий считаются как отсчеты обновлений."
+    },
+    "features_BodyColors3s_title": {
+        "message": ""
     },
     "features_AvatarItemViewSaleTimer_title": {
         "message": "Разрешить просматривать скрытый таймер на предметах для аватара с ограниченным сроком продажи"
