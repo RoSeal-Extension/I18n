@@ -1934,6 +1934,9 @@
     "features_section_miscellaneous": {
         "message": "Misceláneo"
     },
+    "features_section_miscellaneous_avatar": {
+        "message": ""
+    },
     "features_section_miscellaneous_general": {
         "message": "General"
     },
@@ -2466,6 +2469,9 @@
         "message": ""
     },
     "features_ExperienceCountdowns_description": {
+        "message": ""
+    },
+    "features_BodyColors3s_title": {
         "message": ""
     },
     "features_AvatarItemViewSaleTimer_title": {

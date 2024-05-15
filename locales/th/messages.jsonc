@@ -1934,6 +1934,9 @@
     "features_section_miscellaneous": {
         "message": "อื่นๆ"
     },
+    "features_section_miscellaneous_avatar": {
+        "message": ""
+    },
     "features_section_miscellaneous_general": {
         "message": "ทั่วไป"
     },
@@ -2467,6 +2470,9 @@
     },
     "features_ExperienceCountdowns_description": {
         "message": "เมื่อเปิดใช้งาน จะเพิ่มการนับถอยหลังการเปิดตัว/อัปเดต/กิจกรรมสำหรับประสบการณ์ที่มีสิทธิ์เหนือปุ่มเล่นหรือตำแหน่งที่จะเป็น เมื่อประสบการณ์ที่มีการนับถอยหลังการเปิดตัว การนับถอยหลังจะถูกลบออก และปุ่มเล่นจะรีเฟรชโดยอัตโนมัติ การนับถอยหลังเหตุการณ์จะถือเป็นการนับถอยหลังการอัปเดต"
+    },
+    "features_BodyColors3s_title": {
+        "message": ""
     },
     "features_AvatarItemViewSaleTimer_title": {
         "message": "ดูตัวจับเวลาการขายที่ซ่อนไว้ในปัจจุบันในรายการอวตารที่มีเวลาจำกัด"
