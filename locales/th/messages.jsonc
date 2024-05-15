@@ -1990,9 +1990,6 @@
     "features_RefreshedHomeUserHeader_sub_ShowNameType_values_Username": {
         "message": "แสดงชื่อผู้ใช้เท่านั้น"
     },
-    "features_MoveExperienceSocialLinks_title": {
-        "message": "ย้ายลิงก์โซเชียลของแมพไปยังคำอธิบายของแมพในแท็บเกี่ยวกับ"
-    },
     "features_AddCommunityWikiButton_title": {
         "message": "เพิ่มปุ่มเพื่อเยี่ยมชม คอมมูนิตี้ วิกิ ที่ไม่เป็นทางการของ แมพ ในแท็บ เกี่ยวกับ"
     },

@@ -1990,9 +1990,6 @@
     "features_RefreshedHomeUserHeader_sub_ShowNameType_values_Username": {
         "message": ""
     },
-    "features_MoveExperienceSocialLinks_title": {
-        "message": "Déplacez les liens sociaux de l'expérience au-dessus de la description dans l'onglet À propos"
-    },
     "features_AddCommunityWikiButton_title": {
         "message": "Ajouter un bouton pour visiter un wiki communautaire non officiel d'une expérience dans l'onglet À propos"
     },

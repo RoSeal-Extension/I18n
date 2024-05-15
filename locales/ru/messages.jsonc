@@ -1990,9 +1990,6 @@
     "features_RefreshedHomeUserHeader_sub_ShowNameType_values_Username": {
         "message": "Только никнейм"
     },
-    "features_MoveExperienceSocialLinks_title": {
-        "message": "Переместить социальные ссылки на страницу игры над описанием в разделе \"О игре\""
-    },
     "features_AddCommunityWikiButton_title": {
         "message": "Добавить кнопку для посещения неофициальной вики сообщества игры в разделе \"О игре\""
     },
