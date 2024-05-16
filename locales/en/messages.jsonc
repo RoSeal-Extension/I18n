@@ -2481,7 +2481,7 @@
         "message": "When enabled, adds a release/update/event countdown on eligible experiences above the Play button or where it would be. When an experience with a release countdown releases, the countdown will be removed and the Play button will refresh automatically. Event countdowns are treated as Update countdowns."
     },
     "features_BodyColors3s_title": {
-        "message": "Allow big range hex color body colors"
+        "message": "Allow hex color avatar body colors"
     },
     "features_AvatarItemViewSaleTimer_title": {
         "message": "View the currently hidden Off Sale timer on limited-time avatar items"
