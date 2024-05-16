@@ -1748,6 +1748,12 @@
     "avatar_bodycolors_or": {
         "message": ""
     },
+    "avatar_wearoutfit_error_invalidassets": {
+        "message": ""
+    },
+    "avatar_wearoutfit_success": {
+        "message": ""
+    },
     "avatar_createoutfit_title": {
         "message": ""
     },
