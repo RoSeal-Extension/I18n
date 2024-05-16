@@ -1751,6 +1751,9 @@
     "avatar_wearoutfit_error_invalidassets": {
         "message": ""
     },
+    "avatar_wearoutfit_error": {
+        "message": ""
+    },
     "avatar_wearoutfit_success": {
         "message": ""
     },
