@@ -1758,7 +1758,10 @@
         "message": "Successfully worn this costume."
     },
     "avatar_createoutfit_title": {
-        "message": "Create New Outfit"
+        "message": "Create New Character"
+    },
+    "avatar_createoutfit_placeholder": {
+        "message": "Name your character"
     },
     "avatar_createoutfit_description": {
         "message": "A character will be created from your avatar's current appearance."
