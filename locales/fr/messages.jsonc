@@ -1760,6 +1760,9 @@
     "avatar_createoutfit_title": {
         "message": ""
     },
+    "avatar_createoutfit_placeholder": {
+        "message": ""
+    },
     "avatar_createoutfit_description": {
         "message": ""
     },
