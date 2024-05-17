@@ -1748,6 +1748,9 @@
     "avatar_bodycolors_or": {
         "message": "OR"
     },
+    "avatar_bodycolors_hint": {
+        "message": "Click the dot to access the color picker"
+    },
     "avatar_wearoutfit_error_invalidassets": {
         "message": "Number of items that you don't own in this costume: {count}"
     },
