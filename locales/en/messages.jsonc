@@ -2402,6 +2402,9 @@
     "features_CreatorMarketplaceViewOffSaleAssetPage_title": {
         "message": "Allow viewing off sale asset details in the Creator Store"
     },
+    "features_CreatorMarketplaceViewOffSaleAssetPage_sub_PrioritizeStore_title": {
+        "message": "Use Creator Store instead of Legacy Library for linking assets"
+    },
     "features_ViewItemBundle_title": {
         "message": "Show the bundle where an item originates from"
     },
