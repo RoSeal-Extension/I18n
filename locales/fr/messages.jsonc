@@ -1748,6 +1748,9 @@
     "avatar_bodycolors_or": {
         "message": ""
     },
+    "avatar_bodycolors_hint": {
+        "message": ""
+    },
     "avatar_wearoutfit_error_invalidassets": {
         "message": ""
     },
