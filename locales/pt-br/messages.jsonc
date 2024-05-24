@@ -66,14 +66,14 @@
     },
 
     "settings_languageswitcher_title": {
-        "message": ""
+        "message": "Idioma da RoSeal"
     },
     // i.e. "American English (default)"
     "settings_languageswitcher_defaulttext": {
-        "message": ""
+        "message": " (padrão)"
     },
     "settings_languageswitcher_changenotice": {
-        "message": ""
+        "message": "Algumas páginas podem precisar ser atualizadas algumas vezes para que a alteração tenha efeito."
     },
 
     // "About" selection in menu and title
@@ -663,7 +663,7 @@
         "message": "ID do Item Colecionável"
     },
     "bundle_collectibleitemid": {
-        "message": ""
+        "message": "ID do Item Colecionável"
     },
     // The collectible product UUID ID
     "collectibleasset_collectibleproductid": {
@@ -949,10 +949,10 @@
     },
     // Modal shown when clicking the button to warn the user
     "experience_communitywiki_modal_body_fandom": {
-        "message": ""
+        "message": "Atenção, Robloxiano – ao clicar em “continuar”, você será redirecionado para o Fandom, que não é de propriedade nem operado pelo Roblox. Eles possuem termos e políticas de privacidade diferentes.{lineBreak}{lineBreak}A Wiki da Comunidade não oficial para a qual você será redirecionado depende de edições da comunidade. As informações podem ser controversas, vandalizadas, desatualizadas ou manipuladas."
     },
     "experience_communitywiki_modal_body_other": {
-        "message": ""
+        "message": "Atenção, Robloxiano – ao clicar em “continuar”, você será redirecionado para {wikiDomain}, que não é de propriedade nem operado pelo Roblox. Eles podem ter termos e políticas de privacidade diferentes.{lineBreak}{lineBreak}A Wiki da Comunidade não oficial para a qual você será redirecionado pode depender de edições da comunidade. As informações podem ser controversas, vandalizadas, desatualizadas ou manipuladas."
     },
     "experience_communitywiki_modal_action": {
         "message": "Continuar"
@@ -1022,7 +1022,7 @@
 
     // Shown in inventory when an item is hidden, like LIMITED or LIMITED UNIQUE tags
     "itemtag_hidden": {
-        "message": ""
+        "message": "OCULTO"
     },
 
     // Funny little home header secret messages that can be shown despite the user's role
@@ -1746,70 +1746,70 @@
     },
 
     "avatar_bodycolors_or": {
-        "message": ""
+        "message": "OU"
     },
     "avatar_bodycolors_hint": {
-        "message": ""
+        "message": "Clique no círculo para acessar o seletor de cores"
     },
     "avatar_wearoutfit_error_invalidassets": {
-        "message": ""
+        "message": "Número de itens que você não possui neste traje: {count}"
     },
     "avatar_wearoutfit_error": {
-        "message": ""
+        "message": "Não foi possível vestir esse traje."
     },
     "avatar_wearoutfit_success": {
-        "message": ""
+        "message": "Traje vestido com sucesso."
     },
     "avatar_createoutfit_title": {
-        "message": ""
+        "message": "Criar novo personagem"
     },
     "avatar_createoutfit_placeholder": {
-        "message": ""
+        "message": "Nomeie seu personagem"
     },
     "avatar_createoutfit_description": {
-        "message": ""
+        "message": "Um personagem será criado a partir da aparência atual do seu avatar."
     },
     "avatar_createoutfit_notice": {
-        "message": ""
+        "message": "O nome pode conter apenas letras, números e espaços."
     },
     "avatar_createoutfit_success": {
-        "message": ""
+        "message": "Personagem criado com sucesso."
     },
     "avatar_createoutfit_error_name": {
-        "message": ""
+        "message": "O nome do personagem é invalido."
     },
     "avatar_createoutfit_error_max": {
-        "message": ""
+        "message": "Você tem o número máximo de personagens."
     },
     "avatar_createoutfit_error": {
-        "message": ""
+        "message": "Falha ao criar personagem."
     },
     "avatar_createoutfit_action": {
-        "message": ""
+        "message": "Criar"
     },
     "avatar_createoutfit_neutral": {
-        "message": ""
+        "message": "Cancelar"
     },
     "avatar_updateoutfit_title": {
-        "message": ""
+        "message": "Atualizar personagem"
     },
     "avatar_updateoutfit_description": {
-        "message": ""
+        "message": "Você deseja atualizar este personagem? Isso irá substituir o personagem pela aparência atual do seu avatar."
     },
     "avatar_updateoutfit_action": {
-        "message": ""
+        "message": "Atualizar"
     },
     "avatar_updateoutfit_neutral": {
-        "message": ""
+        "message": "Cancelar"
     },
     "avatar_updateoutfit_success": {
-        "message": ""
+        "message": "Personagem atualizado com sucesso."
     },
     "avatar_updateoutfit_error_nolongerexists": {
-        "message": ""
+        "message": "Esse personagem não existe mais."
     },
     "avatar_updateoutfit_error": {
-        "message": ""
+        "message": "Falha ao atualizar personagem."
     },
 
     // For the next messages, R2E = Right to Erasure
@@ -1950,7 +1950,7 @@
         "message": "Diversos"
     },
     "features_section_miscellaneous_avatar": {
-        "message": ""
+        "message": "Página de Avatar"
     },
     "features_section_miscellaneous_general": {
         "message": "Geral"
@@ -2009,34 +2009,34 @@
         "message": "Quando ativado, retorna o antigo cabeçalho do usuário na página inicial com algumas diferenças."
     },
     "features_RefreshedHomeUserHeader_sub_AvatarSize_title": {
-        "message": ""
+        "message": "Tamanho da miniatura do avatar"
     },
     "features_RefreshedHomeUserHeader_sub_AvatarSize_values_Small": {
-        "message": ""
+        "message": "Pequeno"
     },
     "features_RefreshedHomeUserHeader_sub_AvatarSize_values_Medium": {
-        "message": ""
+        "message": "Médio"
     },
     "features_RefreshedHomeUserHeader_sub_AvatarSize_values_Large": {
-        "message": ""
+        "message": "Grande"
     },
     "features_RefreshedHomeUserHeader_sub_AvatarSize_values_ExtraLarge": {
-        "message": ""
+        "message": "Extra Grande"
     },
     "features_RefreshedHomeUserHeader_sub_AvatarType_title": {
-        "message": ""
+        "message": "Tipo de miniatura de avatar"
     },
     "features_RefreshedHomeUserHeader_sub_AvatarType_values_Avatar": {
-        "message": ""
+        "message": "Corpo inteiro"
     },
     "features_RefreshedHomeUserHeader_sub_AvatarType_values_AvatarHeadShot": {
-        "message": ""
+        "message": "Retrato"
     },
     "features_RefreshedHomeUserHeader_sub_AvatarType_values_AvatarBust": {
-        "message": ""
+        "message": "Retrato até o peito"
     },
     "features_RefreshedHomeUserHeader_sub_HasBackground_title": {
-        "message": ""
+        "message": "Incluir fundo branco"
     },
 
     "features_RefreshedHomeUserHeader_sub_BasedText_title": {
@@ -2361,10 +2361,10 @@
         "message": "Colocar a classificação \"favoritas\" no topo da página inícial"
     },
     "features_PutHomeContinueSortAtTop_title": {
-        "message": ""
+        "message": "Colocar a classificação \"Continuar\" no topo"
     },
     "features_PutHomeFriendsAtTop_title": {
-        "message": ""
+        "message": "Posicione a barra de amigos na parte superior da página inicial."
     },
     "features_ShowVoiceChatSuspension_title": {
         "message": "Mostrar detalhes da suspensão do bate-papo por voz e a data completa"
@@ -2403,7 +2403,7 @@
         "message": "Permite a visualização dos detalhes de ativos (assets) fora de venda no Mercado do Criador"
     },
     "features_CreatorMarketplaceViewOffSaleAssetPage_sub_PrioritizeStore_title": {
-        "message": ""
+        "message": "Use a "Loja do Criador" em vez da Biblioteca Antiga para vincular assets."
     },
     "features_ViewItemBundle_title": {
         "message": "Mostra o pacote de origem de um item"
@@ -2412,97 +2412,97 @@
         "message": "Definir o status de visibilidade de Modelos e Pacotes em seu perfil"
     },
     "features_HideModelsCreations_description": {
-        "message": ""
+        "message": "Quando ativado, permite definir o status de visibilidade da guia de coleções de Modelos e Criações em Criações no seu perfil. Quando você define sua visibilidade como \"Oculto\", os usuários da RoSeal não verão nenhuma seção de \"Modelos e Pacotes\" oculta com o RoSeal; usuários que não possuem o RoSeal verão apenas 1 modelo \"Oculto\". Você também pode adicionar \"!ocultar\" ao nome de um modelo existente para ocultar toda a seção se for o único item."
     },
     "features_GridSameWidth_title": {
-        "message": ""
+        "message": "Forçar os blocos da tabela de seleção de jogos a terem a mesma largura do bloco do carrossel na página inicial"
     },
     "features_ForceHomeSortsCarousel_title": {
-        "message": ""
+        "message": "Compacte as grades de categorias da página inicial em carrosséis."
     },
     "features_OverrideHomeSortsLayout_title": {
-        "message": ""
+        "message": "Substitua o estilo do layout para categorias da página inicial"
     },
     "features_OverrideHomeSortsLayout_description": {
-        "message": ""
+        "message": "Quando ativado, substitui o layout de todas as categorias na página inicial para o que você definir. Alguns ajustes não são suportados sem definir o \"Tipo de componente\" para \"Bloco de miniatura\""
     },
     "features_OverrideHomeSortsLayout_sub_ComponentType_title": {
-        "message": ""
+        "message": "Tipo de componente"
     },
     "features_OverrideHomeSortsLayout_sub_ComponentType_values_Default": {
-        "message": ""
+        "message": "Padrão"
     },
     "features_OverrideHomeSortsLayout_sub_ComponentType_values_RobloxDefault": {
-        "message": ""
+        "message": "Definido pela Roblox"
     },
     "features_OverrideHomeSortsLayout_sub_ComponentType_values_GridTile": {
-        "message": ""
+        "message": "Bloco de miniatura"
     },
     "features_OverrideHomeSortsLayout_sub_ComponentType_values_AppGameTileNoMetadata": {
-        "message": ""
+        "message": "Bloco sem metadados"
     },
     "features_OverrideHomeSortsLayout_sub_PlayerCount_title": {
-        "message": ""
+        "message": "Contagem de jogadores"
     },
     "features_OverrideHomeSortsLayout_sub_PlayerCount_values_Always": {
-        "message": ""
+        "message": "Sempre aparecer"
     },
     "features_OverrideHomeSortsLayout_sub_PlayerCount_values_Hover": {
-        "message": ""
+        "message": "Aparecer ao passar o mouse"
     },
     "features_OverrideHomeSortsLayout_sub_PlayerCount_values_RobloxDefault": {
-        "message": ""
+        "message": "Definido pela Roblox"
     },
     "features_OverrideHomeSortsLayout_sub_PlayerCount_values_Default": {
-        "message": ""
+        "message": "Padrão"
     },
     "features_OverrideHomeSortsLayout_sub_PlayButton_title": {
-        "message": ""
+        "message": "Botão de jogar"
     },
     "features_OverrideHomeSortsLayout_sub_PlayButton_values_Disabled": {
-        "message": ""
+        "message": "Desativado"
     },
     "features_OverrideHomeSortsLayout_sub_PlayButton_values_RobloxDefault": {
-        "message": ""
+        "message": "Definido pela Roblox"
     },
     "features_OverrideHomeSortsLayout_sub_PlayButton_values_Default": {
-        "message": ""
+        "message": "Padrão"
     },
     "features_ViewHiddenAvatarAsset_title": {
-        "message": ""
+        "message": "Visualizar detalhes de assets ocultos para avatares"
     },
     "features_ViewHiddenAvatarAsset_description": {
-        "message": ""
+        "message": "Quando ativado, permite visualizar os detalhes dos assets de avatar ocultos na página  `/hidden-catalog/ITEM_ID/ITEM_NAME`. Assets de avatar ocultos são itens que não podem ser acessados normalmente e redirecionam de volta para o Mercado. Você também pode conceder permissão para redirecionar automaticamente para a página da RoSeal para visualizar os detalhes dos assets de avatar ocultos, em vez de para o Mercado."
     },
     "features_ViewHiddenAvatarAsset_optionalpermissions_webRequest_tooltiptext": {
-        "message": ""
+        "message": "Conceda esta permissão para permitir que a extensão te redirecione automaticamente para a página do RoSeal para visualizar os detalhes dos assets de avatar ocultos, em vez de para o Mercado."
     },
     "features_BetterExperienceNotificationsList_title": {
-        "message": ""
+        "message": "Melhor lista de notificações de experiências"
     },
     "features_BetterExperienceNotificationsList_description": {
-        "message": ""
+        "message": "Quando ativado, adiciona hyperlinks, data de última atualização e data desde a qual as notificações foram ativadas às experiências na categoria \"Notificações de experiências"\ nas Notificações em Configurações da conta"
     },
     "features_ExperienceCountdowns_title": {
-        "message": ""
+        "message": "Contagens regressivas de lançamento/atualização/evento nas páginas de detalhes da experiência."
     },
     "features_ExperienceCountdowns_description": {
-        "message": ""
+        "message": "Quando ativado, adiciona uma contagem regressiva de lançamento/atualização/evento em experiências elegíveis acima do botão de Jogar ou onde ele estaria. Quando uma experiência com uma contagem regressiva de lançamento é lançada, a contagem será removida e o botão de Jogar aparecerá automaticamente. As contagens regressivas de eventos são tratadas como contagens regressivas de atualização."
     },
     "features_BodyColors3s_title": {
-        "message": ""
+        "message": "Permitir a configuração de cores do corpo do avatar em HEX"
     },
     "features_AvatarItemViewSaleTimer_title": {
-        "message": ""
+        "message": "Visualizar o crônometro para o fim das vendas atualmente oculto em itens de avatar de tempo limitado."
     },
     "features_ViewAvatarAssetDependencies_title": {
-        "message": ""
+        "message": "Visualizar dependências de assets de avatar."
     },
     "features_FixDeeplinks_title": {
-        "message": ""
+        "message": "Corrigir deeplinks de experiências."
     },
     "features_FixDeeplinks_description": {
-        "message": ""
+        "message": "Quando ativado, corrige um bug do Roblox onde os deeplinks (links que iniciam experiências diretamente) não funcionam em certos casos e adiciona suporte para entrar em servidores específicos (via parâmetro gameInstanceId)."
     },
 
     "popup_extensionname": {
@@ -2531,10 +2531,10 @@
         "message": "Conceda esta permissão se você quiser usar o Gerenciador de Contas. Você pode revogar esta permissão a qualquer momento."
     },
     "popup_permissions_webRequest": {
-        "message": ""
+        "message": "Web Request"
     },
     "popup_permissions_webRequest_tooltip": {
-        "message": ""
+        "message": "Conceda essa permissão se desejar ser redirecionado para a página da RoSeal para visualizar detalhes de assets ocultos para avatar em vez de ser redirecionado para o Mercado. Você pode revogar essa permissão a qualquer momento."
     },
 
     // Popup data managemenet
@@ -2563,7 +2563,7 @@
         "message": "Seletor de idioma"
     },
     "popup_languageswitcher_moved": {
-        "message": ""
+        "message": "Movido para <link>Configurações<\link>"
     },
 
     // Display in the RoSeal popup and in settings.
