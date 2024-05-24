@@ -2403,7 +2403,7 @@
         "message": "Permite a visualização dos detalhes de ativos (assets) fora de venda no Mercado do Criador"
     },
     "features_CreatorMarketplaceViewOffSaleAssetPage_sub_PrioritizeStore_title": {
-        "message": "Use a "Loja do Criador" em vez da Biblioteca Antiga para vincular assets."
+        "message": "Use a \"Loja do Criador\" em vez da Biblioteca Antiga para vincular assets."
     },
     "features_ViewItemBundle_title": {
         "message": "Mostra o pacote de origem de um item"
@@ -2481,7 +2481,7 @@
         "message": "Melhor lista de notificações de experiências"
     },
     "features_BetterExperienceNotificationsList_description": {
-        "message": "Quando ativado, adiciona hyperlinks, data de última atualização e data desde a qual as notificações foram ativadas às experiências na categoria \"Notificações de experiências"\ nas Notificações em Configurações da conta"
+        "message": "Quando ativado, adiciona hyperlinks, data de última atualização e data desde a qual as notificações foram ativadas às experiências na categoria \"Notificações de experiências\" nas Notificações em Configurações da conta"
     },
     "features_ExperienceCountdowns_title": {
         "message": "Contagens regressivas de lançamento/atualização/evento nas páginas de detalhes da experiência."
@@ -2563,7 +2563,7 @@
         "message": "Seletor de idioma"
     },
     "popup_languageswitcher_moved": {
-        "message": "Movido para <link>Configurações<\link>"
+        "message": "Movido para <link>Configurações</link>"
     },
 
     // Display in the RoSeal popup and in settings.
