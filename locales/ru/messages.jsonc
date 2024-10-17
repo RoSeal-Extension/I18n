@@ -559,25 +559,25 @@
         "message": "Идентификатор игры"
     },
 
+    "deleteitemmodal_title": {
+        "message": ""
+    },
+    "deleteitemmodal_body": {
+        "message": ""
+    },
+    "deleteitemmodal_action": {
+        "message": ""
+    },
+    "deleteitemmodal_neutral": {
+        "message": ""
+    },
+    "deleteitemmodal_systemfeedback_success": {
+        "message": ""
+    },
+    "deleteitemmodal_systemfeedback_error": {
+        "message": ""
+    },
     // haa = hidden avatar asset
-    "haa_deletemodal_title": {
-        "message": "{sealEmoji} Удалить из инвентаря"
-    },
-    "haa_deletemodal_body": {
-        "message": "Вы уверены, что хотите удалить предмет из инвентаря?"
-    },
-    "haa_deletemodal_action": {
-        "message": "Потдвердить "
-    },
-    "haa_deletemodal_neutral": {
-        "message": "Отменить"
-    },
-    "haa_deletemodal_systemfeedback_success": {
-        "message": "Предмет успешно удалён из инвентаря."
-    },
-    "haa_deletemodal_systemfeedback_error": {
-        "message": "Не удалось удалить предмет."
-    },
     "haa_tryon": {
         "message": "Примерить"
     },

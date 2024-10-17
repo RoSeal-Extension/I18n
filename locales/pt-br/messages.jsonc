@@ -559,25 +559,25 @@
         "message": "ID do Universo"
     },
 
+    "deleteitemmodal_title": {
+        "message": ""
+    },
+    "deleteitemmodal_body": {
+        "message": ""
+    },
+    "deleteitemmodal_action": {
+        "message": ""
+    },
+    "deleteitemmodal_neutral": {
+        "message": ""
+    },
+    "deleteitemmodal_systemfeedback_success": {
+        "message": ""
+    },
+    "deleteitemmodal_systemfeedback_error": {
+        "message": ""
+    },
     // haa = hidden avatar asset
-    "haa_deletemodal_title": {
-        "message": "{sealEmoji} Excluir do inventário"
-    },
-    "haa_deletemodal_body": {
-        "message": "Tem certeza de que deseja excluir esse item do seu inventário?"
-    },
-    "haa_deletemodal_action": {
-        "message": "Confirmar"
-    },
-    "haa_deletemodal_neutral": {
-        "message": "Cancelar"
-    },
-    "haa_deletemodal_systemfeedback_success": {
-        "message": "Item excluído com sucesso do inventário."
-    },
-    "haa_deletemodal_systemfeedback_error": {
-        "message": "Não foi possível excluir o item do inventário."
-    },
     "haa_tryon": {
         "message": "Experimentar"
     },

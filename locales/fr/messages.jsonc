@@ -559,25 +559,25 @@
         "message": "ID de l'univers"
     },
 
+    "deleteitemmodal_title": {
+        "message": ""
+    },
+    "deleteitemmodal_body": {
+        "message": ""
+    },
+    "deleteitemmodal_action": {
+        "message": ""
+    },
+    "deleteitemmodal_neutral": {
+        "message": ""
+    },
+    "deleteitemmodal_systemfeedback_success": {
+        "message": ""
+    },
+    "deleteitemmodal_systemfeedback_error": {
+        "message": ""
+    },
     // haa = hidden avatar asset
-    "haa_deletemodal_title": {
-        "message": ""
-    },
-    "haa_deletemodal_body": {
-        "message": ""
-    },
-    "haa_deletemodal_action": {
-        "message": ""
-    },
-    "haa_deletemodal_neutral": {
-        "message": ""
-    },
-    "haa_deletemodal_systemfeedback_success": {
-        "message": ""
-    },
-    "haa_deletemodal_systemfeedback_error": {
-        "message": ""
-    },
     "haa_tryon": {
         "message": ""
     },
