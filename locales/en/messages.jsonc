@@ -2289,7 +2289,7 @@
         "message": "\"Delete from Inventory\" button in asset item menu"
     },
     "features_AssetDeleteFromInventory_description": {
-        "message": "When enabled, adds a \"Delete from Inventory\" button in an asset's item menu if it doesn't already exist and the asset is supported. Due to security concerns, a two step verification challenge is required. Not all asset types are supported."
+        "message": "When enabled, adds a \"Delete from Inventory\" button in an asset's item menu if it doesn't already exist and the asset is supported. Not all asset types are supported, and you can not delete items created by Roblox."
     },
     "features_UserFriendsPageNewTitle_title": {
         "message": "Show username in user's friends page title"
