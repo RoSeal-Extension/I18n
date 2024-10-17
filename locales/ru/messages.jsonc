@@ -1746,70 +1746,70 @@
     },
 
     "avatar_bodycolors_or": {
-        "message": ""
+        "message": "ИЛИ"
     },
     "avatar_bodycolors_hint": {
-        "message": ""
+        "message": "Нажмите на кружок, чтобы открыть расширенный палитр цветов"
     },
     "avatar_wearoutfit_error_invalidassets": {
-        "message": ""
+        "message": "Количество предметов, которых нет в костюме: {count}"
     },
     "avatar_wearoutfit_error": {
-        "message": ""
+        "message": "Не получилось надеть костюм."
     },
     "avatar_wearoutfit_success": {
-        "message": ""
+        "message": "Костюм надет."
     },
     "avatar_createoutfit_title": {
-        "message": ""
+        "message": "Создать новый костюм"
     },
     "avatar_createoutfit_placeholder": {
-        "message": ""
+        "message": "Название костюма"
     },
     "avatar_createoutfit_description": {
-        "message": ""
+        "message": "Костюм будет создан на основе текущего аватара."
     },
     "avatar_createoutfit_notice": {
-        "message": ""
+        "message": "Название может содержать только буквы, цифры и пробелы."
     },
     "avatar_createoutfit_success": {
-        "message": ""
+        "message": "Костюм успешно создан."
     },
     "avatar_createoutfit_error_name": {
-        "message": ""
+        "message": "Название костюма недопустимо."
     },
     "avatar_createoutfit_error_max": {
-        "message": ""
+        "message": "Вы превысили лимит на количество костюмов."
     },
     "avatar_createoutfit_error": {
-        "message": ""
+        "message": "Не удалось создать костюм."
     },
     "avatar_createoutfit_action": {
-        "message": ""
+        "message": "Создать"
     },
     "avatar_createoutfit_neutral": {
-        "message": ""
+        "message": "Отменить"
     },
     "avatar_updateoutfit_title": {
-        "message": ""
+        "message": "Обновить костюм"
     },
     "avatar_updateoutfit_description": {
-        "message": ""
+        "message": "Вы хотите обновить этот костюм? Это приведет к перезаписи с текущим внешним видом вашего аватара."
     },
     "avatar_updateoutfit_action": {
-        "message": ""
+        "message": "Обновить"
     },
     "avatar_updateoutfit_neutral": {
-        "message": ""
+        "message": "Отменить"
     },
     "avatar_updateoutfit_success": {
-        "message": ""
+        "message": "Костюм успешно обновлен."
     },
     "avatar_updateoutfit_error_nolongerexists": {
-        "message": ""
+        "message": "Костюм больше не существует."
     },
     "avatar_updateoutfit_error": {
-        "message": ""
+        "message": "Не удалось обновить костюм."
     },
 
     // For the next messages, R2E = Right to Erasure
@@ -1950,7 +1950,7 @@
         "message": "Другое"
     },
     "features_section_miscellaneous_avatar": {
-        "message": ""
+        "message": "Аватар"
     },
     "features_section_miscellaneous_general": {
         "message": "Общее"
@@ -2364,10 +2364,10 @@
         "message": "Поместить сортировку \"Continue\" наверх"
     },
     "features_PutHomeFriendsAtTop_title": {
-        "message": ""
+        "message": "Переместить список друзей на самый вверх на главной странице"
     },
     "features_ShowVoiceChatSuspension_title": {
-        "message": "Показать детали приостановки голосового чата и полную дату"
+        "message": "Показывать детали приостановки голосового чата и полную дату"
     },
     "features_ShowVoiceChatSuspension_description": {
         "message": "При включении этой функции на всех страницах отображается модальное окно с информацией о приостановке голосового чата, если пользователь еще не был проинформирован. Он также добавляет полную дату истечения срока приостановки на страницу настроек учетной записи конфиденциальности."
@@ -2401,6 +2401,9 @@
     },
     "features_CreatorMarketplaceViewOffSaleAssetPage_title": {
         "message": "Разрешить просмотр информации активов которые не в продаже в Creator Marketplace"
+    },
+    "features_CreatorMarketplaceViewOffSaleAssetPage_sub_PrioritizeStore_title": {
+        "message": "Использовать Creator Store вместо /library страницы активов"
     },
     "features_ViewItemBundle_title": {
         "message": "Показывать набор, с которым связан какой-либо предмет"
@@ -2487,7 +2490,7 @@
         "message": "Когда включена, добавляет обратный отсчет времени выхода/обновления/события на соответствующих играх над кнопкой \"Play\" или там, где она должна быть. Когда обратный отсчет релиза закончится, он будет удален, а кнопка \"Play\" автоматически обновится. Отсчеты событий считаются как отсчеты обновлений."
     },
     "features_BodyColors3s_title": {
-        "message": ""
+        "message": "Разрешить настройку цветов аватара с помощью HEX цветов"
     },
     "features_AvatarItemViewSaleTimer_title": {
         "message": "Разрешить просматривать скрытый таймер на предметах для аватара с ограниченным сроком продажи"
