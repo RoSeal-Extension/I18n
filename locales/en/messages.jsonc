@@ -559,25 +559,25 @@
         "message": "Universe ID"
     },
 
-    // haa = hidden avatar asset
-    "haa_deletemodal_title": {
+    "deleteitemmodal_title": {
         "message": "{sealEmoji} Delete from Inventory"
     },
-    "haa_deletemodal_body": {
-        "message": "Are you sure you want to delete this item from your inventory?"
+    "deleteitemmodal_body": {
+        "message": "Are you sure you want to delete this item from your inventory?{isOffSale, select, true { It is currently off sale and you may not be able to obtain it again.} other {{isFree, select, true { You may obtain it again while it is free. } other { It will cost {price} to purchase this item again.} }} }"
     },
-    "haa_deletemodal_action": {
+    "deleteitemmodal_action": {
         "message": "Confirm"
     },
-    "haa_deletemodal_neutral": {
+    "deleteitemmodal_neutral": {
         "message": "Cancel"
     },
-    "haa_deletemodal_systemfeedback_success": {
+    "deleteitemmodal_systemfeedback_success": {
         "message": "Successfully deleted item from inventory."
     },
-    "haa_deletemodal_systemfeedback_error": {
+    "deleteitemmodal_systemfeedback_error": {
         "message": "Could not delete item from inventory."
     },
+    // haa = hidden avatar asset
     "haa_tryon": {
         "message": "Try On"
     },
